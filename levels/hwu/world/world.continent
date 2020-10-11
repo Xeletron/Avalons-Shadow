@@ -212,6 +212,22 @@
 		<table>
 			<unit_data _prev_pos="100 -128 0" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/payday2/equipment/gen_interactable_door_hcm/gen_interactable_door_hcm_double" name_id="gen_interactable_door_hcm_double_003" position="100 -130 0" rotation="0 0 -0.707107 -0.707107" unit_id="100069"/>
 		</table>
+		<table>
+			<unit_data _prev_pos="200 -25 300" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/architecture/lux/lux_int_cellceiling1_2x2m_a" name_id="lux_int_cellceiling1_2x2m_a_001" position="200 -25 299" rotation="-0 0 -0 -1" unit_id="100070"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="200 1175 300" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/architecture/lux/lux_int_cellceiling1_2x2m_a" name_id="lux_int_cellceiling1_2x2m_a_002" position="200 1175 299" rotation="-0 0 -0 -1" unit_id="100071"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="1510 2120 0" _prev_rot="-0 0 -0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="state_ladder_enable" name="units/dev_tools/dev_ladder/dev_ladder" name_id="dev_ladder_001" only_visible_in_editor="true" position="1510 2105 0" rotation="0 0 1 4.37114e-008" unit_id="100072">
+				<ladder height="360" width="80"/>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="1510 1605 350" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="state_ladder_enable" name="units/dev_tools/dev_ladder/dev_ladder" name_id="dev_ladder_002" only_visible_in_editor="true" position="1250 1605 350" rotation="0 0 -0.707107 -0.707107" unit_id="100073">
+				<ladder height="430" width="80"/>
+			</unit_data>
+		</table>
 	</statics>
 	<values>
 		<workviews/>
