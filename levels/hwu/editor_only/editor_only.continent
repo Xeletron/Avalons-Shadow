@@ -1,6 +1,34 @@
 <table>
 	<editor_groups/>
-	<statics/>
+	<statics>
+		<table>
+			<unit_data _prev_pos="200 290 0" _prev_rot="-0 0 -0 -1" continent="editor_only" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/navigation_blocker" name_id="navigation_blocker_001" only_exists_in_editor="true" position="200 290 0" rotation="-0 0 -0 -1" unit_id="200000"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="50 625 0" _prev_rot="0 0 0 -1" continent="editor_only" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="-150 335 0" local_rot="-0 0 0 1" name="units/dev_tools/level_tools/navigation_blocker" name_id="navigation_blocker_005" only_exists_in_editor="true" position="50 625 0" rotation="0 0 0 -1" unit_id="200001"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="360 450 0" _prev_rot="0 0 0 -1" continent="editor_only" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="160 160 0" local_rot="-0 0 0 1" name="units/dev_tools/level_tools/navigation_blocker_1" name_id="navigation_blocker_1_004" only_exists_in_editor="true" position="360 450 0" rotation="0 0 0 -1" unit_id="200002"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="200 1600 0" _prev_rot="0 0 0 -1" continent="editor_only" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 1310 0" local_rot="-0 0 0 1" name="units/dev_tools/level_tools/navigation_blocker" name_id="navigation_blocker_002" only_exists_in_editor="true" position="200 1600 0" rotation="0 0 0 -1" unit_id="200003"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="1220 1350 0" _prev_rot="0 0 -0.707107 -0.707107" continent="editor_only" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="1020 1060 0" local_rot="0 0 0.707107 0.707107" name="units/dev_tools/level_tools/navigation_blocker" name_id="navigation_blocker_1_003" only_exists_in_editor="true" position="1220 1350 0" rotation="0 0 -0.707107 -0.707107" unit_id="200004"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="1220 1925 0" _prev_rot="0 0 -0.707107 -0.707107" continent="editor_only" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="1020 1635 0" local_rot="0 0 0.707107 0.707107" name="units/dev_tools/level_tools/navigation_blocker" name_id="navigation_blocker_1_002" only_exists_in_editor="true" position="1220 1925 0" rotation="0 0 -0.707107 -0.707107" unit_id="200005"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-115 2175 0" _prev_rot="0 0 -0.707107 -0.707107" continent="editor_only" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="-315 1885 0" local_rot="0 0 0.707107 0.707107" name="units/dev_tools/level_tools/navigation_blocker" name_id="navigation_blocker_004" only_exists_in_editor="true" position="-115 2175 0" rotation="0 0 -0.707107 -0.707107" unit_id="200006"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-665 1800 0" _prev_rot="0 0 -0.707107 -0.707107" continent="editor_only" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="-865 1510 0" local_rot="0 0 0.707107 0.707107" name="units/dev_tools/level_tools/navigation_blocker_1" name_id="navigation_blocker_1_001" only_exists_in_editor="true" position="-665 1800 0" rotation="0 0 -0.707107 -0.707107" unit_id="200007"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-115 1975 0" _prev_rot="0 0 -0.707107 -0.707107" continent="editor_only" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="-315 1685 0" local_rot="0 0 0.707107 0.707107" name="units/dev_tools/level_tools/navigation_blocker" name_id="navigation_blocker_003" only_exists_in_editor="true" position="-115 1975 0" rotation="0 0 -0.707107 -0.707107" unit_id="200008"/>
+		</table>
+	</statics>
 	<values>
 		<workviews/>
 	</values>

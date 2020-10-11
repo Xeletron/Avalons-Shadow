@@ -21,13 +21,14 @@
 			<file file="world/world.continent" type="custom_xml"/>
 			<file file="world/world.mission" type="generic_xml"/>
 			<file file="cover_data.cover_data" type="custom_xml"/>
+			<file file="environments/env_outside.environment" type="custom_xml"/>
 			<file file="environments/default.environment" type="custom_xml"/>
 		</include>
 		<packages>
 			<value_node value="levels/narratives/elephant/chew/collision/collision"/>
-			<value_node value="levels/narratives/e_framing_frame/stage_3/world/world"/>
 			<value_node value="levels/narratives/bain/roberts/editor_only/editor_only"/>
 			<value_node value="levels/instances/unique/hox_estate_window/world/world"/>
+			<value_node value="levels/narratives/e_welcome_to_the_jungle/stage_2/world/world"/>
 		</packages>
 		<script_data_mods directory="scriptdata">
 			<mod replacement="objectives.objective" replacement_type="custom_xml" target_ext="objective" target_path="gamedata/objectives">

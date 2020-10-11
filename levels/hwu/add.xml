@@ -4,14 +4,21 @@
 		<model force="true" path="units/pd2_mod_hwu/architecture/int_smuggler_house/int_smuggler_house" unload="true"/>
 		<object force="true" path="units/pd2_mod_hwu/architecture/int_smuggler_house/int_smuggler_house" unload="true"/>
 		<unit force="true" path="units/pd2_mod_hwu/architecture/int_smuggler_house/int_smuggler_house" unload="true"/>
-
 		<material_config force="true" path="units/pd2_mod_hwu/architecture/ext_smuggler_house/ext_smuggler_house" unload="true"/>
 		<model force="true" path="units/pd2_mod_hwu/architecture/ext_smuggler_house/ext_smuggler_house" unload="true"/>
 		<object force="true" path="units/pd2_mod_hwu/architecture/ext_smuggler_house/ext_smuggler_house" unload="true"/>
 		<unit force="true" path="units/pd2_mod_hwu/architecture/ext_smuggler_house/ext_smuggler_house" unload="true"/>
-
 		<model force="true" path="units/pd2_mod_hwu/architecture/lux_int_custom_wall1_2m/lux_int_custom_wall1_2m" unload="true"/>
 		<object force="true" path="units/pd2_mod_hwu/architecture/lux_int_custom_wall1_2m/lux_int_custom_wall1_2m" unload="true"/>
 		<unit force="true" path="units/pd2_mod_hwu/architecture/lux_int_custom_wall1_2m/lux_int_custom_wall1_2m" unload="true"/>
+
+		<!--Vanilla Assets-->
+		<unit path="units/equipment/suburbia_door_crowbar_interaction/suburbia_door_crowbar_interaction" unload="true"/>
+		<object path="units/equipment/suburbia_door_crowbar_interaction/suburbia_door_crowbar_interaction" unload="true"/>
+		<material_config path="units/equipment/suburbia_door_crowbar_interaction/suburbia_door_crowbar_interaction" unload="true"/>
+		<sequence_manager path="units/equipment/suburbia_door_crowbar_interaction/suburbia_door_crowbar_interaction" unload="true"/>
+		<bnk path="soundbanks/regular_sfx" unload="true"/>
+		<bnk path="soundbanks/sfx_cft" unload="true"/>
+		<effect load="true" path="effects/particles/dest/door_wood_crowbar" unload="true"/>
 	</add>
 </table>
