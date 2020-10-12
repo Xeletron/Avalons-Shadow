@@ -1,8 +1,5 @@
 <materials version="3">
     <material name="shadow_caster" render_template="shadow_caster_only" version="2"/>
-    <material name="mat_dev" render_template="generic:DIFFUSE_TEXTURE:VERTEX_COLOR" version="2">
-        <diffuse_texture file="units/white_df"/>
-    </material>
     <material version="2" render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:NORMALMAP:RL_ENVIRONMENT:VERTEX_COLOR" name="lux_int_01_wallpapertile_d">
         <diffuse_texture file="units/payday2/architecture/lux/lux_int_01_wallpapertile_d_df"/>
         <reflection_texture file="environments/cubemaps/cubemap_quick_diamond_ext" type="cubemap"/>

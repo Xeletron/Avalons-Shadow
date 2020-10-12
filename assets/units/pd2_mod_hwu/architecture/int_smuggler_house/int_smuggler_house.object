@@ -135,6 +135,80 @@
             <object name="c_box_114" collision_type="box" padding="-2.5"/>      
             <object name="c_box_115" collision_type="box" padding="-2.5"/>
             <object name="c_box_116" collision_type="box" padding="-2.5"/>
+            <object name="c_box_117" collision_type="box" padding="-2.5"/>
+            <object name="c_box_118" collision_type="box" padding="-2.5"/>      
+            <object name="c_box_119" collision_type="box" padding="-2.5"/>  
+
+            <object name="c_box_120" collision_type="box" padding="-2.5"/> 
+            <object name="c_box_121" collision_type="box" padding="-2.5"/>
+            <object name="c_box_122" collision_type="box" padding="-2.5"/>
+            <object name="c_box_123" collision_type="box" padding="-2.5"/>  
+            <object name="c_box_124" collision_type="box" padding="-2.5"/>   
+            <object name="c_box_125" collision_type="box" padding="-2.5"/>
+            <object name="c_box_125" collision_type="box" padding="-2.5"/>    
+            <object name="c_box_126" collision_type="box" padding="-2.5"/>  
+            <object name="c_box_127" collision_type="box" padding="-2.5"/>
+            <object name="c_box_128" collision_type="box" padding="-2.5"/>      
+            <object name="c_box_129" collision_type="box" padding="-2.5"/>  
+
+            <object name="c_box_130" collision_type="box" padding="-2.5"/>  
+            <object name="c_box_131" collision_type="box" padding="-2.5"/>
+            <object name="c_box_132" collision_type="box" padding="-2.5"/>
+            <object name="c_box_133" collision_type="box" padding="-2.5"/>  
+            <object name="c_box_134" collision_type="box" padding="-2.5"/>      
+            <object name="c_box_135" collision_type="box" padding="-2.5"/>
+            <object name="c_box_136" collision_type="box" padding="-2.5"/>
+            <object name="c_box_137" collision_type="box" padding="-2.5"/>
+            <object name="c_box_138" collision_type="box" padding="-2.5"/>      
+            <object name="c_box_139" collision_type="box" padding="-2.5"/>   
+
+            <object name="c_box_140" collision_type="box" padding="-2.5"/>  
+            <object name="c_box_141" collision_type="box" padding="-2.5"/>
+            <object name="c_box_142" collision_type="box" padding="-2.5"/>
+            <object name="c_box_143" collision_type="box" padding="-2.5"/>  
+            <object name="c_box_144" collision_type="box" padding="-2.5"/>      
+            <object name="c_box_145" collision_type="box" padding="-2.5"/>
+            <object name="c_box_146" collision_type="box" padding="-2.5"/>
+            <object name="c_box_147" collision_type="box" padding="-2.5"/>
+            <object name="c_box_148" collision_type="box" padding="-2.5"/>      
+            <object name="c_box_149" collision_type="box" padding="-2.5"/>  
+
+            <object name="c_box_150" collision_type="box" padding="-2.5"/> 
+            <object name="c_box_151" collision_type="box" padding="-2.5"/>
+            <object name="c_box_152" collision_type="box" padding="-2.5"/>
+            <object name="c_box_153" collision_type="box" padding="-2.5"/>  
+            <object name="c_box_154" collision_type="box" padding="-2.5"/>      
+            <object name="c_box_155" collision_type="box" padding="-2.5"/>
+            <object name="c_box_156" collision_type="box" padding="-2.5"/>
+            <object name="c_box_157" collision_type="box" padding="-2.5"/>
+            <object name="c_box_158" collision_type="box" padding="-2.5"/>      
+            <object name="c_box_159" collision_type="box" padding="-2.5"/>   
+
+            <object name="c_box_160" collision_type="box" padding="-2.5"/>  
+            <object name="c_box_161" collision_type="box" padding="-2.5"/>
+            <object name="c_box_162" collision_type="box" padding="-2.5"/>
+            <object name="c_box_163" collision_type="box" padding="-2.5"/>  
+            <object name="c_box_164" collision_type="box" padding="-2.5"/>   
+            <object name="c_box_165" collision_type="box" padding="-2.5"/>
+            <object name="c_box_166" collision_type="box" padding="-2.5"/>
+            <object name="c_box_167" collision_type="box" padding="-2.5"/>
+            <object name="c_box_168" collision_type="box" padding="-2.5"/>      
+            <object name="c_box_169" collision_type="box" padding="-2.5"/>  
+
+            <object name="c_box_170" collision_type="box" padding="-2.5"/> 
+            <object name="c_box_171" collision_type="box" padding="-2.5"/>
+            <object name="c_box_172" collision_type="box" padding="-2.5"/>
+            <object name="c_box_173" collision_type="box" padding="-2.5"/>  
+            <object name="c_box_174" collision_type="box" padding="-2.5"/>      
+            <object name="c_box_175" collision_type="box" padding="-2.5"/>
+            <object name="c_box_176" collision_type="box" padding="-2.5"/>
+            <object name="c_box_177" collision_type="box" padding="-2.5"/>
+            <object name="c_box_178" collision_type="box" padding="-2.5"/>      
+            <object name="c_box_179" collision_type="box" padding="-2.5"/> 
+
+            <object name="c_box_180" collision_type="box" padding="-2.5"/>  
+            <object name="c_box_181" collision_type="box" padding="-2.5"/>
+            <object name="c_box_182" collision_type="box" padding="-2.5"/>
         </body>
     </bodies>
 
@@ -149,5 +223,6 @@
         <object enabled="true" name="g_int_floor" />
         <object enabled="true" name="g_int_walls" />
         <object enabled="true" name="g_int_ceiling" />
+        <object enabled="true" name="s_int" shadow_caster="true"/>
     </graphics>
 </dynamic_object> 
