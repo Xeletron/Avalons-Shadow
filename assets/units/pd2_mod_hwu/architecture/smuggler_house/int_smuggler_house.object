@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <dynamic_object>
-	<diesel materials="units/pd2_mod_hwu/architecture/int_smuggler_house/int_smuggler_house" orientation_object="rp_int_house" />	
+	<diesel materials="units/pd2_mod_hwu/architecture/smuggler_house/smuggler_house" orientation_object="rp_int_house" />	
    <bodies>
         <body name="static_body" template="static" enabled="true" >
             <object name="rp_int_house"/>
@@ -220,9 +220,9 @@
 	</decal_surfaces>
 
     <graphics>
-        <object enabled="true" name="g_int_floor" />
-        <object enabled="true" name="g_int_walls" />
-        <object enabled="true" name="g_int_ceiling" />
+        <object enabled="true" name="g_floor" />
+        <object enabled="true" name="g_walls" />
+        <object enabled="true" name="g_ceiling" />
         <object enabled="true" name="s_int" shadow_caster="true"/>
     </graphics>
 </dynamic_object> 
