@@ -16,6 +16,8 @@
 			<file file="nav_manager_data.nav_data" type="generic_xml"/>
 			<file file="world_sounds.world_sounds" type="generic_xml"/>
 			<file file="world_cameras.world_cameras" type="custom_xml"/>
+			<file file="sewer/sewer.continent" type="custom_xml"/>
+			<file file="sewer/sewer.mission" type="generic_xml"/>
 			<file file="warehouse/warehouse.continent" type="custom_xml"/>
 			<file file="warehouse/warehouse.mission" type="generic_xml"/>
 			<file file="editor_only/editor_only.continent" type="custom_xml"/>
@@ -39,6 +41,7 @@
 			<value_node value="levels/narratives/e_welcome_to_the_jungle/stage_2/world/world"/>
 			<value_node value="levels/narratives/e_election_day/stage_2/world"/>
 			<value_node value="levels/narratives/pbr/berry/world/world"/>
+			<value_node value="levels/narratives/bain/shadow_raid/world/world"/>
 		</packages>
 		<script_data_mods directory="scriptdata">
 			<mod replacement="objectives.objective" replacement_type="custom_xml" target_ext="objective" target_path="gamedata/objectives">
