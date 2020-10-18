@@ -4808,10 +4808,18 @@
 			<unit_data _prev_pos="-8790.51 -2390.62 73.8077" _prev_rot="0 0 0 -1" continent="warehouse" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/props/suburbia_phone_02/suburbia_phone_02" name_id="suburbia_phone_02_002" position="-8790.51 -2390.62 73.8077" rotation="0 0 -0.469472 -0.882948" unit_id="301407"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-8755.09 -2343.7 105.986" _prev_rot="0 0 0.942642 0.333807" continent="warehouse" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/props/office/desk_accessories/desk_lamp_04_omni" name_id="desk_lamp_04_omni_001" position="-8755.09 -2343.7 105.986" rotation="0 0 -0.942641 -0.333807" unit_id="301408"/>
+			<unit_data _prev_pos="-8755.09 -2343.7 105.986" _prev_rot="0 0 0.942642 0.333807" continent="warehouse" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/props/office/desk_accessories/desk_lamp_04_omni" name_id="desk_lamp_04_omni_001" position="-8755.09 -2343.7 105.986" projection_light="ls_light" rotation="0 0 -0.942641 -0.333807" unit_id="301408">
+				<lights>
+					<table clipping_values="10000 -10000 0" color="1 1 1" enabled="true" falloff_exponent="1" far_range="400" multiplier="@IDbca13ba1d306f87b@" name="ls_light" near_range="1.66667" spot_angle_end="0.698132" spot_angle_start="0.698132"/>
+				</lights>
+			</unit_data>
 		</table>
 		<table>
-			<unit_data _prev_pos="-8742.08 -1993.95 105.986" _prev_rot="0 0 0.927184 -0.374607" continent="warehouse" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/props/office/desk_accessories/desk_lamp_04_omni" name_id="desk_lamp_04_omni_002" position="-8756.22 -1993.7 105.986" rotation="0 0 0.927184 -0.374607" unit_id="301409"/>
+			<unit_data _prev_pos="-8742.08 -1993.95 105.986" _prev_rot="0 0 0.927184 -0.374607" continent="warehouse" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/props/office/desk_accessories/desk_lamp_04_omni" name_id="desk_lamp_04_omni_002" position="-8756.22 -1993.7 105.986" projection_light="ls_light" rotation="0 0 0.927184 -0.374607" unit_id="301409">
+				<lights>
+					<table clipping_values="10000 -10000 0" color="1 1 1" enabled="true" falloff_exponent="1" far_range="400" multiplier="@IDbca13ba1d306f87b@" name="ls_light" near_range="1.66667" spot_angle_end="0.698132" spot_angle_start="0.698132"/>
+				</lights>
+			</unit_data>
 		</table>
 		<table>
 			<unit_data _prev_pos="-9076.37 -2568.82 0" _prev_rot="0 0 0.707107 -0.707107" continent="warehouse" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/ind_prop_warehouse_set/ind_prop_warehouse_pallet_stack_d" name_id="ind_prop_warehouse_pallet_stack_d_002" position="-9071.37 -2568.82 0" rotation="0 0 0.707107 -0.707107" unit_id="301410"/>
@@ -4850,7 +4858,11 @@
 			<unit_data _prev_pos="-8778.94 -2775.58 73.8077" _prev_rot="0 0 -0.777146 -0.62932" continent="warehouse" local_pos="35.882 -10.9132 0" local_rot="0 0 0.996195 -0.0871558" name="units/payday2/props/off_prop_appliance_mouse/off_prop_appliance_mouse" name_id="off_prop_appliance_mouse_003" position="-8788.94 -2775.93 73.8077" rotation="0 0 -0.777146 -0.62932" unit_id="301421"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-8755.09 -2343.7 105.986" _prev_rot="0 0 0.942642 0.333807" continent="warehouse" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/props/office/desk_accessories/desk_lamp_04_omni" name_id="desk_lamp_04_omni_003" position="-8758.68 -2816.9 105.986" rotation="0 0 0.942642 0.333807" unit_id="301422"/>
+			<unit_data _prev_pos="-8755.09 -2343.7 105.986" _prev_rot="0 0 0.942642 0.333807" continent="warehouse" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/props/office/desk_accessories/desk_lamp_04_omni" name_id="desk_lamp_04_omni_003" position="-8758.68 -2816.9 105.986" projection_light="ls_light" rotation="0 0 0.942642 0.333807" unit_id="301422">
+				<lights>
+					<table clipping_values="10000 -10000 0" color="1 1 1" enabled="true" falloff_exponent="1" far_range="400" multiplier="@IDbca13ba1d306f87b@" name="ls_light" near_range="1.66667" spot_angle_end="0.698132" spot_angle_start="0.698132"/>
+				</lights>
+			</unit_data>
 		</table>
 		<table>
 			<unit_data _prev_pos="-8782.87 -2688.18 73.8077" _prev_rot="0 0 0.939693 0.34202" continent="warehouse" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/props/suburbia_phone_02/suburbia_phone_02" name_id="suburbia_phone_02_003" position="-8782.25 -2695.22 73.8077" rotation="0 0 0.939693 0.34202" unit_id="301423"/>
@@ -5381,7 +5393,7 @@
 			<unit_data _prev_pos="-8320.89 -348.546 75" _prev_rot="0 0 -0.713251 -0.700909" continent="warehouse" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/props/mansion/man_cover_int_shipping_box_pallet/man_cover_int_shipping_box_pallet" name_id="man_cover_int_shipping_box_pallet_024" position="-8321.68 -303.553 75" rotation="0 0 -0.713251 -0.700909" unit_id="301598"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-8360 -1970.69 431.51" _prev_rot="0 0 1 4.37114e-008" continent="warehouse" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/architecture/ind/ind_ext_level/ind_ext_level_office_3" name_id="ind_ext_level_office_3_001" position="-8360 -1970.69 401.51" rotation="0 0 1 4.37114e-008" unit_id="301599"/>
+			<unit_data _prev_pos="-8360 -1970.69 401.51" _prev_rot="0 0 1 4.37114e-008" continent="warehouse" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/architecture/ind/ind_ext_level/ind_ext_level_office_3" name_id="ind_ext_level_office_3_001" position="-8370 -1970 400" rotation="0 0 1 -4.37114e-008" unit_id="301599"/>
 		</table>
 		<table>
 			<unit_data _prev_pos="-6575 -2970 386.05" _prev_rot="-0 0 -0 -1" continent="warehouse" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/architecture/ind/ind_ext_level/ind_ext_stairs_c_base" name_id="ind_ext_stairs_c_base_016" position="-6575 -2970 386.05" rotation="-0 0 -0 -1" unit_id="300698"/>
@@ -6039,109 +6051,249 @@
 			<unit_data _prev_pos="-6205.1 3214.25 205.053" _prev_rot="0 0 0.258819 -0.965926" continent="warehouse" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/props/mansion/man_cover_int_shipping_crate_wide/man_cover_int_shipping_crate_wide" name_id="man_cover_int_shipping_crate_wide_027" position="-6211.93 3212.42 205.053" rotation="0 0 0.258819 -0.965926" unit_id="301814"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-5860.45 2972.02 745" _prev_rot="0 0 0 -1" continent="warehouse" local_pos="1950 0 0" local_rot="0 0 0 1" name="units/payday2/props/ind_prop_warehouse_lamp_ceiling/ind_prop_warehouse_lamp_ceiling_a" name_id="ind_prop_warehouse_lamp_ceiling_a_002" position="-5860.45 2972.02 745" rotation="0 0 0 -1" unit_id="301816"/>
+			<unit_data _prev_pos="-5860.45 2972.02 745" _prev_rot="0 0 0 -1" continent="warehouse" local_pos="1950 0 0" local_rot="0 0 0 1" name="units/payday2/props/ind_prop_warehouse_lamp_ceiling/ind_prop_warehouse_lamp_ceiling_a" name_id="ind_prop_warehouse_lamp_ceiling_a_002" position="-5860.45 2972.02 745" rotation="0 0 0 -1" unit_id="301816">
+				<lights>
+					<table clipping_values="10000 -10000 0" color="1 1 1" enabled="true" falloff_exponent="7" far_range="350" multiplier="@ID18ceffa252d5a43d@" name="lo_omni" near_range="0" spot_angle_end="0" spot_angle_start="0"/>
+				</lights>
+			</unit_data>
 		</table>
 		<table>
-			<unit_data _prev_pos="-5195.45 2972.02 745" _prev_rot="0 0 0 -1" continent="warehouse" local_pos="2615 0 0" local_rot="0 0 0 1" name="units/payday2/props/ind_prop_warehouse_lamp_ceiling/ind_prop_warehouse_lamp_ceiling_a" name_id="ind_prop_warehouse_lamp_ceiling_a_003" position="-5195.45 2972.02 745" rotation="0 0 0 -1" unit_id="301815"/>
+			<unit_data _prev_pos="-5195.45 2972.02 745" _prev_rot="0 0 0 -1" continent="warehouse" local_pos="2615 0 0" local_rot="0 0 0 1" name="units/payday2/props/ind_prop_warehouse_lamp_ceiling/ind_prop_warehouse_lamp_ceiling_a" name_id="ind_prop_warehouse_lamp_ceiling_a_003" position="-5195.45 2972.02 745" rotation="0 0 0 -1" unit_id="301815">
+				<lights>
+					<table clipping_values="10000 -10000 0" color="1 1 1" enabled="true" falloff_exponent="7" far_range="350" multiplier="@ID18ceffa252d5a43d@" name="lo_omni" near_range="0" spot_angle_end="0" spot_angle_start="0"/>
+				</lights>
+			</unit_data>
 		</table>
 		<table>
-			<unit_data _prev_pos="-6685.45 2972.02 745" _prev_rot="0 0 0 -1" continent="warehouse" local_pos="1125 0 0" local_rot="0 0 0 1" name="units/payday2/props/ind_prop_warehouse_lamp_ceiling/ind_prop_warehouse_lamp_ceiling_a" name_id="ind_prop_warehouse_lamp_ceiling_a_004" position="-6685.45 2972.02 745" rotation="0 0 0 -1" unit_id="301817"/>
+			<unit_data _prev_pos="-6685.45 2972.02 745" _prev_rot="0 0 0 -1" continent="warehouse" local_pos="1125 0 0" local_rot="0 0 0 1" name="units/payday2/props/ind_prop_warehouse_lamp_ceiling/ind_prop_warehouse_lamp_ceiling_a" name_id="ind_prop_warehouse_lamp_ceiling_a_004" position="-6685.45 2972.02 745" rotation="0 0 0 -1" unit_id="301817">
+				<lights>
+					<table clipping_values="10000 -10000 0" color="1 1 1" enabled="true" falloff_exponent="7" far_range="350" multiplier="@ID18ceffa252d5a43d@" name="lo_omni" near_range="0" spot_angle_end="0" spot_angle_start="0"/>
+				</lights>
+			</unit_data>
 		</table>
 		<table>
-			<unit_data _prev_pos="-7810.45 2972.02 745" _prev_rot="0 0 0 -1" continent="warehouse" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/ind_prop_warehouse_lamp_ceiling/ind_prop_warehouse_lamp_ceiling_a" name_id="ind_prop_warehouse_lamp_ceiling_a_005" position="-7810.45 2972.02 745" rotation="0 0 0 -1" unit_id="301818"/>
+			<unit_data _prev_pos="-7810.45 2972.02 745" _prev_rot="0 0 0 -1" continent="warehouse" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/ind_prop_warehouse_lamp_ceiling/ind_prop_warehouse_lamp_ceiling_a" name_id="ind_prop_warehouse_lamp_ceiling_a_005" position="-7810.45 2972.02 745" rotation="0 0 0 -1" unit_id="301818">
+				<lights>
+					<table clipping_values="10000 -10000 0" color="1 1 1" enabled="true" falloff_exponent="7" far_range="350" multiplier="@ID18ceffa252d5a43d@" name="lo_omni" near_range="0" spot_angle_end="0" spot_angle_start="0"/>
+				</lights>
+			</unit_data>
 		</table>
 		<table>
-			<unit_data _prev_pos="-7810.45 2097.02 745" _prev_rot="0 0 0 -1" continent="warehouse" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/ind_prop_warehouse_lamp_ceiling/ind_prop_warehouse_lamp_ceiling_a" name_id="ind_prop_warehouse_lamp_ceiling_a_006" position="-7810.45 2097.02 745" rotation="0 0 0 -1" unit_id="301819"/>
+			<unit_data _prev_pos="-7810.45 2097.02 745" _prev_rot="0 0 0 -1" continent="warehouse" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/ind_prop_warehouse_lamp_ceiling/ind_prop_warehouse_lamp_ceiling_a" name_id="ind_prop_warehouse_lamp_ceiling_a_006" position="-7810.45 2097.02 745" rotation="0 0 0 -1" unit_id="301819">
+				<lights>
+					<table clipping_values="10000 -10000 0" color="1 1 1" enabled="true" falloff_exponent="7" far_range="350" multiplier="@ID18ceffa252d5a43d@" name="lo_omni" near_range="0" spot_angle_end="0" spot_angle_start="0"/>
+				</lights>
+			</unit_data>
 		</table>
 		<table>
-			<unit_data _prev_pos="-6685.45 2097.02 745" _prev_rot="0 0 0 -1" continent="warehouse" local_pos="1125 0 0" local_rot="0 0 0 1" name="units/payday2/props/ind_prop_warehouse_lamp_ceiling/ind_prop_warehouse_lamp_ceiling_a" name_id="ind_prop_warehouse_lamp_ceiling_a_007" position="-6685.45 2097.02 745" rotation="0 0 0 -1" unit_id="301820"/>
+			<unit_data _prev_pos="-6685.45 2097.02 745" _prev_rot="0 0 0 -1" continent="warehouse" local_pos="1125 0 0" local_rot="0 0 0 1" name="units/payday2/props/ind_prop_warehouse_lamp_ceiling/ind_prop_warehouse_lamp_ceiling_a" name_id="ind_prop_warehouse_lamp_ceiling_a_007" position="-6685.45 2097.02 745" rotation="0 0 0 -1" unit_id="301820">
+				<lights>
+					<table clipping_values="10000 -10000 0" color="1 1 1" enabled="true" falloff_exponent="7" far_range="350" multiplier="@ID18ceffa252d5a43d@" name="lo_omni" near_range="0" spot_angle_end="0" spot_angle_start="0"/>
+				</lights>
+			</unit_data>
 		</table>
 		<table>
-			<unit_data _prev_pos="-5975.45 2097.02 745" _prev_rot="0 0 0 -1" continent="warehouse" local_pos="-425 0 0" local_rot="0 0 0 1" name="units/payday2/props/ind_prop_warehouse_lamp_ceiling/ind_prop_warehouse_lamp_ceiling_a" name_id="ind_prop_warehouse_lamp_ceiling_a_008" position="-5975.45 2097.02 745" rotation="0 0 0 -1" unit_id="301821"/>
+			<unit_data _prev_pos="-5975.45 2097.02 745" _prev_rot="0 0 0 -1" continent="warehouse" local_pos="-425 0 0" local_rot="0 0 0 1" name="units/payday2/props/ind_prop_warehouse_lamp_ceiling/ind_prop_warehouse_lamp_ceiling_a" name_id="ind_prop_warehouse_lamp_ceiling_a_008" position="-5975.45 2097.02 745" rotation="0 0 0 -1" unit_id="301821">
+				<lights>
+					<table clipping_values="10000 -10000 0" color="1 1 1" enabled="true" falloff_exponent="7" far_range="350" multiplier="@ID18ceffa252d5a43d@" name="lo_omni" near_range="0" spot_angle_end="0" spot_angle_start="0"/>
+				</lights>
+			</unit_data>
 		</table>
 		<table>
-			<unit_data _prev_pos="-4980.45 2097.02 745" _prev_rot="0 0 0 -1" continent="warehouse" local_pos="570 0 0" local_rot="0 0 0 1" name="units/payday2/props/ind_prop_warehouse_lamp_ceiling/ind_prop_warehouse_lamp_ceiling_a" name_id="ind_prop_warehouse_lamp_ceiling_a_009" position="-4980.45 2097.02 745" rotation="0 0 0 -1" unit_id="301822"/>
+			<unit_data _prev_pos="-4980.45 2097.02 745" _prev_rot="0 0 0 -1" continent="warehouse" local_pos="570 0 0" local_rot="0 0 0 1" name="units/payday2/props/ind_prop_warehouse_lamp_ceiling/ind_prop_warehouse_lamp_ceiling_a" name_id="ind_prop_warehouse_lamp_ceiling_a_009" position="-4980.45 2097.02 745" rotation="0 0 0 -1" unit_id="301822">
+				<lights>
+					<table clipping_values="10000 -10000 0" color="1 1 1" enabled="true" falloff_exponent="7" far_range="350" multiplier="@ID18ceffa252d5a43d@" name="lo_omni" near_range="0" spot_angle_end="0" spot_angle_start="0"/>
+				</lights>
+			</unit_data>
 		</table>
 		<table>
-			<unit_data _prev_pos="-5550.45 2097.02 745" _prev_rot="0 0 0 -1" continent="warehouse" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/ind_prop_warehouse_lamp_ceiling/ind_prop_warehouse_lamp_ceiling_a" name_id="ind_prop_warehouse_lamp_ceiling_a_010" position="-5550.45 2097.02 745" rotation="0 0 0 -1" unit_id="301823"/>
+			<unit_data _prev_pos="-5550.45 2097.02 745" _prev_rot="0 0 0 -1" continent="warehouse" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/ind_prop_warehouse_lamp_ceiling/ind_prop_warehouse_lamp_ceiling_a" name_id="ind_prop_warehouse_lamp_ceiling_a_010" position="-5550.45 2097.02 745" rotation="0 0 0 -1" unit_id="301823">
+				<lights>
+					<table clipping_values="10000 -10000 0" color="1 1 1" enabled="true" falloff_exponent="7" far_range="350" multiplier="@ID18ceffa252d5a43d@" name="lo_omni" near_range="0" spot_angle_end="0" spot_angle_start="0"/>
+				</lights>
+			</unit_data>
 		</table>
 		<table>
-			<unit_data _prev_pos="-5550.45 2097.02 745" _prev_rot="0 0 0 -1" continent="warehouse" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/ind_prop_warehouse_lamp_ceiling/ind_prop_warehouse_lamp_ceiling_a" name_id="ind_prop_warehouse_lamp_ceiling_a_011" position="-5550.45 1552.02 745" rotation="0 0 0 -1" unit_id="301824"/>
+			<unit_data _prev_pos="-5550.45 2097.02 745" _prev_rot="0 0 0 -1" continent="warehouse" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/ind_prop_warehouse_lamp_ceiling/ind_prop_warehouse_lamp_ceiling_a" name_id="ind_prop_warehouse_lamp_ceiling_a_011" position="-5550.45 1552.02 745" rotation="0 0 0 -1" unit_id="301824">
+				<lights>
+					<table clipping_values="10000 -10000 0" color="1 1 1" enabled="true" falloff_exponent="7" far_range="350" multiplier="@ID18ceffa252d5a43d@" name="lo_omni" near_range="0" spot_angle_end="0" spot_angle_start="0"/>
+				</lights>
+			</unit_data>
 		</table>
 		<table>
-			<unit_data _prev_pos="-4980.45 2097.02 745" _prev_rot="0 0 0 -1" continent="warehouse" local_pos="570 0 0" local_rot="0 0 0 1" name="units/payday2/props/ind_prop_warehouse_lamp_ceiling/ind_prop_warehouse_lamp_ceiling_a" name_id="ind_prop_warehouse_lamp_ceiling_a_012" position="-4980.45 1552.02 745" rotation="0 0 0 -1" unit_id="301825"/>
+			<unit_data _prev_pos="-4980.45 2097.02 745" _prev_rot="0 0 0 -1" continent="warehouse" local_pos="570 0 0" local_rot="0 0 0 1" name="units/payday2/props/ind_prop_warehouse_lamp_ceiling/ind_prop_warehouse_lamp_ceiling_a" name_id="ind_prop_warehouse_lamp_ceiling_a_012" position="-4980.45 1552.02 745" rotation="0 0 0 -1" unit_id="301825">
+				<lights>
+					<table clipping_values="10000 -10000 0" color="1 1 1" enabled="true" falloff_exponent="7" far_range="350" multiplier="@ID18ceffa252d5a43d@" name="lo_omni" near_range="0" spot_angle_end="0" spot_angle_start="0"/>
+				</lights>
+			</unit_data>
 		</table>
 		<table>
-			<unit_data _prev_pos="-5975.45 2097.02 745" _prev_rot="0 0 0 -1" continent="warehouse" local_pos="-425 0 0" local_rot="0 0 0 1" name="units/payday2/props/ind_prop_warehouse_lamp_ceiling/ind_prop_warehouse_lamp_ceiling_a" name_id="ind_prop_warehouse_lamp_ceiling_a_013" position="-5975.45 1552.02 745" rotation="0 0 0 -1" unit_id="301826"/>
+			<unit_data _prev_pos="-5975.45 2097.02 745" _prev_rot="0 0 0 -1" continent="warehouse" local_pos="-425 0 0" local_rot="0 0 0 1" name="units/payday2/props/ind_prop_warehouse_lamp_ceiling/ind_prop_warehouse_lamp_ceiling_a" name_id="ind_prop_warehouse_lamp_ceiling_a_013" position="-5975.45 1552.02 745" rotation="0 0 0 -1" unit_id="301826">
+				<lights>
+					<table clipping_values="10000 -10000 0" color="1 1 1" enabled="true" falloff_exponent="7" far_range="350" multiplier="@ID18ceffa252d5a43d@" name="lo_omni" near_range="0" spot_angle_end="0" spot_angle_start="0"/>
+				</lights>
+			</unit_data>
 		</table>
 		<table>
-			<unit_data _prev_pos="-5550.45 1552.02 745" _prev_rot="0 0 0 -1" continent="warehouse" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/ind_prop_warehouse_lamp_ceiling/ind_prop_warehouse_lamp_ceiling_a" name_id="ind_prop_warehouse_lamp_ceiling_a_014" position="-5550.45 917.024 745" rotation="0 0 0 -1" unit_id="301827"/>
+			<unit_data _prev_pos="-5550.45 1552.02 745" _prev_rot="0 0 0 -1" continent="warehouse" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/ind_prop_warehouse_lamp_ceiling/ind_prop_warehouse_lamp_ceiling_a" name_id="ind_prop_warehouse_lamp_ceiling_a_014" position="-5550.45 917.024 745" rotation="0 0 0 -1" unit_id="301827">
+				<lights>
+					<table clipping_values="10000 -10000 0" color="1 1 1" enabled="true" falloff_exponent="7" far_range="350" multiplier="@ID18ceffa252d5a43d@" name="lo_omni" near_range="0" spot_angle_end="0" spot_angle_start="0"/>
+				</lights>
+			</unit_data>
 		</table>
 		<table>
-			<unit_data _prev_pos="-4980.45 917.024 745" _prev_rot="0 0 0 -1" continent="warehouse" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/ind_prop_warehouse_lamp_ceiling/ind_prop_warehouse_lamp_ceiling_a" name_id="ind_prop_warehouse_lamp_ceiling_a_015" position="-4980.45 917.024 745" rotation="0 0 0 -1" unit_id="301828"/>
+			<unit_data _prev_pos="-4980.45 917.024 745" _prev_rot="0 0 0 -1" continent="warehouse" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/ind_prop_warehouse_lamp_ceiling/ind_prop_warehouse_lamp_ceiling_a" name_id="ind_prop_warehouse_lamp_ceiling_a_015" position="-4980.45 917.024 745" rotation="0 0 0 -1" unit_id="301828">
+				<lights>
+					<table clipping_values="10000 -10000 0" color="1 1 1" enabled="true" falloff_exponent="7" far_range="350" multiplier="@ID18ceffa252d5a43d@" name="lo_omni" near_range="0" spot_angle_end="0" spot_angle_start="0"/>
+				</lights>
+			</unit_data>
 		</table>
 		<table>
-			<unit_data _prev_pos="-5975.45 1552.02 745" _prev_rot="0 0 0 -1" continent="warehouse" local_pos="-425 0 0" local_rot="0 0 0 1" name="units/payday2/props/ind_prop_warehouse_lamp_ceiling/ind_prop_warehouse_lamp_ceiling_a" name_id="ind_prop_warehouse_lamp_ceiling_a_016" position="-5975.45 917.024 745" rotation="0 0 0 -1" unit_id="301829"/>
+			<unit_data _prev_pos="-5975.45 1552.02 745" _prev_rot="0 0 0 -1" continent="warehouse" local_pos="-425 0 0" local_rot="0 0 0 1" name="units/payday2/props/ind_prop_warehouse_lamp_ceiling/ind_prop_warehouse_lamp_ceiling_a" name_id="ind_prop_warehouse_lamp_ceiling_a_016" position="-5975.45 917.024 745" rotation="0 0 0 -1" unit_id="301829">
+				<lights>
+					<table clipping_values="10000 -10000 0" color="1 1 1" enabled="true" falloff_exponent="7" far_range="350" multiplier="@ID18ceffa252d5a43d@" name="lo_omni" near_range="0" spot_angle_end="0" spot_angle_start="0"/>
+				</lights>
+			</unit_data>
 		</table>
 		<table>
-			<unit_data _prev_pos="-7810.45 2097.02 745" _prev_rot="0 0 0 -1" continent="warehouse" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/ind_prop_warehouse_lamp_ceiling/ind_prop_warehouse_lamp_ceiling_a" name_id="ind_prop_warehouse_lamp_ceiling_a_017" position="-7810.45 1602.02 745" rotation="0 0 0 -1" unit_id="301830"/>
+			<unit_data _prev_pos="-7810.45 2097.02 745" _prev_rot="0 0 0 -1" continent="warehouse" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/ind_prop_warehouse_lamp_ceiling/ind_prop_warehouse_lamp_ceiling_a" name_id="ind_prop_warehouse_lamp_ceiling_a_017" position="-7810.45 1602.02 745" rotation="0 0 0 -1" unit_id="301830">
+				<lights>
+					<table clipping_values="10000 -10000 0" color="1 1 1" enabled="true" falloff_exponent="7" far_range="350" multiplier="@ID18ceffa252d5a43d@" name="lo_omni" near_range="0" spot_angle_end="0" spot_angle_start="0"/>
+				</lights>
+			</unit_data>
 		</table>
 		<table>
-			<unit_data _prev_pos="-6685.45 2097.02 745" _prev_rot="0 0 0 -1" continent="warehouse" local_pos="1125 0 0" local_rot="0 0 0 1" name="units/payday2/props/ind_prop_warehouse_lamp_ceiling/ind_prop_warehouse_lamp_ceiling_a" name_id="ind_prop_warehouse_lamp_ceiling_a_018" position="-6685.45 1602.02 745" rotation="0 0 0 -1" unit_id="301831"/>
+			<unit_data _prev_pos="-6685.45 2097.02 745" _prev_rot="0 0 0 -1" continent="warehouse" local_pos="1125 0 0" local_rot="0 0 0 1" name="units/payday2/props/ind_prop_warehouse_lamp_ceiling/ind_prop_warehouse_lamp_ceiling_a" name_id="ind_prop_warehouse_lamp_ceiling_a_018" position="-6685.45 1602.02 745" rotation="0 0 0 -1" unit_id="301831">
+				<lights>
+					<table clipping_values="10000 -10000 0" color="1 1 1" enabled="true" falloff_exponent="7" far_range="350" multiplier="@ID18ceffa252d5a43d@" name="lo_omni" near_range="0" spot_angle_end="0" spot_angle_start="0"/>
+				</lights>
+			</unit_data>
 		</table>
 		<table>
-			<unit_data _prev_pos="-7810.45 1602.02 745" _prev_rot="0 0 0 -1" continent="warehouse" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/ind_prop_warehouse_lamp_ceiling/ind_prop_warehouse_lamp_ceiling_a" name_id="ind_prop_warehouse_lamp_ceiling_a_019" position="-7810.45 1197.02 745" rotation="0 0 0 -1" unit_id="301832"/>
+			<unit_data _prev_pos="-7810.45 1602.02 745" _prev_rot="0 0 0 -1" continent="warehouse" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/ind_prop_warehouse_lamp_ceiling/ind_prop_warehouse_lamp_ceiling_a" name_id="ind_prop_warehouse_lamp_ceiling_a_019" position="-7810.45 1197.02 745" rotation="0 0 0 -1" unit_id="301832">
+				<lights>
+					<table clipping_values="10000 -10000 0" color="1 1 1" enabled="true" falloff_exponent="7" far_range="350" multiplier="@ID18ceffa252d5a43d@" name="lo_omni" near_range="0" spot_angle_end="0" spot_angle_start="0"/>
+				</lights>
+			</unit_data>
 		</table>
 		<table>
-			<unit_data _prev_pos="-6685.45 1602.02 745" _prev_rot="0 0 0 -1" continent="warehouse" local_pos="1125 0 0" local_rot="0 0 0 1" name="units/payday2/props/ind_prop_warehouse_lamp_ceiling/ind_prop_warehouse_lamp_ceiling_a" name_id="ind_prop_warehouse_lamp_ceiling_a_020" position="-6685.45 1197.02 745" rotation="0 0 0 -1" unit_id="301833"/>
+			<unit_data _prev_pos="-6685.45 1602.02 745" _prev_rot="0 0 0 -1" continent="warehouse" local_pos="1125 0 0" local_rot="0 0 0 1" name="units/payday2/props/ind_prop_warehouse_lamp_ceiling/ind_prop_warehouse_lamp_ceiling_a" name_id="ind_prop_warehouse_lamp_ceiling_a_020" position="-6685.45 1197.02 745" rotation="0 0 0 -1" unit_id="301833">
+				<lights>
+					<table clipping_values="10000 -10000 0" color="1 1 1" enabled="true" falloff_exponent="7" far_range="350" multiplier="@ID18ceffa252d5a43d@" name="lo_omni" near_range="0" spot_angle_end="0" spot_angle_start="0"/>
+				</lights>
+			</unit_data>
 		</table>
 		<table>
-			<unit_data _prev_pos="-7810.45 1197.02 745" _prev_rot="0 0 0 -1" continent="warehouse" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/ind_prop_warehouse_lamp_ceiling/ind_prop_warehouse_lamp_ceiling_a" name_id="ind_prop_warehouse_lamp_ceiling_a_021" position="-7810.45 672.024 745" rotation="0 0 0 -1" unit_id="301834"/>
+			<unit_data _prev_pos="-7810.45 1197.02 745" _prev_rot="0 0 0 -1" continent="warehouse" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/ind_prop_warehouse_lamp_ceiling/ind_prop_warehouse_lamp_ceiling_a" name_id="ind_prop_warehouse_lamp_ceiling_a_021" position="-7810.45 672.024 745" rotation="0 0 0 -1" unit_id="301834">
+				<lights>
+					<table clipping_values="10000 -10000 0" color="1 1 1" enabled="true" falloff_exponent="7" far_range="350" multiplier="@ID18ceffa252d5a43d@" name="lo_omni" near_range="0" spot_angle_end="0" spot_angle_start="0"/>
+				</lights>
+			</unit_data>
 		</table>
 		<table>
-			<unit_data _prev_pos="-6685.45 1197.02 745" _prev_rot="0 0 0 -1" continent="warehouse" local_pos="1125 0 0" local_rot="0 0 0 1" name="units/payday2/props/ind_prop_warehouse_lamp_ceiling/ind_prop_warehouse_lamp_ceiling_a" name_id="ind_prop_warehouse_lamp_ceiling_a_022" position="-6685.45 672.024 745" rotation="0 0 0 -1" unit_id="301835"/>
+			<unit_data _prev_pos="-6685.45 1197.02 745" _prev_rot="0 0 0 -1" continent="warehouse" local_pos="1125 0 0" local_rot="0 0 0 1" name="units/payday2/props/ind_prop_warehouse_lamp_ceiling/ind_prop_warehouse_lamp_ceiling_a" name_id="ind_prop_warehouse_lamp_ceiling_a_022" position="-6685.45 672.024 745" rotation="0 0 0 -1" unit_id="301835">
+				<lights>
+					<table clipping_values="10000 -10000 0" color="1 1 1" enabled="true" falloff_exponent="7" far_range="350" multiplier="@ID18ceffa252d5a43d@" name="lo_omni" near_range="0" spot_angle_end="0" spot_angle_start="0"/>
+				</lights>
+			</unit_data>
 		</table>
 		<table>
-			<unit_data _prev_pos="-7810.45 672.024 745" _prev_rot="0 0 0 -1" continent="warehouse" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/ind_prop_warehouse_lamp_ceiling/ind_prop_warehouse_lamp_ceiling_a" name_id="ind_prop_warehouse_lamp_ceiling_a_023" position="-7810.45 162.024 745" rotation="0 0 0 -1" unit_id="301836"/>
+			<unit_data _prev_pos="-7810.45 672.024 745" _prev_rot="0 0 0 -1" continent="warehouse" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/ind_prop_warehouse_lamp_ceiling/ind_prop_warehouse_lamp_ceiling_a" name_id="ind_prop_warehouse_lamp_ceiling_a_023" position="-7810.45 162.024 745" rotation="0 0 0 -1" unit_id="301836">
+				<lights>
+					<table clipping_values="10000 -10000 0" color="1 1 1" enabled="true" falloff_exponent="7" far_range="350" multiplier="@ID18ceffa252d5a43d@" name="lo_omni" near_range="0" spot_angle_end="0" spot_angle_start="0"/>
+				</lights>
+			</unit_data>
 		</table>
 		<table>
-			<unit_data _prev_pos="-6685.45 672.024 745" _prev_rot="0 0 0 -1" continent="warehouse" local_pos="1125 0 0" local_rot="0 0 0 1" name="units/payday2/props/ind_prop_warehouse_lamp_ceiling/ind_prop_warehouse_lamp_ceiling_a" name_id="ind_prop_warehouse_lamp_ceiling_a_024" position="-6685.45 162.024 745" rotation="0 0 0 -1" unit_id="301837"/>
+			<unit_data _prev_pos="-6685.45 672.024 745" _prev_rot="0 0 0 -1" continent="warehouse" local_pos="1125 0 0" local_rot="0 0 0 1" name="units/payday2/props/ind_prop_warehouse_lamp_ceiling/ind_prop_warehouse_lamp_ceiling_a" name_id="ind_prop_warehouse_lamp_ceiling_a_024" position="-6685.45 162.024 745" rotation="0 0 0 -1" unit_id="301837">
+				<lights>
+					<table clipping_values="10000 -10000 0" color="1 1 1" enabled="true" falloff_exponent="7" far_range="350" multiplier="@ID18ceffa252d5a43d@" name="lo_omni" near_range="0" spot_angle_end="0" spot_angle_start="0"/>
+				</lights>
+			</unit_data>
 		</table>
 		<table>
-			<unit_data _prev_pos="-7810.45 162.024 745" _prev_rot="0 0 0 -1" continent="warehouse" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/ind_prop_warehouse_lamp_ceiling/ind_prop_warehouse_lamp_ceiling_a" name_id="ind_prop_warehouse_lamp_ceiling_a_025" position="-7810.45 -302.976 745" rotation="0 0 0 -1" unit_id="301838"/>
+			<unit_data _prev_pos="-7810.45 162.024 745" _prev_rot="0 0 0 -1" continent="warehouse" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/ind_prop_warehouse_lamp_ceiling/ind_prop_warehouse_lamp_ceiling_a" name_id="ind_prop_warehouse_lamp_ceiling_a_025" position="-7810.45 -302.976 745" rotation="0 0 0 -1" unit_id="301838">
+				<lights>
+					<table clipping_values="10000 -10000 0" color="1 1 1" enabled="true" falloff_exponent="7" far_range="350" multiplier="@ID18ceffa252d5a43d@" name="lo_omni" near_range="0" spot_angle_end="0" spot_angle_start="0"/>
+				</lights>
+			</unit_data>
 		</table>
 		<table>
-			<unit_data _prev_pos="-6685.45 162.024 745" _prev_rot="0 0 0 -1" continent="warehouse" local_pos="1125 0 0" local_rot="0 0 0 1" name="units/payday2/props/ind_prop_warehouse_lamp_ceiling/ind_prop_warehouse_lamp_ceiling_a" name_id="ind_prop_warehouse_lamp_ceiling_a_026" position="-6685.45 -302.976 745" rotation="0 0 0 -1" unit_id="301839"/>
+			<unit_data _prev_pos="-6685.45 162.024 745" _prev_rot="0 0 0 -1" continent="warehouse" local_pos="1125 0 0" local_rot="0 0 0 1" name="units/payday2/props/ind_prop_warehouse_lamp_ceiling/ind_prop_warehouse_lamp_ceiling_a" name_id="ind_prop_warehouse_lamp_ceiling_a_026" position="-6685.45 -302.976 745" rotation="0 0 0 -1" unit_id="301839">
+				<lights>
+					<table clipping_values="10000 -10000 0" color="1 1 1" enabled="true" falloff_exponent="7" far_range="350" multiplier="@ID18ceffa252d5a43d@" name="lo_omni" near_range="0" spot_angle_end="0" spot_angle_start="0"/>
+				</lights>
+			</unit_data>
 		</table>
 		<table>
-			<unit_data _prev_pos="-7810.45 -302.976 745" _prev_rot="0 0 0 -1" continent="warehouse" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/ind_prop_warehouse_lamp_ceiling/ind_prop_warehouse_lamp_ceiling_a" name_id="ind_prop_warehouse_lamp_ceiling_a_027" position="-7810.45 -817.976 745" rotation="0 0 0 -1" unit_id="301840"/>
+			<unit_data _prev_pos="-7810.45 -302.976 745" _prev_rot="0 0 0 -1" continent="warehouse" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/ind_prop_warehouse_lamp_ceiling/ind_prop_warehouse_lamp_ceiling_a" name_id="ind_prop_warehouse_lamp_ceiling_a_027" position="-7810.45 -817.976 745" rotation="0 0 0 -1" unit_id="301840">
+				<lights>
+					<table clipping_values="10000 -10000 0" color="1 1 1" enabled="true" falloff_exponent="7" far_range="350" multiplier="@ID18ceffa252d5a43d@" name="lo_omni" near_range="0" spot_angle_end="0" spot_angle_start="0"/>
+				</lights>
+			</unit_data>
 		</table>
 		<table>
-			<unit_data _prev_pos="-6685.45 -302.976 745" _prev_rot="0 0 0 -1" continent="warehouse" local_pos="1125 0 0" local_rot="0 0 0 1" name="units/payday2/props/ind_prop_warehouse_lamp_ceiling/ind_prop_warehouse_lamp_ceiling_a" name_id="ind_prop_warehouse_lamp_ceiling_a_028" position="-6685.45 -817.976 745" rotation="0 0 0 -1" unit_id="301841"/>
+			<unit_data _prev_pos="-6685.45 -302.976 745" _prev_rot="0 0 0 -1" continent="warehouse" local_pos="1125 0 0" local_rot="0 0 0 1" name="units/payday2/props/ind_prop_warehouse_lamp_ceiling/ind_prop_warehouse_lamp_ceiling_a" name_id="ind_prop_warehouse_lamp_ceiling_a_028" position="-6685.45 -817.976 745" rotation="0 0 0 -1" unit_id="301841">
+				<lights>
+					<table clipping_values="10000 -10000 0" color="1 1 1" enabled="true" falloff_exponent="7" far_range="350" multiplier="@ID18ceffa252d5a43d@" name="lo_omni" near_range="0" spot_angle_end="0" spot_angle_start="0"/>
+				</lights>
+			</unit_data>
 		</table>
 		<table>
-			<unit_data _prev_pos="-7810.45 -1307.98 745" _prev_rot="0 0 0 -1" continent="warehouse" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/ind_prop_warehouse_lamp_ceiling/ind_prop_warehouse_lamp_ceiling_a" name_id="ind_prop_warehouse_lamp_ceiling_a_029" position="-7810.45 -1307.98 745" rotation="0 0 0 -1" unit_id="301842"/>
+			<unit_data _prev_pos="-7810.45 -1307.98 745" _prev_rot="0 0 0 -1" continent="warehouse" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/ind_prop_warehouse_lamp_ceiling/ind_prop_warehouse_lamp_ceiling_a" name_id="ind_prop_warehouse_lamp_ceiling_a_029" position="-7810.45 -1307.98 745" rotation="0 0 0 -1" unit_id="301842">
+				<lights>
+					<table clipping_values="10000 -10000 0" color="1 1 1" enabled="true" falloff_exponent="7" far_range="350" multiplier="@ID18ceffa252d5a43d@" name="lo_omni" near_range="0" spot_angle_end="0" spot_angle_start="0"/>
+				</lights>
+			</unit_data>
 		</table>
 		<table>
-			<unit_data _prev_pos="-6685.45 -817.976 745" _prev_rot="0 0 0 -1" continent="warehouse" local_pos="1125 0 0" local_rot="0 0 0 1" name="units/payday2/props/ind_prop_warehouse_lamp_ceiling/ind_prop_warehouse_lamp_ceiling_a" name_id="ind_prop_warehouse_lamp_ceiling_a_030" position="-6685.45 -1307.98 745" rotation="0 0 0 -1" unit_id="301843"/>
+			<unit_data _prev_pos="-6685.45 -817.976 745" _prev_rot="0 0 0 -1" continent="warehouse" local_pos="1125 0 0" local_rot="0 0 0 1" name="units/payday2/props/ind_prop_warehouse_lamp_ceiling/ind_prop_warehouse_lamp_ceiling_a" name_id="ind_prop_warehouse_lamp_ceiling_a_030" position="-6685.45 -1307.98 745" rotation="0 0 0 -1" unit_id="301843">
+				<lights>
+					<table clipping_values="10000 -10000 0" color="1 1 1" enabled="true" falloff_exponent="7" far_range="350" multiplier="@ID18ceffa252d5a43d@" name="lo_omni" near_range="0" spot_angle_end="0" spot_angle_start="0"/>
+				</lights>
+			</unit_data>
 		</table>
 		<table>
-			<unit_data _prev_pos="-7810.45 -1307.98 745" _prev_rot="0 0 0 -1" continent="warehouse" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/ind_prop_warehouse_lamp_ceiling/ind_prop_warehouse_lamp_ceiling_a" name_id="ind_prop_warehouse_lamp_ceiling_a_031" position="-7810.45 -1852.98 745" rotation="0 0 0 -1" unit_id="301844"/>
+			<unit_data _prev_pos="-7810.45 -1307.98 745" _prev_rot="0 0 0 -1" continent="warehouse" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/ind_prop_warehouse_lamp_ceiling/ind_prop_warehouse_lamp_ceiling_a" name_id="ind_prop_warehouse_lamp_ceiling_a_031" position="-7810.45 -1852.98 745" rotation="0 0 0 -1" unit_id="301844">
+				<lights>
+					<table clipping_values="10000 -10000 0" color="1 1 1" enabled="true" falloff_exponent="7" far_range="350" multiplier="@ID18ceffa252d5a43d@" name="lo_omni" near_range="0" spot_angle_end="0" spot_angle_start="0"/>
+				</lights>
+			</unit_data>
 		</table>
 		<table>
-			<unit_data _prev_pos="-6685.45 -1307.98 745" _prev_rot="0 0 0 -1" continent="warehouse" local_pos="1125 0 0" local_rot="0 0 0 1" name="units/payday2/props/ind_prop_warehouse_lamp_ceiling/ind_prop_warehouse_lamp_ceiling_a" name_id="ind_prop_warehouse_lamp_ceiling_a_032" position="-6685.45 -1852.98 745" rotation="0 0 0 -1" unit_id="301845"/>
+			<unit_data _prev_pos="-6685.45 -1307.98 745" _prev_rot="0 0 0 -1" continent="warehouse" local_pos="1125 0 0" local_rot="0 0 0 1" name="units/payday2/props/ind_prop_warehouse_lamp_ceiling/ind_prop_warehouse_lamp_ceiling_a" name_id="ind_prop_warehouse_lamp_ceiling_a_032" position="-6685.45 -1852.98 745" rotation="0 0 0 -1" unit_id="301845">
+				<lights>
+					<table clipping_values="10000 -10000 0" color="1 1 1" enabled="true" falloff_exponent="7" far_range="350" multiplier="@ID18ceffa252d5a43d@" name="lo_omni" near_range="0" spot_angle_end="0" spot_angle_start="0"/>
+				</lights>
+			</unit_data>
 		</table>
 		<table>
-			<unit_data _prev_pos="-7810.45 -2497.98 745" _prev_rot="0 0 0 -1" continent="warehouse" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/ind_prop_warehouse_lamp_ceiling/ind_prop_warehouse_lamp_ceiling_a" name_id="ind_prop_warehouse_lamp_ceiling_a_033" position="-7810.45 -2392.98 745" rotation="0 0 0 -1" unit_id="301846"/>
+			<unit_data _prev_pos="-7810.45 -2497.98 745" _prev_rot="0 0 0 -1" continent="warehouse" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/ind_prop_warehouse_lamp_ceiling/ind_prop_warehouse_lamp_ceiling_a" name_id="ind_prop_warehouse_lamp_ceiling_a_033" position="-7810.45 -2392.98 745" rotation="0 0 0 -1" unit_id="301846">
+				<lights>
+					<table clipping_values="10000 -10000 0" color="1 1 1" enabled="true" falloff_exponent="7" far_range="350" multiplier="@ID18ceffa252d5a43d@" name="lo_omni" near_range="0" spot_angle_end="0" spot_angle_start="0"/>
+				</lights>
+			</unit_data>
 		</table>
 		<table>
-			<unit_data _prev_pos="-6685.45 -2497.98 745" _prev_rot="0 0 0 -1" continent="warehouse" local_pos="1125 0 0" local_rot="0 0 0 1" name="units/payday2/props/ind_prop_warehouse_lamp_ceiling/ind_prop_warehouse_lamp_ceiling_a" name_id="ind_prop_warehouse_lamp_ceiling_a_034" position="-6685.45 -2392.98 745" rotation="0 0 0 -1" unit_id="301847"/>
+			<unit_data _prev_pos="-6685.45 -2497.98 745" _prev_rot="0 0 0 -1" continent="warehouse" local_pos="1125 0 0" local_rot="0 0 0 1" name="units/payday2/props/ind_prop_warehouse_lamp_ceiling/ind_prop_warehouse_lamp_ceiling_a" name_id="ind_prop_warehouse_lamp_ceiling_a_034" position="-6685.45 -2392.98 745" rotation="0 0 0 -1" unit_id="301847">
+				<lights>
+					<table clipping_values="10000 -10000 0" color="1 1 1" enabled="true" falloff_exponent="7" far_range="350" multiplier="@ID18ceffa252d5a43d@" name="lo_omni" near_range="0" spot_angle_end="0" spot_angle_start="0"/>
+				</lights>
+			</unit_data>
 		</table>
 		<table>
-			<unit_data _prev_pos="-7810.45 -2392.98 745" _prev_rot="0 0 0 -1" continent="warehouse" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/ind_prop_warehouse_lamp_ceiling/ind_prop_warehouse_lamp_ceiling_a" name_id="ind_prop_warehouse_lamp_ceiling_a_035" position="-7810.45 -2872.98 745" rotation="0 0 0 -1" unit_id="301848"/>
+			<unit_data _prev_pos="-7810.45 -2392.98 745" _prev_rot="0 0 0 -1" continent="warehouse" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/ind_prop_warehouse_lamp_ceiling/ind_prop_warehouse_lamp_ceiling_a" name_id="ind_prop_warehouse_lamp_ceiling_a_035" position="-7810.45 -2872.98 745" rotation="0 0 0 -1" unit_id="301848">
+				<lights>
+					<table clipping_values="10000 -10000 0" color="1 1 1" enabled="true" falloff_exponent="7" far_range="350" multiplier="@ID18ceffa252d5a43d@" name="lo_omni" near_range="0" spot_angle_end="0" spot_angle_start="0"/>
+				</lights>
+			</unit_data>
 		</table>
 		<table>
-			<unit_data _prev_pos="-6685.45 -2392.98 745" _prev_rot="0 0 0 -1" continent="warehouse" local_pos="1125 0 0" local_rot="0 0 0 1" name="units/payday2/props/ind_prop_warehouse_lamp_ceiling/ind_prop_warehouse_lamp_ceiling_a" name_id="ind_prop_warehouse_lamp_ceiling_a_036" position="-6685.45 -2872.98 745" rotation="0 0 0 -1" unit_id="301849"/>
+			<unit_data _prev_pos="-6685.45 -2392.98 745" _prev_rot="0 0 0 -1" continent="warehouse" local_pos="1125 0 0" local_rot="0 0 0 1" name="units/payday2/props/ind_prop_warehouse_lamp_ceiling/ind_prop_warehouse_lamp_ceiling_a" name_id="ind_prop_warehouse_lamp_ceiling_a_036" position="-6685.45 -2872.98 745" rotation="0 0 0 -1" unit_id="301849">
+				<lights>
+					<table clipping_values="10000 -10000 0" color="1 1 1" enabled="true" falloff_exponent="7" far_range="350" multiplier="@ID18ceffa252d5a43d@" name="lo_omni" near_range="0" spot_angle_end="0" spot_angle_start="0"/>
+				</lights>
+			</unit_data>
 		</table>
 		<table>
 			<unit_data _prev_pos="-6949.03 3271.32 100" _prev_rot="0 0 0.707107 -0.707107" continent="warehouse" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/ind_prop_warehouse_set/ind_prop_warehouse_pallet_group_8a" name_id="ind_prop_warehouse_pallet_group_8a_006" position="-6949.03 3296.32 100" rotation="0 0 0.707107 -0.707107" unit_id="301850"/>
@@ -6174,28 +6326,60 @@
 			<unit_data _prev_pos="-6871.96 3246.67 100" _prev_rot="0 0 0 -1" continent="warehouse" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc1/equipment/ind_interactable_shipping_crate/ind_interactable_shipping_crate" name_id="ind_interactable_shipping_crate_013" position="-6871.96 3246.67 100" rotation="0 0 0 -1" unit_id="301859"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-8285.45 -1307.98 720" _prev_rot="0 0 0 -1" continent="warehouse" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/ind_prop_warehouse_lamp_ceiling/ind_prop_warehouse_lamp_ceiling_a" name_id="ind_prop_warehouse_lamp_ceiling_a_037" position="-8285.45 -1307.98 720" rotation="0 0 0 -1" unit_id="301860"/>
+			<unit_data _prev_pos="-8285.45 -1307.98 720" _prev_rot="0 0 0 -1" continent="warehouse" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/ind_prop_warehouse_lamp_ceiling/ind_prop_warehouse_lamp_ceiling_a" name_id="ind_prop_warehouse_lamp_ceiling_a_037" position="-8285.45 -1307.98 720" rotation="0 0 0 -1" unit_id="301860">
+				<lights>
+					<table clipping_values="10000 -10000 0" color="1 1 1" enabled="true" falloff_exponent="7" far_range="350" multiplier="@ID18ceffa252d5a43d@" name="lo_omni" near_range="0" spot_angle_end="0" spot_angle_start="0"/>
+				</lights>
+			</unit_data>
 		</table>
 		<table>
-			<unit_data _prev_pos="-8285.45 -512.976 720" _prev_rot="0 0 0 -1" continent="warehouse" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/ind_prop_warehouse_lamp_ceiling/ind_prop_warehouse_lamp_ceiling_a" name_id="ind_prop_warehouse_lamp_ceiling_a_038" position="-8285.45 -497.976 720" rotation="0 0 0 -1" unit_id="301861"/>
+			<unit_data _prev_pos="-8285.45 -512.976 720" _prev_rot="0 0 0 -1" continent="warehouse" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/ind_prop_warehouse_lamp_ceiling/ind_prop_warehouse_lamp_ceiling_a" name_id="ind_prop_warehouse_lamp_ceiling_a_038" position="-8285.45 -497.976 720" rotation="0 0 0 -1" unit_id="301861">
+				<lights>
+					<table clipping_values="10000 -10000 0" color="1 1 1" enabled="true" falloff_exponent="7" far_range="350" multiplier="@ID18ceffa252d5a43d@" name="lo_omni" near_range="0" spot_angle_end="0" spot_angle_start="0"/>
+				</lights>
+			</unit_data>
 		</table>
 		<table>
-			<unit_data _prev_pos="-8285.45 367.024 720" _prev_rot="0 0 0 -1" continent="warehouse" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/ind_prop_warehouse_lamp_ceiling/ind_prop_warehouse_lamp_ceiling_a" name_id="ind_prop_warehouse_lamp_ceiling_a_039" position="-8285.45 397.024 720" rotation="0 0 0 -1" unit_id="301862"/>
+			<unit_data _prev_pos="-8285.45 367.024 720" _prev_rot="0 0 0 -1" continent="warehouse" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/ind_prop_warehouse_lamp_ceiling/ind_prop_warehouse_lamp_ceiling_a" name_id="ind_prop_warehouse_lamp_ceiling_a_039" position="-8285.45 397.024 720" rotation="0 0 0 -1" unit_id="301862">
+				<lights>
+					<table clipping_values="10000 -10000 0" color="1 1 1" enabled="true" falloff_exponent="7" far_range="350" multiplier="@ID18ceffa252d5a43d@" name="lo_omni" near_range="0" spot_angle_end="0" spot_angle_start="0"/>
+				</lights>
+			</unit_data>
 		</table>
 		<table>
-			<unit_data _prev_pos="-8285.45 397.024 720" _prev_rot="0 0 0 -1" continent="warehouse" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/ind_prop_warehouse_lamp_ceiling/ind_prop_warehouse_lamp_ceiling_a" name_id="ind_prop_warehouse_lamp_ceiling_a_040" position="-8285.45 1412.02 720" rotation="0 0 0 -1" unit_id="301863"/>
+			<unit_data _prev_pos="-8285.45 397.024 720" _prev_rot="0 0 0 -1" continent="warehouse" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/ind_prop_warehouse_lamp_ceiling/ind_prop_warehouse_lamp_ceiling_a" name_id="ind_prop_warehouse_lamp_ceiling_a_040" position="-8285.45 1412.02 720" rotation="0 0 0 -1" unit_id="301863">
+				<lights>
+					<table clipping_values="10000 -10000 0" color="1 1 1" enabled="true" falloff_exponent="7" far_range="350" multiplier="@ID18ceffa252d5a43d@" name="lo_omni" near_range="0" spot_angle_end="0" spot_angle_start="0"/>
+				</lights>
+			</unit_data>
 		</table>
 		<table>
-			<unit_data _prev_pos="-8285.45 1412.02 720" _prev_rot="0 0 0 -1" continent="warehouse" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/ind_prop_warehouse_lamp_ceiling/ind_prop_warehouse_lamp_ceiling_a" name_id="ind_prop_warehouse_lamp_ceiling_a_041" position="-8285.45 2447.02 720" rotation="0 0 0 -1" unit_id="301864"/>
+			<unit_data _prev_pos="-8285.45 1412.02 720" _prev_rot="0 0 0 -1" continent="warehouse" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/ind_prop_warehouse_lamp_ceiling/ind_prop_warehouse_lamp_ceiling_a" name_id="ind_prop_warehouse_lamp_ceiling_a_041" position="-8285.45 2447.02 720" rotation="0 0 0 -1" unit_id="301864">
+				<lights>
+					<table clipping_values="10000 -10000 0" color="1 1 1" enabled="true" falloff_exponent="7" far_range="350" multiplier="@ID18ceffa252d5a43d@" name="lo_omni" near_range="0" spot_angle_end="0" spot_angle_start="0"/>
+				</lights>
+			</unit_data>
 		</table>
 		<table>
-			<unit_data _prev_pos="-8285.45 -1307.98 720" _prev_rot="0 0 0 -1" continent="warehouse" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/ind_prop_warehouse_lamp_ceiling/ind_prop_warehouse_lamp_ceiling_a" name_id="ind_prop_warehouse_lamp_ceiling_a_042" position="-8285.45 -2357.98 720" rotation="0 0 0 -1" unit_id="301865"/>
+			<unit_data _prev_pos="-8285.45 -1307.98 720" _prev_rot="0 0 0 -1" continent="warehouse" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/ind_prop_warehouse_lamp_ceiling/ind_prop_warehouse_lamp_ceiling_a" name_id="ind_prop_warehouse_lamp_ceiling_a_042" position="-8285.45 -2357.98 720" rotation="0 0 0 -1" unit_id="301865">
+				<lights>
+					<table clipping_values="10000 -10000 0" color="1 1 1" enabled="true" falloff_exponent="7" far_range="350" multiplier="@ID18ceffa252d5a43d@" name="lo_omni" near_range="0" spot_angle_end="0" spot_angle_start="0"/>
+				</lights>
+			</unit_data>
 		</table>
 		<table>
-			<unit_data _prev_pos="-6275.45 -2357.98 720" _prev_rot="0 0 0 -1" continent="warehouse" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/ind_prop_warehouse_lamp_ceiling/ind_prop_warehouse_lamp_ceiling_a" name_id="ind_prop_warehouse_lamp_ceiling_a_043" position="-6275.45 -2657.98 720" rotation="0 0 0 -1" unit_id="301866"/>
+			<unit_data _prev_pos="-6275.45 -2357.98 720" _prev_rot="0 0 0 -1" continent="warehouse" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/ind_prop_warehouse_lamp_ceiling/ind_prop_warehouse_lamp_ceiling_a" name_id="ind_prop_warehouse_lamp_ceiling_a_043" position="-6275.45 -2657.98 720" rotation="0 0 0 -1" unit_id="301866">
+				<lights>
+					<table clipping_values="10000 -10000 0" color="1 1 1" enabled="true" falloff_exponent="7" far_range="350" multiplier="@ID18ceffa252d5a43d@" name="lo_omni" near_range="0" spot_angle_end="0" spot_angle_start="0"/>
+				</lights>
+			</unit_data>
 		</table>
 		<table>
-			<unit_data _prev_pos="-4980.45 637.024 725" _prev_rot="0 0 0 -1" continent="warehouse" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/ind_prop_warehouse_lamp_ceiling/ind_prop_warehouse_lamp_ceiling_a" name_id="ind_prop_warehouse_lamp_ceiling_a_044" position="-5360.45 637.024 725" rotation="0 0 0 -1" unit_id="301867"/>
+			<unit_data _prev_pos="-4980.45 637.024 725" _prev_rot="0 0 0 -1" continent="warehouse" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/ind_prop_warehouse_lamp_ceiling/ind_prop_warehouse_lamp_ceiling_a" name_id="ind_prop_warehouse_lamp_ceiling_a_044" position="-5360.45 637.024 725" rotation="0 0 0 -1" unit_id="301867">
+				<lights>
+					<table clipping_values="10000 -10000 0" color="1 1 1" enabled="true" falloff_exponent="7" far_range="350" multiplier="@ID18ceffa252d5a43d@" name="lo_omni" near_range="0" spot_angle_end="0" spot_angle_start="0"/>
+				</lights>
+			</unit_data>
 		</table>
 		<table>
 			<unit_data _prev_pos="-7117.81 -3102.45 400.056" _prev_rot="0 0 0.707107 -0.707107" continent="warehouse" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/architecture/ind/ind_ext_dock_bld/ind_ext_dock_bld_electrical_box" name_id="ind_ext_dock_bld_electrical_box_003" position="-7117.81 -3167.45 400.056" rotation="0 0 0.707107 -0.707107" unit_id="301868"/>
@@ -6843,7 +7027,11 @@
 			<unit_data _prev_pos="-5534.02 -167.813 400" _prev_rot="0 0 0.707107 -0.707107" continent="warehouse" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/off_prop_officehigh_chair/off_prop_officehigh_chair_deluxe" name_id="off_prop_officehigh_chair_deluxe_019" position="-5534.02 -167.813 400" rotation="0 0 0.649448 -0.760406" unit_id="302082"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-5672.63 -834.95 802.714" _prev_rot="0 0 -0.707107 -0.707107" continent="warehouse" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/world/props/office/computer/computer_projector" name_id="computer_projector_001" position="-5672.63 -834.95 802.714" rotation="0 0 -0.707107 -0.707107" unit_id="302083"/>
+			<unit_data _prev_pos="-5672.63 -834.95 802.714" _prev_rot="0 0 -0.707107 -0.707107" continent="warehouse" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/world/props/office/computer/computer_projector" name_id="computer_projector_001" position="-5672.63 -834.95 802.714" rotation="0 0 -0.707107 -0.707107" unit_id="302083">
+				<lights>
+					<table clipping_values="10000 -10000 0" color="1 1 1" enabled="true" falloff_exponent="1" far_range="5" multiplier="@IDbca13ba1d306f87b@" name="li_lens" near_range="1.66667" spot_angle_end="0.698132" spot_angle_start="0.698132"/>
+				</lights>
+			</unit_data>
 		</table>
 		<table>
 			<unit_data _prev_pos="-5684.21 -1469.95 748.609" _prev_rot="0 0 0 -1" continent="warehouse" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/off_prop_officehigh_projectorscreen/off_prop_officehigh_projectorscreen" name_id="off_prop_officehigh_projectorscreen_001" position="-5684.21 -1469.95 748.609" rotation="0 0 0 -1" unit_id="302084"/>
@@ -7132,6 +7320,36 @@
 		</table>
 		<table>
 			<unit_data _prev_pos="-5035 -2510 -835" _prev_rot="0 0 -0.707107 -0.707107" continent="warehouse" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc2/architecture/csb_sewer/ind_sewer_corner_a_4m" name_id="ind_sewer_corner_a_4m_018" position="-5035 -2510.5 -835" rotation="0 0 -0.707107 -0.707107" unit_id="301243"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-5899 -1548 0" _prev_rot="0 0 0.707107 -0.707107" continent="warehouse" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/architecture/ind/ind_ext_level/ind_ext_fence_2m" name_id="ind_ext_fence_2m_002" position="-5899 -1548 0" rotation="0 0 0.707107 -0.707107" unit_id="302179"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-5697.94 -1548 0" _prev_rot="0 0 0.707107 -0.707107" continent="warehouse" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 201.06 0" local_rot="0 0 0 1" name="units/payday2/architecture/ind/ind_ext_level/ind_ext_fence_2m" name_id="ind_ext_fence_2m_003" position="-5697.94 -1548 0" rotation="0 0 0.707107 -0.707107" unit_id="302180"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-5498.68 -1548 0" _prev_rot="0 0 0.707107 -0.707107" continent="warehouse" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 400.32 0" local_rot="0 0 0 1" name="units/payday2/architecture/ind/ind_ext_level/ind_ext_fence_1m" name_id="ind_ext_fence_1m_002" position="-5498.68 -1548 0" rotation="0 0 0.707107 -0.707107" unit_id="302181"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-5899 -1123 0" _prev_rot="0 0 0.707107 -0.707107" continent="warehouse" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="-425 0 0" local_rot="0 0 0 1" name="units/payday2/architecture/ind/ind_ext_level/ind_ext_fence_2m" name_id="ind_ext_fence_2m_005" position="-5899 -1123 0" rotation="0 0 0.707107 -0.707107" unit_id="302182"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-5699 -1123 0" _prev_rot="0 0 0.707107 -0.707107" continent="warehouse" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="-425 200 0" local_rot="0 0 0 1" name="units/payday2/architecture/ind/ind_ext_level/ind_ext_fence_2m" name_id="ind_ext_fence_2m_006" position="-5699 -1123 0" rotation="0 0 0.707107 -0.707107" unit_id="302183"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-5499.74 -1121.66 0" _prev_rot="0 0 0.707107 -0.707107" continent="warehouse" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="-426.34 399.26 0" local_rot="0 0 0 1" name="units/payday2/architecture/ind/ind_ext_level/ind_ext_fence_1m" name_id="ind_ext_fence_1m_004" position="-5499.74 -1121.66 0" rotation="0 0 0.707107 -0.707107" unit_id="302184"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-7701.4 1338.07 9.31323e-007" _prev_rot="0 0 -0.707107 -0.707107" continent="warehouse" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="-2886.07 -1802.4 9.31323e-007" local_rot="0 0 1 0" name="units/payday2/props/ind_prop_warehouse_set/ind_prop_warehouse_pallet_group_4a" name_id="ind_prop_warehouse_pallet_group_4a_003" position="-7701.4 1338.07 9.31323e-007" rotation="0 0 -0.707107 -0.707107" unit_id="302185"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-7450.39 1341.93 198.461" _prev_rot="0 0 -0.707107 -0.707107" continent="warehouse" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="-2889.93 -1551.39 198.461" local_rot="0 0 1 0" name="units/payday2/props/ind_prop_warehouse_set/ind_prop_warehouse_pallet_group_4b" name_id="ind_prop_warehouse_pallet_group_4b_003" position="-7450.39 1341.93 198.461" rotation="0 0 -0.707107 -0.707107" unit_id="302186"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-4525 -4475 0" _prev_rot="-0 0 -0 -1" continent="warehouse" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_hwu/architecture/warehouse/ext_warehouse_ground" name_id="ext_warehouse_ground_001" position="-4525 -4475 0" rotation="-0 0 -0 -1" unit_id="302187"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-5825 -2445 15" _prev_rot="0 0 0 -1" continent="warehouse" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="hide_plate" name="units/world/props/suburbia_manhole/suburbia_manhole" name_id="suburbia_manhole_001" position="-5825 -2445 15" rotation="-0 0 -0 -1" unit_id="302188"/>
 		</table>
 	</statics>
 	<values>
