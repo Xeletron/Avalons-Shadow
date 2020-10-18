@@ -4,7 +4,24 @@
    <bodies>
         <body name="static_body" template="static" enabled="true" >
             <object name="rp_ext_warehouse_roof"/>
-           <object name="c_convex_01" collision_type="convex"/>
+            <object name="c_convex_01" collision_type="convex"/>
+            <object name="c_convex_02" collision_type="convex"/>
+            <object name="c_convex_03" collision_type="convex"/>
+            <object name="c_convex_04" collision_type="convex"/>
+            <object name="c_convex_05" collision_type="convex"/>
+            <object name="c_convex_06" collision_type="convex"/>
+            <object name="c_convex_07" collision_type="convex"/>
+            <object name="c_convex_08" collision_type="convex"/>
+            <object name="c_convex_09" collision_type="convex"/>
+
+            <object name="c_convex_10" collision_type="convex"/>
+            <object name="c_convex_11" collision_type="convex"/>
+            <object name="c_convex_12" collision_type="convex"/>
+            <object name="c_convex_13" collision_type="convex"/>
+            <object name="c_convex_14" collision_type="convex"/>
+            <object name="c_convex_15" collision_type="convex"/>
+            <object name="c_convex_16" collision_type="convex"/>
+
             <object name="c_box_01" collision_type="box" padding="-2.5"/>
             <object name="c_box_02" collision_type="box" padding="-2.5"/>
             <object name="c_box_03" collision_type="box" padding="-2.5"/>
@@ -12,13 +29,11 @@
             <object name="c_box_05" collision_type="box" padding="-2.5"/>
             <object name="c_box_06" collision_type="box" padding="-2.5"/>
             <object name="c_box_07" collision_type="box" padding="-2.5"/>
-            <object name="c_box_08" collision_type="box" padding="-2.5"/>
-            <object name="c_box_09" collision_type="box" padding="-2.5"/>
         </body>
     </bodies>
 
-    <decal_surfaces default_material="plastic" static="true">
-        <decal_mesh enabled="true" material="plastic" name="dm_plastic"/>
+    <decal_surfaces default_material="plaster" static="true">
+        <decal_mesh enabled="true" material="metal" name="dm_metal"/>
 	</decal_surfaces>
 
     <graphics>
