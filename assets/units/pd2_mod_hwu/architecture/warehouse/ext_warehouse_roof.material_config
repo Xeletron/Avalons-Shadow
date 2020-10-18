@@ -4,4 +4,8 @@
         <diffuse_texture file="units/payday2/architecture/ind/ind_ext_level/ind_ext_level_roof_big_df"/>
         <bump_normal_texture file="units/payday2/architecture/ind/ind_ext_level/ind_ext_level_roof_big_nm"/>
     </material>
+    <material name="lux_int_01_wallpapertile_b" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP:RL_ENVIRONMENT:VERTEX_COLOR" version="2">
+        <diffuse_texture file="units/payday2/architecture/lux/lux_int_01_wallpapertile_b_df"/>
+        <bump_normal_texture file="units/payday2/architecture/lux/lux_int_01_wallpapertile_b_nm"/>
+    </material>
 </materials>
