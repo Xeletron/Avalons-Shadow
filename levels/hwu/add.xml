@@ -170,8 +170,13 @@
 		<unit path="units/pd2_dlc_friend/architecture/ext/sfm_ext_hedges_6m" unload="true"/>
 	</add>
 	<add path="units/payday2/architecture/str_bdrop_buildings_forest/str_bdrop_buildings_forest" type="unit">
-		<unit path="units/payday2/architecture/str_bdrop_buildings_forest/str_bdrop_buildings_forest" unload="true"/>
-		<object path="units/payday2/architecture/str_bdrop_buildings_forest/str_bdrop_buildings_forest" unload="true"/>
 		<material_config path="units/payday2/architecture/str_bdrop_buildings_forest/str_bdrop_buildings_forest" unload="true"/>
+		<object path="units/payday2/architecture/str_bdrop_buildings_forest/str_bdrop_buildings_forest" unload="true"/>
+		<unit path="units/payday2/architecture/str_bdrop_buildings_forest/str_bdrop_buildings_forest" unload="true"/>
+	</add>
+	<add path="units/pd2_dlc_cro/vehicles/veh_cargo_ship/veh_cargo_ship_shoutoutraid" type="unit">
+		<unit path="units/pd2_dlc_cro/vehicles/veh_cargo_ship/veh_cargo_ship_shoutoutraid" unload="true"/>
+		<object path="units/pd2_dlc_cro/vehicles/veh_cargo_ship/veh_cargo_ship_shoutoutraid" unload="true"/>
+		<material_config path="units/pd2_dlc_cro/vehicles/veh_cargo_ship/veh_cargo_ship_shoutoutraid" unload="true"/>
 	</add>
 </table>
