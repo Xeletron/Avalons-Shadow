@@ -1,20 +1,19 @@
 <materials version="3">
     <material name="shadow_caster" render_template="shadow_caster_only" version="2"/>
-	<material name="mtr_blend_grass" decal_material="grass" render_template="generic:BLEND_DIFFUSE:BLEND_MASK_SEPERATE:DIFFUSE_TEXTURE:GLOBAL_ENVIRONMENT_MAPPING:NORMALMAP" version="2">
-		<diffuse_texture file="units/pd2_mcmansion/nature/mcm_ext_landscape/mcm_ext_landscape_tile_grass_02_df"/>
-		<bump_normal_texture file="units/pd2_mcmansion/nature/mcm_ext_landscape/mcm_ext_landscape_tile_grass_01_nm"/>
-		<diffuse_layer0_texture file="units/pd2_mcmansion/nature/mcm_ext_landscape/mcm_ext_landscape_tile_grass_01_df"/>
-		<diffuse_layer1_texture file="units/pd2_mcmansion/nature/mcm_ext_landscape/mcm_ext_landscape_tile_grass_mask_df"/>
-	</material>
-	<material name="mat_ext_grass_gravel_blend" render_template="generic:BLEND_DIFFUSE:BLEND_GSMA:BLEND_MASK_CONTROL:BLEND_MASK_CROSSBLEND:BLEND_NORMAL:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:GLOSS_BLURS_CUBEMAP:GSMA_TEXTURE:NORMALMAP:VERTEX_COLOR" version="2">
-		<diffuse_texture file="units/pd2_mcmansion/nature/mcm_ext_landscape/mcm_ext_landscape_tile_grass_02_df" />
-		<bump_normal_texture file="units/pd2_mcmansion/nature/mcm_ext_landscape/mcm_ext_landscape_tile_grass_01_nm" />
-		<diffuse_layer0_texture file="units/pd2_dlc_friend/architecture/ext/textures/sfm_ext_gravel_df" />
-		<variable name="blend_control" type="vector3" value="0.21999999880791 0 0" />
-		<normal_layer0_texture file="units/pd2_dlc_friend/architecture/ext/textures/sfm_ext_gravel_nm" />
-		<material_texture file="units/pd2_dlc_friend/architecture/ext/textures/sfm_ext_gravel_gsma" />
+	<material name="mtr_blend_grass" render_template="generic:BLEND_DIFFUSE:BLEND_GSMA:BLEND_MASK_CONTROL:BLEND_MASK_CROSSBLEND:BLEND_NORMAL:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:GLOSS_BLURS_CUBEMAP:GSMA_TEXTURE:NORMALMAP:VERTEX_COLOR" version="2">
+		<diffuse_texture file="units/pd2_dlc_friend/nature/terrain/textures/sfm_terrain_soil_df" />
+		<bump_normal_texture file="units/pd2_dlc_friend/nature/terrain/textures/sfm_terrain_soil_nm" />
+		<diffuse_layer0_texture file="units/pd2_mcmansion/nature/mcm_ext_landscape/mcm_ext_landscape_tile_grass_01_df" />
+		<variable name="blend_control" type="vector3" value="0.58999999761581 0.30000001192093 0" />
+		<normal_layer0_texture file="units/pd2_mcmansion/nature/mcm_ext_landscape/mcm_ext_landscape_tile_grass_01_nm" />
+		<material_texture file="units/pd2_dlc_friend/nature/terrain/textures/sfm_terrain_soil_gsma" />
 		<diffuse_layer2_texture file="units/pd2_dlc_friend/nature/terrain/textures/sfm_terrain_grass_gsma" />
 		<reflection_texture file="environments/cubemaps/cubemap_bank_01" type="cubemap" />
+	</material>
+	<material name="mat_ext_gravel" render_template="generic:DIFFUSE_TEXTURE:GSMA_TEXTURE:NORMALMAP:VERTEX_COLOR" version="2">
+		<diffuse_texture file="units/pd2_dlc_friend/architecture/ext/textures/sfm_ext_gravel_df" />
+		<bump_normal_texture file="units/pd2_dlc_friend/architecture/ext/textures/sfm_ext_gravel_nm" />
+		<material_texture file="units/pd2_dlc_friend/architecture/ext/textures/sfm_ext_gravel_gsma" />
 	</material>
     <material name="mat_ext_brick_floor_vtxc" render_template="generic:DIFFUSE_TEXTURE:GSMA_TEXTURE:NORMALMAP:VERTEX_COLOR" version="2">
 		<diffuse_texture file="units/pd2_dlc_friend/architecture/ext/textures/sfm_ext_brick_floor_df" />

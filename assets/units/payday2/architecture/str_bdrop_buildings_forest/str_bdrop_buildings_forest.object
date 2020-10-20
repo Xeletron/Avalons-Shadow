@@ -1,0 +1,15 @@
+<dynamic_object>
+    <diesel orientation_object="rp_str_bdrop_buildings_forest" materials="units/payday2/architecture/str_bdrop_buildings_forest/str_bdrop_buildings_forest" />
+    <bodies>
+        <body enabled="true" template="editor" name="static_body" >
+            <object collision_type="box" name="c_box_01" />
+        </body>
+    </bodies>
+    <graphics>
+        <object enabled="true" name="g_str_bdrop_buildings" />
+        <object enabled="true" name="g_str_bdrop_buildings_il" />		
+        <object enabled="true" name="g_str_bdrop_forest_01" />
+        <object enabled="true" name="g_str_bdrop_forest_02" />
+        <object enabled="true" name="g_str_bdrop_mountain" />
+    </graphics>
+</dynamic_object>

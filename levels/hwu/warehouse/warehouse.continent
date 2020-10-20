@@ -7448,7 +7448,11 @@
 			<unit_data _prev_pos="-4636.75 -3843.04 23.484" _prev_rot="0 0 0 -1" continent="warehouse" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/off_prop_appliance_computer/off_prop_appliance_computer" name_id="off_prop_appliance_computer_018" position="-4636.75 -3843.04 23.484" rotation="0 0 0.656059 -0.75471" unit_id="302232"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-4618.28 -3941.08 97.8557" _prev_rot="0 0 0.995396 0.0958458" continent="warehouse" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/props/office/desk_accessories/desk_lamp_04_omni" name_id="desk_lamp_04_omni_004" position="-4619.24 -3945.99 97.8557" rotation="0 0 0.995396 0.0958458" unit_id="302233"/>
+			<unit_data _prev_pos="-4618.28 -3941.08 97.8557" _prev_rot="0 0 0.995396 0.0958458" continent="warehouse" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/props/office/desk_accessories/desk_lamp_04_omni" name_id="desk_lamp_04_omni_004" position="-4619.24 -3945.99 97.8557" projection_light="ls_light" rotation="0 0 0.995396 0.0958458" unit_id="302233">
+				<lights>
+					<table clipping_values="10000 -10000 0" color="1 1 1" enabled="true" falloff_exponent="1" far_range="400" multiplier="@IDbca13ba1d306f87b@" name="ls_light" near_range="1.66667" spot_angle_end="0.698132" spot_angle_start="0.698132"/>
+				</lights>
+			</unit_data>
 		</table>
 		<table>
 			<unit_data _prev_pos="-4635.35 -3889.18 23.484" _prev_rot="0 0 0 -1" continent="warehouse" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/props/trashcan/trash_basket" name_id="trash_basket_007" position="-4635.35 -3889.18 23.484" rotation="0 0 0 -1" unit_id="302234"/>
@@ -7535,7 +7539,11 @@
 			<unit_data _prev_pos="-5766.31 -1699.95 799.017" _prev_rot="0 0 0 -1" continent="warehouse" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="iluminated" name="units/world/props/gym/stn_lamp_garage/stn_prop_lamp_garage" name_id="stn_prop_lamp_garage_005" position="-5766.31 -1764.95 799.017" rotation="0 0 0 -1" unit_id="302249"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-5886.27 -1520 478.65" _prev_rot="0 0 0 -1" continent="warehouse" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/props/office/desk_accessories/desk_lamp_04_omni" name_id="desk_lamp_04_omni_005" position="-5886.27 -1520 478.65" rotation="0 0 0.522499 -0.85264" unit_id="302250"/>
+			<unit_data _prev_pos="-5886.27 -1520 478.65" _prev_rot="0 0 0 -1" continent="warehouse" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/props/office/desk_accessories/desk_lamp_04_omni" name_id="desk_lamp_04_omni_005" position="-5886.27 -1520 478.65" projection_light="ls_light" rotation="0 0 0.522499 -0.85264" unit_id="302250">
+				<lights>
+					<table clipping_values="10000 -10000 0" color="1 1 1" enabled="true" falloff_exponent="1" far_range="400" multiplier="@IDbca13ba1d306f87b@" name="ls_light" near_range="1.66667" spot_angle_end="0.698132" spot_angle_start="0.698132"/>
+				</lights>
+			</unit_data>
 		</table>
 		<table>
 			<unit_data _prev_pos="-5818.93 -1494.95 643.77" _prev_rot="0 0 0 -1" continent="warehouse" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/props/office/wallclock/wallclock_01" name_id="wallclock_01_006" position="-5818.93 -1494.95 643.77" rotation="0 0 0 -1" unit_id="302251"/>
