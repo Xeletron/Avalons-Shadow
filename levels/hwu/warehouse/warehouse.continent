@@ -1680,7 +1680,7 @@
 			<unit_data _prev_pos="-8280 -2195 0" _prev_rot="0 0 -0.707107 -0.707107" continent="warehouse" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="-1990 -3490 0" local_rot="0 0 1 0" name="units/payday2/architecture/ind/ind_ext_level/ind_ext_level_0_01_door_big_v2" name_id="ind_ext_level_0_01_door_big_v2_003" position="-8280 -3195 0" rotation="0 0 -0.707107 -0.707107" unit_id="300464"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-7315 -3180 0" _prev_rot="0 0 0.707107 -0.707107" continent="warehouse" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/payday2/props/gen_prop_door_ind_01/gen_prop_door_ind_03_v2" name_id="gen_prop_door_ind_03_v2_002" position="-7315 -3180 0" rotation="0 0 0.707107 -0.707107" unit_id="300466"/>
+			<unit_data _prev_pos="-7315 -3180 0" _prev_rot="0 0 0.707107 -0.707107" continent="warehouse" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="state_open_door" name="units/payday2/props/gen_prop_door_ind_01/gen_prop_door_ind_03_v2" name_id="gen_prop_door_ind_03_v2_002" position="-7315 -3180 0" rotation="0 0 0.707107 -0.707107" unit_id="300466"/>
 		</table>
 		<table>
 			<unit_data _prev_pos="-7155 -2245 800" _prev_rot="0.707107 0.707107 -3.09086e-008 -3.09086e-008" continent="warehouse" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="-1940 -2365 800" local_rot="0 -1 4.37113e-008 0" name="units/payday2/architecture/ind/ind_ext_level/ind_ext_level_0_support_01" name_id="ind_ext_level_0_support_01_009" position="-7155 -3245 800" rotation="0.707107 0.707107 -3.09086e-008 -3.09086e-008" unit_id="300468"/>
@@ -3852,16 +3852,13 @@
 			<unit_data _prev_pos="-5197.18 2168.76 0" _prev_rot="0 0 1 -9.31323e-009" continent="warehouse" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="-6353.76 -407.18 0" local_rot="0 0 -0.707107 0.707107" name="units/payday2/props/ind_prop_warehouse_set/ind_prop_warehouse_pallet_group_4b" name_id="ind_prop_warehouse_pallet_group_4b_002" position="-5197.18 1168.76 0" rotation="0 0 1 -9.31323e-009" unit_id="301160"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-8242.08 -3186.86 -4.996" _prev_rot="0 0 -0.707107 -0.707107" continent="warehouse" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/payday2/props/gen_prop_door_ind_01/gen_prop_door_ind_03_v3" name_id="gen_prop_door_ind_03_v3_001" position="-8242.08 -3186.86 -4.996" rotation="0 0 -0.707107 -0.707107" unit_id="301163"/>
-		</table>
-		<table>
 			<unit_data _prev_pos="-6895 -3885 0" _prev_rot="-0 0 -0 -1" continent="warehouse" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="activate_door" name="units/payday2/vehicles/str_vehicle_truck_boxvan_eday/str_vehicle_truck_boxvan_eday" name_id="str_vehicle_truck_boxvan_eday_001" position="-6895 -3885 0" rotation="-0 0 -0 -1" unit_id="300467"/>
 		</table>
 		<table>
 			<unit_data _prev_pos="-7495 -3900 0" _prev_rot="-0 0 -0 -1" continent="warehouse" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="activate_door" name="units/payday2/vehicles/str_vehicle_truck_boxvan_eday/str_vehicle_truck_boxvan_eday" name_id="str_vehicle_truck_boxvan_eday_002" position="-7495 -3900 0" rotation="-0 0 -0 -1" unit_id="301162"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-1688.88 -13391.3 3795" _prev_rot="-0.5 -0.5 -0.5 -0.5" continent="warehouse" local_pos="0 -3805 0" local_rot="0 0 -1 0" name="units/payday2/vehicles/ind_bdrop_truck/ind_bdrop_truck" name_id="ind_bdrop_truck_001" position="-1688.88 -13391.3 3795" rotation="0 -0.707107 -0.707107 -0" unit_id="301164"/>
+			<unit_data _prev_pos="-6733.88 -1476.3 4845" _prev_rot="0 0.707107 0.707107 -0" continent="warehouse" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/vehicles/ind_bdrop_truck/ind_bdrop_truck" name_id="ind_bdrop_truck_001" position="-6733.88 -1476.3 4845" rotation="0.602908 0.369462 0.369462 0.602908" unit_id="301164"/>
 		</table>
 		<table>
 			<unit_data _prev_pos="-5352.93 -4458.55 396.536" _prev_rot="0 0 0 -1" continent="warehouse" local_pos="273.55 -562.93 396.536" local_rot="0 0 0.707107 0.707107" name="units/world/props/mansion/man_prop_int_lampcellarceiling/man_prop_int_lampcellarceiling" name_id="man_prop_int_lampcellarceiling_001" position="-5352.93 -5458.55 396.536" rotation="0 0 0 -1" unit_id="301165">
@@ -3998,13 +3995,13 @@
 			<unit_data _prev_pos="-7073.88 -5940.2 -1" _prev_rot="0 0 0 -1" continent="warehouse" local_pos="1755.2 -2283.88 -1" local_rot="0 0 0.707107 0.707107" name="units/payday2/props/lxa_prop_bathroom_trashcan/lxa_prop_bathroom_trashcan" name_id="lxa_prop_bathroom_trashcan_001" position="-7073.88 -6940.2 -1" rotation="0 0 0 -1" unit_id="301186"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-1688.88 -13391.3 -9.99609" _prev_rot="0.5 -0.5 0.5 -0.5" continent="warehouse" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/vehicles/ind_bdrop_truck/ind_bdrop_truck" name_id="ind_bdrop_truck_002" position="-1688.88 -13391.3 -9.99609" rotation="0.707107 0 0 -0.707107" unit_id="301187"/>
+			<unit_data _prev_pos="-6733.88 -1476.3 1040" _prev_rot="0.707107 0 0 -0.707107" continent="warehouse" local_pos="4.63227e-006 -3805 0.000622407" local_rot="0 8.9407e-008 1 1.49012e-008" name="units/payday2/vehicles/ind_bdrop_truck/ind_bdrop_truck" name_id="ind_bdrop_truck_002" position="-6733.88 -1476.3 1040" rotation="0.369462 -0.602908 0.602908 -0.369462" unit_id="301187"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-1688.88 -11576.3 2465" _prev_rot="0 -0.707107 0 -0.707107" continent="warehouse" local_pos="-1815 -2475 0" local_rot="0 0 0.707107 0.707107" name="units/payday2/vehicles/ind_bdrop_truck/ind_bdrop_truck" name_id="ind_bdrop_truck_003" position="-3503.88 -13391.3 2465" rotation="0.5 -0.5 -0.5 -0.5" unit_id="301188"/>
+			<unit_data _prev_pos="-8548.88 -1476.3 3515" _prev_rot="0.5 -0.5 -0.5 -0.5" continent="warehouse" local_pos="1815 -1330 0.000442326" local_rot="-8.9407e-008 -7.45058e-008 -0.707107 0.707107" name="units/payday2/vehicles/ind_bdrop_truck/ind_bdrop_truck" name_id="ind_bdrop_truck_003" position="-5909.89 140.878 3515" rotation="-0.165071 -0.687569 0.165071 -0.687569" unit_id="301188"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-1688.88 -15196.3 2465" _prev_rot="0.707107 -6.65896e-008 0.707107 -6.66395e-008" continent="warehouse" local_pos="1805 -2475 0" local_rot="-2.98023e-008 0 -0.707107 0.707107" name="units/payday2/vehicles/ind_bdrop_truck/ind_bdrop_truck" name_id="ind_bdrop_truck_004" position="116.12 -13391.3 2465" rotation="0.5 0.5 0.5 -0.5" unit_id="301189"/>
+			<unit_data _prev_pos="-4928.88 -1476.3 3515" _prev_rot="0.5 0.5 0.5 -0.5" continent="warehouse" local_pos="-1805 -1330 0.00013715" local_rot="2.98023e-008 -2.98023e-008 -0.707107 -0.707107" name="units/payday2/vehicles/ind_bdrop_truck/ind_bdrop_truck" name_id="ind_bdrop_truck_004" position="-7553.33 -3084.57 3515" rotation="0.687569 -0.165071 0.687569 0.165071" unit_id="301189"/>
 		</table>
 		<table>
 			<unit_data _prev_pos="-6450 0 0" _prev_rot="0 0 0.707107 -0.707107" continent="warehouse" local_pos="-4185 -1660 0" local_rot="0 0 0 1" name="units/payday2/props/ind_prop_warehouse_set/ind_prop_warehouse_palletrack_protector" name_id="ind_prop_warehouse_palletrack_protector_003" position="-6450 -1000 0" rotation="0 0 0.707107 -0.707107" unit_id="301114"/>
@@ -4274,7 +4271,7 @@
 			<unit_data _prev_pos="-9345 -5690 300" _prev_rot="0 0 0.707107 -0.707107" continent="warehouse" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="state_fence_shock_toggled_on" name="units/payday2/props/air_prop_runway_fence/air_prop_runway_fence_120" name_id="air_prop_runway_fence_120_046" position="-9345 -4890 300" rotation="0 0 0.707107 -0.707107" unit_id="301236"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-9345 -5290 300" _prev_rot="0 0 0.707107 -0.707107" continent="warehouse" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="-400 0 0" local_rot="0 0 0 1" mesh_variation="state_fence_shock_toggled_on" name="units/payday2/props/air_prop_runway_fence/air_prop_runway_fence_120" name_id="air_prop_runway_fence_120_047" position="-9345 -4490 300" rotation="0 0 0.707107 -0.707107" unit_id="301237"/>
+			<unit_data _prev_pos="-9345 -4490 300" _prev_rot="0 0 0.707107 -0.707107" continent="warehouse" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="state_fence_shock_toggled_on" name="units/payday2/props/air_prop_runway_fence/air_prop_runway_fence_120" name_id="air_prop_runway_fence_120_047" position="-9345 -4490 300" rotation="0 0 0.707107 -0.707107" unit_id="301237"/>
 		</table>
 		<table>
 			<unit_data _prev_pos="-9345 -4890 300" _prev_rot="0 0 0.707107 -0.707107" continent="warehouse" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="state_fence_shock_toggled_on" name="units/payday2/props/air_prop_runway_fence/air_prop_runway_fence_120" name_id="air_prop_runway_fence_120_048" position="-9345 -4090 300" rotation="0 0 0.707107 -0.707107" unit_id="301238"/>
@@ -4523,7 +4520,7 @@
 			<unit_data _prev_pos="-7261.73 421.333 9.31323e-007" _prev_rot="0 0 -0.707107 -0.707107" continent="warehouse" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/ind_prop_warehouse_set/ind_prop_warehouse_pallet_stack_g" name_id="ind_prop_warehouse_pallet_stack_g_002" position="-7266.73 421.333 9.31323e-007" rotation="0 0 -0.707107 -0.707107" unit_id="301312"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-6626.09 919.289 203.461" _prev_rot="0 0 0 -1" continent="warehouse" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc1/equipment/ind_interactable_shipping_crate/ind_interactable_shipping_crate" name_id="ind_interactable_shipping_crate_002" position="-6626.09 919.289 203.461" rotation="0 0 0 -1" unit_id="301313"/>
+			<unit_data _prev_pos="-6626.09 919.289 203.461" _prev_rot="0 0 0 -1" continent="warehouse" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="state_interaction_enabled" name="units/pd2_dlc1/equipment/ind_interactable_shipping_crate/ind_interactable_shipping_crate" name_id="ind_interactable_shipping_crate_002" position="-6626.09 919.289 203.461" rotation="-0 0 -0 -1" unit_id="301313"/>
 		</table>
 		<table>
 			<unit_data _prev_pos="-6634.91 785.921 9.31323e-007" _prev_rot="0 0 0 -1" continent="warehouse" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/props/mansion/man_cover_int_shipping_box_pallet/man_cover_int_shipping_box_pallet" name_id="man_cover_int_shipping_box_pallet_003" position="-6634.91 790.921 9.31323e-007" rotation="0 0 0 -1" unit_id="301314"/>
@@ -4541,7 +4538,7 @@
 			<unit_data _prev_pos="-5112.79 1949.32 9.31323e-007" _prev_rot="0 0 0 -1" continent="warehouse" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/vehicles/ind_vehicle_truck_forklift/ind_vehicle_truck_forklift_raised" name_id="ind_vehicle_truck_forklift_raised_001" position="-5112.79 1949.32 9.31323e-007" rotation="0 0 0 -1" unit_id="301318"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-5268.66 1795.09 203.457" _prev_rot="0 0 0 -1" continent="warehouse" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc1/equipment/ind_interactable_shipping_crate_2x1x1m/ind_interactable_shipping_crate_2x1x1m" name_id="ind_interactable_shipping_crate_2x1x1m_002" position="-5268.66 1795.09 203.457" rotation="0 0 0 -1" unit_id="301319"/>
+			<unit_data _prev_pos="-5268.66 1795.09 203.457" _prev_rot="0 0 0 -1" continent="warehouse" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="state_interaction_enabled" name="units/pd2_dlc1/equipment/ind_interactable_shipping_crate_2x1x1m/ind_interactable_shipping_crate_2x1x1m" name_id="ind_interactable_shipping_crate_2x1x1m_002" position="-5268.66 1795.09 203.457" rotation="-0 0 -0 -1" unit_id="301319"/>
 		</table>
 		<table>
 			<unit_data _prev_pos="-4954.17 577.453 0" _prev_rot="0 0 0.788011 -0.615661" continent="warehouse" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/vehicles/ind_vehicle_truck_forklift/ind_vehicle_truck_forklift" name_id="ind_vehicle_truck_forklift_002" position="-4886.25 560.518 0" rotation="0 0 0.788011 -0.615661" unit_id="301320"/>
@@ -4577,7 +4574,7 @@
 			<unit_data _prev_pos="-6589.29 1424.07 203.461" _prev_rot="0 0 0 -1" continent="warehouse" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="-2.07495 43.8184 -450" local_rot="0 0 0.707107 0.707107" name="units/payday2/props/ind_prop_warehouse_set/ind_prop_warehouse_pallet_stack_b" name_id="ind_prop_warehouse_pallet_stack_b_001" position="-6589.29 1424.07 203.461" rotation="0 0 -5.96046e-008 -1" unit_id="301330"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-6644.32 1417.44 9.31323e-007" _prev_rot="0 0 0 -1" continent="warehouse" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="4.55225 -11.2192 -653.461" local_rot="0 0 0.707107 0.707107" name="units/pd2_dlc1/equipment/ind_interactable_shipping_crate_2x1x1m/ind_interactable_shipping_crate_2x1x1m" name_id="ind_interactable_shipping_crate_2x1x1m_001" position="-6644.32 1417.44 6.10352e-005" rotation="0 0 -5.96046e-008 -1" unit_id="301331"/>
+			<unit_data _prev_pos="-6644.32 1417.44 6.10352e-005" _prev_rot="0 0 -5.96046e-008 -1" continent="warehouse" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="state_interaction_enabled" name="units/pd2_dlc1/equipment/ind_interactable_shipping_crate_2x1x1m/ind_interactable_shipping_crate_2x1x1m" name_id="ind_interactable_shipping_crate_2x1x1m_001" position="-6644.32 1417.44 0" rotation="0 0 0 -1" unit_id="301331"/>
 		</table>
 		<table>
 			<unit_data _prev_pos="-6475.78 1409.58 48.455" _prev_rot="0.415627 0.415627 -0.572062 -0.572061" continent="warehouse" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/ind_prop_warehouse_set/ind_prop_warehouse_pallet" name_id="ind_prop_warehouse_pallet_002" position="-6475.78 1419.58 48.455" rotation="0.415627 0.415627 -0.572062 -0.572061" unit_id="301332"/>
@@ -4601,7 +4598,7 @@
 			<unit_data _prev_pos="-7769.15 1426.36 9.31323e-007" _prev_rot="0 0 0.707107 -0.707107" continent="warehouse" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="-4.36426 -1136.05 -653.461" local_rot="0 0 0 1" name="units/payday2/props/ind_prop_warehouse_set/ind_prop_warehouse_pallet_pile" name_id="ind_prop_warehouse_pallet_pile_001" position="-7769.15 1426.36 6.10352e-005" rotation="0 0 0.707107 -0.707107" unit_id="301338"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-7875.1 1428.4 9.31323e-007" _prev_rot="0 0 0 -1" continent="warehouse" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="-6.40088 -1242 -653.461" local_rot="0 0 0.707107 0.707107" name="units/pd2_dlc1/equipment/ind_interactable_shipping_crate/ind_interactable_shipping_crate" name_id="ind_interactable_shipping_crate_001" position="-7875.1 1428.4 6.10352e-005" rotation="0 0 -5.96046e-008 -1" unit_id="301339"/>
+			<unit_data _prev_pos="-7875.1 1428.4 6.10352e-005" _prev_rot="0 0 -5.96046e-008 -1" continent="warehouse" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="state_interaction_enabled" name="units/pd2_dlc1/equipment/ind_interactable_shipping_crate/ind_interactable_shipping_crate" name_id="ind_interactable_shipping_crate_001" position="-7875.1 1428.4 0" rotation="0 0 0 -1" unit_id="301339"/>
 		</table>
 		<table>
 			<unit_data _prev_pos="-7820.68 1424.13 203.461" _prev_rot="0 0 -5.96046e-008 -1" continent="warehouse" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/ind_prop_warehouse_set/ind_prop_warehouse_pallet_stack_e" name_id="ind_prop_warehouse_pallet_stack_e_002" position="-7820.68 1424.13 203.461" rotation="0 0 -5.96046e-008 -1" unit_id="301340"/>
@@ -4628,13 +4625,13 @@
 			<unit_data _prev_pos="-8258.14 1049.86 9.31323e-007" _prev_rot="0 0 0.707107 -0.707107" continent="warehouse" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/ind_prop_warehouse_set/ind_prop_warehouse_pallet_stack_b" name_id="ind_prop_warehouse_pallet_stack_b_002" position="-8313.14 1064.86 0" rotation="0 0 0.707107 -0.707107" unit_id="301347"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-8322.28 935.23 9.31323e-007" _prev_rot="0 0 0 -1" continent="warehouse" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc1/equipment/ind_interactable_shipping_crate/ind_interactable_shipping_crate" name_id="ind_interactable_shipping_crate_003" position="-8322.28 935.23 9.31323e-007" rotation="0 0 0 -1" unit_id="301348"/>
+			<unit_data _prev_pos="-8322.28 935.23 9.31323e-007" _prev_rot="0 0 0 -1" continent="warehouse" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="state_interaction_enabled" name="units/pd2_dlc1/equipment/ind_interactable_shipping_crate/ind_interactable_shipping_crate" name_id="ind_interactable_shipping_crate_003" position="-8322.28 935.23 0" rotation="-0 0 -0 -1" unit_id="301348"/>
 		</table>
 		<table>
 			<unit_data _prev_pos="-8319.12 1234.31 9.31323e-007" _prev_rot="0 0 0.707107 -0.707107" continent="warehouse" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/props/mansion/man_cover_int_shipping_crate_wide/man_cover_int_shipping_crate_wide" name_id="man_cover_int_shipping_crate_wide_008" position="-8319.12 1224.31 9.31323e-007" rotation="0 0 0.707107 -0.707107" unit_id="301349"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-8319.12 1224.31 9.31323e-007" _prev_rot="0 0 0.707107 -0.707107" continent="warehouse" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/props/mansion/man_cover_int_shipping_crate_wide/man_cover_int_shipping_crate_wide" name_id="man_cover_int_shipping_crate_wide_009" position="-8319.12 1374.31 9.31323e-007" rotation="0 0 0.707107 -0.707107" unit_id="301350"/>
+			<unit_data _prev_pos="-8239.12 1339.31 0" _prev_rot="0 0 1 -0" continent="warehouse" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/props/mansion/man_cover_int_shipping_crate_wide/man_cover_int_shipping_crate_wide" name_id="man_cover_int_shipping_crate_wide_009" position="-8234.12 1339.31 0" rotation="0 0 1 -0" unit_id="301350"/>
 		</table>
 		<table>
 			<unit_data _prev_pos="-8319.12 1374.31 115" _prev_rot="0 0 0.707107 -0.707107" continent="warehouse" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/props/mansion/man_cover_int_shipping_crate_wide/man_cover_int_shipping_crate_wide" name_id="man_cover_int_shipping_crate_wide_010" position="-8319.12 1239.31 115" rotation="0 0 0.707107 -0.707107" unit_id="301351"/>
@@ -4646,7 +4643,7 @@
 			<unit_data _prev_pos="-7944.45 -1657.92 9.31323e-007" _prev_rot="0 0 -0.707107 -0.707107" continent="warehouse" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/ind_prop_warehouse_set/ind_prop_warehouse_pallet_group_8a" name_id="ind_prop_warehouse_pallet_group_8a_004" position="-7944.45 -1657.92 9.31323e-007" rotation="0 0 -0.707107 -0.707107" unit_id="301353"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-7761.65 -1572.75 9.31323e-007" _prev_rot="0 0 0 -1" continent="warehouse" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc1/equipment/ind_interactable_shipping_crate_2x1x1m/ind_interactable_shipping_crate_2x1x1m" name_id="ind_interactable_shipping_crate_2x1x1m_003" position="-7761.65 -1572.75 9.31323e-007" rotation="0 0 0 -1" unit_id="301354"/>
+			<unit_data _prev_pos="-7761.65 -1572.75 9.31323e-007" _prev_rot="0 0 0 -1" continent="warehouse" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="state_interaction_enabled" name="units/pd2_dlc1/equipment/ind_interactable_shipping_crate_2x1x1m/ind_interactable_shipping_crate_2x1x1m" name_id="ind_interactable_shipping_crate_2x1x1m_003" position="-7761.65 -1572.75 0" rotation="-0 0 -0 -1" unit_id="301354"/>
 		</table>
 		<table>
 			<unit_data _prev_pos="-7836.36 -3099.28 1.86265e-007" _prev_rot="0 0 0.707107 -0.707107" continent="warehouse" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/props/mansion/man_cover_int_shipping_box_pallet/man_cover_int_shipping_box_pallet" name_id="man_cover_int_shipping_box_pallet_006" position="-7836.36 -3099.28 1.86265e-007" rotation="0 0 0.707107 -0.707107" unit_id="301355"/>
@@ -4688,7 +4685,7 @@
 			<unit_data _prev_pos="-7314.9 -2000.24 203.461" _prev_rot="0 0 0.707107 -0.707107" continent="warehouse" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/ind_prop_warehouse_set/ind_prop_warehouse_pallet_group_6a" name_id="ind_prop_warehouse_pallet_group_6a_003" position="-7314.9 -2000.24 203.461" rotation="0 0 0.707107 -0.707107" unit_id="301367"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-7262.99 -2130.16 9.31323e-007" _prev_rot="0 0 0 -1" continent="warehouse" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc1/equipment/ind_interactable_shipping_crate/ind_interactable_shipping_crate" name_id="ind_interactable_shipping_crate_004" position="-7262.99 -2130.16 9.31323e-007" rotation="0 0 0 -1" unit_id="301368"/>
+			<unit_data _prev_pos="-7262.99 -2130.16 9.31323e-007" _prev_rot="0 0 0 -1" continent="warehouse" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="state_interaction_enabled" name="units/pd2_dlc1/equipment/ind_interactable_shipping_crate/ind_interactable_shipping_crate" name_id="ind_interactable_shipping_crate_004" position="-7262.99 -2130.16 0" rotation="-0 0 -0 -1" unit_id="301368"/>
 		</table>
 		<table>
 			<unit_data _prev_pos="-7313.27 -2038.26 9.53674e-007" _prev_rot="0 0 0 -1" continent="warehouse" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/props/pallet_01/pallet_pile_01" name_id="pallet_pile_01_002" position="-7313.27 -2038.26 9.53674e-007" rotation="0 0 0 -1" unit_id="301369"/>
@@ -4736,7 +4733,7 @@
 			<unit_data _prev_pos="-8461.02 -2030.26 9.31323e-007" _prev_rot="0 0 0 -1" continent="warehouse" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/ind_prop_warehouse_set/ind_prop_warehouse_pallet_stack_c" name_id="ind_prop_warehouse_pallet_stack_c_004" position="-8461.02 -2030.26 9.31323e-007" rotation="0 0 0 -1" unit_id="301383"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-8587.99 -2050.16 9.31323e-007" _prev_rot="0 0 0 -1" continent="warehouse" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc1/equipment/ind_interactable_shipping_crate/ind_interactable_shipping_crate" name_id="ind_interactable_shipping_crate_005" position="-8587.99 -2020.16 9.31323e-007" rotation="0 0 0 -1" unit_id="301384"/>
+			<unit_data _prev_pos="-8587.99 -2020.16 9.31323e-007" _prev_rot="0 0 0 -1" continent="warehouse" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="state_interaction_enabled" name="units/pd2_dlc1/equipment/ind_interactable_shipping_crate/ind_interactable_shipping_crate" name_id="ind_interactable_shipping_crate_005" position="-8587.99 -2020.16 0" rotation="-0 0 -0 -1" unit_id="301384"/>
 		</table>
 		<table>
 			<unit_data _prev_pos="-8843.47 -2001.11 9.31323e-007" _prev_rot="0 0 -0.75471 -0.656059" continent="warehouse" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/props/office/computer/computer_case" name_id="computer_case_001" position="-8843.47 -2001.11 9.31323e-007" rotation="0 0 -0.75471 -0.656059" unit_id="301385"/>
@@ -4892,7 +4889,7 @@
 			<unit_data _prev_pos="-6624.99 -1588.79 403.461" _prev_rot="0 0 -0.707107 -0.707107" continent="warehouse" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/ind_prop_warehouse_set/ind_prop_warehouse_pallet_stack_b" name_id="ind_prop_warehouse_pallet_stack_b_007" position="-6624.99 -1568.79 403.461" rotation="0 0 -0.707107 -0.707107" unit_id="301431"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-6522.06 -1573.72 403.461" _prev_rot="0 0 0 -1" continent="warehouse" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc1/equipment/ind_interactable_shipping_crate_2x1x1m/ind_interactable_shipping_crate_2x1x1m" name_id="ind_interactable_shipping_crate_2x1x1m_005" position="-6522.06 -1573.72 403.461" rotation="0 0 0 -1" unit_id="301432"/>
+			<unit_data _prev_pos="-6522.06 -1573.72 403.461" _prev_rot="0 0 0 -1" continent="warehouse" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="state_interaction_enabled" name="units/pd2_dlc1/equipment/ind_interactable_shipping_crate_2x1x1m/ind_interactable_shipping_crate_2x1x1m" name_id="ind_interactable_shipping_crate_2x1x1m_005" position="-6522.06 -1573.72 403.461" rotation="-0 0 -0 -1" unit_id="301432"/>
 		</table>
 		<table>
 			<unit_data _prev_pos="-6360.84 -1629 0" _prev_rot="0 0 0 -1" continent="warehouse" local_pos="-50 -25 -110" local_rot="0 0 -0.707107 0.707107" name="units/world/props/mansion/man_cover_int_shipping_crate_wide/man_cover_int_shipping_crate_wide" name_id="man_cover_int_shipping_crate_wide_011" position="-6360.84 -1629 0" rotation="0 0 0 -1" unit_id="301433"/>
@@ -5003,7 +5000,7 @@
 			<unit_data _prev_pos="-7215.81 -3117.56 1.86265e-007" _prev_rot="0 0 0 -1" continent="warehouse" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/ind_prop_warehouse_set/ind_prop_warehouse_pallet_stack_d" name_id="ind_prop_warehouse_pallet_stack_d_004" position="-7215.81 -3117.56 1.86265e-007" rotation="0 0 0 -1" unit_id="301468"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-8343.92 -3125.55 1.86265e-007" _prev_rot="0 0 0 -1" continent="warehouse" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc1/equipment/ind_interactable_shipping_crate/ind_interactable_shipping_crate" name_id="ind_interactable_shipping_crate_006" position="-8343.92 -3125.55 1.86265e-007" rotation="0 0 0 -1" unit_id="301469"/>
+			<unit_data _prev_pos="-8343.92 -3125.55 1.86265e-007" _prev_rot="0 0 0 -1" continent="warehouse" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="state_interaction_enabled" name="units/pd2_dlc1/equipment/ind_interactable_shipping_crate/ind_interactable_shipping_crate" name_id="ind_interactable_shipping_crate_006" position="-8343.92 -3125.55 0" rotation="-0 0 -0 -1" unit_id="301469"/>
 		</table>
 		<table>
 			<unit_data _prev_pos="-6624.59 -3122.46 1.86265e-007" _prev_rot="0 0 0 -1" continent="warehouse" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/props/mansion/man_cover_int_shipping_crate_wide/man_cover_int_shipping_crate_wide" name_id="man_cover_int_shipping_crate_wide_016" position="-6624.59 -3122.46 1.86265e-007" rotation="0 0 0 -1" unit_id="301470"/>
@@ -5126,7 +5123,7 @@
 			<unit_data _prev_pos="-5278.72 2088.81 403.457" _prev_rot="0 0 0 -1" continent="warehouse" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/ind_prop_warehouse_set/ind_prop_warehouse_pallet_stack_a" name_id="ind_prop_warehouse_pallet_stack_a_014" position="-5278.72 2098.81 403.457" rotation="0 0 0 -1" unit_id="301509"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-5554.36 2461.1 9.31323e-007" _prev_rot="0 0 0 -1" continent="warehouse" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc1/equipment/ind_interactable_shipping_crate/ind_interactable_shipping_crate" name_id="ind_interactable_shipping_crate_007" position="-5554.36 2451.1 9.31323e-007" rotation="0 0 0 -1" unit_id="301510"/>
+			<unit_data _prev_pos="-5554.36 2451.1 9.31323e-007" _prev_rot="0 0 0 -1" continent="warehouse" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="state_interaction_enabled" name="units/pd2_dlc1/equipment/ind_interactable_shipping_crate/ind_interactable_shipping_crate" name_id="ind_interactable_shipping_crate_007" position="-5554.36 2451.1 0" rotation="-0 0 -0 -1" unit_id="301510"/>
 		</table>
 		<table>
 			<unit_data _prev_pos="-7024.54 -2369.81 0" _prev_rot="0 0 0.999962 0.0087267" continent="warehouse" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/vehicles/ind_vehicle_truck_forklift/ind_vehicle_truck_forklift" name_id="ind_vehicle_truck_forklift_005" position="-7024.98 -2394.81 0" rotation="0 0 0.999962 0.00872684" unit_id="301511"/>
@@ -5150,7 +5147,7 @@
 			<unit_data _prev_pos="-6573.65 -1091.88 653.461" _prev_rot="0 0 0 -1" continent="warehouse" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/ind_prop_warehouse_set/ind_prop_warehouse_pallet_stack_g" name_id="ind_prop_warehouse_pallet_stack_g_011" position="-6573.65 -1091.88 653.461" rotation="0 0 0 -1" unit_id="301517"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-7641.75 -1109.42 9.31323e-007" _prev_rot="0 0 0 -1" continent="warehouse" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc1/equipment/ind_interactable_shipping_crate/ind_interactable_shipping_crate" name_id="ind_interactable_shipping_crate_008" position="-7641.75 -1044.42 9.31323e-007" rotation="0 0 0 -1" unit_id="301518"/>
+			<unit_data _prev_pos="-7641.75 -1044.42 9.31323e-007" _prev_rot="0 0 0 -1" continent="warehouse" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="state_interaction_enabled" name="units/pd2_dlc1/equipment/ind_interactable_shipping_crate/ind_interactable_shipping_crate" name_id="ind_interactable_shipping_crate_008" position="-7641.75 -1044.42 0" rotation="-0 0 -0 -1" unit_id="301518"/>
 		</table>
 		<table>
 			<unit_data _prev_pos="-7629 -1124.82 9.31323e-007" _prev_rot="0 0 0 -1" continent="warehouse" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/props/mansion/man_cover_int_shipping_box_pallet/man_cover_int_shipping_box_pallet" name_id="man_cover_int_shipping_box_pallet_013" position="-7629 -1124.82 9.31323e-007" rotation="0 0 0 -1" unit_id="301519"/>
@@ -5180,7 +5177,7 @@
 			<unit_data _prev_pos="-7778.22 -577.663 9.31323e-007" _prev_rot="0 0 0.707107 -0.707107" continent="warehouse" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/ind_prop_warehouse_set/ind_prop_warehouse_pallet_pile" name_id="ind_prop_warehouse_pallet_pile_024" position="-7778.22 -572.663 9.31323e-007" rotation="0 0 0.707107 -0.707107" unit_id="301527"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-7779.38 -570.596 92.9348" _prev_rot="0 0 0 -1" continent="warehouse" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc1/equipment/ind_interactable_shipping_crate_2x1x1m/ind_interactable_shipping_crate_2x1x1m" name_id="ind_interactable_shipping_crate_2x1x1m_007" position="-7779.38 -570.596 92.9348" rotation="0 0 0 -1" unit_id="301528"/>
+			<unit_data _prev_pos="-7779.38 -570.596 92.9348" _prev_rot="0 0 0 -1" continent="warehouse" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="state_interaction_enabled" name="units/pd2_dlc1/equipment/ind_interactable_shipping_crate_2x1x1m/ind_interactable_shipping_crate_2x1x1m" name_id="ind_interactable_shipping_crate_2x1x1m_007" position="-7779.38 -570.596 92.935" rotation="-0 0 -0 -1" unit_id="301528"/>
 		</table>
 		<table>
 			<unit_data _prev_pos="-6703.84 -655.853 9.31323e-007" _prev_rot="0 0 -0.707107 -0.707107" continent="warehouse" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/ind_prop_warehouse_set/ind_prop_warehouse_pallet_group_4a" name_id="ind_prop_warehouse_pallet_group_4a_006" position="-6703.84 -655.853 9.31323e-007" rotation="0 0 -0.707107 -0.707107" unit_id="301529"/>
@@ -5237,7 +5234,7 @@
 			<unit_data _prev_pos="-6808.1 -616.113 653.461" _prev_rot="0 0 0 -1" continent="warehouse" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/ind_prop_warehouse_set/ind_prop_warehouse_pallet_stack_d" name_id="ind_prop_warehouse_pallet_stack_d_014" position="-6808.1 -91.1125 653.461" rotation="0 0 0 -1" unit_id="301546"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-7886.12 -111.137 203.461" _prev_rot="0 0 0 -1" continent="warehouse" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc1/equipment/ind_interactable_shipping_crate/ind_interactable_shipping_crate" name_id="ind_interactable_shipping_crate_009" position="-7886.12 -111.137 203.461" rotation="0 0 0 -1" unit_id="301547"/>
+			<unit_data _prev_pos="-7886.12 -111.137 203.461" _prev_rot="0 0 0 -1" continent="warehouse" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="state_interaction_enabled" name="units/pd2_dlc1/equipment/ind_interactable_shipping_crate/ind_interactable_shipping_crate" name_id="ind_interactable_shipping_crate_009" position="-7886.12 -111.137 203.461" rotation="-0 0 -0 -1" unit_id="301547"/>
 		</table>
 		<table>
 			<unit_data _prev_pos="-7864.84 -4.56078 9.31323e-007" _prev_rot="0 0 0 -1" continent="warehouse" local_pos="0 0 -75" local_rot="0 0 0 1" name="units/world/props/mansion/man_cover_int_shipping_box_pallet/man_cover_int_shipping_box_pallet" name_id="man_cover_int_shipping_box_pallet_017" position="-7864.84 -4.56078 9.31323e-007" rotation="0 0 0 -1" unit_id="301548"/>
@@ -5624,13 +5621,13 @@
 			<unit_data _prev_pos="-8175 44.95 386.05" _prev_rot="0 0 0.707107 -0.707107" continent="warehouse" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/architecture/ind/ind_ext_level/ind_ext_stairs_inner_conner" name_id="ind_ext_stairs_inner_conner_010" position="-8175 29 386.05" rotation="0 0 0.707107 -0.707107" unit_id="301673"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-7274.07 -44.7791 403.461" _prev_rot="0 0 0 -1" continent="warehouse" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc1/equipment/ind_interactable_shipping_crate/ind_interactable_shipping_crate" name_id="ind_interactable_shipping_crate_010" position="-7274.07 -44.7791 403.461" rotation="0 0 0 -1" unit_id="301674"/>
+			<unit_data _prev_pos="-7274.07 -44.7791 403.461" _prev_rot="0 0 0 -1" continent="warehouse" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="state_interaction_enabled" name="units/pd2_dlc1/equipment/ind_interactable_shipping_crate/ind_interactable_shipping_crate" name_id="ind_interactable_shipping_crate_010" position="-7274.07 -44.779 403.461" rotation="-0 0 -0 -1" unit_id="301674"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-7382.67 -44.9588 403.461" _prev_rot="0 0 0 -1" continent="warehouse" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc1/equipment/ind_interactable_shipping_crate/ind_interactable_shipping_crate" name_id="ind_interactable_shipping_crate_011" position="-7382.67 -44.9588 403.461" rotation="0 0 0 -1" unit_id="301675"/>
+			<unit_data _prev_pos="-7382.67 -44.9588 403.461" _prev_rot="0 0 0 -1" continent="warehouse" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="state_interaction_enabled" name="units/pd2_dlc1/equipment/ind_interactable_shipping_crate/ind_interactable_shipping_crate" name_id="ind_interactable_shipping_crate_011" position="-7382.67 -44.959 403.461" rotation="-0 0 -0 -1" unit_id="301675"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-6823.39 -83.2772 403.461" _prev_rot="0 0 0.707107 -0.707107" continent="warehouse" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc1/equipment/ind_interactable_shipping_crate_2x1x1m/ind_interactable_shipping_crate_2x1x1m" name_id="ind_interactable_shipping_crate_2x1x1m_008" position="-6813.39 -43.2772 403.461" rotation="0 0 0.707107 -0.707107" unit_id="301676"/>
+			<unit_data _prev_pos="-6813.39 -43.2772 403.461" _prev_rot="0 0 0.707107 -0.707107" continent="warehouse" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="state_interaction_enabled" name="units/pd2_dlc1/equipment/ind_interactable_shipping_crate_2x1x1m/ind_interactable_shipping_crate_2x1x1m" name_id="ind_interactable_shipping_crate_2x1x1m_008" position="-6813.39 -43.277 403.461" rotation="0 0 0.707107 -0.707107" unit_id="301676"/>
 		</table>
 		<table>
 			<unit_data _prev_pos="-6963.57 52.7566 0" _prev_rot="0 0 0 -1" continent="warehouse" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/architecture/ind/ind_ext_level/ind_ext_stairs_support_4m_v2" name_id="ind_ext_stairs_support_4m_v2_003" position="-6958.57 42.7566 0" rotation="0 0 0 -1" unit_id="301677"/>
@@ -5645,13 +5642,13 @@
 			<unit_data _prev_pos="-7198.57 42.7566 0" _prev_rot="0 0 0 -1" continent="warehouse" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/architecture/ind/ind_ext_level/ind_ext_stairs_support_4m_v2" name_id="ind_ext_stairs_support_4m_v2_006" position="-6703.57 42.7566 0" rotation="0 0 0 -1" unit_id="301680"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-8373.94 -2031.53 504.637" _prev_rot="0 0 0 -1" continent="warehouse" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/payday2/architecture/ind/ind_ext_level/ind_ext_level_window_office" name_id="ind_ext_level_window_office_001" position="-8370.94 -2031.53 504.637" rotation="-0 0 -0 -1" unit_id="301681"/>
+			<unit_data _prev_pos="-8385.94 -2026.53 494.637" _prev_rot="0 0 0 -1" continent="warehouse" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/payday2/architecture/ind/ind_ext_level/ind_ext_level_window_office" name_id="ind_ext_level_window_office_001" position="-8385.94 -2026.53 499.637" rotation="0 0 0 -1" unit_id="301681"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-8370.94 -2136.53 504.637" _prev_rot="-0 0 -0 -1" continent="warehouse" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/payday2/architecture/ind/ind_ext_level/ind_ext_level_window_office" name_id="ind_ext_level_window_office_002" position="-8370.94 -2141.53 504.637" rotation="-0 0 -0 -1" unit_id="301682"/>
+			<unit_data _prev_pos="-8380.94 -2136.53 494.637" _prev_rot="-0 0 -0 -1" continent="warehouse" local_pos="5 -110 0" local_rot="0 0 0 1" mesh_variation="" name="units/payday2/architecture/ind/ind_ext_level/ind_ext_level_window_office" name_id="ind_ext_level_window_office_002" position="-8380.94 -2136.53 499.637" rotation="-0 0 -0 -1" unit_id="301682"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-8377.48 -2383.99 503.761" _prev_rot="0 0 0 -1" continent="warehouse" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/architecture/ind/ind_ext_level/ind_ext_level_window_office_v3" name_id="ind_ext_level_window_office_v3_001" position="-8377.48 -2383.99 503.761" rotation="0 0 0 -1" unit_id="301683"/>
+			<unit_data _prev_pos="-8377.48 -2383.99 503.761" _prev_rot="0 0 0 -1" continent="warehouse" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/architecture/ind/ind_ext_level/ind_ext_level_window_office_v3" name_id="ind_ext_level_window_office_v3_001" position="-8382.48 -2383.99 503.761" rotation="0 0 0 -1" unit_id="301683"/>
 		</table>
 		<table>
 			<unit_data _prev_pos="-6360.31 -105.297 0" _prev_rot="0 0 -0.707107 -0.707107" continent="warehouse" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/ind_prop_warehouse_set/ind_prop_warehouse_pallet_stack_b" name_id="ind_prop_warehouse_pallet_stack_b_027" position="-6380.31 -80.2972 0" rotation="0 0 -0.707107 -0.707107" unit_id="301684"/>
@@ -5741,7 +5738,7 @@
 			<unit_data _prev_pos="-6949.03 2686.32 100" _prev_rot="0 0 0.707107 -0.707107" continent="warehouse" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/ind_prop_warehouse_set/ind_prop_warehouse_pallet_group_8a" name_id="ind_prop_warehouse_pallet_group_8a_005" position="-6949.03 2711.32 100" rotation="0 0 0.707107 -0.707107" unit_id="301712"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-6873.67 2605.4 100" _prev_rot="0 0 0 -1" continent="warehouse" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc1/equipment/ind_interactable_shipping_crate_2x1x1m/ind_interactable_shipping_crate_2x1x1m" name_id="ind_interactable_shipping_crate_2x1x1m_009" position="-6873.67 2605.4 100" rotation="0 0 0 -1" unit_id="301713"/>
+			<unit_data _prev_pos="-6873.67 2605.4 100" _prev_rot="0 0 0 -1" continent="warehouse" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="state_interaction_enabled" name="units/pd2_dlc1/equipment/ind_interactable_shipping_crate_2x1x1m/ind_interactable_shipping_crate_2x1x1m" name_id="ind_interactable_shipping_crate_2x1x1m_009" position="-6873.67 2605.4 100" rotation="-0 0 -0 -1" unit_id="301713"/>
 		</table>
 		<table>
 			<unit_data _prev_pos="-6134.21 2643.53 100" _prev_rot="0 0 0 -1" continent="warehouse" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc1/equipment/ind_interactable_shipping_crate/ind_interactable_shipping_crate" name_id="ind_interactable_shipping_crate_012" position="-6134.21 2643.53 100" rotation="0 0 0 -1" unit_id="301714"/>
@@ -5756,7 +5753,7 @@
 			<unit_data _prev_pos="-5141.32 3005.35 100" _prev_rot="0 0 -0.861629 -0.507538" continent="warehouse" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/ind_prop_warehouse_set/ind_prop_warehouse_pallet" name_id="ind_prop_warehouse_pallet_012" position="-5115.08 3019.89 100" rotation="0 0 -0.861629 -0.507538" unit_id="301717"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-5122.59 3016.58 115" _prev_rot="0 0 -0.258819 -0.965926" continent="warehouse" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc1/equipment/ind_interactable_shipping_crate_2x1x1m/ind_interactable_shipping_crate_2x1x1m" name_id="ind_interactable_shipping_crate_2x1x1m_010" position="-5122.59 3016.58 120" rotation="0 0 -0.258819 -0.965926" unit_id="301718"/>
+			<unit_data _prev_pos="-5122.59 3016.58 120" _prev_rot="0 0 -0.258819 -0.965926" continent="warehouse" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="state_interaction_enabled" name="units/pd2_dlc1/equipment/ind_interactable_shipping_crate_2x1x1m/ind_interactable_shipping_crate_2x1x1m" name_id="ind_interactable_shipping_crate_2x1x1m_010" position="-5122.59 3016.58 120" rotation="0 0 -0.258819 -0.965926" unit_id="301718"/>
 		</table>
 		<table>
 			<unit_data _prev_pos="-5943.89 2656.04 100" _prev_rot="0 0 0.707107 -0.707107" continent="warehouse" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/ind_prop_warehouse_set/ind_prop_warehouse_palletrack_protector" name_id="ind_prop_warehouse_palletrack_protector_007" position="-5943.89 2706.04 100" rotation="0 0 0.707107 -0.707107" unit_id="301719"/>
@@ -7262,7 +7259,7 @@
 			<unit_data _prev_pos="-8409.95 -2780.04 400.5" _prev_rot="0 0 0.707107 -0.707107" continent="warehouse" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/props/apartment/kitchen_counter/apartment_kitchen_halfsink" name_id="apartment_kitchen_halfsink_001" position="-8409.95 -2780.04 400.5" rotation="0 0 0.707107 -0.707107" unit_id="302159"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-8386.97 -2573.08 400.5" _prev_rot="0 0 0 -1" continent="warehouse" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/lxa_prop_kitchen_cabinets/lxa_prop_kitchen_cabinets_pantry" name_id="lxa_prop_kitchen_cabinets_pantry_001" position="-8386.97 -2573.08 400.5" rotation="-0 0 -0 -1" unit_id="302160"/>
+			<unit_data _prev_pos="-8386.97 -2573.08 400.5" _prev_rot="0 0 0 -1" continent="warehouse" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/lxa_prop_kitchen_cabinets/lxa_prop_kitchen_cabinets_pantry" name_id="lxa_prop_kitchen_cabinets_pantry_001" position="-8391.97 -2573.08 400.5" rotation="0 0 0 -1" unit_id="302160"/>
 		</table>
 		<table>
 			<unit_data _prev_pos="-9072.78 -2609.44 400.5" _prev_rot="0 0 0 -1" continent="warehouse" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/props/mansion/man_cover_int_fridge/man_cover_int_fridge_closed" name_id="man_cover_int_fridge_closed_001" position="-9072.78 -2609.44 400.5" rotation="-0 0 -0 -1" unit_id="302161"/>
@@ -7406,7 +7403,157 @@
 			<unit_data _prev_pos="-7380 3305 0" _prev_rot="0 0 0.707107 -0.707107" continent="warehouse" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 -400" local_rot="0 0 0 1" name="units/payday2/architecture/ind/ind_ext_level/ind_ext_level_0_02_v2" name_id="ind_ext_level_0_02_2m_v2_041" position="-7780 3305 0" rotation="0 0 0.707107 -0.707107" unit_id="302206"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-8180 3305 400" _prev_rot="0 0 0.707107 -0.707107" continent="warehouse" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" editable_gui="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/architecture/ind/ind_ext_level/ind_ext_level_1_02_2m_v2" name_id="ind_ext_level_0_02_2m_v2_057" position="-8180 3305 400" rotation="0 0 0.707107 -0.707107" unit_id="302207"/>
+			<unit_data _prev_pos="-8180 3305 400" _prev_rot="0 0 0.707107 -0.707107" continent="warehouse" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/architecture/ind/ind_ext_level/ind_ext_level_1_02_2m_v2" name_id="ind_ext_level_0_02_2m_v2_057" position="-8180 3305 400" rotation="0 0 0.707107 -0.707107" unit_id="302207"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-5933.6 81.8463 9.31323e-007" _prev_rot="0 0 0 -1" continent="warehouse" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/props/mansion/man_cover_int_shipping_box_pallet/man_cover_int_shipping_box_pallet" name_id="man_cover_int_shipping_box_pallet_025" position="-5933.6 81.8463 9.31323e-007" rotation="0 0 0 -1" unit_id="302208"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-5933.6 81.8463 9.31323e-007" _prev_rot="0 0 0 -1" continent="warehouse" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/props/mansion/man_cover_int_shipping_box_pallet/man_cover_int_shipping_box_pallet" name_id="man_cover_int_shipping_box_pallet_026" position="-6053.6 81.8463 9.31323e-007" rotation="0 0 0 -1" unit_id="302209"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-6053.6 81.8463 70" _prev_rot="0 0 0 -1" continent="warehouse" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/props/mansion/man_cover_int_shipping_box_pallet/man_cover_int_shipping_box_pallet" name_id="man_cover_int_shipping_box_pallet_027" position="-6023.6 81.8463 70" rotation="0 0 0 -1" unit_id="302210"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-5908.6 -3.15372 9.31323e-007" _prev_rot="0 0 0 -1" continent="warehouse" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/props/mansion/man_cover_int_shipping_box_pallet/man_cover_int_shipping_box_pallet" name_id="man_cover_int_shipping_box_pallet_028" position="-5973.6 -3.15372 9.31323e-007" rotation="0 0 0 -1" unit_id="302211"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-8279.98 -1333.49 9.31323e-007" _prev_rot="0 0 0 -1" continent="warehouse" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/props/mansion/man_cover_int_shipping_crate_wide/man_cover_int_shipping_crate_wide" name_id="man_cover_int_shipping_crate_wide_030" position="-8184.98 -1183.49 0" rotation="0 0 0 -1" unit_id="302212"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-8060 -3900 0" _prev_rot="0 0 0 -1" continent="warehouse" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="activate_door" name="units/payday2/vehicles/str_vehicle_truck_boxvan_eday/str_vehicle_truck_boxvan_eday" name_id="str_vehicle_truck_boxvan_eday_003" position="-8060 -3900 0" rotation="0 0 0 -1" unit_id="302213"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-7315 -3180 0" _prev_rot="0 0 0.707107 -0.707107" continent="warehouse" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="state_open_door" name="units/payday2/props/gen_prop_door_ind_01/gen_prop_door_ind_03_v2" name_id="gen_prop_door_ind_03_v2_003" position="-7915 -3180 0" rotation="0 0 0.707107 -0.707107" unit_id="301163"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-4963.05 -4029.05 0" _prev_rot="0 0 -0.707107 -0.707107" continent="warehouse" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_berry/props/bry_prop_guardhouse/bry_prop_guardhouse" name_id="bry_prop_guardhouse_001" position="-4853.05 -4029.05 0" rotation="0 0 -0.707107 -0.707107" unit_id="302226"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-4657.07 -3918.67 23.484" _prev_rot="0 0 0.707107 -0.707107" continent="warehouse" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/off_prop_generic_desk/off_prop_generic_desk" name_id="off_prop_generic_desk_001" position="-4637.07 -3928.67 23.484" rotation="0 0 0.707107 -0.707107" unit_id="302227"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-4705.19 -3921.6 23.484" _prev_rot="0 0 0 -1" continent="warehouse" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/off_prop_officehigh_chair/off_prop_officehigh_chair_standard" name_id="off_prop_officehigh_chair_standard_017" position="-4705.19 -3921.6 23.484" rotation="0 0 -0.390731 -0.920505" unit_id="302228"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-4630.78 -3988.76 97.8557" _prev_rot="0 0 0.898794 -0.438371" continent="warehouse" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/off_prop_appliance_monitor/off_prop_appliance_monitor" name_id="off_prop_appliance_monitor_021" position="-4627.7 -3984.82 97.8557" rotation="0 0 0.898794 -0.438371" unit_id="302229"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-4644.49 -3948.31 97.8557" _prev_rot="0 0 0.803857 -0.594823" continent="warehouse" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/off_prop_appliance_keyboard/off_prop_appliance_keyboard" name_id="off_prop_appliance_keyboard_020" position="-4639.71 -3949.77 97.8557" rotation="0 0 0.803857 -0.594823" unit_id="302230"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-4660.79 -3981.44 97.8557" _prev_rot="0 0 -0.422618 -0.906308" continent="warehouse" local_pos="36.4436 -5.89906 0" local_rot="0 0 0.979925 0.199368" name="units/payday2/props/off_prop_appliance_mouse/off_prop_appliance_mouse" name_id="off_prop_appliance_mouse_021" position="-4656.01 -3982.9 97.8557" rotation="0 0 -0.422618 -0.906308" unit_id="302231"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-4636.75 -3843.04 23.484" _prev_rot="0 0 0 -1" continent="warehouse" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/off_prop_appliance_computer/off_prop_appliance_computer" name_id="off_prop_appliance_computer_018" position="-4636.75 -3843.04 23.484" rotation="0 0 0.656059 -0.75471" unit_id="302232"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-4618.28 -3941.08 97.8557" _prev_rot="0 0 0.995396 0.0958458" continent="warehouse" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/props/office/desk_accessories/desk_lamp_04_omni" name_id="desk_lamp_04_omni_004" position="-4619.24 -3945.99 97.8557" rotation="0 0 0.995396 0.0958458" unit_id="302233"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-4635.35 -3889.18 23.484" _prev_rot="0 0 0 -1" continent="warehouse" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/props/trashcan/trash_basket" name_id="trash_basket_007" position="-4635.35 -3889.18 23.484" rotation="0 0 0 -1" unit_id="302234"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-4804.91 -3818.08 23.484" _prev_rot="0 0 0 -1" continent="warehouse" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/props/office/filecabinet/prop_filecabinet_01" name_id="prop_filecabinet_01_004" position="-4839.91 -3818.08 23.484" rotation="0 0 0 -1" unit_id="302235"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-4639.69 -3890.51 100.856" _prev_rot="0 0 1 2.70084e-007" continent="warehouse" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/props/apartment/kitchen_counter/apartment_microwave" name_id="apartment_microwave_003" position="-4624.69 -3890.51 100.856" rotation="0 0 1 2.70084e-007" unit_id="302236"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-4794.8 -3861.68 163.984" _prev_rot="0 0 0 -1" continent="warehouse" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/props/diamond_heist/apartment/apartment_room/flowerpot/flowerpot" name_id="flowerpot_002" position="-4794.8 -3861.68 163.984" rotation="0 0 0 -1" unit_id="302237"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-5861.48 -1541.11 400.5" _prev_rot="0 0 0 -1" continent="warehouse" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/com_prop_election_table/com_prop_election_table" name_id="com_prop_election_table_010" position="-5861.48 -1546.11 400.5" rotation="0 0 0 -1" unit_id="302214"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-5629.11 -1553.69 400.5" _prev_rot="0 0 0.707107 -0.707107" continent="warehouse" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/off_prop_generic_filecabinet/off_prop_generic_filecabinet_h" name_id="off_prop_generic_filecabinet_h_010" position="-5629.11 -1553.69 400.5" rotation="0 0 0.707107 -0.707107" unit_id="302215"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-5629.11 -1553.69 400.5" _prev_rot="0 0 -0.707107 -0.707107" continent="warehouse" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/off_prop_generic_filecabinet/off_prop_generic_filecabinet_h" name_id="off_prop_generic_filecabinet_h_011" position="-5629.11 -1553.69 400.5" rotation="0 0 -0.707107 -0.707107" unit_id="302216"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-5629.11 -1553.69 400.5" _prev_rot="0 0 -0.707107 -0.707107" continent="warehouse" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/off_prop_generic_filecabinet/off_prop_generic_filecabinet_h" name_id="off_prop_generic_filecabinet_h_012" position="-5629.11 -1673.69 400.5" rotation="0 0 -0.707107 -0.707107" unit_id="302217"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-5629.11 -1553.69 400.5" _prev_rot="0 0 0.707107 -0.707107" continent="warehouse" local_pos="0 0 0" local_rot="0 0 -1 -8.9407e-008" name="units/payday2/props/off_prop_generic_filecabinet/off_prop_generic_filecabinet_h" name_id="off_prop_generic_filecabinet_h_013" position="-5629.11 -1673.69 400.5" rotation="0 0 0.707107 -0.707107" unit_id="302218"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-5629.11 -1553.69 400.5" _prev_rot="0 0 0.707107 -0.707107" continent="warehouse" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/off_prop_generic_filecabinet/off_prop_generic_filecabinet_h" name_id="off_prop_generic_filecabinet_h_014" position="-5399.11 -1553.69 400.5" rotation="0 0 0.707107 -0.707107" unit_id="302219"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-5398.48 -1654.23 400.5" _prev_rot="0 0 0.707107 -0.707107" continent="warehouse" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/off_prop_generic_filecabinet/off_prop_generic_filecabinet_a" name_id="off_prop_generic_filecabinet_a_001" position="-5398.48 -1654.23 400.5" rotation="0 0 0.707107 -0.707107" unit_id="302220"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-5398.48 -1654.23 400.5" _prev_rot="0 0 0.707107 -0.707107" continent="warehouse" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/off_prop_generic_filecabinet/off_prop_generic_filecabinet_a" name_id="off_prop_generic_filecabinet_a_002" position="-5398.48 -1739.23 400.5" rotation="0 0 0.707107 -0.707107" unit_id="302221"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-5398.48 -1739.23 400.5" _prev_rot="0 0 0.707107 -0.707107" continent="warehouse" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/off_prop_generic_filecabinet/off_prop_generic_filecabinet_a" name_id="off_prop_generic_filecabinet_a_003" position="-5398.48 -1824.23 400.5" rotation="0 0 0.707107 -0.707107" unit_id="302222"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-5398.48 -1824.23 400.5" _prev_rot="0 0 0.707107 -0.707107" continent="warehouse" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/off_prop_generic_filecabinet/off_prop_generic_filecabinet_a" name_id="off_prop_generic_filecabinet_a_004" position="-5398.48 -1909.23 400.5" rotation="0 0 0.707107 -0.707107" unit_id="302223"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-5864.24 -1965.74 400.5" _prev_rot="0 0 1 5.96047e-008" continent="warehouse" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/off_prop_generic_filecabinet/off_prop_generic_filecabinet_h" name_id="off_prop_generic_filecabinet_h_015" position="-5889.24 -1965.74 400.5" rotation="0 0 1 5.96047e-008" unit_id="302224"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-5889.24 -1965.74 400.5" _prev_rot="0 0 1 5.96047e-008" continent="warehouse" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/off_prop_generic_filecabinet/off_prop_generic_filecabinet_h" name_id="off_prop_generic_filecabinet_h_016" position="-5769.24 -1965.74 400.5" rotation="0 0 1 5.96047e-008" unit_id="302225"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-5769.24 -1965.74 400.5" _prev_rot="0 0 1 5.96047e-008" continent="warehouse" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/off_prop_generic_filecabinet/off_prop_generic_filecabinet_h" name_id="off_prop_generic_filecabinet_h_017" position="-5649.24 -1965.74 400.5" rotation="0 0 1 5.96047e-008" unit_id="302238"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-5917.65 -1525.04 478.65" _prev_rot="0 0 0 -1" continent="warehouse" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/off_prop_officehigh_filebox/off_prop_officehigh_filebox_long_open" name_id="off_prop_officehigh_filebox_long_open_001" position="-5917.65 -1525.04 478.65" rotation="0 0 0 -1" unit_id="302239"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-5810.88 -1533.32 478.65" _prev_rot="0 0 0.5373 -0.843391" continent="warehouse" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/off_prop_officehigh_filebox/off_prop_officehigh_filebox_short_base" name_id="off_prop_officehigh_filebox_short_base_001" position="-5806.66 -1542.39 478.65" rotation="0 0 0.5373 -0.843391" unit_id="302240"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-5847.44 -1561.41 478.65" _prev_rot="0 0 0.999657 0.026177" continent="warehouse" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/off_prop_officehigh_filebox/off_prop_officehigh_filebox_short_base" name_id="off_prop_officehigh_filebox_short_base_002" position="-5850.6 -1526.19 478.65" rotation="0 0 0.999657 0.0261768" unit_id="302241"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-5917.65 -1525.04 478.65" _prev_rot="0 0 0 -1" continent="warehouse" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/off_prop_officehigh_filebox/off_prop_officehigh_filebox_long_open" name_id="off_prop_officehigh_filebox_long_open_002" position="-5917.65 -1555.04 478.65" rotation="0 0 0 -1" unit_id="302242"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-5748.86 -1522.03 400.5" _prev_rot="0 0 0 -1" continent="warehouse" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/props/trashcan/trash_basket" name_id="trash_basket_008" position="-5748.86 -1522.03 400.5" rotation="0 0 0 -1" unit_id="302243"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-5539.31 -1919.01 400.5" _prev_rot="0 0 0 -1" continent="warehouse" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/vegetation/str_veg_potted_plant/str_veg_potted_plant" name_id="str_veg_potted_plant_018" position="-5539.31 -1919.01 400.5" rotation="0 0 0.995396 -0.0958456" unit_id="302244"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-5426.14 -1643.58 501.985" _prev_rot="0 0 0 -1" continent="warehouse" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/off_prop_officehigh_paperstacks/off_prop_officehigh_paper_stack_02" name_id="off_prop_officehigh_paper_stack_02_006" position="-5426.14 -1643.58 501.985" rotation="0 0 0 -1" unit_id="302245"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-5425.93 -1827.71 501.985" _prev_rot="0 0 0 -1" continent="warehouse" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/off_prop_officehigh_paperstacks/off_prop_officehigh_paper_stack_01" name_id="off_prop_officehigh_paper_stack_01_005" position="-5425.93 -1827.71 501.985" rotation="0 0 0 -1" unit_id="302246"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-5426.05 -1923.6 501.985" _prev_rot="0 0 0 -1" continent="warehouse" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/off_prop_officehigh_paperstacks/off_prop_officehigh_folder_holder_01" name_id="off_prop_officehigh_folder_holder_01_004" position="-5426.05 -1923.6 501.985" rotation="0 0 0 -1" unit_id="302247"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-5870.36 -1566.63 478.65" _prev_rot="0 0 0 -1" continent="warehouse" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/props/diamond_heist/apartment/apartment_room/penpaper/penpaper" name_id="penpaper_005" position="-5870.36 -1566.63 478.65" rotation="0 0 0.99863 0.0523359" unit_id="302248"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-5766.31 -1699.95 799.017" _prev_rot="0 0 0 -1" continent="warehouse" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="iluminated" name="units/world/props/gym/stn_lamp_garage/stn_prop_lamp_garage" name_id="stn_prop_lamp_garage_005" position="-5766.31 -1764.95 799.017" rotation="0 0 0 -1" unit_id="302249"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-5886.27 -1520 478.65" _prev_rot="0 0 0 -1" continent="warehouse" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/props/office/desk_accessories/desk_lamp_04_omni" name_id="desk_lamp_04_omni_005" position="-5886.27 -1520 478.65" rotation="0 0 0.522499 -0.85264" unit_id="302250"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-5818.93 -1494.95 643.77" _prev_rot="0 0 0 -1" continent="warehouse" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/props/office/wallclock/wallclock_01" name_id="wallclock_01_006" position="-5818.93 -1494.95 643.77" rotation="0 0 0 -1" unit_id="302251"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-5887.47 -1621.76 400.5" _prev_rot="0 0 0 -1" continent="warehouse" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/com_prop_election_chair/com_prop_election_chair" name_id="com_prop_election_chair_013" position="-5887.47 -1621.76 400.5" rotation="0 0 0.358368 -0.93358" unit_id="302252"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-5626.15 -1541.41 621.283" _prev_rot="0 0 0 -1" continent="warehouse" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/off_prop_officehigh_filebox/off_prop_officehigh_filebox_long_open" name_id="off_prop_officehigh_filebox_long_open_003" position="-5626.15 -1541.41 621.283" rotation="0 0 0 -1" unit_id="302253"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-5626.15 -1576.41 621.283" _prev_rot="0 0 0 -1" continent="warehouse" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/off_prop_officehigh_filebox/off_prop_officehigh_filebox_long_open" name_id="off_prop_officehigh_filebox_long_open_004" position="-5636.15 -1576.41 621.283" rotation="0 0 0 -1" unit_id="302254"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-5636.15 -1636.41 621.283" _prev_rot="0 0 0 -1" continent="warehouse" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/off_prop_officehigh_filebox/off_prop_officehigh_filebox_long_open" name_id="off_prop_officehigh_filebox_long_open_005" position="-5636.15 -1636.41 621.283" rotation="0 0 -0.422618 -0.906308" unit_id="302255"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-5645.63 -1709.26 621.283" _prev_rot="0 0 0 -1" continent="warehouse" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/off_prop_officehigh_paperstacks/off_prop_officehigh_paper_stack_02" name_id="off_prop_officehigh_paper_stack_02_007" position="-5610.63 -1709.26 621.283" rotation="0 0 0 -1" unit_id="302256"/>
 		</table>
 	</statics>
 	<values>
