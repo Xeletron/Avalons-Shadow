@@ -4,41 +4,40 @@
 		<model force="true" path="units/pd2_mod_hwu/architecture/smuggler_house/int_smuggler_house" unload="true"/>
 		<object force="true" path="units/pd2_mod_hwu/architecture/smuggler_house/int_smuggler_house" unload="true"/>
 		<unit force="true" path="units/pd2_mod_hwu/architecture/smuggler_house/int_smuggler_house" unload="true"/>
-
 		<model force="true" path="units/pd2_mod_hwu/architecture/smuggler_house/ext_smuggler_house" unload="true"/>
 		<object force="true" path="units/pd2_mod_hwu/architecture/smuggler_house/ext_smuggler_house" unload="true"/>
 		<unit force="true" path="units/pd2_mod_hwu/architecture/smuggler_house/ext_smuggler_house" unload="true"/>
-
 		<material_config force="true" path="units/pd2_mod_hwu/architecture/warehouse/warehouse" unload="true"/>
 		<model force="true" path="units/pd2_mod_hwu/architecture/warehouse/int_warehouse_floor" unload="true"/>
 		<object force="true" path="units/pd2_mod_hwu/architecture/warehouse/int_warehouse_floor" unload="true"/>
 		<unit force="true" path="units/pd2_mod_hwu/architecture/warehouse/int_warehouse_floor" unload="true"/>
-
 		<model force="true" path="units/pd2_mod_hwu/architecture/warehouse/ext_warehouse_wall_fence" unload="true"/>
 		<object force="true" path="units/pd2_mod_hwu/architecture/warehouse/ext_warehouse_wall_fence" unload="true"/>
 		<unit force="true" path="units/pd2_mod_hwu/architecture/warehouse/ext_warehouse_wall_fence" unload="true"/>
-
 		<model force="true" path="units/pd2_mod_hwu/architecture/warehouse/ext_warehouse_ground" unload="true"/>
 		<object force="true" path="units/pd2_mod_hwu/architecture/warehouse/ext_warehouse_ground" unload="true"/>
 		<unit force="true" path="units/pd2_mod_hwu/architecture/warehouse/ext_warehouse_ground" unload="true"/>
-
 		<material_config force="true" path="units/pd2_mod_hwu/architecture/warehouse/ext_warehouse_roof" unload="true"/>
 		<model force="true" path="units/pd2_mod_hwu/architecture/warehouse/ext_warehouse_roof" unload="true"/>
 		<object force="true" path="units/pd2_mod_hwu/architecture/warehouse/ext_warehouse_roof" unload="true"/>
 		<unit force="true" path="units/pd2_mod_hwu/architecture/warehouse/ext_warehouse_roof" unload="true"/>
-
 		<material_config force="true" path="units/pd2_mod_hwu/architecture/smuggler_house/ext_smuggler_house_ground" unload="true"/>
 		<model force="true" path="units/pd2_mod_hwu/architecture/smuggler_house/ext_smuggler_house_ground" unload="true"/>
 		<object force="true" path="units/pd2_mod_hwu/architecture/smuggler_house/ext_smuggler_house_ground" unload="true"/>
 		<unit force="true" path="units/pd2_mod_hwu/architecture/smuggler_house/ext_smuggler_house_ground" unload="true"/>
-
 		<unit path="units/equipment/suburbia_door_crowbar_interaction/suburbia_door_crowbar_interaction" unload="true"/>
 		<object path="units/equipment/suburbia_door_crowbar_interaction/suburbia_door_crowbar_interaction" unload="true"/>
 		<material_config path="units/equipment/suburbia_door_crowbar_interaction/suburbia_door_crowbar_interaction" unload="true"/>
 		<bnk path="soundbanks/regular_sfx" unload="true"/>
 		<bnk path="soundbanks/sfx_cft" unload="true"/>
-		<effect load="true" path="effects/particles/dest/door_wood_crowbar" unload="true"/>
 		<sequence_manager path="units/equipment/suburbia_door_crowbar_interaction/suburbia_door_crowbar_interaction" unload="true"/>
+		<unit path="units/pd2_dlc_vit/equipment/vit_interactable_hack_computer/vit_interactable_hack_computer" unload="true"/>
+		<object path="units/pd2_dlc_vit/equipment/vit_interactable_hack_computer/vit_interactable_hack_computer" unload="true"/>
+		<material_config path="units/pd2_dlc_vit/equipment/vit_interactable_hack_computer/vit_interactable_hack_computer" unload="true"/>
+		<sequence_manager path="units/pd2_dlc_vit/equipment/vit_interactable_hack_computer/vit_interactable_hack_computer" unload="true"/>
+		<bnk path="soundbanks/regular_sfx" unload="true"/>
+		<effect load="true" path="effects/particles/dest/door_wood_crowbar" unload="true"/>
+		<gui path="guis/timer_gui" unload="true"/>
 	</add>
 	<add path="units/payday2/architecture/ind/ind_ext_level/ind_ext_level_0_corner" type="unit">
 		<material_config path="units/payday2/architecture/ind/ind_ext_level/ind_ext_level" unload="true"/>
@@ -125,10 +124,49 @@
 		<unit path="units/payday2/architecture/ind/ind_ext_dock_bld/ind_ext_dock_bld_4x_roof_edge_right" unload="true"/>
 	</add>
 	<add path="units/payday2/props/air_prop_runway_fence/air_prop_runway_fence_gate" type="unit">
-		<unit path="units/payday2/props/air_prop_runway_fence/air_prop_runway_fence_gate" unload="true"/>
-		<object path="units/payday2/props/air_prop_runway_fence/air_prop_runway_fence_gate" unload="true"/>
-		<material_config path="units/payday2/props/air_prop_runway_fence/air_prop_runway_fence_gate" unload="true"/>
-		<sequence_manager path="units/payday2/props/air_prop_runway_fence/air_prop_runway_fence_gate" unload="true"/>
 		<bnk path="soundbanks/regular_sfx" unload="true"/>
+		<material_config path="units/payday2/props/air_prop_runway_fence/air_prop_runway_fence_gate" unload="true"/>
+		<object path="units/payday2/props/air_prop_runway_fence/air_prop_runway_fence_gate" unload="true"/>
+		<sequence_manager path="units/payday2/props/air_prop_runway_fence/air_prop_runway_fence_gate" unload="true"/>
+		<unit path="units/payday2/props/air_prop_runway_fence/air_prop_runway_fence_gate" unload="true"/>
+	</add>
+	<add path="units/pd2_dlc_short/props/gen_fbi_usb_stick/gen_fbi_usb_stick" type="unit">
+		<bnk path="soundbanks/regular_sfx" unload="true"/>
+		<material_config path="units/pd2_dlc_short/props/gen_fbi_usb_stick/gen_fbi_usb_stick" unload="true"/>
+		<object path="units/pd2_dlc_short/props/gen_fbi_usb_stick/gen_fbi_usb_stick" unload="true"/>
+		<sequence_manager path="units/pd2_dlc_short/props/gen_fbi_usb_stick/gen_fbi_usb_stick" unload="true"/>
+		<unit path="units/pd2_dlc_short/props/gen_fbi_usb_stick/gen_fbi_usb_stick" unload="true"/>
+	</add>
+	<add path="units/pd2_mcmansion/props/mcm_prop_garden_fence_gate_set/mcm_prop_garden_fence_25m" type="unit">
+		<material_config path="units/pd2_mcmansion/props/mcm_prop_garden_fence_gate_set/mcm_prop_garden_fence_gate_set" unload="true"/>
+		<object path="units/pd2_mcmansion/props/mcm_prop_garden_fence_gate_set/mcm_prop_garden_fence_25m" unload="true"/>
+		<unit path="units/pd2_mcmansion/props/mcm_prop_garden_fence_gate_set/mcm_prop_garden_fence_25m" unload="true"/>
+	</add>
+	<add path="units/pd2_mcmansion/props/mcm_prop_garden_fence_gate_set/mcm_prop_garden_fence_6m" type="unit">
+		<material_config path="units/pd2_mcmansion/props/mcm_prop_garden_fence_gate_set/mcm_prop_garden_fence_gate_set" unload="true"/>
+		<object path="units/pd2_mcmansion/props/mcm_prop_garden_fence_gate_set/mcm_prop_garden_fence_6m" unload="true"/>
+		<unit path="units/pd2_mcmansion/props/mcm_prop_garden_fence_gate_set/mcm_prop_garden_fence_6m" unload="true"/>
+	</add>
+	<add path="units/pd2_mcmansion/props/mcm_prop_garden_fence_gate_set/mcm_prop_garden_fence_2m" type="unit">
+		<material_config path="units/pd2_mcmansion/props/mcm_prop_garden_fence_gate_set/mcm_prop_garden_fence_gate_set" unload="true"/>
+		<object path="units/pd2_mcmansion/props/mcm_prop_garden_fence_gate_set/mcm_prop_garden_fence_2m" unload="true"/>
+		<unit path="units/pd2_mcmansion/props/mcm_prop_garden_fence_gate_set/mcm_prop_garden_fence_2m" unload="true"/>
+	</add>
+	<add path="units/pd2_mcmansion/props/mcm_prop_garden_fence_gate_set/mcm_prop_garden_fence_gate_large_van" type="unit">
+		<material_config path="units/pd2_mcmansion/props/mcm_prop_garden_fence_gate_set/mcm_prop_garden_fence_gate_set" unload="true"/>
+		<object path="units/pd2_mcmansion/props/mcm_prop_garden_fence_gate_set/mcm_prop_garden_fence_gate_large_van" unload="true"/>
+		<sequence_manager path="units/pd2_mcmansion/props/mcm_prop_garden_fence_gate_set/mcm_prop_garden_fence_gate_large_van" unload="true"/>
+		<unit path="units/pd2_mcmansion/props/mcm_prop_garden_fence_gate_set/mcm_prop_garden_fence_gate_large_van" unload="true"/>
+	</add>
+	<add path="units/pd2_mcmansion/props/mcm_prop_garden_fence_gate_set/mcm_prop_garden_fence_gate_small" type="unit">
+		<material_config path="units/pd2_mcmansion/props/mcm_prop_garden_fence_gate_set/mcm_prop_garden_fence_gate_set" unload="true"/>
+		<object path="units/pd2_mcmansion/props/mcm_prop_garden_fence_gate_set/mcm_prop_garden_fence_gate_small" unload="true"/>
+		<sequence_manager path="units/pd2_mcmansion/props/mcm_prop_garden_fence_gate_set/mcm_prop_garden_fence_gate_small" unload="true"/>
+		<unit path="units/pd2_mcmansion/props/mcm_prop_garden_fence_gate_set/mcm_prop_garden_fence_gate_small" unload="true"/>
+	</add>
+	<add path="units/pd2_dlc_friend/architecture/ext/sfm_ext_hedges_6m" type="unit">
+		<material_config path="units/pd2_dlc_friend/architecture/ext/sfm_exteriors" unload="true"/>
+		<object path="units/pd2_dlc_friend/architecture/ext/sfm_ext_hedges_6m" unload="true"/>
+		<unit path="units/pd2_dlc_friend/architecture/ext/sfm_ext_hedges_6m" unload="true"/>
 	</add>
 </table>

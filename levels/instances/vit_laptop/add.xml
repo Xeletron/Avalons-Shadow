@@ -1,0 +1,10 @@
+<table directory="assets" file="levels/instances/vit_laptop/add.xml">
+	<add path="units/pd2_dlc_vit/equipment/vit_interactable_hack_computer/vit_interactable_hack_computer" type="unit">
+		<unit path="units/pd2_dlc_vit/equipment/vit_interactable_hack_computer/vit_interactable_hack_computer" unload="true"/>
+		<object path="units/pd2_dlc_vit/equipment/vit_interactable_hack_computer/vit_interactable_hack_computer" unload="true"/>
+		<material_config path="units/pd2_dlc_vit/equipment/vit_interactable_hack_computer/vit_interactable_hack_computer" unload="true"/>
+		<sequence_manager path="units/pd2_dlc_vit/equipment/vit_interactable_hack_computer/vit_interactable_hack_computer" unload="true"/>
+		<gui path="guis/timer_gui" unload="true"/>
+		<bnk path="soundbanks/regular_sfx" unload="true"/>
+	</add>
+</table>

@@ -3,31 +3,9 @@
 	<diesel materials="units/pd2_mod_hwu/architecture/smuggler_house/ext_smuggler_house_ground" orientation_object="rp_ext_smugler_house_ground" />	
    <bodies>
         <body name="static_body" template="static" enabled="true" >
-            <object name="rp_ext_house"/>
-            <object collision_type="convex" name="c_convex_01"/>
-			<object collision_type="convex" name="c_convex_02"/>
-			<object collision_type="convex" name="c_convex_03"/>
-			<object collision_type="convex" name="c_convex_04"/>
-			<object collision_type="convex" name="c_convex_05"/>
-			<object collision_type="convex" name="c_convex_06"/>
-            <object collision_type="convex" name="c_convex_07"/>
-			<object collision_type="convex" name="c_convex_08"/>
-			<object collision_type="convex" name="c_convex_09"/>
-			<object collision_type="convex" name="c_convex_10"/>
-			<object collision_type="convex" name="c_convex_11"/>
-			<object collision_type="convex" name="c_convex_12"/>
-            <object collision_type="convex" name="c_convex_13"/>
-            <object collision_type="convex" name="c_convex_14"/>
-           
-            <object name="c_box_01" collision_type="box" padding="-2.5"/>
-            <object name="c_box_02" collision_type="box" padding="-2.5"/>
-            <object name="c_box_03" collision_type="box" padding="-2.5"/>
-            <object name="c_box_04" collision_type="box" padding="-2.5"/>
-            <object name="c_box_05" collision_type="box" padding="-2.5"/>
-            <object name="c_box_06" collision_type="box" padding="-2.5"/>
-            <object name="c_box_07" collision_type="box" padding="-2.5"/>
-            <object name="c_box_08" collision_type="box" padding="-2.5"/>
-            <object name="c_box_09" collision_type="box" padding="-2.5"/>
+            <object name="rp_ext_smugler_house_ground"/>
+            <object name="c_box_27" collision_type="box" padding="-2.5"/>
+            <object name="c_box_28" collision_type="box" padding="-2.5"/>
         </body>
     </bodies>
 
@@ -41,5 +19,7 @@
     <graphics>
         <object enabled="true" name="g_grass" />
         <object enabled="true" name="g_terrace" />
+        <object enabled="true" name="g_gravel" />
+        <object enabled="true" name="g_pool" />
     </graphics>
 </dynamic_object> 
