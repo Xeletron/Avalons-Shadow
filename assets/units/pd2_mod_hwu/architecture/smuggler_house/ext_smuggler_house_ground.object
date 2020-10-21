@@ -12,8 +12,12 @@
 			<object name="c_convex_06" collision_type="convex" padding="-2.5" />
 			<object name="c_convex_07" collision_type="convex" padding="-2.5" />
 			<object name="c_convex_08" collision_type="convex" padding="-2.5" />
+            <object name="c_convex_09" collision_type="convex" padding="-2.5" />
+			<object name="c_convex_10" collision_type="convex" padding="-2.5" />
 
             <object name="c_mesh_01" collision_type="mesh_mopp" />
+            <object name="c_mesh_02" collision_type="mesh_mopp" />
+            <object name="c_mesh_03" collision_type="mesh_mopp" />
 
             <object name="c_box_01" collision_type="box" padding="-2.5"/>
             <object name="c_box_02" collision_type="box" padding="-2.5"/>
@@ -67,6 +71,26 @@
             <object name="c_box_45" collision_type="box" padding="-2.5"/>
             <object name="c_box_46" collision_type="box" padding="-2.5"/>
             <object name="c_box_47" collision_type="box" padding="-2.5"/>
+            <object name="c_box_48" collision_type="box" padding="-2.5"/>
+            <object name="c_box_49" collision_type="box" padding="-2.5"/>
+
+            <object name="c_box_50" collision_type="box" padding="-2.5"/>
+            <object name="c_box_51" collision_type="box" padding="-2.5"/>
+            <object name="c_box_52" collision_type="box" padding="-2.5"/>
+            <object name="c_box_53" collision_type="box" padding="-2.5"/>
+            <object name="c_box_54" collision_type="box" padding="-2.5"/>
+            <object name="c_box_55" collision_type="box" padding="-2.5"/>
+            <object name="c_box_56" collision_type="box" padding="-2.5"/>
+            <object name="c_box_57" collision_type="box" padding="-2.5"/>
+            <object name="c_box_58" collision_type="box" padding="-2.5"/>
+            <object name="c_box_59" collision_type="box" padding="-2.5"/>
+
+            <object name="c_box_60" collision_type="box" padding="-2.5"/>
+            <object name="c_box_61" collision_type="box" padding="-2.5"/>
+            <object name="c_box_62" collision_type="box" padding="-2.5"/>
+            <object name="c_box_63" collision_type="box" padding="-2.5"/>
+            <object name="c_box_64" collision_type="box" padding="-2.5"/>
+            <object name="c_box_65" collision_type="box" padding="-2.5"/>
         </body>
         <body name="body_nav_walk" add_ray_type="ai_vision" enabled="true" template="nav_walk">
 			<object name="rp_ext_smugler_house_ground" />
@@ -76,6 +100,8 @@
 			<object name="c_nav_walk_04" collision_type="mesh_mopp" />
 			<object name="c_nav_walk_05" collision_type="mesh_mopp" />
 			<object name="c_nav_walk_06" collision_type="mesh_mopp" />
+            <object name="c_nav_walk_07" collision_type="box" padding="-2.5"/>
+            <object name="c_nav_walk_08" collision_type="mesh_mopp" />
 		</body>
     </bodies>
 
