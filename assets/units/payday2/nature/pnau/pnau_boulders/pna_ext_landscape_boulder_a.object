@@ -1,0 +1,18 @@
+<dynamic_object>
+    <diesel orientation_object="rp_pna_ext_landscape_boulder_a" materials="units/payday2/nature/pnau/pnau_boulders/pna_ext_landscape_boulder" />
+    <bodies>
+        <body enabled="true" template="static" name="body_static" >
+            <object name="rp_pna_ext_landscape_boulder_a" />
+            <object collision_type="convex" name="c_convex_01" />
+        </body>
+    </bodies>
+    <decal_surfaces>
+        <decal_mesh enabled="true" name="dm_stone" material="stone" />
+    </decal_surfaces>
+    <graphics>
+        <lod_object name="lod_rocks">
+            <object name="g_lod0" enabled="true"  max_distance="1000"  max_draw_lod="0" />
+            <object name="g_lod2" enabled="true" lod="1" />
+        </lod_object>
+    </graphics>
+</dynamic_object>

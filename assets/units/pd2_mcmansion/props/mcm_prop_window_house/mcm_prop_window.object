@@ -1,0 +1,54 @@
+<dynamic_object>
+	<diesel materials="units/pd2_mcmansion/props/mcm_prop_window_house/mcm_prop_window" orientation_object="rp_mcm_prop_window" />
+	<sequence_manager file="units/pd2_mcmansion/props/mcm_prop_window_house/mcm_prop_window" />
+	<animations>
+		<animation_group name="grp_anim_window" enabled="false">
+			<object name="anim_window" />
+		</animation_group>
+	</animations>
+	<bodies>
+		<body name="body_static" enabled="true" template="static">
+			<object name="rp_mcm_prop_window" />
+			<object name="c_box_02" collision_type="box" padding="-2.5" />
+			<object name="c_box_03" collision_type="box" padding="-2.5" />
+			<object name="c_window_convex" collision_type="convex" padding="-2.5" />
+			<object name="c_box_05" collision_type="box" padding="-2.5" />
+			<object name="c_box_08" collision_type="box" padding="-2.5" />
+			<object name="c_box_09" collision_type="box" padding="-2.5" />
+			<object name="c_box_011" collision_type="box" padding="-2.5" />
+		</body>
+
+		<body name="body_animated" enabled="true" template="window_animated">
+			<object name="anim_window" />
+			<object name="c_box_010" collision_type="box" padding="-2.5"/>
+		</body>
+
+		<body name="body_main_clean" enabled="true" template="window">
+			<object name="rp_mcm_prop_window" />
+			<object name="c_box_07" collision_type="box" padding="-2.5" />
+		</body>
+	</bodies>
+
+	<decal_surfaces default_material="wood">
+		<decal_mesh name="dm_glass_breakable_01" enabled="true" material="glass_breakable" />
+		<decal_mesh name="dm_glass_breakable_02" enabled="true" material="glass_breakable" />
+		<decal_mesh name="dm_main" enabled="true" material="wood" />
+	</decal_surfaces>
+	<graphics>
+		<object name="g_glass_02" enabled="true" />
+		<object name="g_glass_01" enabled="true" />
+		<object name="g_window" enabled="true" />
+		<object name="g_frame" enabled="true" />
+
+		<graphic_group name="grp_icon" enabled="true">
+			<lod_object name="lod_icon">
+				<object name="g_icon_lockpick_lod0" enabled="true"  max_distance="500" />
+				<object name="g_icon_lockpick_lod1" enabled="true" />
+			</lod_object>
+			<lod_object name="lod_icon_b">
+				<object name="g_icon_lockpick_b_lod0" enabled="true"  max_distance="500" />
+				<object name="g_icon_lockpick_b_lod1" enabled="true" />
+			</lod_object>
+		</graphic_group>
+	</graphics>
+</dynamic_object>

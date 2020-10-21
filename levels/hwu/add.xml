@@ -38,6 +38,35 @@
 		<bnk path="soundbanks/regular_sfx" unload="true"/>
 		<effect load="true" path="effects/particles/dest/door_wood_crowbar" unload="true"/>
 		<gui path="guis/timer_gui" unload="true"/>
+
+		<material_config path="units/payday2/nature/pnau/pnau_boulders/pna_ext_landscape_boulder" unload="true"/>
+		<object path="units/payday2/nature/pnau/pnau_boulders/pna_ext_landscape_cliff_e" unload="true"/>
+		<unit path="units/payday2/nature/pnau/pnau_boulders/pna_ext_landscape_cliff_e" unload="true"/>
+
+		<object path="units/payday2/nature/pnau/pnau_boulders/pna_ext_landscape_cliff_a" unload="true"/>
+		<unit path="units/payday2/nature/pnau/pnau_boulders/pna_ext_landscape_cliff_a" unload="true"/>
+
+
+		<object path="units/payday2/nature/pnau/pnau_boulders/pna_ext_landscape_boulder_c" unload="true"/>
+		<unit path="units/payday2/nature/pnau/pnau_boulders/pna_ext_landscape_boulder_c" unload="true"/>
+
+		<unit path="units/payday2/nature/pnau/pnau_boulders/pna_ext_landscape_cliff_b" unload="true"/>
+		<object path="units/payday2/nature/pnau/pnau_boulders/pna_ext_landscape_cliff_b" unload="true"/>
+
+		<object path="units/payday2/nature/pnau/pnau_boulders/pna_ext_landscape_boulder_b" unload="true"/>
+		<unit path="units/payday2/nature/pnau/pnau_boulders/pna_ext_landscape_boulder_b" unload="true"/>
+
+		<object path="units/payday2/nature/pnau/pnau_boulders/pna_ext_landscape_cliff_c" unload="true"/>
+		<unit path="units/payday2/nature/pnau/pnau_boulders/pna_ext_landscape_cliff_c" unload="true"/>
+
+		<object path="units/payday2/nature/pnau/pnau_boulders/pna_ext_landscape_cliff_f" unload="true"/>
+		<unit path="units/payday2/nature/pnau/pnau_boulders/pna_ext_landscape_cliff_f" unload="true"/>
+
+		<object path="units/payday2/nature/pnau/pnau_boulders/pna_ext_landscape_cliff_d" unload="true"/>
+		<unit path="units/payday2/nature/pnau/pnau_boulders/pna_ext_landscape_cliff_d" unload="true"/>
+
+		<object path="units/payday2/nature/pnau/pnau_boulders/pna_ext_landscape_boulder_a" unload="true"/>
+		<unit path="units/payday2/nature/pnau/pnau_boulders/pna_ext_landscape_boulder_a" unload="true"/>
 	</add>
 	<add path="units/payday2/architecture/ind/ind_ext_level/ind_ext_level_0_corner" type="unit">
 		<material_config path="units/payday2/architecture/ind/ind_ext_level/ind_ext_level" unload="true"/>
@@ -180,8 +209,73 @@
 		<unit path="units/pd2_dlc_cro/vehicles/veh_cargo_ship/veh_cargo_ship_shoutoutraid" unload="true"/>
 	</add>
 	<add path="units/payday2/architecture/com_int_basement/com_int_basement_garage_parkingline_c_8m" type="unit">
-		<unit path="units/payday2/architecture/com_int_basement/com_int_basement_garage_parkingline_c_8m" unload="true"/>
-		<object path="units/payday2/architecture/com_int_basement/com_int_basement_garage_parkingline_c_8m" unload="true"/>
 		<material_config path="units/payday2/architecture/com_int_basement/com_int_basement_garage_parkingline" unload="true"/>
+		<object path="units/payday2/architecture/com_int_basement/com_int_basement_garage_parkingline_c_8m" unload="true"/>
+		<unit path="units/payday2/architecture/com_int_basement/com_int_basement_garage_parkingline_c_8m" unload="true"/>
+	</add>
+	<add path="units/payday2/architecture/com_int_basement/com_int_basement_garage_parkingline_a" type="unit">
+		<material_config path="units/payday2/architecture/com_int_basement/com_int_basement_garage_parkingline" unload="true"/>
+		<object path="units/payday2/architecture/com_int_basement/com_int_basement_garage_parkingline_a" unload="true"/>
+		<unit path="units/payday2/architecture/com_int_basement/com_int_basement_garage_parkingline_a" unload="true"/>
+	</add>
+	<add path="units/payday2/props/ind_prop_alley_garbage_bags/ind_prop_alley_garbage_bags_03" type="unit">
+		<material_config path="units/payday2/props/ind_prop_alley_garbage_bags/ind_prop_alley_garbage_bags" unload="true"/>
+		<object path="units/payday2/props/ind_prop_alley_garbage_bags/ind_prop_alley_garbage_bags_03" unload="true"/>
+		<sequence_manager path="units/payday2/props/ind_prop_alley_garbage_bags/ind_prop_alley_garbage_bags" unload="true"/>
+		<unit path="units/payday2/props/ind_prop_alley_garbage_bags/ind_prop_alley_garbage_bags_03" unload="true"/>
+	</add>
+	<add path="units/payday2/architecture/com_ext_parking_garage/com_ext_parking_garage_decal_leak_a_1m" type="unit">
+		<material_config path="units/payday2/architecture/com_ext_parking_garage/com_ext_parking_garage_decals" unload="true"/>
+		<object path="units/payday2/architecture/com_ext_parking_garage/com_ext_parking_garage_decal_leak_a_1m" unload="true"/>
+		<unit path="units/payday2/architecture/com_ext_parking_garage/com_ext_parking_garage_decal_leak_a_1m" unload="true"/>
+	</add>
+	<add path="units/pd2_mcmansion/props/mcm_prop_window_house/mcm_prop_window" type="unit">
+		<material_config path="units/pd2_mcmansion/props/mcm_prop_window_house/mcm_prop_window" unload="true"/>
+		<material_config path="units/payday2/props/dest_glass/glass_shatter" unload="true"/>
+		<bnk path="soundbanks/regular_sfx" unload="true"/>
+		<effect load="true" path="effects/payday2/particles/window/office_divider_glass" unload="true"/>
+		<object path="units/pd2_mcmansion/props/mcm_prop_window_house/mcm_prop_window" unload="true"/>
+		<sequence_manager path="units/pd2_mcmansion/props/mcm_prop_window_house/mcm_prop_window" unload="true"/>
+		<unit path="units/pd2_mcmansion/props/mcm_prop_window_house/mcm_prop_window" unload="true"/>
+	</add>
+	<add path="units/pd2_mcmansion/nature/mcm_ext_landscape_boulders_cliffs/mcm_ext_landscape_boulder_f" type="unit">
+		<material_config path="units/pd2_mcmansion/nature/mcm_ext_landscape_boulders_cliffs/mcm_ext_landscape_boulder_d" unload="true"/>
+		<object path="units/pd2_mcmansion/nature/mcm_ext_landscape_boulders_cliffs/mcm_ext_landscape_boulder_f" unload="true"/>
+		<unit path="units/pd2_mcmansion/nature/mcm_ext_landscape_boulders_cliffs/mcm_ext_landscape_boulder_f" unload="true"/>
+	</add>
+	<add path="units/pd2_mcmansion/nature/mcm_ext_landscape_boulders_cliffs/mcm_ext_landscape_boulder_b" type="unit">
+		<material_config path="units/pd2_mcmansion/nature/mcm_ext_landscape_boulders_cliffs/mcm_ext_landscape_boulder_a" unload="true"/>
+		<object path="units/pd2_mcmansion/nature/mcm_ext_landscape_boulders_cliffs/mcm_ext_landscape_boulder_b" unload="true"/>
+		<unit path="units/pd2_mcmansion/nature/mcm_ext_landscape_boulders_cliffs/mcm_ext_landscape_boulder_b" unload="true"/>
+	</add>
+	<add path="units/pd2_mcmansion/nature/mcm_ext_landscape_boulders_cliffs/mcm_ext_landscape_boulder_e" type="unit">
+		<material_config path="units/pd2_mcmansion/nature/mcm_ext_landscape_boulders_cliffs/mcm_ext_landscape_boulder_d" unload="true"/>
+		<object path="units/pd2_mcmansion/nature/mcm_ext_landscape_boulders_cliffs/mcm_ext_landscape_boulder_e" unload="true"/>
+		<unit path="units/pd2_mcmansion/nature/mcm_ext_landscape_boulders_cliffs/mcm_ext_landscape_boulder_e" unload="true"/>
+	</add>
+	<add path="units/payday2/vegetation/str_veg_park_tree_goldenrain/str_veg_park_tree_goldenrain_b" type="unit">
+		<material_config path="units/payday2/vegetation/str_veg_park_tree_goldenrain/str_veg_park_tree_goldenrain" unload="true"/>
+		<object path="units/payday2/vegetation/str_veg_park_tree_goldenrain/str_veg_park_tree_goldenrain_b" unload="true"/>
+		<unit path="units/payday2/vegetation/str_veg_park_tree_goldenrain/str_veg_park_tree_goldenrain_b" unload="true"/>
+	</add>
+	<add path="units/pd2_mcmansion/nature/mcm_ext_landscape_boulders_cliffs/mcm_ext_landscape_boulder_a" type="unit">
+		<material_config path="units/pd2_mcmansion/nature/mcm_ext_landscape_boulders_cliffs/mcm_ext_landscape_boulder_a" unload="true"/>
+		<object path="units/pd2_mcmansion/nature/mcm_ext_landscape_boulders_cliffs/mcm_ext_landscape_boulder_a" unload="true"/>
+		<unit path="units/pd2_mcmansion/nature/mcm_ext_landscape_boulders_cliffs/mcm_ext_landscape_boulder_a" unload="true"/>
+	</add>
+	<add path="units/pd2_mcmansion/nature/mcm_ext_landscape_boulders_cliffs/mcm_ext_landscape_boulder_d" type="unit">
+		<material_config path="units/pd2_mcmansion/nature/mcm_ext_landscape_boulders_cliffs/mcm_ext_landscape_boulder_d" unload="true"/>
+		<object path="units/pd2_mcmansion/nature/mcm_ext_landscape_boulders_cliffs/mcm_ext_landscape_boulder_d" unload="true"/>
+		<unit path="units/pd2_mcmansion/nature/mcm_ext_landscape_boulders_cliffs/mcm_ext_landscape_boulder_d" unload="true"/>
+	</add>
+	<add path="units/pd2_mcmansion/nature/mcm_ext_landscape_boulders_cliffs/mcm_ext_landscape_boulder_c" type="unit">
+		<material_config path="units/pd2_mcmansion/nature/mcm_ext_landscape_boulders_cliffs/mcm_ext_landscape_boulder_a" unload="true"/>
+		<object path="units/pd2_mcmansion/nature/mcm_ext_landscape_boulders_cliffs/mcm_ext_landscape_boulder_c" unload="true"/>
+		<unit path="units/pd2_mcmansion/nature/mcm_ext_landscape_boulders_cliffs/mcm_ext_landscape_boulder_c" unload="true"/>
+	</add>
+	<add path="units/world/vegetation/jungle/largeleavebushbig_03" type="unit">
+		<material_config path="units/world/vegetation/jungle/largeleavebushbig" unload="true"/>
+		<object path="units/world/vegetation/jungle/largeleavebushbig_03" unload="true"/>
+		<unit path="units/world/vegetation/jungle/largeleavebushbig_03" unload="true"/>
 	</add>
 </table>

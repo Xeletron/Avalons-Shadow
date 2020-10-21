@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<dynamic_object>
+  <diesel materials="units/world/vegetation/jungle/largeleavebushbig" orientation_object="rp_vegetation_largeleavebushbig_03" />
+  <bodies>
+    <body name="static_body" enabled="true" template="static">
+      <object name="c_vegetation_largeleavebushbig_03_a_convex" collision_type="convex" />
+    </body>
+  </bodies>
+  <graphics>
+    <object name="g_vegetation_largeleavebush_3" enabled="true"  />
+  </graphics>
+</dynamic_object>
