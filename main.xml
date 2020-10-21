@@ -42,6 +42,8 @@
 			<value_node value="levels/narratives/e_election_day/stage_2/world"/>
 			<value_node value="levels/narratives/pbr/berry/world/world"/>
 			<value_node value="levels/narratives/bain/shadow_raid/world/world"/>
+			<value_node value="levels/narratives/bain/big/props/props"/>
+			<value_node value="levels/instances/unique/pbr/pbr_fastfood/world/world"/>
 		</packages>
 		<script_data_mods directory="scriptdata">
 			<mod replacement="objectives.objective" replacement_type="custom_xml" target_ext="objective" target_path="gamedata/objectives">
