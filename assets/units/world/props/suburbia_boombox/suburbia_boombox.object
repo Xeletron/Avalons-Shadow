@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<dynamic_object>
+	<diesel materials="units/world/props/suburbia_boombox/suburbia_boombox" orientation_object="rp_boombox" />
+	<sequence_manager file="units/world/props/suburbia_boombox/suburbia_boombox" />
+	<bodies>
+		<body name="static_body" enabled="true" template="static">
+			<object name="rp_boombox"/>
+			<object name="c_convex_01" collision_type="convex" padding="-2.5"/>
+		</body>
+	</bodies>
+		<decal_surfaces default_material="metal_chassis" static="true">
+			<decal_mesh name="dm_boombox" enabled="true" material="metal_chassis" />
+		</decal_surfaces>
+	<graphics>
+		<object name="g_boombox" enabled="true" />
+		<object name="s_boombox" enabled="true" shadow_caster="true" />
+	</graphics>
+</dynamic_object>

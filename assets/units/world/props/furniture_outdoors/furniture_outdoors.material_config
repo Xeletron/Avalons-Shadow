@@ -1,0 +1,20 @@
+<materials version="3">
+    <material name="table" render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:NORMALMAP" version="2">
+        <diffuse_texture file="units/world/props/furniture_outdoors/table_df"/>
+        <reflection_texture type="cubemap" file="environments/cubemaps/cubemap_apartment_01"/>
+        <variable value="1.6000000238419 0.22600001096725 6" type="vector3" name="environment_settings"/>
+        <bump_normal_texture file="units/world/props/furniture_outdoors/table_nm"/>
+    </material>
+    <material name="chair" render_template="generic:DIFFUSE_TEXTURE" version="2">
+        <diffuse_texture file="units/world/props/furniture_outdoors/table_df"/>
+    </material>
+    <material name="parasol" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP" version="2">
+        <diffuse_texture file="units/world/props/furniture_outdoors/parasol_df"/>
+        <bump_normal_texture file="units/world/props/furniture_outdoors/parasol_nm"/>
+    </material>
+    <material name="parasol_illum" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP" version="2">
+        <diffuse_texture file="units/world/props/furniture_outdoors/parasol_df"/>
+        <bump_normal_texture file="units/world/props/furniture_outdoors/parasol_nm"/>
+    </material>
+    <material version="2" render_template="shadow_caster_only" name="shadow_caster"/>
+</materials>

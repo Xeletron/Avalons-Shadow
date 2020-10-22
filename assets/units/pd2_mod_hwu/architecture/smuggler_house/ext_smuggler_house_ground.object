@@ -13,7 +13,10 @@
 			<object name="c_convex_07" collision_type="convex" padding="-2.5" />
 			<object name="c_convex_08" collision_type="convex" padding="-2.5" />
             <object name="c_convex_09" collision_type="convex" padding="-2.5" />
-			<object name="c_convex_10" collision_type="convex" padding="-2.5" />
+
+            <object name="c_convex_10" collision_type="convex" padding="-2.5" />
+            <object name="c_convex_11" collision_type="convex" padding="-2.5" />
+			<object name="c_convex_12" collision_type="convex" padding="-2.5" />
 
             <object name="c_mesh_01" collision_type="mesh_mopp" />
             <object name="c_mesh_02" collision_type="mesh_mopp" />
@@ -115,6 +118,13 @@
             <object name="c_box_85" collision_type="box" padding="-2.5"/>
             <object name="c_box_86" collision_type="box" padding="-2.5"/>
             <object name="c_box_87" collision_type="box" padding="-2.5"/>
+            <object name="c_box_88" collision_type="box" padding="-2.5"/>
+            <object name="c_box_89" collision_type="box" padding="-2.5"/>
+
+            <object name="c_box_90" collision_type="box" padding="-2.5"/>
+            <object name="c_box_91" collision_type="box" padding="-2.5"/>
+            <object name="c_box_92" collision_type="box" padding="-2.5"/>
+            <object name="c_box_93" collision_type="box" padding="-2.5"/>
         </body>
         <body name="body_nav_walk" add_ray_type="ai_vision" enabled="true" template="nav_walk">
 			<object name="rp_ext_smugler_house_ground" />
@@ -125,12 +135,15 @@
 			<object name="c_nav_walk_05" collision_type="mesh_mopp" />
             <object name="c_nav_walk_06" collision_type="box" padding="-2.5"/>
             <object name="c_nav_walk_07" collision_type="mesh_mopp" />
+            <object name="c_nav_walk_08" collision_type="mesh_mopp" />
 		</body>
     </bodies>
 
     <decal_surfaces default_material="plaster" static="true">
         <decal_mesh enabled="true" material="plaster" name="dm_plaster"/>
         <decal_mesh enabled="true" material="stone" name="dm_stone"/>
+        <decal_mesh enabled="true" material="tile" name="dm_tile"/>
+        <decal_mesh enabled="true" material="concrete" name="dm_concrete"/>
         <decal_mesh enabled="true" material="grass" name="dm_grass"/>
         <decal_mesh enabled="true" material="water_deep" name="dm_water_deep"/>
 	</decal_surfaces>

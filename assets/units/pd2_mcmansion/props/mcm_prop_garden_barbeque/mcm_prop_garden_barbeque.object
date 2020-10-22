@@ -1,0 +1,22 @@
+<dynamic_object>
+	<diesel materials="units/pd2_mcmansion/props/mcm_prop_garden_barbeque/mcm_prop_garden_barbeque" orientation_object="rp_mcm_prop_garden_barbeque" />
+	<bodies>
+		<body name="body_static" enabled="true" template="static">
+			<object name="rp_mcm_prop_garden_barbeque" />
+			<object name="c_convex_01" collision_type="convex" padding="-2.5" />
+			<object name="c_convex_02" collision_type="convex" padding="-2.5" />
+			<object name="c_box_01" collision_type="box" padding="-2.5" />
+			<object name="c_box_02" collision_type="box" padding="-2.5" />
+		</body>
+	</bodies>
+	<decal_surfaces default_material="metal">
+		<decal_mesh name="dm_metal" enabled="true" material="sheet_metal" />
+	</decal_surfaces>
+	<graphics>
+		<lod_object name="grp_lod_g">
+			<object name="g_lod0" enabled="true" max_distance="1500" />
+			<object name="g_lod1" enabled="true" />
+		</lod_object>
+		<object name="s_s" enabled="true" shadow_caster="true" />
+	</graphics>
+</dynamic_object>
