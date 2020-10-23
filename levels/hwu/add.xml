@@ -21,12 +21,15 @@
 		<model force="true" path="units/pd2_mod_hwu/architecture/warehouse/ext_warehouse_roof" unload="true"/>
 		<object force="true" path="units/pd2_mod_hwu/architecture/warehouse/ext_warehouse_roof" unload="true"/>
 		<unit force="true" path="units/pd2_mod_hwu/architecture/warehouse/ext_warehouse_roof" unload="true"/>
-
 		<material_config force="true" path="units/pd2_mod_hwu/architecture/hwu_backdrop/hwu_backdrop" unload="true"/>
 		<model force="true" path="units/pd2_mod_hwu/architecture/hwu_backdrop/hwu_backdrop" unload="true"/>
 		<object force="true" path="units/pd2_mod_hwu/architecture/hwu_backdrop/hwu_backdrop" unload="true"/>
 		<unit force="true" path="units/pd2_mod_hwu/architecture/hwu_backdrop/hwu_backdrop" unload="true"/>
-
+		<material_config force="true" path="units/pd2_mod_hwu/architecture/ext_manhole_caps/ext_manhole_caps" unload="true"/>
+		<model force="true" path="units/pd2_mod_hwu/architecture/ext_manhole_caps/ext_manhole_caps" unload="true"/>
+		<object force="true" path="units/pd2_mod_hwu/architecture/ext_manhole_caps/ext_manhole_caps" unload="true"/>
+		<unit force="true" path="units/pd2_mod_hwu/architecture/ext_manhole_caps/ext_manhole_caps" unload="true"/>
+		<sequence_manager force="true" path="units/pd2_mod_hwu/architecture/ext_manhole_caps/ext_manhole_caps" unload="true"/>
 		<material_config force="true" path="units/pd2_mod_hwu/architecture/smuggler_house/ext_smuggler_house_ground" unload="true"/>
 		<model force="true" path="units/pd2_mod_hwu/architecture/smuggler_house/ext_smuggler_house_ground" unload="true"/>
 		<object force="true" path="units/pd2_mod_hwu/architecture/smuggler_house/ext_smuggler_house_ground" unload="true"/>
@@ -151,14 +154,12 @@
 		<unit path="units/payday2/architecture/ind/ind_ext_dock_bld/ind_ext_dock_bld_4x_roof_edge_right" unload="true"/>
 	</add>
 	<add path="units/payday2/props/air_prop_runway_fence/air_prop_runway_fence_gate" type="unit">
-		<bnk path="soundbanks/regular_sfx" unload="true"/>
 		<material_config path="units/payday2/props/air_prop_runway_fence/air_prop_runway_fence_gate" unload="true"/>
 		<object path="units/payday2/props/air_prop_runway_fence/air_prop_runway_fence_gate" unload="true"/>
 		<sequence_manager path="units/payday2/props/air_prop_runway_fence/air_prop_runway_fence_gate" unload="true"/>
 		<unit path="units/payday2/props/air_prop_runway_fence/air_prop_runway_fence_gate" unload="true"/>
 	</add>
 	<add path="units/pd2_dlc_short/props/gen_fbi_usb_stick/gen_fbi_usb_stick" type="unit">
-		<bnk path="soundbanks/regular_sfx" unload="true"/>
 		<material_config path="units/pd2_dlc_short/props/gen_fbi_usb_stick/gen_fbi_usb_stick" unload="true"/>
 		<object path="units/pd2_dlc_short/props/gen_fbi_usb_stick/gen_fbi_usb_stick" unload="true"/>
 		<sequence_manager path="units/pd2_dlc_short/props/gen_fbi_usb_stick/gen_fbi_usb_stick" unload="true"/>
@@ -225,7 +226,6 @@
 	<add path="units/pd2_mcmansion/props/mcm_prop_window_house/mcm_prop_window" type="unit">
 		<material_config path="units/pd2_mcmansion/props/mcm_prop_window_house/mcm_prop_window" unload="true"/>
 		<material_config path="units/payday2/props/dest_glass/glass_shatter" unload="true"/>
-		<bnk path="soundbanks/regular_sfx" unload="true"/>
 		<effect load="true" path="effects/payday2/particles/window/office_divider_glass" unload="true"/>
 		<object path="units/pd2_mcmansion/props/mcm_prop_window_house/mcm_prop_window" unload="true"/>
 		<sequence_manager path="units/pd2_mcmansion/props/mcm_prop_window_house/mcm_prop_window" unload="true"/>
@@ -300,7 +300,6 @@
 	<add path="units/world/props/suburbia_boombox/suburbia_boombox" type="unit">
 		<effect load="true" path="effects/particles/dest/security_camera_dest" unload="true"/>
 		<effect load="true" path="effects/particles/dest/sparks_lamp_dest" unload="true"/>
-		<bnk path="soundbanks/regular_sfx" unload="true"/>
 		<material_config path="units/world/props/suburbia_boombox/suburbia_boombox" unload="true"/>
 		<object path="units/world/props/suburbia_boombox/suburbia_boombox" unload="true"/>
 		<sequence_manager path="units/world/props/suburbia_boombox/suburbia_boombox" unload="true"/>
@@ -374,8 +373,52 @@
 		<unit path="units/pd2_dlc_friend/props/sfm_veg_forest_wall/sfm_veg_forest_bush_04" unload="true"/>
 	</add>
 	<add path="units/pd2_dlc_friend/props/sfm_veg_forest_wall/sfm_veg_forest_bush_01" type="unit">
-		<unit path="units/pd2_dlc_friend/props/sfm_veg_forest_wall/sfm_veg_forest_bush_01" unload="true"/>
-		<object path="units/pd2_dlc_friend/props/sfm_veg_forest_wall/sfm_veg_forest_bush_01" unload="true"/>
 		<material_config path="units/pd2_dlc_friend/props/sfm_veg_forest_wall/sfm_veg_forest_wall" unload="true"/>
+		<object path="units/pd2_dlc_friend/props/sfm_veg_forest_wall/sfm_veg_forest_bush_01" unload="true"/>
+		<unit path="units/pd2_dlc_friend/props/sfm_veg_forest_wall/sfm_veg_forest_bush_01" unload="true"/>
+	</add>
+	<add path="units/payday2/characters/ene_security_1/ene_security_1" type="unit">
+		<animation_def path="anims/units/enemies/cop/cop_def" unload="true"/>
+		<animation_state_machine path="anims/units/enemies/cop/cop_machine" unload="true"/>
+		<material_config path="units/payday2/characters/ene_security_1/ene_security_1" unload="true"/>
+		<object path="units/payday2/characters/ene_security_1/ene_security_1" unload="true"/>
+		<sequence_manager path="units/payday2/characters/ragdoll" unload="true"/>
+		<unit path="units/payday2/characters/ene_security_1/ene_security_1" unload="true"/>
+	</add>
+	<add path="units/payday2/props/stn_prop_office_filecabinet_b_02/stn_prop_office_filecabinet_b_02" type="unit">
+		<material_config path="units/payday2/props/stn_prop_office_filecabinet_b_02/stn_prop_office_filecabinet_b_02" unload="true"/>
+		<object path="units/payday2/props/stn_prop_office_filecabinet_b_02/stn_prop_office_filecabinet_b_02" unload="true"/>
+		<unit path="units/payday2/props/stn_prop_office_filecabinet_b_02/stn_prop_office_filecabinet_b_02" unload="true"/>
+	</add>
+	<add path="units/world/props/gym/stn_prop_socketwire/stn_prop_socket_wire" type="unit">
+		<material_config path="units/world/props/gym/stn_prop_socketwire/stn_prop_socket_wire" unload="true"/>
+		<object path="units/world/props/gym/stn_prop_socketwire/stn_prop_socket_wire" unload="true"/>
+		<unit path="units/world/props/gym/stn_prop_socketwire/stn_prop_socket_wire" unload="true"/>
+	</add>
+	<add path="units/payday2/props/stn_prop_office_deskset_straight_a/stn_prop_office_deskset_straight_a" type="unit">
+		<effect load="true" path="effects/payday2/particles/destruction/des_paper" unload="true"/>
+		<material_config path="units/payday2/props/stn_prop_office_deskset_straight_a/stn_prop_office_deskset_straight_a" unload="true"/>
+		<object path="units/payday2/props/stn_prop_office_deskset_straight_a/stn_prop_office_deskset_straight_a" unload="true"/>
+		<sequence_manager path="units/payday2/props/stn_prop_office_deskset_straight_a/stn_prop_office_deskset_straight_a" unload="true"/>
+		<unit path="units/payday2/props/stn_prop_office_deskset_straight_a/stn_prop_office_deskset_straight_a" unload="true"/>
+	</add>
+	<add path="units/world/props/mansion/man_cover_int_shipping_box_pallet/man_cover_int_shipping_box_pallet" type="unit">
+		<material_config path="units/world/props/mansion/man_cover_int_shipping_box_pallet/man_cover_int_shipping_box_pallet" unload="true"/>
+		<object path="units/world/props/mansion/man_cover_int_shipping_box_pallet/man_cover_int_shipping_box_pallet" unload="true"/>
+		<unit path="units/world/props/mansion/man_cover_int_shipping_box_pallet/man_cover_int_shipping_box_pallet" unload="true"/>
+	</add>
+	<add path="units/dev_tools/level_tools/navigation_blocker_10" type="unit">
+		<material_config path="core/material_configs/hub_elements" unload="true"/>
+		<object path="units/dev_tools/level_tools/navigation_blocker_10" unload="true"/>
+		<unit path="units/dev_tools/level_tools/navigation_blocker_10" unload="true"/>
+	</add>
+	<add path="units/payday2/characters/ene_secret_service_1/ene_secret_service_1" type="unit">
+		<unit path="units/payday2/characters/ene_secret_service_1/ene_secret_service_1" unload="true"/>
+		<object path="units/payday2/characters/ene_secret_service_1/ene_secret_service_1" unload="true"/>
+		<material_config path="units/payday2/characters/ene_secret_service_1/ene_secret_service_1" unload="true"/>
+		<sequence_manager path="units/payday2/characters/ragdoll" unload="true"/>
+		<animation_def path="anims/units/enemies/cop/cop_def" unload="true"/>
+		<bnk path="soundbanks/regular_vox" unload="true"/>
+		<unit path="units/payday2/characters/ene_secret_service_1/ene_secret_service_1_husk" unload="true"/>
 	</add>
 </table>

@@ -1,7 +1,7 @@
 <materials version="3">
     <material render_template="generic:ALPHA_MASKED:DIFFUSE_TEXTURE:EXTERNAL_ALPHA_REF" name="blinn8" version="2">
         <diffuse_texture file="units/pd2_mod_hwu/equipment/hwu_interactable_laptop/hwu_interactable_laptop_colors"/>
-        <variable type="scalar" name="alpha_ref" value="0"/>
+        <variable type="scalar" name="alpha_ref" value="1"/>
     </material>
     <material unique="true" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP" name="mat_monitor_hack_ecm" version="2">
         <bump_normal_texture file="units/payday2/props/off_prop_appliance_monitor/monitor_nm"/>

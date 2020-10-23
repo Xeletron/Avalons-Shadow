@@ -125,6 +125,9 @@
             <object name="c_box_91" collision_type="box" padding="-2.5"/>
             <object name="c_box_92" collision_type="box" padding="-2.5"/>
             <object name="c_box_93" collision_type="box" padding="-2.5"/>
+            <object name="c_box_94" collision_type="box" padding="-2.5"/>
+            <object name="c_box_95" collision_type="box" padding="-2.5"/>
+            <object name="c_box_96" collision_type="box" padding="-2.5"/>
         </body>
         <body name="body_nav_walk" add_ray_type="ai_vision" enabled="true" template="nav_walk">
 			<object name="rp_ext_smugler_house_ground" />

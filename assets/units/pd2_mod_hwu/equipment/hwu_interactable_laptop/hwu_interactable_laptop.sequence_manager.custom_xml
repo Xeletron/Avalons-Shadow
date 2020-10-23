@@ -94,9 +94,9 @@
 			<run_sequence name="'hide_number_3'"/>
 			<run_sequence name="'hide_number_4'"/>
 		</sequence>
-		<sequence editable_state="true" name="'state_col_blue'" triggable="true">
+		<sequence editable_state="true" name="'state_col_red'" triggable="true">
 			<run_sequence name="'hide_number_1'"/>
-			<object enabled="true" name="'g_number_1_0'"/>
+			<object enabled="true" name="'g_number_1_2'"/>
 			<sound action="'play'" event="'keypad_button_press_03'" object="'rp_vit_interactable_hack_computer'"/>
 		</sequence>
 		<sequence editable_state="true" name="'state_col_green'" triggable="true">
@@ -104,14 +104,14 @@
 			<object enabled="true" name="'g_number_2_1'"/>
 			<sound action="'play'" event="'keypad_button_press_03'" object="'rp_vit_interactable_hack_computer'"/>
 		</sequence>
-		<sequence editable_state="true" name="'state_col_red'" triggable="true">
+		<sequence editable_state="true" name="'state_col_blue'" triggable="true">
 			<run_sequence name="'hide_number_3'"/>
-			<object enabled="true" name="'g_number_3_3'"/>
+			<object enabled="true" name="'g_number_3_0'"/>
 			<sound action="'play'" event="'keypad_button_press_03'" object="'rp_vit_interactable_hack_computer'"/>
 		</sequence>
 		<sequence editable_state="true" name="'state_col_yellow'" triggable="true">
 			<run_sequence name="'hide_number_4'"/>
-			<object enabled="true" name="'g_number_4_4'"/>
+			<object enabled="true" name="'g_number_4_3'"/>
 			<sound action="'play'" event="'keypad_button_press_03'" object="'rp_vit_interactable_hack_computer'"/>
 		</sequence>
 		<sequence name="'int_seq_scrolling'">
@@ -155,34 +155,28 @@
 		</sequence>
 		<sequence editable_state="true" name="'start_hack'" triggable="true">
 			<run_sequence name="'int_seq_scrolling'"/>
+			<object enabled="false" name="'g_email_correct'"/>
+			<run_sequence name="'int_seq_scrolling'" start_time="65/30"/>
+			<run_sequence name="'done_hacking'" start_time="130/30"/>
+			<run_sequence name="'code_screen_on'" start_time="130/30"/>
+		</sequence>
+
+		<sequence editable_state="true" name="'start_search'" triggable="true">
 			<object enabled="true" name="'g_window'"/>
-			<object enabled="false" name="'g_window'" start_time="67/30"/>
-			<object enabled="true" name="'g_email_01'" start_time="67/30"/>
-			<object enabled="true" name="'g_email_02'" start_time="71/30"/>
-			<object enabled="false" name="'g_email_01'" start_time="71/30"/>
+			<object enabled="false" name="'g_window'" start_time="37/30"/>
+			<object enabled="true" name="'g_email_01'" start_time="37/30"/>
+			<object enabled="true" name="'g_email_02'" start_time="51/30"/>
+			<object enabled="false" name="'g_email_01'" start_time="51/30"/>
 			<object enabled="true" name="'g_email_03'" start_time="75/30"/>
 			<object enabled="false" name="'g_email_02'" start_time="75/30"/>
-			<object enabled="true" name="'g_email_04'" start_time="79/30"/>
-			<object enabled="false" name="'g_email_03'" start_time="79/30"/>
-			<object enabled="true" name="'g_email_05'" start_time="83/30"/>
-			<object enabled="false" name="'g_email_04'" start_time="83/30"/>
-			<run_sequence name="'int_seq_scrolling'" start_time="85/30"/>
-			<object enabled="false" name="'g_email_05'" start_time="90/30"/>
-			<object enabled="true" name="'g_email_04'" start_time="90/30"/>
-			<object enabled="false" name="'g_email_04'" start_time="95/30"/>
-			<object enabled="true" name="'g_email_03'" start_time="95/30"/>
-			<object enabled="false" name="'g_email_03'" start_time="105/30"/>
-			<object enabled="true" name="'g_email_02'" start_time="105/30"/>
-			<object enabled="false" name="'g_email_02'" start_time="110/30"/>
-			<object enabled="true" name="'g_email_01'" start_time="110/30"/>
-			<object enabled="false" name="'g_email_01'" start_time="115/30"/>
-			<object enabled="true" name="'g_window'" start_time="115/30"/>
-			<object enabled="false" name="'g_cmds'" start_time="145/30"/>
-			<object enabled="false" name="'g_window'" start_time="145/30"/>
-			<object enabled="false" name="'g_cmds'" start_time="140/30"/>
+			<object enabled="true" name="'g_email_04'" start_time="93/30"/>
+			<object enabled="false" name="'g_email_03'" start_time="93/30"/>
+			<object enabled="true" name="'g_email_05'" start_time="120/30"/>
+			<object enabled="false" name="'g_email_04'" start_time="120/30"/>
 			<object enabled="true" name="'g_email_correct'" start_time="145/30"/>
-			<run_sequence name="'done_hacking'" start_time="145/30"/>
+			<run_sequence name="'done_searching'" start_time="145/30"/>
 		</sequence>
 		<sequence editable_state="false" name="'done_hacking'" triggable="false"/>
+		<sequence editable_state="false" name="'done_searching'" triggable="false"/>
 	</unit>
 </table>

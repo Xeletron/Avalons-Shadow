@@ -1,10 +1,18 @@
-<table directory="assets" file="levels/instances/vit_laptop/add.xml">
-	<add path="units/pd2_dlc_vit/equipment/vit_interactable_hack_computer/vit_interactable_hack_computer" type="unit">
-		<unit path="units/pd2_dlc_vit/equipment/vit_interactable_hack_computer/vit_interactable_hack_computer" unload="true"/>
-		<object path="units/pd2_dlc_vit/equipment/vit_interactable_hack_computer/vit_interactable_hack_computer" unload="true"/>
-		<material_config path="units/pd2_dlc_vit/equipment/vit_interactable_hack_computer/vit_interactable_hack_computer" unload="true"/>
-		<sequence_manager path="units/pd2_dlc_vit/equipment/vit_interactable_hack_computer/vit_interactable_hack_computer" unload="true"/>
+<table directory="assets">
+	<add unload_on_restart="true">
+		<texture path="units/pd2_mod_hwu/equipment/hwu_interactable_laptop/hwu_interactable_laptop_colors" unload="true"/>
+		<texture path="units/pd2_mod_hwu/equipment/hwu_interactable_laptop/computer_hack_screen_df" unload="true"/>
+		<unit path="units/pd2_mod_hwu/equipment/hwu_interactable_laptop/hwu_interactable_laptop" unload="true"/>
+		<object path="units/pd2_mod_hwu/equipment/hwu_interactable_laptop/hwu_interactable_laptop" unload="true"/>
+		<material_config path="units/pd2_mod_hwu/equipment/hwu_interactable_laptop/hwu_interactable_laptop" unload="true"/>
+		<sequence_manager path="units/pd2_mod_hwu/equipment/hwu_interactable_laptop/hwu_interactable_laptop" unload="true"/>
+		<model path="units/pd2_mod_hwu/equipment/hwu_interactable_laptop/hwu_interactable_laptop" unload="true"/>
 		<gui path="guis/timer_gui" unload="true"/>
 		<bnk path="soundbanks/regular_sfx" unload="true"/>
+
+		<material_config path="units/pd2_dlc_short/props/gen_fbi_usb_stick/gen_fbi_usb_stick" unload="true"/>
+		<object path="units/pd2_dlc_short/props/gen_fbi_usb_stick/gen_fbi_usb_stick" unload="true"/>
+		<sequence_manager path="units/pd2_dlc_short/props/gen_fbi_usb_stick/gen_fbi_usb_stick" unload="true"/>
+		<unit path="units/pd2_dlc_short/props/gen_fbi_usb_stick/gen_fbi_usb_stick" unload="true"/>
 	</add>
 </table>

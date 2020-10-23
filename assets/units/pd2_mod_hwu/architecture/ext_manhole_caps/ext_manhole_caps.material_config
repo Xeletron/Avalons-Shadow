@@ -1,0 +1,13 @@
+<materials version="3">
+	<material name="mtr_grass" render_template="generic:DIFFUSE_TEXTURE:GSMA_TEXTURE:NORMALMAP:VERTEX_COLOR" version="2">
+		<diffuse_texture file="units/pd2_mcmansion/nature/mcm_ext_landscape/mcm_ext_landscape_tile_grass_01_df"/>
+		<bump_normal_texture file="units/pd2_mcmansion/nature/mcm_ext_landscape/mcm_ext_landscape_tile_grass_01_nm"/>
+		<material_texture file="units/pd2_dlc_friend/nature/terrain/textures/sfm_terrain_grass_gsma" />
+		<reflection_texture file="environments/cubemaps/cubemap_bank_01" type="cubemap" />
+	</material>
+	<material name="mtr_gravel" render_template="generic:DIFFUSE_TEXTURE:GSMA_TEXTURE:NORMALMAP:VERTEX_COLOR" version="2">
+		<diffuse_texture file="units/pd2_dlc_friend/architecture/ext/textures/sfm_ext_gravel_df" />
+		<bump_normal_texture file="units/pd2_dlc_friend/architecture/ext/textures/sfm_ext_gravel_nm" />
+		<material_texture file="units/pd2_dlc_friend/architecture/ext/textures/sfm_ext_gravel_gsma" />
+	</material>
+</materials>
