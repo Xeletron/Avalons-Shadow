@@ -3,7 +3,7 @@
 	<Localization default="english.txt" directory="loc">
 		<loc file="english.txt" language="english"/>
 	</Localization>
-	<instance id="hwu_laptop">
+	<instance id="hwu_laptop" orig_id="hwu_laptop">
 		<include directory="levels/instances/hwu_laptop">
 			<file file="world.world" type="generic_xml"/>
 			<file file="continents.continents" type="custom_xml"/>

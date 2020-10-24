@@ -43,7 +43,7 @@
 		<sequence_manager path="units/equipment/suburbia_door_crowbar_interaction/suburbia_door_crowbar_interaction" unload="true"/>
 		<texture path="units/pd2_mod_hwu/equipment/hwu_interactable_laptop/hwu_interactable_laptop_colors" unload="true"/>
 		<texture path="units/pd2_mod_hwu/equipment/hwu_interactable_laptop/computer_hack_screen_df" unload="true"/>
-		<unit path="units/pd2_mod_hwu/equipment/hwu_interactable_laptop/hwu_interactable_laptop" unload="true"/>
+		<unit load="true" path="units/pd2_mod_hwu/equipment/hwu_interactable_laptop/hwu_interactable_laptop" unload="true"/>
 		<object path="units/pd2_mod_hwu/equipment/hwu_interactable_laptop/hwu_interactable_laptop" unload="true"/>
 		<material_config path="units/pd2_mod_hwu/equipment/hwu_interactable_laptop/hwu_interactable_laptop" unload="true"/>
 		<sequence_manager path="units/pd2_mod_hwu/equipment/hwu_interactable_laptop/hwu_interactable_laptop" unload="true"/>
@@ -165,11 +165,6 @@
 		<object path="units/pd2_dlc_short/props/gen_fbi_usb_stick/gen_fbi_usb_stick" unload="true"/>
 		<sequence_manager path="units/pd2_dlc_short/props/gen_fbi_usb_stick/gen_fbi_usb_stick" unload="true"/>
 		<unit path="units/pd2_dlc_short/props/gen_fbi_usb_stick/gen_fbi_usb_stick" unload="true"/>
-	</add>
-	<add path="units/pd2_mcmansion/props/mcm_prop_garden_fence_gate_set/mcm_prop_garden_fence_25m" type="unit">
-		<material_config path="units/pd2_mcmansion/props/mcm_prop_garden_fence_gate_set/mcm_prop_garden_fence_gate_set" unload="true"/>
-		<object path="units/pd2_mcmansion/props/mcm_prop_garden_fence_gate_set/mcm_prop_garden_fence_25m" unload="true"/>
-		<unit path="units/pd2_mcmansion/props/mcm_prop_garden_fence_gate_set/mcm_prop_garden_fence_25m" unload="true"/>
 	</add>
 	<add path="units/pd2_mcmansion/props/mcm_prop_garden_fence_gate_set/mcm_prop_garden_fence_6m" type="unit">
 		<material_config path="units/pd2_mcmansion/props/mcm_prop_garden_fence_gate_set/mcm_prop_garden_fence_gate_set" unload="true"/>
@@ -384,7 +379,7 @@
 		<material_config path="units/payday2/characters/ene_security_1/ene_security_1" unload="true"/>
 		<object path="units/payday2/characters/ene_security_1/ene_security_1" unload="true"/>
 		<sequence_manager path="units/payday2/characters/ragdoll" unload="true"/>
-		<unit path="units/payday2/characters/ene_security_1/ene_security_1" unload="true"/>
+		<unit load="true" path="units/payday2/characters/ene_security_1/ene_security_1" unload="true"/>
 	</add>
 	<add path="units/payday2/props/stn_prop_office_filecabinet_b_02/stn_prop_office_filecabinet_b_02" type="unit">
 		<material_config path="units/payday2/props/stn_prop_office_filecabinet_b_02/stn_prop_office_filecabinet_b_02" unload="true"/>
@@ -414,12 +409,22 @@
 		<unit path="units/dev_tools/level_tools/navigation_blocker_10" unload="true"/>
 	</add>
 	<add path="units/payday2/characters/ene_secret_service_1/ene_secret_service_1" type="unit">
-		<unit path="units/payday2/characters/ene_secret_service_1/ene_secret_service_1" unload="true"/>
-		<object path="units/payday2/characters/ene_secret_service_1/ene_secret_service_1" unload="true"/>
-		<material_config path="units/payday2/characters/ene_secret_service_1/ene_secret_service_1" unload="true"/>
-		<sequence_manager path="units/payday2/characters/ragdoll" unload="true"/>
+		<unit load="true" path="units/payday2/characters/ene_secret_service_1/ene_secret_service_1" unload="true"/>
+		<unit load="true" path="units/payday2/characters/ene_secret_service_1/ene_secret_service_1_husk" unload="true"/>
 		<animation_def path="anims/units/enemies/cop/cop_def" unload="true"/>
 		<bnk path="soundbanks/regular_vox" unload="true"/>
-		<unit path="units/payday2/characters/ene_secret_service_1/ene_secret_service_1_husk" unload="true"/>
+		<material_config path="units/payday2/characters/ene_secret_service_1/ene_secret_service_1" unload="true"/>
+		<object path="units/payday2/characters/ene_secret_service_1/ene_secret_service_1" unload="true"/>
+		<sequence_manager path="units/payday2/characters/ragdoll" unload="true"/>
+	</add>
+	<add path="units/pd2_dlc_casino/vegetation/sfm_veg_tree_canarypalm/sfm_veg_tree_canarypalm_large" type="unit">
+		<material_config path="units/pd2_dlc_casino/vegetation/sfm_veg_tree_canarypalm/sfm_veg_tree_canarypalm_large" unload="true"/>
+		<object path="units/pd2_dlc_casino/vegetation/sfm_veg_tree_canarypalm/sfm_veg_tree_canarypalm_large" unload="true"/>
+		<unit path="units/pd2_dlc_casino/vegetation/sfm_veg_tree_canarypalm/sfm_veg_tree_canarypalm_large" unload="true"/>
+	</add>
+	<add path="units/pd2_dlc_casino/vegetation/sfm_veg_tree_canarypalm/sfm_veg_tree_canarypalm_medium" type="unit">
+		<unit path="units/pd2_dlc_casino/vegetation/sfm_veg_tree_canarypalm/sfm_veg_tree_canarypalm_medium" unload="true"/>
+		<object path="units/pd2_dlc_casino/vegetation/sfm_veg_tree_canarypalm/sfm_veg_tree_canarypalm_medium" unload="true"/>
+		<material_config path="units/pd2_dlc_casino/vegetation/sfm_veg_tree_canarypalm/sfm_veg_tree_canarypalm_large" unload="true"/>
 	</add>
 </table>
