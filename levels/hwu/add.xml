@@ -171,11 +171,6 @@
 		<object path="units/pd2_mcmansion/props/mcm_prop_garden_fence_gate_set/mcm_prop_garden_fence_6m" unload="true"/>
 		<unit path="units/pd2_mcmansion/props/mcm_prop_garden_fence_gate_set/mcm_prop_garden_fence_6m" unload="true"/>
 	</add>
-	<add path="units/pd2_mcmansion/props/mcm_prop_garden_fence_gate_set/mcm_prop_garden_fence_2m" type="unit">
-		<material_config path="units/pd2_mcmansion/props/mcm_prop_garden_fence_gate_set/mcm_prop_garden_fence_gate_set" unload="true"/>
-		<object path="units/pd2_mcmansion/props/mcm_prop_garden_fence_gate_set/mcm_prop_garden_fence_2m" unload="true"/>
-		<unit path="units/pd2_mcmansion/props/mcm_prop_garden_fence_gate_set/mcm_prop_garden_fence_2m" unload="true"/>
-	</add>
 	<add path="units/pd2_mcmansion/props/mcm_prop_garden_fence_gate_set/mcm_prop_garden_fence_gate_large_van" type="unit">
 		<material_config path="units/pd2_mcmansion/props/mcm_prop_garden_fence_gate_set/mcm_prop_garden_fence_gate_set" unload="true"/>
 		<object path="units/pd2_mcmansion/props/mcm_prop_garden_fence_gate_set/mcm_prop_garden_fence_gate_large_van" unload="true"/>
@@ -267,27 +262,6 @@
 		<object path="units/world/vegetation/jungle/largeleavebushbig_03" unload="true"/>
 		<unit path="units/world/vegetation/jungle/largeleavebushbig_03" unload="true"/>
 	</add>
-	<add path="units/pd2_mcmansion/props/mcm_prop_livingroom_cabinets/mcm_prop_livingroom_tvstand_a" type="unit">
-		<material_config path="units/pd2_mcmansion/props/mcm_prop_livingroom_cabinets/mcm_prop_livingroom_shelf_set" unload="true"/>
-		<material_config path="units/payday2/props/dest_glass/glass_shatter" unload="true"/>
-		<effect load="true" path="effects/payday2/particles/window/storefront_window_small" unload="true"/>
-		<object path="units/pd2_mcmansion/props/mcm_prop_livingroom_cabinets/mcm_prop_livingroom_tvstand_a" unload="true"/>
-		<sequence_manager path="units/pd2_mcmansion/props/mcm_prop_livingroom_cabinets/mcm_prop_livingroom_tvstand_a" unload="true"/>
-		<unit path="units/pd2_mcmansion/props/mcm_prop_livingroom_cabinets/mcm_prop_livingroom_tvstand_a" unload="true"/>
-	</add>
-	<add path="units/pd2_mcmansion/props/mcm_prop_livingroom_cabinets/mcm_prop_livingroom_shelf_a" type="unit">
-		<material_config path="units/pd2_mcmansion/props/mcm_prop_livingroom_cabinets/mcm_prop_livingroom_shelf_set" unload="true"/>
-		<material_config path="units/payday2/props/dest_glass/glass_shatter" unload="true"/>
-		<object path="units/pd2_mcmansion/props/mcm_prop_livingroom_cabinets/mcm_prop_livingroom_shelf_a" unload="true"/>
-		<sequence_manager path="units/pd2_mcmansion/props/mcm_prop_livingroom_cabinets/mcm_prop_livingroom_shelf_a" unload="true"/>
-		<unit path="units/pd2_mcmansion/props/mcm_prop_livingroom_cabinets/mcm_prop_livingroom_shelf_a" unload="true"/>
-	</add>
-	<add path="units/pd2_mcmansion/props/mcm_prop_livingroom_painting_set/mcm_prop_livingroom_painting_d" type="unit">
-		<material_config path="units/pd2_mcmansion/props/mcm_prop_livingroom_painting_set/mcm_prop_livingroom_painting_set" unload="true"/>
-		<object path="units/pd2_mcmansion/props/mcm_prop_livingroom_painting_set/mcm_prop_livingroom_painting_d" unload="true"/>
-		<physic_effect path="physic_effects/push_sphere_unit" unload="true"/>
-		<unit path="units/pd2_mcmansion/props/mcm_prop_livingroom_painting_set/mcm_prop_livingroom_painting_d" unload="true"/>
-	</add>
 	<add path="units/pd2_dlc_pal/props/pal_prop_ext_boat/pal_prop_ext_boat" type="unit">
 		<material_config path="units/pd2_dlc_pal/props/pal_prop_ext_boat/pal_prop_ext_boat" unload="true"/>
 		<object path="units/pd2_dlc_pal/props/pal_prop_ext_boat/pal_prop_ext_boat" unload="true"/>
@@ -300,11 +274,6 @@
 		<object path="units/world/props/suburbia_boombox/suburbia_boombox" unload="true"/>
 		<sequence_manager path="units/world/props/suburbia_boombox/suburbia_boombox" unload="true"/>
 		<unit path="units/world/props/suburbia_boombox/suburbia_boombox" unload="true"/>
-	</add>
-	<add path="units/pd2_mcmansion/props/mcm_prop_dining_table_chair/mcm_prop_dining_table" type="unit">
-		<material_config path="units/pd2_mcmansion/props/mcm_prop_dining_table_chair/mcm_prop_dining_table" unload="true"/>
-		<object path="units/pd2_mcmansion/props/mcm_prop_dining_table_chair/mcm_prop_dining_table" unload="true"/>
-		<unit path="units/pd2_mcmansion/props/mcm_prop_dining_table_chair/mcm_prop_dining_table" unload="true"/>
 	</add>
 	<add path="units/world/props/furniture_outdoors/furniture_outdoors_chair" type="unit">
 		<material_config path="units/world/props/furniture_outdoors/furniture_outdoors" unload="true"/>
@@ -326,11 +295,6 @@
 		<material_config path="units/world/architecture/diamondheist/props/diamondheist_roof_01" unload="true"/>
 		<object path="units/world/architecture/diamondheist/props/diamondheist_roof_suncells_02" unload="true"/>
 		<unit path="units/world/architecture/diamondheist/props/diamondheist_roof_suncells_02" unload="true"/>
-	</add>
-	<add path="units/pd2_mcmansion/props/mcm_prop_garden_barbeque/mcm_prop_garden_barbeque" type="unit">
-		<material_config path="units/pd2_mcmansion/props/mcm_prop_garden_barbeque/mcm_prop_garden_barbeque" unload="true"/>
-		<object path="units/pd2_mcmansion/props/mcm_prop_garden_barbeque/mcm_prop_garden_barbeque" unload="true"/>
-		<unit path="units/pd2_mcmansion/props/mcm_prop_garden_barbeque/mcm_prop_garden_barbeque" unload="true"/>
 	</add>
 	<add path="units/pd2_dlc_friend/props/sfm_prop_ext_lamp_wall_large/sfm_prop_ext_lamp_wall_large" type="unit">
 		<effect load="true" path="effects/particles/dest/ceramic_cup_dest" unload="true"/>
@@ -423,8 +387,109 @@
 		<unit path="units/pd2_dlc_casino/vegetation/sfm_veg_tree_canarypalm/sfm_veg_tree_canarypalm_large" unload="true"/>
 	</add>
 	<add path="units/pd2_dlc_casino/vegetation/sfm_veg_tree_canarypalm/sfm_veg_tree_canarypalm_medium" type="unit">
-		<unit path="units/pd2_dlc_casino/vegetation/sfm_veg_tree_canarypalm/sfm_veg_tree_canarypalm_medium" unload="true"/>
-		<object path="units/pd2_dlc_casino/vegetation/sfm_veg_tree_canarypalm/sfm_veg_tree_canarypalm_medium" unload="true"/>
 		<material_config path="units/pd2_dlc_casino/vegetation/sfm_veg_tree_canarypalm/sfm_veg_tree_canarypalm_large" unload="true"/>
+		<object path="units/pd2_dlc_casino/vegetation/sfm_veg_tree_canarypalm/sfm_veg_tree_canarypalm_medium" unload="true"/>
+		<unit path="units/pd2_dlc_casino/vegetation/sfm_veg_tree_canarypalm/sfm_veg_tree_canarypalm_medium" unload="true"/>
+	</add>
+	<add path="units/pd2_mcmansion/props/mcm_prop_bedroom_closet_door-interior-set/mcm_prop_bedrooom_closet_door_open" type="unit">
+		<material_config path="units/pd2_mcmansion/props/mcm_prop_bedroom_closet_door-interior-set/mcm_prop_bedrooom_closet_door_closed" unload="true"/>
+		<object path="units/pd2_mcmansion/props/mcm_prop_bedroom_closet_door-interior-set/mcm_prop_bedrooom_closet_door_open" unload="true"/>
+		<unit path="units/pd2_mcmansion/props/mcm_prop_bedroom_closet_door-interior-set/mcm_prop_bedrooom_closet_door_open" unload="true"/>
+	</add>
+	<add path="units/payday2/props/lxa_prop_kitchen_cabinets/lxa_prop_kitchen_cabinets_sink" type="unit">
+		<material_config path="units/payday2/props/lxa_prop_kitchen_cabinets/lxa_prop_kitchen_cabinets" unload="true"/>
+		<object path="units/payday2/props/lxa_prop_kitchen_cabinets/lxa_prop_kitchen_cabinets_sink" unload="true"/>
+		<unit path="units/payday2/props/lxa_prop_kitchen_cabinets/lxa_prop_kitchen_cabinets_sink" unload="true"/>
+	</add>
+	<add path="units/payday2/props/lxa_prop_kitchen_cabinets/lxa_prop_kitchen_cabinets_ceiling_01" type="unit">
+		<material_config path="units/payday2/props/lxa_prop_kitchen_cabinets/lxa_prop_kitchen_cabinets" unload="true"/>
+		<object path="units/payday2/props/lxa_prop_kitchen_cabinets/lxa_prop_kitchen_cabinets_ceiling_01" unload="true"/>
+		<unit path="units/payday2/props/lxa_prop_kitchen_cabinets/lxa_prop_kitchen_cabinets_ceiling_01" unload="true"/>
+	</add>
+	<add path="units/payday2/props/lxa_prop_kitchen_cabinets/lxa_prop_kitchen_cabinets_ceiling_02" type="unit">
+		<material_config path="units/payday2/props/lxa_prop_kitchen_cabinets/lxa_prop_kitchen_cabinets" unload="true"/>
+		<object path="units/payday2/props/lxa_prop_kitchen_cabinets/lxa_prop_kitchen_cabinets_ceiling_02" unload="true"/>
+		<unit path="units/payday2/props/lxa_prop_kitchen_cabinets/lxa_prop_kitchen_cabinets_ceiling_02" unload="true"/>
+	</add>
+	<add path="units/payday2/props/lxa_prop_kitchen_cabinets/lxa_prop_kitchen_cabinets_ceiling_03" type="unit">
+		<material_config path="units/payday2/props/lxa_prop_kitchen_cabinets/lxa_prop_kitchen_cabinets" unload="true"/>
+		<object path="units/payday2/props/lxa_prop_kitchen_cabinets/lxa_prop_kitchen_cabinets_ceiling_03" unload="true"/>
+		<unit path="units/payday2/props/lxa_prop_kitchen_cabinets/lxa_prop_kitchen_cabinets_ceiling_03" unload="true"/>
+	</add>
+	<add path="units/payday2/props/lxa_prop_kitchen_cabinets/lxa_prop_kitchen_cabinets_ceiling_corner_01" type="unit">
+		<material_config path="units/payday2/props/lxa_prop_kitchen_cabinets/lxa_prop_kitchen_cabinets" unload="true"/>
+		<object path="units/payday2/props/lxa_prop_kitchen_cabinets/lxa_prop_kitchen_cabinets_ceiling_corner_01" unload="true"/>
+		<unit path="units/payday2/props/lxa_prop_kitchen_cabinets/lxa_prop_kitchen_cabinets_ceiling_corner_01" unload="true"/>
+	</add>
+	<add path="units/payday2/props/lxa_prop_kitchen_cabinets/lxa_prop_kitchen_cabinets_floor_01" type="unit">
+		<material_config path="units/payday2/props/lxa_prop_kitchen_cabinets/lxa_prop_kitchen_cabinets" unload="true"/>
+		<object path="units/payday2/props/lxa_prop_kitchen_cabinets/lxa_prop_kitchen_cabinets_floor_01" unload="true"/>
+		<unit path="units/payday2/props/lxa_prop_kitchen_cabinets/lxa_prop_kitchen_cabinets_floor_01" unload="true"/>
+	</add>
+	<add path="units/payday2/props/lxa_prop_kitchen_cabinets/lxa_prop_kitchen_cabinets_floor_02" type="unit">
+		<material_config path="units/payday2/props/lxa_prop_kitchen_cabinets/lxa_prop_kitchen_cabinets" unload="true"/>
+		<object path="units/payday2/props/lxa_prop_kitchen_cabinets/lxa_prop_kitchen_cabinets_floor_02" unload="true"/>
+		<unit path="units/payday2/props/lxa_prop_kitchen_cabinets/lxa_prop_kitchen_cabinets_floor_02" unload="true"/>
+	</add>
+	<add path="units/payday2/props/lxa_prop_kitchen_cabinets/lxa_prop_kitchen_cabinets_floor_03" type="unit">
+		<material_config path="units/payday2/props/lxa_prop_kitchen_cabinets/lxa_prop_kitchen_cabinets" unload="true"/>
+		<object path="units/payday2/props/lxa_prop_kitchen_cabinets/lxa_prop_kitchen_cabinets_floor_03" unload="true"/>
+		<unit path="units/payday2/props/lxa_prop_kitchen_cabinets/lxa_prop_kitchen_cabinets_floor_03" unload="true"/>
+	</add>
+	<add path="units/payday2/props/lxa_prop_kitchen_cabinets/lxa_prop_kitchen_cabinets_floor_corner_01" type="unit">
+		<material_config path="units/payday2/props/lxa_prop_kitchen_cabinets/lxa_prop_kitchen_cabinets" unload="true"/>
+		<object path="units/payday2/props/lxa_prop_kitchen_cabinets/lxa_prop_kitchen_cabinets_floor_corner_01" unload="true"/>
+		<unit path="units/payday2/props/lxa_prop_kitchen_cabinets/lxa_prop_kitchen_cabinets_floor_corner_01" unload="true"/>
+	</add>
+	<add path="units/payday2/props/lxa_prop_kitchen_cabinets/lxa_prop_kitchen_cabinets_pantry" type="unit">
+		<material_config path="units/payday2/props/lxa_prop_kitchen_cabinets/lxa_prop_kitchen_cabinets" unload="true"/>
+		<object path="units/payday2/props/lxa_prop_kitchen_cabinets/lxa_prop_kitchen_cabinets_pantry" unload="true"/>
+		<unit path="units/payday2/props/lxa_prop_kitchen_cabinets/lxa_prop_kitchen_cabinets_pantry" unload="true"/>
+	</add>
+	<add path="units/payday2/props/lxa_prop_kitchen_drawers/lxa_prop_kitchen_drawers" type="unit">
+		<material_config path="units/payday2/props/lxa_prop_kitchen_drawers/lxa_prop_kitchen_drawers" unload="true"/>
+		<object path="units/payday2/props/lxa_prop_kitchen_drawers/lxa_prop_kitchen_drawers" unload="true"/>
+		<unit path="units/payday2/props/lxa_prop_kitchen_drawers/lxa_prop_kitchen_drawers" unload="true"/>
+	</add>
+	<add path="units/payday2/props/lxa_prop_kitchen_fridge/lxa_prop_kitchen_fridge_freezer" type="unit">
+		<material_config path="units/payday2/props/lxa_prop_kitchen_fridge/lxa_prop_kitchen_fridge_freezer" unload="true"/>
+		<object path="units/payday2/props/lxa_prop_kitchen_fridge/lxa_prop_kitchen_fridge_freezer" unload="true"/>
+		<unit path="units/payday2/props/lxa_prop_kitchen_fridge/lxa_prop_kitchen_fridge_freezer" unload="true"/>
+	</add>
+	<add path="units/payday2/props/lxa_prop_kitchen_oven/lxa_prop_kitchen_oven" type="unit">
+		<material_config path="units/payday2/props/lxa_prop_kitchen_oven/lxa_prop_kitchen_oven" unload="true"/>
+		<object path="units/payday2/props/lxa_prop_kitchen_oven/lxa_prop_kitchen_oven" unload="true"/>
+		<unit path="units/payday2/props/lxa_prop_kitchen_oven/lxa_prop_kitchen_oven" unload="true"/>
+	</add>
+	<add path="units/payday2/props/lxa_prop_kitchen_stove/lxa_prop_kitchen_stove" type="unit">
+		<material_config path="units/payday2/props/lxa_prop_kitchen_stove/lxa_prop_kitchen_stove" unload="true"/>
+		<object path="units/payday2/props/lxa_prop_kitchen_stove/lxa_prop_kitchen_stove" unload="true"/>
+		<unit path="units/payday2/props/lxa_prop_kitchen_stove/lxa_prop_kitchen_stove" unload="true"/>
+	</add>
+	<add path="units/pd2_dlc_friend/props/sfm_prop_library_bookcase/sfm_prop_bookcase_end_left_01" type="unit">
+		<material_config path="units/pd2_dlc_friend/props/sfm_prop_library_bookcase/sfm_prop_bookcase_end_left_01" unload="true"/>
+		<object path="units/pd2_dlc_friend/props/sfm_prop_library_bookcase/sfm_prop_bookcase_end_left_01" unload="true"/>
+		<unit path="units/pd2_dlc_friend/props/sfm_prop_library_bookcase/sfm_prop_bookcase_end_left_01" unload="true"/>
+	</add>
+	<add path="units/pd2_dlc_friend/props/sfm_prop_library_bookcase/sfm_prop_bookcase_end_right_01" type="unit">
+		<material_config path="units/pd2_dlc_friend/props/sfm_prop_library_bookcase/sfm_prop_bookcase_end_left_01" unload="true"/>
+		<object path="units/pd2_dlc_friend/props/sfm_prop_library_bookcase/sfm_prop_bookcase_end_right_01" unload="true"/>
+		<unit path="units/pd2_dlc_friend/props/sfm_prop_library_bookcase/sfm_prop_bookcase_end_right_01" unload="true"/>
+	</add>
+	<add path="units/pd2_dlc_friend/props/sfm_prop_library_bookcase/sfm_prop_bookcase_middle_01" type="unit">
+		<material_config path="units/pd2_dlc_friend/props/sfm_prop_library_bookcase/sfm_prop_bookcase_end_left_01" unload="true"/>
+		<object path="units/pd2_dlc_friend/props/sfm_prop_library_bookcase/sfm_prop_bookcase_middle_01" unload="true"/>
+		<unit path="units/pd2_dlc_friend/props/sfm_prop_library_bookcase/sfm_prop_bookcase_middle_01" unload="true"/>
+	</add>
+	<add path="units/pd2_dlc_friend/props/sfm_prop_library_bookcase/sfm_prop_books_01" type="unit">
+		<material_config path="units/pd2_dlc_friend/props/sfm_prop_library_bookcase/sfm_prop_books_01" unload="true"/>
+		<object path="units/pd2_dlc_friend/props/sfm_prop_library_bookcase/sfm_prop_books_01" unload="true"/>
+		<unit path="units/pd2_dlc_friend/props/sfm_prop_library_bookcase/sfm_prop_books_01" unload="true"/>
+	</add>
+	<add path="units/pd2_dlc_mad/props/mad_prop_wood_crate/mad_wood_crate_110" type="unit">
+		<unit path="units/pd2_dlc_mad/props/mad_prop_wood_crate/mad_wood_crate_110" unload="true"/>
+		<object path="units/pd2_dlc_mad/props/mad_prop_wood_crate/mad_wood_crate_110" unload="true"/>
+		<material_config path="units/pd2_dlc_mad/props/mad_prop_wood_crate/mad_wood_crate_110" unload="true"/>
+		<sequence_manager path="units/pd2_dlc_mad/props/mad_prop_wood_crate/mad_wood_crate_110" unload="true"/>
 	</add>
 </table>
