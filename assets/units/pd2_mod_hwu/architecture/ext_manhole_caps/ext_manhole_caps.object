@@ -11,10 +11,20 @@
             <object name="rp_ext_manhole_caps"/>
             <object name="c_mesh_01" collision_type="mesh_mopp"/>
         </body>
+        <body name="body_warehouse_01" template="static" enabled="true" >
+            <object name="rp_ext_manhole_caps"/>
+            <object name="c_box_02" collision_type="box" padding="-2.5"/>
+        </body>
+        <body name="body_warehouse_02" template="static" enabled="true" >
+            <object name="rp_ext_manhole_caps"/>
+            <object name="c_box_03" collision_type="box" padding="-2.5"/>
+        </body>
     </bodies>
 
     <graphics>
         <object enabled="true" name="g_house_01"/>
         <object enabled="true" name="g_house_02"/>
+        <object enabled="true" name="g_warehouse_01"/>
+        <object enabled="true" name="g_warehouse_02"/>
     </graphics>
 </dynamic_object> 

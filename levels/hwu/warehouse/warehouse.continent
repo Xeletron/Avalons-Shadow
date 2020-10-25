@@ -4051,7 +4051,7 @@
 			</unit_data>
 		</table>
 		<table>
-			<unit_data _prev_pos="-9130 -2970 0" _prev_rot="0 0 0 -1" continent="warehouse" local_pos="-1215 -4340 0" local_rot="0 0 0.707107 0.707107" name="units/pd2_mod_hwu/architecture/warehouse/int_warehouse_floor" name_id="int_warehouse_floor_001" position="-9130 -3970 0" rotation="0 0 0 -1" unit_id="300758"/>
+			<unit_data _prev_pos="-9130 -3970 0" _prev_rot="-0 0 -0 -1" continent="warehouse" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_hwu/architecture/warehouse/int_warehouse_floor" name_id="int_warehouse_floor_001" position="-9130 -3970 0" rotation="-0 0 -0 -1" unit_id="300758"/>
 		</table>
 		<table>
 			<unit_data _prev_pos="-6940 -330 600" _prev_rot="0 0 0.707107 -0.707107" continent="warehouse" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="-3855 -2150 600" local_rot="0 0 0 1" name="core/units/light_omni/light_omni" name_id="light_omni_034" only_visible_in_editor="true" position="-6940 -1330 600" rotation="0 0 0.707107 -0.707107" unit_id="300759">
@@ -7250,9 +7250,6 @@
 			<unit_data _prev_pos="-8301.42 3169.62 100" _prev_rot="0 0 0.707107 -0.707106" continent="warehouse" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/props/mansion/man_cover_int_shipping_crate_wide/man_cover_int_shipping_crate_wide" name_id="man_cover_int_shipping_crate_wide_029" position="-8301.42 3204.62 100" rotation="0 0 0.707107 -0.707106" unit_id="302178"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-5035 -2510 -835" _prev_rot="0 0 -0.707107 -0.707107" continent="warehouse" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc2/architecture/csb_sewer/ind_sewer_corner_a_4m" name_id="ind_sewer_corner_a_4m_018" position="-5035 -2510.5 -835" rotation="0 0 -0.707107 -0.707107" unit_id="301243"/>
-		</table>
-		<table>
 			<unit_data _prev_pos="-5899 -1548 0" _prev_rot="0 0 0.707107 -0.707107" continent="warehouse" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/architecture/ind/ind_ext_level/ind_ext_fence_2m" name_id="ind_ext_fence_2m_002" position="-5899 -1548 0" rotation="0 0 0.707107 -0.707107" unit_id="302179"/>
 		</table>
 		<table>
@@ -7280,7 +7277,7 @@
 			<unit_data _prev_pos="-4525 -4475 0" _prev_rot="-0 0 -0 -1" continent="warehouse" local_pos="12154.1 -2441.2 695" local_rot="0 0 0 1" name="units/pd2_mod_hwu/architecture/warehouse/ext_warehouse_ground" name_id="ext_warehouse_ground_001" position="-4525 -4475 0" rotation="-0 0 -0 -1" unit_id="302187"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-5825 -2445 15" _prev_rot="0 0 0 -1" continent="warehouse" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="hide_plate" name="units/world/props/suburbia_manhole/suburbia_manhole" name_id="suburbia_manhole_001" position="-5825 -2445 15" rotation="-0 0 -0 -1" unit_id="302188"/>
+			<unit_data _prev_pos="-5825 -2445 5" _prev_rot="0 0 0 -1" continent="warehouse" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="state_no_contours" name="units/world/props/suburbia_manhole/suburbia_manhole" name_id="suburbia_manhole_001" position="-5825 -2445 5" rotation="0 0 0 -1" unit_id="302188"/>
 		</table>
 		<table>
 			<unit_data _prev_pos="-4580 3305 0" _prev_rot="0 0 0.707107 -0.707107" continent="warehouse" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 -400" local_rot="0 0 0 1" name="units/payday2/architecture/ind/ind_ext_level/ind_ext_level_0_02_v2" name_id="ind_ext_level_0_02_2m_v2_033" position="-4980 3305 0" rotation="0 0 0.707107 -0.707107" unit_id="302189"/>
@@ -7901,6 +7898,9 @@
 		</table>
 		<table>
 			<unit_data _prev_pos="-5581.77 -4463.14 1.86265e-007" _prev_rot="0 0 0 -1" continent="warehouse" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc1/props/ind_ext_prop_details/ind_ext_prop_lamp_01" name_id="ind_ext_prop_lamp_01_001" position="-5581.77 -4463.14 0" rotation="-0 0 -0 -1" unit_id="302369"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-5300 2467 5" _prev_rot="0 0 -0.707107 -0.707107" continent="warehouse" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="state_no_contours" name="units/world/props/suburbia_manhole/suburbia_manhole" name_id="suburbia_manhole_004" position="-5300 2340 5" rotation="0 0 -0.707107 -0.707107" unit_id="302370"/>
 		</table>
 	</statics>
 	<values>

@@ -8,5 +8,13 @@
 			<body enabled="false" name="'body_house_02'"/>
 			<object enabled="false" name="'g_house_02'"/>
 		</sequence>
+		<sequence editable_state="true" name="'hide_warehouse_01'" triggable="true">
+			<body enabled="false" name="'body_warehouse_01'"/>
+			<object enabled="false" name="'g_warehouse_01'"/>
+		</sequence>
+		<sequence editable_state="true" name="'hide_warehouse_02'" triggable="true">
+			<body enabled="false" name="'body_warehouse_02'"/>
+			<object enabled="false" name="'g_warehouse_02'"/>
+		</sequence>
 	</unit>
 </table>
