@@ -72,4 +72,33 @@
         <diffuse_texture file="units/payday2/architecture/lux/lux_ext_pool_tile_b_df"/>
         <bump_normal_texture file="units/payday2/architecture/lux/lux_ext_pool_tile_b_nm"/>
     </material>
+    <material render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:NORMALMAP:VERTEX_COLOR" version="2" name="pool">
+        <diffuse_texture file="units/world/architecture/suburbia/textures/pool_tile_df"/>
+        <bump_normal_texture file="units/world/architecture/suburbia/textures/pool_tile_nm"/>
+        <reflection_texture type="cube" global_texture="current_global_texture"/>
+        <variable value="1 0 2" type="vector3" name="environment_settings"/>
+    </material>
+    <material name="roof" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP:VERTEX_COLOR" version="2">
+        <diffuse_texture file="units/world/architecture/suburbia/textures/roof1_df"/>
+        <bump_normal_texture file="units/world/architecture/suburbia/textures/roof1_nm"/>
+    </material>
+    <material name="wood_details" render_template="generic:DIFFUSE_TEXTURE:RL_BIGPROPS" version="2">
+        <diffuse_texture file="units/world/architecture/suburbia/textures/wood_df"/>
+    </material>
+    <material name="wooden_deck" render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:NORMALMAP:VERTEX_COLOR" version="2">
+        <diffuse_texture file="units/world/architecture/suburbia/textures/wooden_deck_df"/>
+        <bump_normal_texture file="units/world/architecture/suburbia/textures/wooden_deck_nm"/>
+        <reflection_texture type="cubemap" file="environments/cubemaps/cubemap_steel"/>
+        <variable value="1 0.10000000149012 2" type="vector3" name="environment_settings"/>
+    </material>
+    <material name="wood" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP:RL_BIGPROPS:VERTEX_COLOR" version="2">
+        <diffuse_texture file="units/world/architecture/suburbia/textures/wood_df"/>
+        <bump_normal_texture file="units/world/architecture/suburbia/textures/wood_nm"/>
+    </material>
+    <material name="garage_plywood" render_template="generic:DIFFUSE_TEXTURE" version="2">
+        <diffuse_texture file="units/world/architecture/suburbia/garage_plywood_df"/>
+    </material>
+    <material name="cellar_concrete_floor" version="2" render_template="generic:DIFFUSE_TEXTURE:VERTEX_COLOR">
+        <diffuse_texture file="units/world/architecture/suburbia/textures/cellar_concrete_df"/>
+    </material>
 </materials>

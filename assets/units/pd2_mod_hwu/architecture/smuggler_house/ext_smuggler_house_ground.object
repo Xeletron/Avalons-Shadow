@@ -17,6 +17,13 @@
             <object name="c_convex_10" collision_type="convex" padding="-2.5" />
             <object name="c_convex_11" collision_type="convex" padding="-2.5" />
 			<object name="c_convex_12" collision_type="convex" padding="-2.5" />
+            <object name="c_convex_13" collision_type="convex" padding="-2.5" />
+            <object name="c_convex_14" collision_type="convex" padding="-2.5" />
+			<object name="c_convex_15" collision_type="convex" padding="-2.5" />
+            <object name="c_convex_16" collision_type="convex" padding="-2.5" />
+			<object name="c_convex_17" collision_type="convex" padding="-2.5" />
+            <object name="c_convex_18" collision_type="convex" padding="-2.5" />
+            <object name="c_convex_19" collision_type="convex" padding="-2.5" />
 
             <object name="c_mesh_01" collision_type="mesh_mopp" />
             <object name="c_mesh_02" collision_type="mesh_mopp" />
@@ -156,6 +163,22 @@
 
             <object name="c_box_120" collision_type="box" padding="-2.5"/>
             <object name="c_box_121" collision_type="box" padding="-2.5"/>
+            <object name="c_box_122" collision_type="box" padding="-2.5"/>
+            <object name="c_box_123" collision_type="box" padding="-2.5"/>
+            <object name="c_box_124" collision_type="box" padding="-2.5"/>
+            <object name="c_box_125" collision_type="box" padding="-2.5"/>
+            <object name="c_box_126" collision_type="box" padding="-2.5"/>
+            <object name="c_box_127" collision_type="box" padding="-2.5"/>
+            <object name="c_box_128" collision_type="box" padding="-2.5"/>
+            <object name="c_box_129" collision_type="box" padding="-2.5"/>
+
+            <object name="c_box_130" collision_type="box" padding="-2.5"/>
+            <object name="c_box_131" collision_type="box" padding="-2.5"/>
+            <object name="c_box_132" collision_type="box" padding="-2.5"/>
+            <object name="c_box_133" collision_type="box" padding="-2.5"/>
+            <object name="c_box_134" collision_type="box" padding="-2.5"/>
+            <object name="c_box_135" collision_type="box" padding="-2.5"/>
+            <object name="c_box_136" collision_type="box" padding="-2.5"/>
         </body>
         <body name="body_nav_walk" add_ray_type="ai_vision" enabled="true" template="nav_walk">
 			<object name="rp_ext_smugler_house_ground" />
@@ -181,7 +204,7 @@
     <graphics>
         <object enabled="true" name="g_ground" />
         <object enabled="true" name="g_terrace" />
-        <object enabled="true" name="g_pool" />
+         <object enabled="true" name="g_shed" />
         <object enabled="true" name="s_s" shadow_caster="true" />
     </graphics>
 </dynamic_object> 
