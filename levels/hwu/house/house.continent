@@ -971,9 +971,9 @@
 		<table>
 			<unit_data _prev_pos="-2340 -1035 20" _prev_rot="-0 0 -0 -1" continent="house" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="orig" name="units/payday2/vehicles/str_vehicle_car_ford/str_vehicle_car_ford" name_id="str_vehicle_car_ford_001" position="-2340 -1035 20" rotation="-0 0 -0 -1" unit_id="400256">
 				<lights>
-					<table clipping_values="10000 -10000 0" color="1 0.937255 0.694118" enabled="false" falloff_exponent="1" far_range="2000" multiplier="monitor" name="ls_left" near_range="0" spot_angle_end="40.0728" spot_angle_start="40.0728"/>
-					<table clipping_values="10000 -10000 0" color="1 0.934481 0.657" enabled="false" falloff_exponent="1" far_range="2000" multiplier="monitor" name="ls_right" near_range="0" spot_angle_end="40.0728" spot_angle_start="40.0728"/>
-					<table clipping_values="10000 -10000 0" color="1 0.420139 0.275" enabled="false" falloff_exponent="4" far_range="350" multiplier="monitor" name="ls_rear" near_range="0" spot_angle_end="0" spot_angle_start="0"/>
+					<table clipping_values="10000 -10000 0" color="1 0.937255 0.694118" enabled="false" falloff_exponent="1" far_range="2000" multiplier="@IDccbbe27c7fdc0fd9@" name="ls_left" near_range="0" spot_angle_end="40.0728" spot_angle_start="40.0728"/>
+					<table clipping_values="10000 -10000 0" color="1 0.934481 0.657" enabled="false" falloff_exponent="1" far_range="2000" multiplier="@IDccbbe27c7fdc0fd9@" name="ls_right" near_range="0" spot_angle_end="40.0728" spot_angle_start="40.0728"/>
+					<table clipping_values="10000 -10000 0" color="1 0.420139 0.275" enabled="false" falloff_exponent="4" far_range="350" multiplier="@IDccbbe27c7fdc0fd9@" name="ls_rear" near_range="0" spot_angle_end="0" spot_angle_start="0"/>
 				</lights>
 				<projection_textures ls_left="units/lights/spot_light_projection_textures/default_df"/>
 			</unit_data>
@@ -1678,16 +1678,16 @@
 			<unit_data _prev_pos="550 1502.8 757.317" _prev_rot="0 0 1 -6.0536e-008" continent="house" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="347.204 328.589 -21.9638" local_rot="0 0 -0.707107 0.707107" name="units/payday2/props/lxa_prop_gallery_paintings/lxa_prop_painting3" name_id="lxa_prop_painting3_001" position="550.001 1502.8 757.316" rotation="0 0 1 -1.49012e-007" unit_id="400426"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="780.949 961.954 520" _prev_rot="0 0 0 -1" continent="house" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mcmansion/props/mcm_prop_bedroom_bed/mcm_prop_bedroom_bed" name_id="mcm_prop_bedroom_bed_001" position="780.949 961.954 520" rotation="-0 0 -0 -1" unit_id="400427"/>
+			<unit_data _prev_pos="775.949 961.954 520" _prev_rot="0 0 0 -1" continent="house" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mcmansion/props/mcm_prop_bedroom_bed/mcm_prop_bedroom_bed" name_id="mcm_prop_bedroom_bed_001" position="772.949 961.954 520" rotation="0 0 0 -1" unit_id="400427"/>
 		</table>
 		<table>
 			<unit_data _prev_pos="585 895.152 637.79" _prev_rot="0 0 -0.707107 -0.707107" continent="house" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="-195.949 -66.8021 117.79" local_rot="0 0 0.707107 0.707107" name="units/pd2_mcmansion/props/mcm_prop_livingroom_clock/mcm_prop_livingroom_clock" name_id="mcm_prop_livingroom_clock_002" position="585 895.152 637.79" rotation="0 0 -0.707107 -0.707107" unit_id="400428"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="792.16 630 678.465" _prev_rot="0.707107 -2.98023e-008 -2.98023e-008 -0.707107" continent="house" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="11.2111 -331.954 158.465" local_rot="-0.707107 2.98023e-008 2.98023e-008 0.707107" name="units/world/props/diamond_heist/apartment/apartment_livingroom/tv_wall/tv_wall" name_id="tv_wall_001" position="792.16 630 678.465" rotation="0.707107 -2.98023e-008 -2.98023e-008 -0.707107" unit_id="400429"/>
+			<unit_data _prev_pos="792.16 630 678.465" _prev_rot="0.707107 -2.98023e-008 -2.98023e-008 -0.707107" continent="house" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/props/diamond_heist/apartment/apartment_livingroom/tv_wall/tv_wall" name_id="tv_wall_001" position="772.16 630 678.465" rotation="0.707107 -2.98023e-008 -2.98023e-008 -0.707107" unit_id="400429"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="716.752 2404.98 520" _prev_rot="0 0 0 -1" continent="house" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mcmansion/props/mcm_prop_bedroom_bed/mcm_prop_bedroom_bed" name_id="mcm_prop_bedroom_bed_002" position="716.752 2404.98 520" rotation="0 0 0 -1" unit_id="400430"/>
+			<unit_data _prev_pos="689.752 1958.98 520" _prev_rot="0 0 -0.707107 -0.707107" continent="house" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mcmansion/props/mcm_prop_bedroom_bed/mcm_prop_bedroom_bed" name_id="mcm_prop_bedroom_bed_002" position="689.752 1930.98 520" rotation="0 0 -0.707107 -0.707107" unit_id="400430"/>
 		</table>
 		<table>
 			<unit_data _prev_pos="51.3837 2256.66 520" _prev_rot="0 0 -0.707107 -0.707107" continent="house" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/lxa_prop_bathroom_shower/lxa_prop_bathroom_shower" name_id="lxa_prop_bathroom_shower_001" position="51.3837 2291.66 520" rotation="0 0 -0.707107 -0.707107" unit_id="400431"/>
@@ -2364,6 +2364,441 @@
 		</table>
 		<table>
 			<unit_data _prev_pos="-2385 -1775 20" _prev_rot="0 0 0.887011 -0.461749" continent="house" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/shadow_mullplan/mullplan_vehicle" name_id="mullplan_vehicle_007" position="-2385 -1775 20" rotation="0 0 0.887011 -0.461749" unit_id="400623"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-277.527 2021.66 120" _prev_rot="-0 0 -0 -1" continent="house" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/payday2/props/lxa_prop_bathroom_shower/lxa_prop_bathroom_shower" name_id="lxa_prop_bathroom_shower_002" position="-277.527 2021.66 120" rotation="-0 0 -0 -1" unit_id="400624"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-85.1652 1958.24 120" _prev_rot="0 0 0.707107 -0.707107" continent="house" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/lxa_prop_bathroom_mat/lxa_prop_bathroom_mat" name_id="lxa_prop_bathroom_mat_001" position="-110.165 1928.24 120" rotation="0 0 0.707107 -0.707107" unit_id="400625"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-269 1529.47 189.777" _prev_rot="0 0 1 -5.96047e-008" continent="house" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/lxa_prop_bathroom_toilet/lxa_prop_bathroom_toilet" name_id="lxa_prop_bathroom_toilet_006" position="-269 1529.47 179.777" rotation="0 0 1 -5.96047e-008" unit_id="400626"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-328.858 1539.47 234.15" _prev_rot="0 0 0 -1" continent="house" local_pos="59.8585 -10 44.3733" local_rot="0 0 1 5.96047e-008" name="units/payday2/props/lxa_prop_bathroom_toilet/lxa_prop_bathroom_toilet_shelf" name_id="lxa_prop_bathroom_toilet_shelf_006" position="-328.858 1539.47 234.15" rotation="0 0 0 -1" unit_id="400627"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-307.752 1557.4 120" _prev_rot="0 0 -0.707107 -0.707107" continent="house" local_pos="38.7519 -27.937 -69.7769" local_rot="0 0 0.707107 -0.707107" name="units/payday2/props/lxa_prop_bathroom_toilet/lxa_prop_bathroom_toilet_brush" name_id="lxa_prop_bathroom_toilet_brush_006" position="-307.752 1557.4 120" rotation="0 0 -0.707107 -0.707107" unit_id="400628"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="23.5523 2020.31 120" _prev_rot="0 0 0.707107 -0.707107" continent="house" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/lxa_prop_bathroom_shelves/lxa_prop_bathroom_shelves" name_id="lxa_prop_bathroom_shelves_002" position="23.5523 2020.31 120" rotation="0 0 0.707107 -0.707107" unit_id="400629"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="23.552 1871.68 120" _prev_rot="0 0 0.707107 -0.707107" continent="house" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/lxa_prop_bathroom_shelves/lxa_prop_bathroom_shelves_single_doors" name_id="lxa_prop_bathroom_shelves_single_doors_001" position="23.552 1871.68 120" rotation="0 0 0.707107 -0.707107" unit_id="400630"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-154.203 1764.76 120" _prev_rot="0 0 -0.707107 -0.707107" continent="house" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/lxa_prop_bathroom_sink/lxa_prop_bathroom_sink" name_id="lxa_prop_bathroom_sink_002" position="-365.203 1764.76 120" rotation="0 0 -0.707107 -0.707107" unit_id="400631"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-335.49 1648.47 120" _prev_rot="0 0 0.707107 -0.707107" continent="house" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/lxa_prop_bathroom_trashcan/lxa_prop_bathroom_trashcan" name_id="lxa_prop_bathroom_trashcan_005" position="-331.49 1648.47 120" rotation="0 0 0.707107 -0.707107" unit_id="400632"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="84.9699 1504.27 120" _prev_rot="0 0 -0.71325 -0.700909" continent="house" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/lxa_prop_bedroom_drawer/lxa_prop_bedroom_drawer" name_id="lxa_prop_bedroom_drawer_002" position="84.359 1539.26 120" rotation="0 0 -0.71325 -0.700909" unit_id="400633"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="92.5691 1503 222.499" _prev_rot="0 0 0.587785 -0.809017" continent="house" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/props/suburbia_phone_02/suburbia_phone_02" name_id="suburbia_phone_02_005" position="92.5691 1503 218.499" rotation="0 0 0.587785 -0.809017" unit_id="400634"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="78.2927 1607.19 220.499" _prev_rot="0 0 1 3.35276e-008" continent="house" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/off_prop_officehigh_books/off_prop_officehigh_binder_02" name_id="off_prop_officehigh_binder_02_001" position="78.2927 1607.19 218.499" rotation="0 0 1 3.35276e-008" unit_id="400635"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="100.737 1595.85 222.499" _prev_rot="0 0 0 -1" continent="house" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/props/diamond_heist/apartment/apartment_room/flowerpot/flowerpot" name_id="flowerpot_005" position="100.737 1595.85 217.499" rotation="0 0 0 -1" unit_id="400636"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-159.862 1528.76 120" _prev_rot="0 0 1 -5.96047e-008" continent="house" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mcmansion/props/mcm_prop_bathroom_washer_dryer/mcm_prop_bathroom_dryer" name_id="mcm_prop_bathroom_dryer_001" position="-143.862 1528.76 120" rotation="0 0 1 -5.96047e-008" unit_id="400637"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-369.507 1648.03 174" _prev_rot="0 0 -0.707107 -0.707107" continent="house" local_pos="0.446777 -34.0167 54" local_rot="0 0 1 0" name="units/pd2_mcmansion/props/mcm_prop_bathroom_propset/mcm_prop_bathroom_propset" name_id="mcm_prop_bathroom_propset_001" position="-365.507 1648.03 174" rotation="0 0 0.707107 0.707107" unit_id="400638"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-92.8415 1529.27 120" _prev_rot="0 0 1 -4.37114e-008" continent="house" local_pos="-67.0207 -0.509636 0" local_rot="0 0 -1.58933e-008 1" name="units/pd2_mcmansion/props/mcm_prop_bathroom_washer_dryer/mcm_prop_bathroom_washer" name_id="mcm_prop_bathroom_washer_001" position="-76.8415 1529.27 120" rotation="0 0 1 -4.37114e-008" unit_id="400639"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-234.435 1773.34 120" _prev_rot="0 0 0 -1" continent="house" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/props/bathroom_rug01_suburbia/bathroom_rug01_suburbia" name_id="bathroom_rug01_suburbia_001" position="-234.435 1773.34 120" rotation="0 0 0 -1" unit_id="400640"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="50 1303.15 354.168" _prev_rot="0 0 0 -1" continent="house" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/lxa_prop_gallery_paintings/lxa_prop_painting4" name_id="lxa_prop_painting4_001" position="50 1303.15 354.168" rotation="0 0 0 -1" unit_id="400641"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="550 1284.09 380.931" _prev_rot="0 0 1 -9.31323e-008" continent="house" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/lxa_prop_gallery_paintings/lxa_prop_painting6" name_id="lxa_prop_painting6_002" position="550 1284.09 380.931" rotation="0 0 1 -9.31323e-008" unit_id="400642"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="479.718 1850.46 120" _prev_rot="0 0 0 -1" continent="house" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/vegetation/str_veg_potted_plant/str_veg_potted_plant" name_id="str_veg_potted_plant_028" position="479.718 1850.46 120" rotation="0 0 0 -1" unit_id="400643"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="514.096 1762.87 120" _prev_rot="0 0 0 -1" continent="house" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mcmansion/props/mcm_prop_hallway_table_entry/mcm_prop_hallway_table_entry" name_id="mcm_prop_hallway_table_entry_001" position="514.096 1762.87 120" rotation="0 0 0 -1" unit_id="400644"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="512.277 1720.41 191.704" _prev_rot="0 0 0 -1" continent="house" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/props/yacht/flowers/lxy_prop_flower_vase" name_id="lxy_prop_flower_vase_006" position="512.277 1720.41 191.704" rotation="0 0 0 -1" unit_id="400645"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="510.486 1715.25 127.215" _prev_rot="0 0 0.707107 -0.707107" continent="house" local_pos="-3.60956 -47.6166 7.21479" local_rot="0 0 -0.707107 0.707107" name="units/payday2/props/off_prop_officehigh_books/off_prop_officehigh_books_professional_01" name_id="off_prop_officehigh_books_professional_01_003" position="510.486 1715.25 127.215" rotation="0 0 0.707107 -0.707107" unit_id="400646"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="550 1554.79 225.519" _prev_rot="0 0 0.707107 -0.707107" continent="house" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/props/book_shelf_wood/book_shelf_wood" name_id="book_shelf_wood_003" position="550 1554.79 225.519" rotation="0 0 0.707107 -0.707107" unit_id="400647"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="524.978 1465 179.381" _prev_rot="0 0 0 -1" continent="house" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/off_prop_officehigh_books/off_prop_officehigh_binder_07" name_id="off_prop_officehigh_binder_07_001" position="520.978 1465 179.381" rotation="0 0 0 -1" unit_id="400648"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="547.421 1613.04 229.85" _prev_rot="0 0 -0.707107 -0.707107" continent="house" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/off_prop_officehigh_books/off_prop_officehigh_books_professional_03" name_id="off_prop_officehigh_books_professional_03_003" position="547.421 1637.04 229.85" rotation="0 0 -0.707107 -0.707107" unit_id="400649"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="537.891 1561.29 280.318" _prev_rot="0 0 -0.707107 -0.707107" continent="house" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/off_prop_officehigh_books/off_prop_officehigh_books_professional_01" name_id="off_prop_officehigh_books_professional_01_004" position="544.891 1561.29 280.318" rotation="0 0 -0.707107 -0.707107" unit_id="400650"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="539.076 1470.73 229.85" _prev_rot="0 0 0 -1" continent="house" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/props/diamond_heist/apartment/apartment_room/flowerpot/flowerpot" name_id="flowerpot_006" position="539.076 1470.73 229.85" rotation="0 0 0 -1" unit_id="400651"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="544.91 1618.16 280.318" _prev_rot="0 0 -0.707107 -0.707107" continent="house" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/off_prop_officehigh_books/off_prop_officehigh_books_professional_05" name_id="off_prop_officehigh_books_professional_05_005" position="544.91 1644.16 280.318" rotation="0 0 -0.707107 -0.707107" unit_id="400652"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-531.936 2730.62 120" _prev_rot="0 0 0 -1" continent="house" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mcmansion/props/mcm_prop_dining_table_chair/mcm_prop_dining_table" name_id="mcm_prop_dining_table_004" position="-531.936 2730.62 120" rotation="0 0 0 -1" unit_id="400653"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-475.489 2645.57 120" _prev_rot="0 0 0 -1" continent="house" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mcmansion/props/mcm_prop_dining_table_chair/mcm_prop_dining_chair" name_id="mcm_prop_dining_chair_001" position="-475.489 2645.57 120" rotation="0 0 -0.121869 -0.992546" unit_id="400654"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-591.206 2635.05 120" _prev_rot="0 0 0.267238 -0.96363" continent="house" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mcmansion/props/mcm_prop_dining_table_chair/mcm_prop_dining_chair" name_id="mcm_prop_dining_chair_002" position="-597.901 2623.91 120" rotation="0 0 0.267238 -0.96363" unit_id="400655"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-728.457 2730.36 120" _prev_rot="0 0 0.688355 -0.725374" continent="house" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mcmansion/props/mcm_prop_dining_table_chair/mcm_prop_dining_chair" name_id="mcm_prop_dining_chair_003" position="-712.479 2731.19 120" rotation="0 0 0.688355 -0.725374" unit_id="400656"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-342.472 2708.61 120" _prev_rot="0 0 -0.700909 -0.71325" continent="house" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mcmansion/props/mcm_prop_dining_table_chair/mcm_prop_dining_chair" name_id="mcm_prop_dining_chair_004" position="-363.155 2726.97 120" rotation="0 0 -0.700909 -0.71325" unit_id="400657"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-593.058 2843.09 120" _prev_rot="0 0 0.999657 0.026177" continent="house" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mcmansion/props/mcm_prop_dining_table_chair/mcm_prop_dining_chair" name_id="mcm_prop_dining_chair_005" position="-594.68 2812.13 120" rotation="0 0 0.999657 0.0261768" unit_id="400658"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-491.343 2837.35 120" _prev_rot="0 0 0.991445 0.130526" continent="house" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mcmansion/props/mcm_prop_dining_table_chair/mcm_prop_dining_chair" name_id="mcm_prop_dining_chair_006" position="-482.46 2831.87 120" rotation="0 0 0.991445 0.130526" unit_id="400659"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-465.243 2748.32 195.868" _prev_rot="0 0 0 -1" continent="house" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mcmansion/props/mcm_prop_dining_flower/mcm_prop_dining_flower" name_id="mcm_prop_dining_flower_001" position="-465.243 2748.32 195.868" rotation="0 0 0 -1" unit_id="400660"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-32.5032 2134 120" _prev_rot="0 0 1 -4.37114e-008" continent="house" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/off_prop_officehigh_drawer/off_prop_officehigh_drawer_dark_small_drawer_2" name_id="off_prop_officehigh_drawer_dark_small_drawer_2_001" position="-32.5032 2134 120" rotation="0 0 1 -4.37114e-008" unit_id="400661"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-131.035 2133.72 120" _prev_rot="0 0 1 -6.33299e-008" continent="house" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/off_prop_officehigh_drawer/off_prop_officehigh_drawer_dark_large_shelves_2_long" name_id="off_prop_officehigh_drawer_dark_large_shelves_2_long_002" position="-131.035 2133.72 120" rotation="0 0 1 -6.33299e-008" unit_id="400662"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-818.594 2198.58 120" _prev_rot="0 0 1 -4.37114e-008" continent="house" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_friend/props/sfm_prop_library_bookcase/sfm_prop_bookcase_end_left_01" name_id="sfm_prop_bookcase_end_left_01_001" position="-818.594 2187.58 120" rotation="0 0 1 -4.37114e-008" unit_id="400663"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-818.323 2198.95 120" _prev_rot="0 0 1 -4.37114e-008" continent="house" local_pos="-0.270691 -0.373047 0" local_rot="0 0 0 1" name="units/pd2_dlc_friend/props/sfm_prop_library_bookcase/sfm_prop_bookcase_end_right_01" name_id="sfm_prop_bookcase_end_right_01_001" position="-818.323 2187.95 120" rotation="0 0 1 -4.37114e-008" unit_id="400664"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-231.503 2134.47 120" _prev_rot="0 0 1 -4.37114e-008" continent="house" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/off_prop_officehigh_drawer/off_prop_officehigh_drawer_dark_large_shelves_2" name_id="off_prop_officehigh_drawer_dark_large_shelves_2_002" position="-231.503 2133.47 120" rotation="0 0 1 -4.37114e-008" unit_id="400665"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-32.5032 2134 120" _prev_rot="0 0 1 -4.37114e-008" continent="house" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/off_prop_officehigh_drawer/off_prop_officehigh_drawer_dark_small_drawer_2" name_id="off_prop_officehigh_drawer_dark_small_drawer_2_002" position="-334.503 2134 120" rotation="0 0 1 -4.37114e-008" unit_id="400666"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-369.436 2174.21 120" _prev_rot="0 0 0 -1" continent="house" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/vegetation/str_veg_potted_plant/str_veg_potted_plant" name_id="str_veg_potted_plant_029" position="-369.436 2174.21 120" rotation="0 0 0 -1" unit_id="400667"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-311.656 2164.73 222.5" _prev_rot="0 0 0 -1" continent="house" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/props/suburbia_phone_02/suburbia_phone_02" name_id="suburbia_phone_02_006" position="-311.656 2164.73 219.5" rotation="0 0 0 -1" unit_id="400668"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-162.032 2167.04 217.073" _prev_rot="0 0 0.615661 -0.788011" continent="house" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/off_prop_officehigh_paperstacks/off_prop_officehigh_folder_holder_01" name_id="off_prop_officehigh_folder_holder_01_005" position="-161.064 2163.16 217.073" rotation="0 0 0.615661 -0.788011" unit_id="400669"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="38.2162 2163.81 222.5" _prev_rot="0 0 0 -1" continent="house" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/props/yacht/flowers/lxy_prop_flower_vase" name_id="lxy_prop_flower_vase_007" position="38.2162 2163.81 219.5" rotation="0 0 0 -1" unit_id="400670"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-136.123 2163.27 255.534" _prev_rot="0 0 0 -1" continent="house" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/off_prop_officehigh_books/off_prop_officehigh_books_professional_01" name_id="off_prop_officehigh_books_professional_01_005" position="-135.123 2163.27 255.534" rotation="0 0 0 -1" unit_id="400671"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-61.2825 2149.25 295.648" _prev_rot="0 0 0 -1" continent="house" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/off_prop_officehigh_filebox/off_prop_officehigh_filebox_long_open" name_id="off_prop_officehigh_filebox_long_open_006" position="-61.2825 2149.25 295.648" rotation="0 0 0 -1" unit_id="400672"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-203.72 2151.61 294.935" _prev_rot="0 0 -0.681998 -0.731354" continent="house" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/off_prop_officehigh_filebox/off_prop_officehigh_filebox_short_whole_b" name_id="off_prop_officehigh_filebox_short_whole_b_001" position="-203.581 2153.61 294.935" rotation="0 0 -0.681998 -0.731354" unit_id="400673"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-170.661 2151.31 294.935" _prev_rot="0 0 -0.725374 -0.688355" continent="house" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/off_prop_officehigh_filebox/off_prop_officehigh_filebox_short_whole_b" name_id="off_prop_officehigh_filebox_short_whole_b_002" position="-171.028 2158.3 294.935" rotation="0 0 -0.725374 -0.688355" unit_id="400674"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-200.144 2157.82 319.935" _prev_rot="0 0 0.991445 0.130526" continent="house" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/off_prop_officehigh_filebox/off_prop_officehigh_filebox_short_whole_b" name_id="off_prop_officehigh_filebox_short_whole_b_003" position="-190.485 2155.23 319.935" rotation="0 0 0.991445 0.130526" unit_id="400675"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-542.112 2946.41 120" _prev_rot="0 0 0 -1" continent="house" local_pos="-133.949 -80.5901 277.373" local_rot="-4.37114e-008 1 -4.37114e-008 -1.91069e-015" name="units/pd2_mcmansion/props/mcm_prop_dining_buffet/mcm_prop_dining_buffet_wide" name_id="mcm_prop_dining_buffet_wide_001" position="-521.112 2946.41 120" rotation="0 0 0 -1" unit_id="400676"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-441.731 3011.18 214.546" _prev_rot="0 0 0 -1" continent="house" local_pos="-234.33 -15.8201 182.827" local_rot="-4.37114e-008 1 -4.37114e-008 -1.91069e-015" name="units/world/props/diamond_heist/apartment/apartment_room/flowerpot/flowerpot" name_id="flowerpot_007" position="-420.731 3011.18 214.546" rotation="0 0 0 -1" unit_id="400677"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-359.027 2990.48 214.67" _prev_rot="0 0 0 -1" continent="house" local_pos="-317.034 -36.52 182.703" local_rot="-4.37114e-008 1 -4.37114e-008 -1.91069e-015" name="units/pd2_mcmansion/props/mcm_prop_kitchen_herbs_pot/mcm_prop_kitchen_herbs_pot" name_id="mcm_prop_kitchen_herbs_pot_005" position="-338.027 2990.48 214.67" rotation="0 0 0 -1" unit_id="400678"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-920 2774.84 355.305" _prev_rot="0 0 0 -1" continent="house" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/lxa_prop_gallery_paintings/lxa_prop_painting3" name_id="lxa_prop_painting3_003" position="-924 2774.84 355.305" rotation="0 0 0 -1" unit_id="400679"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-920 2415.89 393.107" _prev_rot="0 0 0 -1" continent="house" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/lxa_prop_gallery_paintings/lxa_prop_painting1" name_id="lxa_prop_painting1_001" position="-925 2415.89 393.107" rotation="0 0 0 -1" unit_id="400680"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-643.061 3027 385.373" _prev_rot="-4.37114e-008 1 -4.37114e-008 1.91069e-015" continent="house" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/gen_prop_aircon_indoor/gen_prop_aircon_indoor" name_id="gen_prop_aircon_indoor_002" position="-641.061 3027 385.373" rotation="-4.37114e-008 1 -4.37114e-008 1.91069e-015" unit_id="400681"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-921.194 2648.99 120" _prev_rot="0 0 -0.707107 -0.707107" continent="house" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/off_prop_officehigh_drawer/off_prop_officehigh_drawer_dark_large_shelves_2" name_id="off_prop_officehigh_drawer_dark_large_shelves_2_003" position="-921.194 2648.99 120" rotation="0 0 -0.707107 -0.707107" unit_id="400682"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-921.515 2753.29 120" _prev_rot="0 0 -0.707107 -0.707107" continent="house" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/off_prop_officehigh_drawer/off_prop_officehigh_drawer_dark_small_drawers_1" name_id="off_prop_officehigh_drawer_dark_small_drawers_1_001" position="-921.515 2751.29 120" rotation="0 0 -0.707107 -0.707107" unit_id="400683"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-894.671 2670.01 126.607" _prev_rot="0 0 0 -1" continent="house" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/off_prop_officehigh_filebox/off_prop_officehigh_filebox_short_base_b" name_id="off_prop_officehigh_filebox_short_base_b_001" position="-894.671 2670.01 126.607" rotation="0 0 0 -1" unit_id="400684"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-896.433 2668.44 132.132" _prev_rot="0.551937 0 0 -0.833886" continent="house" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/off_prop_officehigh_filebox/off_prop_officehigh_filebox_short_lid_b" name_id="off_prop_officehigh_filebox_short_lid_b_001" position="-896.433 2667.52 131.742" rotation="0.551937 0 0 -0.833886" unit_id="400685"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-901.299 2730.3 220" _prev_rot="0 0 0 -1" continent="house" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/props/yacht/flowers/lxy_prop_flower_vase" name_id="lxy_prop_flower_vase_008" position="-901.299 2730.3 220" rotation="0 0 0 -1" unit_id="400686"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-908.232 2645.8 220.073" _prev_rot="0 0 1 -9.31323e-009" continent="house" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/off_prop_officehigh_books/off_prop_officehigh_binder_06" name_id="off_prop_officehigh_binder_06_002" position="-869.232 2645.8 220.073" rotation="0 0 1 -9.31323e-009" unit_id="400687"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-892.144 2586.01 256.774" _prev_rot="0 0 0 -1" continent="house" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/off_prop_officehigh_filebox/off_prop_officehigh_filebox_long_open" name_id="off_prop_officehigh_filebox_long_open_007" position="-892.144 2575.01 256.774" rotation="0 0 0 -1" unit_id="400688"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-897.556 2627.88 255.897" _prev_rot="0 0 0.492424 -0.870356" continent="house" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/off_prop_officehigh_filebox/off_prop_officehigh_filebox_short_base" name_id="off_prop_officehigh_filebox_short_base_003" position="-892.921 2620.16 255.897" rotation="0 0 0.492424 -0.870356" unit_id="400689"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-842.521 2968.44 120" _prev_rot="0 0 0 -1" continent="house" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/vegetation/str_veg_potted_plant/str_veg_potted_plant" name_id="str_veg_potted_plant_030" position="-842.521 2968.44 120" rotation="0 0 0 -1" unit_id="400690"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="40 2618.31 249.095" _prev_rot="0 0 0.707107 -0.707107" continent="house" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mcmansion/props/mcm_prop_livingroom_clock/mcm_prop_livingroom_clock" name_id="mcm_prop_livingroom_clock_005" position="40 2619.31 249.095" rotation="0 0 0.707107 -0.707107" unit_id="400691"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="906.176 2943.11 118" _prev_rot="0 0 0.113203 -0.993572" continent="house" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mcmansion/props/mcm_prop_garden_barbeque/mcm_prop_garden_barbeque" name_id="mcm_prop_garden_barbeque_002" position="903.333 2993.03 118" rotation="0 0 0.113203 -0.993572" unit_id="400692"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-412.489 2389.59 120" _prev_rot="0 0 0 -1" continent="house" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/props/rug04_suburbia/rug04_suburbia" name_id="rug04_suburbia_002" position="-412.489 2343.59 120" rotation="0 0 0 -1" unit_id="400693"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-33.5866 2832.23 120" _prev_rot="0 0 0 -1" continent="house" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mcmansion/props/mcm_prop_livingroom_rug/mcm_prop_livingroom_rug" name_id="mcm_prop_livingroom_rug_004" position="-33.5866 2832.23 120" rotation="0 0 0 -1" unit_id="400694"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-3.90442 2618.87 120" _prev_rot="0 0 0 -1" continent="house" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mcmansion/props/mcm_prop_hallway_table_entry/mcm_prop_hallway_table_entry" name_id="mcm_prop_hallway_table_entry_002" position="22.0956 2618.87 120" rotation="0 0 0 -1" unit_id="400695"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-7.51398 2571.25 127.215" _prev_rot="0 0 0.707107 -0.707107" continent="house" local_pos="-3.60956 -47.6166 7.21479" local_rot="0 0 -0.707107 0.707107" name="units/payday2/props/off_prop_officehigh_books/off_prop_officehigh_books_professional_01" name_id="off_prop_officehigh_books_professional_01_006" position="18.486 2571.25 127.215" rotation="0 0 0.707107 -0.707107" unit_id="400696"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="975.175 1334.31 520" _prev_rot="0 0 0.707107 -0.707107" continent="house" local_pos="44.3088 -235.055 0" local_rot="0 0 -0.707107 0.707107" name="units/payday2/props/lxa_prop_bathroom_shower/lxa_prop_bathroom_shower" name_id="lxa_prop_bathroom_shower_003" position="975.175 1334.31 520" rotation="0 0 0.707107 -0.707107" unit_id="400697"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="575 1292.59 583.172" _prev_rot="0 0 -0.707107 -0.707107" continent="house" local_pos="-355.866 -276.772 63.1724" local_rot="0 0 0.707107 0.707107" name="units/payday2/props/lxa_prop_bathroom_toilet/lxa_prop_bathroom_toilet" name_id="lxa_prop_bathroom_toilet_007" position="575 1292.59 583.172" rotation="0 0 -0.707107 -0.707107" unit_id="400698"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="585.929 1242.38 619.559" _prev_rot="0 0 0.71325 -0.700909" continent="house" local_pos="-344.937 -326.983 99.5589" local_rot="0 0 -0.71325 0.700909" name="units/payday2/props/lxa_prop_bathroom_toilet/lxa_prop_bathroom_toilet_shelf" name_id="lxa_prop_bathroom_toilet_shelf_007" position="585.929 1242.38 619.559" rotation="0 0 0.71325 -0.700909" unit_id="400699"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="602.349 1342.03 520" _prev_rot="0 0 0 -1" continent="house" local_pos="-328.517 -227.336 0" local_rot="0 0 0 1" name="units/payday2/props/lxa_prop_bathroom_toilet/lxa_prop_bathroom_toilet_brush" name_id="lxa_prop_bathroom_toilet_brush_007" position="602.349 1342.03 520" rotation="0 0 0 -1" unit_id="400700"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="717.987 1267.92 520" _prev_rot="0 0 0 -1" continent="house" local_pos="-212.879 -301.439 0" local_rot="0 0 0 1" name="units/payday2/props/lxa_prop_bathroom_mat/lxa_prop_bathroom_mat" name_id="lxa_prop_bathroom_mat_002" position="717.987 1267.92 520" rotation="0 0 0 -1" unit_id="400701"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="658.873 1624.81 520" _prev_rot="0 0 0 -1" continent="house" local_pos="-271.993 55.442 0" local_rot="0 0 0 1" name="units/payday2/props/lxa_prop_bathroom_sink/lxa_prop_bathroom_sink" name_id="lxa_prop_bathroom_sink_003" position="658.873 1624.81 520" rotation="0 0 0 -1" unit_id="400702"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="766.93 1593.08 520" _prev_rot="0 0 0 -1" continent="house" local_pos="-163.936 23.7205 0" local_rot="0 0 0 1" name="units/payday2/props/lxa_prop_bathroom_trashcan/lxa_prop_bathroom_trashcan" name_id="lxa_prop_bathroom_trashcan_006" position="766.93 1593.08 520" rotation="0 0 0 -1" unit_id="400703"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="972.888 1421.46 520" _prev_rot="0 0 1 7.45058e-008" continent="house" local_pos="42.0221 -147.906 0" local_rot="0 0 -1 -7.45058e-008" name="units/payday2/props/lxa_prop_bathroom_shelves/lxa_prop_bathroom_shelves" name_id="lxa_prop_bathroom_shelves_003" position="972.888 1421.46 520" rotation="0 0 1 7.45058e-008" unit_id="400704"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="845.841 1150 762.747" _prev_rot="0 0 -0.707107 -0.707107" continent="house" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/lxa_prop_gallery_paintings/lxa_prop_painting5" name_id="lxa_prop_painting5_002" position="845.841 1150 762.747" rotation="0 0 -0.707107 -0.707107" unit_id="400705"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="930.866 1569.36 520" _prev_rot="0 0 0 -1" continent="house" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/vegetation/str_veg_potted_plant/str_veg_potted_plant" name_id="str_veg_potted_plant_031" position="930.866 1569.36 520" rotation="0 0 0 -1" unit_id="400706"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="1070.87 1567.36 520" _prev_rot="0 0 -0.707107 -0.707107" continent="house" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/vegetation/str_veg_potted_plant/str_veg_potted_plant" name_id="str_veg_potted_plant_032" position="1070.87 1562.36 520" rotation="0 0 -0.707107 -0.707107" unit_id="400707"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="1218.77 1609.39 520" _prev_rot="0 0 0.707107 -0.707107" continent="house" local_pos="42.0221 -147.906 0" local_rot="0 0 -1 -5.96046e-008" name="units/payday2/props/lxa_prop_bathroom_shelves/lxa_prop_bathroom_shelves" name_id="lxa_prop_bathroom_shelves_004" position="1218.77 1604.39 520" rotation="0 0 0.707107 -0.707107" unit_id="400708"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="1047.15 1403.43 520" _prev_rot="0 0 -0.707107 -0.707107" continent="house" local_pos="-163.936 23.7205 0" local_rot="0 0 0 1" name="units/payday2/props/lxa_prop_bathroom_trashcan/lxa_prop_bathroom_trashcan" name_id="lxa_prop_bathroom_trashcan_007" position="1047.15 1398.43 520" rotation="0 0 -0.707107 -0.707107" unit_id="400709"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="1015.42 1295.37 520" _prev_rot="0 0 -0.707107 -0.707107" continent="house" local_pos="-271.993 55.442 0" local_rot="0 0 0 1" name="units/payday2/props/lxa_prop_bathroom_sink/lxa_prop_bathroom_sink" name_id="lxa_prop_bathroom_sink_004" position="1015.42 1290.37 520" rotation="0 0 -0.707107 -0.707107" unit_id="400710"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="1268.2 1131.85 520" _prev_rot="0 0 -0.707107 -0.707107" continent="house" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/lxa_prop_bathroom_toilet/lxa_prop_bathroom_toilet_brush" name_id="lxa_prop_bathroom_toilet_brush_008" position="1268.2 1131.85 520" rotation="0 0 -0.707107 -0.707107" unit_id="400711"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="1317.64 1104.5 583.172" _prev_rot="0 0 1 -1.49012e-007" continent="house" local_pos="-27.3485 -49.4357 63.1724" local_rot="0 0 -0.707107 -0.707107" name="units/payday2/props/lxa_prop_bathroom_toilet/lxa_prop_bathroom_toilet" name_id="lxa_prop_bathroom_toilet_008" position="1317.64 1104.5 583.172" rotation="0 0 -1 1.49012e-007" unit_id="400712"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="1367.85 1115.43 619.559" _prev_rot="0 0 0.00872645 -0.999962" continent="house" local_pos="-16.4201 -99.6464 99.5589" local_rot="0 0 -0.71325 0.700909" name="units/payday2/props/lxa_prop_bathroom_toilet/lxa_prop_bathroom_toilet_shelf" name_id="lxa_prop_bathroom_toilet_shelf_008" position="1367.85 1115.43 619.559" rotation="0 0 0.00872645 -0.999962" unit_id="400713"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="1490.23 1482.34 762.747" _prev_rot="0 0 1 -1.49012e-007" continent="house" local_pos="-85.0254 -419.364 242.747" local_rot="0 0 -0.707107 -0.707107" name="units/payday2/props/lxa_prop_gallery_paintings/lxa_prop_painting5" name_id="lxa_prop_painting5_003" position="1490.23 1477.34 762.747" rotation="0 0 -1 1.49012e-007" unit_id="400714"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="1305.92 1611.67 520" _prev_rot="0 0 -5.96046e-008 -1" continent="house" local_pos="44.3088 -235.055 0" local_rot="0 0 -0.707107 0.707107" name="units/payday2/props/lxa_prop_bathroom_shower/lxa_prop_bathroom_shower" name_id="lxa_prop_bathroom_shower_004" position="1305.92 1606.67 520" rotation="0 0 -5.96046e-008 -1" unit_id="400715"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="1372.31 1354.49 520" _prev_rot="0 0 -0.707107 -0.707107" continent="house" local_pos="-212.879 -301.439 0" local_rot="0 0 0 1" name="units/payday2/props/lxa_prop_bathroom_mat/lxa_prop_bathroom_mat" name_id="lxa_prop_bathroom_mat_003" position="1372.31 1349.49 520" rotation="0 0 -0.707107 -0.707107" unit_id="400716"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="1380.84 1352 762.747" _prev_rot="0 0 1 -5.96047e-008" continent="house" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/lxa_prop_gallery_paintings/lxa_prop_painting5" name_id="lxa_prop_painting5_004" position="1414.84 1352 762.747" rotation="0 0 1 -5.96047e-008" unit_id="400717"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="771.124 657.887 520" _prev_rot="0 0 0 -1" continent="house" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/props/diamond_heist/apartment/apartment_livingroom/tv_bench/tv_bench" name_id="tv_bench_001" position="771.124 651.887 520" rotation="0 0 0 -1" unit_id="400718"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="657.232 644.297 564.057" _prev_rot="0 0 0 -1" continent="house" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/props/diamond_heist/apartment/apartment_room/flowerpot/flowerpot" name_id="flowerpot_008" position="657.232 644.297 562.057" rotation="0 0 0 -1" unit_id="400719"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="872.388 655.601 564.057" _prev_rot="0 0 -0.25038 -0.968148" continent="house" local_pos="25.4875 4.23798 0" local_rot="0 0 0.25038 0.968148" name="units/world/props/suburbia_phone_02/suburbia_phone_02" name_id="suburbia_phone_02_007" position="872.388 655.601 562.057" rotation="0 0 -0.25038 -0.968148" unit_id="400720"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="698.196 647.08 564.057" _prev_rot="0 0 0 -1" continent="house" local_pos="40.9641 2.7829 0" local_rot="0 0 0 1" name="units/world/props/diamond_heist/apartment/apartment_livingroom/tv_speaker/tv_speaker" name_id="tv_speaker_001" position="698.196 647.08 562.057" rotation="0 0 0 -1" unit_id="400721"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="846.901 651.363 564.057" _prev_rot="0 0 0 -1" continent="house" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/props/diamond_heist/apartment/apartment_livingroom/tv_speaker/tv_speaker" name_id="tv_speaker_002" position="846.901 651.363 562.057" rotation="0 0 0 -1" unit_id="400722"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="819.147 639.872 562.057" _prev_rot="0 0 0 -1" continent="house" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/off_prop_officehigh_books/off_prop_officehigh_books_professional_01" name_id="off_prop_officehigh_books_professional_01_007" position="819.147 632.872 562.057" rotation="0 0 0 -1" unit_id="400723"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="1359.08 855.433 520" _prev_rot="0 0 0 -1" continent="house" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mcmansion/props/mcm_prop_livingroom_armchair/mcm_prop_livingroom_armchair" name_id="mcm_prop_livingroom_armchair_001" position="1362.08 855.433 520" rotation="0 0 0 -1" unit_id="400724"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="1266.62 628 708.84" _prev_rot="0.707107 0 0 -0.707107" continent="house" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/props/bank/paintings/painting_03" name_id="painting_03_002" position="1266.62 628 686.84" rotation="0.707107 0 0 -0.707107" unit_id="400725"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="1161.39 683.222 520" _prev_rot="0 0 0 -1" continent="house" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/vegetation/str_veg_potted_plant/str_veg_potted_plant" name_id="str_veg_potted_plant_033" position="1161.39 683.222 520" rotation="0 0 0 -1" unit_id="400726"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="1176 630.798 510" _prev_rot="0 0 1 3.72529e-009" continent="house" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mcmansion/props/mcm_prop_livingroom_curtains/mcm_prop_livingroom_curtains_open" name_id="mcm_prop_livingroom_curtains_open_008" position="1176 630.798 510" rotation="0 0 1 3.72529e-009" unit_id="400727"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="1415 1113.8 510" _prev_rot="0 0 0.707107 -0.707107" continent="house" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mcmansion/props/mcm_prop_livingroom_curtains/mcm_prop_livingroom_curtains_open" name_id="mcm_prop_livingroom_curtains_open_009" position="1415 1113.8 510" rotation="0 0 0.707107 -0.707107" unit_id="400728"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-616.004 630.798 466" _prev_rot="0 0 1 3.72529e-009" continent="house" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mcmansion/props/mcm_prop_livingroom_curtains/mcm_prop_livingroom_curtains_open" name_id="mcm_prop_livingroom_curtains_open_010" position="-616.004 630.798 471" rotation="0 0 1 3.72529e-009" unit_id="400729"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="915.996 2529.8 510" _prev_rot="0 0 0 -1" continent="house" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mcmansion/props/mcm_prop_livingroom_curtains/mcm_prop_livingroom_curtains_open" name_id="mcm_prop_livingroom_curtains_open_011" position="915.996 2529.8 510" rotation="0 0 0 -1" unit_id="400730"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-910.004 2579.8 510" _prev_rot="0 0 -0.707107 -0.707107" continent="house" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mcmansion/props/mcm_prop_livingroom_curtains/mcm_prop_livingroom_curtains_open" name_id="mcm_prop_livingroom_curtains_open_012" position="-910.004 2400.8 510" rotation="0 0 -0.707107 -0.707107" unit_id="400731"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-910.004 1908.8 510" _prev_rot="0 0 -0.707107 -0.707107" continent="house" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mcmansion/props/mcm_prop_livingroom_curtains/mcm_prop_livingroom_curtains_open" name_id="mcm_prop_livingroom_curtains_open_013" position="-910.004 1905.8 510" rotation="0 0 -0.707107 -0.707107" unit_id="400732"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="915.996 2529.8 510" _prev_rot="0 0 0 -1" continent="house" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mcmansion/props/mcm_prop_livingroom_curtains/mcm_prop_livingroom_curtains_open" name_id="mcm_prop_livingroom_curtains_open_014" position="312.996 2529.8 510" rotation="0 0 0 -1" unit_id="400733"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="1051 2530.8 120" _prev_rot="0 0 0 -1" continent="house" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mcmansion/props/mcm_prop_livingroom_curtains/mcm_prop_livingroom_curtains_open" name_id="mcm_prop_livingroom_curtains_open_015" position="1065 2530.8 120" rotation="0 0 0 -1" unit_id="400734"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="166 2530.8 120" _prev_rot="0 0 0 -1" continent="house" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mcmansion/props/mcm_prop_livingroom_curtains/mcm_prop_livingroom_curtains_open" name_id="mcm_prop_livingroom_curtains_open_016" position="165 2530.8 120" rotation="0 0 0 -1" unit_id="400735"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-188 3050.8 120" _prev_rot="0 0 0 -1" continent="house" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mcmansion/props/mcm_prop_livingroom_curtains/mcm_prop_livingroom_curtains_open" name_id="mcm_prop_livingroom_curtains_open_017" position="-235 3050.8 120" rotation="0 0 0 -1" unit_id="400736"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-885 3050.8 120" _prev_rot="0 0 0 -1" continent="house" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mcmansion/props/mcm_prop_livingroom_curtains/mcm_prop_livingroom_curtains_open" name_id="mcm_prop_livingroom_curtains_open_018" position="-887 3050.8 120" rotation="0 0 0 -1" unit_id="400737"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="1075 1912.62 528.742" _prev_rot="0 0 -0.707107 -0.707107" continent="house" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/props/diamond_heist/apartment/apartment_livingroom/tv_bench/tv_bench" name_id="tv_bench_002" position="1053 1912.62 528.742" rotation="0 0 -0.707107 -0.707107" unit_id="400738"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="1075 1949.8 654.017" _prev_rot="0.5 0.5 -0.5 -0.5" continent="house" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/props/diamond_heist/apartment/apartment_livingroom/tv_wall/tv_wall" name_id="tv_wall_002" position="1075 1914.8 654.017" rotation="0.5 0.5 -0.5 -0.5" unit_id="400739"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="1047.6 1995.48 572.799" _prev_rot="0 0 0 -1" continent="house" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/props/diamond_heist/apartment/apartment_livingroom/tv_speaker/tv_speaker" name_id="tv_speaker_003" position="1047.6 1995.48 570.799" rotation="0 0 0 -1" unit_id="400740"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="1048.01 1833.72 570.799" _prev_rot="0 0 0 -1" continent="house" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/props/diamond_heist/apartment/apartment_livingroom/tv_speaker/tv_speaker" name_id="tv_speaker_004" position="1048.01 1835.72 570.799" rotation="0 0 0 -1" unit_id="400741"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="1024.17 1728.89 520" _prev_rot="0 0 0 -1" continent="house" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/vegetation/str_veg_potted_plant/str_veg_potted_plant" name_id="str_veg_potted_plant_034" position="1024.17 1728.89 520" rotation="0 0 0 -1" unit_id="400742"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="596.698 2054.47 520" _prev_rot="0 0 -0.707107 -0.707107" continent="house" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mcmansion/props/mcm_prop_bedroom_set/mcm_prop_bedroom_bedstand" name_id="mcm_prop_bedroom_bedstand_001" position="596.698 2054.47 520" rotation="0 0 -0.707107 -0.707107" unit_id="400743"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="587.695 2073.31 584.033" _prev_rot="0 0 0 -1" continent="house" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mcmansion/props/mcm_prop_bedroom_jewelry_box/mcm_prop_bedroom_jewelry_case" name_id="mcm_prop_bedroom_jewelry_case_001" position="587.695 2073.31 584.033" rotation="0 0 0 -1" unit_id="400744"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="1242.3 2495.94 520" _prev_rot="0 0 0 -1" continent="house" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/lxa_prop_bedroom_drawer/lxa_prop_bedroom_drawer" name_id="lxa_prop_bedroom_drawer_003" position="1242.3 2495.94 520" rotation="0 0 0 -1" unit_id="400745"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="749.539 1671.49 520" _prev_rot="0 0 0 -1" continent="house" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mcmansion/props/mcm_prop_bedroom_vase/mcm_prop_bedroom_vase" name_id="mcm_prop_bedroom_vase_001" position="749.539 1671.49 520" rotation="0 0 0 -1" unit_id="400746"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="629.857 2508.57 520" _prev_rot="0 0 0 -1" continent="house" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mcmansion/props/mcm_prop_bedroom_set/mcm_prop_bedroom_cabinet" name_id="mcm_prop_bedroom_cabinet_001" position="629.857 2502.57 520" rotation="0 0 0 -1" unit_id="400747"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="765.785 2498.91 520" _prev_rot="0 0 0 -1" continent="house" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mcmansion/props/mcm_prop_bedroom_set/mcm_prop_bedroom_dresser" name_id="mcm_prop_bedroom_dresser_001" position="765.785 2498.91 520" rotation="0 0 0 -1" unit_id="400748"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="720.558 2357.11 520" _prev_rot="0 0 0 -1" continent="house" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/lxa_prop_int_carpet/lxa_prop_int_carpet_01_b" name_id="lxa_prop_int_carpet_01_b_001" position="720.558 2357.11 520" rotation="0 0 0 -1" unit_id="400749"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="1275.08 1945.03 520" _prev_rot="0 0 -0.707107 -0.707107" continent="house" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/lxa_prop_int_carpet/lxa_prop_int_carpet_02_b" name_id="lxa_prop_int_carpet_02_b_001" position="1266.08 1945.03 520" rotation="0 0 -0.707107 -0.707107" unit_id="400750"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="574 2130.35 754.939" _prev_rot="0 0 0 -1" continent="house" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/lxa_prop_gallery_paintings/lxa_prop_painting4" name_id="lxa_prop_painting4_002" position="574 2212.35 754.939" rotation="0 0 0 -1" unit_id="400751"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="1420 2391.01 782.931" _prev_rot="0 0 1 1.43424e-007" continent="house" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/lxa_prop_gallery_paintings/lxa_prop_painting6" name_id="lxa_prop_painting6_003" position="1424 2391.01 782.931" rotation="0 0 1 1.43424e-007" unit_id="400752"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="1366.83 2463.66 520" _prev_rot="0 0 0 -1" continent="house" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/vegetation/str_veg_potted_plant/str_veg_potted_plant" name_id="str_veg_potted_plant_035" position="1366.83 2463.66 520" rotation="0 0 0 -1" unit_id="400753"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="738.513 1650 663.179" _prev_rot="0 0 1 -1.52737e-007" continent="house" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mcmansion/props/mcm_prop_livingroom_clock/mcm_prop_livingroom_clock" name_id="mcm_prop_livingroom_clock_006" position="738.513 1659 663.179" rotation="0 0 1 -1.52737e-007" unit_id="400754"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="699.708 1663.61 520" _prev_rot="0 0 0 -1" continent="house" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/props/trashcan/trash_basket" name_id="trash_basket_010" position="699.708 1663.61 520" rotation="0 0 0 -1" unit_id="400755"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="925.698 1052.47 520" _prev_rot="0 0 -3.72529e-008 -1" continent="house" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mcmansion/props/mcm_prop_bedroom_set/mcm_prop_bedroom_bedstand" name_id="mcm_prop_bedroom_bedstand_002" position="912.698 1052.47 520" rotation="0 0 -3.72529e-008 -1" unit_id="400756"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="912.698 1052.47 520" _prev_rot="0 0 -3.72529e-008 -1" continent="house" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mcmansion/props/mcm_prop_bedroom_set/mcm_prop_bedroom_bedstand" name_id="mcm_prop_bedroom_bedstand_003" position="636.698 1052.47 520" rotation="0 0 -3.72529e-008 -1" unit_id="400757"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="771.076 1080 737.177" _prev_rot="-0.707107 0 0 -0.707107" continent="house" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/props/bank/paintings/painting_02" name_id="painting_02_003" position="771.076 1082 737.177" rotation="-0.707107 0 0 -0.707107" unit_id="400758"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="894.633 1054.86 584.033" _prev_rot="0 0 0 -1" continent="house" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/props/yacht/flowers/lxy_prop_flower_vase" name_id="lxy_prop_flower_vase_009" position="894.633 1054.86 584.033" rotation="0 0 0 -1" unit_id="400759"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="651.174 1054.5 584.033" _prev_rot="0 0 0 -1" continent="house" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mcmansion/props/mcm_prop_bedroom_lamp_table/mcm_prop_bedroom_lamp_table" name_id="mcm_prop_bedroom_lamp_table_001" position="651.174 1054.5 584.033" rotation="0 0 0 -1" unit_id="400760"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="1293.48 1041.15 520" _prev_rot="0 0 0 -1" continent="house" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mcmansion/props/mcm_prop_bedroom_set/mcm_prop_bedroom_cabinet" name_id="mcm_prop_bedroom_cabinet_002" position="1293.48 1049.15 520" rotation="0 0 0 -1" unit_id="400761"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="597.067 2033.27 584.033" _prev_rot="0 0 0 -1" continent="house" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mcmansion/props/mcm_prop_bedroom_lamp_table/mcm_prop_bedroom_lamp_table" name_id="mcm_prop_bedroom_lamp_table_002" position="596.067 2036.27 584.033" rotation="0 0 0 -1" unit_id="400762"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="1006 2231.87 519" _prev_rot="0 0 0 -1" continent="house" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/architecture/lux/lux_int_pillar1_050m_a" name_id="lux_int_pillar1_050m_a_002" position="972 2246.87 519" rotation="0 0 0 -1" unit_id="400763"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="1276.32 2477.1 622.499" _prev_rot="0 0 0.97237 0.233445" continent="house" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/props/suburbia_phone_02/suburbia_phone_02" name_id="suburbia_phone_02_008" position="1276.32 2477.1 619.499" rotation="0 0 0.97237 0.233445" unit_id="400764"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="1187.56 2490.96 622.499" _prev_rot="0 0 0 -1" continent="house" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/props/yacht/flowers/lxy_prop_flower_vase" name_id="lxy_prop_flower_vase_010" position="1187.56 2490.96 619.499" rotation="0 0 0 -1" unit_id="400765"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="1226.56 2257.11 520" _prev_rot="0 0 0.707107 -0.707107" continent="house" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/lxa_prop_int_carpet/lxa_prop_int_carpet_01_b" name_id="lxa_prop_int_carpet_01_b_002" position="1242.56 2257.11 520" rotation="0 0 0.707107 -0.707107" unit_id="400766"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-220 2525.87 120" _prev_rot="0 0 0 -1" continent="house" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/architecture/lux/lux_int_pillar1_050m_a" name_id="lux_int_pillar1_050m_a_003" position="-220 2553.87 120" rotation="0 0 0 -1" unit_id="400767"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-220 2553.87 120" _prev_rot="0 0 0 -1" continent="house" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/architecture/lux/lux_int_pillar1_050m_a" name_id="lux_int_pillar1_050m_a_004" position="-656 2553.87 120" rotation="0 0 0 -1" unit_id="400768"/>
 		</table>
 	</statics>
 	<values>
