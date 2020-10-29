@@ -782,7 +782,7 @@
 			<unit_data _prev_pos="-2520 -2080 20" _prev_rot="0 0 0 -1" continent="house" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_friend/architecture/ext/sfm_ext_hedges_6m" name_id="sfm_ext_hedges_6m_007" position="-2520 -2080 20" rotation="0 0 0 -1" unit_id="400211"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-2270 -580 20" _prev_rot="0 0 0 -1" continent="house" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_friend/architecture/ext/sfm_ext_hedges_6m" name_id="sfm_ext_hedges_6m_008" position="-2270 -580 20" rotation="0 0 0 -1" unit_id="400212"/>
+			<unit_data _prev_pos="-2270 -580 20" _prev_rot="0 0 0 -1" continent="house" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_friend/architecture/ext/sfm_ext_hedges_6m" name_id="sfm_ext_hedges_6m_008" position="-2270 -637 20" rotation="0 0 0 -1" unit_id="400212"/>
 		</table>
 		<table>
 			<unit_data _prev_pos="-945 -1780 20" _prev_rot="0 0 -0.707107 -0.707107" continent="house" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_friend/architecture/ext/sfm_ext_hedges_6m" name_id="sfm_ext_hedges_6m_009" position="-945 -1780 20" rotation="0 0 -0.707107 -0.707107" unit_id="400213"/>
@@ -3061,6 +3061,20 @@
 		</table>
 		<table>
 			<unit_data _prev_pos="-2073.82 128.762 132.983" _prev_rot="5.8841e-015 -8.84756e-008 1 -6.33325e-008" continent="house" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/vehicles/str_vehicle_motorcycle_chopper/str_vehicle_motorcycle_chopper" name_id="str_vehicle_motorcycle_chopper_001" position="-2073.82 128.762 17.9828" rotation="5.8841e-015 -8.84756e-008 1 -6.33325e-008" unit_id="400864"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="1954.76 703.675 4.496" _prev_rot="0 0 -0.104528 -0.994522" continent="house" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/dev_tools/dev_ladder/dev_ladder" name_id="dev_ladder_010" only_visible_in_editor="true" position="1952.81 703.259 4.496" rotation="0 0 -0.104528 -0.994522" unit_id="400092">
+				<ladder height="140" width="80"/>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="-410.577 651.752 273.523" _prev_rot="0.0370071 -0.0370071 0.706138 -0.706138" continent="house" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/payday2/pickups/gen_pku_crowbar/gen_pku_crowbar" name_id="gen_pku_crowbar_002" position="-410.682 651.752 272.528" rotation="0.0370071 -0.0370071 0.706138 -0.706138" unit_id="400865"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-2312.98 47.319 107.011" _prev_rot="0.684584 -0.177045 0.684584 0.177045" continent="house" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="enable_interaction" name="units/payday2/pickups/gen_pku_crowbar/gen_pku_crowbar" name_id="gen_pku_crowbar_001" position="-2312.98 47.319 107.011" rotation="0.684584 -0.177045 0.684584 0.177045" unit_id="400866"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="512.572 -1769.3 108.011" _prev_rot="0.579228 0.40558 0.579228 -0.40558" continent="house" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="enable_interaction" name="units/payday2/pickups/gen_pku_crowbar/gen_pku_crowbar" name_id="gen_pku_crowbar_003" position="512.572 -1769.3 108.011" rotation="0.579228 0.40558 0.579228 -0.40558" unit_id="400867"/>
 		</table>
 	</statics>
 	<values>
