@@ -31,6 +31,10 @@
 		<object force="true" path="units/pd2_mod_hwu/architecture/ext_manhole_caps/ext_manhole_caps" unload="true"/>
 		<unit force="true" path="units/pd2_mod_hwu/architecture/ext_manhole_caps/ext_manhole_caps" unload="true"/>
 		<sequence_manager force="true" path="units/pd2_mod_hwu/architecture/ext_manhole_caps/ext_manhole_caps" unload="true"/>
+		<material_config force="true" path="units/pd2_mod_hwu/architecture/hwu_mountain_ground/hwu_mountain_ground" unload="true"/>
+		<model force="true" path="units/pd2_mod_hwu/architecture/hwu_mountain_ground/hwu_mountain_ground" unload="true"/>
+		<object force="true" path="units/pd2_mod_hwu/architecture/hwu_mountain_ground/hwu_mountain_ground" unload="true"/>
+		<unit force="true" path="units/pd2_mod_hwu/architecture/hwu_mountain_ground/hwu_mountain_ground" unload="true"/>
 		<material_config force="true" path="units/pd2_mod_hwu/architecture/smuggler_house/ext_smuggler_house_ground" unload="true"/>
 		<model force="true" path="units/pd2_mod_hwu/architecture/smuggler_house/ext_smuggler_house_ground" unload="true"/>
 		<object force="true" path="units/pd2_mod_hwu/architecture/smuggler_house/ext_smuggler_house_ground" unload="true"/>
@@ -526,8 +530,18 @@
 		<unit path="units/world/architecture/secret_stash/props/secret_stash_vent_7" unload="true"/>
 	</add>
 	<add path="units/world/architecture/secret_stash/props/secret_stash_vent_7_shaft" type="unit">
-		<unit path="units/world/architecture/secret_stash/props/secret_stash_vent_7_shaft" unload="true"/>
-		<object path="units/world/architecture/secret_stash/props/secret_stash_vent_7_shaft" unload="true"/>
 		<material_config path="units/world/architecture/secret_stash/props/secret_stash_props_rooftop_1" unload="true"/>
+		<object path="units/world/architecture/secret_stash/props/secret_stash_vent_7_shaft" unload="true"/>
+		<unit path="units/world/architecture/secret_stash/props/secret_stash_vent_7_shaft" unload="true"/>
+	</add>
+	<add path="units/payday2/props/str_prop_street_concrete_barrier/str_prop_street_concrete_barrier_1m_a" type="unit">
+		<material_config path="units/payday2/props/str_prop_street_concrete_barrier/str_prop_street_concrete_barrier" unload="true"/>
+		<object path="units/payday2/props/str_prop_street_concrete_barrier/str_prop_street_concrete_barrier_1m_a" unload="true"/>
+		<unit path="units/payday2/props/str_prop_street_concrete_barrier/str_prop_street_concrete_barrier_1m_a" unload="true"/>
+	</add>
+	<add path="units/world/props/office/desks/boss_desk" type="unit">
+		<unit path="units/world/props/office/desks/boss_desk" unload="true"/>
+		<object path="units/world/props/office/desks/boss_desk" unload="true"/>
+		<material_config path="units/world/props/office/desks/boss_desk" unload="true"/>
 	</add>
 </table>

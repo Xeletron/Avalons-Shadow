@@ -50,19 +50,18 @@
 		</outro_event>
 		<packages>
 			<value_node value="levels/narratives/classics/dinner/lights/lights"/>
-			<value_node value="levels/narratives/e_election_day/stage_2/world/world"/>
 			<value_node value="levels/narratives/e_welcome_to_the_jungle/stage_2/world/world"/>
 			<value_node value="levels/narratives/pbr/berry/world/world"/>
 			<value_node value="levels/narratives/bain/shadow_raid/world/world"/>
-			<value_node value="levels/narratives/bain/big/props/props"/>
 			<value_node value="levels/narratives/bain/shadow_raid/world"/>
 			<value_node value="levels/narratives/bain/roberts/editor_only/editor_only"/>
 			<value_node value="levels/instances/unique/vit/vit_wire_box/world"/>
 			<value_node value="levels/instances/unique/vit/vit_wire_box/world/world"/>
-			<value_node value="levels/narratives/bain/revenge/art/art"/>
 			<value_node value="levels/instances/unique/chill/chains_stage_01/world/world"/>
-			<value_node value="levels/narratives/locke/vit/collision/collision"/>
 			<value_node value="levels/instances/unique/are_elevator/world/world"/>
+			<value_node value="levels/narratives/bain/revenge/art/art"/>
+			<value_node value="levels/narratives/e_election_day/stage_2/world/world"/>
+			<value_node value="levels/narratives/bain/big/props/props"/>
 		</packages>
 		<script_data_mods directory="scriptdata">
 			<mod replacement="objectives.objective" replacement_type="custom_xml" target_ext="objective" target_path="gamedata/objectives">
