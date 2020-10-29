@@ -1,0 +1,19 @@
+<dynamic_object>
+	<diesel materials="units/pd2_dlc_des/architecture/des_main_mesh/des_main_mesh" orientation_object="rp_des_int_laser_storage" />
+
+	<bodies>
+		<body name="body_static" enabled="true" template="static">
+			<object name="rp_des_int_laser_storage" />
+			<object name="c_meshmopp" collision_type="mesh_mopp" />
+		</body>
+	</bodies>
+
+	<decal_surfaces default_material="stone">
+				<decal_mesh name="dm_concrete" enabled="true" material="asphalt" />
+	</decal_surfaces>
+
+
+	<graphics>
+		<object name="g_g" enabled="true" />
+	</graphics>
+</dynamic_object>

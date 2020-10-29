@@ -540,8 +540,24 @@
 		<unit path="units/payday2/props/str_prop_street_concrete_barrier/str_prop_street_concrete_barrier_1m_a" unload="true"/>
 	</add>
 	<add path="units/world/props/office/desks/boss_desk" type="unit">
-		<unit path="units/world/props/office/desks/boss_desk" unload="true"/>
-		<object path="units/world/props/office/desks/boss_desk" unload="true"/>
 		<material_config path="units/world/props/office/desks/boss_desk" unload="true"/>
+		<object path="units/world/props/office/desks/boss_desk" unload="true"/>
+		<unit path="units/world/props/office/desks/boss_desk" unload="true"/>
+	</add>
+	<add path="units/pd2_dlc_des/architecture/des_int/des_int_laser_storage/des_int_laser_storage" type="unit">
+		<material_config path="units/pd2_dlc_des/architecture/des_main_mesh/des_main_mesh" unload="true"/>
+		<object path="units/pd2_dlc_des/architecture/des_int/des_int_laser_storage/des_int_laser_storage" unload="true"/>
+		<unit path="units/pd2_dlc_des/architecture/des_int/des_int_laser_storage/des_int_laser_storage" unload="true"/>
+	</add>
+	<add path="units/pd2_dlc_des/architecture/des_int/des_int_bio_lab/des_int_bio_lab" type="unit">
+		<material_config path="units/pd2_dlc_des/architecture/des_int/des_int_bio_lab/des_int_bio_lab" unload="true"/>
+		<object path="units/pd2_dlc_des/architecture/des_int/des_int_bio_lab/des_int_bio_lab" unload="true"/>
+		<unit path="units/pd2_dlc_des/architecture/des_int/des_int_bio_lab/des_int_bio_lab" unload="true"/>
+	</add>
+	<add path="units/pd2_dlc_des/architecture/des_int/des_int_server_room/des_int_server_room" type="unit">
+		<unit path="units/pd2_dlc_des/architecture/des_int/des_int_server_room/des_int_server_room" unload="true"/>
+		<object path="units/pd2_dlc_des/architecture/des_int/des_int_server_room/des_int_server_room" unload="true"/>
+		<material_config path="units/pd2_dlc_des/architecture/des_int/des_int_server_room/des_int_server_room" unload="true"/>
+		<sequence_manager path="units/pd2_dlc_des/architecture/des_int/des_int_server_room/des_int_server_room" unload="true"/>
 	</add>
 </table>
