@@ -555,9 +555,30 @@
 		<unit path="units/pd2_dlc_des/architecture/des_int/des_int_bio_lab/des_int_bio_lab" unload="true"/>
 	</add>
 	<add path="units/pd2_dlc_des/architecture/des_int/des_int_server_room/des_int_server_room" type="unit">
-		<unit path="units/pd2_dlc_des/architecture/des_int/des_int_server_room/des_int_server_room" unload="true"/>
-		<object path="units/pd2_dlc_des/architecture/des_int/des_int_server_room/des_int_server_room" unload="true"/>
 		<material_config path="units/pd2_dlc_des/architecture/des_int/des_int_server_room/des_int_server_room" unload="true"/>
+		<object path="units/pd2_dlc_des/architecture/des_int/des_int_server_room/des_int_server_room" unload="true"/>
 		<sequence_manager path="units/pd2_dlc_des/architecture/des_int/des_int_server_room/des_int_server_room" unload="true"/>
+		<unit path="units/pd2_dlc_des/architecture/des_int/des_int_server_room/des_int_server_room" unload="true"/>
+	</add>
+	<add path="units/pd2_dlc_friend/props/sfm_prop_ext_bbq/sfm_prop_ext_bbq" type="unit">
+		<material_config path="units/pd2_dlc_friend/props/sfm_prop_ext_bbq/sfm_prop_ext_bbq" unload="true"/>
+		<object path="units/pd2_dlc_friend/props/sfm_prop_ext_bbq/sfm_prop_ext_bbq" unload="true"/>
+		<unit path="units/pd2_dlc_friend/props/sfm_prop_ext_bbq/sfm_prop_ext_bbq" unload="true"/>
+	</add>
+	<add path="units/pd2_dlc_holly/river/vehicles/anim_vehicle_rubber_boat/anim_vehicle_rubber_boat" type="unit">
+		<unit path="units/pd2_dlc_holly/river/vehicles/anim_vehicle_rubber_boat/anim_vehicle_rubber_boat" unload="true"/>
+		<object path="units/pd2_dlc_holly/river/vehicles/anim_vehicle_rubber_boat/anim_vehicle_rubber_boat" unload="true"/>
+		<material_config path="units/pd2_dlc_holly/river/vehicles/anim_vehicle_rubber_boat/anim_vehicle_rubber_boat" unload="true"/>
+		<sequence_manager path="units/pd2_dlc_holly/river/vehicles/anim_vehicle_rubber_boat/anim_vehicle_rubber_boat" unload="true"/>
+		<animation_def path="anims/units/rubber_boat/rubber_boat" unload="true"/>
+		<animation_subset path="anims/units/rubber_boat/std" unload="true"/>
+		<animation path="anims/rubber_boat/boat_left" unload="true"/>
+		<animation path="anims/rubber_boat/boat_right" unload="true"/>
+		<animation path="anims/rubber_boat/drk_boat_arrive_1" unload="true"/>
+		<animation path="anims/rubber_boat/lxy_boat_arrive" unload="true"/>
+		<animation path="anims/rubber_boat/lxy_boat_exit" unload="true"/>
+		<animation_state_machine path="anims/units/rubber_boat/rubber_boat" unload="true"/>
+		<animation_states path="anims/units/rubber_boat/std" unload="true"/>
+		<bnk path="soundbanks/regular_sfx" unload="true"/>
 	</add>
 </table>
