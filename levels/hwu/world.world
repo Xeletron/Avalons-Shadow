@@ -1228,6 +1228,18 @@
 	</entry>
 	<entry key="environment" type="table">
 		<entry key="cubemap_gizmos" type="table">
+			<entry index="1" type="table">
+				<entry key="continent" type="string" value="world"/>
+				<entry key="cubemap" type="table">
+				</entry>
+				<entry key="local_pos" type="vector3" value="0 0 0"/>
+				<entry key="local_rot" type="quaternion" value="0 0 0 1"/>
+				<entry key="name" type="string" value="core/units/cubemap_gizmo/cubemap_gizmo"/>
+				<entry key="name_id" type="string" value="cubemap_gizmo_001"/>
+				<entry key="position" type="vector3" value="102.212 1435.61 1330"/>
+				<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+				<entry key="unit_id" type="number" value="10"/>
+			</entry>
 		</entry>
 		<entry key="dome_occ_shapes" type="table">
 		</entry>
