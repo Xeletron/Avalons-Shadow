@@ -4030,7 +4030,7 @@
 			</unit_data>
 		</table>
 		<table>
-			<unit_data _prev_pos="-9130 -3970 0" _prev_rot="-0 0 -0 -1" continent="warehouse" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_hwu/architecture/warehouse/int_warehouse_floor" name_id="int_warehouse_floor_001" position="-9130 -3970 0" rotation="-0 0 -0 -1" unit_id="300758"/>
+			<unit_data _prev_pos="-9130 -3970 0" _prev_rot="0 0 0 -1" continent="warehouse" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_hwu/architecture/warehouse/int_warehouse_floor" name_id="int_warehouse_floor_001" position="-9130 -3970 0" rotation="-0 0 -0 -1" unit_id="300758"/>
 		</table>
 		<table>
 			<unit_data _prev_pos="-6940 -330 600" _prev_rot="0 0 0.707107 -0.707107" continent="warehouse" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="-3855 -2150 600" local_rot="0 0 0 1" name="core/units/light_omni/light_omni" name_id="light_omni_034" only_visible_in_editor="true" position="-6940 -1330 600" rotation="0 0 0.707107 -0.707107" unit_id="300759">
@@ -7855,7 +7855,7 @@
 			<unit_data _prev_pos="-5587.55 -6440.04 0" _prev_rot="-0 0 -0 -1" continent="warehouse" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/props/desert/des_prop_barrel_01/des_prop_barrel_01" name_id="des_prop_barrel_01_005" position="-5587.55 -6440.04 0" rotation="-0 0 -0 -1" unit_id="302367"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-10354.9 -5453.87 -304.103" _prev_rot="0.0603869 0.0738137 -0.534631 -0.839687" continent="warehouse" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/architecture/sub/sub_ext_crater_entrance_debris_pile/sub_ext_crater_entrance_debris_pile" name_id="sub_ext_crater_entrance_debris_pile_001" position="-10354.9 -5453.87 -304.103" rotation="0.053057 0.0691454 -0.535255 -0.840182" unit_id="302368"/>
+			<unit_data _prev_pos="-10354.9 -5453.87 -304.103" _prev_rot="0.053057 0.0691454 -0.535255 -0.840182" continent="warehouse" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/architecture/sub/sub_ext_crater_entrance_debris_pile/sub_ext_crater_entrance_debris_pile" name_id="sub_ext_crater_entrance_debris_pile_001" position="-10354.9 -5453.87 -318.003" rotation="0.0530563 0.069146 -0.535253 -0.840183" unit_id="302368"/>
 		</table>
 		<table>
 			<unit_data _prev_pos="-4811.77 -5188.14 290" _prev_rot="1.05367e-007 0.707107 0.707107 1.05367e-007" continent="warehouse" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc1/props/ind_ext_prop_details/ind_ext_prop_lamp_01" name_id="ind_ext_prop_lamp_01_001" position="-4811.77 -5188.14 285" rotation="1.05367e-007 0.707107 0.707107 1.05367e-007" unit_id="302369"/>
@@ -7912,24 +7912,6 @@
 			<unit_data _prev_pos="-9266.2 -6592.96 1.86265e-007" _prev_rot="0 0 -0.707107 -0.707107" continent="warehouse" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/str_prop_street_lamppost/str_prop_street_lamppost_double" name_id="str_prop_street_lamppost_double_002" position="-9246.2 -6592.96 1.86265e-007" rotation="0 0 -0.707107 -0.707107" unit_id="302400"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-8484.09 -3348.14 19.307" _prev_rot="0 0 0 -1" continent="warehouse" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="115.91 296.03 19.307" local_rot="-0 0 0 1" mesh_variation="state_interaction_enabled" name="units/payday2/props/gen_prop_container_murky/gen_prop_container_murky_doors" name_id="gen_prop_container_murky_doors_001" position="-8534.09 -3348.14 19.307" rotation="0 0 -0 -1" unit_id="302401"/>
-		</table>
-		<table>
-			<unit_data _prev_pos="-8850 -3350 19" _prev_rot="0 0 0 -1" continent="warehouse" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="120.91 291.03 19.307" local_rot="0 0 0 1" mesh_variation="state_interaction_enabled" name="units/payday2/props/gen_prop_container_murky/gen_prop_container_murky_doors" name_id="gen_prop_container_murky_doors_002" position="-8800 -3350 19" rotation="0 0 0 -1" unit_id="302402"/>
-		</table>
-		<table>
-			<unit_data _prev_pos="-8970.91 -3641.03 -0.306999" _prev_rot="0 0 0 -1" continent="warehouse" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/gen_prop_container_murky/gen_prop_container_murky" name_id="gen_prop_container_murky_002" position="-8920.91 -3641.03 -0.306999" rotation="0 0 0 -1" unit_id="302403"/>
-		</table>
-		<table>
-			<unit_data _prev_pos="-8600 -3644.17 0" _prev_rot="-0 0 -0 -1" continent="warehouse" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/gen_prop_container_murky/gen_prop_container_murky" name_id="gen_prop_container_murky_001" position="-8650 -3644.17 0" rotation="-0 0 -0 -1" unit_id="302404"/>
-		</table>
-		<table>
-			<unit_data _prev_pos="-9085 -3940 19" _prev_rot="0 0 1 -4.37114e-008" continent="warehouse" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="-114.09 -298.97 19.307" local_rot="0 0 -1 4.37114e-008" mesh_variation="state_interaction_disabled" name="units/payday2/props/gen_prop_container_murky/gen_prop_container_murky_doors" name_id="gen_prop_container_murky_doors_003" position="-9035 -3940 19" rotation="0 0 1 -4.37114e-008" unit_id="302405"/>
-		</table>
-		<table>
-			<unit_data _prev_pos="-8719.09 -3938.14 19.307" _prev_rot="0 0 1 -4.37114e-008" continent="warehouse" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="-119.09 -293.97 19.307" local_rot="-0 0 -1 4.37114e-008" mesh_variation="state_interaction_disabled" name="units/payday2/props/gen_prop_container_murky/gen_prop_container_murky_doors" name_id="gen_prop_container_murky_doors_004" position="-8769.09 -3938.14 19.307" rotation="0 0 1 -4.37114e-008" unit_id="302406"/>
-		</table>
-		<table>
 			<unit_data _prev_pos="-8769 -3969 0" _prev_rot="0 0 0.707107 -0.707107" continent="warehouse" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/architecture/ind/ind_ext_level/ind_ext_level_0_01_door_big_v2" name_id="ind_ext_level_0_01_door_big_v2_007" position="-8769 -3969 0" rotation="0 0 0.707107 -0.707107" unit_id="302407"/>
 		</table>
 		<table>
@@ -7945,45 +7927,45 @@
 			<unit_data _prev_pos="-8430 -3975 0" _prev_rot="0 0 0.707107 -0.707107" continent="warehouse" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="state_close_door" name="units/payday2/props/gen_prop_door_ind_01/gen_prop_door_ind_03_v2" name_id="gen_prop_door_ind_03_v2_005" position="-8430 -3975 0" rotation="0 0 0.707107 -0.707107" unit_id="302412"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-8300.07 -4733.27 19.307" _prev_rot="0 0 -0.707107 -0.707107" continent="warehouse" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="-231.73 -596.07 -0.693001" local_rot="0 0 1 0" mesh_variation="state_interaction_enabled" name="units/payday2/props/gen_prop_container_murky/gen_prop_container_murky_doors" name_id="gen_prop_container_murky_doors_005" position="-8300.07 -4717.27 19.307" rotation="0 0 -0.707107 -0.707107" unit_id="300471"/>
+			<unit_data _prev_pos="-8300.07 -4717.27 19.307" _prev_rot="0 0 -0.707107 -0.707107" continent="warehouse" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="var_set_color_blue_front" name="units/payday2/props/gen_prop_container_murky/gen_prop_container_murky_doors" name_id="gen_prop_container_murky_doors_005" position="-8300.07 -4717.27 19.307" rotation="0 0 -0.707107 -0.707107" unit_id="300471"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-8004.04 -4849.17 0" _prev_rot="0 0 -0.707107 -0.707107" continent="warehouse" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="-115.83 -300.04 -20" local_rot="0 0 1 0" mesh_variation="var_set_color_red" name="units/payday2/props/gen_prop_container_murky/gen_prop_container_murky" name_id="gen_prop_container_murky_003" position="-8004.04 -4833.17 0" rotation="0 0 -0.707107 -0.707107" unit_id="300604"/>
+			<unit_data _prev_pos="-8004.04 -4833.17 0" _prev_rot="0 0 -0.707107 -0.707107" continent="warehouse" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="var_set_color_blue" name="units/payday2/props/gen_prop_container_murky/gen_prop_container_murky" name_id="gen_prop_container_murky_003" position="-8004.04 -4833.17 0" rotation="0 0 -0.707107 -0.707107" unit_id="300604"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-7704 -4949 20" _prev_rot="0 0 0.707107 -0.707107" continent="warehouse" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="state_interaction_enabled" name="units/payday2/props/gen_prop_container_murky/gen_prop_container_murky_doors" name_id="gen_prop_container_murky_doors_006" position="-7704 -4949 20" rotation="0 0 0.707107 -0.707107" unit_id="300605"/>
+			<unit_data _prev_pos="-7704 -4949 20" _prev_rot="0 0 0.707107 -0.707107" continent="warehouse" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="var_set_color_blue_rear" name="units/payday2/props/gen_prop_container_murky/gen_prop_container_murky_doors" name_id="gen_prop_container_murky_doors_006" position="-7704 -4949 20" rotation="0 0 0.707107 -0.707107" unit_id="300605"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-8004.04 -4849.17 275" _prev_rot="0 0 -0.707107 -0.707107" continent="warehouse" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="-115.83 -300.04 255" local_rot="0 0 1 0" name="units/payday2/props/gen_prop_container_murky/gen_prop_container_murky" name_id="gen_prop_container_murky_004" position="-8004.04 -4833.17 275" rotation="0 0 -0.707107 -0.707107" unit_id="300606"/>
+			<unit_data _prev_pos="-8004.04 -4833.17 275" _prev_rot="0 0 -0.707107 -0.707107" continent="warehouse" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="var_set_color_blue" name="units/payday2/props/gen_prop_container_murky/gen_prop_container_murky" name_id="gen_prop_container_murky_004" position="-8004.04 -4833.17 275" rotation="0 0 -0.707107 -0.707107" unit_id="300606"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-8300.07 -4733.27 294.307" _prev_rot="0 0 -0.707107 -0.707107" continent="warehouse" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="-231.73 -596.07 274.307" local_rot="0 0 1 0" mesh_variation="state_interaction_enabled" name="units/payday2/props/gen_prop_container_murky/gen_prop_container_murky_doors" name_id="gen_prop_container_murky_doors_007" position="-8300.07 -4717.27 294.307" rotation="0 0 -0.707107 -0.707107" unit_id="302257"/>
+			<unit_data _prev_pos="-8300.07 -4717.27 294.307" _prev_rot="0 0 -0.707107 -0.707107" continent="warehouse" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="var_set_color_blue_rear" name="units/payday2/props/gen_prop_container_murky/gen_prop_container_murky_doors" name_id="gen_prop_container_murky_doors_007" position="-8300.07 -4717.27 294.307" rotation="0 0 -0.707107 -0.707107" unit_id="302257"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-7704 -4965 290" _prev_rot="0 0 0.707107 -0.707107" continent="warehouse" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 270" local_rot="0 0 0 1" mesh_variation="state_interaction_enabled" name="units/payday2/props/gen_prop_container_murky/gen_prop_container_murky_doors" name_id="gen_prop_container_murky_doors_008" position="-7704 -4949 290" rotation="0 0 0.707107 -0.707107" unit_id="302258"/>
+			<unit_data _prev_pos="-7704 -4949 290" _prev_rot="0 0 0.707107 -0.707107" continent="warehouse" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="var_set_color_blue_rear" name="units/payday2/props/gen_prop_container_murky/gen_prop_container_murky_doors" name_id="gen_prop_container_murky_doors_008" position="-7704 -4949 290" rotation="0 0 0.707107 -0.707107" unit_id="302258"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-6899.04 -7449.17 0" _prev_rot="0 0 -0.707107 -0.707107" continent="warehouse" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/gen_prop_container_murky/gen_prop_container_murky" name_id="gen_prop_container_murky_005" position="-6899.04 -7519.17 0" rotation="0 0 -0.707107 -0.707107" unit_id="302268"/>
+			<unit_data _prev_pos="-6899.04 -7519.17 0" _prev_rot="0 0 -0.707107 -0.707107" continent="warehouse" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="var_set_color_blue" name="units/payday2/props/gen_prop_container_murky/gen_prop_container_murky" name_id="gen_prop_container_murky_005" position="-6899.04 -7519.17 0" rotation="0 0 -0.707107 -0.707107" unit_id="302268"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-7195.07 -7333.27 19.307" _prev_rot="0 0 -0.707107 -0.707107" continent="warehouse" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="115.901 296.034 19.307" local_rot="0 0 0 1" mesh_variation="state_interaction_enabled" name="units/payday2/props/gen_prop_container_murky/gen_prop_container_murky_doors" name_id="gen_prop_container_murky_doors_009" position="-7195.07 -7403.27 19.307" rotation="0 0 -0.707107 -0.707107" unit_id="302413"/>
+			<unit_data _prev_pos="-7195.07 -7403.27 19.307" _prev_rot="0 0 -0.707107 -0.707107" continent="warehouse" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="var_set_color_blue_front" name="units/payday2/props/gen_prop_container_murky/gen_prop_container_murky_doors" name_id="gen_prop_container_murky_doors_009" position="-7195.07 -7403.27 19.307" rotation="0 0 -0.707107 -0.707107" unit_id="302413"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-6605.07 -7638.27 19.307" _prev_rot="0 0 0.707107 -0.707107" continent="warehouse" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="state_interaction_disabled" name="units/payday2/props/gen_prop_container_murky/gen_prop_container_murky_doors" name_id="gen_prop_container_murky_doors_010" position="-6605.07 -7630.27 19.307" rotation="0 0 0.707107 -0.707107" unit_id="302414"/>
+			<unit_data _prev_pos="-6605.07 -7630.27 19.307" _prev_rot="0 0 0.707107 -0.707107" continent="warehouse" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="var_set_color_blue_rear" name="units/payday2/props/gen_prop_container_murky/gen_prop_container_murky_doors" name_id="gen_prop_container_murky_doors_010" position="-6605.07 -7630.27 19.307" rotation="0 0 0.707107 -0.707107" unit_id="302414"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-9569.24 -4944.17 75.2064" _prev_rot="-0.0308436 -0.0308436 -0.706434 -0.706434" continent="warehouse" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="-119.098 -293.966 -19.3069" local_rot="-1.86265e-009 3.72529e-009 1 0" name="units/payday2/props/gen_prop_container_murky/gen_prop_container_murky" name_id="gen_prop_container_murky_006" position="-9567.94 -4944.17 90.1494" rotation="-0.0308436 -0.0308436 -0.706434 -0.706434" unit_id="302415"/>
+			<unit_data _prev_pos="-9567.94 -4944.17 90.1494" _prev_rot="-0.0308436 -0.0308436 -0.706434 -0.706434" continent="warehouse" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="var_set_color_blue" name="units/payday2/props/gen_prop_container_murky/gen_prop_container_murky" name_id="gen_prop_container_murky_006" position="-9567.94 -4944.17 90.149" rotation="-0.0308436 -0.0308436 -0.706434 -0.706434" unit_id="302415"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-9861.16 -4828.27 135.184" _prev_rot="-0.0308436 -0.0308436 -0.706434 -0.706434" continent="warehouse" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="state_interaction_disabled" name="units/payday2/props/gen_prop_container_murky/gen_prop_container_murky_doors" name_id="gen_prop_container_murky_doors_011" position="-9861.16 -4828.27 135.184" rotation="-0.0308436 -0.0308436 -0.706434 -0.706434" unit_id="302416"/>
+			<unit_data _prev_pos="-9861.16 -4828.27 135.184" _prev_rot="-0.0308436 -0.0308436 -0.706434 -0.706434" continent="warehouse" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="var_set_color_blue_front" name="units/payday2/props/gen_prop_container_murky/gen_prop_container_murky_doors" name_id="gen_prop_container_murky_doors_011" position="-9861.16 -4828.27 135.184" rotation="-0.0308436 -0.0308436 -0.706434 -0.706434" unit_id="302416"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-9273.41 -5063.27 83.7619" _prev_rot="0.0308436 -0.0308436 0.706434 -0.706434" continent="warehouse" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="state_door_open" name="units/payday2/props/gen_prop_container_murky/gen_prop_container_murky_doors" name_id="gen_prop_container_murky_doors_012" position="-9273.41 -5063.27 83.762" rotation="0.0308436 -0.0308436 0.706434 -0.706434" unit_id="302417"/>
+			<unit_data _prev_pos="-9273.41 -5063.27 83.762" _prev_rot="0.0308436 -0.0308436 0.706434 -0.706434" continent="warehouse" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="var_set_color_blue_rear" name="units/payday2/props/gen_prop_container_murky/gen_prop_container_murky_doors" name_id="gen_prop_container_murky_doors_012" position="-9273.41 -5063.27 83.762" rotation="0.0308436 -0.0308436 0.706434 -0.706434" unit_id="302417"/>
 		</table>
 		<table>
 			<unit_data _prev_pos="-4976.96 -1669.34 200" _prev_rot="0 0 0.707107 -0.707107" continent="warehouse" local_pos="0 0 0" local_rot="0 0 0 1" name="core/units/light_omni/light_omni" name_id="light_omni_087" only_visible_in_editor="true" position="-4976.96 -1669.34 200" rotation="0 0 0.707107 -0.707107" unit_id="302419">
 				<lights>
-					<table clipping_values="10000 -10000 0" color="0.203922 0.403922 0.686275" enabled="true" falloff_exponent="1" far_range="600" multiplier="neonsign" name="lo_omni" near_range="80" spot_angle_end="1" spot_angle_start="1"/>
+					<table clipping_values="10000 -10000 0" color="0.203922 0.403922 0.686275" enabled="true" falloff_exponent="1" far_range="600" multiplier="@ID8badd0cc6ca7cc05@" name="lo_omni" near_range="80" spot_angle_end="1" spot_angle_start="1"/>
 				</lights>
 			</unit_data>
 		</table>
@@ -7996,7 +7978,7 @@
 		<table>
 			<unit_data _prev_pos="-4976.96 -3169.34 200" _prev_rot="0 0 0.707107 -0.707107" continent="warehouse" local_pos="0 0 0" local_rot="0 0 0 1" name="core/units/light_omni/light_omni" name_id="light_omni_095" only_visible_in_editor="true" position="-4976.96 -3169.34 200" rotation="0 0 0.707107 -0.707107" unit_id="302421">
 				<lights>
-					<table clipping_values="10000 -10000 0" color="0.203922 0.403922 0.686275" enabled="true" falloff_exponent="1" far_range="600" multiplier="neonsign" name="lo_omni" near_range="80" spot_angle_end="1" spot_angle_start="1"/>
+					<table clipping_values="10000 -10000 0" color="0.203922 0.403922 0.686275" enabled="true" falloff_exponent="1" far_range="600" multiplier="@ID8badd0cc6ca7cc05@" name="lo_omni" near_range="80" spot_angle_end="1" spot_angle_start="1"/>
 				</lights>
 			</unit_data>
 		</table>
@@ -8025,7 +8007,7 @@
 		<table>
 			<unit_data _prev_pos="-5676.96 -4169.34 200" _prev_rot="0 0 0.707107 -0.707107" continent="warehouse" local_pos="0 0 0" local_rot="0 0 0 1" name="core/units/light_omni/light_omni" name_id="light_omni_097" only_visible_in_editor="true" position="-5676.96 -4169.34 200" rotation="0 0 0.707107 -0.707107" unit_id="302423">
 				<lights>
-					<table clipping_values="10000 -10000 0" color="0.203922 0.403922 0.686275" enabled="true" falloff_exponent="1" far_range="600" multiplier="neonsign" name="lo_omni" near_range="80" spot_angle_end="1" spot_angle_start="1"/>
+					<table clipping_values="10000 -10000 0" color="0.203922 0.403922 0.686275" enabled="true" falloff_exponent="1" far_range="600" multiplier="@ID8badd0cc6ca7cc05@" name="lo_omni" near_range="80" spot_angle_end="1" spot_angle_start="1"/>
 				</lights>
 			</unit_data>
 		</table>
@@ -9273,6 +9255,24 @@
 		</table>
 		<table>
 			<unit_data _prev_pos="-4728.45 -6139.42 1.86265e-007" _prev_rot="0 0 0 -1" continent="warehouse" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/ind_prop_alley_garbage_bags/ind_prop_alley_garbage_bags_03" name_id="ind_prop_alley_garbage_bags_03_007" position="-4728.45 -6139.42 1.86265e-007" rotation="0 0 0 -1" unit_id="302810"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-8630 -3650 0" _prev_rot="-0 0 -0 -1" continent="warehouse" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/pd2_mod_hwu/props/hwu_container_elevator/hwu_container_elevator" name_id="hwu_container_elevator_001" position="-8630 -3650 0" rotation="-0 0 -0 -1" unit_id="302401"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-9016.65 -3940 -2078.27" _prev_rot="0 0 1 4.37114e-008" continent="warehouse" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="var_set_color_blue_rear" name="units/payday2/props/gen_prop_container_murky/gen_prop_container_murky_doors" name_id="gen_prop_container_murky_doors_003" position="-9016.65 -3940 -2078.27" rotation="0 0 1 4.37114e-008" unit_id="302402"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-8745.2 -3940 -2078.27" _prev_rot="0 0 1 -1.31134e-007" continent="warehouse" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="-270.9 -2.36829e-005 0" local_rot="0 0 8.74228e-008 1" mesh_variation="var_set_color_blue_rear" name="units/payday2/props/gen_prop_container_murky/gen_prop_container_murky_doors" name_id="gen_prop_container_murky_doors_004" position="-8745.75 -3940 -2078.27" rotation="0 0 1 -4.37114e-008" unit_id="302403"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-8514.1 -3358.61 15.73" _prev_rot="0 0 0 -1" continent="warehouse" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="var_set_color_blue_rear" name="units/payday2/props/gen_prop_container_murky/gen_prop_container_murky_doors" name_id="gen_prop_container_murky_doors_001" position="-8514.1 -3358.61 15.73" rotation="-0 0 -0 -1" unit_id="302404"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-8785 -3358.61 15.73" _prev_rot="0 0 0 -1" continent="warehouse" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="-270.9 0 0" local_rot="-0 0 0 1" mesh_variation="var_set_color_blue_rear" name="units/payday2/props/gen_prop_container_murky/gen_prop_container_murky_doors" name_id="gen_prop_container_murky_doors_002" position="-8785 -3358.61 15.73" rotation="0 0 -0 -1" unit_id="302405"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-7670 -3185 850" _prev_rot="0 0 1 4.37114e-008" continent="warehouse" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc1/props/com_prop_sign_avalon/com_prop_sign_avalon_7x2m_il" name_id="com_prop_sign_avalon_7x2m_il_001" position="-7670 -3185 850" rotation="0 0 1 -4.37114e-008" unit_id="302406"/>
 		</table>
 	</statics>
 	<values>
