@@ -39,6 +39,12 @@
 		<model force="true" path="units/pd2_mod_hwu/architecture/smuggler_house/ext_smuggler_house_ground" unload="true"/>
 		<object force="true" path="units/pd2_mod_hwu/architecture/smuggler_house/ext_smuggler_house_ground" unload="true"/>
 		<unit force="true" path="units/pd2_mod_hwu/architecture/smuggler_house/ext_smuggler_house_ground" unload="true"/>
+
+		<model force="true" path="units/pd2_mod_hwu/architecture/thermite_hole_cover/thermite_hole_cover" unload="true"/>
+		<object force="true" path="units/pd2_mod_hwu/architecture/thermite_hole_cover/thermite_hole_cover" unload="true"/>
+		<unit force="true" path="units/pd2_mod_hwu/architecture/thermite_hole_cover/thermite_hole_cover" unload="true"/>
+		<sequence_manager force="true" path="units/pd2_mod_hwu/architecture/thermite_hole_cover/thermite_hole_cover" unload="true"/>
+
 		<unit path="units/equipment/suburbia_door_crowbar_interaction/suburbia_door_crowbar_interaction" unload="true"/>
 		<object path="units/equipment/suburbia_door_crowbar_interaction/suburbia_door_crowbar_interaction" unload="true"/>
 		<material_config path="units/equipment/suburbia_door_crowbar_interaction/suburbia_door_crowbar_interaction" unload="true"/>
@@ -52,12 +58,11 @@
 		<material_config path="units/pd2_mod_hwu/equipment/hwu_interactable_laptop/hwu_interactable_laptop" unload="true"/>
 		<sequence_manager path="units/pd2_mod_hwu/equipment/hwu_interactable_laptop/hwu_interactable_laptop" unload="true"/>
 		<model path="units/pd2_mod_hwu/equipment/hwu_interactable_laptop/hwu_interactable_laptop" unload="true"/>
-
 		<unit load="true" path="units/pd2_mod_hwu/props/hwu_container_elevator/hwu_container_elevator" unload="true"/>
 		<object path="units/pd2_mod_hwu/props/hwu_container_elevator/hwu_container_elevator" unload="true"/>
 		<sequence_manager path="units/pd2_mod_hwu/props/hwu_container_elevator/hwu_container_elevator" unload="true"/>
 		<model path="units/pd2_mod_hwu/props/hwu_container_elevator/hwu_container_elevator" unload="true"/>
-
+		<material_config path="units/pd2_mod_hwu/props/hwu_container_elevator/hwu_container_elevator" unload="true"/>
 		<material_config path="units/payday2/nature/pnau/pnau_boulders/pna_ext_landscape_boulder" unload="true"/>
 		<object path="units/payday2/nature/pnau/pnau_boulders/pna_ext_landscape_cliff_e" unload="true"/>
 		<unit path="units/payday2/nature/pnau/pnau_boulders/pna_ext_landscape_cliff_e" unload="true"/>
@@ -77,9 +82,9 @@
 		<unit path="units/payday2/nature/pnau/pnau_boulders/pna_ext_landscape_cliff_d" unload="true"/>
 		<object path="units/payday2/nature/pnau/pnau_boulders/pna_ext_landscape_boulder_a" unload="true"/>
 		<unit path="units/payday2/nature/pnau/pnau_boulders/pna_ext_landscape_boulder_a" unload="true"/>
+		<texture path="units/payday2/props/gen_prop_container_murky/murkywater_container_logos_df" unload="true"/>
 		<effect load="true" path="effects/particles/dest/door_wood_crowbar" unload="true"/>
 		<gui path="guis/timer_gui" unload="true"/>
-		<texture path="units/payday2/props/gen_prop_container_murky/murkywater_container_logos_df" unload="true"/>
 	</add>
 	<add path="units/payday2/architecture/ind/ind_ext_level/ind_ext_level_0_corner" type="unit">
 		<material_config path="units/payday2/architecture/ind/ind_ext_level/ind_ext_level" unload="true"/>
@@ -589,5 +594,19 @@
 		<material_config path="units/payday2/architecture/gen_watchdog_2_water/gen_watchdog_2_water" unload="true"/>
 		<object path="units/payday2/architecture/gen_watchdog_2_water/warehouse_water" unload="true"/>
 		<unit path="units/payday2/architecture/gen_watchdog_2_water/warehouse_water" unload="true"/>
+	</add>
+	<add path="units/payday2/equipment/gen_interactable_thermite/gen_interactable_thermite" type="unit">
+		<effect load="true" path="effects/payday2/particles/fire/thermite" unload="true"/>
+		<effect load="true" path="effects/payday2/particles/impacts/sparks/sparks_random_02_slow" unload="true"/>
+		<effect load="true" path="effects/payday2/environment/thermal_hole_drops" unload="true"/>
+		<material_config path="units/payday2/equipment/gen_interactable_thermite/gen_interactable_thermite" unload="true"/>
+		<object path="units/payday2/equipment/gen_interactable_thermite/gen_interactable_thermite" unload="true"/>
+		<sequence_manager path="units/payday2/equipment/gen_interactable_thermite/gen_interactable_thermite" unload="true"/>
+		<unit path="units/payday2/equipment/gen_interactable_thermite/gen_interactable_thermite" unload="true"/>
+	</add>
+	<add path="units/world/street/construction_grbhaul/construction_grbhaul" type="unit">
+		<unit path="units/world/street/construction_grbhaul/construction_grbhaul" unload="true"/>
+		<object path="units/world/street/construction_grbhaul/construction_grbhaul" unload="true"/>
+		<material_config path="units/world/street/construction_grbhaul/construction_grbhaul" unload="true"/>
 	</add>
 </table>
