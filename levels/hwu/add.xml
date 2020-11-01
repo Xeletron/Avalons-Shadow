@@ -39,12 +39,10 @@
 		<model force="true" path="units/pd2_mod_hwu/architecture/smuggler_house/ext_smuggler_house_ground" unload="true"/>
 		<object force="true" path="units/pd2_mod_hwu/architecture/smuggler_house/ext_smuggler_house_ground" unload="true"/>
 		<unit force="true" path="units/pd2_mod_hwu/architecture/smuggler_house/ext_smuggler_house_ground" unload="true"/>
-
 		<model force="true" path="units/pd2_mod_hwu/architecture/thermite_hole_cover/thermite_hole_cover" unload="true"/>
 		<object force="true" path="units/pd2_mod_hwu/architecture/thermite_hole_cover/thermite_hole_cover" unload="true"/>
 		<unit force="true" path="units/pd2_mod_hwu/architecture/thermite_hole_cover/thermite_hole_cover" unload="true"/>
 		<sequence_manager force="true" path="units/pd2_mod_hwu/architecture/thermite_hole_cover/thermite_hole_cover" unload="true"/>
-
 		<unit path="units/equipment/suburbia_door_crowbar_interaction/suburbia_door_crowbar_interaction" unload="true"/>
 		<object path="units/equipment/suburbia_door_crowbar_interaction/suburbia_door_crowbar_interaction" unload="true"/>
 		<material_config path="units/equipment/suburbia_door_crowbar_interaction/suburbia_door_crowbar_interaction" unload="true"/>
@@ -605,8 +603,8 @@
 		<unit path="units/payday2/equipment/gen_interactable_thermite/gen_interactable_thermite" unload="true"/>
 	</add>
 	<add path="units/world/street/construction_grbhaul/construction_grbhaul" type="unit">
-		<unit path="units/world/street/construction_grbhaul/construction_grbhaul" unload="true"/>
-		<object path="units/world/street/construction_grbhaul/construction_grbhaul" unload="true"/>
 		<material_config path="units/world/street/construction_grbhaul/construction_grbhaul" unload="true"/>
+		<object path="units/world/street/construction_grbhaul/construction_grbhaul" unload="true"/>
+		<unit path="units/world/street/construction_grbhaul/construction_grbhaul" unload="true"/>
 	</add>
 </table>

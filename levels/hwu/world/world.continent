@@ -186,7 +186,7 @@
 			<unit_data _prev_pos="-5020.62 4010.33 20" _prev_rot="0 0 0 -1" continent="world" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="4308.7 1032.81 0" local_rot="-0 0 0 1" name="units/payday2/nature/pnau/pnau_tree_birch/pnau_tree_birch_01_large_c" name_id="pnau_tree_birch_01_large_c_001" position="-5020.62 4010.33 20" rotation="0 0 0 -1" unit_id="100060"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="7683.24 -12016.1 -4296.56" _prev_rot="0 -0.0958458 0 -0.995396" continent="world" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/architecture/ind_backdrop/ind_docks_backdrop_container_crane" name_id="ind_docks_backdrop_container_crane_001" position="7683.24 -12016.1 -4296.56" rotation="0 -0.0958458 0 -0.995396" unit_id="100061"/>
+			<unit_data _prev_pos="7683.24 -12016.1 -4296.56" _prev_rot="0 -0.0958458 0 -0.995396" continent="world" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/architecture/ind_backdrop/ind_docks_backdrop_container_crane" name_id="ind_docks_backdrop_container_crane_001" position="7683.24 -12016.1 -4296.56" rotation="0 -0.0958458 0 -0.995396" unit_id="100061"/>
 		</table>
 		<table>
 			<unit_data _prev_pos="-9317.52 -15676 20" _prev_rot="-0 0 -0 -1" continent="world" local_pos="-1598.39 1607.81 0" local_rot="0 0 0 1" name="units/payday2/architecture/ind/ind_ext_harbour/ind_ext_harbour_side_16m" name_id="ind_ext_harbour_side_16m_001" position="-9317.52 -15676 20" rotation="-0 0 -0 -1" unit_id="100063"/>
@@ -2934,7 +2934,7 @@
 			<unit_data _prev_pos="-2875.05 -10861.7 20" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="400 4.76837e-005 0" local_rot="0 0 0 1" mesh_variation="state_disabled" name="units/payday2/props/air_prop_runway_fence/air_prop_runway_fence" name_id="air_prop_runway_fence_047" position="-2875.05 -10926.7 20" rotation="0 0 0.707107 -0.707107" unit_id="100963"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-2875.05 -11261.7 20" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="800 9.53674e-005 0" local_rot="0 0 0 1" mesh_variation="state_disabled" name="units/payday2/props/air_prop_runway_fence/air_prop_runway_fence" name_id="air_prop_runway_fence_048" position="-2875.05 -11326.7 20" rotation="0 0 0.707107 -0.707107" unit_id="100964"/>
+			<unit_data _prev_pos="-2875.05 -11326.7 20" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="state_disabled" name="units/payday2/props/air_prop_runway_fence/air_prop_runway_fence" name_id="air_prop_runway_fence_048" position="-2875.05 -11326.7 20" rotation="0 0 0.707107 -0.707107" unit_id="100964"/>
 		</table>
 		<table>
 			<unit_data _prev_pos="3313.24 -5914.93 -175.114" _prev_rot="0.505607 0.0262082 -0.083122 -0.85835" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/nature/pnau/pnau_boulders/pna_ext_landscape_cliff_f" name_id="pna_ext_landscape_cliff_f_027" position="3307.43 -5891.19 -218.731" rotation="0.505607 0.0262082 -0.083122 -0.85835" unit_id="100965"/>
@@ -3301,6 +3301,12 @@
 		</table>
 		<table>
 			<unit_data _prev_pos="300 205 400" _prev_rot="-0 0 -0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/payday2/equipment/gen_equipment_security_camera/gen_equipment_security_camera" name_id="gen_equipment_security_camera_001" position="300 185 400" rotation="-0 0 -0 -1" unit_id="100776"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="7683.24 -12016.1 -4296.56" _prev_rot="0 0 0 -1" continent="world" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/architecture/ind_backdrop/ind_docks_backdrop_container_crane" name_id="ind_docks_backdrop_container_crane_003" position="7685 -12015 -700" rotation="-0 0 -0 -1" unit_id="100777"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="601 385 400" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/payday2/equipment/gen_equipment_security_camera/gen_equipment_security_camera" name_id="gen_equipment_security_camera_002" position="600 385 400" rotation="0 0 -0.707107 -0.707107" unit_id="100778"/>
 		</table>
 	</statics>
 	<values>
