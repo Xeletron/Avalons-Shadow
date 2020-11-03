@@ -101,7 +101,7 @@
 			<unit_data _prev_pos="-1390 1100 70" _prev_rot="0 0 -0 -1" continent="house" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="-1690 1205 -50" local_rot="-0 0 0 1" name="units/payday2/architecture/hcm/hcm_int_pillar_a" name_id="hcm_int_pillar_a_004" position="-1390 1435 70" rotation="0 0 -0 -1" unit_id="400032"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="70 2497 120" _prev_rot="0 0 -0 -1" continent="house" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="-230 2602 0" local_rot="-0 0 0 1" mesh_variation="" name="units/payday2/equipment/gen_interactable_door_hcm/gen_interactable_door_hcm_double" name_id="gen_interactable_door_hcm_double_002" position="70 2832 120" rotation="0 0 -0 -1" unit_id="400033"/>
+			<unit_data _prev_pos="76 2832 120" _prev_rot="-0 0 -0 -1" continent="house" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="interaction_enabled" name="units/payday2/equipment/gen_interactable_door_hcm/gen_interactable_door_hcm_double" name_id="gen_interactable_door_hcm_double_002" position="76 2832 120" rotation="-0 0 -0 -1" unit_id="400033"/>
 		</table>
 		<table>
 			<unit_data _prev_pos="550 400 120" _prev_rot="0 0 0.707107 -0.707107" continent="house" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="250 505 0" local_rot="-0 0 -0.707107 0.707107" mesh_variation="a_open_full" name="units/equipment/suburbia_door_crowbar_interaction/suburbia_door_crowbar_interaction" name_id="suburbia_door_crowbar_interaction_001" position="550 735 120" rotation="0 0 0.707107 -0.707107" unit_id="400034"/>
@@ -185,7 +185,7 @@
 			<unit_data _prev_pos="350 275 520" _prev_rot="0 0 -0 -1" continent="house" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="50 380 400" local_rot="-0 0 0 1" mesh_variation="enable_interaction" name="units/equipment/suburbia_door_crowbar_interaction/suburbia_door_crowbar_interaction" name_id="suburbia_door_crowbar_interaction_011" position="350 610 520" rotation="0 0 -0 -1" unit_id="400060"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="300 205 120" _prev_rot="0 0 -0.707107 -0.707107" continent="house" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/payday2/equipment/gen_interactable_door_hcm/gen_interactable_door_hcm_double" name_id="gen_interactable_door_hcm_double_003" position="300 205 120" rotation="0 0 -0.707107 -0.707107" unit_id="400061"/>
+			<unit_data _prev_pos="300 205 120" _prev_rot="0 0 -0.707107 -0.707107" continent="house" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="interaction_enabled" name="units/payday2/equipment/gen_interactable_door_hcm/gen_interactable_door_hcm_double" name_id="gen_interactable_door_hcm_double_003" position="300 205 120" rotation="0 0 -0.707107 -0.707107" unit_id="400061"/>
 		</table>
 		<table>
 			<unit_data _prev_pos="400 -25 419" _prev_rot="0 0 -0 -1" continent="house" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="100 80 299" local_rot="-0 0 0 1" name="units/payday2/architecture/lux/lux_int_cellceiling1_2x2m_a" name_id="lux_int_cellceiling1_2x2m_a_001" position="400 310 419" rotation="0 0 -0 -1" unit_id="400062"/>
@@ -1913,9 +1913,6 @@
 			<unit_data _prev_pos="1056.18 2213.3 120" _prev_rot="0 0 0.707107 -0.707107" continent="house" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/lxa_prop_kitchen_cabinets/lxa_prop_kitchen_cabinets_island_end" name_id="lxa_prop_kitchen_cabinets_island_end_007" position="1056.18 2213.3 120" rotation="0 0 0.707107 -0.707107" unit_id="400521"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="641.807 2213.85 120" _prev_rot="0 0 0.707107 -0.707107" continent="house" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/mcm_prop_kitchen_wastebin/mcm_prop_kitchen_wastebin" name_id="mcm_prop_kitchen_wastebin_001" position="661.807 2213.85 120" rotation="0 0 0.707107 -0.707107" unit_id="400522"/>
-		</table>
-		<table>
 			<unit_data _prev_pos="965.094 1848.94 220" _prev_rot="0 0 0 -1" continent="house" local_pos="-18.36 165.99 100" local_rot="0 0 0.707107 0.707107" name="units/pd2_mcmansion/props/mcm_prop_kitchen_herbs_pot/mcm_prop_kitchen_herbs_pot" name_id="mcm_prop_kitchen_herbs_pot_001" position="968.094 1848.94 220" rotation="0 0 0 -1" unit_id="400523"/>
 		</table>
 		<table>
@@ -2516,7 +2513,7 @@
 			<unit_data _prev_pos="-412.489 2389.59 120" _prev_rot="0 0 0 -1" continent="house" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/props/rug04_suburbia/rug04_suburbia" name_id="rug04_suburbia_002" position="-412.489 2343.59 120" rotation="0 0 0 -1" unit_id="400693"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-33.5866 2832.23 120" _prev_rot="0 0 0 -1" continent="house" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mcmansion/props/mcm_prop_livingroom_rug/mcm_prop_livingroom_rug" name_id="mcm_prop_livingroom_rug_004" position="-33.5866 2832.23 120" rotation="0 0 0 -1" unit_id="400694"/>
+			<unit_data _prev_pos="-33.5866 2832.23 120" _prev_rot="0 0 0 -1" continent="house" disable_on_ai_graph="true" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mcmansion/props/mcm_prop_livingroom_rug/mcm_prop_livingroom_rug" name_id="mcm_prop_livingroom_rug_004" position="-33.587 2832.23 120" rotation="-0 0 -0 -1" unit_id="400694"/>
 		</table>
 		<table>
 			<unit_data _prev_pos="-3.90442 2618.87 120" _prev_rot="0 0 0 -1" continent="house" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mcmansion/props/mcm_prop_hallway_table_entry/mcm_prop_hallway_table_entry" name_id="mcm_prop_hallway_table_entry_002" position="22.0956 2618.87 120" rotation="0 0 0 -1" unit_id="400695"/>
@@ -2756,16 +2753,13 @@
 			<unit_data _prev_pos="591.567 3019.7 120" _prev_rot="0 0 0 -1" continent="house" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/props/furniture_outdoors/furniture_outdoors_parasol" name_id="furniture_outdoors_parasol_002" position="591.567 3019.7 120" rotation="0 0 0 -1" unit_id="400777"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="351.626 2669.01 120" _prev_rot="0 0 0.97237 0.233445" continent="house" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/props/furniture_outdoors/furniture_outdoors_parasol" name_id="furniture_outdoors_parasol_003" position="302.621 2693.98 120" rotation="0 0 0.97237 0.233445" unit_id="400778"/>
+			<unit_data _prev_pos="251.834 2719.86 120" _prev_rot="0 0 0.97237 0.233445" continent="house" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/props/furniture_outdoors/furniture_outdoors_parasol" name_id="furniture_outdoors_parasol_003" position="255.012 2726.09 120" rotation="0 0 0.97237 0.233445" unit_id="400778"/>
 		</table>
 		<table>
 			<unit_data _prev_pos="201.922 2671.3 120" _prev_rot="0 0 -0.760406 -0.649448" continent="house" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mcmansion/props/mcm_prop_terrece_table_and_chairs/mcm_prop_terrace_couch_1seater" name_id="mcm_prop_terrace_couch_1seater_003" position="170.325 2647.06 120" rotation="0 0 -0.760406 -0.649448" unit_id="400779"/>
 		</table>
 		<table>
 			<unit_data _prev_pos="284.185 2593.01 120" _prev_rot="0 0 -0.615662 -0.788011" continent="house" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mcmansion/props/mcm_prop_terrece_table_and_chairs/mcm_prop_terrace_table" name_id="mcm_prop_terrace_table_007" position="250.964 2583.77 120" rotation="0 0 -0.615661 -0.788011" unit_id="400780"/>
-		</table>
-		<table>
-			<unit_data _prev_pos="207.212 2829.59 120" _prev_rot="0 0 0.121869 -0.992546" continent="house" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mcmansion/props/mcm_prop_terrece_table_and_chairs/mcm_prop_terrace_couch_1seater" name_id="mcm_prop_terrace_couch_1seater_004" position="220.843 2751.99 120" rotation="0 0 0.121869 -0.992546" unit_id="400781"/>
 		</table>
 		<table>
 			<unit_data _prev_pos="370.314 3651.95 120" _prev_rot="0 0 0.75471 -0.656059" continent="house" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/nature/pnau/pnau_boulders/pna_ext_landscape_cliff_b" name_id="pna_ext_landscape_cliff_b_009" position="370.314 3651.95 118" rotation="0 0 0.75471 -0.656059" unit_id="400782"/>
@@ -2867,7 +2861,7 @@
 			<unit_data _prev_pos="-1400.56 -3705.87 20" _prev_rot="0 0 1 1.43424e-007" continent="house" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mcmansion/props/mcm_prop_garden_trashbin/mcm_prop_garden_trashbin" name_id="mcm_prop_garden_trashbin_002" position="-1301.56 -3705.87 20" rotation="0 0 1 1.43424e-007" unit_id="400813"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="364.633 258.174 520" _prev_rot="0 0 0.707107 -0.707107" continent="house" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/gen_prop_lab_table/gen_prop_lab_table" name_id="gen_prop_lab_table_002" position="364.633 258.174 520" rotation="0 0 0.707107 -0.707107" unit_id="400814"/>
+			<unit_data _prev_pos="364.633 258.174 520" _prev_rot="0 0 0.707107 -0.707107" continent="house" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/gen_prop_lab_table/gen_prop_lab_table" name_id="gen_prop_lab_table_002" position="296.633 258.174 520" rotation="0 0 0.707107 -0.707107" unit_id="400814"/>
 		</table>
 		<table>
 			<unit_data _prev_pos="184.384 568.84 520" _prev_rot="0 0 0.707107 -0.707107" continent="house" local_pos="-66 7.39098e-006 0" local_rot="0 0 0 1" name="units/payday2/props/gen_prop_security_servers/gen_prop_security_server_hightech" name_id="gen_prop_security_server_hightech_001" position="188.384 568.84 520" rotation="0 0 0.707107 -0.707107" unit_id="400815"/>
@@ -2879,19 +2873,19 @@
 			<unit_data _prev_pos="184.837 437.154 520" _prev_rot="0 0 0.707107 -0.707107" continent="house" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/gen_prop_security_servers/gen_prop_security_server_rack" name_id="gen_prop_security_server_rack_002" position="184.837 434.154 520" rotation="0 0 0.707107 -0.707107" unit_id="400817"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="185.774 304.094 520" _prev_rot="0 0 0 -1" continent="house" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/vegetation/str_veg_potted_plant/str_veg_potted_plant" name_id="str_veg_potted_plant_036" position="185.774 304.094 520" rotation="0 0 0 -1" unit_id="400818"/>
+			<unit_data _prev_pos="185.774 254.094 520" _prev_rot="0 0 0 -1" continent="house" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/vegetation/str_veg_potted_plant/str_veg_potted_plant" name_id="str_veg_potted_plant_036" position="135.774 254.094 520" rotation="0 0 0 -1" unit_id="400818"/>
 		</table>
 		<table>
 			<unit_data _prev_pos="364.633 435.174 520" _prev_rot="0 0 -8.56817e-008 -1" continent="house" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/gen_prop_lab_table/gen_prop_lab_table" name_id="gen_prop_lab_table_003" position="435.633 435.174 520" rotation="0 0 -8.56817e-008 -1" unit_id="400819"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="460.602 508.174 520" _prev_rot="0 0 0.707107 -0.707107" continent="house" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc2/props/gen_prop_security_console/gen_prop_security_console_straight_variation_2" name_id="gen_prop_security_console_straight_variation_2_001" position="475.602 508.174 520" rotation="0 0 0.707107 -0.707107" unit_id="400820"/>
+			<unit_data _prev_pos="475.602 531.174 520" _prev_rot="0 0 0.707107 -0.707107" continent="house" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="state_power_on" name="units/pd2_dlc2/props/gen_prop_security_console/gen_prop_security_console_straight_variation_2" name_id="gen_prop_security_console_straight_variation_2_001" position="488.602 531.174 520" rotation="0 0 0.707107 -0.707107" unit_id="400820"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="354.949 205 764.84" _prev_rot="0 0 1 3.72529e-009" continent="house" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc2/props/gen_prop_security_console/gen_prop_security_monitor_hanging_01" name_id="gen_prop_security_monitor_hanging_01_001" position="354.949 205 820.84" rotation="0 0 1 3.72529e-009" unit_id="400821"/>
+			<unit_data _prev_pos="286.949 205 820.84" _prev_rot="0 0 1 -4.37114e-008" continent="house" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="state_on" name="units/pd2_dlc2/props/gen_prop_security_console/gen_prop_security_monitor_hanging_01" name_id="gen_prop_security_monitor_hanging_01_001" position="286.949 205 820.84" rotation="0 0 1 4.37114e-008" unit_id="400821"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="362.596 272.086 606.508" _prev_rot="0 0 -0.725374 -0.688355" continent="house" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/gen_prop_security_console/gen_prop_security_console" name_id="gen_prop_security_console_001" position="352.348 276.556 606.508" rotation="0 0 -0.725374 -0.688355" unit_id="400822"/>
+			<unit_data _prev_pos="352.348 276.556 606.508" _prev_rot="0 0 -0.725374 -0.688355" continent="house" local_pos="-18.382 -12.285 86.508" local_rot="0 0 0.999657 -0.0261764" name="units/payday2/props/gen_prop_security_console/gen_prop_security_console" name_id="gen_prop_security_console_001" position="284.348 276.556 606.508" rotation="0 0 -0.725374 -0.688355" unit_id="400822"/>
 		</table>
 		<table>
 			<unit_data _prev_pos="-635.645 2014.27 120" _prev_rot="0 0 0 -1" continent="house" local_pos="-204.611 -8.07121 0" local_rot="0 0 1 -1.13621e-007" name="units/payday2/props/bnk_prop_security_document_shredder/bnk_prop_security_document_shredder" name_id="bnk_prop_security_document_shredder_001" position="-620.645 2014.27 120" rotation="0 0 0 -1" unit_id="400823"/>
@@ -2906,7 +2900,7 @@
 			<unit_data _prev_pos="-840.256 2006.2 120" _prev_rot="0 0 1 1.13621e-007" continent="house" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/gen_prop_security_servers/gen_prop_security_server_hightech_open" name_id="gen_prop_security_server_hightech_open_002" position="-825.256 2006.2 120" rotation="0 0 1 1.13621e-007" unit_id="400826"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-808.433 1759.59 120" _prev_rot="0 0 0 -1" continent="house" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc2/props/gen_prop_security_console/gen_prop_security_console_straight_variation_2" name_id="gen_prop_security_console_straight_variation_2_002" position="-808.433 1855.59 120" rotation="0 0 0 -1" unit_id="400827"/>
+			<unit_data _prev_pos="-808.433 1860.59 120" _prev_rot="0 0 0 -1" continent="house" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc2/props/gen_prop_security_console/gen_prop_security_console_straight_variation_2" name_id="gen_prop_security_console_straight_variation_2_002" position="-801.433 1860.59 120" rotation="0 0 0 -1" unit_id="400827"/>
 		</table>
 		<table>
 			<unit_data _prev_pos="-731.79 1718.28 120" _prev_rot="0 0 -0.707107 -0.707107" continent="house" local_pos="76.6428 -41.3099 0" local_rot="0 0 0.707107 0.707107" name="units/payday2/props/gen_prop_lab_table/gen_prop_lab_table" name_id="gen_prop_lab_table_004" position="-731.79 1814.28 120" rotation="0 0 -0.707107 -0.707107" unit_id="400828"/>
@@ -3051,7 +3045,7 @@
 			<unit_data _prev_pos="-2667.92 271.043 317.197" _prev_rot="0 0 0 -1" continent="house" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/architecture/com_int_basement/com_int_basement_garage_pipe_sprinkler_8m_a" name_id="com_int_basement_garage_pipe_sprinkler_8m_a_001" position="-2667.92 254.043 317.197" rotation="0 0 0 -1" unit_id="400861"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-2634.22 325.858 20" _prev_rot="0 0 0.945519 0.325568" continent="house" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mcmansion/props/mcm_prop_garden_barbeque/mcm_prop_garden_barbeque" name_id="mcm_prop_garden_barbeque_003" position="-2636.06 323.494 20" rotation="0 0 0.945519 0.325568" unit_id="400862"/>
+			<unit_data _prev_pos="-2636.06 323.494 20" _prev_rot="0 0 -0.688355 -0.725374" continent="house" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mcmansion/props/mcm_prop_garden_barbeque/mcm_prop_garden_barbeque" name_id="mcm_prop_garden_barbeque_003" position="-2662.02 324.855 20" rotation="0 0 -0.688355 -0.725374" unit_id="400862"/>
 		</table>
 		<table>
 			<unit_data _prev_pos="-2604.26 -176.992 20.0001" _prev_rot="0 0 0 -1" continent="house" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mcmansion/props/mcm_prop_garden_ac/mcm_prop_garden_ac" name_id="mcm_prop_garden_ac_001" position="-2604.26 -133.992 20.0001" rotation="0 0 0 -1" unit_id="400863"/>
@@ -3950,7 +3944,7 @@
 			<unit_data _prev_pos="-2023.18 1454.97 20" _prev_rot="0 0 0.707107 -0.707107" continent="house" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/props/mansion/man_cover_int_shipping_crate_wide/man_cover_int_shipping_crate_wide" name_id="man_cover_int_shipping_crate_wide_052" position="-2023.18 1509.97 20" rotation="0 0 0.707107 -0.707107" unit_id="401158"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-2526.49 1575.92 19.9998" _prev_rot="0 0 0.951057 -0.309017" continent="house" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/nature/pnau/pnau_boulders/pna_ext_landscape_boulder_c" name_id="pna_ext_landscape_boulder_c_009" position="-2391.75 1676.29 19.9998" rotation="0 0 0.951057 -0.309017" unit_id="401159"/>
+			<unit_data _prev_pos="-2421.68 1654.54 19.9998" _prev_rot="0 0 0.951057 -0.309017" continent="house" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/nature/pnau/pnau_boulders/pna_ext_landscape_boulder_c" name_id="pna_ext_landscape_boulder_c_009" position="-2432.26 1669.1 19.9998" rotation="0 0 0.951057 -0.309017" unit_id="401159"/>
 		</table>
 		<table>
 			<unit_data _prev_pos="-2502.81 2239.69 20" _prev_rot="0 0 -0.649448 -0.760406" continent="house" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_casino/vegetation/sfm_veg_tree_canarypalm/sfm_veg_tree_canarypalm_large" name_id="sfm_veg_tree_canarypalm_large_006" position="-2437.23 1100.4 20" rotation="0 0 -0.649448 -0.760406" unit_id="401160"/>
@@ -3961,12 +3955,21 @@
 		<table>
 			<unit_data _prev_pos="2608.58 1008.93 20" _prev_rot="0 0 -0.649448 -0.760406" continent="house" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_casino/vegetation/sfm_veg_tree_canarypalm/sfm_veg_tree_canarypalm_large" name_id="sfm_veg_tree_canarypalm_large_007" position="2446.1 1280.7 20" rotation="0 0 -0.649448 -0.760406" unit_id="401162"/>
 		</table>
+		<table>
+			<unit_data _prev_pos="297.539 352.82 520" _prev_rot="0 0 0 -1" continent="house" local_pos="-2.26795 81.148 0" local_rot="0 0 1 -4.47035e-008" name="units/payday2/props/stn_prop_office_chair_regular/stn_prop_office_chair_regular" name_id="stn_prop_office_chair_regular_002" position="297.539 352.82 520" rotation="0 0 0 -1" unit_id="401163"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-812.857 1709.99 120" _prev_rot="0 0 0 -1" continent="house" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/stn_prop_office_chair_regular/stn_prop_office_chair_regular" name_id="stn_prop_office_chair_regular_003" position="-812.857 1709.99 120" rotation="0 0 1 -4.37114e-008" unit_id="401164"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="651.85 2210.24 120" _prev_rot="0 0 0 -1" continent="house" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/props/trashcan/trash_dustbin_01" name_id="trash_dustbin_01_013" position="650 2210 120" rotation="-0 0 -0 -1" unit_id="400522"/>
+		</table>
 	</statics>
 	<values>
 		<workviews/>
 	</values>
 	<instances>
-		<table continent="house" folder="levels/instances/unique/vit/vit_wire_box/world" index_size="250" mission_placed="true" name="wirebox_red" position="-1500 -5500 5520" rotation="-0 0 -0 -1" script="default" start_index="0"/>
-		<table continent="house" folder="levels/instances/mods/hwu_laptop/world" index_size="250" mission_placed="true" name="hwu_laptop" position="-900 -5400 5520" rotation="0 0 0.707107 -0.707107" script="default" start_index="750"/>
+		<table continent="house" folder="levels/instances/unique/vit/vit_wire_box/world" index_size="250" mission_placed="true" name="wirebox_red" position="-1450 -5500 5520" rotation="0 0 1 -4.37114e-008" script="default" start_index="0"/>
+		<table continent="house" folder="levels/instances/mods/hwu_laptop/world" index_size="250" mission_placed="true" name="hwu_laptop" position="-950 -5500 5520" rotation="0 0 0.707107 -0.707107" script="default" start_index="750"/>
 	</instances>
 </table>
