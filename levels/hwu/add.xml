@@ -657,4 +657,11 @@
 		<sequence_manager path="units/pd2_dlc_born/props/bor_prop_mountain_door/bor_prop_mountain_door" unload="true"/>
 		<unit path="units/pd2_dlc_born/props/bor_prop_mountain_door/bor_prop_mountain_door" unload="true"/>
 	</add>
+	<add path="units/pd2_dlc_peta/props/pta_interactable_electric_box/pta_interactable_electric_box" type="unit">
+		<unit path="units/pd2_dlc_peta/props/pta_interactable_electric_box/pta_interactable_electric_box" unload="true"/>
+		<object path="units/pd2_dlc_peta/props/pta_interactable_electric_box/pta_interactable_electric_box" unload="true"/>
+		<material_config path="units/pd2_dlc_peta/props/pta_interactable_electric_box/pta_interactable_electric_box" unload="true"/>
+		<sequence_manager path="units/pd2_dlc_peta/props/pta_interactable_electric_box/pta_interactable_electric_box" unload="true"/>
+		<bnk path="soundbanks/regular_sfx" unload="true"/>
+	</add>
 </table>
