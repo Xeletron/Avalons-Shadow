@@ -634,10 +634,27 @@
 		<unit path="units/pd2_dlc_des/props/des_prop_glass_server_big/des_prop_glass_server_big" unload="true"/>
 	</add>
 	<add path="units/pd2_dlc_des/architecture/des_int/des_int_bio_lab_window/des_int_bio_lab_window" type="unit">
-		<unit path="units/pd2_dlc_des/architecture/des_int/des_int_bio_lab_window/des_int_bio_lab_window" unload="true"/>
-		<object path="units/pd2_dlc_des/architecture/des_int/des_int_bio_lab_window/des_int_bio_lab_window" unload="true"/>
 		<material_config path="units/pd2_dlc_des/architecture/des_int/des_int_bio_lab_window/des_int_bio_lab_window" unload="true"/>
-		<sequence_manager path="units/pd2_dlc_des/architecture/des_int/des_int_bio_lab_window/des_int_bio_lab_window" unload="true"/>
 		<material_config path="units/payday2/props/dest_glass/glass_shatter" unload="true"/>
+		<object path="units/pd2_dlc_des/architecture/des_int/des_int_bio_lab_window/des_int_bio_lab_window" unload="true"/>
+		<sequence_manager path="units/pd2_dlc_des/architecture/des_int/des_int_bio_lab_window/des_int_bio_lab_window" unload="true"/>
+		<unit path="units/pd2_dlc_des/architecture/des_int/des_int_bio_lab_window/des_int_bio_lab_window" unload="true"/>
+	</add>
+	<add path="units/pd2_dlc_berry/props/bry_prop_mechanical_pipeset/bry_prop_mechanical_pipeset_e" type="unit">
+		<material_config path="units/pd2_dlc_berry/props/bry_prop_mechanical_pipeset/bry_prop_mechanical_pipeset" unload="true"/>
+		<object path="units/pd2_dlc_berry/props/bry_prop_mechanical_pipeset/bry_prop_mechanical_pipeset_e" unload="true"/>
+		<unit path="units/pd2_dlc_berry/props/bry_prop_mechanical_pipeset/bry_prop_mechanical_pipeset_e" unload="true"/>
+	</add>
+	<add path="units/pd2_dlc_chill/props/chl_ext_prop_details/chl_ext_prop_cable_straight_01_4m" type="unit">
+		<material_config path="units/pd2_dlc_chill/props/chl_ext_prop_details/chl_ext_prop_details" unload="true"/>
+		<object path="units/pd2_dlc_chill/props/chl_ext_prop_details/chl_ext_prop_cable_straight_01_4m" unload="true"/>
+		<unit path="units/pd2_dlc_chill/props/chl_ext_prop_details/chl_ext_prop_cable_straight_01_4m" unload="true"/>
+	</add>
+	<add path="units/pd2_dlc_born/props/bor_prop_mountain_door/bor_prop_mountain_door" type="unit">
+		<bnk path="soundbanks/regular_sfx" unload="true"/>
+		<material_config path="units/pd2_dlc_born/props/bor_prop_mountain_door/bor_prop_mountain_door" unload="true"/>
+		<object path="units/pd2_dlc_born/props/bor_prop_mountain_door/bor_prop_mountain_door" unload="true"/>
+		<sequence_manager path="units/pd2_dlc_born/props/bor_prop_mountain_door/bor_prop_mountain_door" unload="true"/>
+		<unit path="units/pd2_dlc_born/props/bor_prop_mountain_door/bor_prop_mountain_door" unload="true"/>
 	</add>
 </table>
