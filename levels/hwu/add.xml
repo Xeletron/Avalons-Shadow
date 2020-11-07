@@ -658,10 +658,34 @@
 		<unit path="units/pd2_dlc_born/props/bor_prop_mountain_door/bor_prop_mountain_door" unload="true"/>
 	</add>
 	<add path="units/pd2_dlc_peta/props/pta_interactable_electric_box/pta_interactable_electric_box" type="unit">
-		<unit path="units/pd2_dlc_peta/props/pta_interactable_electric_box/pta_interactable_electric_box" unload="true"/>
-		<object path="units/pd2_dlc_peta/props/pta_interactable_electric_box/pta_interactable_electric_box" unload="true"/>
-		<material_config path="units/pd2_dlc_peta/props/pta_interactable_electric_box/pta_interactable_electric_box" unload="true"/>
-		<sequence_manager path="units/pd2_dlc_peta/props/pta_interactable_electric_box/pta_interactable_electric_box" unload="true"/>
 		<bnk path="soundbanks/regular_sfx" unload="true"/>
+		<material_config path="units/pd2_dlc_peta/props/pta_interactable_electric_box/pta_interactable_electric_box" unload="true"/>
+		<object path="units/pd2_dlc_peta/props/pta_interactable_electric_box/pta_interactable_electric_box" unload="true"/>
+		<sequence_manager path="units/pd2_dlc_peta/props/pta_interactable_electric_box/pta_interactable_electric_box" unload="true"/>
+		<unit path="units/pd2_dlc_peta/props/pta_interactable_electric_box/pta_interactable_electric_box" unload="true"/>
+	</add>
+	<add path="units/payday2/characters/civ_female_casual_1/civ_female_casual_1" type="unit">
+		<unit load="true" path="units/payday2/characters/civ_female_casual_1/civ_female_casual_1" unload="true"/>
+		<unit load="true" path="units/payday2/characters/civ_female_casual_1/civ_female_casual_1_husk" unload="true"/>
+		<material_config path="units/payday2/characters/civ_female_casual_1/civ_female_casual_1" unload="true"/>
+		<object path="units/payday2/characters/civ_female_casual_1/civ_female_casual_1" unload="true"/>
+	</add>
+	<add path="units/payday2/characters/civ_male_casual_4/civ_male_casual_4" type="unit">
+		<unit load="true" path="units/payday2/characters/civ_male_casual_4/civ_male_casual_4" unload="true"/>
+		<unit load="true" path="units/payday2/characters/civ_male_casual_4/civ_male_casual_4_husk" unload="true"/>
+		<material_config path="units/payday2/characters/civ_male_casual_4/civ_male_casual_4" unload="true"/>
+		<object path="units/payday2/characters/civ_male_casual_4/civ_male_casual_4" unload="true"/>
+	</add>
+	<add path="units/payday2/characters/civ_male_casual_14/civ_male_casual_14" type="unit">
+		<unit load="true" path="units/payday2/characters/civ_male_casual_14/civ_male_casual_14" unload="true"/>
+		<unit load="true" path="units/payday2/characters/civ_male_casual_14/civ_male_casual_14_husk" unload="true"/>
+		<material_config path="units/payday2/characters/civ_male_casual_14/civ_male_casual_14" unload="true"/>
+		<object path="units/payday2/characters/civ_male_casual_14/civ_male_casual_14" unload="true"/>
+	</add>
+	<add path="units/payday2/characters/civ_male_worker_3/civ_male_worker_3" type="unit">
+		<unit load="true" path="units/payday2/characters/civ_male_worker_3/civ_male_worker_3" unload="true"/>
+		<object path="units/payday2/characters/civ_male_worker_3/civ_male_worker_3" unload="true"/>
+		<material_config path="units/payday2/characters/civ_male_worker_3/civ_male_worker_3" unload="true"/>
+		<unit load="true" path="units/payday2/characters/civ_male_worker_3/civ_male_worker_3_husk" unload="true"/>
 	</add>
 </table>
