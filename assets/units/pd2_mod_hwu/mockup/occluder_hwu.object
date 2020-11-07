@@ -1,0 +1,15 @@
+<dynamic_object>
+	<diesel materials="units/payday2/mockup/occluder_plane" orientation_object="rp_occluder_hwu" />
+	<bodies>
+		<body name="static_body" enabled="true" template="editor">
+			<object name="rp_occluder_hwu" />
+			<object collision_type="mesh_mopp" enabled="true" name="g_occluder_plane_01"/>
+		</body>
+	</bodies>
+	<occluders>
+        <occluder name="oc_plane_01" />
+    </occluders>
+    <graphics>
+		<object name="g_occluder_plane_01" enabled="true"/>
+    </graphics>
+</dynamic_object>
