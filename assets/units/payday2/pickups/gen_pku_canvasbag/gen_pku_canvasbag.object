@@ -1,0 +1,15 @@
+<dynamic_object>
+	<diesel materials="units/payday2/pickups/gen_pku_canvasbag/gen_pku_canvasbag" orientation_object="rp_gen_pku_canvasbag" />
+	<sequence_manager file="units/payday2/pickups/gen_pku_canvasbag/gen_pku_canvasbag" />
+	<bodies>
+		<body name="body" enabled="true" template="small_prop" collision_class="bag" pushed_by_mover="false" friction="0.01" sweep="true" keyframed="false" tag="bag" collision_script_quiet_time="0.5" collision_script_tag="small" ray="block" lin_damping="0.4" ang_damping="20" restitution="0">
+       	<object name="rp_gen_pku_canvasbag" />
+				<object name="c_cylinder" collision_type="capsule" mass="25" />
+				<object name="c_box" collision_type="box" mass="25" />
+		</body>
+	</bodies>
+	<decal_surfaces default_material="cloth" />
+	<graphics>
+		<object name="g_canvasbag" enabled="true" />
+	</graphics>
+</dynamic_object>
