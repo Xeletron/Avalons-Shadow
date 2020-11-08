@@ -3401,6 +3401,29 @@
 		<table>
 			<unit_data _prev_pos="-585 -3595 -5000" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_hwu/mockup/occluder_hwu" name_id="occluder_hwu_001" only_visible_in_editor="true" position="-585 -3595 -0" rotation="-0 0 -0 -1" unit_id="101106"/>
 		</table>
+		<table>
+			<unit_data _prev_pos="-268.713 1262.44 -588" _prev_rot="0 0 0.258819 -0.965926" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/payday2/vehicles/air_vehicle_blackhawk/vehicle_blackhawk" name_id="vehicle_blackhawk_001" position="-268.713 1262.44 -588" rotation="0 0 0.258819 -0.965926" unit_id="101107"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="732.601 1896.77 -588" _prev_rot="0 0 0.965926 0.258819" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/payday2/vehicles/air_vehicle_blackhawk/vehicle_blackhawk" name_id="vehicle_blackhawk_002" position="732.601 1896.77 -588" rotation="0 0 0.965926 0.258819" unit_id="101108"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-5329.03 -8230.65 0.00087209" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/payday2/vehicles/anim_vehicle_van_swat/anim_vehicle_van_swat" name_id="anim_vehicle_van_swat_001" position="-5479.03 -8230.65 0.00087209" rotation="0 0 0.707107 -0.707107" unit_id="101109">
+				<lights>
+					<table clipping_values="10000 -10000 0" color="1 1 1" enabled="false" falloff_exponent="1" far_range="2000" multiplier="@IDbca13ba1d306f87b@" name="ls_left" near_range="0" spot_angle_end="40.0728" spot_angle_start="40.0728"/>
+					<table clipping_values="10000 -10000 0" color="1 1 1" enabled="false" falloff_exponent="1" far_range="2000" multiplier="@IDbca13ba1d306f87b@" name="ls_right" near_range="0" spot_angle_end="40.0728" spot_angle_start="40.0728"/>
+					<table clipping_values="10000 -10000 0" color="1 1 1" enabled="false" falloff_exponent="1" far_range="1000" multiplier="@IDbca13ba1d306f87b@" name="ls_t_left" near_range="0" spot_angle_end="40.0728" spot_angle_start="40.0728"/>
+					<table clipping_values="10000 -10000 0" color="1 1 1" enabled="false" falloff_exponent="1" far_range="1000" multiplier="@IDbca13ba1d306f87b@" name="ls_t_right" near_range="0" spot_angle_end="40.0728" spot_angle_start="40.0728"/>
+				</lights>
+				<projection_textures ls_left="units/lights/spot_light_projection_textures/default_df"/>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="-850.456 1227.43 197.811" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="state_show" name="units/pd2_dlc_dark/equipment/drk_interactable_weapon_case_1x1/drk_interactable_weapon_case_1x1" name_id="drk_interactable_weapon_case_1x1_001" position="-850 1227 195" rotation="-0 0 -0 -1" unit_id="101110"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-28.6547 2795.1 622.499" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="show_and_enable_interaction" name="units/payday2/pickups/gen_pku_money_luggage/gen_pku_money_luggage" name_id="gen_pku_money_luggage_001" position="-28.655 2795.1 622.499" rotation="-0 0 -0 -1" unit_id="101111"/>
+		</table>
 	</statics>
 	<values>
 		<workviews/>
