@@ -3962,27 +3962,12 @@
 		<table>
 			<unit_data _prev_pos="1730 2385 167" _prev_rot="0 0 0.707107 -0.707107" continent="house" disable_on_ai_graph="true" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/ind_prop_rooftop_ladder_a/ind_prop_rooftop_ladder_b_top" name_id="ind_prop_rooftop_ladder_b_top_001" position="1730 2385 167" rotation="0 0 0.707107 -0.707107" unit_id="400781"/>
 		</table>
-		<table>
-			<unit_data _prev_pos="-7286.53 -2969.02 1140" _prev_rot="0 0 -0.707107 -0.707107" continent="house" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/payday2/architecture/ind/ind_ext_level/ind_ext_level_roof_window" name_id="ind_ext_level_roof_window_001" position="-7286.53 -2969.02 1130" rotation="0 0 -0.707107 -0.707107" unit_id="400065"/>
-		</table>
-		<table>
-			<unit_data _prev_pos="-7286.53 -1669.02 1140" _prev_rot="0 0 -0.707107 -0.707107" continent="house" local_pos="1300 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/payday2/architecture/ind/ind_ext_level/ind_ext_level_roof_window" name_id="ind_ext_level_roof_window_002" position="-7286.53 -1669.02 1130" rotation="0 0 -0.707107 -0.707107" unit_id="401165"/>
-		</table>
-		<table>
-			<unit_data _prev_pos="-7286.53 -369.02 1140" _prev_rot="0 0 -0.707107 -0.707107" continent="house" local_pos="2600 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/payday2/architecture/ind/ind_ext_level/ind_ext_level_roof_window" name_id="ind_ext_level_roof_window_003" position="-7286.53 -369.02 1130" rotation="0 0 -0.707107 -0.707107" unit_id="401166"/>
-		</table>
-		<table>
-			<unit_data _prev_pos="-7286.53 930.98 1140" _prev_rot="0 0 -0.707107 -0.707107" continent="house" local_pos="3900 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/payday2/architecture/ind/ind_ext_level/ind_ext_level_roof_window" name_id="ind_ext_level_roof_window_004" position="-7286.53 930.98 1130" rotation="0 0 -0.707107 -0.707107" unit_id="401167"/>
-		</table>
-		<table>
-			<unit_data _prev_pos="-7286.53 2230.98 1140" _prev_rot="0 0 -0.707107 -0.707107" continent="house" local_pos="5200 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/payday2/architecture/ind/ind_ext_level/ind_ext_level_roof_window" name_id="ind_ext_level_roof_window_005" position="-7286.53 2230.98 1130" rotation="0 0 -0.707107 -0.707107" unit_id="401168"/>
-		</table>
 	</statics>
 	<values>
 		<workviews/>
 	</values>
 	<instances>
-		<table continent="house" folder="levels/instances/unique/vit/vit_wire_box/world" index_size="250" mission_placed="true" name="wirebox_red" position="-1450 -5500 5520" rotation="0 0 1 -4.37114e-008" script="default" start_index="0"/>
-		<table continent="house" folder="levels/instances/mods/hwu_laptop/world" index_size="250" mission_placed="true" name="hwu_laptop" position="-950 -5500 5520" rotation="0 0 0.707107 -0.707107" script="default" start_index="750"/>
+		<table continent="house" folder="levels/instances/unique/vit/vit_wire_box/world" index_size="250" mission_placed="true" name="wirebox_red" position="1490 2385 135" rotation="0 0 0.707107 -0.707107" script="default" start_index="0"/>
+		<table continent="house" folder="levels/instances/mods/hwu_laptop/world" index_size="250" mission_placed="true" name="hwu_laptop" position="-782.847 2823.63 592" rotation="-0 0 -0.0436194 -0.999048" script="default" start_index="750"/>
 	</instances>
 </table>

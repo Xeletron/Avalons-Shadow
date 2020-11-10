@@ -1,9 +1,9 @@
 <table>
 	<editor_groups/>
 	<instances>
-		<table continent="world" folder="levels/instances/unique/vit/vit_wire_box/world" index_size="250" mission_placed="true" name="wirebox_green" position="-1450 -5400 5520" rotation="0 0 1 4.37114e-008" script="default" start_index="0"/>
-		<table continent="world" folder="levels/instances/unique/vit/vit_wire_box/world" index_size="250" mission_placed="true" name="wirebox_blue" position="-1450 -5300 5520" rotation="0 0 1 -4.37114e-008" script="default" start_index="250"/>
-		<table continent="world" folder="levels/instances/unique/vit/vit_wire_box/world" index_size="250" mission_placed="true" name="wirebox_yellow" position="-1450 -5200 5520" rotation="0 0 1 4.37114e-008" script="default" start_index="500"/>
+		<table continent="world" folder="levels/instances/unique/vit/vit_wire_box/world" index_size="250" mission_placed="true" name="wirebox_green" position="-2204.31 -373.558 25" rotation="0 0 -0.707107 -0.707107" script="default" start_index="0"/>
+		<table continent="world" folder="levels/instances/unique/vit/vit_wire_box/world" index_size="250" mission_placed="true" name="wirebox_blue" position="1430 1600 480" rotation="0 0 1 -4.37114e-008" script="default" start_index="250"/>
+		<table continent="world" folder="levels/instances/unique/vit/vit_wire_box/world" index_size="250" mission_placed="true" name="wirebox_yellow" position="-1825 2515 25" rotation="0 0 0 -1" script="default" start_index="500"/>
 	</instances>
 	<statics>
 		<table>
@@ -3486,6 +3486,18 @@
 		</table>
 		<table>
 			<unit_data _prev_pos="1328.73 -3648.52 208.851" _prev_rot="0.642888 0.76596 2.80927e-008 3.34885e-008" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="enable_vision_blocker" name="units/dev_tools/level_tools/dev_ai_vis_blocker/dev_ai_vis_blocker_005x6x12m" name_id="dev_ai_vis_blocker_005x6x12m_030" only_visible_in_editor="true" position="1328.38 -3646.55 208.851" rotation="0.642888 0.76596 2.80927e-008 3.34885e-008" unit_id="101132"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-9180 -3989 791" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_bag_collision/dev_bag_collision_8x3m" name_id="dev_bag_collision_8x3m_016" only_visible_in_editor="true" position="-9180 -3989 791" rotation="0 0 0.707107 -0.707107" unit_id="101133"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-9180 -3973 1091" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="0 0 300" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_bag_collision/dev_bag_collision_8x3m" name_id="dev_bag_collision_8x3m_017" only_visible_in_editor="true" position="-9180 -3989 1091" rotation="0 0 0.707107 -0.707107" unit_id="101134"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-9180 -3973 1391" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="0 0 600" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_bag_collision/dev_bag_collision_8x3m" name_id="dev_bag_collision_8x3m_018" only_visible_in_editor="true" position="-9180 -3989 1391" rotation="0 0 0.707107 -0.707107" unit_id="101135"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="701.51 -884.923 171.053" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="set_clue_ankh" name="units/pd2_dlc_des/props/des_interactable_secret_document/des_interactable_secret_document" name_id="des_interactable_secret_document_001" position="701.51 -884.923 171.053" rotation="-0 0 -0 -1" unit_id="101136"/>
 		</table>
 	</statics>
 	<values>

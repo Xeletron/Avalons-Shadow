@@ -826,4 +826,16 @@
 		<sequence_manager path="units/pd2_dlc_dark/equipment/drk_interactable_weapon_case_2x1/spawn_scar" unload="true"/>
 		<bnk path="soundbanks/regular_sfx" unload="true"/>
 	</add>
+	<add path="units/pd2_dlc_des/props/des_interactable_secret_document/des_interactable_secret_document" type="unit">
+		<material_config path="units/pd2_dlc_des/props/des_interactable_secret_document/des_interactable_secret_document" unload="true"/>
+		<object path="units/pd2_dlc_des/props/des_interactable_secret_document/des_interactable_secret_document" unload="true"/>
+		<sequence_manager path="units/pd2_dlc_des/props/des_interactable_secret_document/des_interactable_secret_document" unload="true"/>
+		<unit path="units/pd2_dlc_des/props/des_interactable_secret_document/des_interactable_secret_document" unload="true"/>
+	</add>
+	<add path="units/pd2_dlc_dark/props/editable_text_dunton/editable_text_dunton" type="unit">
+		<unit path="units/pd2_dlc_dark/props/editable_text_dunton/editable_text_dunton" unload="true"/>
+		<object path="units/pd2_dlc_dark/props/editable_text_dunton/editable_text_dunton" unload="true"/>
+		<material_config path="units/pd2_dlc_dark/props/editable_text_dunton/editable_text_dunton" unload="true"/>
+		<font path="fonts/font_dunton_writing" unload="true"/>
+	</add>
 </table>
