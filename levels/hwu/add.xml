@@ -64,14 +64,33 @@
 		<sequence_manager path="units/pd2_mod_hwu/props/hwu_container_elevator/hwu_container_elevator" unload="true"/>
 		<model path="units/pd2_mod_hwu/props/hwu_container_elevator/hwu_container_elevator" unload="true"/>
 		<material_config path="units/pd2_mod_hwu/props/hwu_container_elevator/hwu_container_elevator" unload="true"/>
-				
 		<unit path="units/pd2_mod_hwu/props/hwu_warehouse_signs/hwu_warehouse_sign_management" unload="true"/>
 		<object path="units/pd2_mod_hwu/props/hwu_warehouse_signs/hwu_warehouse_sign_management" unload="true"/>
 		<model path="units/pd2_mod_hwu/props/hwu_warehouse_signs/hwu_warehouse_sign_management" unload="true"/>
 		<material_config path="units/pd2_mod_hwu/props/hwu_warehouse_signs/hwu_warehouse_signs" unload="true"/>
+		<unit path="units/pd2_mod_hwu/props/hwu_warehouse_signs/hwu_warehouse_sign_office" unload="true"/>
+		<object path="units/pd2_mod_hwu/props/hwu_warehouse_signs/hwu_warehouse_sign_office" unload="true"/>
+		<model path="units/pd2_mod_hwu/props/hwu_warehouse_signs/hwu_warehouse_sign_office" unload="true"/>
+		<unit path="units/pd2_mod_hwu/props/hwu_warehouse_signs/hwu_warehouse_sign_archives" unload="true"/>
+		<object path="units/pd2_mod_hwu/props/hwu_warehouse_signs/hwu_warehouse_sign_archives" unload="true"/>
+		<model path="units/pd2_mod_hwu/props/hwu_warehouse_signs/hwu_warehouse_sign_archives" unload="true"/>
+		<unit path="units/pd2_mod_hwu/props/hwu_warehouse_signs/hwu_warehouse_sign_cafeteria" unload="true"/>
+		<object path="units/pd2_mod_hwu/props/hwu_warehouse_signs/hwu_warehouse_sign_cafeteria" unload="true"/>
+		<model path="units/pd2_mod_hwu/props/hwu_warehouse_signs/hwu_warehouse_sign_cafeteria" unload="true"/>
+		<unit path="units/pd2_mod_hwu/props/hwu_warehouse_signs/hwu_warehouse_sign_security" unload="true"/>
+		<object path="units/pd2_mod_hwu/props/hwu_warehouse_signs/hwu_warehouse_sign_security" unload="true"/>
+		<model path="units/pd2_mod_hwu/props/hwu_warehouse_signs/hwu_warehouse_sign_security" unload="true"/>
+		<unit path="units/pd2_mod_hwu/props/hwu_warehouse_signs/hwu_warehouse_sign_meeting" unload="true"/>
+		<object path="units/pd2_mod_hwu/props/hwu_warehouse_signs/hwu_warehouse_sign_meeting" unload="true"/>
+		<model path="units/pd2_mod_hwu/props/hwu_warehouse_signs/hwu_warehouse_sign_meeting" unload="true"/>
+		<unit path="units/pd2_mod_hwu/props/hwu_warehouse_signs/hwu_warehouse_sign_stock" unload="true"/>
+		<object path="units/pd2_mod_hwu/props/hwu_warehouse_signs/hwu_warehouse_sign_stock" unload="true"/>
+		<model path="units/pd2_mod_hwu/props/hwu_warehouse_signs/hwu_warehouse_sign_stock" unload="true"/>
+		<unit path="units/pd2_mod_hwu/props/hwu_warehouse_signs/hwu_warehouse_sign_admin" unload="true"/>
+		<object path="units/pd2_mod_hwu/props/hwu_warehouse_signs/hwu_warehouse_sign_admin" unload="true"/>
+		<model path="units/pd2_mod_hwu/props/hwu_warehouse_signs/hwu_warehouse_sign_admin" unload="true"/>
 		<texture path="units/pd2_mod_hwu/props/hwu_warehouse_signs/hwu_warehouse_signs_df" unload="true"/>
 		<texture path="units/pd2_mod_hwu/props/hwu_warehouse_signs/hwu_warehouse_signs_nm" unload="true"/>
-
 		<material_config path="units/payday2/nature/pnau/pnau_boulders/pna_ext_landscape_boulder" unload="true"/>
 		<object path="units/payday2/nature/pnau/pnau_boulders/pna_ext_landscape_cliff_e" unload="true"/>
 		<unit path="units/payday2/nature/pnau/pnau_boulders/pna_ext_landscape_cliff_e" unload="true"/>
@@ -845,5 +864,45 @@
 		<material_config path="units/pd2_dlc_dark/props/editable_text_dunton/editable_text_dunton" unload="true"/>
 		<object path="units/pd2_dlc_dark/props/editable_text_dunton/editable_text_dunton" unload="true"/>
 		<unit path="units/pd2_dlc_dark/props/editable_text_dunton/editable_text_dunton" unload="true"/>
+	</add>
+	<add path="units/payday2/props/com_prop_restroom_toilet/com_prop_restroom_toilet" type="unit">
+		<material_config path="units/payday2/props/com_prop_restroom_toilet/com_prop_restroom_toilet" unload="true"/>
+		<object path="units/payday2/props/com_prop_restroom_toilet/com_prop_restroom_toilet" unload="true"/>
+		<unit path="units/payday2/props/com_prop_restroom_toilet/com_prop_restroom_toilet" unload="true"/>
+	</add>
+	<add path="units/payday2/props/com_prop_restroom_toiletbooth/com_prop_restroom_toiletbooth_closed" type="unit">
+		<material_config path="units/payday2/props/com_prop_restroom_toiletbooth/com_prop_restroom_toiletbooth" unload="true"/>
+		<object path="units/payday2/props/com_prop_restroom_toiletbooth/com_prop_restroom_toiletbooth_closed" unload="true"/>
+		<unit path="units/payday2/props/com_prop_restroom_toiletbooth/com_prop_restroom_toiletbooth_closed" unload="true"/>
+	</add>
+	<add path="units/payday2/props/com_prop_restroom_toiletbooth/com_prop_restroom_toiletbooth_open" type="unit">
+		<material_config path="units/payday2/props/com_prop_restroom_toiletbooth/com_prop_restroom_toiletbooth" unload="true"/>
+		<object path="units/payday2/props/com_prop_restroom_toiletbooth/com_prop_restroom_toiletbooth_open" unload="true"/>
+		<unit path="units/payday2/props/com_prop_restroom_toiletbooth/com_prop_restroom_toiletbooth_open" unload="true"/>
+	</add>
+	<add path="units/payday2/props/com_prop_restroom_sink/com_prop_restroom_sink" type="unit">
+		<material_config path="units/payday2/props/com_prop_restroom_sink/com_prop_restroom_sink" unload="true"/>
+		<object path="units/payday2/props/com_prop_restroom_sink/com_prop_restroom_sink" unload="true"/>
+		<unit path="units/payday2/props/com_prop_restroom_sink/com_prop_restroom_sink" unload="true"/>
+	</add>
+	<add path="units/payday2/props/com_prop_restroom_dryer/com_prop_restroom_dryer" type="unit">
+		<material_config path="units/payday2/props/com_prop_restroom_dryer/com_prop_restroom_dryer" unload="true"/>
+		<object path="units/payday2/props/com_prop_restroom_dryer/com_prop_restroom_dryer" unload="true"/>
+		<unit path="units/payday2/props/com_prop_restroom_dryer/com_prop_restroom_dryer" unload="true"/>
+	</add>
+	<add path="units/payday2/characters/civ_male_business_1/civ_male_business_1" type="unit">
+		<unit load="true" path="units/payday2/characters/civ_male_business_1/civ_male_business_1" unload="true"/>
+		<unit load="true" path="units/payday2/characters/civ_male_business_1/civ_male_business_1_husk" unload="true"/>
+		<material_config path="units/payday2/characters/civ_male_business_1/civ_male_business_1" unload="true"/>
+		<object path="units/payday2/characters/civ_male_business_1/civ_male_business_1" unload="true"/>
+	</add>
+	<add path="units/payday2/characters/civ_male_worker_docks_3/civ_male_worker_docks_3" type="unit">
+		<unit load="true" path="units/payday2/characters/civ_male_worker_docks_3/civ_male_worker_docks_3" unload="true"/>
+		<object path="units/payday2/characters/civ_male_worker_docks_3/civ_male_worker_docks_3" unload="true"/>
+		<material_config path="units/payday2/characters/civ_male_worker_docks_3/civ_male_worker_docks_3" unload="true"/>
+		<unit load="true" path="units/payday2/characters/civ_acc_worker_docks_helmet_3/civ_acc_worker_docks_helmet_3" unload="true"/>
+		<object path="units/payday2/characters/civ_acc_worker_docks_helmet_3/civ_acc_worker_docks_helmet_3" unload="true"/>
+		<material_config path="units/payday2/characters/civ_acc_worker_docks_helmet_3/civ_acc_worker_docks_helmet_3" unload="true"/>
+		<unit load="true" path="units/payday2/characters/civ_male_worker_docks_3/civ_male_worker_docks_3_husk" unload="true"/>
 	</add>
 </table>

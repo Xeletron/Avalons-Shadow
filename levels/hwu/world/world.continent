@@ -2581,7 +2581,7 @@
 		</table>
 		<table>
 			<unit_data _prev_pos="-1391.7 -4463.33 5512.5" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/editable_text_short/editable_text_short" name_id="editable_text_short_003" position="-1391.7 -4463.33 5512.5" rotation="0 0 -0.707107 -0.707107" unit_id="100867">
-				<editable_gui align="left" alpha="1" blend_mode="normal" font="fonts/font_medium_shadow_mf" font_color="1 1 1" font_size="2.58824" render_template="diffuse_vc_decal" text="House Guards" vertical="center" word_wrap="false" wrap="false">
+				<editable_gui align="left" alpha="1" blend_mode="normal" font="fonts/font_medium_shadow_mf" font_color="1 1 1" font_size="2.58824" render_template="diffuse_vc_decal" text="Guards" vertical="center" word_wrap="false" wrap="false">
 					<shape>
 						<value_node value="0"/>
 						<value_node value="0"/>
@@ -3498,6 +3498,12 @@
 		</table>
 		<table>
 			<unit_data _prev_pos="701.51 -884.923 171.053" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="set_clue_ankh" name="units/pd2_dlc_des/props/des_interactable_secret_document/des_interactable_secret_document" name_id="des_interactable_secret_document_001" position="701.51 -884.923 171.053" rotation="-0 0 -0 -1" unit_id="101136"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-4535 -4670 0" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/door_blocker/door_blocker_4x1" name_id="door_blocker_4x1_001" only_visible_in_editor="true" position="-4535 -4667 0" rotation="0 0 -0.707107 -0.707107" unit_id="101137"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-4535 -4667 0" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/door_blocker/door_blocker_4x1" name_id="door_blocker_4x1_002" only_visible_in_editor="true" position="-4535 -4267 0" rotation="0 0 -0.707107 -0.707107" unit_id="101138"/>
 		</table>
 	</statics>
 	<values>
