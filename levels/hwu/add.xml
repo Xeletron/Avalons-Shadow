@@ -64,6 +64,14 @@
 		<sequence_manager path="units/pd2_mod_hwu/props/hwu_container_elevator/hwu_container_elevator" unload="true"/>
 		<model path="units/pd2_mod_hwu/props/hwu_container_elevator/hwu_container_elevator" unload="true"/>
 		<material_config path="units/pd2_mod_hwu/props/hwu_container_elevator/hwu_container_elevator" unload="true"/>
+				
+		<unit path="units/pd2_mod_hwu/props/hwu_warehouse_signs/hwu_warehouse_sign_management" unload="true"/>
+		<object path="units/pd2_mod_hwu/props/hwu_warehouse_signs/hwu_warehouse_sign_management" unload="true"/>
+		<model path="units/pd2_mod_hwu/props/hwu_warehouse_signs/hwu_warehouse_sign_management" unload="true"/>
+		<material_config path="units/pd2_mod_hwu/props/hwu_warehouse_signs/hwu_warehouse_signs" unload="true"/>
+		<texture path="units/pd2_mod_hwu/props/hwu_warehouse_signs/hwu_warehouse_signs_df" unload="true"/>
+		<texture path="units/pd2_mod_hwu/props/hwu_warehouse_signs/hwu_warehouse_signs_nm" unload="true"/>
+
 		<material_config path="units/payday2/nature/pnau/pnau_boulders/pna_ext_landscape_boulder" unload="true"/>
 		<object path="units/payday2/nature/pnau/pnau_boulders/pna_ext_landscape_cliff_e" unload="true"/>
 		<unit path="units/payday2/nature/pnau/pnau_boulders/pna_ext_landscape_cliff_e" unload="true"/>
@@ -833,9 +841,9 @@
 		<unit path="units/pd2_dlc_des/props/des_interactable_secret_document/des_interactable_secret_document" unload="true"/>
 	</add>
 	<add path="units/pd2_dlc_dark/props/editable_text_dunton/editable_text_dunton" type="unit">
-		<unit path="units/pd2_dlc_dark/props/editable_text_dunton/editable_text_dunton" unload="true"/>
-		<object path="units/pd2_dlc_dark/props/editable_text_dunton/editable_text_dunton" unload="true"/>
-		<material_config path="units/pd2_dlc_dark/props/editable_text_dunton/editable_text_dunton" unload="true"/>
 		<font path="fonts/font_dunton_writing" unload="true"/>
+		<material_config path="units/pd2_dlc_dark/props/editable_text_dunton/editable_text_dunton" unload="true"/>
+		<object path="units/pd2_dlc_dark/props/editable_text_dunton/editable_text_dunton" unload="true"/>
+		<unit path="units/pd2_dlc_dark/props/editable_text_dunton/editable_text_dunton" unload="true"/>
 	</add>
 </table>

@@ -22788,12 +22788,12 @@
 					<entry key="enabled" type="boolean" value="true"/>
 					<entry key="event_list" type="table">
 						<entry index="1" type="table">
-							<entry key="event" type="string" value="enable_interact"/>
-							<entry key="instance" type="string" value="hwu_documents_001"/>
+							<entry key="event" type="string" value="random_red"/>
+							<entry key="instance" type="string" value="hwu_documents_005"/>
 						</entry>
 						<entry index="2" type="table">
-							<entry key="event" type="string" value="random_blue"/>
-							<entry key="instance" type="string" value="hwu_documents_001"/>
+							<entry key="event" type="string" value="enable_interact"/>
+							<entry key="instance" type="string" value="hwu_documents_005"/>
 						</entry>
 					</entry>
 					<entry key="execute_on_startup" type="boolean" value="false"/>
@@ -22812,6 +22812,10 @@
 			<entry index="4" type="string" value="wirebox_yellow"/>
 			<entry index="5" type="string" value="hwu_laptop"/>
 			<entry index="6" type="string" value="hwu_documents_001"/>
+			<entry index="7" type="string" value="hwu_documents_002"/>
+			<entry index="8" type="string" value="hwu_documents_003"/>
+			<entry index="9" type="string" value="hwu_documents_004"/>
+			<entry index="10" type="string" value="hwu_documents_005"/>
 		</entry>
 		<entry key="name" type="string" value="default"/>
 	</entry>
