@@ -905,4 +905,7 @@
 		<material_config path="units/payday2/characters/civ_acc_worker_docks_helmet_3/civ_acc_worker_docks_helmet_3" unload="true"/>
 		<unit load="true" path="units/payday2/characters/civ_male_worker_docks_3/civ_male_worker_docks_3_husk" unload="true"/>
 	</add>
+	<add path="effects/payday2/particles/emp/emp_explosion" type="effect">
+		<effect load="true" path="effects/payday2/particles/emp/emp_explosion" unload="true"/>
+	</add>
 </table>
