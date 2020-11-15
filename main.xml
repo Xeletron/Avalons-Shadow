@@ -82,7 +82,9 @@
 			<value_node value="levels/narratives/bain/revenge/art/art"/>
 			<value_node value="levels/narratives/e_election_day/stage_2/world/world"/>
 			<value_node value="levels/narratives/bain/big/props/props"/>
-			<value_node value="packages/job_short2_stage2b"/>
+			<value_node value="levels/instances/unique/dah/dah_keypad/world"/>
+			<value_node value="levels/instances/unique/dah/dah_keypad/world/world"/>
+			<value_node value="levels/instances/unique/dah/dah_keypad/world_sounds"/>
 		</packages>
 		<script_data_mods directory="scriptdata">
 			<mod replacement="objectives.objective" replacement_type="custom_xml" target_ext="objective" target_path="gamedata/objectives">

@@ -4,6 +4,7 @@
 		<table continent="world" folder="levels/instances/unique/vit/vit_wire_box/world" index_size="250" mission_placed="true" name="wirebox_green" position="-1450 -5400 5570" rotation="0 0 1 -4.37114e-008" script="default" start_index="0"/>
 		<table continent="world" folder="levels/instances/unique/vit/vit_wire_box/world" index_size="250" mission_placed="true" name="wirebox_blue" position="-1450 -5300 5570" rotation="0 0 1 4.37114e-008" script="default" start_index="250"/>
 		<table continent="world" folder="levels/instances/unique/vit/vit_wire_box/world" index_size="250" mission_placed="true" name="wirebox_yellow" position="-1450 -5200 5570" rotation="0 0 1 -4.37114e-008" script="default" start_index="500"/>
+		<table continent="world" folder="levels/instances/unique/dah/dah_keypad/world" index_size="250" name="dah_keypad_001" position="-9130 -3015 145" rotation="0 -0.707107 0 -0.707107" script="default" start_index="750"/>
 	</instances>
 	<statics>
 		<table>
@@ -3916,6 +3917,27 @@
 		</table>
 		<table>
 			<unit_data _prev_pos="-5675.57 -3572.23 1.86265e-007" _prev_rot="0 0 7.07805e-008 -1" continent="world" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/door_blocker/door_blocker" name_id="door_blocker_012" only_visible_in_editor="true" position="-5682.57 -3572.23 1.86265e-007" rotation="0 0 7.07805e-008 -1" unit_id="101259"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-5285.57 -5205.23 0" _prev_rot="0 0 1 -4.37114e-008" continent="world" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/door_blocker/door_blocker" name_id="door_blocker_013" only_visible_in_editor="true" position="-5285.57 -5205.23 0" rotation="0 0 1 -4.37114e-008" unit_id="101260"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-5698.63 -6695.09 1.86265e-007" _prev_rot="0 0 -0.707107 -0.707107" continent="world" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/door_blocker/door_blocker" name_id="door_blocker_014" only_visible_in_editor="true" position="-5698.63 -6694.09 1.86265e-007" rotation="0 0 -0.707107 -0.707107" unit_id="101261"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-5789.63 -6014.09 1.86265e-007" _prev_rot="0 0 0 -1" continent="world" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="-5 125 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/door_blocker/door_blocker" name_id="door_blocker_015" only_visible_in_editor="true" position="-5789.63 -6014.09 0" rotation="0 0 0 -1" unit_id="101262"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="8.3 -3363.33 5512.5" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/editable_text_short/editable_text_short" name_id="editable_text_short_012" position="8.3 -3363.33 5512.5" rotation="0 0 -0.707107 -0.707107" unit_id="101263">
+				<editable_gui align="left" alpha="1" blend_mode="normal" font="fonts/font_medium_shadow_mf" font_color="1 1 1" font_size="2.58824" render_template="diffuse_vc_decal" text="Documents" vertical="center" word_wrap="false" wrap="false">
+					<shape>
+						<value_node value="0"/>
+						<value_node value="0"/>
+						<value_node value="1"/>
+						<value_node value="1"/>
+					</shape>
+				</editable_gui>
+			</unit_data>
 		</table>
 	</statics>
 	<values>

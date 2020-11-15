@@ -908,4 +908,10 @@
 	<add path="effects/payday2/particles/emp/emp_explosion" type="effect">
 		<effect load="true" path="effects/payday2/particles/emp/emp_explosion" unload="true"/>
 	</add>
+	<add path="units/payday2/characters/civ_male_casual_1/civ_male_casual_1" type="unit">
+		<unit load="true" path="units/payday2/characters/civ_male_casual_1/civ_male_casual_1" unload="true"/>
+		<object path="units/payday2/characters/civ_male_casual_1/civ_male_casual_1" unload="true"/>
+		<material_config path="units/payday2/characters/civ_male_casual_1/civ_male_casual_1" unload="true"/>
+		<unit load="true" path="units/payday2/characters/civ_male_casual_1/civ_male_casual_1_husk" unload="true"/>
+	</add>
 </table>
