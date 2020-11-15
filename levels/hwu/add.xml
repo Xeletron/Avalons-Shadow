@@ -384,8 +384,8 @@
 	<add path="units/payday2/characters/ene_security_1/ene_security_1" type="unit">
 		<material_config path="units/payday2/characters/ene_security_1/ene_security_1" unload="true"/>
 		<object path="units/payday2/characters/ene_security_1/ene_security_1" unload="true"/>
-		<sequence_manager path="units/payday2/characters/ragdoll" unload="true"/>
 		<unit load="true" path="units/payday2/characters/ene_security_1/ene_security_1" unload="true"/>
+		<unit load="true" path="units/payday2/characters/ene_security_1/ene_secret_service_1_husk" unload="true"/>
 	</add>
 	<add path="units/payday2/props/stn_prop_office_filecabinet_b_02/stn_prop_office_filecabinet_b_02" type="unit">
 		<material_config path="units/payday2/props/stn_prop_office_filecabinet_b_02/stn_prop_office_filecabinet_b_02" unload="true"/>
