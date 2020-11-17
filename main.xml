@@ -37,6 +37,7 @@
 			<asset name="bodybags_bag"/>
 			<asset name="ammo_bag"/>
 			<asset name="health_bag"/>
+			<asset name="grenade_crate"/>
 		</assets>
 		<hooks directory="hooks">
 			<hook file="InteractionTweakData.lua" source_file="lib/tweak_data/interactiontweakdata"/>

@@ -8,6 +8,8 @@
 			<object enabled="true" name="'g_door_front'"/>
 			<object enabled="false" name="'g_door_rear'" start_time="420/30"/>
 			<body enabled="false" name="'body_rear'" start_time="420/30"/>
+			<sound action="'play'" event="'tag_elevator_start'" source="'snd_01'" start_time="20/30"/>
+			<sound action="'play'" event="'tag_elevator_stop'" source="'snd_01'" start_time="420/30"/>
 		</sequence>
 	</unit>
 </table>

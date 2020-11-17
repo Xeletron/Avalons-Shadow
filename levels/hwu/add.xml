@@ -915,9 +915,30 @@
 		<object path="units/payday2/characters/civ_male_casual_1/civ_male_casual_1" unload="true"/>
 	</add>
 	<add path="units/payday2/equipment/gen_interactable_thermite_backpack/gen_interactable_thermite_backpack" type="unit">
-		<unit path="units/payday2/equipment/gen_interactable_thermite_backpack/gen_interactable_thermite_backpack" unload="true"/>
-		<object path="units/payday2/equipment/gen_interactable_thermite_backpack/gen_interactable_thermite_backpack" unload="true"/>
 		<material_config path="units/payday2/equipment/gen_interactable_thermite_backpack/gen_interactable_thermite_backpack" unload="true"/>
+		<object path="units/payday2/equipment/gen_interactable_thermite_backpack/gen_interactable_thermite_backpack" unload="true"/>
 		<sequence_manager path="units/payday2/equipment/gen_interactable_thermite_backpack/gen_interactable_thermite_backpack" unload="true"/>
+		<unit path="units/payday2/equipment/gen_interactable_thermite_backpack/gen_interactable_thermite_backpack" unload="true"/>
+	</add>
+	<add path="units/payday2/architecture/com_int_basement/com_int_basement_garage_parkingline_arrow" type="unit">
+		<material_config path="units/payday2/architecture/com_int_basement/com_int_basement_garage_parkingline" unload="true"/>
+		<object path="units/payday2/architecture/com_int_basement/com_int_basement_garage_parkingline_arrow" unload="true"/>
+		<unit path="units/payday2/architecture/com_int_basement/com_int_basement_garage_parkingline_arrow" unload="true"/>
+	</add>
+	<add path="units/payday2/architecture/str/str_ext_marking_yellowline_3m_01_a" type="unit">
+		<material_config path="units/payday2/architecture/str/str" unload="true"/>
+		<object path="units/payday2/architecture/str/str_ext_marking_yellowline_3m_01_a" unload="true"/>
+		<unit path="units/payday2/architecture/str/str_ext_marking_yellowline_3m_01_a" unload="true"/>
+	</add>
+	<add path="units/payday2/architecture/str/str_ext_marking_yellowline_6m_01_a" type="unit">
+		<material_config path="units/payday2/architecture/str/str" unload="true"/>
+		<object path="units/payday2/architecture/str/str_ext_marking_yellowline_6m_01_a" unload="true"/>
+		<unit path="units/payday2/architecture/str/str_ext_marking_yellowline_6m_01_a" unload="true"/>
+	</add>
+	<add path="units/pd2_dlc_casino/dev/cas_int_blueprints/cas_int_blueprints" type="unit">
+		<material_config path="units/dev_tools/invisible_interaction_searching/invisible_interaction_searching" unload="true"/>
+		<object path="units/pd2_dlc_casino/dev/cas_int_blueprints/cas_int_blueprints" unload="true"/>
+		<sequence_manager path="units/pd2_dlc_casino/dev/cas_int_blueprints/cas_int_blueprints" unload="true"/>
+		<unit path="units/pd2_dlc_casino/dev/cas_int_blueprints/cas_int_blueprints" unload="true"/>
 	</add>
 </table>

@@ -7,4 +7,8 @@
 		<extension name="damage" class="UnitDamage" />
 		<extension name="sync_unit_data" class="SyncUnitData" />
 	</extensions>
+	<sounds>
+		<default_soundsource source="rp_hwu_container_elevator"/>
+		<soundsource name="snd_01" source="sound_source_01" />
+	</sounds>
 </unit>
