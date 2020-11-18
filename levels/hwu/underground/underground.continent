@@ -2,7 +2,7 @@
 	<editor_groups/>
 	<statics>
 		<table>
-			<unit_data _prev_pos="-4139.26 -10389.7 -2000" _prev_rot="0 0 0.956305 -0.292372" continent="underground" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_berry/architecture/bry_mountain_interiors/bry_mountain_left_entrance" name_id="bry_mountain_left_entrance_001" position="-4139.26 -10389.7 -2000" rotation="0 0 0.956305 -0.292372" unit_id="500000"/>
+			<unit_data _prev_pos="-4139.26 -10389.7 -2000" _prev_rot="0 0 0.956305 -0.292372" _visibility_counter="0" continent="underground" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_berry/architecture/bry_mountain_interiors/bry_mountain_left_entrance" name_id="bry_mountain_left_entrance_001" position="-4139.26 -10389.7 -2000" rotation="0 0 0.956305 -0.292372" unit_id="500000"/>
 		</table>
 		<table>
 			<unit_data _prev_pos="-4156.61 -10417.1 -1997" _prev_rot="0 0 0.956305 -0.292372" continent="underground" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="29.7054 13.0131 3" local_rot="0 0 0 1" name="units/pd2_dlc_berry/architecture/bry_mountain_interiors/bry_mountain_lock_room" name_id="bry_mountain_lock_room_001" position="-4156.61 -10417.1 -1997" rotation="0 0 0.956305 -0.292372" unit_id="500001"/>
@@ -44,7 +44,7 @@
 			<unit_data _prev_pos="-9942.13 -7969.15 -1980.77" _prev_rot="-1.69833e-010 -5.89989e-010 -0.292372 -0.956305" _visibility_counter="0" continent="underground" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="-661.096 35.4507 7.30715e-007" local_rot="1.11022e-016 4.16334e-017 0.999391 -0.0348994" name="units/pd2_dlc_berry/architecture/bry_mountain_interiors/bry_mountain_solid_wall" name_id="bry_mountain_solid_wall_009" position="-9909.13 -8026.3 -1980.77" rotation="-1.69833e-010 -5.89989e-010 -0.292372 -0.956305" unit_id="500013"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-8727.31 -8266.73 -1980.77" _prev_rot="6.1396e-010 4.72709e-012 0.999962 -0.00872672" continent="underground" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="2616.51 -4325.63 19.23" local_rot="-1.74984e-010 -5.88515e-010 -0.284015 0.95882" name="units/pd2_dlc_berry/architecture/bry_mountain_interiors/bry_mountain_solid_wall" name_id="bry_mountain_solid_wall_010" position="-8727.31 -8266.73 -1980.77" rotation="6.1396e-010 4.72695e-012 0.999962 -0.00872651" unit_id="500014"/>
+			<unit_data _prev_pos="-8727.31 -8266.73 -1980.77" _prev_rot="6.1396e-010 4.72695e-012 0.999962 -0.00872651" _visibility_counter="0" continent="underground" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_berry/architecture/bry_mountain_interiors/bry_mountain_solid_wall" name_id="bry_mountain_solid_wall_010" position="-8727.31 -8266.73 -1980.77" rotation="0 0 0.999962 -0.00872644" unit_id="500014"/>
 		</table>
 		<table>
 			<unit_data _prev_pos="-8122.19 -8624.69 -2027.77" _prev_rot="2.73391e-010 -5.49752e-010 0.430511 -0.902586" continent="underground" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="2315.02 -3690.49 -27.77" local_rot="-6.05662e-010 -1.00713e-010 0.737278 0.67559" name="units/pd2_dlc_berry/architecture/bry_mountain_interiors/bry_mountain_solid_wall" name_id="bry_mountain_solid_wall_011" position="-8122.19 -8624.69 -2027.77" rotation="2.73391e-010 -5.49752e-010 0.430511 -0.902586" unit_id="500015"/>
@@ -2362,7 +2362,12 @@
 			<unit_data _prev_pos="-9552.91 -7872.33 -1751.7" _prev_rot="0.024096 0.0102282 -0.390597 -0.920189" continent="underground" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_berry/architecture/bry_mountain_interiors/bry_mountain_concrete_solid_wall" name_id="bry_mountain_concrete_solid_wall_043" position="-9552.99 -7872.26 -1749.71" rotation="0.024096 0.0102282 -0.390597 -0.920189" unit_id="500757"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-15739.8 -7581.3 -973" _prev_rot="0 0 1 4.37114e-008" continent="underground" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/pd2_dlc_des/props/des_prop_crane/des_prop_overhead_crane" name_id="des_prop_overhead_crane_001" position="-15739.8 -7581.3 -1030" rotation="0 0 1 4.37114e-008" unit_id="500760"/>
+			<unit_data _prev_pos="-15739.8 -7581.3 -973" _prev_rot="0 0 1 4.37114e-008" continent="underground" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/pd2_dlc_des/props/des_prop_crane/des_prop_overhead_crane" name_id="des_prop_overhead_crane_001" position="-15739.8 -7581.3 -1030" rotation="0 0 1 4.37114e-008" unit_id="500760">
+				<lights>
+					<table clipping_values="10000 -10000 0" color="1 0.846472 0.573" enabled="true" falloff_exponent="4" far_range="500" multiplier="@ID8badd0cc6ca7cc05@" name="ls_point" near_range="0" spot_angle_end="0" spot_angle_start="0"/>
+					<table clipping_values="10000 -10000 0" color="1 0.854742 0.596" enabled="true" falloff_exponent="1" far_range="1400" multiplier="@IDb3570b664608819f@" name="ls_spot" near_range="0" spot_angle_end="57.8057" spot_angle_start="48.3168"/>
+				</lights>
+			</unit_data>
 		</table>
 		<table>
 			<unit_data _prev_pos="-9516.65 -8714.26 -1980.77" _prev_rot="-2.88787e-010 -5.41787e-010 -0.48481 -0.87462" continent="underground" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_berry/architecture/bry_mountain_interiors/bry_mountain_solid_wall" name_id="bry_mountain_solid_wall_110" position="-9375.46 -8656.27 -1980.77" rotation="-2.88787e-010 -5.41787e-010 -0.48481 -0.87462" unit_id="500763"/>
