@@ -349,7 +349,7 @@
 			<unit_data _prev_pos="-5500 0 -800" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/architecture/str_bdrop_buildings_forest/str_bdrop_buildings_forest" name_id="str_bdrop_buildings_forest_001" position="-5500 0 -800" rotation="0 0 -0.707107 -0.707107" unit_id="100000"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="38110 118250 -500" _prev_rot="0 0 -8.74228e-008 -1" continent="world" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="-46482 -117647 -1000" local_rot="0 0 1 -4.37114e-008" name="units/payday2/architecture/gen_watchdog_2_water/warehouse_water" name_id="warehouse_water_001" position="38110 118250 -500" rotation="0 0 0 -1" unit_id="100116"/>
+			<unit_data _prev_pos="38110 118250 -500" _prev_rot="0 0 0 -1" continent="world" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/architecture/gen_watchdog_2_water/warehouse_water" name_id="warehouse_water_001" position="38110 118250 -500" rotation="0 0 0 -1" unit_id="100116"/>
 		</table>
 		<table>
 			<unit_data _prev_pos="2152.24 10728.1 -2400" _prev_rot="0 0 0.887011 0.461749" continent="world" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="-10524.2 -10125.1 -2900" local_rot="0 0 -0.461749 0.887011" name="units/payday2/architecture/air_backdrop/air_backdrop_v2" name_id="air_backdrop_v2_001" position="2152.24 10728.1 -2400" rotation="0 0 0.887011 0.461749" unit_id="100117"/>
@@ -4106,6 +4106,12 @@
 		</table>
 		<table>
 			<unit_data _prev_pos="-6240 -5400 110" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/pd2_dlc_casino/dev/cas_int_blueprints/cas_int_blueprints" name_id="cas_int_blueprints_036" position="-6240 -5275 110" rotation="0 0 0 -1" unit_id="101321"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-14850 -11900 -1369" _prev_rot="0 0 -0.0261769 -0.999657" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/props/construction_crane/construction_crane_01" name_id="construction_crane_01_001" position="-14850 -11900 -1369" rotation="0 0 -0.0261769 -0.999657" unit_id="101301"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-15108.2 -6730.95 4457" _prev_rot="0 0 -0.0261771 -0.999657" continent="world" local_pos="12.7224 5175.48 5826" local_rot="0 0 1.49012e-007 1" name="units/pd2_dlc1/props/ind_prop_crane_magnet/ind_prop_crane_magnet" name_id="ind_prop_crane_magnet_001" position="-15108.2 -6730.95 4457" rotation="0 0 -0.0261771 -0.999657" unit_id="101302"/>
 		</table>
 	</statics>
 	<values>

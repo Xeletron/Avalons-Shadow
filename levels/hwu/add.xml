@@ -941,4 +941,20 @@
 		<sequence_manager path="units/pd2_dlc_casino/dev/cas_int_blueprints/cas_int_blueprints" unload="true"/>
 		<unit path="units/pd2_dlc_casino/dev/cas_int_blueprints/cas_int_blueprints" unload="true"/>
 	</add>
+	<add path="units/payday2/architecture/ind/ind_ext_dock_bld/ind_ext_dock_bld_overhead_crane" type="unit">
+		<material_config path="units/payday2/architecture/ind/ind_ext_dock_bld_overhead_crane" unload="true"/>
+		<object path="units/payday2/architecture/ind/ind_ext_dock_bld/ind_ext_dock_bld_overhead_crane" unload="true"/>
+		<unit path="units/payday2/architecture/ind/ind_ext_dock_bld/ind_ext_dock_bld_overhead_crane" unload="true"/>
+	</add>
+	<add path="units/world/props/construction_crane/construction_crane_01" type="unit">
+		<material_config path="units/world/props/construction_crane/construction_crane" unload="true"/>
+		<object path="units/world/props/construction_crane/construction_crane_01" unload="true"/>
+		<sequence_manager path="units/world/props/construction_crane/construction_crane_01" unload="true"/>
+		<unit path="units/world/props/construction_crane/construction_crane_01" unload="true"/>
+	</add>
+	<add path="units/pd2_dlc1/props/ind_prop_crane_magnet/ind_prop_crane_magnet" type="unit">
+		<unit path="units/pd2_dlc1/props/ind_prop_crane_magnet/ind_prop_crane_magnet" unload="true"/>
+		<object path="units/pd2_dlc1/props/ind_prop_crane_magnet/ind_prop_crane_magnet" unload="true"/>
+		<material_config path="units/pd2_dlc1/props/ind_prop_crane_magnet/ind_prop_crane_magnet" unload="true"/>
+	</add>
 </table>
