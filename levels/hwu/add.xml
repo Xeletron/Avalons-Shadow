@@ -953,8 +953,17 @@
 		<unit path="units/world/props/construction_crane/construction_crane_01" unload="true"/>
 	</add>
 	<add path="units/pd2_dlc1/props/ind_prop_crane_magnet/ind_prop_crane_magnet" type="unit">
-		<unit path="units/pd2_dlc1/props/ind_prop_crane_magnet/ind_prop_crane_magnet" unload="true"/>
-		<object path="units/pd2_dlc1/props/ind_prop_crane_magnet/ind_prop_crane_magnet" unload="true"/>
 		<material_config path="units/pd2_dlc1/props/ind_prop_crane_magnet/ind_prop_crane_magnet" unload="true"/>
+		<object path="units/pd2_dlc1/props/ind_prop_crane_magnet/ind_prop_crane_magnet" unload="true"/>
+		<unit path="units/pd2_dlc1/props/ind_prop_crane_magnet/ind_prop_crane_magnet" unload="true"/>
+	</add>
+	<add path="units/pd2_dlc_des/props/des_prop_crane/des_prop_overhead_crane" type="unit">
+		<unit path="units/pd2_dlc_des/props/des_prop_crane/des_prop_overhead_crane" unload="true"/>
+		<effect load="true" path="effects/payday2/particles/flares/spotlight_flare_strong" unload="true"/>
+		<bnk path="soundbanks/regular_sfx" unload="true"/>
+		<bnk path="soundbanks/des_sfx" unload="true"/>
+		<object path="units/pd2_dlc_des/props/des_prop_crane/des_prop_overhead_crane" unload="true"/>
+		<material_config path="units/pd2_dlc_des/props/des_prop_crane/des_prop_overhead_crane" unload="true"/>
+		<sequence_manager path="units/pd2_dlc_des/props/des_prop_crane/des_prop_overhead_crane" unload="true"/>
 	</add>
 </table>
