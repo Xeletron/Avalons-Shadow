@@ -29,11 +29,26 @@
             <object name="c_box_22" collision_type="box" padding="-2.5"/>
             <object name="c_box_23" collision_type="box" padding="-2.5"/>
             <object name="c_box_24" collision_type="box" padding="-2.5"/>
+            <object name="c_box_25" collision_type="box" padding="-2.5"/>
+            <object name="c_box_26" collision_type="box" padding="-2.5"/>
+            <object name="c_box_27" collision_type="box" padding="-2.5"/>
+            <object name="c_box_28" collision_type="box" padding="-2.5"/>
+            <object name="c_box_29" collision_type="box" padding="-2.5"/>
+            <object name="c_box_30" collision_type="box" padding="-2.5"/>
+            <object name="c_box_31" collision_type="box" padding="-2.5"/>
+            <object name="c_box_32" collision_type="box" padding="-2.5"/>
+            <object name="c_box_33" collision_type="box" padding="-2.5"/>
+            <object name="c_box_34" collision_type="box" padding="-2.5"/>
         </body>
+        <body name="player_blocker" enabled="true" template="mover_blocker">
+			<object name="rp_int_warehouse_floor" />
+			<object name="c_box_player_blocker" collision_type="box" padding="-2.5"/>
+		</body>	
     </bodies>
 
     <decal_surfaces default_material="plastic" static="true">
         <decal_mesh enabled="true" material="plastic" name="dm_plastic"/>
+        <decal_mesh enabled="true" material="sheet_metal" name="dm_sheet_metal"/>
 	</decal_surfaces>
 
     <graphics>
