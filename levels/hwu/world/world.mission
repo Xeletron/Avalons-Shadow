@@ -788,6 +788,10 @@
 							<entry key="delay" type="number" value="0"/>
 							<entry key="id" type="number" value="101053"/>
 						</entry>
+						<entry index="133" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="101557"/>
+						</entry>
 					</entry>
 					<entry key="position" type="vector3" value="100 -4100 5520"/>
 					<entry key="rotation" type="quaternion" value="-0 0 -0 -1"/>
@@ -13291,6 +13295,9 @@
 						<entry index="2" type="number" value="100778"/>
 						<entry index="3" type="number" value="100873"/>
 						<entry index="4" type="number" value="100874"/>
+						<entry index="5" type="number" value="100527"/>
+						<entry index="6" type="number" value="100528"/>
+						<entry index="7" type="number" value="100530"/>
 					</entry>
 				</entry>
 			</entry>
@@ -14457,6 +14464,16 @@
 							<entry key="guis_id" type="number" value="1"/>
 							<entry key="obj_name" type="idstring" value="61246242b2892774"/>
 							<entry key="unit_id" type="number" value="101262"/>
+						</entry>
+						<entry index="21" type="table">
+							<entry key="guis_id" type="number" value="1"/>
+							<entry key="obj_name" type="idstring" value="61246242b2892774"/>
+							<entry key="unit_id" type="number" value="100515"/>
+						</entry>
+						<entry index="22" type="table">
+							<entry key="guis_id" type="number" value="1"/>
+							<entry key="obj_name" type="idstring" value="61246242b2892774"/>
+							<entry key="unit_id" type="number" value="100526"/>
 						</entry>
 					</entry>
 					<entry key="on_executed" type="table">
@@ -26285,6 +26302,10 @@
 							<entry key="delay" type="number" value="0"/>
 							<entry key="id" type="number" value="100798"/>
 						</entry>
+						<entry index="3" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="101574"/>
+						</entry>
 					</entry>
 					<entry key="position" type="vector3" value="-4461.93 -4772.06 100.186"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
@@ -26836,6 +26857,10 @@
 						<entry index="6" type="table">
 							<entry key="delay" type="number" value="0"/>
 							<entry key="id" type="number" value="101233"/>
+						</entry>
+						<entry index="7" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="101568"/>
 						</entry>
 					</entry>
 					<entry key="position" type="vector3" value="-1300 -2900 5520"/>
@@ -55582,6 +55607,576 @@
 						<entry index="5" type="number" value="303617"/>
 						<entry index="6" type="number" value="303612"/>
 					</entry>
+				</entry>
+			</entry>
+			<entry index="1558" type="table">
+				<entry key="class" type="string" value="ElementSpecialObjective"/>
+				<entry key="editor_name" type="string" value="navlink_door_017"/>
+				<entry key="id" type="number" value="101557"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="SO_access" type="string" value="1054872060"/>
+					<entry key="action_duration_max" type="number" value="0"/>
+					<entry key="action_duration_min" type="number" value="0"/>
+					<entry key="ai_group" type="string" value="enemies"/>
+					<entry key="align_position" type="boolean" value="true"/>
+					<entry key="align_rotation" type="boolean" value="true"/>
+					<entry key="attitude" type="string" value="none"/>
+					<entry key="base_chance" type="number" value="1"/>
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="chance_inc" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="followup_elements" type="table">
+					</entry>
+					<entry key="interaction_voice" type="string" value="none"/>
+					<entry key="interrupt_dis" type="number" value="0"/>
+					<entry key="interrupt_dmg" type="number" value="0"/>
+					<entry key="interval" type="number" value="5"/>
+					<entry key="is_navigation_link" type="boolean" value="true"/>
+					<entry key="needs_pos_rsrv" type="boolean" value="true"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="path_haste" type="string" value="none"/>
+					<entry key="path_stance" type="string" value="none"/>
+					<entry key="path_style" type="string" value="none"/>
+					<entry key="patrol_path" type="string" value="none"/>
+					<entry key="pose" type="string" value="none"/>
+					<entry key="position" type="vector3" value="-6372.57 -4105.23 400"/>
+					<entry key="rotation" type="quaternion" value="0 0 7.07805e-008 -1"/>
+					<entry key="scan" type="boolean" value="true"/>
+					<entry key="search_distance" type="number" value="0"/>
+					<entry key="search_position" type="vector3" value="-5674.57 -3447.23 0"/>
+					<entry key="so_action" type="string" value="e_nl_open_door"/>
+					<entry key="spawn_instigator_ids" type="table">
+					</entry>
+					<entry key="test_unit" type="string" value="default"/>
+					<entry key="trigger_on" type="string" value="none"/>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="1559" type="table">
+				<entry key="class" type="string" value="ElementNavObstacle"/>
+				<entry key="editor_name" type="string" value="remove_side_door_blocker010"/>
+				<entry key="id" type="number" value="101558"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="obstacle_list" type="table">
+						<entry index="1" type="table">
+							<entry key="guis_id" type="number" value="1"/>
+							<entry key="obj_name" type="idstring" value="61246242b2892774"/>
+							<entry key="unit_id" type="number" value="100515"/>
+						</entry>
+					</entry>
+					<entry key="on_executed" type="table">
+						<entry index="1" type="table">
+							<entry key="delay" type="number" value="2"/>
+							<entry key="id" type="number" value="101562"/>
+						</entry>
+					</entry>
+					<entry key="operation" type="string" value="remove"/>
+					<entry key="position" type="vector3" value="-6454.57 -4015.23 450"/>
+					<entry key="rotation" type="quaternion" value="0 0 7.07805e-008 -1"/>
+					<entry key="trigger_times" type="number" value="1"/>
+				</entry>
+			</entry>
+			<entry index="1560" type="table">
+				<entry key="class" type="string" value="ElementUnitSequenceTrigger"/>
+				<entry key="editor_name" type="string" value="blocker_trigger_016"/>
+				<entry key="id" type="number" value="101559"/>
+				<entry key="module" type="string" value="CoreElementUnitSequenceTrigger"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+						<entry index="1" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="101558"/>
+						</entry>
+						<entry index="2" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="101562"/>
+						</entry>
+					</entry>
+					<entry key="position" type="vector3" value="-6454.57 -4015.23 500"/>
+					<entry key="rotation" type="quaternion" value="0 0 7.07805e-008 -1"/>
+					<entry key="sequence_list" type="table">
+						<entry index="1" type="table">
+							<entry key="sequence" type="string" value="done_opened"/>
+							<entry key="unit_id" type="number" value="300504"/>
+						</entry>
+					</entry>
+					<entry key="trigger_times" type="number" value="1"/>
+				</entry>
+			</entry>
+			<entry index="1561" type="table">
+				<entry key="class" type="string" value="ElementUnitSequence"/>
+				<entry key="editor_name" type="string" value="open_side_door008"/>
+				<entry key="id" type="number" value="101560"/>
+				<entry key="module" type="string" value="CoreElementUnitSequence"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="position" type="vector3" value="-6458.57 -4015.23 550"/>
+					<entry key="rotation" type="quaternion" value="0 0 7.07805e-008 -1"/>
+					<entry key="trigger_list" type="table">
+						<entry index="1" type="table">
+							<entry key="name" type="string" value="run_sequence"/>
+							<entry key="notify_unit_id" type="number" value="300504"/>
+							<entry key="notify_unit_sequence" type="string" value="open_door"/>
+							<entry key="time" type="number" value="0"/>
+						</entry>
+					</entry>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="1562" type="table">
+				<entry key="class" type="string" value="ElementSpecialObjectiveTrigger"/>
+				<entry key="editor_name" type="string" value="navlink_trigger_024"/>
+				<entry key="id" type="number" value="101561"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="elements" type="table">
+						<entry index="1" type="number" value="101557"/>
+					</entry>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="event" type="string" value="anim_act_04"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+						<entry index="1" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="101560"/>
+						</entry>
+					</entry>
+					<entry key="position" type="vector3" value="-6458.57 -4015.23 600"/>
+					<entry key="rotation" type="quaternion" value="0 0 7.07805e-008 -1"/>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="1563" type="table">
+				<entry key="class" type="string" value="ElementOperator"/>
+				<entry key="editor_name" type="string" value="logic_operator_014"/>
+				<entry key="id" type="number" value="101562"/>
+				<entry key="module" type="string" value="CoreElementOperator"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="elements" type="table">
+						<entry index="1" type="number" value="101557"/>
+					</entry>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="operation" type="string" value="remove"/>
+					<entry key="position" type="vector3" value="-6458.57 -4015.23 650"/>
+					<entry key="rotation" type="quaternion" value="0 0 7.07805e-008 -1"/>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="1564" type="table">
+				<entry key="class" type="string" value="ElementUnitSequenceTrigger"/>
+				<entry key="editor_name" type="string" value="blocker_trigger_017"/>
+				<entry key="id" type="number" value="101563"/>
+				<entry key="module" type="string" value="CoreElementUnitSequenceTrigger"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+						<entry index="1" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="101564"/>
+						</entry>
+						<entry index="2" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="101562"/>
+						</entry>
+					</entry>
+					<entry key="position" type="vector3" value="-6200.57 -3292.23 500"/>
+					<entry key="rotation" type="quaternion" value="0 0 0.707107 -0.707107"/>
+					<entry key="sequence_list" type="table">
+						<entry index="1" type="table">
+							<entry key="sequence" type="string" value="done_opened"/>
+							<entry key="unit_id" type="number" value="300532"/>
+						</entry>
+					</entry>
+					<entry key="trigger_times" type="number" value="1"/>
+				</entry>
+			</entry>
+			<entry index="1565" type="table">
+				<entry key="class" type="string" value="ElementNavObstacle"/>
+				<entry key="editor_name" type="string" value="remove_side_door_blocker011"/>
+				<entry key="id" type="number" value="101564"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="obstacle_list" type="table">
+						<entry index="1" type="table">
+							<entry key="guis_id" type="number" value="1"/>
+							<entry key="obj_name" type="idstring" value="61246242b2892774"/>
+							<entry key="unit_id" type="number" value="100526"/>
+						</entry>
+					</entry>
+					<entry key="on_executed" type="table">
+						<entry index="1" type="table">
+							<entry key="delay" type="number" value="2"/>
+							<entry key="id" type="number" value="101562"/>
+						</entry>
+					</entry>
+					<entry key="operation" type="string" value="remove"/>
+					<entry key="position" type="vector3" value="-6200.57 -3292.23 450"/>
+					<entry key="rotation" type="quaternion" value="0 0 0.707107 -0.707107"/>
+					<entry key="trigger_times" type="number" value="1"/>
+				</entry>
+			</entry>
+			<entry index="1566" type="table">
+				<entry key="class" type="string" value="ElementEnableUnit"/>
+				<entry key="editor_name" type="string" value="enable_cam_005"/>
+				<entry key="id" type="number" value="101565"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+						<entry index="1" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="101566"/>
+						</entry>
+					</entry>
+					<entry key="position" type="vector3" value="550 -4000 5520"/>
+					<entry key="rotation" type="quaternion" value="-0 0 -0 -1"/>
+					<entry key="trigger_times" type="number" value="0"/>
+					<entry key="unit_ids" type="table">
+						<entry index="1" type="number" value="100527"/>
+					</entry>
+				</entry>
+			</entry>
+			<entry index="1567" type="table">
+				<entry key="class" type="string" value="ElementSecurityCamera"/>
+				<entry key="editor_name" type="string" value="security_camera_005"/>
+				<entry key="id" type="number" value="101566"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="ai_enabled" type="boolean" value="true"/>
+					<entry key="apply_settings" type="boolean" value="true"/>
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="camera_u_id" type="number" value="100527"/>
+					<entry key="detection_delay_max" type="number" value="2"/>
+					<entry key="detection_delay_min" type="number" value="1"/>
+					<entry key="detection_range" type="number" value="20"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="fov" type="number" value="90"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="pitch" type="number" value="-10"/>
+					<entry key="position" type="vector3" value="550 -4000 5570"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="suspicion_range" type="number" value="10"/>
+					<entry key="trigger_times" type="number" value="0"/>
+					<entry key="yaw" type="number" value="-20"/>
+				</entry>
+			</entry>
+			<entry index="1568" type="table">
+				<entry key="class" type="string" value="ElementSecurityCamera"/>
+				<entry key="editor_name" type="string" value="kill_camera_005"/>
+				<entry key="id" type="number" value="101567"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="ai_enabled" type="boolean" value="false"/>
+					<entry key="apply_settings" type="boolean" value="false"/>
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="camera_u_id" type="number" value="100527"/>
+					<entry key="detection_delay_max" type="number" value="3"/>
+					<entry key="detection_delay_min" type="number" value="2"/>
+					<entry key="detection_range" type="number" value="15"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="fov" type="number" value="60"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="pitch" type="number" value="-20"/>
+					<entry key="position" type="vector3" value="550 -4000 5620"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="suspicion_range" type="number" value="7"/>
+					<entry key="trigger_times" type="number" value="0"/>
+					<entry key="yaw" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="1569" type="table">
+				<entry key="class" type="string" value="ElementRandom"/>
+				<entry key="editor_name" type="string" value="random_whouse_cams_001"/>
+				<entry key="id" type="number" value="101568"/>
+				<entry key="module" type="string" value="CoreElementRandom"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="amount" type="number" value="1"/>
+					<entry key="amount_random" type="number" value="0"/>
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="ignore_disabled" type="boolean" value="true"/>
+					<entry key="on_executed" type="table">
+						<entry index="1" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="101565"/>
+						</entry>
+						<entry index="2" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="101571"/>
+						</entry>
+						<entry index="3" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="101576"/>
+						</entry>
+					</entry>
+					<entry key="position" type="vector3" value="550 -4050 5520"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="1570" type="table">
+				<entry key="class" type="string" value="ElementAccessCamera"/>
+				<entry key="editor_name" type="string" value="access_camera_005"/>
+				<entry key="id" type="number" value="101569"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="camera_u_id" type="number" value="100527"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="pitch_limit" type="number" value="45"/>
+					<entry key="position" type="vector3" value="-5071.38 -6495 293.365"/>
+					<entry key="rotation" type="quaternion" value="0 0 1 -4.37114e-008"/>
+					<entry key="text_id" type="string" value="debug_none"/>
+					<entry key="trigger_times" type="number" value="0"/>
+					<entry key="yaw_limit" type="number" value="45"/>
+				</entry>
+			</entry>
+			<entry index="1571" type="table">
+				<entry key="class" type="string" value="ElementAccessCamera"/>
+				<entry key="editor_name" type="string" value="access_camera_006"/>
+				<entry key="id" type="number" value="101570"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="camera_u_id" type="number" value="100528"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="pitch_limit" type="number" value="45"/>
+					<entry key="position" type="vector3" value="-7379.67 -7095 288.365"/>
+					<entry key="rotation" type="quaternion" value="0 0 1 -4.37114e-008"/>
+					<entry key="text_id" type="string" value="debug_none"/>
+					<entry key="trigger_times" type="number" value="0"/>
+					<entry key="yaw_limit" type="number" value="85"/>
+				</entry>
+			</entry>
+			<entry index="1572" type="table">
+				<entry key="class" type="string" value="ElementEnableUnit"/>
+				<entry key="editor_name" type="string" value="enable_cam_006"/>
+				<entry key="id" type="number" value="101571"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+						<entry index="1" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="101572"/>
+						</entry>
+					</entry>
+					<entry key="position" type="vector3" value="550 -3950 5520"/>
+					<entry key="rotation" type="quaternion" value="-0 0 -0 -1"/>
+					<entry key="trigger_times" type="number" value="0"/>
+					<entry key="unit_ids" type="table">
+						<entry index="1" type="number" value="100528"/>
+					</entry>
+				</entry>
+			</entry>
+			<entry index="1573" type="table">
+				<entry key="class" type="string" value="ElementSecurityCamera"/>
+				<entry key="editor_name" type="string" value="security_camera_006"/>
+				<entry key="id" type="number" value="101572"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="ai_enabled" type="boolean" value="true"/>
+					<entry key="apply_settings" type="boolean" value="true"/>
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="camera_u_id" type="number" value="100528"/>
+					<entry key="detection_delay_max" type="number" value="2"/>
+					<entry key="detection_delay_min" type="number" value="1"/>
+					<entry key="detection_range" type="number" value="20"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="fov" type="number" value="90"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="pitch" type="number" value="-10"/>
+					<entry key="position" type="vector3" value="550 -3950 5570"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="suspicion_range" type="number" value="10"/>
+					<entry key="trigger_times" type="number" value="0"/>
+					<entry key="yaw" type="number" value="80"/>
+				</entry>
+			</entry>
+			<entry index="1574" type="table">
+				<entry key="class" type="string" value="ElementSecurityCamera"/>
+				<entry key="editor_name" type="string" value="kill_camera_006"/>
+				<entry key="id" type="number" value="101573"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="ai_enabled" type="boolean" value="false"/>
+					<entry key="apply_settings" type="boolean" value="false"/>
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="camera_u_id" type="number" value="100528"/>
+					<entry key="detection_delay_max" type="number" value="3"/>
+					<entry key="detection_delay_min" type="number" value="2"/>
+					<entry key="detection_range" type="number" value="15"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="fov" type="number" value="60"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="pitch" type="number" value="-20"/>
+					<entry key="position" type="vector3" value="550 -3950 5620"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="suspicion_range" type="number" value="7"/>
+					<entry key="trigger_times" type="number" value="0"/>
+					<entry key="yaw" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="1575" type="table">
+				<entry key="class" type="string" value="ElementDisableUnit"/>
+				<entry key="editor_name" type="string" value="disable_collision_001"/>
+				<entry key="id" type="number" value="101574"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="position" type="vector3" value="-4461.93 -4772.06 200.186"/>
+					<entry key="rotation" type="quaternion" value="-0 0 -0 -1"/>
+					<entry key="trigger_times" type="number" value="0"/>
+					<entry key="unit_ids" type="table">
+						<entry index="1" type="number" value="100529"/>
+					</entry>
+				</entry>
+			</entry>
+			<entry index="1576" type="table">
+				<entry key="class" type="string" value="ElementAccessCamera"/>
+				<entry key="editor_name" type="string" value="access_camera_007"/>
+				<entry key="id" type="number" value="101575"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="camera_u_id" type="number" value="100530"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="pitch_limit" type="number" value="45"/>
+					<entry key="position" type="vector3" value="-7775 -5817.4 332.27"/>
+					<entry key="rotation" type="quaternion" value="0 0 -0.707107 -0.707107"/>
+					<entry key="text_id" type="string" value="debug_none"/>
+					<entry key="trigger_times" type="number" value="0"/>
+					<entry key="yaw_limit" type="number" value="105"/>
+				</entry>
+			</entry>
+			<entry index="1577" type="table">
+				<entry key="class" type="string" value="ElementEnableUnit"/>
+				<entry key="editor_name" type="string" value="enable_cam_007"/>
+				<entry key="id" type="number" value="101576"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+						<entry index="1" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="101577"/>
+						</entry>
+					</entry>
+					<entry key="position" type="vector3" value="550 -3900 5520"/>
+					<entry key="rotation" type="quaternion" value="-0 0 -0 -1"/>
+					<entry key="trigger_times" type="number" value="0"/>
+					<entry key="unit_ids" type="table">
+						<entry index="1" type="number" value="100530"/>
+					</entry>
+				</entry>
+			</entry>
+			<entry index="1578" type="table">
+				<entry key="class" type="string" value="ElementSecurityCamera"/>
+				<entry key="editor_name" type="string" value="security_camera_007"/>
+				<entry key="id" type="number" value="101577"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="ai_enabled" type="boolean" value="true"/>
+					<entry key="apply_settings" type="boolean" value="true"/>
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="camera_u_id" type="number" value="100530"/>
+					<entry key="detection_delay_max" type="number" value="2"/>
+					<entry key="detection_delay_min" type="number" value="1"/>
+					<entry key="detection_range" type="number" value="20"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="fov" type="number" value="60"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="pitch" type="number" value="-10"/>
+					<entry key="position" type="vector3" value="550 -3900 5570"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="suspicion_range" type="number" value="10"/>
+					<entry key="trigger_times" type="number" value="0"/>
+					<entry key="yaw" type="number" value="30"/>
+				</entry>
+			</entry>
+			<entry index="1579" type="table">
+				<entry key="class" type="string" value="ElementSecurityCamera"/>
+				<entry key="editor_name" type="string" value="kill_camera_007"/>
+				<entry key="id" type="number" value="101578"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="ai_enabled" type="boolean" value="false"/>
+					<entry key="apply_settings" type="boolean" value="false"/>
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="camera_u_id" type="number" value="100530"/>
+					<entry key="detection_delay_max" type="number" value="3"/>
+					<entry key="detection_delay_min" type="number" value="2"/>
+					<entry key="detection_range" type="number" value="15"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="fov" type="number" value="60"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="pitch" type="number" value="-20"/>
+					<entry key="position" type="vector3" value="550 -3900 5620"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="suspicion_range" type="number" value="7"/>
+					<entry key="trigger_times" type="number" value="0"/>
+					<entry key="yaw" type="number" value="0"/>
 				</entry>
 			</entry>
 		</entry>
