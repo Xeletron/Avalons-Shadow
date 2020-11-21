@@ -111,7 +111,8 @@
 		<object path="units/payday2/nature/pnau/pnau_boulders/pna_ext_landscape_boulder_a" unload="true"/>
 		<unit path="units/payday2/nature/pnau/pnau_boulders/pna_ext_landscape_boulder_a" unload="true"/>
 		<texture path="units/payday2/props/gen_prop_container_murky/murkywater_container_logos_df" unload="true"/>
-		<effect load="true" path="effects/particles/dest/door_wood_crowbar" unload="true"/>
+		<effect load="true" path="effects/particles/dest/door_wood_crowbar" unload="true"/>	
+		<physic_effect path="physic_effects/push_sphere_unit" unload="true"/>
 		<gui path="guis/timer_gui" unload="true"/>
 	</add>
 	<add path="units/payday2/architecture/ind/ind_ext_level/ind_ext_level_0_corner" type="unit">
@@ -722,102 +723,7 @@
 		<material_config path="units/payday2/pickups/gen_pku_canvasbag/gen_pku_canvasbag" unload="true"/>
 		<object path="units/payday2/pickups/gen_pku_canvasbag/gen_pku_canvasbag" unload="true"/>
 		<sequence_manager path="units/payday2/pickups/gen_pku_canvasbag/gen_pku_canvasbag" unload="true"/>
-		<unit path="units/payday2/pickups/gen_pku_canvasbag/gen_pku_canvasbag" unload="true"/>
-	</add>
-	<add path="units/payday2/vehicles/anim_vehicle_van_swat/anim_vehicle_van_swat" type="unit">
-		<unit path="units/payday2/vehicles/anim_vehicle_van_swat/anim_vehicle_van_swat" unload="true"/>
-		<object path="units/payday2/vehicles/anim_vehicle_van_swat/anim_vehicle_van_swat" unload="true"/>
-		<material_config path="units/payday2/vehicles/anim_vehicle_van_swat/anim_vehicle_van_swat" unload="true"/>
-		<sequence_manager path="units/payday2/vehicles/anim_vehicle_van_swat/anim_vehicle_van_swat" unload="true"/>
-		<animation path="anims/car/van_hox_move_away" unload="true"/>
-		<animation path="anims/car/van_swat_hox_arrive_1_1" unload="true"/>
-		<animation path="anims/car/van_swat_hox_arrive_1_2" unload="true"/>
-		<animation path="anims/car/van_swat_hox_arrive_2" unload="true"/>
-		<animation path="anims/car/van_swat_hox_arrive_3" unload="true"/>
-		<animation path="anims/car/van_swat_hox_arrive_4" unload="true"/>
-		<animation path="anims/car/van_swat_diamond_store_1" unload="true"/>
-		<animation path="anims/car/van_swat_firestarter_1_arrive_1" unload="true"/>
-		<animation path="anims/car/van_swat_firestarter_1_arrive_2" unload="true"/>
-		<animation path="anims/car/van_swat_four_stores_arrive_1" unload="true"/>
-		<animation path="anims/car/van_swat_shoutout_a_bkwd" unload="true"/>
-		<animation path="anims/car/van_swat_shoutout_a_fwd" unload="true"/>
-		<animation path="anims/car/van_swat_shoutout_b_bkwd" unload="true"/>
-		<animation path="anims/car/van_swat_shoutout_b_fwd" unload="true"/>
-		<animation path="anims/car/van_swat_shoutout_c_bkwd" unload="true"/>
-		<animation path="anims/car/van_swat_shoutout_c_fwd" unload="true"/>
-		<animation path="anims/car/van_swat_shoutout_d_bkwd" unload="true"/>
-		<animation path="anims/car/van_swat_shoutout_d_fwd" unload="true"/>
-		<animation path="anims/car/van_swat_pal_arrive_1" unload="true"/>
-		<animation path="anims/car/van_swat_pal_arrive_2" unload="true"/>
-		<animation path="anims/car/van_swat_pal_arrive_3" unload="true"/>
-		<animation path="anims/car/van_swat_pal_arrive_4" unload="true"/>
-		<animation path="anims/car/van_swat_pal_arrive_5" unload="true"/>
-		<animation path="anims/car/van_swat_pal_arrive_6" unload="true"/>
-		<animation path="anims/car/van_swat_pal_arrive_7" unload="true"/>
-		<animation path="anims/car/van_swat_pal_arrive_8" unload="true"/>
-		<animation path="anims/car/van_swat_pal_arrive_9" unload="true"/>
-		<animation path="anims/car/van_swat_pal_arrive_10" unload="true"/>
-		<animation path="anims/car/van_swat_red_arrive_1" unload="true"/>
-		<animation path="anims/car/van_swat_jry_arrive_1" unload="true"/>
-		<animation path="anims/car/van_swat_jry_arrive_2" unload="true"/>
-		<animation path="anims/car/van_swat_cne_arrive_1" unload="true"/>
-		<animation path="anims/car/van_swat_pta_arrive_1" unload="true"/>
-		<animation path="anims/car/van_swat_pta_arrive_2" unload="true"/>
-		<animation path="anims/car/van_swat_pta_arrive_3" unload="true"/>
-		<animation path="anims/car/van_swat_pta_arrive_4" unload="true"/>
-		<animation path="anims/car/van_swat_shr_arrive_1" unload="true"/>
-		<animation path="anims/car/van_swat_shr_arrive_2" unload="true"/>
-		<animation path="anims/car/car_chw_arrive_1" unload="true"/>
-		<animation path="anims/car/car_chw_leave_1" unload="true"/>
-		<animation path="anims/car/car_chw_wheel_loop" unload="true"/>
-		<animation path="anims/car/car_chw_idle_loop" unload="true"/>
-		<animation path="anims/car/car_chw_move_fwd_15m" unload="true"/>
-		<animation path="anims/car/car_chw_move_bwd_15m" unload="true"/>
-		<animation path="anims/car/van_swat_bor_arrive_1" unload="true"/>
-		<animation path="anims/car/van_swat_spa_arrive_1" unload="true"/>
-		<animation path="anims/car/van_swat_spa_exit_01" unload="true"/>
-		<animation path="anims/car/van_swat_spa_arrive_02" unload="true"/>
-		<animation path="anims/car/car_swat_rvd_crash_01" unload="true"/>
-		<animation path="anims/car/car_swat_rvd_crash_02" unload="true"/>
-		<animation path="anims/car/van_swat_rvd_day2_arrive_01" unload="true"/>
-		<animation path="anims/car/van_swat_rvd_day2_arrive_02" unload="true"/>
-		<animation path="anims/car/van_swat_rvd_day2_arrive_03" unload="true"/>
-		<animation path="anims/car/van_swat_wwh_arrive_01" unload="true"/>
-		<animation path="anims/car/van_swat_wwh_arrive_02" unload="true"/>
-		<animation path="anims/car/van_swat_wwh_arrive_03" unload="true"/>
-		<animation path="anims/car/van_swat_brb_arrive_01" unload="true"/>
-		<animation path="anims/car/car_police_sah_arrive_03" unload="true"/>
-		<effect load="true" path="effects/payday2/particles/flares/scene_flare_small_01" unload="true"/>
-		<effect load="true" path="effects/payday2/particles/spotlight/scene_spotlight_01" unload="true"/>
-		<unit path="units/payday2/vehicles/gen_vehicle_turret/gen_vehicle_turret" unload="true"/>
-		<object path="units/payday2/vehicles/gen_vehicle_turret/gen_vehicle_turret" unload="true"/>
-		<material_config path="units/payday2/vehicles/gen_vehicle_turret/gen_vehicle_turret" unload="true"/>
-		<sequence_manager path="units/payday2/vehicles/gen_vehicle_turret/gen_vehicle_turret" unload="true"/>
-		<unit path="units/payday2/vehicles/gen_vehicle_turret/spawn_turret_debris" unload="true"/>
-		<object path="units/payday2/vehicles/gen_vehicle_turret/spawn_turret_debris" unload="true"/>
-		<unit path="units/payday2/vehicles/gen_vehicle_turret/spawn_shield_front" unload="true"/>
-		<object path="units/payday2/vehicles/gen_vehicle_turret/spawn_shield_front" unload="true"/>
-		<effect load="true" path="effects/particles/weapons/flashlight/flashlight" unload="true"/>
-		<effect load="true" path="effects/payday2/particles/explosions/sentry_aftersmoke" unload="true"/>
-		<effect load="true" path="effects/payday2/particles/explosions/sentry_damage_smoke" unload="true"/>
-		<effect load="true" path="effects/payday2/particles/explosions/sentry_damage_smoke_med" unload="true"/>
-		<effect load="true" path="effects/payday2/particles/explosions/sentry_damage_smoke_large" unload="true"/>
-		<effect load="true" path="effects/payday2/particles/explosions/sparks/sparks_loop" unload="true"/>
-		<effect load="true" path="effects/payday2/particles/weapons/big_762_auto" unload="true"/>
-		<effect load="true" path="effects/payday2/particles/weapons/parts/combo_light_all" unload="true"/>
-		<effect load="true" path="effects/payday2/particles/weapons/parts/distance_halo_big" unload="true"/>
-		<effect load="true" path="effects/payday2/particles/weapons/shells/shell_556_lmg" unload="true"/>
-		<effect load="true" path="effects/payday2/particles/weapons/shells/shell_link" unload="true"/>
-		<effect load="true" path="effects/payday2/particles/explosions/sentry_explosion" unload="true"/>
-		<unit path="units/payday2/vehicles/gen_vehicle_turret/spawn_shield_upper" unload="true"/>
-		<object path="units/payday2/vehicles/gen_vehicle_turret/spawn_shield_upper" unload="true"/>
-		<bnk path="soundbanks/weapon_swatturret" unload="true"/>
-		<bnk path="soundbanks/regular_sfx" unload="true"/>
-		<animation_def path="anims/units/swat_van/swat_van" unload="true"/>
-		<animation_state_machine path="anims/units/swat_van/swat_van" unload="true"/>
-		<animation_states path="anims/units/swat_van/std" unload="true"/>
-		<animation_subset path="anims/units/swat_van/std" unload="true"/>
-		<physic_effect path="physic_effects/push_sphere" unload="true"/>
+		<unit load="true" path="units/payday2/pickups/gen_pku_canvasbag/gen_pku_canvasbag" unload="true"/>
 	</add>
 	<add path="units/pd2_dlc_moon/props/moo_interactable_prop_ipad/moo_interactable_prop_ipad" type="unit">
 		<material_config path="units/payday2/props/gen_interactable_prop_ipad/gen_interactable_prop_ipad" unload="true"/>
@@ -958,12 +864,12 @@
 		<unit path="units/pd2_dlc1/props/ind_prop_crane_magnet/ind_prop_crane_magnet" unload="true"/>
 	</add>
 	<add path="units/pd2_dlc_des/props/des_prop_crane/des_prop_overhead_crane" type="unit">
-		<unit path="units/pd2_dlc_des/props/des_prop_crane/des_prop_overhead_crane" unload="true"/>
-		<effect load="true" path="effects/payday2/particles/flares/spotlight_flare_strong" unload="true"/>
 		<bnk path="soundbanks/regular_sfx" unload="true"/>
 		<bnk path="soundbanks/des_sfx" unload="true"/>
-		<object path="units/pd2_dlc_des/props/des_prop_crane/des_prop_overhead_crane" unload="true"/>
+		<effect load="true" path="effects/payday2/particles/flares/spotlight_flare_strong" unload="true"/>
 		<material_config path="units/pd2_dlc_des/props/des_prop_crane/des_prop_overhead_crane" unload="true"/>
+		<object path="units/pd2_dlc_des/props/des_prop_crane/des_prop_overhead_crane" unload="true"/>
 		<sequence_manager path="units/pd2_dlc_des/props/des_prop_crane/des_prop_overhead_crane" unload="true"/>
+		<unit path="units/pd2_dlc_des/props/des_prop_crane/des_prop_overhead_crane" unload="true"/>
 	</add>
 </table>
