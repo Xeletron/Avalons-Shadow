@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<unit type="gen" slot="1" >
+  <network sync="spawn" />
+    <object file="units/payday2/pickups/gen_pku_money_luggage/gen_pku_luggage_money_pile" />
+
+	<extensions>
+		<extension name="unit_data" class="ScriptUnitData" />
+		<extension name="damage" class="UnitDamage" />
+		<extension name="interaction" class="CarryInteractionExt">
+			<var name="tweak_data" value="money_luggage" />
+			<var name="_remove_on_interact" value="false" />
+		</extension>
+		<extension name="carry_data" class="CarryData">
+			<var name="_carry_id" value="money" />
+		</extension>
+	</extensions>
+</unit>
