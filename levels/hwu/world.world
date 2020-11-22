@@ -2684,6 +2684,76 @@
 				<entry key="unit_id" type="number" value="118"/>
 			</entry>
 		</entry>
+		<entry index="127" type="table">
+			<entry key="ai_editor_data" type="table">
+				<entry key="detection_mul" type="number" value="1"/>
+				<entry key="location_id" type="string" value="location_unknown"/>
+				<entry key="suspicion_mul" type="number" value="1"/>
+				<entry key="visibilty_exlude_filter" type="table">
+				</entry>
+				<entry key="visibilty_include_filter" type="table">
+				</entry>
+			</entry>
+			<entry key="unit_data" type="table">
+				<entry key="continent" type="string" value="world"/>
+				<entry key="local_pos" type="vector3" value="0 0 0"/>
+				<entry key="local_rot" type="quaternion" value="0 0 0 1"/>
+				<entry key="name" type="string" value="core/units/nav_surface/nav_surface"/>
+				<entry key="name_id" type="string" value="nav_surface_118"/>
+				<entry key="position" type="vector3" value="-8810.27 -4241.54 -397.017"/>
+				<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+				<entry key="unit_id" type="number" value="119"/>
+			</entry>
+		</entry>
+		<entry index="128" type="table">
+			<entry key="ai_editor_data" type="table">
+				<entry key="detection_mul" type="number" value="1"/>
+				<entry key="location_id" type="string" value="location_unknown"/>
+				<entry key="suspicion_mul" type="number" value="1"/>
+				<entry key="visibilty_exlude_filter" type="table">
+				</entry>
+				<entry key="visibilty_include_filter" type="table">
+				</entry>
+			</entry>
+			<entry key="unit_data" type="table">
+				<entry key="_prev_pos" type="vector3" value="-9181.9 -3542.5 -805"/>
+				<entry key="_prev_rot" type="quaternion" value="0 0 0 -1"/>
+				<entry key="continent" type="string" value="world"/>
+				<entry key="delayed_load" type="boolean" value="false"/>
+				<entry key="disable_collision" type="boolean" value="false"/>
+				<entry key="disable_on_ai_graph" type="boolean" value="false"/>
+				<entry key="disable_shadows" type="boolean" value="false"/>
+				<entry key="hide_on_projection_light" type="boolean" value="false"/>
+				<entry key="local_pos" type="vector3" value="0 0 0"/>
+				<entry key="local_rot" type="quaternion" value="0 0 0 1"/>
+				<entry key="name" type="string" value="core/units/nav_surface/nav_surface"/>
+				<entry key="name_id" type="string" value="nav_surface_119"/>
+				<entry key="position" type="vector3" value="-9181.9 -3542.5 -805"/>
+				<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+				<entry key="unit_id" type="number" value="120"/>
+			</entry>
+		</entry>
+		<entry index="129" type="table">
+			<entry key="ai_editor_data" type="table">
+				<entry key="detection_mul" type="number" value="1"/>
+				<entry key="location_id" type="string" value="location_unknown"/>
+				<entry key="suspicion_mul" type="number" value="1"/>
+				<entry key="visibilty_exlude_filter" type="table">
+				</entry>
+				<entry key="visibilty_include_filter" type="table">
+				</entry>
+			</entry>
+			<entry key="unit_data" type="table">
+				<entry key="continent" type="string" value="world"/>
+				<entry key="local_pos" type="vector3" value="0 0 0"/>
+				<entry key="local_rot" type="quaternion" value="0 0 0 1"/>
+				<entry key="name" type="string" value="core/units/nav_surface/nav_surface"/>
+				<entry key="name_id" type="string" value="nav_surface_129"/>
+				<entry key="position" type="vector3" value="-8874.33 -4226.9 -2100.17"/>
+				<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+				<entry key="unit_id" type="number" value="130"/>
+			</entry>
+		</entry>
 	</entry>
 	<entry key="ai_nav_graphs" type="table">
 		<entry key="file" type="string" value="nav_manager_data"/>
