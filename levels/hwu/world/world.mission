@@ -12684,6 +12684,12 @@
 							<entry key="notify_unit_sequence" type="string" value="state_open_door"/>
 							<entry key="time" type="number" value="0"/>
 						</entry>
+						<entry index="36" type="table">
+							<entry key="name" type="string" value="run_sequence"/>
+							<entry key="notify_unit_id" type="number" value="500359"/>
+							<entry key="notify_unit_sequence" type="string" value="state_door_opened"/>
+							<entry key="time" type="number" value="0"/>
+						</entry>
 					</entry>
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>

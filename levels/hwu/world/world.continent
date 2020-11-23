@@ -4049,10 +4049,10 @@
 			<unit_data _prev_pos="-6240 -5400 110" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/pd2_dlc_casino/dev/cas_int_blueprints/cas_int_blueprints" name_id="cas_int_blueprints_036" position="-6240 -5275 110" rotation="0 0 0 -1" unit_id="101321"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-14850 -11900 -1369" _prev_rot="0 0 -0.0261769 -0.999657" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/props/construction_crane/construction_crane_01" name_id="construction_crane_01_001" position="-14850 -11900 -1369" rotation="0 0 -0.0261769 -0.999657" unit_id="101301"/>
+			<unit_data _prev_pos="-14850 -11900 -1369" _prev_rot="0 0 -0.0261769 -0.999657" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/props/construction_crane/construction_crane_01" name_id="construction_crane_01_001" position="-14850 -11900 -1369" rotation="0 0 -0.0871557 -0.996195" unit_id="101301"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-15108.2 -6730.95 4457" _prev_rot="0 0 -0.0261771 -0.999657" continent="world" local_pos="12.7224 5175.48 5826" local_rot="0 0 1.49012e-007 1" name="units/pd2_dlc1/props/ind_prop_crane_magnet/ind_prop_crane_magnet" name_id="ind_prop_crane_magnet_001" position="-15108.2 -6730.95 4457" rotation="0 0 -0.0261771 -0.999657" unit_id="101302"/>
+			<unit_data _prev_pos="-15736.2 -6800.95 2657" _prev_rot="0 0 -0.0871559 -0.996195" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc1/props/ind_prop_crane_magnet/ind_prop_crane_magnet" name_id="ind_prop_crane_magnet_001" position="-15736.2 -6800.95 4457" rotation="0 0 -0.0871559 -0.996195" unit_id="101302"/>
 		</table>
 		<table>
 			<unit_data _prev_pos="-17463.4 -6364.7 -2389" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/gen_prop_container_a/gen_prop_container_a_yellow" name_id="gen_prop_container_a_yellow_126" position="-17463.4 -6364.7 -2389" rotation="0 0 0 -1" unit_id="101337"/>
@@ -4186,6 +4186,264 @@
 				<projection_lights>
 					<lo_omni x="64" y="64"/>
 				</projection_lights>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="-8903.17 -5584.92 -1912.12" _prev_rot="0 0 -0.707107 -0.707107" continent="world" disable_shadows="true" local_pos="0 0 0" local_rot="0 0 0 1" name="core/units/light_omni/light_omni" name_id="light_omni_130" only_visible_in_editor="true" position="-8903.17 -5584.92 -1912.12" rotation="0 0 -0.707107 -0.707107" unit_id="101325">
+				<lights>
+					<table clipping_values="10000 -10000 0" color="0.447059 0.803922 1" enabled="true" falloff_exponent="10" far_range="1000" multiplier="@ID3385027996510d31@" name="lo_omni" near_range="80" spot_angle_end="1" spot_angle_start="1"/>
+				</lights>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="-7953.17 -5584.92 -1912.12" _prev_rot="0 0 -0.707107 -0.707107" continent="world" disable_shadows="true" local_pos="0 0 0" local_rot="0 0 0 1" name="core/units/light_omni/light_omni" name_id="light_omni_131" only_visible_in_editor="true" position="-7853.17 -5584.92 -1912.12" rotation="0 0 -0.707107 -0.707107" unit_id="101326">
+				<lights>
+					<table clipping_values="10000 -10000 0" color="0.447059 0.803922 1" enabled="true" falloff_exponent="10" far_range="1000" multiplier="@ID3385027996510d31@" name="lo_omni" near_range="80" spot_angle_end="1" spot_angle_start="1"/>
+				</lights>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="-6431.61 -4665.81 -1999.05" _prev_rot="0 0 0 -1" continent="world" disable_shadows="true" local_pos="0 0 0" local_rot="0 0 0 1" name="core/units/light_omni/light_omni" name_id="light_omni_132" only_visible_in_editor="true" position="-6781.61 -4665.81 -1999.05" rotation="0 0 0 -1" unit_id="101327">
+				<lights>
+					<table clipping_values="10000 -10000 0" color="0.447059 0.803922 1" enabled="true" falloff_exponent="10" far_range="1000" multiplier="@ID3385027996510d31@" name="lo_omni" near_range="80" spot_angle_end="1" spot_angle_start="1"/>
+				</lights>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="-6431.61 -3965.81 -1999.05" _prev_rot="0 0 0 -1" continent="world" disable_shadows="true" local_pos="0 0 0" local_rot="0 0 0 1" name="core/units/light_omni/light_omni" name_id="light_omni_133" only_visible_in_editor="true" position="-6581.61 -3965.81 -1999.05" rotation="0 0 0 -1" unit_id="101328">
+				<lights>
+					<table clipping_values="10000 -10000 0" color="0.447059 0.803922 1" enabled="true" falloff_exponent="10" far_range="1000" multiplier="@ID3385027996510d31@" name="lo_omni" near_range="80" spot_angle_end="1" spot_angle_start="1"/>
+				</lights>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="-6431.61 -4665.81 -1999.05" _prev_rot="0 0 0 -1" continent="world" disable_shadows="true" local_pos="0 0 0" local_rot="0 0 0 1" name="core/units/light_omni/light_omni" name_id="light_omni_134" only_visible_in_editor="true" position="-5931.61 -4665.81 -1999.05" rotation="0 0 0 -1" unit_id="101329">
+				<lights>
+					<table clipping_values="10000 -10000 0" color="0.447059 0.803922 1" enabled="true" falloff_exponent="10" far_range="1000" multiplier="@ID3385027996510d31@" name="lo_omni" near_range="80" spot_angle_end="1" spot_angle_start="1"/>
+				</lights>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="-9705.49 -6251.43 -2002.54" _prev_rot="0 0 -0.707107 -0.707107" continent="world" disable_shadows="true" local_pos="0 0 0" local_rot="0 0 0 1" name="core/units/light_omni/light_omni" name_id="light_omni_135" only_visible_in_editor="true" position="-9705.49 -6251.43 -1802.54" rotation="0 0 -0.707107 -0.707107" unit_id="101330">
+				<lights>
+					<table clipping_values="10000 -10000 0" color="0.447059 0.803922 1" enabled="true" falloff_exponent="10" far_range="1000" multiplier="@ID3385027996510d31@" name="lo_omni" near_range="80" spot_angle_end="1" spot_angle_start="1"/>
+				</lights>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="-9005.49 -7501.43 -1802.54" _prev_rot="0 0 -0.707107 -0.707107" continent="world" disable_shadows="true" local_pos="0 0 0" local_rot="0 0 0 1" name="core/units/light_omni/light_omni" name_id="light_omni_136" only_visible_in_editor="true" position="-9005.49 -7501.43 -1802.54" rotation="0 0 -0.707107 -0.707107" unit_id="101331">
+				<lights>
+					<table clipping_values="10000 -10000 0" color="0.447059 0.803922 1" enabled="true" falloff_exponent="10" far_range="1000" multiplier="@ID3385027996510d31@" name="lo_omni" near_range="80" spot_angle_end="1" spot_angle_start="1"/>
+				</lights>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="-7017.64 -7805.01 -1838.66" _prev_rot="0 0 -0.707107 -0.707107" continent="world" disable_shadows="true" local_pos="0 0 0" local_rot="0 0 0 1" name="core/units/light_omni/light_omni" name_id="light_omni_137" only_visible_in_editor="true" position="-7017.64 -7805.01 -1838.66" rotation="0 0 -0.707107 -0.707107" unit_id="101332">
+				<lights>
+					<table clipping_values="10000 -10000 0" color="0.447059 0.803922 1" enabled="true" falloff_exponent="10" far_range="1000" multiplier="@ID3385027996510d31@" name="lo_omni" near_range="80" spot_angle_end="1" spot_angle_start="1"/>
+				</lights>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="-7017.64 -7805.01 -1838.66" _prev_rot="0 0 -0.707107 -0.707107" continent="world" disable_shadows="true" local_pos="0 0 0" local_rot="0 0 0 1" name="core/units/light_omni/light_omni" name_id="light_omni_138" only_visible_in_editor="true" position="-8017.64 -7805.01 -1838.66" rotation="0 0 -0.707107 -0.707107" unit_id="101333">
+				<lights>
+					<table clipping_values="10000 -10000 0" color="0.447059 0.803922 1" enabled="true" falloff_exponent="10" far_range="1000" multiplier="@ID3385027996510d31@" name="lo_omni" near_range="80" spot_angle_end="1" spot_angle_start="1"/>
+				</lights>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="-7017.64 -8855.01 -1838.66" _prev_rot="0 0 -0.707107 -0.707107" continent="world" disable_shadows="true" local_pos="0 0 0" local_rot="0 0 0 1" name="core/units/light_omni/light_omni" name_id="light_omni_139" only_visible_in_editor="true" position="-7017.64 -8855.01 -1838.66" rotation="0 0 -0.707107 -0.707107" unit_id="101334">
+				<lights>
+					<table clipping_values="10000 -10000 0" color="0.447059 0.803922 1" enabled="true" falloff_exponent="10" far_range="1000" multiplier="@ID3385027996510d31@" name="lo_omni" near_range="80" spot_angle_end="1" spot_angle_start="1"/>
+				</lights>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="-6867.64 -9855.01 -1688.66" _prev_rot="0 0 -0.707107 -0.707107" continent="world" disable_shadows="true" local_pos="0 0 0" local_rot="0 0 0 1" name="core/units/light_omni/light_omni" name_id="light_omni_140" only_visible_in_editor="true" position="-6467.64 -9855.01 -1688.66" rotation="0 0 -0.707107 -0.707107" unit_id="101335">
+				<lights>
+					<table clipping_values="10000 -10000 0" color="0.447059 0.803922 1" enabled="true" falloff_exponent="10" far_range="1000" multiplier="@ID3385027996510d31@" name="lo_omni" near_range="80" spot_angle_end="1" spot_angle_start="1"/>
+				</lights>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="-7617.64 -9505.01 -1688.66" _prev_rot="0 0 -0.707107 -0.707107" continent="world" disable_shadows="true" local_pos="0 0 0" local_rot="0 0 0 1" name="core/units/light_omni/light_omni" name_id="light_omni_141" only_visible_in_editor="true" position="-7467.64 -9505.01 -1688.66" rotation="0 0 -0.707107 -0.707107" unit_id="101336">
+				<lights>
+					<table clipping_values="10000 -10000 0" color="0.447059 0.803922 1" enabled="true" falloff_exponent="10" far_range="1000" multiplier="@ID3385027996510d31@" name="lo_omni" near_range="80" spot_angle_end="1" spot_angle_start="1"/>
+				</lights>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="-6217.64 -7705.01 -1988.66" _prev_rot="0 0 -0.707107 -0.707107" continent="world" disable_shadows="true" local_pos="0 0 0" local_rot="0 0 0 1" name="core/units/light_omni/light_omni" name_id="light_omni_142" only_visible_in_editor="true" position="-6217.64 -7705.01 -1988.66" rotation="0 0 -0.843391 -0.5373" unit_id="101338">
+				<lights>
+					<table clipping_values="10000 -10000 0" color="0.447059 0.803922 1" enabled="true" falloff_exponent="10" far_range="1000" multiplier="@ID3385027996510d31@" name="lo_omni" near_range="80" spot_angle_end="1" spot_angle_start="1"/>
+				</lights>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="-5595.95 -10279.1 -1599" _prev_rot="0 0 -0.707107 -0.707107" continent="world" disable_shadows="true" local_pos="0 0 0" local_rot="0 0 0 1" name="core/units/light_omni/light_omni" name_id="light_omni_143" only_visible_in_editor="true" position="-5595.95 -10279.1 -1599" rotation="0 0 -0.707107 -0.707107" unit_id="101339">
+				<lights>
+					<table clipping_values="10000 -10000 0" color="0.447059 0.803922 1" enabled="true" falloff_exponent="10" far_range="1000" multiplier="@ID3385027996510d31@" name="lo_omni" near_range="80" spot_angle_end="1" spot_angle_start="1"/>
+				</lights>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="-4417.23 -7306.82 -1988.66" _prev_rot="0 0 -0.843391 -0.5373" continent="world" disable_shadows="true" local_pos="0 0 0" local_rot="0 0 0 1" name="core/units/light_omni/light_omni" name_id="light_omni_144" only_visible_in_editor="true" position="-4417.23 -7306.82 -1988.66" rotation="0 0 -0.887011 -0.461749" unit_id="101340">
+				<lights>
+					<table clipping_values="10000 -10000 0" color="0.447059 0.803922 1" enabled="true" falloff_exponent="10" far_range="1500" multiplier="@ID3385027996510d31@" name="lo_omni" near_range="80" spot_angle_end="1" spot_angle_start="1"/>
+				</lights>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="-5432.01 -6786.98 -1988.66" _prev_rot="0 0 -0.843391 -0.5373" continent="world" disable_shadows="true" local_pos="0 0 0" local_rot="0 0 0 1" name="core/units/light_omni/light_omni" name_id="light_omni_145" only_visible_in_editor="true" position="-5368.61 -6922.92 -1988.66" rotation="0 0 -0.843391 -0.5373" unit_id="101341">
+				<lights>
+					<table clipping_values="10000 -10000 0" color="0.447059 0.803922 1" enabled="true" falloff_exponent="10" far_range="1000" multiplier="@ID3385027996510d31@" name="lo_omni" near_range="80" spot_angle_end="1" spot_angle_start="1"/>
+				</lights>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="-5051.41 -6775.01 -1988.66" _prev_rot="0 0 -0.843391 -0.5373" continent="world" disable_shadows="true" local_pos="0 0 0" local_rot="0 0 0 1" name="core/units/light_omni/light_omni" name_id="light_omni_146" only_visible_in_editor="true" position="-5162.92 -5944.31 -1938.66" rotation="0 0 -0.843391 -0.5373" unit_id="101342">
+				<lights>
+					<table clipping_values="10000 -10000 0" color="0.447059 0.803922 1" enabled="true" falloff_exponent="10" far_range="1000" multiplier="@ID3385027996510d31@" name="lo_omni" near_range="80" spot_angle_end="1" spot_angle_start="1"/>
+				</lights>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="-3528.19 -8576.51 -1988.66" _prev_rot="0 0 0.887011 0.461749" continent="world" disable_shadows="true" local_pos="0 0 0" local_rot="0 0 0 1" name="core/units/light_omni/light_omni" name_id="light_omni_147" only_visible_in_editor="true" position="-3528.19 -8576.51 -1888.66" rotation="0 0 0.887011 0.461749" unit_id="101343">
+				<lights>
+					<table clipping_values="10000 -10000 0" color="0.447059 0.803922 1" enabled="true" falloff_exponent="10" far_range="1500" multiplier="@ID3385027996510d31@" name="lo_omni" near_range="80" spot_angle_end="1" spot_angle_start="1"/>
+				</lights>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="-2639.15 -9846.19 -1688.66" _prev_rot="0 0 0.887011 0.461749" continent="world" disable_shadows="true" local_pos="0 0 0" local_rot="0 0 0 1" name="core/units/light_omni/light_omni" name_id="light_omni_148" only_visible_in_editor="true" position="-2639.15 -9846.19 -1688.66" rotation="0 0 0.887011 0.461749" unit_id="101344">
+				<lights>
+					<table clipping_values="10000 -10000 0" color="0.447059 0.803922 1" enabled="true" falloff_exponent="10" far_range="1500" multiplier="@ID3385027996510d31@" name="lo_omni" near_range="80" spot_angle_end="1" spot_angle_start="1"/>
+				</lights>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="-3745 -10620.5 -1688.66" _prev_rot="0 0 0.887011 0.461749" continent="world" disable_shadows="true" local_pos="0 0 0" local_rot="0 0 0 1" name="core/units/light_omni/light_omni" name_id="light_omni_149" only_visible_in_editor="true" position="-3917.07 -10374.8 -1688.66" rotation="0 0 0.887011 0.461749" unit_id="101345">
+				<lights>
+					<table clipping_values="10000 -10000 0" color="0.447059 0.803922 1" enabled="true" falloff_exponent="10" far_range="1500" multiplier="@ID3385027996510d31@" name="lo_omni" near_range="80" spot_angle_end="1" spot_angle_start="1"/>
+				</lights>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="-5158.17 -10694.4 -1538.66" _prev_rot="0 0 0.887011 0.461749" continent="world" disable_shadows="true" local_pos="0 0 0" local_rot="0 0 0 1" name="core/units/light_omni/light_omni" name_id="light_omni_150" only_visible_in_editor="true" position="-5100.81 -10776.4 -1538.66" rotation="0 0 0.887011 0.461749" unit_id="101346">
+				<lights>
+					<table clipping_values="10000 -10000 0" color="0.447059 0.803922 1" enabled="true" falloff_exponent="10" far_range="1500" multiplier="@ID3385027996510d31@" name="lo_omni" near_range="80" spot_angle_end="1" spot_angle_start="1"/>
+				</lights>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="-6165.71 -11522 -1438.66" _prev_rot="0 0 0.887011 0.461749" continent="world" disable_shadows="true" local_pos="0 0 0" local_rot="0 0 0 1" name="core/units/light_omni/light_omni" name_id="light_omni_151" only_visible_in_editor="true" position="-6165.71 -11522 -1438.66" rotation="0 0 0.887011 0.461749" unit_id="101347">
+				<lights>
+					<table clipping_values="10000 -10000 0" color="0.447059 0.803922 1" enabled="true" falloff_exponent="10" far_range="1500" multiplier="@ID3385027996510d31@" name="lo_omni" near_range="80" spot_angle_end="1" spot_angle_start="1"/>
+				</lights>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="-5620.81 -12300.2 -1438.66" _prev_rot="0 0 0.887011 0.461749" continent="world" disable_shadows="true" local_pos="0 0 0" local_rot="0 0 0 1" name="core/units/light_omni/light_omni" name_id="light_omni_152" only_visible_in_editor="true" position="-5989.43 -12558.3 -1438.66" rotation="0 0 0.887011 0.461749" unit_id="101348">
+				<lights>
+					<table clipping_values="10000 -10000 0" color="0.447059 0.803922 1" enabled="true" falloff_exponent="10" far_range="1500" multiplier="@ID3385027996510d31@" name="lo_omni" near_range="80" spot_angle_end="1" spot_angle_start="1"/>
+				</lights>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="-5473.21 -13295.6 -1438.66" _prev_rot="0 0 0.887011 0.461749" continent="world" disable_shadows="true" local_pos="0 0 0" local_rot="0 0 0 1" name="core/units/light_omni/light_omni" name_id="light_omni_153" only_visible_in_editor="true" position="-5473.21 -13295.6 -1138.66" rotation="0 0 0.887011 0.461749" unit_id="101349">
+				<lights>
+					<table clipping_values="10000 -10000 0" color="0.447059 0.803922 1" enabled="true" falloff_exponent="10" far_range="1500" multiplier="@ID3385027996510d31@" name="lo_omni" near_range="80" spot_angle_end="1" spot_angle_start="1"/>
+				</lights>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="-6128.53 -13754.4 -1138.66" _prev_rot="0 0 0.887011 0.461749" continent="world" disable_shadows="true" local_pos="0 0 0" local_rot="0 0 0 1" name="core/units/light_omni/light_omni" name_id="light_omni_154" only_visible_in_editor="true" position="-6071.17 -13836.3 -1138.66" rotation="0 0 0.887011 0.461749" unit_id="101350">
+				<lights>
+					<table clipping_values="10000 -10000 0" color="0.447059 0.803922 1" enabled="true" falloff_exponent="10" far_range="1500" multiplier="@ID3385027996510d31@" name="lo_omni" near_range="80" spot_angle_end="1" spot_angle_start="1"/>
+				</lights>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="-6165.71 -11522 -1438.66" _prev_rot="0 0 0.887011 0.461749" continent="world" disable_shadows="true" local_pos="0 0 0" local_rot="0 0 0 1" name="core/units/light_omni/light_omni" name_id="light_omni_155" only_visible_in_editor="true" position="-6288.58 -11608 -1438.66" rotation="0 0 0.887011 0.461749" unit_id="101351">
+				<lights>
+					<table clipping_values="10000 -10000 0" color="0.447059 0.803922 1" enabled="true" falloff_exponent="10" far_range="1500" multiplier="@ID3385027996510d31@" name="lo_omni" near_range="80" spot_angle_end="1" spot_angle_start="1"/>
+				</lights>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="-9870.69 -8488.88 -1694.51" _prev_rot="0 0 -0.382683 -0.92388" continent="world" disable_shadows="true" local_pos="0 0 0" local_rot="0 0 0 1" name="core/units/light_omni/light_omni" name_id="light_omni_156" only_visible_in_editor="true" position="-9870.69 -8488.88 -1694.51" rotation="0 0 -0.382683 -0.92388" unit_id="101352">
+				<lights>
+					<table clipping_values="10000 -10000 0" color="0.447059 0.803922 1" enabled="true" falloff_exponent="10" far_range="800" multiplier="@ID3385027996510d31@" name="lo_omni" near_range="80" spot_angle_end="1" spot_angle_start="1"/>
+				</lights>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="-10542.4 -9160.63 -1644.51" _prev_rot="0 0 -0.382683 -0.92388" continent="world" disable_shadows="true" local_pos="0 0 0" local_rot="0 0 0 1" name="core/units/light_omni/light_omni" name_id="light_omni_157" only_visible_in_editor="true" position="-10542.4 -9160.63 -1644.51" rotation="0 0 -0.258819 -0.965926" unit_id="101353">
+				<lights>
+					<table clipping_values="10000 -10000 0" color="0.447059 0.803922 1" enabled="true" falloff_exponent="10" far_range="800" multiplier="@ID3385027996510d31@" name="lo_omni" near_range="80" spot_angle_end="1" spot_angle_start="1"/>
+				</lights>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="-11067 -9752.13 -1594.51" _prev_rot="0 0 -0.258819 -0.965926" continent="world" disable_shadows="true" local_pos="0 0 0" local_rot="0 0 0 1" name="core/units/light_omni/light_omni" name_id="light_omni_158" only_visible_in_editor="true" position="-11117 -9665.53 -1594.51" rotation="0 0 -0.258819 -0.965926" unit_id="101354">
+				<lights>
+					<table clipping_values="10000 -10000 0" color="0.447059 0.803922 1" enabled="true" falloff_exponent="10" far_range="1000" multiplier="@ID3385027996510d31@" name="lo_omni" near_range="80" spot_angle_end="1" spot_angle_start="1"/>
+				</lights>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="-11816.5 -9953.93 -1594.51" _prev_rot="0 0 -0.258819 -0.965926" continent="world" disable_shadows="true" local_pos="0 0 0" local_rot="0 0 0 1" name="core/units/light_omni/light_omni" name_id="light_omni_159" only_visible_in_editor="true" position="-11946.4 -10028.9 -1594.51" rotation="0 0 -0.258819 -0.965926" unit_id="101355">
+				<lights>
+					<table clipping_values="10000 -10000 0" color="0.447059 0.803922 1" enabled="true" falloff_exponent="10" far_range="800" multiplier="@ID3385027996510d31@" name="lo_omni" near_range="80" spot_angle_end="1" spot_angle_start="1"/>
+				</lights>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="-11946.4 -10028.9 -1594.51" _prev_rot="0 0 -0.258819 -0.965926" continent="world" disable_shadows="true" local_pos="0 0 0" local_rot="0 0 0 1" name="core/units/light_omni/light_omni" name_id="light_omni_160" only_visible_in_editor="true" position="-12942.3 -10603.9 -1594.51" rotation="0 0 -0.258819 -0.965926" unit_id="101356">
+				<lights>
+					<table clipping_values="10000 -10000 0" color="0.447059 0.803922 1" enabled="true" falloff_exponent="10" far_range="800" multiplier="@ID3385027996510d31@" name="lo_omni" near_range="80" spot_angle_end="1" spot_angle_start="1"/>
+				</lights>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="-13808.3 -11103.9 -1594.51" _prev_rot="0 0 -0.258819 -0.965926" continent="world" disable_shadows="true" local_pos="0 0 0" local_rot="0 0 0 1" name="core/units/light_omni/light_omni" name_id="light_omni_161" only_visible_in_editor="true" position="-13808.3 -11103.9 -1594.51" rotation="0 0 0.21644 -0.976296" unit_id="101357">
+				<lights>
+					<table clipping_values="10000 -10000 0" color="0.447059 0.803922 1" enabled="true" falloff_exponent="10" far_range="800" multiplier="@ID3385027996510d31@" name="lo_omni" near_range="80" spot_angle_end="1" spot_angle_start="1"/>
+				</lights>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="-13808.3 -11103.9 -1594.51" _prev_rot="0 0 0.21644 -0.976296" continent="world" disable_shadows="true" local_pos="0 0 0" local_rot="0 0 0 1" name="core/units/light_omni/light_omni" name_id="light_omni_162" only_visible_in_editor="true" position="-14850.6 -10617.9 -1594.51" rotation="0 0 0.21644 -0.976296" unit_id="101358">
+				<lights>
+					<table clipping_values="10000 -10000 0" color="0.447059 0.803922 1" enabled="true" falloff_exponent="10" far_range="800" multiplier="@ID3385027996510d31@" name="lo_omni" near_range="80" spot_angle_end="1" spot_angle_start="1"/>
+				</lights>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="-15630.1 -9923.41 -1594.51" _prev_rot="0 0 0.21644 -0.976296" continent="world" disable_shadows="true" local_pos="0 0 0" local_rot="0 0 0 1" name="core/units/light_omni/light_omni" name_id="light_omni_163" only_visible_in_editor="true" position="-15630.1 -9923.41 -1594.51" rotation="0 0 0.608761 -0.793353" unit_id="101359">
+				<lights>
+					<table clipping_values="10000 -10000 0" color="0.447059 0.803922 1" enabled="true" falloff_exponent="10" far_range="800" multiplier="@ID3385027996510d31@" name="lo_omni" near_range="80" spot_angle_end="1" spot_angle_start="1"/>
+				</lights>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="-15901.9 -8909.19 -1594.51" _prev_rot="0 0 0.608761 -0.793353" continent="world" disable_shadows="true" local_pos="0 0 0" local_rot="0 0 0 1" name="core/units/light_omni/light_omni" name_id="light_omni_164" only_visible_in_editor="true" position="-15901.9 -8909.19 -1544.51" rotation="0 0 0.608761 -0.793353" unit_id="101360">
+				<lights>
+					<table clipping_values="10000 -10000 0" color="0.447059 0.803922 1" enabled="true" falloff_exponent="10" far_range="800" multiplier="@ID3385027996510d31@" name="lo_omni" near_range="80" spot_angle_end="1" spot_angle_start="1"/>
+				</lights>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="-3782.73 -5590.04 -1424" _prev_rot="0.956305 0.292372 -1.278e-008 -4.18014e-008" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_berry/architecture/bry_mountain_interiors/bry_mountain_concrete_solid_wall" name_id="bry_mountain_concrete_solid_wall_035" position="-3782.73 -5590.04 -1424" rotation="0.956305 0.292372 -1.278e-008 -4.18014e-008" unit_id="101361"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-3782.73 -5590.04 -1424" _prev_rot="0.956305 0.292372 -1.278e-008 -4.18014e-008" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_berry/architecture/bry_mountain_interiors/bry_mountain_concrete_solid_wall" name_id="bry_mountain_concrete_solid_wall_137" position="-2888.02 -6916.5 -1424" rotation="0.956305 0.292372 -1.278e-008 -4.18014e-008" unit_id="101362"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-8903.17 -4484.92 -1912.12" _prev_rot="0 0 -0.707107 -0.707107" continent="world" disable_shadows="true" local_pos="0 0 0" local_rot="0 0 0 1" name="core/units/light_omni/light_omni" name_id="light_omni_165" only_visible_in_editor="true" position="-8903.17 -4484.92 -1862.12" rotation="0 0 -0.707107 -0.707107" unit_id="101363">
+				<lights>
+					<table clipping_values="10000 -10000 0" color="0.447059 0.803922 1" enabled="true" falloff_exponent="10" far_range="500" multiplier="@ID3385027996510d31@" name="lo_omni" near_range="80" spot_angle_end="1" spot_angle_start="1"/>
+				</lights>
 			</unit_data>
 		</table>
 	</statics>
