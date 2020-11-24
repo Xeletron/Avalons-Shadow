@@ -1488,8 +1488,15 @@
 		<unit path="units/pd2_dlc_mad/props/mad_prop_forensic_shelf_cupboard_desk/mad_prop_forensic_shelf" unload="true"/>
 	</add>
 	<add path="units/pd2_dlc_mad/props/mad_prop_forensic_shelf_cupboard_desk/mad_prop_forensic_cupboard" type="unit">
-		<unit path="units/pd2_dlc_mad/props/mad_prop_forensic_shelf_cupboard_desk/mad_prop_forensic_cupboard" unload="true"/>
-		<object path="units/pd2_dlc_mad/props/mad_prop_forensic_shelf_cupboard_desk/mad_prop_forensic_cupboard" unload="true"/>
 		<material_config path="units/pd2_dlc_mad/props/mad_prop_forensic_shelf_cupboard_desk/mad_prop_forensic_shelf" unload="true"/>
+		<object path="units/pd2_dlc_mad/props/mad_prop_forensic_shelf_cupboard_desk/mad_prop_forensic_cupboard" unload="true"/>
+		<unit path="units/pd2_dlc_mad/props/mad_prop_forensic_shelf_cupboard_desk/mad_prop_forensic_cupboard" unload="true"/>
+	</add>
+	<add path="units/pd2_indiana/props/mus_prop_electric_box/mus_prop_electric_box" type="unit">
+		<unit path="units/pd2_indiana/props/mus_prop_electric_box/mus_prop_electric_box" unload="true"/>
+		<object path="units/pd2_indiana/props/mus_prop_electric_box/mus_prop_electric_box" unload="true"/>
+		<material_config path="units/pd2_indiana/props/mus_prop_electric_box/mus_prop_electric_box" unload="true"/>
+		<sequence_manager path="units/pd2_indiana/props/mus_prop_electric_box/mus_prop_electric_box" unload="true"/>
+		<bnk path="soundbanks/regular_sfx" unload="true"/>
 	</add>
 </table>
