@@ -1493,10 +1493,88 @@
 		<unit path="units/pd2_dlc_mad/props/mad_prop_forensic_shelf_cupboard_desk/mad_prop_forensic_cupboard" unload="true"/>
 	</add>
 	<add path="units/pd2_indiana/props/mus_prop_electric_box/mus_prop_electric_box" type="unit">
-		<unit path="units/pd2_indiana/props/mus_prop_electric_box/mus_prop_electric_box" unload="true"/>
-		<object path="units/pd2_indiana/props/mus_prop_electric_box/mus_prop_electric_box" unload="true"/>
-		<material_config path="units/pd2_indiana/props/mus_prop_electric_box/mus_prop_electric_box" unload="true"/>
-		<sequence_manager path="units/pd2_indiana/props/mus_prop_electric_box/mus_prop_electric_box" unload="true"/>
 		<bnk path="soundbanks/regular_sfx" unload="true"/>
+		<material_config path="units/pd2_indiana/props/mus_prop_electric_box/mus_prop_electric_box" unload="true"/>
+		<object path="units/pd2_indiana/props/mus_prop_electric_box/mus_prop_electric_box" unload="true"/>
+		<sequence_manager path="units/pd2_indiana/props/mus_prop_electric_box/mus_prop_electric_box" unload="true"/>
+		<unit path="units/pd2_indiana/props/mus_prop_electric_box/mus_prop_electric_box" unload="true"/>
+	</add>
+	<add path="units/pd2_dlc_berry/props/bry_prop_vault_door/bry_prop_vault_door" type="unit">
+		<bnk path="soundbanks/regular_sfx" unload="true"/>
+		<material_config path="units/pd2_dlc_berry/props/bry_prop_vault_door/bry_prop_vault_door" unload="true"/>
+		<object path="units/pd2_dlc_berry/props/bry_prop_vault_door/bry_prop_vault_door" unload="true"/>
+		<sequence_manager path="units/pd2_dlc_berry/props/bry_prop_vault_door/bry_prop_vault_door" unload="true"/>
+		<unit path="units/pd2_dlc_berry/props/bry_prop_vault_door/bry_prop_vault_door" unload="true"/>
+	</add>
+	<add path="units/pd2_dlc_berry/props/bry_prop_vault_lamp/bry_prop_vault_lamp" type="unit">
+		<material_config path="units/pd2_dlc_berry/props/bry_prop_vault_lamp/bry_prop_vault_lamp" unload="true"/>
+		<object path="units/pd2_dlc_berry/props/bry_prop_vault_lamp/bry_prop_vault_lamp" unload="true"/>
+		<sequence_manager path="units/pd2_dlc_berry/props/bry_prop_vault_lamp/bry_prop_vault_lamp" unload="true"/>
+		<unit path="units/pd2_dlc_berry/props/bry_prop_vault_lamp/bry_prop_vault_lamp" unload="true"/>
+	</add>
+	<add path="units/pd2_dlc_arena/props/are_prop_rollupdoor/are_prop_rollupdoor_a" type="unit">
+		<material_config path="units/pd2_dlc_arena/props/are_prop_rollupdoor/are_prop_rollupdoor" unload="true"/>
+		<object path="units/pd2_dlc_arena/props/are_prop_rollupdoor/are_prop_rollupdoor_a" unload="true"/>
+		<unit path="units/pd2_dlc_arena/props/are_prop_rollupdoor/are_prop_rollupdoor_a" unload="true"/>
+	</add>
+	<add path="units/pd2_dlc_arena/props/are_prop_rollupdoor/are_prop_rollupdoor_b" type="unit">
+		<material_config path="units/pd2_dlc_arena/props/are_prop_rollupdoor/are_prop_rollupdoor" unload="true"/>
+		<object path="units/pd2_dlc_arena/props/are_prop_rollupdoor/are_prop_rollupdoor_b" unload="true"/>
+		<unit path="units/pd2_dlc_arena/props/are_prop_rollupdoor/are_prop_rollupdoor_b" unload="true"/>
+	</add>
+	<add path="units/pd2_dlc_berry/architecture/bry_mountain_tunnel_railings/bry_mountain_stairs_c" type="unit">
+		<material_config path="units/pd2_dlc_berry/architecture/bry_mountain_tunnel_railings/bry_mountain_stairs" unload="true"/>
+		<object path="units/pd2_dlc_berry/architecture/bry_mountain_tunnel_railings/bry_mountain_stairs_c" unload="true"/>
+		<unit path="units/pd2_dlc_berry/architecture/bry_mountain_tunnel_railings/bry_mountain_stairs_c" unload="true"/>
+	</add>
+	<add path="units/pd2_dlc_berry/architecture/bry_mountain_tunnel_railings/bry_mountain_stairs_c_base" type="unit">
+		<material_config path="units/pd2_dlc_berry/architecture/bry_mountain_tunnel_railings/bry_mountain_stairs" unload="true"/>
+		<object path="units/pd2_dlc_berry/architecture/bry_mountain_tunnel_railings/bry_mountain_stairs_c_base" unload="true"/>
+		<unit path="units/pd2_dlc_berry/architecture/bry_mountain_tunnel_railings/bry_mountain_stairs_c_base" unload="true"/>
+	</add>
+	<add path="units/pd2_dlc_berry/architecture/bry_mountain_tunnel_railings/bry_mountain_stairs_c_half" type="unit">
+		<material_config path="units/pd2_dlc_berry/architecture/bry_mountain_tunnel_railings/bry_mountain_stairs" unload="true"/>
+		<object path="units/pd2_dlc_berry/architecture/bry_mountain_tunnel_railings/bry_mountain_stairs_c_half" unload="true"/>
+		<unit path="units/pd2_dlc_berry/architecture/bry_mountain_tunnel_railings/bry_mountain_stairs_c_half" unload="true"/>
+	</add>
+	<add path="units/pd2_dlc_berry/architecture/bry_mountain_tunnel_railings/bry_mountain_stairs_c_outer_corner" type="unit">
+		<material_config path="units/pd2_dlc_berry/architecture/bry_mountain_tunnel_railings/bry_mountain_stairs" unload="true"/>
+		<object path="units/pd2_dlc_berry/architecture/bry_mountain_tunnel_railings/bry_mountain_stairs_c_outer_corner" unload="true"/>
+		<unit path="units/pd2_dlc_berry/architecture/bry_mountain_tunnel_railings/bry_mountain_stairs_c_outer_corner" unload="true"/>
+	</add>
+	<add path="units/pd2_dlc_berry/architecture/bry_mountain_tunnel_railings/bry_mountain_stairs_c_outer_corner_cupped" type="unit">
+		<material_config path="units/pd2_dlc_berry/architecture/bry_mountain_tunnel_railings/bry_mountain_stairs" unload="true"/>
+		<object path="units/pd2_dlc_berry/architecture/bry_mountain_tunnel_railings/bry_mountain_stairs_c_outer_corner_cupped" unload="true"/>
+		<unit path="units/pd2_dlc_berry/architecture/bry_mountain_tunnel_railings/bry_mountain_stairs_c_outer_corner_cupped" unload="true"/>
+	</add>
+	<add path="units/pd2_dlc_berry/architecture/bry_mountain_tunnel_railings/bry_mountain_stairs_corner" type="unit">
+		<material_config path="units/pd2_dlc_berry/architecture/bry_mountain_tunnel_railings/bry_mountain_stairs" unload="true"/>
+		<object path="units/pd2_dlc_berry/architecture/bry_mountain_tunnel_railings/bry_mountain_stairs_corner" unload="true"/>
+		<unit path="units/pd2_dlc_berry/architecture/bry_mountain_tunnel_railings/bry_mountain_stairs_corner" unload="true"/>
+	</add>
+	<add path="units/pd2_dlc_berry/architecture/bry_mountain_tunnel_railings/bry_mountain_stairs_b" type="unit">
+		<material_config path="units/pd2_dlc_berry/architecture/bry_mountain_tunnel_railings/bry_mountain_stairs" unload="true"/>
+		<object path="units/pd2_dlc_berry/architecture/bry_mountain_tunnel_railings/bry_mountain_stairs_b" unload="true"/>
+		<unit path="units/pd2_dlc_berry/architecture/bry_mountain_tunnel_railings/bry_mountain_stairs_b" unload="true"/>
+	</add>
+	<add path="units/pd2_dlc_berry/architecture/bry_mountain_tunnel_railings/bry_mountain_stairs_c_one_side" type="unit">
+		<material_config path="units/pd2_dlc_berry/architecture/bry_mountain_tunnel_railings/bry_mountain_stairs" unload="true"/>
+		<object path="units/pd2_dlc_berry/architecture/bry_mountain_tunnel_railings/bry_mountain_stairs_c_one_side" unload="true"/>
+		<unit path="units/pd2_dlc_berry/architecture/bry_mountain_tunnel_railings/bry_mountain_stairs_c_one_side" unload="true"/>
+	</add>
+	<add path="units/pd2_dlc_berry/architecture/bry_mountain_tunnel_railings/bry_mountain_stairs_support_ledge" type="unit">
+		<material_config path="units/pd2_dlc_berry/architecture/bry_mountain_tunnel_railings/bry_mountain_stairs" unload="true"/>
+		<object path="units/pd2_dlc_berry/architecture/bry_mountain_tunnel_railings/bry_mountain_stairs_support_ledge" unload="true"/>
+		<unit path="units/pd2_dlc_berry/architecture/bry_mountain_tunnel_railings/bry_mountain_stairs_support_ledge" unload="true"/>
+	</add>
+	<add path="units/pd2_dlc_berry/architecture/bry_mountain_tunnel_railings/bry_mountain_stairs_support_4m" type="unit">
+		<material_config path="units/pd2_dlc_berry/architecture/bry_mountain_tunnel_railings/bry_mountain_stairs" unload="true"/>
+		<object path="units/pd2_dlc_berry/architecture/bry_mountain_tunnel_railings/bry_mountain_stairs_support_4m" unload="true"/>
+		<unit path="units/pd2_dlc_berry/architecture/bry_mountain_tunnel_railings/bry_mountain_stairs_support_4m" unload="true"/>
+	</add>
+	<add path="units/pd2_dlc_berry/architecture/bry_mountain_tunnel_railings/bry_mountain_stairs_support_2m" type="unit">
+		<unit path="units/pd2_dlc_berry/architecture/bry_mountain_tunnel_railings/bry_mountain_stairs_support_2m" unload="true"/>
+		<object path="units/pd2_dlc_berry/architecture/bry_mountain_tunnel_railings/bry_mountain_stairs_support_2m" unload="true"/>
+		<material_config path="units/pd2_dlc_berry/architecture/bry_mountain_tunnel_railings/bry_mountain_stairs" unload="true"/>
 	</add>
 </table>

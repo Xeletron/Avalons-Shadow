@@ -3363,6 +3363,48 @@
 				<entry key="unit_id" type="number" value="159"/>
 			</entry>
 		</entry>
+		<entry index="159" type="table">
+			<entry key="ai_editor_data" type="table">
+				<entry key="detection_mul" type="number" value="1"/>
+				<entry key="location_id" type="string" value="location_unknown"/>
+				<entry key="suspicion_mul" type="number" value="1"/>
+				<entry key="visibilty_exlude_filter" type="table">
+				</entry>
+				<entry key="visibilty_include_filter" type="table">
+				</entry>
+			</entry>
+			<entry key="unit_data" type="table">
+				<entry key="continent" type="string" value="underground"/>
+				<entry key="local_pos" type="vector3" value="0 0 0"/>
+				<entry key="local_rot" type="quaternion" value="0 0 0 1"/>
+				<entry key="name" type="string" value="core/units/nav_surface/nav_surface"/>
+				<entry key="name_id" type="string" value="nav_surface_159"/>
+				<entry key="position" type="vector3" value="-7110.72 -13817.5 -1357.75"/>
+				<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+				<entry key="unit_id" type="number" value="160"/>
+			</entry>
+		</entry>
+		<entry index="160" type="table">
+			<entry key="ai_editor_data" type="table">
+				<entry key="detection_mul" type="number" value="1"/>
+				<entry key="location_id" type="string" value="location_unknown"/>
+				<entry key="suspicion_mul" type="number" value="1"/>
+				<entry key="visibilty_exlude_filter" type="table">
+				</entry>
+				<entry key="visibilty_include_filter" type="table">
+				</entry>
+			</entry>
+			<entry key="unit_data" type="table">
+				<entry key="continent" type="string" value="underground"/>
+				<entry key="local_pos" type="vector3" value="0 0 0"/>
+				<entry key="local_rot" type="quaternion" value="0 0 0 1"/>
+				<entry key="name" type="string" value="core/units/nav_surface/nav_surface"/>
+				<entry key="name_id" type="string" value="nav_surface_160"/>
+				<entry key="position" type="vector3" value="-4638.13 -13084.6 -1297"/>
+				<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+				<entry key="unit_id" type="number" value="161"/>
+			</entry>
+		</entry>
 	</entry>
 	<entry key="ai_nav_graphs" type="table">
 		<entry key="file" type="string" value="nav_manager_data"/>
@@ -5059,13 +5101,6 @@
 					<entry index="500093" type="boolean" value="true"/>
 					<entry index="500105" type="boolean" value="true"/>
 					<entry index="500106" type="boolean" value="true"/>
-					<entry index="500107" type="boolean" value="true"/>
-					<entry index="500108" type="boolean" value="true"/>
-					<entry index="500109" type="boolean" value="true"/>
-					<entry index="500110" type="boolean" value="true"/>
-					<entry index="500111" type="boolean" value="true"/>
-					<entry index="500112" type="boolean" value="true"/>
-					<entry index="500113" type="boolean" value="true"/>
 					<entry index="500114" type="boolean" value="true"/>
 					<entry index="500115" type="boolean" value="true"/>
 					<entry index="500116" type="boolean" value="true"/>
@@ -5152,7 +5187,6 @@
 					<entry index="500198" type="boolean" value="true"/>
 					<entry index="500199" type="boolean" value="true"/>
 					<entry index="500200" type="boolean" value="true"/>
-					<entry index="500201" type="boolean" value="true"/>
 					<entry index="500202" type="boolean" value="true"/>
 					<entry index="500203" type="boolean" value="true"/>
 					<entry index="500204" type="boolean" value="true"/>
@@ -5170,11 +5204,6 @@
 					<entry index="500216" type="boolean" value="true"/>
 					<entry index="500217" type="boolean" value="true"/>
 					<entry index="500218" type="boolean" value="true"/>
-					<entry index="500219" type="boolean" value="true"/>
-					<entry index="500220" type="boolean" value="true"/>
-					<entry index="500221" type="boolean" value="true"/>
-					<entry index="500222" type="boolean" value="true"/>
-					<entry index="500223" type="boolean" value="true"/>
 					<entry index="500224" type="boolean" value="true"/>
 					<entry index="500225" type="boolean" value="true"/>
 					<entry index="500226" type="boolean" value="true"/>
@@ -5226,7 +5255,6 @@
 					<entry index="500272" type="boolean" value="true"/>
 					<entry index="500273" type="boolean" value="true"/>
 					<entry index="500274" type="boolean" value="true"/>
-					<entry index="500276" type="boolean" value="true"/>
 					<entry index="500277" type="boolean" value="true"/>
 					<entry index="500278" type="boolean" value="true"/>
 					<entry index="500279" type="boolean" value="true"/>
@@ -5236,9 +5264,7 @@
 					<entry index="500283" type="boolean" value="true"/>
 					<entry index="500284" type="boolean" value="true"/>
 					<entry index="500285" type="boolean" value="true"/>
-					<entry index="500286" type="boolean" value="true"/>
 					<entry index="500287" type="boolean" value="true"/>
-					<entry index="500288" type="boolean" value="true"/>
 					<entry index="500289" type="boolean" value="true"/>
 					<entry index="500290" type="boolean" value="true"/>
 					<entry index="500291" type="boolean" value="true"/>
@@ -5261,25 +5287,12 @@
 					<entry index="500308" type="boolean" value="true"/>
 					<entry index="500309" type="boolean" value="true"/>
 					<entry index="500314" type="boolean" value="true"/>
-					<entry index="500315" type="boolean" value="true"/>
-					<entry index="500316" type="boolean" value="true"/>
 					<entry index="500317" type="boolean" value="true"/>
-					<entry index="500318" type="boolean" value="true"/>
-					<entry index="500319" type="boolean" value="true"/>
-					<entry index="500320" type="boolean" value="true"/>
-					<entry index="500321" type="boolean" value="true"/>
-					<entry index="500322" type="boolean" value="true"/>
-					<entry index="500323" type="boolean" value="true"/>
 					<entry index="500324" type="boolean" value="true"/>
 					<entry index="500325" type="boolean" value="true"/>
 					<entry index="500326" type="boolean" value="true"/>
 					<entry index="500327" type="boolean" value="true"/>
-					<entry index="500328" type="boolean" value="true"/>
 					<entry index="500329" type="boolean" value="true"/>
-					<entry index="500330" type="boolean" value="true"/>
-					<entry index="500331" type="boolean" value="true"/>
-					<entry index="500332" type="boolean" value="true"/>
-					<entry index="500333" type="boolean" value="true"/>
 					<entry index="500334" type="boolean" value="true"/>
 					<entry index="500335" type="boolean" value="true"/>
 					<entry index="500336" type="boolean" value="true"/>
@@ -5302,7 +5315,6 @@
 					<entry index="500353" type="boolean" value="true"/>
 					<entry index="500354" type="boolean" value="true"/>
 					<entry index="500355" type="boolean" value="true"/>
-					<entry index="500356" type="boolean" value="true"/>
 					<entry index="500357" type="boolean" value="true"/>
 					<entry index="500358" type="boolean" value="true"/>
 					<entry index="500360" type="boolean" value="true"/>
@@ -5641,10 +5653,7 @@
 					<entry index="500694" type="boolean" value="true"/>
 					<entry index="500695" type="boolean" value="true"/>
 					<entry index="500696" type="boolean" value="true"/>
-					<entry index="500697" type="boolean" value="true"/>
-					<entry index="500698" type="boolean" value="true"/>
 					<entry index="500699" type="boolean" value="true"/>
-					<entry index="500700" type="boolean" value="true"/>
 					<entry index="500701" type="boolean" value="true"/>
 					<entry index="500702" type="boolean" value="true"/>
 					<entry index="500703" type="boolean" value="true"/>
@@ -5652,25 +5661,14 @@
 					<entry index="500705" type="boolean" value="true"/>
 					<entry index="500706" type="boolean" value="true"/>
 					<entry index="500707" type="boolean" value="true"/>
-					<entry index="500708" type="boolean" value="true"/>
-					<entry index="500709" type="boolean" value="true"/>
-					<entry index="500710" type="boolean" value="true"/>
-					<entry index="500711" type="boolean" value="true"/>
 					<entry index="500712" type="boolean" value="true"/>
 					<entry index="500713" type="boolean" value="true"/>
 					<entry index="500714" type="boolean" value="true"/>
 					<entry index="500715" type="boolean" value="true"/>
 					<entry index="500716" type="boolean" value="true"/>
 					<entry index="500717" type="boolean" value="true"/>
-					<entry index="500718" type="boolean" value="true"/>
 					<entry index="500719" type="boolean" value="true"/>
-					<entry index="500720" type="boolean" value="true"/>
 					<entry index="500721" type="boolean" value="true"/>
-					<entry index="500722" type="boolean" value="true"/>
-					<entry index="500723" type="boolean" value="true"/>
-					<entry index="500724" type="boolean" value="true"/>
-					<entry index="500726" type="boolean" value="true"/>
-					<entry index="500727" type="boolean" value="true"/>
 					<entry index="500728" type="boolean" value="true"/>
 					<entry index="500729" type="boolean" value="true"/>
 					<entry index="500730" type="boolean" value="true"/>
@@ -5687,27 +5685,13 @@
 					<entry index="500741" type="boolean" value="true"/>
 					<entry index="500742" type="boolean" value="true"/>
 					<entry index="500743" type="boolean" value="true"/>
-					<entry index="500744" type="boolean" value="true"/>
-					<entry index="500745" type="boolean" value="true"/>
 					<entry index="500746" type="boolean" value="true"/>
-					<entry index="500747" type="boolean" value="true"/>
 					<entry index="500748" type="boolean" value="true"/>
-					<entry index="500749" type="boolean" value="true"/>
-					<entry index="500750" type="boolean" value="true"/>
 					<entry index="500751" type="boolean" value="true"/>
-					<entry index="500752" type="boolean" value="true"/>
-					<entry index="500753" type="boolean" value="true"/>
 					<entry index="500754" type="boolean" value="true"/>
-					<entry index="500755" type="boolean" value="true"/>
-					<entry index="500756" type="boolean" value="true"/>
 					<entry index="500757" type="boolean" value="true"/>
-					<entry index="500758" type="boolean" value="true"/>
-					<entry index="500759" type="boolean" value="true"/>
 					<entry index="500760" type="boolean" value="true"/>
-					<entry index="500761" type="boolean" value="true"/>
-					<entry index="500762" type="boolean" value="true"/>
 					<entry index="500763" type="boolean" value="true"/>
-					<entry index="500764" type="boolean" value="true"/>
 					<entry index="500765" type="boolean" value="true"/>
 					<entry index="500766" type="boolean" value="true"/>
 					<entry index="500767" type="boolean" value="true"/>
