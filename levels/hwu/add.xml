@@ -1573,8 +1573,30 @@
 		<unit path="units/pd2_dlc_berry/architecture/bry_mountain_tunnel_railings/bry_mountain_stairs_support_4m" unload="true"/>
 	</add>
 	<add path="units/pd2_dlc_berry/architecture/bry_mountain_tunnel_railings/bry_mountain_stairs_support_2m" type="unit">
-		<unit path="units/pd2_dlc_berry/architecture/bry_mountain_tunnel_railings/bry_mountain_stairs_support_2m" unload="true"/>
-		<object path="units/pd2_dlc_berry/architecture/bry_mountain_tunnel_railings/bry_mountain_stairs_support_2m" unload="true"/>
 		<material_config path="units/pd2_dlc_berry/architecture/bry_mountain_tunnel_railings/bry_mountain_stairs" unload="true"/>
+		<object path="units/pd2_dlc_berry/architecture/bry_mountain_tunnel_railings/bry_mountain_stairs_support_2m" unload="true"/>
+		<unit path="units/pd2_dlc_berry/architecture/bry_mountain_tunnel_railings/bry_mountain_stairs_support_2m" unload="true"/>
+	</add>
+	<add path="units/pd2_dlc_brb/architecture/brb_ext/brb_ext_sewers/brb_ext_sewer" type="unit">
+		<material_config path="units/pd2_dlc_brb/architecture/brb_ext/brb_ext_sewers/brb_ext_sewer" unload="true"/>
+		<object path="units/pd2_dlc_brb/architecture/brb_ext/brb_ext_sewers/brb_ext_sewer" unload="true"/>
+		<unit path="units/pd2_dlc_brb/architecture/brb_ext/brb_ext_sewers/brb_ext_sewer" unload="true"/>
+	</add>
+	<add path="units/pd2_dlc_brb/architecture/brb_ext/brb_ext_sewers/brb_ext_sewer_water" type="unit">
+		<material_config path="units/pd2_dlc_brb/architecture/brb_ext/brb_ext_sewers/brb_ext_sewer_water" unload="true"/>
+		<object path="units/pd2_dlc_brb/architecture/brb_ext/brb_ext_sewers/brb_ext_sewer_water" unload="true"/>
+		<unit path="units/pd2_dlc_brb/architecture/brb_ext/brb_ext_sewers/brb_ext_sewer_water" unload="true"/>
+	</add>
+	<add path="units/pd2_dlc_berry/architecture/bry_security_room/bry_security_room" type="unit">
+		<material_config path="units/pd2_dlc_berry/architecture/bry_security_room/bry_security_room" unload="true"/>
+		<model path="units/pd2_dlc_berry/architecture/bry_security_room/bry_security_room" unload="true"/>
+		<object path="units/pd2_dlc_berry/architecture/bry_security_room/bry_security_room" unload="true"/>
+		<unit path="units/pd2_dlc_berry/architecture/bry_security_room/bry_security_room" unload="true"/>
+	</add>
+	<add path="units/pd2_dlc_berry/architecture/bry_vault_room/bry_vault_room" type="unit">
+		<unit path="units/pd2_dlc_berry/architecture/bry_vault_room/bry_vault_room" unload="true"/>
+		<object path="units/pd2_dlc_berry/architecture/bry_vault_room/bry_vault_room" unload="true"/>
+		<model path="units/pd2_dlc_berry/architecture/bry_vault_room/bry_vault_room" unload="true"/>
+		<material_config path="units/pd2_dlc_berry/architecture/bry_vault_room/bry_vault_room" unload="true"/>
 	</add>
 </table>

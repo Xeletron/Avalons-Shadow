@@ -1,0 +1,32 @@
+<materials version="3">
+    <material render_template="shadow_caster_only" name="shadow_caster" version="2"/>
+    <material name="mat_dirt_snow_01" render_template="generic:BLEND_DIFFUSE:BLEND_DIFFUSE_UV2:BLEND_MASK_CONTROL:BLEND_NORMAL:BLEND_NORMAL_UV2:DIFFUSE_TEXTURE:GLOSS_CONTROL_VALUE:NORMALMAP:RL_ENVIRONMENT:VERTEX_COLOR" decal_material="ice" version="2">
+        <diffuse_texture file="units/pd2_dlc_jerry/props/jry_prop_dirt_pile/jry_prop_dirt_pile_df"/>
+        <bump_normal_texture file="units/pd2_dlc_jerry/props/jry_prop_dirt_pile/jry_prop_dirt_pile_nm"/>
+        <diffuse_layer0_texture file="units/pd2_dlc_brb/architecture/brb_ext/brb_ext_road_snow/brb_ext_road_snow_01_df"/>
+        <normal_layer0_texture file="units/pd2_dlc_brb/architecture/brb_ext/brb_ext_road_snow/brb_ext_road_snow_01_nm"/>
+        <variable type="vector3" name="blend_control" value="0.55000001192093 0.60000002384186 0"/>
+        <variable type="scalar" name="glossiness_control" value="0.13700000650715"/>
+    </material>
+    <material render_template="generic:BLEND_DIFFUSE:BLEND_DIFFUSE_UV2:BLEND_MASK_CONTROL:BLEND_NORMAL:BLEND_NORMAL_UV2:DIFFUSE_TEXTURE:GLOSS_CONTROL_VALUE:NORMALMAP:RL_ENVIRONMENT:VERTEX_COLOR" version="2" decal_material="wood" name="mat_sewer_snow_01" src="GLOBAL">
+        <diffuse_texture file="units/pd2_dlc2/architecture/csb_sewer/csb_sewer_df"/>
+        <bump_normal_texture file="units/pd2_dlc2/architecture/csb_sewer/csb_sewer_nm"/>
+        <diffuse_layer0_texture file="units/pd2_dlc_brb/architecture/brb_ext/brb_ext_road_snow/brb_ext_road_snow_01_df"/>
+        <normal_layer0_texture file="units/pd2_dlc_brb/architecture/brb_ext/brb_ext_road_snow/brb_ext_road_snow_01_nm"/>
+        <variable type="vector3" name="blend_control" value="0.56000000238419 0.69999998807907 0"/>
+        <variable type="scalar" name="glossiness_control" value="0.14600000693463"/>
+    </material>
+    <material name="mat_sewer" version="2" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP:RL_ENVIRONMENT:VERTEX_COLOR">
+        <diffuse_texture file="units/pd2_dlc2/architecture/csb_sewer/csb_sewer_df"/>
+        <bump_normal_texture file="units/pd2_dlc2/architecture/csb_sewer/csb_sewer_nm"/>
+    </material>
+    <material name="mat_sewer_lamp" version="2" render_template="generic:DIFFUSE_TEXTURE:SELF_ILLUMINATION">
+        <diffuse_texture file="units/pd2_dlc2/architecture/csb_sewer/csb_sewer_lamp_df"/>
+        <self_illumination_texture file="units/pd2_dlc2/architecture/csb_sewer/csb_sewer_lamp_il"/>
+        <variable value="dimlight" type="scalar" name="il_multiplier"/>
+    </material>
+    <material name="mat_lamps_add" version="2" render_template="effect:BLEND_ADD:DIFFUSE0_TEXTURE">
+        <diffuse_texture file="units/pd2_dlc2/architecture/csb_sewer/csb_sewer_lamp_add_df"/>
+        <variable value="reddot" type="scalar" name="intensity"/>
+    </material>
+</materials>

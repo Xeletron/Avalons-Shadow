@@ -1,0 +1,30 @@
+<dynamic_object>
+	<diesel materials="units/pd2_dlc_brb/architecture/brb_ext/brb_ext_sewers/brb_ext_sewer" orientation_object="rp_brb_ext_sewer" />
+	<bodies>
+		<body name="body_static" enabled="true" template="static">
+			<object name="rp_brb_ext_sewer" />
+			<object name="c_mesh_01" collision_type="mesh_mopp" padding="-2.5" />
+			<object name="c_mesh_02" collision_type="mesh_mopp" padding="-2.5" />
+		</body>
+		<body name="body_static" enabled="true" template="nav_walk">
+			<object name="rp_brb_ext_sewer" />
+			<object name="c_box_01" collision_type="box" padding="-2.5" />
+			<object name="c_box_mover_01" collision_type="box" padding="-2.5" />
+			<object name="c_box_mover_02" collision_type="box" padding="-2.5" />
+			<object name="c_box_mover_03" collision_type="box" padding="-2.5" />
+		</body>
+	</bodies>
+
+	<decal_surfaces default_material="concrete">
+		<decal_mesh name="dm_tile" 		enabled="true" material="tile" />
+		<decal_mesh name="dm_concrete" 	enabled="true" material="concrete" />
+	</decal_surfaces>
+
+	<graphics>
+		<lod_object name="lod_g_sewer_part1">
+			<object name="g_sewer_part1_lod0" enabled="true" max_distance="4000" />
+			<object name="g_sewer_part1_lod1" enabled="true" />
+		</lod_object>
+		<object name="s_s" enabled="true" shadow_caster="true" />
+	</graphics>
+</dynamic_object>
