@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<dynamic_object>
+	<diesel materials="units/payday2/props/gen_prop_methlad_solvent_mixed/gen_prop_methlad_solvent_mixed" orientation_object="rp_gen_prop_methlad_solvent_mixed" />
+	
+	<bodies>
+		<body name="body_glass" enabled="true" template="static">
+			<object name="c_c" collision_type="box" padding="-2.5"/>
+		</body>
+	</bodies>
+
+	<graphics>
+		<object name="g_mixed" enabled="true"  />
+	</graphics>
+</dynamic_object>

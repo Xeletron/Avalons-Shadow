@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<dynamic_object>
+  <diesel materials="units/world/props/mansion/man_prop_int_brass_bowl/man_prop_int_brass_bowl" orientation_object="rp_man_prop_int_brass_bowl" />
+  <bodies>
+    <body name="static_body" enabled="true" template="static">
+      <object name="rp_man_prop_int_brass_bowl" />
+      <object name="c_man_prop_int_brass_bowl_convex" collision_type="mesh_mopp" />
+    </body>
+  </bodies>
+  <decal_surfaces default_material="metal_hollow">
+    <decal_mesh name="g_man_prop_int_brass_bowl" enabled="true" material="metal_hollow"/>
+  </decal_surfaces>
+  <graphics>
+    <object name="g_man_prop_int_brass_bowl" enabled="true" shadow_caster="false"  />
+  </graphics>
+</dynamic_object>

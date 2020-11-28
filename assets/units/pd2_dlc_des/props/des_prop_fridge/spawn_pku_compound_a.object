@@ -1,0 +1,19 @@
+<dynamic_object>
+	<diesel materials="units/pd2_dlc_des/props/des_prop_fridge/des_prop_fridge" orientation_object="rp_spawn_pku_compound_a" />
+	<sequence_manager file="units/pd2_dlc_des/props/des_prop_fridge/spawn_pku_compound_a" />
+	<bodies>
+		<body name="body_static" enabled="true" template="static">
+			<object name="rp_spawn_pku_compound_a" />
+			<object name="c_box_01" collision_type="box" padding="-2.5" />
+		</body>
+	</bodies>
+	<graphics>
+		<object name="g_g" enabled="true" />
+		<graphic_group name="search_icons" enabled="false">
+			<lod_object name="lod_g_icon">
+				<object name="g_icon_lod0" enabled="true" max_distance="1500" />
+				<object name="g_icon_lod1" enabled="true" />
+			</lod_object>
+		</graphic_group>
+	</graphics>
+</dynamic_object>

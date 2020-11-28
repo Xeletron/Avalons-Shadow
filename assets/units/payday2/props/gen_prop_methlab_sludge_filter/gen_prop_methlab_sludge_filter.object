@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<dynamic_object>
+	<diesel materials="units/payday2/props/gen_prop_methlab_sludge_filter/gen_prop_methlab_sludge_filter" orientation_object="rp_gen_prop_methlab_sludge_filter" />
+	<bodies>
+		<body name="body_static" enabled="true" template="static">
+			<object name="c_c" collision_type="box" padding="-2.5"/>
+		</body>
+	</bodies>
+	<decal_surfaces default_material="plastic">
+		<decal_mesh name="dm_dm" enabled="true" material="plastic" />
+	</decal_surfaces>
+	<graphics>
+		<object name="g_filter" enabled="true"  />
+	</graphics>
+</dynamic_object>

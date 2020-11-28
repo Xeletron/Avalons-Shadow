@@ -1,0 +1,6 @@
+<materials version="3">
+    <material name="mtr_meth_dry" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP" version="2">
+        <diffuse_texture file="units/payday2/props/gen_prop_methlab_meth_dry/meth_dry_df"/>
+        <bump_normal_texture file="units/payday2/props/gen_prop_methlab_meth_dry/meth_dry_nm"/>
+    </material>
+</materials>

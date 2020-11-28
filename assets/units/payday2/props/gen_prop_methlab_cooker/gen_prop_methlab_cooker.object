@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<dynamic_object>
+	<diesel materials="units/payday2/props/gen_prop_methlab_cooker/gen_prop_methlab_cooker" orientation_object="rp_gen_prop_methlab_cooker" />
+	<bodies>
+		<body name="body_static" enabled="true" template="static">
+			<object name="c_box" collision_type="box" padding="-2.5"/>
+		</body>
+	</bodies>	
+
+	<decal_surfaces default_material="metal">
+		<decal_mesh name="dm_dm" enabled="true" material="metal" />
+	</decal_surfaces>
+	
+	<graphics>
+		<object name="g_cooker" enabled="true"  />
+	</graphics>
+</dynamic_object>
