@@ -38,12 +38,10 @@
 		<model force="true" path="units/pd2_mod_hwu/architecture/hwu_mountain_ground/hwu_mountain_ground" unload="true"/>
 		<object force="true" path="units/pd2_mod_hwu/architecture/hwu_mountain_ground/hwu_mountain_ground" unload="true"/>
 		<unit force="true" path="units/pd2_mod_hwu/architecture/hwu_mountain_ground/hwu_mountain_ground" unload="true"/>
-	
 		<material_config force="true" path="units/pd2_mod_hwu/architecture/hwu_mountain_storage_room/hwu_mountain_storage_room" unload="true"/>
 		<model force="true" path="units/pd2_mod_hwu/architecture/hwu_mountain_storage_room/hwu_mountain_storage_room" unload="true"/>
 		<object force="true" path="units/pd2_mod_hwu/architecture/hwu_mountain_storage_room/hwu_mountain_storage_room" unload="true"/>
 		<unit force="true" path="units/pd2_mod_hwu/architecture/hwu_mountain_storage_room/hwu_mountain_storage_room" unload="true"/>
-
 		<material_config force="true" path="units/pd2_mod_hwu/architecture/smuggler_house/ext_smuggler_house_ground" unload="true"/>
 		<model force="true" path="units/pd2_mod_hwu/architecture/smuggler_house/ext_smuggler_house_ground" unload="true"/>
 		<object force="true" path="units/pd2_mod_hwu/architecture/smuggler_house/ext_smuggler_house_ground" unload="true"/>
@@ -1893,5 +1891,21 @@
 		<object path="units/pd2_dlc_jerry/vehicles/jry_vehicle_blackhawk_money_pile/jry_vehicle_blackhawk_money_pile" unload="true"/>
 		<sequence_manager path="units/pd2_dlc_jerry/vehicles/jry_vehicle_blackhawk_money_pile/jry_vehicle_blackhawk_money_pile" unload="true"/>
 		<unit path="units/pd2_dlc_jerry/vehicles/jry_vehicle_blackhawk_money_pile/jry_vehicle_blackhawk_money_pile" unload="true"/>
+	</add>
+	<add path="units/pd2_dlc_des/props/des_prop_inter_hack_computer/des_inter_hack_computer" type="unit">
+		<bnk path="soundbanks/regular_sfx" unload="true"/>
+		<gui path="guis/timer_gui" unload="true"/>
+		<material_config path="units/pd2_dlc_des/props/des_prop_inter_hack_computer/des_inter_hack_computer" unload="true"/>
+		<object path="units/pd2_dlc_des/props/des_prop_inter_hack_computer/des_inter_hack_computer" unload="true"/>
+		<sequence_manager path="units/pd2_dlc_des/props/des_prop_inter_hack_computer/des_inter_hack_computer" unload="true"/>
+		<unit path="units/pd2_dlc_des/props/des_prop_inter_hack_computer/des_inter_hack_computer" unload="true"/>
+	</add>
+	<add path="units/pd2_dlc_des/equipment/des_interactable_office_desk_communication/des_interactable_office_desk_communication" type="unit">
+		<unit path="units/pd2_dlc_des/equipment/des_interactable_office_desk_communication/des_interactable_office_desk_communication" unload="true"/>
+		<object path="units/pd2_dlc_des/equipment/des_interactable_office_desk_communication/des_interactable_office_desk_communication" unload="true"/>
+		<material_config path="units/pd2_dlc_des/equipment/des_interactable_office_desk_communication/des_interactable_office_desk_communication" unload="true"/>
+		<sequence_manager path="units/pd2_dlc_des/equipment/des_interactable_office_desk_communication/des_interactable_office_desk_communication" unload="true"/>
+		<gui path="guis/timer_gui" unload="true"/>
+		<bnk path="soundbanks/regular_sfx" unload="true"/>
 	</add>
 </table>
