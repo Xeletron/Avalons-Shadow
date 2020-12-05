@@ -1,0 +1,16 @@
+<unit type="des" slot="1">
+	<network sync="spawn"/>
+	<object file="units/pd2_dlc_des/architecture/des_int/des_int_blast_door_big/des_blast_door_big" />
+	<dependencies>
+		<depends_on bnk="soundbanks/des_sfx" />
+	</dependencies>
+	<extensions>
+		<extension name="unit_data" class="ScriptUnitData" />
+		<extension name="damage" class="UnitDamage" />
+	</extensions>
+	<sounds>
+		<default_soundsource source="rp_des_blast_door_big"/>
+		<soundsource name="snd_left" source="a_left_door" />
+		<soundsource name="snd_right" source="a_right_door" />
+	</sounds>
+</unit>

@@ -95,6 +95,13 @@
 		<model path="units/pd2_mod_hwu/props/hwu_warehouse_signs/hwu_warehouse_sign_admin" unload="true"/>
 		<texture path="units/pd2_mod_hwu/props/hwu_warehouse_signs/hwu_warehouse_signs_df" unload="true"/>
 		<texture path="units/pd2_mod_hwu/props/hwu_warehouse_signs/hwu_warehouse_signs_nm" unload="true"/>
+
+		<unit path="units/pd2_dlc_des/architecture/des_int/des_int_blast_door_big/des_blast_door_big" unload="true"/>
+		<object path="units/pd2_dlc_des/architecture/des_int/des_int_blast_door_big/des_blast_door_big" unload="true"/>
+		<model path="units/pd2_dlc_des/architecture/des_int/des_int_blast_door_big/des_blast_door_big" unload="true"/>
+		<material_config path="units/pd2_dlc_des/architecture/des_int/des_int_blast_door_big/des_blast_door_big" unload="true"/>
+		<sequence_manager path="units/pd2_dlc_des/architecture/des_int/des_int_blast_door_big/des_blast_door_big" unload="true"/>
+
 		<material_config path="units/payday2/nature/pnau/pnau_boulders/pna_ext_landscape_boulder" unload="true"/>
 		<object path="units/payday2/nature/pnau/pnau_boulders/pna_ext_landscape_cliff_e" unload="true"/>
 		<unit path="units/payday2/nature/pnau/pnau_boulders/pna_ext_landscape_cliff_e" unload="true"/>
@@ -1901,11 +1908,38 @@
 		<unit path="units/pd2_dlc_des/props/des_prop_inter_hack_computer/des_inter_hack_computer" unload="true"/>
 	</add>
 	<add path="units/pd2_dlc_des/equipment/des_interactable_office_desk_communication/des_interactable_office_desk_communication" type="unit">
-		<unit path="units/pd2_dlc_des/equipment/des_interactable_office_desk_communication/des_interactable_office_desk_communication" unload="true"/>
-		<object path="units/pd2_dlc_des/equipment/des_interactable_office_desk_communication/des_interactable_office_desk_communication" unload="true"/>
-		<material_config path="units/pd2_dlc_des/equipment/des_interactable_office_desk_communication/des_interactable_office_desk_communication" unload="true"/>
-		<sequence_manager path="units/pd2_dlc_des/equipment/des_interactable_office_desk_communication/des_interactable_office_desk_communication" unload="true"/>
-		<gui path="guis/timer_gui" unload="true"/>
 		<bnk path="soundbanks/regular_sfx" unload="true"/>
+		<gui path="guis/timer_gui" unload="true"/>
+		<material_config path="units/pd2_dlc_des/equipment/des_interactable_office_desk_communication/des_interactable_office_desk_communication" unload="true"/>
+		<object path="units/pd2_dlc_des/equipment/des_interactable_office_desk_communication/des_interactable_office_desk_communication" unload="true"/>
+		<sequence_manager path="units/pd2_dlc_des/equipment/des_interactable_office_desk_communication/des_interactable_office_desk_communication" unload="true"/>
+		<unit path="units/pd2_dlc_des/equipment/des_interactable_office_desk_communication/des_interactable_office_desk_communication" unload="true"/>
+	</add>
+	<add path="units/pd2_dlc_dinner/props/din_loot_container/din_loot_container" type="unit">
+		<unit path="units/pd2_dlc_dinner/props/din_loot_container/din_loot_container" unload="true"/>
+		<object path="units/pd2_dlc_dinner/props/din_loot_container/din_loot_container" unload="true"/>
+		<material_config path="units/pd2_dlc_dinner/props/din_loot_container/din_loot_container_1" unload="true"/>
+		<unit path="units/payday2/props/ind_prop_dock_box/ind_prop_dock_box_wall_open_1" unload="true"/>
+		<object path="units/payday2/props/ind_prop_dock_box/ind_prop_dock_box_wall_open_1" unload="true"/>
+		<material_config path="units/payday2/props/ind_prop_dock_box/ind_prop_dock_box_wall_open_1" unload="true"/>
+		<unit path="units/payday2/props/ind_prop_dock_box/ind_prop_dock_box_wall_open_2" unload="true"/>
+		<object path="units/payday2/props/ind_prop_dock_box/ind_prop_dock_box_wall_open_2" unload="true"/>
+		<material_config path="units/payday2/props/ind_prop_dock_box/ind_prop_dock_box_wall_open_2" unload="true"/>
+		<unit path="units/payday2/props/ind_prop_dock_box/ind_prop_dock_box_wall_open_3" unload="true"/>
+		<object path="units/payday2/props/ind_prop_dock_box/ind_prop_dock_box_wall_open_3" unload="true"/>
+		<material_config path="units/payday2/props/ind_prop_dock_box/ind_prop_dock_box_wall_open_3" unload="true"/>
+		<unit path="units/payday2/props/ind_prop_dock_box/ind_prop_dock_box_wall_open_4" unload="true"/>
+		<object path="units/payday2/props/ind_prop_dock_box/ind_prop_dock_box_wall_open_4" unload="true"/>
+		<material_config path="units/payday2/props/ind_prop_dock_box/ind_prop_dock_box_wall_open_4" unload="true"/>
+		<unit path="units/payday2/props/ind_prop_dock_box/ind_prop_dock_box_wall_open" unload="true"/>
+		<object path="units/payday2/props/ind_prop_dock_box/ind_prop_dock_box_wall_open" unload="true"/>
+		<material_config path="units/payday2/props/ind_prop_dock_box/ind_prop_dock_box_wall_open" unload="true"/>
+		<sequence_manager path="units/pd2_dlc_dinner/props/din_loot_container/din_loot_container" unload="true"/>
+	</add>
+	<add path="units/payday2/props/gen_prop_square_drop_marker_4x15/gen_prop_square_drop_marker_4x15" type="unit">
+		<material_config path="units/payday2/props/gen_prop_square_drop_marker_4x15/gen_prop_square_drop_marker_4x15" unload="true"/>
+		<object path="units/payday2/props/gen_prop_square_drop_marker_4x15/gen_prop_square_drop_marker_4x15" unload="true"/>
+		<sequence_manager path="units/payday2/props/gen_prop_square_drop_marker_4x15/gen_prop_square_drop_marker_4x15" unload="true"/>
+		<unit path="units/payday2/props/gen_prop_square_drop_marker_4x15/gen_prop_square_drop_marker_4x15" unload="true"/>
 	</add>
 </table>
