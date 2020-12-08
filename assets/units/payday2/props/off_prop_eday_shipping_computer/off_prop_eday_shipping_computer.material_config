@@ -1,0 +1,21 @@
+<materials version="3">
+    <material name="mat_computer" render_template="generic:CONTOUR:DIFFUSE_TEXTURE" unique="true" version="2">
+        <diffuse_texture file="units/payday2/props/air_prop_office_computer/air_prop_office_computer_df"/>
+        <variable value="0" type="scalar" name="contour_opacity"/>
+        <variable value="0 0 0" type="vector3" name="contour_color"/>
+    </material>
+    <material name="mat_computer_screen" render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:SELF_ILLUMINATION" version="2">
+        <diffuse_texture file="units/payday2/props/off_prop_eday_shipping_computer/off_prop_eday_shipping_computer_df"/>
+        <reflection_texture type="cube" global_texture="current_global_texture"/>
+        <variable value="1 0 2" type="vector3" name="environment_settings"/>
+        <self_illumination_texture file="units/payday2/props/off_prop_eday_shipping_computer/off_prop_eday_shipping_computer_df"/>
+        <variable value="monitor" type="scalar" name="il_multiplier"/>
+    </material>
+    <material version="2" decal_material="glass_breakable" name="mtr_glass" render_template="opacity:CUBE_ENVIRONMENT_MAPPING:CUBE_FRESNEL:DIFFUSE_TEXTURE:OPACITY_FADE">
+        <variable value="0 1 0.59999996423721" type="vector3" name="fresnel_settings"/>
+        <opacity_texture file="units/payday2/glass/glass_clear_vehicle_op"/>
+        <diffuse_texture file="units/payday2/glass/glass_clear_vehicle_df"/>
+        <reflection_texture type="cubemap" global_texture="current_global_texture"/>
+        <variable value="10 4000 0" type="vector3" name="opacity_fade"/>
+    </material>
+</materials>

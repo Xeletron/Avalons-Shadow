@@ -1,0 +1,37 @@
+<dynamic_object>
+	<diesel materials="units/pd2_dlc_jfr/props/jfr_prop_machinegun_turret/jfr_prop_machinegun_turret" orientation_object="rp_jfr_prop_machinegun_turret" />
+	<bodies>
+		<body name="body_static" enabled="true" template="static">
+			<object name="rp_jfr_prop_machinegun_turret" />
+			<object name="c_convex_02" collision_type="convex" padding="-2.5" />
+		</body>
+		<body name="body_collision_01" enabled="true" template="animated">
+			<object name="anim_pitch" />
+			<object name="c_convex_01" collision_type="convex" padding="-2.5" />
+		</body>
+		<body name="body_collision_02" enabled="true" template="animated">
+			<object name="anim_pitch" />
+			<object name="c_box_01" collision_type="box" padding="-2.5" />
+		</body>
+		<body name="body_collision_03" enabled="true" template="animated">
+			<object name="anim_pitch" />
+			<object name="c_box_02" collision_type="box" padding="-2.5" />
+		</body>
+		    <body name="static_body" enabled="true" template="mover_blocker">
+		    <object name="c_move_blocker_01" collision_type="convex" />
+	</body>
+	</bodies>
+	<decal_surfaces default_material="metal">
+		<decal_mesh name="dm_metal" enabled="true" material="metal" />
+	</decal_surfaces>
+	<graphics>
+		<lod_object name="lod_g_gun">
+			<object name="g_gun_lod0" enabled="true" max_distance="1500" />
+			<object name="g_gun_lod1" enabled="true" />
+		</lod_object>
+		<lod_object name="lod_g_mount">
+			<object name="g_mount_lod0" enabled="true" max_distance="1500" />
+			<object name="g_mount_lod1" enabled="true" />
+		</lod_object>
+	</graphics>
+</dynamic_object>

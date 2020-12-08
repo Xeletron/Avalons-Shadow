@@ -11,6 +11,7 @@
 		<table continent="world" folder="levels/instances/unique/mus_circuit_box/world" index_size="250" name="mus_circuit_box_004" position="-14938.1 -9653.59 -2072.59" rotation="0 0 0.707107 0.707107" script="default" start_index="1750"/>
 		<table continent="world" folder="levels/instances/unique/mus_circuit_box/world" index_size="250" name="mus_circuit_box_005" position="-9854.47 -10060.4 -2467.46" rotation="0 0 -0.707107 0.707107" script="default" start_index="2000"/>
 		<table continent="world" folder="levels/instances/unique/mus_circuit_box/world" index_size="250" name="mus_circuit_box_006" position="-15690 -4430 -1890" rotation="-0 0 -0 -1" script="default" start_index="2250"/>
+		<table continent="world" folder="levels/instances/mods/hwu_server/world" index_size="250" name="hwu_server_021" position="-10970 -11445 -2410" rotation="0 0 -0.707107 -0.707107" script="default" start_index="2500"/>
 	</instances>
 	<statics>
 		<table>
@@ -4412,6 +4413,18 @@
 		</table>
 		<table>
 			<unit_data _prev_pos="-15820 -6614 -1255" _prev_rot="0 0 -0.707107 -0.707107" continent="world" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 600" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_bag_collision/dev_bag_collision_8x3m" name_id="dev_bag_collision_8x3m_042" only_visible_in_editor="true" position="-15820 -4014 -1255" rotation="0 0 -0.707107 -0.707107" unit_id="101379"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="8.3 -3363.33 5512.5" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/editable_text_short/editable_text_short" name_id="editable_text_short_013" position="8.3 -2863.33 5512.5" rotation="0 0 -0.707107 -0.707107" unit_id="101380">
+				<editable_gui align="left" alpha="1" blend_mode="normal" font="fonts/font_medium_shadow_mf" font_color="1 1 1" font_size="2.58824" render_template="diffuse_vc_decal" text="Servers" vertical="center" word_wrap="false" wrap="false">
+					<shape>
+						<value_node value="0"/>
+						<value_node value="0"/>
+						<value_node value="1"/>
+						<value_node value="1"/>
+					</shape>
+				</editable_gui>
+			</unit_data>
 		</table>
 	</statics>
 	<values>

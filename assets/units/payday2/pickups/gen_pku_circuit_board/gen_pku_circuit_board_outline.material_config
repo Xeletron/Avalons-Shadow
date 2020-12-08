@@ -1,0 +1,8 @@
+<materials version="3" group="gen_pku_circuit_board">
+    <material name="communications" render_template="generic:ALPHA_MASKED:CONTOUR:DIFFUSE_TEXTURE:OPACITY_TEXTURE" unique="true" version="2">
+        <diffuse_texture file="units/white_df"/>
+        <opacity_texture file="units/transparent_op"/>
+        <variable value="1 1 0" type="vector3" name="contour_color"/>
+        <variable value="1" type="scalar" name="contour_opacity"/>
+    </material>
+</materials>

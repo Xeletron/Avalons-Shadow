@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<dynamic_object>
+	<diesel materials="units/payday2/props/off_prop_eday_shipping_computer/off_prop_eday_shipping_computer" orientation_object="rp_off_prop_eday_shipping_computer" />
+	<sequence_manager file="units/payday2/props/off_prop_eday_shipping_computer/off_prop_eday_shipping_computer" />
+	
+	<bodies>
+		<body name="static_body" enabled="true" template="static">
+			<object name="rp_off_prop_eday_shipping_computer" />
+			<object name="c_box_computer" collision_type="box" padding="-2.5"/>
+			<object name="c_convex_monitor" collision_type="convex" padding="-2.5" />
+		</body>
+		<body name="static_screen" enabled="true" template="static">
+			<object name="rp_off_prop_eday_shipping_computer" />
+			<object name="c_box_screen" collision_type="box" padding="-2.5"/>
+		</body>
+	</bodies>
+
+	<decal_surfaces default_material="plastic" static="true">
+		<decal_mesh name="dm_glass" enabled="true" material="glass_breakable"/>
+		<decal_mesh name="dm_plastic_computer" enabled="true" material="plastic"/>
+	</decal_surfaces>
+
+	<graphics>
+		<graphic_group name="grp_computer" enabled="true" culling_object="g_computer">
+			<object name="g_computer"  					enabled="true" />
+			<object name="g_glass" 						enabled="true"/>
+			<object name="g_screen" 					enabled="true"/>
+			<object name="g_screen_off" 				enabled="false"/>
+			<object name="g_screen_dmg" 				enabled="false"/>
+		</graphic_group>
+		<graphic_group name="grp_logo" enabled="true" culling_object="g_screen">
+			<object name="g_logo_01_avalon" 			enabled="false"/>
+			<object name="g_logo_02_kranich" 			enabled="false"/>
+			<object name="g_logo_03_omni" 				enabled="false"/>
+			<object name="g_logo_04_hefty" 				enabled="false"/>
+			<object name="g_logo_05_tophats" 			enabled="false"/>
+			<object name="g_logo_06_buffler" 			enabled="false"/>
+			<object name="g_logo_07_almendia" 			enabled="false"/>
+			<object name="g_logo_08_ipear" 				enabled="false"/>
+			<object name="g_logo_09_winder" 			enabled="false"/>
+			<object name="g_logo_10_falcogini" 			enabled="false"/>
+		</graphic_group>
+		<graphic_group name="grp_dest" enabled="true" culling_object="g_screen">
+			<object name="g_dest_01_washington" 		enabled="false"/>
+			<object name="g_dest_02_baltimore" 			enabled="false"/>
+			<object name="g_dest_03_pittsburgh" 		enabled="false"/>
+			<object name="g_dest_04_qubec" 				enabled="false"/>
+			<object name="g_dest_05_seattle" 			enabled="false"/>
+			<object name="g_dest_06_detroit" 			enabled="false"/>
+			<object name="g_dest_07_newjersey" 			enabled="false"/>
+			<object name="g_dest_08_newyork" 			enabled="false"/>
+			<object name="g_dest_09_austin" 			enabled="false"/>
+			<object name="g_dest_10_longisland" 		enabled="false"/>
+		</graphic_group>
+	</graphics>
+</dynamic_object>

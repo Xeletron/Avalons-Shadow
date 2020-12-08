@@ -95,13 +95,17 @@
 		<model path="units/pd2_mod_hwu/props/hwu_warehouse_signs/hwu_warehouse_sign_admin" unload="true"/>
 		<texture path="units/pd2_mod_hwu/props/hwu_warehouse_signs/hwu_warehouse_signs_df" unload="true"/>
 		<texture path="units/pd2_mod_hwu/props/hwu_warehouse_signs/hwu_warehouse_signs_nm" unload="true"/>
-
 		<unit path="units/pd2_dlc_des/architecture/des_int/des_int_blast_door_big/des_blast_door_big" unload="true"/>
 		<object path="units/pd2_dlc_des/architecture/des_int/des_int_blast_door_big/des_blast_door_big" unload="true"/>
 		<model path="units/pd2_dlc_des/architecture/des_int/des_int_blast_door_big/des_blast_door_big" unload="true"/>
+
+		<material_config path="units/payday2/pickups/gen_pku_circuit_board/gen_pku_circuit_board_outline" unload="true"/>
+		<object path="units/payday2/pickups/gen_pku_circuit_board/gen_pku_circuit_board_outline" unload="true"/>
+		<unit path="units/payday2/pickups/gen_pku_circuit_board/gen_pku_circuit_board_outline" unload="true"/>
+		<model path="units/payday2/pickups/gen_pku_circuit_board/gen_pku_circuit_board_outline" unload="true"/>
+
 		<material_config path="units/pd2_dlc_des/architecture/des_int/des_int_blast_door_big/des_blast_door_big" unload="true"/>
 		<sequence_manager path="units/pd2_dlc_des/architecture/des_int/des_int_blast_door_big/des_blast_door_big" unload="true"/>
-
 		<material_config path="units/payday2/nature/pnau/pnau_boulders/pna_ext_landscape_boulder" unload="true"/>
 		<object path="units/payday2/nature/pnau/pnau_boulders/pna_ext_landscape_cliff_e" unload="true"/>
 		<unit path="units/payday2/nature/pnau/pnau_boulders/pna_ext_landscape_cliff_e" unload="true"/>
@@ -1941,5 +1945,26 @@
 		<object path="units/payday2/props/gen_prop_square_drop_marker_4x15/gen_prop_square_drop_marker_4x15" unload="true"/>
 		<sequence_manager path="units/payday2/props/gen_prop_square_drop_marker_4x15/gen_prop_square_drop_marker_4x15" unload="true"/>
 		<unit path="units/payday2/props/gen_prop_square_drop_marker_4x15/gen_prop_square_drop_marker_4x15" unload="true"/>
+	</add>
+	<add path="units/pd2_dlc2/props/gen_prop_security_console/gen_prop_security_console_straight" type="unit">
+		<material_config path="units/pd2_dlc2/props/gen_prop_security_console/gen_prop_security_console_straight" unload="true"/>
+		<object path="units/pd2_dlc2/props/gen_prop_security_console/gen_prop_security_console_straight" unload="true"/>
+		<unit path="units/pd2_dlc2/props/gen_prop_security_console/gen_prop_security_console_straight" unload="true"/>
+	</add>
+	<add path="units/pd2_dlc2/props/gen_prop_security_console/gen_prop_security_console_corner" type="unit">
+		<material_config path="units/pd2_dlc2/props/gen_prop_security_console/gen_prop_security_console_corner" unload="true"/>
+		<object path="units/pd2_dlc2/props/gen_prop_security_console/gen_prop_security_console_corner" unload="true"/>
+		<unit path="units/pd2_dlc2/props/gen_prop_security_console/gen_prop_security_console_corner" unload="true"/>
+	</add>
+	<add path="units/payday2/props/off_prop_eday_shipping_computer/off_prop_eday_shipping_computer" type="unit">
+		<material_config path="units/payday2/props/off_prop_eday_shipping_computer/off_prop_eday_shipping_computer" unload="true"/>
+		<object path="units/payday2/props/off_prop_eday_shipping_computer/off_prop_eday_shipping_computer" unload="true"/>
+		<sequence_manager path="units/payday2/props/off_prop_eday_shipping_computer/off_prop_eday_shipping_computer" unload="true"/>
+		<unit path="units/payday2/props/off_prop_eday_shipping_computer/off_prop_eday_shipping_computer" unload="true"/>
+	</add>
+	<add path="units/pd2_dlc_jfr/props/jfr_prop_machinegun_turret/jfr_prop_machinegun_turret" type="unit">
+		<material_config path="units/pd2_dlc_jfr/props/jfr_prop_machinegun_turret/jfr_prop_machinegun_turret" unload="true"/>
+		<object path="units/pd2_dlc_jfr/props/jfr_prop_machinegun_turret/jfr_prop_machinegun_turret" unload="true"/>
+		<unit path="units/pd2_dlc_jfr/props/jfr_prop_machinegun_turret/jfr_prop_machinegun_turret" unload="true"/>
 	</add>
 </table>
