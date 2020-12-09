@@ -71,7 +71,6 @@
 			<hook file="InteractionTweakData.lua" source_file="lib/tweak_data/interactiontweakdata"/>
 		</hooks>
 		<include directory="levels/hwu">
-			<file file="cover_data.cover_data" type="custom_xml"/>
 			<file file="world.world" type="generic_xml"/>
 			<file file="continents.continents" type="custom_xml"/>
 			<file file="mission.mission" type="custom_xml"/>
@@ -90,6 +89,7 @@
 			<file file="world/world.mission" type="generic_xml"/>
 			<file file="warehouse/warehouse.continent" type="custom_xml"/>
 			<file file="warehouse/warehouse.mission" type="generic_xml"/>
+			<file file="cover_data.cover_data" type="custom_xml"/>
 			<file file="environments/env_blackout.environment" type="custom_xml"/>
 			<file file="environments/env_night.environment" type="custom_xml"/>
 			<file file="environments/default.environment" type="custom_xml"/>
