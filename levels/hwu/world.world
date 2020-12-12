@@ -3229,12 +3229,14 @@
 				</entry>
 			</entry>
 			<entry key="unit_data" type="table">
+				<entry key="_prev_pos" type="vector3" value="-14047.5 -10224.1 -1960.99"/>
+				<entry key="_prev_rot" type="quaternion" value="0 0 0 -1"/>
 				<entry key="continent" type="string" value="world"/>
 				<entry key="local_pos" type="vector3" value="0 0 0"/>
 				<entry key="local_rot" type="quaternion" value="0 0 0 1"/>
 				<entry key="name" type="string" value="core/units/nav_surface/nav_surface"/>
 				<entry key="name_id" type="string" value="nav_surface_153"/>
-				<entry key="position" type="vector3" value="-13897.5 -10224.1 -1960.99"/>
+				<entry key="position" type="vector3" value="-14047.5 -10224.1 -1960.99"/>
 				<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 				<entry key="unit_id" type="number" value="154"/>
 			</entry>
@@ -6186,7 +6188,6 @@
 					<entry index="500105" type="boolean" value="true"/>
 					<entry index="500106" type="boolean" value="true"/>
 					<entry index="500115" type="boolean" value="true"/>
-					<entry index="500116" type="boolean" value="true"/>
 					<entry index="500117" type="boolean" value="true"/>
 					<entry index="500118" type="boolean" value="true"/>
 					<entry index="500119" type="boolean" value="true"/>
@@ -6434,8 +6435,6 @@
 					<entry index="500527" type="boolean" value="true"/>
 					<entry index="500528" type="boolean" value="true"/>
 					<entry index="500529" type="boolean" value="true"/>
-					<entry index="500536" type="boolean" value="true"/>
-					<entry index="500537" type="boolean" value="true"/>
 					<entry index="500539" type="boolean" value="true"/>
 					<entry index="500540" type="boolean" value="true"/>
 					<entry index="500541" type="boolean" value="true"/>

@@ -4,5 +4,6 @@
     <extensions>
         <extension class="ScriptUnitData" name="unit_data" />
         <extension name="damage" class="UnitDamage" />
+        <extension name="sync_unit_data" class="SyncUnitData" />
     </extensions>
 </unit>
