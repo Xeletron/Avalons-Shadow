@@ -44,8 +44,50 @@
 		</entry>
 		<entry index="7" type="table">
 			<entry key="emitter_event" type="string" value="emitter_cicada_01"/>
-			<entry key="name" type="string" value="sound_emitter_004"/>
+			<entry key="name" type="string" value="sound_emitter_007"/>
 			<entry key="position" type="vector3" value="4567.59 1917.05 -240.766"/>
+			<entry key="rotation" type="quaternion" value="0 0 -0.707107 -0.707107"/>
+		</entry>
+		<entry index="8" type="table">
+			<entry key="emitter_event" type="string" value="emitter_vending_machine_loop_gen_010"/>
+			<entry key="name" type="string" value="sound_emitter_008"/>
+			<entry key="position" type="vector3" value="-5509.97 -235.291 120.08"/>
+			<entry key="rotation" type="quaternion" value="0 0 1 -0"/>
+		</entry>
+		<entry index="9" type="table">
+			<entry key="emitter_event" type="string" value="emitter_ac_hum_04"/>
+			<entry key="name" type="string" value="sound_emitter_009"/>
+			<entry key="position" type="vector3" value="-5674.09 -2852.82 282.553"/>
+			<entry key="rotation" type="quaternion" value="0 0 -0.707107 -0.707107"/>
+		</entry>
+		<entry index="10" type="table">
+			<entry key="emitter_event" type="string" value="emitter_gen_machine_01"/>
+			<entry key="name" type="string" value="sound_emitter_010"/>
+			<entry key="position" type="vector3" value="-7387.7 -3170 546.96"/>
+			<entry key="rotation" type="quaternion" value="0 0 -0.707107 -0.707107"/>
+		</entry>
+		<entry index="11" type="table">
+			<entry key="emitter_event" type="string" value="emitter_gen_machine_01"/>
+			<entry key="name" type="string" value="sound_emitter_011"/>
+			<entry key="position" type="vector3" value="-6185.64 -2862.4 136.603"/>
+			<entry key="rotation" type="quaternion" value="0 0 1 -0"/>
+		</entry>
+		<entry index="12" type="table">
+			<entry key="emitter_event" type="string" value="emitter_gen_machine_02"/>
+			<entry key="name" type="string" value="sound_emitter_012"/>
+			<entry key="position" type="vector3" value="-8353.31 -1392.96 530.397"/>
+			<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+		</entry>
+		<entry index="13" type="table">
+			<entry key="emitter_event" type="string" value="emitter_gen_machine_02"/>
+			<entry key="name" type="string" value="sound_emitter_013"/>
+			<entry key="position" type="vector3" value="-4653.7 2081.75 523.461"/>
+			<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+		</entry>
+		<entry index="14" type="table">
+			<entry key="emitter_event" type="string" value="emitter_gen_machine_01"/>
+			<entry key="name" type="string" value="sound_emitter_014"/>
+			<entry key="position" type="vector3" value="-7969.58 3288.76 227.946"/>
 			<entry key="rotation" type="quaternion" value="0 0 -0.707107 -0.707107"/>
 		</entry>
 	</entry>

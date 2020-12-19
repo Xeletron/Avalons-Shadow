@@ -64005,8 +64005,8 @@
 					<entry key="on_executed" type="table">
 					</entry>
 					<entry key="participate_to_group_ai" type="boolean" value="true"/>
-					<entry key="position" type="vector3" value="-13799.9 -10590.7 -1960"/>
-					<entry key="rotation" type="quaternion" value="0 0 -0.707107 -0.707107"/>
+					<entry key="position" type="vector3" value="-13443 -10041.9 -1960"/>
+					<entry key="rotation" type="quaternion" value="0 0 0.707107 -0.707107"/>
 					<entry key="spawn_action" type="string" value="none"/>
 					<entry key="team" type="string" value="default"/>
 					<entry key="trigger_times" type="number" value="0"/>
@@ -65222,7 +65222,7 @@
 					<entry key="sequence_list" type="table">
 						<entry index="1" type="table">
 							<entry key="sequence" type="string" value="interact"/>
-							<entry key="unit_id" type="number" value="401191"/>
+							<entry key="unit_id" type="number" value="501578"/>
 						</entry>
 					</entry>
 					<entry key="trigger_times" type="number" value="0"/>
@@ -65245,7 +65245,7 @@
 					<entry key="trigger_list" type="table">
 						<entry index="1" type="table">
 							<entry key="name" type="string" value="run_sequence"/>
-							<entry key="notify_unit_id" type="number" value="401191"/>
+							<entry key="notify_unit_id" type="number" value="501578"/>
 							<entry key="notify_unit_sequence" type="string" value="interaction_enabled"/>
 							<entry key="time" type="number" value="0"/>
 						</entry>
@@ -65274,7 +65274,7 @@
 					<entry key="sequence_list" type="table">
 						<entry index="1" type="table">
 							<entry key="sequence" type="string" value="interact"/>
-							<entry key="unit_id" type="number" value="401192"/>
+							<entry key="unit_id" type="number" value="501585"/>
 						</entry>
 					</entry>
 					<entry key="trigger_times" type="number" value="0"/>
@@ -65297,7 +65297,7 @@
 					<entry key="trigger_list" type="table">
 						<entry index="1" type="table">
 							<entry key="name" type="string" value="run_sequence"/>
-							<entry key="notify_unit_id" type="number" value="401192"/>
+							<entry key="notify_unit_id" type="number" value="501585"/>
 							<entry key="notify_unit_sequence" type="string" value="interaction_enabled"/>
 							<entry key="time" type="number" value="0"/>
 						</entry>
@@ -65326,7 +65326,7 @@
 					<entry key="sequence_list" type="table">
 						<entry index="1" type="table">
 							<entry key="sequence" type="string" value="interact"/>
-							<entry key="unit_id" type="number" value="401193"/>
+							<entry key="unit_id" type="number" value="500226"/>
 						</entry>
 					</entry>
 					<entry key="trigger_times" type="number" value="0"/>
@@ -65349,7 +65349,7 @@
 					<entry key="trigger_list" type="table">
 						<entry index="1" type="table">
 							<entry key="name" type="string" value="run_sequence"/>
-							<entry key="notify_unit_id" type="number" value="401193"/>
+							<entry key="notify_unit_id" type="number" value="500226"/>
 							<entry key="notify_unit_sequence" type="string" value="interaction_enabled"/>
 							<entry key="time" type="number" value="0"/>
 						</entry>
@@ -65378,7 +65378,7 @@
 					<entry key="sequence_list" type="table">
 						<entry index="1" type="table">
 							<entry key="sequence" type="string" value="interact"/>
-							<entry key="unit_id" type="number" value="401194"/>
+							<entry key="unit_id" type="number" value="500206"/>
 						</entry>
 					</entry>
 					<entry key="trigger_times" type="number" value="0"/>
@@ -65401,7 +65401,7 @@
 					<entry key="trigger_list" type="table">
 						<entry index="1" type="table">
 							<entry key="name" type="string" value="run_sequence"/>
-							<entry key="notify_unit_id" type="number" value="401194"/>
+							<entry key="notify_unit_id" type="number" value="500206"/>
 							<entry key="notify_unit_sequence" type="string" value="interaction_enabled"/>
 							<entry key="time" type="number" value="0"/>
 						</entry>
@@ -65430,7 +65430,7 @@
 					<entry key="sequence_list" type="table">
 						<entry index="1" type="table">
 							<entry key="sequence" type="string" value="interact"/>
-							<entry key="unit_id" type="number" value="401195"/>
+							<entry key="unit_id" type="number" value="500294"/>
 						</entry>
 					</entry>
 					<entry key="trigger_times" type="number" value="0"/>
@@ -65453,7 +65453,7 @@
 					<entry key="trigger_list" type="table">
 						<entry index="1" type="table">
 							<entry key="name" type="string" value="run_sequence"/>
-							<entry key="notify_unit_id" type="number" value="401195"/>
+							<entry key="notify_unit_id" type="number" value="500294"/>
 							<entry key="notify_unit_sequence" type="string" value="interaction_enabled"/>
 							<entry key="time" type="number" value="0"/>
 						</entry>
@@ -65482,7 +65482,7 @@
 					<entry key="sequence_list" type="table">
 						<entry index="1" type="table">
 							<entry key="sequence" type="string" value="interact"/>
-							<entry key="unit_id" type="number" value="401196"/>
+							<entry key="unit_id" type="number" value="501577"/>
 						</entry>
 					</entry>
 					<entry key="trigger_times" type="number" value="0"/>
@@ -65505,7 +65505,7 @@
 					<entry key="trigger_list" type="table">
 						<entry index="1" type="table">
 							<entry key="name" type="string" value="run_sequence"/>
-							<entry key="notify_unit_id" type="number" value="401196"/>
+							<entry key="notify_unit_id" type="number" value="501577"/>
 							<entry key="notify_unit_sequence" type="string" value="interaction_enabled"/>
 							<entry key="time" type="number" value="0"/>
 						</entry>
