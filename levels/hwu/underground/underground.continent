@@ -3481,9 +3481,6 @@
 			<unit_data _prev_pos="-7932.14 -10874.5 -2460" _prev_rot="0 0 0.535775 -0.844361" continent="underground" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="-2823.8 -5817.86 -300" local_rot="0 0 -0.975903 0.218203" name="units/world/props/desert/des_prop_con_pipes/des_prop_con_pipe_drainhose" name_id="des_prop_con_pipe_drainhose_005" position="-7932.14 -10874.5 -2460" rotation="0 0 0.535775 -0.844361" unit_id="500929"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-15945.9 -5325.61 -1709.05" _prev_rot="0 0 -0.707107 -0.707107" _visibility_counter="0" continent="underground" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="state_hook_up" name="units/pd2_dlc_jerry/vehicles/jry_vehicle_blackhawk_money_pile/jry_vehicle_blackhawk_money_pile" name_id="jry_vehicle_blackhawk_money_pile_001" position="-15945.9 -5325.61 -1709.05" rotation="0 0 -0.707107 -0.707107" unit_id="500930"/>
-		</table>
-		<table>
 			<unit_data _prev_pos="-15870 -5308 -960" _prev_rot="0 0 0.707107 -0.707107" _visibility_counter="0" continent="underground" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="hide_crate" name="units/pd2_dlc_des/props/des_prop_crane/des_prop_overhead_crane" name_id="des_prop_overhead_crane_001" position="-15870 -5308 -960" rotation="0 0 0.707107 -0.707107" unit_id="500932">
 				<lights>
 					<table clipping_values="10000 -10000 0" color="1 0.839216 0.564706" enabled="false" falloff_exponent="4" far_range="500" multiplier="@ID8badd0cc6ca7cc05@" name="ls_point" near_range="0" spot_angle_end="1" spot_angle_start="1"/>
@@ -4327,12 +4324,6 @@
 		</table>
 		<table>
 			<unit_data _prev_pos="-19282 -4363.23 -2660" _prev_rot="0 0 0.707107 -0.707107" continent="underground" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="3687.47 5532 -500" local_rot="0 0 -1 0" name="units/payday2/props/gen_prop_container_a/gen_prop_container_a_blue" name_id="gen_prop_container_a_blue_129" position="-19282 -4363.23 -2660" rotation="0 0 0.707107 -0.707107" unit_id="501216"/>
-		</table>
-		<table>
-			<unit_data _prev_pos="-15800 -5320 -1859" _prev_rot="0 0 -0.707107 -0.707107" continent="underground" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="2730.7 2050 301" local_rot="0 0 0 1" mesh_variation="var_set_color_blue" name="units/pd2_dlc_dinner/props/din_loot_container/din_loot_container" name_id="din_loot_container_001" position="-15800 -5320 -1859" rotation="0 0 -0.707107 -0.707107" unit_id="500931"/>
-		</table>
-		<table>
-			<unit_data _prev_pos="-15800 -5320 -1850" _prev_rot="0 0 1 -4.37114e-008" _visibility_counter="0" continent="underground" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="show" name="units/payday2/props/gen_prop_square_drop_marker_4x15/gen_prop_square_drop_marker_4x15" name_id="gen_prop_square_drop_marker_4x15_001" position="-15800 -5320 -1850" rotation="0 0 1 -4.37114e-008" unit_id="500965"/>
 		</table>
 		<table>
 			<unit_data _prev_pos="-15828 -4136 -1620" _prev_rot="0 0 0.707107 -0.707107" _visibility_counter="0" continent="underground" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/world/architecture/secret_stash/props/secret_stash_vent_7" name_id="secret_stash_vent_7_006" position="-15828 -4136 -1620" rotation="0 0 0.707107 -0.707107" unit_id="500966"/>
@@ -5945,6 +5936,9 @@
 		</table>
 		<table>
 			<unit_data _prev_pos="-13662.7 -7843.17 -2095.56" _prev_rot="-0.0254176 -0.0736593 0.988746 -0.127712" continent="underground" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="-1.54976 -5.06101 30.0001" local_rot="0 0 0 1" mesh_variation="" name="units/payday2/equipment/ind_interactable_hardcase_loot/ind_interactable_hardcase_loot_money" name_id="ind_interactable_hardcase_loot_money_034" position="-13662.7 -7843.17 -2095.56" rotation="-0.0254176 -0.0736592 0.988746 -0.127712" unit_id="501606"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-16298.5 -5319.67 -50" _prev_rot="0 0 -0.707107 -0.707107" continent="underground" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="anim_drop_container" name="units/pd2_dlc_arena/vehicles/are_vehicle_blackhawk/are_vehicle_blackhawk" name_id="are_vehicle_blackhawk_001" position="-16298.5 -5319.67 -50" rotation="0 0 -0.707107 -0.707107" unit_id="501601"/>
 		</table>
 	</statics>
 	<values>

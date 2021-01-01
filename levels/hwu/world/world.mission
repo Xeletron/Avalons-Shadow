@@ -21868,7 +21868,7 @@
 						</entry>
 						<entry index="3" type="table">
 							<entry key="name" type="string" value="run_sequence"/>
-							<entry key="notify_unit_id" type="number" value="500930"/>
+							<entry key="notify_unit_id" type="number" value="501601"/>
 							<entry key="notify_unit_sequence" type="string" value="hidden"/>
 							<entry key="time" type="number" value="0"/>
 						</entry>
@@ -67549,23 +67549,11 @@
 						</entry>
 						<entry index="2" type="table">
 							<entry key="name" type="string" value="run_sequence"/>
-							<entry key="notify_unit_id" type="number" value="500931"/>
-							<entry key="notify_unit_sequence" type="string" value="state_front_door_open"/>
-							<entry key="time" type="number" value="0"/>
-						</entry>
-						<entry index="3" type="table">
-							<entry key="name" type="string" value="run_sequence"/>
 							<entry key="notify_unit_id" type="number" value="101325"/>
 							<entry key="notify_unit_sequence" type="string" value="hide"/>
 							<entry key="time" type="number" value="0"/>
 						</entry>
-						<entry index="4" type="table">
-							<entry key="name" type="string" value="run_sequence"/>
-							<entry key="notify_unit_id" type="number" value="500965"/>
-							<entry key="notify_unit_sequence" type="string" value="hide"/>
-							<entry key="time" type="number" value="0"/>
-						</entry>
-						<entry index="5" type="table">
+						<entry index="3" type="table">
 							<entry key="name" type="string" value="run_sequence"/>
 							<entry key="notify_unit_id" type="number" value="501587"/>
 							<entry key="notify_unit_sequence" type="string" value="hide"/>
@@ -67921,8 +67909,8 @@
 					<entry key="on_executed" type="table">
 					</entry>
 					<entry key="only_in_civilian" type="boolean" value="false"/>
-					<entry key="position" type="vector3" value="-16200 -5320 -1747"/>
-					<entry key="rotation" type="quaternion" value="0 0 -0.707107 -0.707107"/>
+					<entry key="position" type="vector3" value="-15800 -5320 -1747"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 					<entry key="text_id" type="string" value="debug_none"/>
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
@@ -67983,8 +67971,8 @@
 							<entry key="id" type="number" value="101951"/>
 						</entry>
 					</entry>
-					<entry key="position" type="vector3" value="-16185.7 -5425.72 -1754.53"/>
-					<entry key="rotation" type="quaternion" value="0 0 -0.707107 -0.707107"/>
+					<entry key="position" type="vector3" value="-15905.7 -5334.3 -1754.53"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 					<entry key="set_trigger_times" type="number" value="-1"/>
 					<entry key="toggle" type="string" value="on"/>
 					<entry key="trigger_times" type="number" value="0"/>
@@ -68002,8 +67990,8 @@
 					<entry key="execute_on_startup" type="boolean" value="false"/>
 					<entry key="on_executed" type="table">
 					</entry>
-					<entry key="position" type="vector3" value="-16185.7 -5425.72 -1704.53"/>
-					<entry key="rotation" type="quaternion" value="0 0 -0.707107 -0.707107"/>
+					<entry key="position" type="vector3" value="-15905.7 -5334.3 -1704.53"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 					<entry key="trigger_list" type="table">
 						<entry index="1" type="table">
 							<entry key="name" type="string" value="run_sequence"/>
@@ -68099,7 +68087,7 @@
 			</entry>
 			<entry index="1959" type="table">
 				<entry key="class" type="string" value="ElementUnitSequence"/>
-				<entry key="editor_name" type="string" value="seq_add_boat_loot"/>
+				<entry key="editor_name" type="string" value="seq_add_container_loot"/>
 				<entry key="id" type="number" value="101958"/>
 				<entry key="module" type="string" value="CoreElementUnitSequence"/>
 				<entry key="script" type="string" value="default"/>
@@ -68118,8 +68106,8 @@
 					<entry key="trigger_list" type="table">
 						<entry index="1" type="table">
 							<entry key="name" type="string" value="run_sequence"/>
-							<entry key="notify_unit_id" type="number" value="500931"/>
-							<entry key="notify_unit_sequence" type="string" value="action_add_lootbag"/>
+							<entry key="notify_unit_id" type="number" value="501601"/>
+							<entry key="notify_unit_sequence" type="string" value="state_add_loot_bag"/>
 							<entry key="time" type="number" value="0"/>
 						</entry>
 					</entry>
@@ -68199,12 +68187,6 @@
 					<entry key="position" type="vector3" value="-15762.5 -5525.13 -1752.76"/>
 					<entry key="rotation" type="quaternion" value="0 0 1 4.37114e-008"/>
 					<entry key="trigger_list" type="table">
-						<entry index="1" type="table">
-							<entry key="name" type="string" value="run_sequence"/>
-							<entry key="notify_unit_id" type="number" value="500965"/>
-							<entry key="notify_unit_sequence" type="string" value="show"/>
-							<entry key="time" type="number" value="0"/>
-						</entry>
 					</entry>
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
@@ -68563,8 +68545,8 @@
 						</entry>
 						<entry index="2" type="table">
 							<entry key="name" type="string" value="run_sequence"/>
-							<entry key="notify_unit_id" type="number" value="500930"/>
-							<entry key="notify_unit_sequence" type="string" value="anim_lower_hook"/>
+							<entry key="notify_unit_id" type="number" value="501601"/>
+							<entry key="notify_unit_sequence" type="string" value="hover_land"/>
 							<entry key="time" type="number" value="10"/>
 						</entry>
 					</entry>
@@ -68592,20 +68574,14 @@
 					<entry key="trigger_list" type="table">
 						<entry index="1" type="table">
 							<entry key="name" type="string" value="run_sequence"/>
-							<entry key="notify_unit_id" type="number" value="500930"/>
+							<entry key="notify_unit_id" type="number" value="501601"/>
 							<entry key="notify_unit_sequence" type="string" value="state_vis_show"/>
 							<entry key="time" type="number" value="0"/>
 						</entry>
 						<entry index="2" type="table">
 							<entry key="name" type="string" value="run_sequence"/>
-							<entry key="notify_unit_id" type="number" value="500930"/>
-							<entry key="notify_unit_sequence" type="string" value="state_vis_hide_container"/>
-							<entry key="time" type="number" value="0"/>
-						</entry>
-						<entry index="3" type="table">
-							<entry key="name" type="string" value="run_sequence"/>
-							<entry key="notify_unit_id" type="number" value="500930"/>
-							<entry key="notify_unit_sequence" type="string" value="redi_jry_hover"/>
+							<entry key="notify_unit_id" type="number" value="501601"/>
+							<entry key="notify_unit_sequence" type="string" value="flyin_fwd_hover"/>
 							<entry key="time" type="number" value="0"/>
 						</entry>
 					</entry>

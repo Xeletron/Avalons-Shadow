@@ -1973,9 +1973,20 @@
 		<unit path="units/pd2_indiana/props/mus_prop_chivalry_weapons/mus_prop_chivalry_weapon_broadsword" unload="true"/>
 	</add>
 	<add path="units/payday2/props/gen_prop_square_goal_marker_4x15/gen_prop_square_goal_marker_4x15" type="unit">
-		<unit path="units/payday2/props/gen_prop_square_goal_marker_4x15/gen_prop_square_goal_marker_4x15" unload="true"/>
-		<object path="units/payday2/props/gen_prop_square_goal_marker_4x15/gen_prop_square_goal_marker_4x15" unload="true"/>
 		<material_config path="units/payday2/props/gen_prop_square_goal_marker_4x15/gen_prop_square_goal_marker_4x15" unload="true"/>
+		<object path="units/payday2/props/gen_prop_square_goal_marker_4x15/gen_prop_square_goal_marker_4x15" unload="true"/>
 		<sequence_manager path="units/payday2/props/gen_prop_square_goal_marker_4x15/gen_prop_square_goal_marker_4x15" unload="true"/>
+		<unit path="units/payday2/props/gen_prop_square_goal_marker_4x15/gen_prop_square_goal_marker_4x15" unload="true"/>
+	</add>
+	<add path="units/pd2_dlc_arena/vehicles/are_vehicle_blackhawk/are_vehicle_blackhawk" type="unit">
+		<unit path="units/pd2_dlc_arena/vehicles/are_vehicle_blackhawk/are_vehicle_blackhawk" unload="true"/>
+		<animation_state_machine path="anims/units/helicopter/helicopter" unload="true"/>
+		<animation_states path="anims/units/helicopter/std" unload="true"/>
+		<object path="units/pd2_dlc_arena/vehicles/are_vehicle_blackhawk/are_vehicle_blackhawk" unload="true"/>
+		<animation_def path="anims/units/helicopter/helicopter" unload="true"/>
+		<animation_subset path="anims/units/helicopter/std" unload="true"/>
+		<material_config path="units/pd2_dlc_arena/vehicles/are_vehicle_blackhawk/are_vehicle_blackhawk" unload="true"/>
+		<sequence_manager path="units/pd2_dlc_arena/vehicles/are_vehicle_blackhawk/are_vehicle_blackhawk" unload="true"/>
+		<material_config path="units/payday2/props/dest_glass/glass_shatter" unload="true"/>
 	</add>
 </table>
