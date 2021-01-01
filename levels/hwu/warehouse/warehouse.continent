@@ -4461,7 +4461,7 @@
 			<unit_data _prev_pos="-6589.29 1424.07 203.461" _prev_rot="0 0 -8.9407e-008 -1" continent="warehouse" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="1287.25 359.74 103.461" local_rot="0 0 0.707107 0.707107" name="units/payday2/props/ind_prop_warehouse_set/ind_prop_warehouse_pallet_stack_b" name_id="ind_prop_warehouse_pallet_stack_b_001" position="-6589.29 1424.07 203.461" rotation="0 0 -8.9407e-008 -1" unit_id="301330"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-6644.32 1417.44 0" _prev_rot="0 0 -1.3411e-007 -1" continent="warehouse" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="-2106.21 -660.891 -118" local_rot="0 0 -0.25038 0.968148" mesh_variation="state_interaction_enabled" name="units/pd2_dlc1/equipment/ind_interactable_shipping_crate_2x1x1m/ind_interactable_shipping_crate_2x1x1m" name_id="ind_interactable_shipping_crate_2x1x1m_001" position="-6644.32 1417.44 0" rotation="0 0 -1.3411e-007 -1" unit_id="301331"/>
+			<unit_data _prev_pos="-6644.32 1417.44 0" _prev_rot="-0 0 -0 -1" _visibility_counter="0" continent="warehouse" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="state_interaction_enabled" name="units/pd2_dlc1/equipment/ind_interactable_shipping_crate_2x1x1m/ind_interactable_shipping_crate_2x1x1m" name_id="ind_interactable_shipping_crate_2x1x1m_001" position="-6644.32 1417.44 0" rotation="-0 0 -0 -1" unit_id="301331"/>
 		</table>
 		<table>
 			<unit_data _prev_pos="-6475.78 1419.58 48.455" _prev_rot="0.415627 0.415627 -0.572062 -0.572061" _visibility_counter="0" continent="warehouse" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="-6604.58 -1685.78 48.455" local_rot="0 -0.587785 0.809017 -7.15256e-007" name="units/payday2/props/ind_prop_warehouse_set/ind_prop_warehouse_pallet" name_id="ind_prop_warehouse_pallet_002" position="-6475.78 1419.58 48.455" rotation="0.415627 0.415627 -0.572062 -0.572061" unit_id="301332"/>
@@ -10848,12 +10848,6 @@
 			<unit_data _prev_pos="-6111.27 -3097.62 1.86265e-007" _prev_rot="0 0 -0 -1" continent="warehouse" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="enable_interaction" name="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_special_gold" name_id="bnk_prop_vault_loot_special_gold_003" position="-6111.27 -3097.62 0" rotation="-0 0 -0 -1" unit_id="303362"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-5448.25 -3439.46 0" _prev_rot="0 0 0.995396 -0.0958456" _visibility_counter="0" continent="warehouse" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="show_and_enable_interaction" name="units/payday2/pickups/gen_pku_money_luggage/gen_pku_luggage_money_pile" name_id="gen_pku_luggage_money_pile_002" position="-5448.25 -3439.46 0" rotation="0 0 0.995396 -0.0958456" unit_id="303363"/>
-		</table>
-		<table>
-			<unit_data _prev_pos="-5448.26 -3439.41 1.778" _prev_rot="0 0 0.995396 -0.0958456" _visibility_counter="0" continent="warehouse" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="3.64501e-005 -0.0509927 1.778" local_rot="0 0 1.49012e-008 1" mesh_variation="show_and_enable_interaction" name="units/payday2/pickups/gen_pku_money_luggage/gen_pku_money_luggage" name_id="gen_pku_money_luggage_003" position="-5448.26 -3439.41 1.778" rotation="0 0 0.995396 -0.0958456" unit_id="303364"/>
-		</table>
-		<table>
 			<unit_data _prev_pos="-5425.21 -3211.05 0" _prev_rot="0 0 0 -1" continent="warehouse" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="-3283.89 -5300.09 -118" local_rot="0 0 -0.25038 0.968148" name="units/world/props/yacht/luggage/lxy_prop_luggage_portfolio" name_id="lxy_prop_luggage_portfolio_001" position="-5425.21 -3211.05 0" rotation="0 0 0 -1" unit_id="303365"/>
 		</table>
 		<table>
@@ -10893,7 +10887,7 @@
 			<unit_data _prev_pos="-6212.56 -857.012 152.811" _prev_rot="0 0 -0.477159 -0.878817" continent="warehouse" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="enable_interaction" name="units/payday2/equipment/ind_interactable_hardcase_loot/ind_interactable_hardcase_loot_money" name_id="ind_interactable_hardcase_loot_money_015" position="-6210.68 -852.274 152.811" rotation="0 0 -0.477159 -0.878817" unit_id="303377"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-5328.36 1226.6 126.933" _prev_rot="0 0 -0 -1" continent="warehouse" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="enable_interaction" name="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_special_gold" name_id="bnk_prop_vault_loot_special_gold_006" position="-5320.37 1232.6 126.933" rotation="-0 0 -0 -1" unit_id="303378"/>
+			<unit_data _prev_pos="-5320.37 1232.6 126.933" _prev_rot="0 0 0 -1" continent="warehouse" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="show_and_enable_interaction" name="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_special_gold" name_id="bnk_prop_vault_loot_special_gold_006" position="-5320.37 1232.6 126.933" rotation="-0 0 -0 -1" unit_id="303378"/>
 		</table>
 		<table>
 			<unit_data _prev_pos="-8334.73 -216.085 77.8106" _prev_rot="0 0 -0 -1" continent="warehouse" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="enable_interaction" name="units/payday2/equipment/ind_interactable_hardcase_loot/ind_interactable_hardcase_loot_money" name_id="ind_interactable_hardcase_loot_money_016" position="-8334.73 -216.085 77.811" rotation="-0 0 -0 -1" unit_id="303379"/>
@@ -11499,10 +11493,10 @@
 			<unit_data _prev_pos="-9372.32 -4137.96 -414" _prev_rot="-0.5 0.5 -0.5 -0.5" _visibility_counter="0" continent="warehouse" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="842.48 -8109.22 1586" local_rot="0.624338 0.331967 0.624338 -0.331967" name="units/pd2_dlc_berry/architecture/bry_mountain_interiors/bry_mountain_concrete_solid_wall" name_id="bry_mountain_concrete_solid_wall_030" position="-9372.32 -4137.96 -414" rotation="-0.5 0.5 -0.5 -0.5" unit_id="302776"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-6645.87 1412.38 30" _prev_rot="-0 0 -0 -1" continent="warehouse" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="disable_interaction" name="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_special_gold" name_id="bnk_prop_vault_loot_special_gold_008" position="-6645.87 1412.38 30" rotation="-0 0 -0 -1" unit_id="303539"/>
+			<unit_data _prev_pos="-6645.87 1412.38 30" _prev_rot="0 0 0 -1" continent="warehouse" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="-1.55029 -5.05994 30" local_rot="-0 0 0 1" mesh_variation="disable_interaction" name="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_special_gold" name_id="bnk_prop_vault_loot_special_gold_008" position="-6645.87 1412.38 30" rotation="0 0 -0 -1" unit_id="303539"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-6645.87 1412.38 30" _prev_rot="0 0 -0 -1" continent="warehouse" local_pos="-1.55029 -5.05994 30" local_rot="0 0 0 1" mesh_variation="" name="units/payday2/equipment/ind_interactable_hardcase_loot/ind_interactable_hardcase_loot_money" name_id="ind_interactable_hardcase_loot_money_017" position="-6645.87 1412.38 30" rotation="0 0 -0 -1" unit_id="303540"/>
+			<unit_data _prev_pos="-6645.87 1412.38 30" _prev_rot="0 0 0 -1" continent="warehouse" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="-1.55029 -5.05994 30" local_rot="-0 0 0 1" mesh_variation="" name="units/payday2/equipment/ind_interactable_hardcase_loot/ind_interactable_hardcase_loot_money" name_id="ind_interactable_hardcase_loot_money_017" position="-6645.87 1412.38 30" rotation="0 0 -0 -1" unit_id="303540"/>
 		</table>
 		<table>
 			<unit_data _prev_pos="-5268.66 1795.09 203.457" _prev_rot="0 0 0 -1" continent="warehouse" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="-719.946 -997.523 85.457" local_rot="0 0 -0.25038 0.968148" mesh_variation="state_interaction_enabled" name="units/pd2_dlc1/equipment/ind_interactable_shipping_crate_2x1x1m/ind_interactable_shipping_crate_2x1x1m" name_id="ind_interactable_shipping_crate_2x1x1m_002" position="-5268.66 1795.09 203.457" rotation="0 0 0 -1" unit_id="301319"/>
@@ -11803,10 +11797,10 @@
 			</unit_data>
 		</table>
 		<table>
-			<unit_data _prev_pos="-33.5461 2804.45 622.499" _prev_rot="0 0 0.995396 -0.0958456" continent="warehouse" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="-0.00016751 0.0510181 -1.77795" local_rot="0 0 0 1" mesh_variation="show_and_enable_interaction" name="units/payday2/pickups/gen_pku_money_luggage/gen_pku_luggage_money_pile" name_id="gen_pku_luggage_money_pile_003" position="-33.5461 2804.45 616.222" rotation="0 0 0.995396 -0.0958456" unit_id="303396"/>
+			<unit_data _prev_pos="-33.546 2804.45 616.222" _prev_rot="0 0 0.995396 -0.0958457" continent="warehouse" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="-0.000264869 0.0510371 -1.77802" local_rot="0 0 1.49012e-008 1" mesh_variation="disable_interaction" name="units/payday2/pickups/gen_pku_money_luggage/gen_pku_luggage_money_pile" name_id="gen_pku_luggage_money_pile_003" position="-33.546 2804.45 616.222" rotation="0 0 0.995396 -0.0958457" unit_id="303396"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-33.556 2804.5 624.277" _prev_rot="0 0 0.995396 -0.0958456" continent="warehouse" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="show_and_enable_interaction" name="units/payday2/pickups/gen_pku_money_luggage/gen_pku_money_luggage" name_id="gen_pku_money_luggage_004" position="-33.556 2804.5 618" rotation="0 0 0.995396 -0.0958456" unit_id="303622"/>
+			<unit_data _prev_pos="-33.556 2804.5 618" _prev_rot="0 0 0.995396 -0.0958456" continent="warehouse" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="show_and_enable_interaction" name="units/payday2/pickups/gen_pku_money_luggage/gen_pku_money_luggage" name_id="gen_pku_money_luggage_004" position="-33.556 2804.5 618" rotation="0 0 0.995396 -0.0958456" unit_id="303622"/>
 		</table>
 		<table>
 			<unit_data _prev_pos="-8925 -4905 -1845" _prev_rot="-0 0 -0 -1" continent="warehouse" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/gen_prop_small_lamp/gen_prop_small_lamp" name_id="gen_prop_small_lamp_018" position="-8925 -4909 -1845" rotation="-0 0 -0 -1" unit_id="302313"/>
@@ -11840,6 +11834,15 @@
 		</table>
 		<table>
 			<unit_data _prev_pos="-5454.73 -1245.22 30" _prev_rot="0 0 0 -1" continent="warehouse" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="-1.55029 -5.05994 30" local_rot="-0 0 0 1" mesh_variation="disable_interaction" name="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_special_gold" name_id="bnk_prop_vault_loot_special_gold_022" position="-5454.73 -1245.22 30" rotation="0 0 -0 -1" unit_id="302900"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-5448.26 -3439.41 1.778" _prev_rot="0 0 0.995396 -0.0958456" continent="warehouse" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="show_and_enable_interaction" name="units/payday2/pickups/gen_pku_money_luggage/gen_pku_money_luggage" name_id="gen_pku_money_luggage_005" position="-5448.26 -3439.41 1.778" rotation="0 0 0.995396 -0.0958456" unit_id="303363"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-33.546 2804.45 616.222" _prev_rot="0 0 0.995396 -0.0958457" continent="warehouse" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="-3.64482e-005 0.0509927 -1.77802" local_rot="0 0 1.49012e-008 1" mesh_variation="disable_interaction" name="units/payday2/pickups/gen_pku_money_luggage/gen_pku_luggage_money_pile" name_id="gen_pku_luggage_money_pile_004" position="-5448.25 -3439.46 -1.51396e-005" rotation="0 0 0.995396 -0.0958457" unit_id="303536"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-10951.2 -9910.92 -2460" _prev_rot="0 0 0.707107 -0.707107" continent="warehouse" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="state_interaction_enabled" name="units/pd2_dlc1/equipment/ind_interactable_shipping_crate/ind_interactable_shipping_crate" name_id="ind_interactable_shipping_crate_023" position="-10951.2 -9910.92 -2460" rotation="0 0 0 -1" unit_id="303537"/>
 		</table>
 	</statics>
 	<values>

@@ -1,0 +1,28 @@
+<table>
+	<unit>
+		<body name="'body_collision_01'">
+			<endurance bullet="2" explosion="1" melee="0.5">
+				<run_sequence name="'seq_break_glass_01'"/>
+			</endurance>
+		</body>
+		<sequence editable_state="false" name="'seq_break_glass_01'" once="true" triggable="false">
+			<body enabled="false" name="'body_collision_01'"/>
+			<decal_mesh enabled="false" name="'dm_glass_breakable_01'"/>
+			<object enabled="false" name="'g_glass_01'"/>
+			<effect name="'effects/payday2/particles/window/storefront_window_large'" parent="object( 'e_glass_01' )" position="v()"/>
+			<sound action="'play'" event="'window_medium_shatter'" object="'e_glass_01'"/>
+		</sequence>
+		<body name="'body_collision_02'">
+			<endurance bullet="2" explosion="1" melee="0.5">
+				<run_sequence name="'seq_break_glass_02'"/>
+			</endurance>
+		</body>
+		<sequence editable_state="false" name="'seq_break_glass_02'" once="true" triggable="false">
+			<body enabled="false" name="'body_collision_02'"/>
+			<decal_mesh enabled="false" name="'dm_glass_breakable_02'"/>
+			<object enabled="false" name="'g_glass_02'"/>
+			<effect name="'effects/payday2/particles/window/storefront_window_large'" parent="object( 'e_glass_02' )" position="v()"/>
+			<sound action="'play'" event="'window_medium_shatter'" object="'e_glass_02'"/>
+		</sequence>
+	</unit>
+</table>
