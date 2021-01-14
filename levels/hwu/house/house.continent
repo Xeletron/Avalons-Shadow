@@ -1307,7 +1307,7 @@
 			<unit_data _prev_pos="-765.31 -1625.18 20" _prev_rot="0 0 0 -1" continent="house" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="-1065.31 -1855.18 -100" local_rot="-0 0 -8.9407e-008 1" name="units/world/vegetation/jungle/thinbranchtree_02" name_id="thinbranchtree_02_002" position="-765.311 -1625.18 20" rotation="0 0 8.9407e-008 -1" unit_id="400343"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-774 -1949 20.0004" _prev_rot="0 0 0 -1" continent="house" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="-1074 -2179 -99.9996" local_rot="-0 0 -8.9407e-008 1" name="units/payday2/vegetation/str_veg_bush_dense/str_veg_bush_dense_a" name_id="str_veg_bush_dense_a_005" position="-774.001 -1949 20.0004" rotation="0 0 8.9407e-008 -1" unit_id="400344"/>
+			<unit_data _prev_pos="-774.001 -1949 20" _prev_rot="0 0 0 -1" _visibility_counter="0" continent="house" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/vegetation/str_veg_bush_dense/str_veg_bush_dense_a" name_id="str_veg_bush_dense_a_005" position="-774.001 -1949 20" rotation="0 0 0 -1" unit_id="400344"/>
 		</table>
 		<table>
 			<unit_data _prev_pos="-1230 1070 880" _prev_rot="0 0 0.707107 -0.707107" continent="house" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="-1530 840 760" local_rot="-0 0 -0.707107 0.707107" name="units/world/architecture/diamondheist/props/diamondheist_roof_suncells_02" name_id="diamondheist_roof_suncells_02_001" position="-1230 1070 880" rotation="0 0 0.707107 -0.707107" unit_id="400346"/>
@@ -3936,10 +3936,7 @@
 			<unit_data _prev_pos="-2023.18 1509.97 20" _prev_rot="0 0 0.707107 -0.707107" continent="house" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="-1879.97 1228.56 -450" local_rot="-0 0 -0.707107 0.707107" name="units/world/props/mansion/man_cover_int_shipping_crate_wide/man_cover_int_shipping_crate_wide" name_id="man_cover_int_shipping_crate_wide_052" position="-2023.18 1509.97 20" rotation="0 0 0.707107 -0.707107" unit_id="401158"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-2432.26 1669.1 19.9998" _prev_rot="0 0 0.951057 -0.309017" continent="house" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/nature/pnau/pnau_boulders/pna_ext_landscape_boulder_c" name_id="pna_ext_landscape_boulder_c_009" position="-2432.26 1669.1 2.9998" rotation="0 0 0.951057 -0.309017" unit_id="401159"/>
-		</table>
-		<table>
-			<unit_data _prev_pos="-2502.81 2239.69 20" _prev_rot="0 0 -0.649448 -0.760406" continent="house" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_casino/vegetation/sfm_veg_tree_canarypalm/sfm_veg_tree_canarypalm_large" name_id="sfm_veg_tree_canarypalm_large_006" position="-2437.23 1100.4 20" rotation="0 0 -0.649448 -0.760406" unit_id="401160"/>
+			<unit_data _prev_pos="-2619.12 1230.46 20" _prev_rot="0 0 -0.649448 -0.760406" continent="house" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_casino/vegetation/sfm_veg_tree_canarypalm/sfm_veg_tree_canarypalm_large" name_id="sfm_veg_tree_canarypalm_large_006" position="-2549.99 1219.51 20" rotation="0 0 -0.649448 -0.760406" unit_id="401160"/>
 		</table>
 		<table>
 			<unit_data _prev_pos="1564.49 2989.64 20.0002" _prev_rot="2.98023e-008 2.98023e-008 -0.649448 -0.760406" continent="house" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="-3844.12 -2584.88 473.382" local_rot="0.0464217 -0.0396479 0.758988 -0.648237" name="units/pd2_dlc_casino/vegetation/sfm_veg_tree_canarypalm/sfm_veg_tree_canarypalm_medium" name_id="sfm_veg_tree_canarypalm_medium_006" position="1564.49 2989.64 20.0002" rotation="2.98023e-008 2.98023e-008 -0.649448 -0.760406" unit_id="401161"/>
@@ -4042,6 +4039,12 @@
 		</table>
 		<table>
 			<unit_data _prev_pos="-416.281 1020.57 120" _prev_rot="-0 0 -0 -1" continent="house" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="show_and_enable_interaction" name="units/payday2/pickups/gen_pku_bucket_of_money/gen_pku_bucket_of_money" name_id="gen_pku_bucket_of_money_001" position="-568.281 1020.57 120" rotation="-0 0 -0 -1" unit_id="401190"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-410.015 1106.5 515.62" _prev_rot="0 0 0.707107 -0.707107" continent="house" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="show_and_enable_interaction" name="units/payday2/pickups/gen_pku_bucket_of_money/gen_pku_bucket_of_money" name_id="gen_pku_bucket_of_money_012" position="-386.015 1106.5 515.62" rotation="0 0 0.707107 -0.707107" unit_id="401191"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-2454.4 1673.53 19.9996" _prev_rot="0 0 0 -1" continent="house" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/vegetation/str_veg_bush_dense/str_veg_bush_dense_a" name_id="str_veg_bush_dense_a_006" position="-2454.4 1723.53 19.9996" rotation="0 0 0 -1" unit_id="401192"/>
 		</table>
 	</statics>
 	<values>
