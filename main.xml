@@ -59,7 +59,7 @@
 	<Localization default="english.txt" directory="loc">
 		<loc file="english.txt" language="english"/>
 	</Localization>
-	<level ai_group_type="America" briefing_dialog="" ghost_bonus="0.7" id="hwu" intro_event="" max_bags="54" orig_id="hwu" player_style="generic">
+	<level ai_group_type="America" briefing_dialog="" ghost_bonus="0.4" id="hwu" intro_event="" max_bags="54" orig_id="hwu" player_style="generic">
 		<add file="levels/hwu/add.xml"/>
 		<assets>
 			<asset name="bodybags_bag"/>
@@ -125,13 +125,13 @@
 			<table level_id="hwu" type="d" type_id="heist_type_assault"/>
 		</chain>
 		<contract_cost>
-			<value_node value="4000"/>
-			<value_node value="8000"/>
-			<value_node value="20000"/>
-			<value_node value="40000"/>
-			<value_node value="100000"/>
-			<value_node value="100000"/>
-			<value_node value="100000"/>
+			<value_node value="62000"/>
+			<value_node value="124000"/>
+			<value_node value="310000"/>
+			<value_node value="620000"/>
+			<value_node value="800000"/>
+			<value_node value="800000"/>
+			<value_node value="800000"/>
 		</contract_cost>
 		<crimenet_callouts>
 			<value_node value="nothing"/>
@@ -152,31 +152,31 @@
 			<value_node value="3"/>
 		</experience_mul>
 		<max_mission_xp>
-			<value_node value="8000"/>
-			<value_node value="8000"/>
-			<value_node value="8000"/>
-			<value_node value="8000"/>
-			<value_node value="8000"/>
-			<value_node value="8000"/>
-			<value_node value="8000"/>
+			<value_node value="67500"/>
+			<value_node value="67500"/>
+			<value_node value="67500"/>
+			<value_node value="67500"/>
+			<value_node value="67500"/>
+			<value_node value="67500"/>
+			<value_node value="67500"/>
 		</max_mission_xp>
 		<min_mission_xp>
-			<value_node value="2000"/>
-			<value_node value="2000"/>
-			<value_node value="2000"/>
-			<value_node value="2000"/>
-			<value_node value="2000"/>
-			<value_node value="2000"/>
-			<value_node value="2000"/>
+			<value_node value="4000"/>
+			<value_node value="4000"/>
+			<value_node value="4000"/>
+			<value_node value="4000"/>
+			<value_node value="4000"/>
+			<value_node value="4000"/>
+			<value_node value="4000"/>
 		</min_mission_xp>
 		<payout>
-			<value_node value="6000"/>
-			<value_node value="12000"/>
-			<value_node value="30000"/>
+			<value_node value="10000"/>
+			<value_node value="20000"/>
 			<value_node value="50000"/>
-			<value_node value="60000"/>
-			<value_node value="60000"/>
-			<value_node value="60000"/>
+			<value_node value="100000"/>
+			<value_node value="130000"/>
+			<value_node value="130000"/>
+			<value_node value="130000"/>
 		</payout>
 	</narrative>
 </table>
