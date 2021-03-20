@@ -55,14 +55,14 @@
 		</include>
 		<packages/>
 	</instance>
-	<AssetUpdates id="-1" provider="modworkshop" use_local_dir="true" version="1"/>
-	<Localization default="english.txt" directory="loc">
-		<loc file="english.txt" language="english"/>
-	</Localization>
 	<AddFiles directory="assets">
 		<texture force="true" path="guis/dlcs/pic/textures/loading/job_hwu"/>
 		<texture force="true" path="guis/dlcs/pic/textures/icon/job_hwu"/>
 	</AddFiles>
+	<AssetUpdates id="-1" provider="modworkshop" use_local_dir="true" version="1"/>
+	<Localization default="english.txt" directory="loc">
+		<loc file="english.txt" language="english"/>
+	</Localization>
 	<Sounds directory="assets/vo">
 		<sound id="hwu_1_start" path="1_1_start.ogg" subtitle_id="hwu_1_start_sub"/>
 		<sound id="hwu_1_laptop" path="1_1_laptop.ogg" subtitle_id="hwu_1_laptop_sub"/>

@@ -2120,9 +2120,16 @@
 				</entry>
 			</entry>
 			<entry key="unit_data" type="table">
+				<entry key="_prev_pos" type="vector3" value="-5738.36 -1752.66 400.5"/>
+				<entry key="_prev_rot" type="quaternion" value="0 0 0 -1"/>
 				<entry key="continent" type="string" value="editor_only"/>
-				<entry key="local_pos" type="vector3" value="0 0 0"/>
-				<entry key="local_rot" type="quaternion" value="0 0 0 1"/>
+				<entry key="delayed_load" type="boolean" value="false"/>
+				<entry key="disable_collision" type="boolean" value="false"/>
+				<entry key="disable_on_ai_graph" type="boolean" value="false"/>
+				<entry key="disable_shadows" type="boolean" value="false"/>
+				<entry key="hide_on_projection_light" type="boolean" value="false"/>
+				<entry key="local_pos" type="vector3" value="179.29 -197.62 -78.15"/>
+				<entry key="local_rot" type="quaternion" value="-0 0 0 1"/>
 				<entry key="name" type="string" value="core/units/nav_surface/nav_surface"/>
 				<entry key="name_id" type="string" value="nav_surface_102"/>
 				<entry key="position" type="vector3" value="-5738.36 -1752.66 400.5"/>
@@ -5403,9 +5410,7 @@
 					<entry index="100062" type="boolean" value="true"/>
 					<entry index="100116" type="boolean" value="true"/>
 					<entry index="100250" type="boolean" value="true"/>
-					<entry index="100442" type="boolean" value="true"/>
 					<entry index="100683" type="boolean" value="true"/>
-					<entry index="100773" type="boolean" value="true"/>
 					<entry index="303290" type="boolean" value="true"/>
 					<entry index="303291" type="boolean" value="true"/>
 					<entry index="303381" type="boolean" value="true"/>
@@ -5483,7 +5488,6 @@
 					<entry index="400155" type="boolean" value="true"/>
 					<entry index="400157" type="boolean" value="true"/>
 					<entry index="400172" type="boolean" value="true"/>
-					<entry index="400200" type="boolean" value="true"/>
 					<entry index="400201" type="boolean" value="true"/>
 					<entry index="400205" type="boolean" value="true"/>
 					<entry index="400206" type="boolean" value="true"/>
@@ -5753,7 +5757,6 @@
 					<entry index="400988" type="boolean" value="true"/>
 					<entry index="400989" type="boolean" value="true"/>
 					<entry index="400990" type="boolean" value="true"/>
-					<entry index="400991" type="boolean" value="true"/>
 					<entry index="400992" type="boolean" value="true"/>
 					<entry index="400999" type="boolean" value="true"/>
 					<entry index="401000" type="boolean" value="true"/>
@@ -8816,7 +8819,6 @@
 					<entry index="301794" type="boolean" value="true"/>
 					<entry index="301795" type="boolean" value="true"/>
 					<entry index="301796" type="boolean" value="true"/>
-					<entry index="301797" type="boolean" value="true"/>
 					<entry index="301798" type="boolean" value="true"/>
 					<entry index="301799" type="boolean" value="true"/>
 					<entry index="301800" type="boolean" value="true"/>
@@ -8913,23 +8915,18 @@
 					<entry index="302038" type="boolean" value="true"/>
 					<entry index="302045" type="boolean" value="true"/>
 					<entry index="302046" type="boolean" value="true"/>
-					<entry index="302047" type="boolean" value="true"/>
 					<entry index="302048" type="boolean" value="true"/>
 					<entry index="302050" type="boolean" value="true"/>
-					<entry index="302051" type="boolean" value="true"/>
 					<entry index="302052" type="boolean" value="true"/>
 					<entry index="302053" type="boolean" value="true"/>
 					<entry index="302073" type="boolean" value="true"/>
-					<entry index="302074" type="boolean" value="true"/>
 					<entry index="302075" type="boolean" value="true"/>
 					<entry index="302081" type="boolean" value="true"/>
-					<entry index="302082" type="boolean" value="true"/>
 					<entry index="302092" type="boolean" value="true"/>
 					<entry index="302093" type="boolean" value="true"/>
 					<entry index="302094" type="boolean" value="true"/>
 					<entry index="302095" type="boolean" value="true"/>
 					<entry index="302096" type="boolean" value="true"/>
-					<entry index="302099" type="boolean" value="true"/>
 					<entry index="302100" type="boolean" value="true"/>
 					<entry index="302107" type="boolean" value="true"/>
 					<entry index="302108" type="boolean" value="true"/>
