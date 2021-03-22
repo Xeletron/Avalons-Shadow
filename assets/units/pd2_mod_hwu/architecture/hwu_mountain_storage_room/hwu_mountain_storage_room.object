@@ -52,7 +52,19 @@
 
             <object name="c_box_40" collision_type="box" padding="-2.5"/>
             <object name="c_box_41" collision_type="box" padding="-2.5"/>
+            <object name="c_box_42" collision_type="box" padding="-2.5"/>
+            <object name="c_box_43" collision_type="box" padding="-2.5"/>
+            <object name="c_box_44" collision_type="box" padding="-2.5"/>
+            <object name="c_box_45" collision_type="box" padding="-2.5"/>
+            <object name="c_box_46" collision_type="box" padding="-2.5"/>
+            <object name="c_box_47" collision_type="box" padding="-2.5"/>
+            <object name="c_box_48" collision_type="box" padding="-2.5"/>
+            <object name="c_box_49" collision_type="box" padding="-2.5"/>
         </body>
+        <body name="body_nav_walk" add_ray_type="ai_vision" enabled="true" template="nav_walk">
+			<object name="rp_hwu_mountain_storage_room" />
+			<object name="c_nav_walk_01" collision_type="mesh_mopp" />
+		</body>
         <body name="body_collision_01" enabled="true" template="static">
 			<object name="e_glass_01" />
 			<object name="c_glass_01" collision_type="box" padding="-2.5" />

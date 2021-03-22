@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<dynamic_object>
+  <diesel materials="units/world/architecture/gym/gym_wall_fence/wall_fence" orientation_object="rp_gym_wall_fence_20" />
+  <bodies>
+    <body name="static_body" enabled="true" template="static">
+      <object name="rp_gym_wall_fence_20" />
+      <object name="c_gym_wall_fence_20_mesh_mopp" collision_type="mesh_mopp" />
+    </body>
+    <body name="mover_blocker" enabled="true" template="fence">
+      <object name="g_gym_wall_fence_20" collision_type="mesh_mopp" />
+    </body>
+  </bodies>
+  <decal_surfaces default_material="metal">
+    <decal_mesh name="g_gym_wall_fence_20" enabled="true" material="metal"/>
+  </decal_surfaces>
+  <graphics>
+    <object name="g_gym_wall_fence_20" enabled="true" shadow_caster="true" />
+  </graphics>
+</dynamic_object>
