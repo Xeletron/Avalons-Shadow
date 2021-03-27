@@ -5,12 +5,30 @@
         <body name="static_body" template="static" enabled="true" >
             <object name="rp_hwu_mountain_ground"/>
             <object collision_type="mesh_mopp" name="c_mesh_mopp_01"/>
+            <object collision_type="mesh_mopp" name="c_mesh_mopp_02"/>
 
             <object name="c_box_01" collision_type="box" padding="-2.5"/>
             <object name="c_box_02" collision_type="box" padding="-2.5"/>
             <object name="c_box_03" collision_type="box" padding="-2.5"/>
             <object name="c_box_04" collision_type="box" padding="-2.5"/>
+
+            <object name="c_convex_01" collision_type="convex"/>
+            <object name="c_convex_02" collision_type="convex"/>
+            <object name="c_convex_03" collision_type="convex"/>
+            <object name="c_convex_04" collision_type="convex"/>
+            <object name="c_convex_05" collision_type="convex"/>
+            <object name="c_convex_06" collision_type="convex"/>
+            <object name="c_convex_07" collision_type="convex"/>
+            <object name="c_convex_08" collision_type="convex"/>
+            <object name="c_convex_09" collision_type="convex"/>
         </body>
+        <body name="body_nav_walk" add_ray_type="ai_vision" enabled="true" template="nav_walk">
+			<object name="rp_hwu_mountain_ground" />
+			<object name="c_nav_walk_01" collision_type="mesh_mopp" />
+            <object name="c_nav_walk_02" collision_type="mesh_mopp" />
+            <object name="c_nav_walk_03" collision_type="mesh_mopp" />
+            <object name="c_nav_walk_04" collision_type="mesh_mopp" />
+		</body>
     </bodies>
 
     <decal_surfaces default_material="concrete" static="true">
@@ -18,7 +36,8 @@
 	</decal_surfaces>
 
     <graphics>
-        <object enabled="true" name="g_g"/>
+        <object enabled="true" name="g_ground"/>
+        <object enabled="true" name="g_concrete"/>
         <object enabled="true" name="s_s" shadow_caster="true"/>
     </graphics>
 </dynamic_object> 

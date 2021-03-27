@@ -1898,8 +1898,23 @@
 		<unit path="units/payday2/architecture/ind/ind_ext_harbour/ind_ext_harbour_side_4m_corner_out" unload="true"/>
 	</add>
 	<add path="units/payday2/props/air_prop_runway_fence/air_prop_runway_fence_b" type="unit">
-		<unit path="units/payday2/props/air_prop_runway_fence/air_prop_runway_fence_b" unload="true"/>
-		<object path="units/payday2/props/air_prop_runway_fence/air_prop_runway_fence_b" unload="true"/>
 		<material_config path="units/payday2/props/air_prop_runway_fence/air_prop_runway_fence_instanced" unload="true"/>
+		<object path="units/payday2/props/air_prop_runway_fence/air_prop_runway_fence_b" unload="true"/>
+		<unit path="units/payday2/props/air_prop_runway_fence/air_prop_runway_fence_b" unload="true"/>
+	</add>
+	<add path="units/pd2_dlc_berry/architecture/bry_mountain_interiors/bry_mountain_arch_door" type="unit">
+		<material_config path="units/pd2_dlc_berry/architecture/bry_mountain_interiors/bry_mountain_main_interior" unload="true"/>
+		<object path="units/pd2_dlc_berry/architecture/bry_mountain_interiors/bry_mountain_arch_door" unload="true"/>
+		<unit path="units/pd2_dlc_berry/architecture/bry_mountain_interiors/bry_mountain_arch_door" unload="true"/>
+	</add>
+	<add path="units/pd2_dlc_berry/props/bry_prop_mountain_blastdoor/bry_prop_mountain_blastdoor" type="unit">
+		<unit path="units/pd2_dlc_berry/props/bry_prop_mountain_blastdoor/bry_prop_mountain_blastdoor" unload="true"/>
+		<object path="units/pd2_dlc_berry/props/bry_prop_mountain_blastdoor/bry_prop_mountain_blastdoor" unload="true"/>
+		<material_config path="units/pd2_dlc_berry/props/bry_prop_mountain_blastdoor/bry_prop_mountain_blastdoor" unload="true"/>
+		<sequence_manager path="units/pd2_dlc_berry/props/bry_prop_mountain_blastdoor/bry_prop_mountain_blastdoor" unload="true"/>
+		<unit path="units/pd2_dlc_berry/props/bry_prop_mountain_blastdoor/bry_prop_mountain_blastdoor_damage" unload="true"/>
+		<object path="units/pd2_dlc_berry/props/bry_prop_mountain_blastdoor/bry_prop_mountain_blastdoor_damage" unload="true"/>
+		<material_config path="units/pd2_dlc_berry/props/bry_prop_mountain_blastdoor/bry_prop_mountain_blastdoor_damage" unload="true"/>
+		<bnk path="soundbanks/regular_sfx" unload="true"/>
 	</add>
 </table>

@@ -951,59 +951,19 @@
 				</entry>
 			</entry>
 			<entry key="unit_data" type="table">
+				<entry key="_prev_pos" type="vector3" value="1998.58 3040.88 120"/>
+				<entry key="_prev_rot" type="quaternion" value="0 0 0 -1"/>
 				<entry key="continent" type="string" value="editor_only"/>
 				<entry key="local_pos" type="vector3" value="0 0 0"/>
 				<entry key="local_rot" type="quaternion" value="0 0 0 1"/>
 				<entry key="name" type="string" value="core/units/nav_surface/nav_surface"/>
 				<entry key="name_id" type="string" value="nav_surface_047"/>
-				<entry key="position" type="vector3" value="1998.58 3090.88 120"/>
+				<entry key="position" type="vector3" value="1948.58 3040.88 120"/>
 				<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 				<entry key="unit_id" type="number" value="47"/>
 			</entry>
 		</entry>
 		<entry index="46" type="table">
-			<entry key="ai_editor_data" type="table">
-				<entry key="detection_mul" type="number" value="1"/>
-				<entry key="location_id" type="string" value="location_unknown"/>
-				<entry key="suspicion_mul" type="number" value="1"/>
-				<entry key="visibilty_exlude_filter" type="table">
-				</entry>
-				<entry key="visibilty_include_filter" type="table">
-				</entry>
-			</entry>
-			<entry key="unit_data" type="table">
-				<entry key="continent" type="string" value="editor_only"/>
-				<entry key="local_pos" type="vector3" value="0 0 0"/>
-				<entry key="local_rot" type="quaternion" value="0 0 0 1"/>
-				<entry key="name" type="string" value="core/units/nav_surface/nav_surface"/>
-				<entry key="name_id" type="string" value="nav_surface_048"/>
-				<entry key="position" type="vector3" value="3047.43 1733.26 120"/>
-				<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
-				<entry key="unit_id" type="number" value="48"/>
-			</entry>
-		</entry>
-		<entry index="47" type="table">
-			<entry key="ai_editor_data" type="table">
-				<entry key="detection_mul" type="number" value="1"/>
-				<entry key="location_id" type="string" value="location_unknown"/>
-				<entry key="suspicion_mul" type="number" value="1"/>
-				<entry key="visibilty_exlude_filter" type="table">
-				</entry>
-				<entry key="visibilty_include_filter" type="table">
-				</entry>
-			</entry>
-			<entry key="unit_data" type="table">
-				<entry key="continent" type="string" value="editor_only"/>
-				<entry key="local_pos" type="vector3" value="0 0 0"/>
-				<entry key="local_rot" type="quaternion" value="0 0 0 1"/>
-				<entry key="name" type="string" value="core/units/nav_surface/nav_surface"/>
-				<entry key="name_id" type="string" value="nav_surface_049"/>
-				<entry key="position" type="vector3" value="2374.62 3622.75 117.144"/>
-				<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
-				<entry key="unit_id" type="number" value="49"/>
-			</entry>
-		</entry>
-		<entry index="48" type="table">
 			<entry key="ai_editor_data" type="table">
 				<entry key="detection_mul" type="number" value="1"/>
 				<entry key="location_id" type="string" value="location_unknown"/>
@@ -1026,7 +986,7 @@
 				<entry key="unit_id" type="number" value="50"/>
 			</entry>
 		</entry>
-		<entry index="49" type="table">
+		<entry index="47" type="table">
 			<entry key="ai_editor_data" type="table">
 				<entry key="detection_mul" type="number" value="1"/>
 				<entry key="location_id" type="string" value="location_unknown"/>
@@ -1049,7 +1009,7 @@
 				<entry key="unit_id" type="number" value="51"/>
 			</entry>
 		</entry>
-		<entry index="50" type="table">
+		<entry index="48" type="table">
 			<entry key="ai_editor_data" type="table">
 				<entry key="detection_mul" type="number" value="1"/>
 				<entry key="location_id" type="string" value="location_unknown"/>
@@ -1070,7 +1030,7 @@
 				<entry key="unit_id" type="number" value="52"/>
 			</entry>
 		</entry>
-		<entry index="51" type="table">
+		<entry index="49" type="table">
 			<entry key="ai_editor_data" type="table">
 				<entry key="detection_mul" type="number" value="1"/>
 				<entry key="location_id" type="string" value="location_unknown"/>
@@ -1091,7 +1051,7 @@
 				<entry key="unit_id" type="number" value="54"/>
 			</entry>
 		</entry>
-		<entry index="52" type="table">
+		<entry index="50" type="table">
 			<entry key="ai_editor_data" type="table">
 				<entry key="detection_mul" type="number" value="1"/>
 				<entry key="location_id" type="string" value="location_unknown"/>
@@ -1114,7 +1074,7 @@
 				<entry key="unit_id" type="number" value="55"/>
 			</entry>
 		</entry>
-		<entry index="53" type="table">
+		<entry index="51" type="table">
 			<entry key="ai_editor_data" type="table">
 				<entry key="detection_mul" type="number" value="1"/>
 				<entry key="location_id" type="string" value="location_unknown"/>
@@ -1135,7 +1095,7 @@
 				<entry key="unit_id" type="number" value="58"/>
 			</entry>
 		</entry>
-		<entry index="54" type="table">
+		<entry index="52" type="table">
 			<entry key="ai_editor_data" type="table">
 				<entry key="detection_mul" type="number" value="1"/>
 				<entry key="location_id" type="string" value="location_unknown"/>
@@ -1158,7 +1118,7 @@
 				<entry key="unit_id" type="number" value="36"/>
 			</entry>
 		</entry>
-		<entry index="55" type="table">
+		<entry index="53" type="table">
 			<entry key="ai_editor_data" type="table">
 				<entry key="detection_mul" type="number" value="1"/>
 				<entry key="location_id" type="string" value="location_unknown"/>
@@ -1179,7 +1139,7 @@
 				<entry key="unit_id" type="number" value="60"/>
 			</entry>
 		</entry>
-		<entry index="56" type="table">
+		<entry index="54" type="table">
 			<entry key="ai_editor_data" type="table">
 				<entry key="detection_mul" type="number" value="1"/>
 				<entry key="location_id" type="string" value="location_unknown"/>
@@ -1200,7 +1160,7 @@
 				<entry key="unit_id" type="number" value="61"/>
 			</entry>
 		</entry>
-		<entry index="57" type="table">
+		<entry index="55" type="table">
 			<entry key="ai_editor_data" type="table">
 				<entry key="detection_mul" type="number" value="1"/>
 				<entry key="location_id" type="string" value="location_unknown"/>
@@ -1221,7 +1181,7 @@
 				<entry key="unit_id" type="number" value="63"/>
 			</entry>
 		</entry>
-		<entry index="58" type="table">
+		<entry index="56" type="table">
 			<entry key="ai_editor_data" type="table">
 				<entry key="detection_mul" type="number" value="1"/>
 				<entry key="location_id" type="string" value="location_unknown"/>
@@ -1242,7 +1202,7 @@
 				<entry key="unit_id" type="number" value="70"/>
 			</entry>
 		</entry>
-		<entry index="59" type="table">
+		<entry index="57" type="table">
 			<entry key="ai_editor_data" type="table">
 				<entry key="detection_mul" type="number" value="1"/>
 				<entry key="location_id" type="string" value="location_unknown"/>
@@ -1263,7 +1223,7 @@
 				<entry key="unit_id" type="number" value="56"/>
 			</entry>
 		</entry>
-		<entry index="60" type="table">
+		<entry index="58" type="table">
 			<entry key="ai_editor_data" type="table">
 				<entry key="detection_mul" type="number" value="1"/>
 				<entry key="location_id" type="string" value="location_unknown"/>
@@ -1284,7 +1244,7 @@
 				<entry key="unit_id" type="number" value="57"/>
 			</entry>
 		</entry>
-		<entry index="61" type="table">
+		<entry index="59" type="table">
 			<entry key="ai_editor_data" type="table">
 				<entry key="detection_mul" type="number" value="1"/>
 				<entry key="location_id" type="string" value="location_unknown"/>
@@ -1307,7 +1267,7 @@
 				<entry key="unit_id" type="number" value="59"/>
 			</entry>
 		</entry>
-		<entry index="62" type="table">
+		<entry index="60" type="table">
 			<entry key="ai_editor_data" type="table">
 				<entry key="detection_mul" type="number" value="1"/>
 				<entry key="location_id" type="string" value="location_unknown"/>
@@ -1328,7 +1288,7 @@
 				<entry key="unit_id" type="number" value="62"/>
 			</entry>
 		</entry>
-		<entry index="63" type="table">
+		<entry index="61" type="table">
 			<entry key="ai_editor_data" type="table">
 				<entry key="detection_mul" type="number" value="1"/>
 				<entry key="location_id" type="string" value="location_unknown"/>
@@ -1349,7 +1309,7 @@
 				<entry key="unit_id" type="number" value="64"/>
 			</entry>
 		</entry>
-		<entry index="64" type="table">
+		<entry index="62" type="table">
 			<entry key="ai_editor_data" type="table">
 				<entry key="detection_mul" type="number" value="1"/>
 				<entry key="location_id" type="string" value="location_unknown"/>
@@ -1372,7 +1332,7 @@
 				<entry key="unit_id" type="number" value="65"/>
 			</entry>
 		</entry>
-		<entry index="65" type="table">
+		<entry index="63" type="table">
 			<entry key="ai_editor_data" type="table">
 				<entry key="detection_mul" type="number" value="1"/>
 				<entry key="location_id" type="string" value="location_unknown"/>
@@ -1393,7 +1353,7 @@
 				<entry key="unit_id" type="number" value="67"/>
 			</entry>
 		</entry>
-		<entry index="66" type="table">
+		<entry index="64" type="table">
 			<entry key="ai_editor_data" type="table">
 				<entry key="detection_mul" type="number" value="1"/>
 				<entry key="location_id" type="string" value="location_unknown"/>
@@ -1416,7 +1376,7 @@
 				<entry key="unit_id" type="number" value="68"/>
 			</entry>
 		</entry>
-		<entry index="67" type="table">
+		<entry index="65" type="table">
 			<entry key="ai_editor_data" type="table">
 				<entry key="detection_mul" type="number" value="1"/>
 				<entry key="location_id" type="string" value="location_unknown"/>
@@ -1437,7 +1397,7 @@
 				<entry key="unit_id" type="number" value="69"/>
 			</entry>
 		</entry>
-		<entry index="68" type="table">
+		<entry index="66" type="table">
 			<entry key="ai_editor_data" type="table">
 				<entry key="detection_mul" type="number" value="1"/>
 				<entry key="location_id" type="string" value="location_unknown"/>
@@ -1458,7 +1418,7 @@
 				<entry key="unit_id" type="number" value="71"/>
 			</entry>
 		</entry>
-		<entry index="69" type="table">
+		<entry index="67" type="table">
 			<entry key="ai_editor_data" type="table">
 				<entry key="detection_mul" type="number" value="1"/>
 				<entry key="location_id" type="string" value="location_unknown"/>
@@ -1479,7 +1439,7 @@
 				<entry key="unit_id" type="number" value="72"/>
 			</entry>
 		</entry>
-		<entry index="70" type="table">
+		<entry index="68" type="table">
 			<entry key="ai_editor_data" type="table">
 				<entry key="detection_mul" type="number" value="1"/>
 				<entry key="location_id" type="string" value="location_unknown"/>
@@ -1500,7 +1460,7 @@
 				<entry key="unit_id" type="number" value="73"/>
 			</entry>
 		</entry>
-		<entry index="71" type="table">
+		<entry index="69" type="table">
 			<entry key="ai_editor_data" type="table">
 				<entry key="detection_mul" type="number" value="1"/>
 				<entry key="location_id" type="string" value="location_unknown"/>
@@ -1521,7 +1481,7 @@
 				<entry key="unit_id" type="number" value="74"/>
 			</entry>
 		</entry>
-		<entry index="72" type="table">
+		<entry index="70" type="table">
 			<entry key="ai_editor_data" type="table">
 				<entry key="detection_mul" type="number" value="1"/>
 				<entry key="location_id" type="string" value="location_unknown"/>
@@ -1542,7 +1502,7 @@
 				<entry key="unit_id" type="number" value="75"/>
 			</entry>
 		</entry>
-		<entry index="73" type="table">
+		<entry index="71" type="table">
 			<entry key="ai_editor_data" type="table">
 				<entry key="detection_mul" type="number" value="1"/>
 				<entry key="location_id" type="string" value="location_unknown"/>
@@ -1565,7 +1525,7 @@
 				<entry key="unit_id" type="number" value="76"/>
 			</entry>
 		</entry>
-		<entry index="74" type="table">
+		<entry index="72" type="table">
 			<entry key="ai_editor_data" type="table">
 				<entry key="detection_mul" type="number" value="1"/>
 				<entry key="location_id" type="string" value="location_unknown"/>
@@ -1586,7 +1546,7 @@
 				<entry key="unit_id" type="number" value="77"/>
 			</entry>
 		</entry>
-		<entry index="75" type="table">
+		<entry index="73" type="table">
 			<entry key="ai_editor_data" type="table">
 				<entry key="detection_mul" type="number" value="1"/>
 				<entry key="location_id" type="string" value="location_unknown"/>
@@ -1607,7 +1567,7 @@
 				<entry key="unit_id" type="number" value="78"/>
 			</entry>
 		</entry>
-		<entry index="76" type="table">
+		<entry index="74" type="table">
 			<entry key="ai_editor_data" type="table">
 				<entry key="detection_mul" type="number" value="1"/>
 				<entry key="location_id" type="string" value="location_unknown"/>
@@ -1630,7 +1590,7 @@
 				<entry key="unit_id" type="number" value="80"/>
 			</entry>
 		</entry>
-		<entry index="77" type="table">
+		<entry index="75" type="table">
 			<entry key="ai_editor_data" type="table">
 				<entry key="detection_mul" type="number" value="1"/>
 				<entry key="location_id" type="string" value="location_unknown"/>
@@ -1651,7 +1611,7 @@
 				<entry key="unit_id" type="number" value="81"/>
 			</entry>
 		</entry>
-		<entry index="78" type="table">
+		<entry index="76" type="table">
 			<entry key="ai_editor_data" type="table">
 				<entry key="detection_mul" type="number" value="1"/>
 				<entry key="location_id" type="string" value="location_unknown"/>
@@ -1672,6 +1632,52 @@
 				<entry key="unit_id" type="number" value="82"/>
 			</entry>
 		</entry>
+		<entry index="77" type="table">
+			<entry key="ai_editor_data" type="table">
+				<entry key="detection_mul" type="number" value="1"/>
+				<entry key="location_id" type="string" value="location_unknown"/>
+				<entry key="suspicion_mul" type="number" value="1"/>
+				<entry key="visibilty_exlude_filter" type="table">
+				</entry>
+				<entry key="visibilty_include_filter" type="table">
+				</entry>
+			</entry>
+			<entry key="unit_data" type="table">
+				<entry key="_prev_pos" type="vector3" value="-5694.15 -1302.43 9.31323e-007"/>
+				<entry key="_prev_rot" type="quaternion" value="0 0 0 -1"/>
+				<entry key="continent" type="string" value="editor_only"/>
+				<entry key="local_pos" type="vector3" value="0 0 0"/>
+				<entry key="local_rot" type="quaternion" value="0 0 0 1"/>
+				<entry key="name" type="string" value="core/units/nav_surface/nav_surface"/>
+				<entry key="name_id" type="string" value="nav_surface_082"/>
+				<entry key="position" type="vector3" value="-5594.15 -1302.43 9.31323e-007"/>
+				<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+				<entry key="unit_id" type="number" value="83"/>
+			</entry>
+		</entry>
+		<entry index="78" type="table">
+			<entry key="ai_editor_data" type="table">
+				<entry key="detection_mul" type="number" value="1"/>
+				<entry key="location_id" type="string" value="location_unknown"/>
+				<entry key="suspicion_mul" type="number" value="1"/>
+				<entry key="visibilty_exlude_filter" type="table">
+				</entry>
+				<entry key="visibilty_include_filter" type="table">
+				</entry>
+			</entry>
+			<entry key="unit_data" type="table">
+				<entry key="_prev_pos" type="vector3" value="-5670.78 -827.618 9.31323e-007"/>
+				<entry key="_prev_rot" type="quaternion" value="0 0 0 -1"/>
+				<entry key="continent" type="string" value="editor_only"/>
+				<entry key="local_pos" type="vector3" value="0 0 0"/>
+				<entry key="local_rot" type="quaternion" value="0 0 0 1"/>
+				<entry key="name" type="string" value="core/units/nav_surface/nav_surface"/>
+				<entry key="name_id" type="string" value="nav_surface_083"/>
+				<entry key="position" type="vector3" value="-5670.78 -849.618 9.31323e-007"/>
+				<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+				<entry key="unit_id" type="number" value="84"/>
+			</entry>
+		</entry>
 		<entry index="79" type="table">
 			<entry key="ai_editor_data" type="table">
 				<entry key="detection_mul" type="number" value="1"/>
@@ -1683,59 +1689,19 @@
 				</entry>
 			</entry>
 			<entry key="unit_data" type="table">
-				<entry key="continent" type="string" value="editor_only"/>
-				<entry key="local_pos" type="vector3" value="0 0 0"/>
-				<entry key="local_rot" type="quaternion" value="0 0 0 1"/>
-				<entry key="name" type="string" value="core/units/nav_surface/nav_surface"/>
-				<entry key="name_id" type="string" value="nav_surface_082"/>
-				<entry key="position" type="vector3" value="-5694.15 -1302.43 9.31323e-007"/>
-				<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
-				<entry key="unit_id" type="number" value="83"/>
-			</entry>
-		</entry>
-		<entry index="80" type="table">
-			<entry key="ai_editor_data" type="table">
-				<entry key="detection_mul" type="number" value="1"/>
-				<entry key="location_id" type="string" value="location_unknown"/>
-				<entry key="suspicion_mul" type="number" value="1"/>
-				<entry key="visibilty_exlude_filter" type="table">
-				</entry>
-				<entry key="visibilty_include_filter" type="table">
-				</entry>
-			</entry>
-			<entry key="unit_data" type="table">
-				<entry key="continent" type="string" value="editor_only"/>
-				<entry key="local_pos" type="vector3" value="0 0 0"/>
-				<entry key="local_rot" type="quaternion" value="0 0 0 1"/>
-				<entry key="name" type="string" value="core/units/nav_surface/nav_surface"/>
-				<entry key="name_id" type="string" value="nav_surface_083"/>
-				<entry key="position" type="vector3" value="-5715.78 -827.618 9.31323e-007"/>
-				<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
-				<entry key="unit_id" type="number" value="84"/>
-			</entry>
-		</entry>
-		<entry index="81" type="table">
-			<entry key="ai_editor_data" type="table">
-				<entry key="detection_mul" type="number" value="1"/>
-				<entry key="location_id" type="string" value="location_unknown"/>
-				<entry key="suspicion_mul" type="number" value="1"/>
-				<entry key="visibilty_exlude_filter" type="table">
-				</entry>
-				<entry key="visibilty_include_filter" type="table">
-				</entry>
-			</entry>
-			<entry key="unit_data" type="table">
+				<entry key="_prev_pos" type="vector3" value="-6386.23 -3726.33 9.31323e-007"/>
+				<entry key="_prev_rot" type="quaternion" value="0 0 0 -1"/>
 				<entry key="continent" type="string" value="editor_only"/>
 				<entry key="local_pos" type="vector3" value="0 0 0"/>
 				<entry key="local_rot" type="quaternion" value="0 0 0 1"/>
 				<entry key="name" type="string" value="core/units/nav_surface/nav_surface"/>
 				<entry key="name_id" type="string" value="nav_surface_084"/>
-				<entry key="position" type="vector3" value="-6386.72 -3701.23 1.86265e-007"/>
+				<entry key="position" type="vector3" value="-6386.23 -3726.33 9.31323e-007"/>
 				<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 				<entry key="unit_id" type="number" value="85"/>
 			</entry>
 		</entry>
-		<entry index="82" type="table">
+		<entry index="80" type="table">
 			<entry key="ai_editor_data" type="table">
 				<entry key="detection_mul" type="number" value="1"/>
 				<entry key="location_id" type="string" value="location_unknown"/>
@@ -1756,7 +1722,7 @@
 				<entry key="unit_id" type="number" value="86"/>
 			</entry>
 		</entry>
-		<entry index="83" type="table">
+		<entry index="81" type="table">
 			<entry key="ai_editor_data" type="table">
 				<entry key="detection_mul" type="number" value="1"/>
 				<entry key="location_id" type="string" value="location_unknown"/>
@@ -1777,7 +1743,7 @@
 				<entry key="unit_id" type="number" value="87"/>
 			</entry>
 		</entry>
-		<entry index="84" type="table">
+		<entry index="82" type="table">
 			<entry key="ai_editor_data" type="table">
 				<entry key="detection_mul" type="number" value="1"/>
 				<entry key="location_id" type="string" value="location_unknown"/>
@@ -1798,7 +1764,7 @@
 				<entry key="unit_id" type="number" value="88"/>
 			</entry>
 		</entry>
-		<entry index="85" type="table">
+		<entry index="83" type="table">
 			<entry key="ai_editor_data" type="table">
 				<entry key="detection_mul" type="number" value="1"/>
 				<entry key="location_id" type="string" value="location_unknown"/>
@@ -1819,7 +1785,7 @@
 				<entry key="unit_id" type="number" value="89"/>
 			</entry>
 		</entry>
-		<entry index="86" type="table">
+		<entry index="84" type="table">
 			<entry key="ai_editor_data" type="table">
 				<entry key="detection_mul" type="number" value="1"/>
 				<entry key="location_id" type="string" value="location_unknown"/>
@@ -1840,7 +1806,7 @@
 				<entry key="unit_id" type="number" value="90"/>
 			</entry>
 		</entry>
-		<entry index="87" type="table">
+		<entry index="85" type="table">
 			<entry key="ai_editor_data" type="table">
 				<entry key="detection_mul" type="number" value="1"/>
 				<entry key="location_id" type="string" value="location_unknown"/>
@@ -1861,7 +1827,7 @@
 				<entry key="unit_id" type="number" value="91"/>
 			</entry>
 		</entry>
-		<entry index="88" type="table">
+		<entry index="86" type="table">
 			<entry key="ai_editor_data" type="table">
 				<entry key="detection_mul" type="number" value="1"/>
 				<entry key="location_id" type="string" value="location_unknown"/>
@@ -1882,7 +1848,7 @@
 				<entry key="unit_id" type="number" value="92"/>
 			</entry>
 		</entry>
-		<entry index="89" type="table">
+		<entry index="87" type="table">
 			<entry key="ai_editor_data" type="table">
 				<entry key="detection_mul" type="number" value="1"/>
 				<entry key="location_id" type="string" value="location_unknown"/>
@@ -1903,7 +1869,7 @@
 				<entry key="unit_id" type="number" value="93"/>
 			</entry>
 		</entry>
-		<entry index="90" type="table">
+		<entry index="88" type="table">
 			<entry key="ai_editor_data" type="table">
 				<entry key="detection_mul" type="number" value="1"/>
 				<entry key="location_id" type="string" value="location_unknown"/>
@@ -1924,7 +1890,7 @@
 				<entry key="unit_id" type="number" value="94"/>
 			</entry>
 		</entry>
-		<entry index="91" type="table">
+		<entry index="89" type="table">
 			<entry key="ai_editor_data" type="table">
 				<entry key="detection_mul" type="number" value="1"/>
 				<entry key="location_id" type="string" value="location_unknown"/>
@@ -1945,7 +1911,7 @@
 				<entry key="unit_id" type="number" value="95"/>
 			</entry>
 		</entry>
-		<entry index="92" type="table">
+		<entry index="90" type="table">
 			<entry key="ai_editor_data" type="table">
 				<entry key="detection_mul" type="number" value="1"/>
 				<entry key="location_id" type="string" value="location_unknown"/>
@@ -1966,7 +1932,7 @@
 				<entry key="unit_id" type="number" value="96"/>
 			</entry>
 		</entry>
-		<entry index="93" type="table">
+		<entry index="91" type="table">
 			<entry key="ai_editor_data" type="table">
 				<entry key="detection_mul" type="number" value="1"/>
 				<entry key="location_id" type="string" value="location_unknown"/>
@@ -1987,7 +1953,7 @@
 				<entry key="unit_id" type="number" value="97"/>
 			</entry>
 		</entry>
-		<entry index="94" type="table">
+		<entry index="92" type="table">
 			<entry key="ai_editor_data" type="table">
 				<entry key="detection_mul" type="number" value="1"/>
 				<entry key="location_id" type="string" value="location_unknown"/>
@@ -2008,7 +1974,7 @@
 				<entry key="unit_id" type="number" value="98"/>
 			</entry>
 		</entry>
-		<entry index="95" type="table">
+		<entry index="93" type="table">
 			<entry key="ai_editor_data" type="table">
 				<entry key="detection_mul" type="number" value="1"/>
 				<entry key="location_id" type="string" value="location_unknown"/>
@@ -2029,7 +1995,7 @@
 				<entry key="unit_id" type="number" value="99"/>
 			</entry>
 		</entry>
-		<entry index="96" type="table">
+		<entry index="94" type="table">
 			<entry key="ai_editor_data" type="table">
 				<entry key="detection_mul" type="number" value="1"/>
 				<entry key="location_id" type="string" value="location_unknown"/>
@@ -2050,7 +2016,7 @@
 				<entry key="unit_id" type="number" value="100"/>
 			</entry>
 		</entry>
-		<entry index="97" type="table">
+		<entry index="95" type="table">
 			<entry key="ai_editor_data" type="table">
 				<entry key="detection_mul" type="number" value="1"/>
 				<entry key="location_id" type="string" value="location_unknown"/>
@@ -2071,7 +2037,7 @@
 				<entry key="unit_id" type="number" value="101"/>
 			</entry>
 		</entry>
-		<entry index="98" type="table">
+		<entry index="96" type="table">
 			<entry key="ai_editor_data" type="table">
 				<entry key="detection_mul" type="number" value="1"/>
 				<entry key="location_id" type="string" value="location_unknown"/>
@@ -2092,7 +2058,7 @@
 				<entry key="unit_id" type="number" value="102"/>
 			</entry>
 		</entry>
-		<entry index="99" type="table">
+		<entry index="97" type="table">
 			<entry key="ai_editor_data" type="table">
 				<entry key="detection_mul" type="number" value="1"/>
 				<entry key="location_id" type="string" value="location_unknown"/>
@@ -2120,7 +2086,7 @@
 				<entry key="unit_id" type="number" value="103"/>
 			</entry>
 		</entry>
-		<entry index="100" type="table">
+		<entry index="98" type="table">
 			<entry key="ai_editor_data" type="table">
 				<entry key="detection_mul" type="number" value="1"/>
 				<entry key="location_id" type="string" value="location_unknown"/>
@@ -2141,7 +2107,7 @@
 				<entry key="unit_id" type="number" value="104"/>
 			</entry>
 		</entry>
-		<entry index="101" type="table">
+		<entry index="99" type="table">
 			<entry key="ai_editor_data" type="table">
 				<entry key="detection_mul" type="number" value="1"/>
 				<entry key="location_id" type="string" value="location_unknown"/>
@@ -2164,7 +2130,7 @@
 				<entry key="unit_id" type="number" value="105"/>
 			</entry>
 		</entry>
-		<entry index="102" type="table">
+		<entry index="100" type="table">
 			<entry key="ai_editor_data" type="table">
 				<entry key="detection_mul" type="number" value="1"/>
 				<entry key="location_id" type="string" value="location_unknown"/>
@@ -2185,7 +2151,7 @@
 				<entry key="unit_id" type="number" value="106"/>
 			</entry>
 		</entry>
-		<entry index="103" type="table">
+		<entry index="101" type="table">
 			<entry key="ai_editor_data" type="table">
 				<entry key="detection_mul" type="number" value="1"/>
 				<entry key="location_id" type="string" value="location_unknown"/>
@@ -2206,7 +2172,7 @@
 				<entry key="unit_id" type="number" value="107"/>
 			</entry>
 		</entry>
-		<entry index="104" type="table">
+		<entry index="102" type="table">
 			<entry key="ai_editor_data" type="table">
 				<entry key="detection_mul" type="number" value="1"/>
 				<entry key="location_id" type="string" value="location_unknown"/>
@@ -2227,7 +2193,7 @@
 				<entry key="unit_id" type="number" value="108"/>
 			</entry>
 		</entry>
-		<entry index="105" type="table">
+		<entry index="103" type="table">
 			<entry key="ai_editor_data" type="table">
 				<entry key="detection_mul" type="number" value="1"/>
 				<entry key="location_id" type="string" value="location_unknown"/>
@@ -2248,7 +2214,7 @@
 				<entry key="unit_id" type="number" value="109"/>
 			</entry>
 		</entry>
-		<entry index="106" type="table">
+		<entry index="104" type="table">
 			<entry key="ai_editor_data" type="table">
 				<entry key="detection_mul" type="number" value="1"/>
 				<entry key="location_id" type="string" value="location_unknown"/>
@@ -2269,7 +2235,7 @@
 				<entry key="unit_id" type="number" value="110"/>
 			</entry>
 		</entry>
-		<entry index="107" type="table">
+		<entry index="105" type="table">
 			<entry key="ai_editor_data" type="table">
 				<entry key="detection_mul" type="number" value="1"/>
 				<entry key="location_id" type="string" value="location_unknown"/>
@@ -2290,7 +2256,7 @@
 				<entry key="unit_id" type="number" value="111"/>
 			</entry>
 		</entry>
-		<entry index="108" type="table">
+		<entry index="106" type="table">
 			<entry key="ai_editor_data" type="table">
 				<entry key="detection_mul" type="number" value="1"/>
 				<entry key="location_id" type="string" value="location_unknown"/>
@@ -2313,7 +2279,7 @@
 				<entry key="unit_id" type="number" value="112"/>
 			</entry>
 		</entry>
-		<entry index="109" type="table">
+		<entry index="107" type="table">
 			<entry key="ai_editor_data" type="table">
 				<entry key="detection_mul" type="number" value="1"/>
 				<entry key="location_id" type="string" value="location_unknown"/>
@@ -2334,7 +2300,7 @@
 				<entry key="unit_id" type="number" value="113"/>
 			</entry>
 		</entry>
-		<entry index="110" type="table">
+		<entry index="108" type="table">
 			<entry key="ai_editor_data" type="table">
 				<entry key="detection_mul" type="number" value="1"/>
 				<entry key="location_id" type="string" value="location_unknown"/>
@@ -2355,7 +2321,7 @@
 				<entry key="unit_id" type="number" value="114"/>
 			</entry>
 		</entry>
-		<entry index="111" type="table">
+		<entry index="109" type="table">
 			<entry key="ai_editor_data" type="table">
 				<entry key="detection_mul" type="number" value="1"/>
 				<entry key="location_id" type="string" value="location_unknown"/>
@@ -2376,7 +2342,7 @@
 				<entry key="unit_id" type="number" value="115"/>
 			</entry>
 		</entry>
-		<entry index="112" type="table">
+		<entry index="110" type="table">
 			<entry key="ai_editor_data" type="table">
 				<entry key="detection_mul" type="number" value="1"/>
 				<entry key="location_id" type="string" value="location_unknown"/>
@@ -2397,7 +2363,7 @@
 				<entry key="unit_id" type="number" value="116"/>
 			</entry>
 		</entry>
-		<entry index="113" type="table">
+		<entry index="111" type="table">
 			<entry key="ai_editor_data" type="table">
 				<entry key="detection_mul" type="number" value="1"/>
 				<entry key="location_id" type="string" value="location_unknown"/>
@@ -2418,7 +2384,7 @@
 				<entry key="unit_id" type="number" value="117"/>
 			</entry>
 		</entry>
-		<entry index="114" type="table">
+		<entry index="112" type="table">
 			<entry key="ai_editor_data" type="table">
 				<entry key="detection_mul" type="number" value="1"/>
 				<entry key="location_id" type="string" value="location_unknown"/>
@@ -2439,7 +2405,7 @@
 				<entry key="unit_id" type="number" value="121"/>
 			</entry>
 		</entry>
-		<entry index="115" type="table">
+		<entry index="113" type="table">
 			<entry key="ai_editor_data" type="table">
 				<entry key="detection_mul" type="number" value="1"/>
 				<entry key="location_id" type="string" value="location_unknown"/>
@@ -2460,7 +2426,7 @@
 				<entry key="unit_id" type="number" value="122"/>
 			</entry>
 		</entry>
-		<entry index="116" type="table">
+		<entry index="114" type="table">
 			<entry key="ai_editor_data" type="table">
 				<entry key="detection_mul" type="number" value="1"/>
 				<entry key="location_id" type="string" value="location_unknown"/>
@@ -2481,7 +2447,7 @@
 				<entry key="unit_id" type="number" value="123"/>
 			</entry>
 		</entry>
-		<entry index="117" type="table">
+		<entry index="115" type="table">
 			<entry key="ai_editor_data" type="table">
 				<entry key="detection_mul" type="number" value="1"/>
 				<entry key="location_id" type="string" value="location_unknown"/>
@@ -2502,7 +2468,7 @@
 				<entry key="unit_id" type="number" value="124"/>
 			</entry>
 		</entry>
-		<entry index="118" type="table">
+		<entry index="116" type="table">
 			<entry key="ai_editor_data" type="table">
 				<entry key="detection_mul" type="number" value="1"/>
 				<entry key="location_id" type="string" value="location_unknown"/>
@@ -2525,7 +2491,7 @@
 				<entry key="unit_id" type="number" value="125"/>
 			</entry>
 		</entry>
-		<entry index="119" type="table">
+		<entry index="117" type="table">
 			<entry key="ai_editor_data" type="table">
 				<entry key="detection_mul" type="number" value="1"/>
 				<entry key="location_id" type="string" value="location_unknown"/>
@@ -2546,7 +2512,7 @@
 				<entry key="unit_id" type="number" value="79"/>
 			</entry>
 		</entry>
-		<entry index="120" type="table">
+		<entry index="118" type="table">
 			<entry key="ai_editor_data" type="table">
 				<entry key="detection_mul" type="number" value="1"/>
 				<entry key="location_id" type="string" value="location_unknown"/>
@@ -2567,7 +2533,7 @@
 				<entry key="unit_id" type="number" value="126"/>
 			</entry>
 		</entry>
-		<entry index="121" type="table">
+		<entry index="119" type="table">
 			<entry key="ai_editor_data" type="table">
 				<entry key="detection_mul" type="number" value="1"/>
 				<entry key="location_id" type="string" value="location_unknown"/>
@@ -2588,7 +2554,7 @@
 				<entry key="unit_id" type="number" value="127"/>
 			</entry>
 		</entry>
-		<entry index="122" type="table">
+		<entry index="120" type="table">
 			<entry key="ai_editor_data" type="table">
 				<entry key="detection_mul" type="number" value="1"/>
 				<entry key="location_id" type="string" value="location_unknown"/>
@@ -2609,7 +2575,7 @@
 				<entry key="unit_id" type="number" value="128"/>
 			</entry>
 		</entry>
-		<entry index="123" type="table">
+		<entry index="121" type="table">
 			<entry key="ai_editor_data" type="table">
 				<entry key="detection_mul" type="number" value="1"/>
 				<entry key="location_id" type="string" value="location_unknown"/>
@@ -2630,7 +2596,7 @@
 				<entry key="unit_id" type="number" value="129"/>
 			</entry>
 		</entry>
-		<entry index="124" type="table">
+		<entry index="122" type="table">
 			<entry key="ai_editor_data" type="table">
 				<entry key="detection_mul" type="number" value="1"/>
 				<entry key="location_id" type="string" value="location_unknown"/>
@@ -2651,7 +2617,7 @@
 				<entry key="unit_id" type="number" value="118"/>
 			</entry>
 		</entry>
-		<entry index="125" type="table">
+		<entry index="123" type="table">
 			<entry key="ai_editor_data" type="table">
 				<entry key="detection_mul" type="number" value="1"/>
 				<entry key="location_id" type="string" value="location_unknown"/>
@@ -2672,7 +2638,7 @@
 				<entry key="unit_id" type="number" value="119"/>
 			</entry>
 		</entry>
-		<entry index="126" type="table">
+		<entry index="124" type="table">
 			<entry key="ai_editor_data" type="table">
 				<entry key="detection_mul" type="number" value="1"/>
 				<entry key="location_id" type="string" value="location_unknown"/>
@@ -2700,7 +2666,7 @@
 				<entry key="unit_id" type="number" value="120"/>
 			</entry>
 		</entry>
-		<entry index="127" type="table">
+		<entry index="125" type="table">
 			<entry key="ai_editor_data" type="table">
 				<entry key="detection_mul" type="number" value="1"/>
 				<entry key="location_id" type="string" value="location_unknown"/>
@@ -2721,7 +2687,7 @@
 				<entry key="unit_id" type="number" value="130"/>
 			</entry>
 		</entry>
-		<entry index="128" type="table">
+		<entry index="126" type="table">
 			<entry key="ai_editor_data" type="table">
 				<entry key="detection_mul" type="number" value="1"/>
 				<entry key="location_id" type="string" value="location_unknown"/>
@@ -2742,7 +2708,7 @@
 				<entry key="unit_id" type="number" value="131"/>
 			</entry>
 		</entry>
-		<entry index="129" type="table">
+		<entry index="127" type="table">
 			<entry key="ai_editor_data" type="table">
 				<entry key="detection_mul" type="number" value="1"/>
 				<entry key="location_id" type="string" value="location_unknown"/>
@@ -2763,7 +2729,7 @@
 				<entry key="unit_id" type="number" value="132"/>
 			</entry>
 		</entry>
-		<entry index="130" type="table">
+		<entry index="128" type="table">
 			<entry key="ai_editor_data" type="table">
 				<entry key="detection_mul" type="number" value="1"/>
 				<entry key="location_id" type="string" value="location_unknown"/>
@@ -2784,7 +2750,7 @@
 				<entry key="unit_id" type="number" value="133"/>
 			</entry>
 		</entry>
-		<entry index="131" type="table">
+		<entry index="129" type="table">
 			<entry key="ai_editor_data" type="table">
 				<entry key="detection_mul" type="number" value="1"/>
 				<entry key="location_id" type="string" value="location_unknown"/>
@@ -2795,122 +2761,19 @@
 				</entry>
 			</entry>
 			<entry key="unit_data" type="table">
-				<entry key="continent" type="string" value="world"/>
-				<entry key="local_pos" type="vector3" value="0 0 0"/>
-				<entry key="local_rot" type="quaternion" value="0 0 0 1"/>
-				<entry key="name" type="string" value="core/units/nav_surface/nav_surface"/>
-				<entry key="name_id" type="string" value="nav_surface_133"/>
-				<entry key="position" type="vector3" value="-7207.47 -6693.38 -2269.33"/>
-				<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
-				<entry key="unit_id" type="number" value="134"/>
-			</entry>
-		</entry>
-		<entry index="132" type="table">
-			<entry key="ai_editor_data" type="table">
-				<entry key="detection_mul" type="number" value="1"/>
-				<entry key="location_id" type="string" value="location_unknown"/>
-				<entry key="suspicion_mul" type="number" value="1"/>
-				<entry key="visibilty_exlude_filter" type="table">
-				</entry>
-				<entry key="visibilty_include_filter" type="table">
-				</entry>
-			</entry>
-			<entry key="unit_data" type="table">
-				<entry key="continent" type="string" value="world"/>
-				<entry key="local_pos" type="vector3" value="0 0 0"/>
-				<entry key="local_rot" type="quaternion" value="0 0 0 1"/>
-				<entry key="name" type="string" value="core/units/nav_surface/nav_surface"/>
-				<entry key="name_id" type="string" value="nav_surface_134"/>
-				<entry key="position" type="vector3" value="-7689.1 -8639.56 -2459.05"/>
-				<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
-				<entry key="unit_id" type="number" value="135"/>
-			</entry>
-		</entry>
-		<entry index="133" type="table">
-			<entry key="ai_editor_data" type="table">
-				<entry key="detection_mul" type="number" value="1"/>
-				<entry key="location_id" type="string" value="location_unknown"/>
-				<entry key="suspicion_mul" type="number" value="1"/>
-				<entry key="visibilty_exlude_filter" type="table">
-				</entry>
-				<entry key="visibilty_include_filter" type="table">
-				</entry>
-			</entry>
-			<entry key="unit_data" type="table">
-				<entry key="continent" type="string" value="world"/>
-				<entry key="local_pos" type="vector3" value="0 0 0"/>
-				<entry key="local_rot" type="quaternion" value="0 0 0 1"/>
-				<entry key="name" type="string" value="core/units/nav_surface/nav_surface"/>
-				<entry key="name_id" type="string" value="nav_surface_135"/>
-				<entry key="position" type="vector3" value="-7541.6 -9264.56 -2459.05"/>
-				<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
-				<entry key="unit_id" type="number" value="136"/>
-			</entry>
-		</entry>
-		<entry index="134" type="table">
-			<entry key="ai_editor_data" type="table">
-				<entry key="detection_mul" type="number" value="1"/>
-				<entry key="location_id" type="string" value="location_unknown"/>
-				<entry key="suspicion_mul" type="number" value="1"/>
-				<entry key="visibilty_exlude_filter" type="table">
-				</entry>
-				<entry key="visibilty_include_filter" type="table">
-				</entry>
-			</entry>
-			<entry key="unit_data" type="table">
-				<entry key="continent" type="string" value="world"/>
-				<entry key="local_pos" type="vector3" value="0 0 0"/>
-				<entry key="local_rot" type="quaternion" value="0 0 0 1"/>
-				<entry key="name" type="string" value="core/units/nav_surface/nav_surface"/>
-				<entry key="name_id" type="string" value="nav_surface_136"/>
-				<entry key="position" type="vector3" value="-6651.9 -9685.08 -2357"/>
-				<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
-				<entry key="unit_id" type="number" value="137"/>
-			</entry>
-		</entry>
-		<entry index="135" type="table">
-			<entry key="ai_editor_data" type="table">
-				<entry key="detection_mul" type="number" value="1"/>
-				<entry key="location_id" type="string" value="location_unknown"/>
-				<entry key="suspicion_mul" type="number" value="1"/>
-				<entry key="visibilty_exlude_filter" type="table">
-				</entry>
-				<entry key="visibilty_include_filter" type="table">
-				</entry>
-			</entry>
-			<entry key="unit_data" type="table">
-				<entry key="continent" type="string" value="world"/>
-				<entry key="local_pos" type="vector3" value="0 0 0"/>
-				<entry key="local_rot" type="quaternion" value="0 0 0 1"/>
-				<entry key="name" type="string" value="core/units/nav_surface/nav_surface"/>
-				<entry key="name_id" type="string" value="nav_surface_137"/>
-				<entry key="position" type="vector3" value="-7112.97 -8901.98 -1945.99"/>
-				<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
-				<entry key="unit_id" type="number" value="138"/>
-			</entry>
-		</entry>
-		<entry index="136" type="table">
-			<entry key="ai_editor_data" type="table">
-				<entry key="detection_mul" type="number" value="1"/>
-				<entry key="location_id" type="string" value="location_unknown"/>
-				<entry key="suspicion_mul" type="number" value="1"/>
-				<entry key="visibilty_exlude_filter" type="table">
-				</entry>
-				<entry key="visibilty_include_filter" type="table">
-				</entry>
-			</entry>
-			<entry key="unit_data" type="table">
+				<entry key="_prev_pos" type="vector3" value="-9592.6 -9619.74 -2460"/>
+				<entry key="_prev_rot" type="quaternion" value="0 0 0 -1"/>
 				<entry key="continent" type="string" value="world"/>
 				<entry key="local_pos" type="vector3" value="0 0 0"/>
 				<entry key="local_rot" type="quaternion" value="0 0 0 1"/>
 				<entry key="name" type="string" value="core/units/nav_surface/nav_surface"/>
 				<entry key="name_id" type="string" value="nav_surface_138"/>
-				<entry key="position" type="vector3" value="-9383.52 -9688.6 -2460"/>
+				<entry key="position" type="vector3" value="-9592.6 -9619.74 -2460"/>
 				<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 				<entry key="unit_id" type="number" value="139"/>
 			</entry>
 		</entry>
-		<entry index="137" type="table">
+		<entry index="130" type="table">
 			<entry key="ai_editor_data" type="table">
 				<entry key="detection_mul" type="number" value="1"/>
 				<entry key="location_id" type="string" value="location_unknown"/>
@@ -2931,7 +2794,7 @@
 				<entry key="unit_id" type="number" value="140"/>
 			</entry>
 		</entry>
-		<entry index="138" type="table">
+		<entry index="131" type="table">
 			<entry key="ai_editor_data" type="table">
 				<entry key="detection_mul" type="number" value="1"/>
 				<entry key="location_id" type="string" value="location_unknown"/>
@@ -2952,7 +2815,7 @@
 				<entry key="unit_id" type="number" value="141"/>
 			</entry>
 		</entry>
-		<entry index="139" type="table">
+		<entry index="132" type="table">
 			<entry key="ai_editor_data" type="table">
 				<entry key="detection_mul" type="number" value="1"/>
 				<entry key="location_id" type="string" value="location_unknown"/>
@@ -2973,7 +2836,7 @@
 				<entry key="unit_id" type="number" value="142"/>
 			</entry>
 		</entry>
-		<entry index="140" type="table">
+		<entry index="133" type="table">
 			<entry key="ai_editor_data" type="table">
 				<entry key="detection_mul" type="number" value="1"/>
 				<entry key="location_id" type="string" value="location_unknown"/>
@@ -2994,7 +2857,7 @@
 				<entry key="unit_id" type="number" value="143"/>
 			</entry>
 		</entry>
-		<entry index="141" type="table">
+		<entry index="134" type="table">
 			<entry key="ai_editor_data" type="table">
 				<entry key="detection_mul" type="number" value="1"/>
 				<entry key="location_id" type="string" value="location_unknown"/>
@@ -3015,7 +2878,7 @@
 				<entry key="unit_id" type="number" value="144"/>
 			</entry>
 		</entry>
-		<entry index="142" type="table">
+		<entry index="135" type="table">
 			<entry key="ai_editor_data" type="table">
 				<entry key="detection_mul" type="number" value="1"/>
 				<entry key="location_id" type="string" value="location_unknown"/>
@@ -3036,7 +2899,7 @@
 				<entry key="unit_id" type="number" value="146"/>
 			</entry>
 		</entry>
-		<entry index="143" type="table">
+		<entry index="136" type="table">
 			<entry key="ai_editor_data" type="table">
 				<entry key="detection_mul" type="number" value="1"/>
 				<entry key="location_id" type="string" value="location_unknown"/>
@@ -3059,7 +2922,7 @@
 				<entry key="unit_id" type="number" value="147"/>
 			</entry>
 		</entry>
-		<entry index="144" type="table">
+		<entry index="137" type="table">
 			<entry key="ai_editor_data" type="table">
 				<entry key="detection_mul" type="number" value="1"/>
 				<entry key="location_id" type="string" value="location_unknown"/>
@@ -3080,7 +2943,7 @@
 				<entry key="unit_id" type="number" value="148"/>
 			</entry>
 		</entry>
-		<entry index="145" type="table">
+		<entry index="138" type="table">
 			<entry key="ai_editor_data" type="table">
 				<entry key="detection_mul" type="number" value="1"/>
 				<entry key="location_id" type="string" value="location_unknown"/>
@@ -3101,7 +2964,7 @@
 				<entry key="unit_id" type="number" value="149"/>
 			</entry>
 		</entry>
-		<entry index="146" type="table">
+		<entry index="139" type="table">
 			<entry key="ai_editor_data" type="table">
 				<entry key="detection_mul" type="number" value="1"/>
 				<entry key="location_id" type="string" value="location_unknown"/>
@@ -3124,7 +2987,7 @@
 				<entry key="unit_id" type="number" value="150"/>
 			</entry>
 		</entry>
-		<entry index="147" type="table">
+		<entry index="140" type="table">
 			<entry key="ai_editor_data" type="table">
 				<entry key="detection_mul" type="number" value="1"/>
 				<entry key="location_id" type="string" value="location_unknown"/>
@@ -3145,7 +3008,7 @@
 				<entry key="unit_id" type="number" value="151"/>
 			</entry>
 		</entry>
-		<entry index="148" type="table">
+		<entry index="141" type="table">
 			<entry key="ai_editor_data" type="table">
 				<entry key="detection_mul" type="number" value="1"/>
 				<entry key="location_id" type="string" value="location_unknown"/>
@@ -3166,7 +3029,7 @@
 				<entry key="unit_id" type="number" value="152"/>
 			</entry>
 		</entry>
-		<entry index="149" type="table">
+		<entry index="142" type="table">
 			<entry key="ai_editor_data" type="table">
 				<entry key="detection_mul" type="number" value="1"/>
 				<entry key="location_id" type="string" value="location_unknown"/>
@@ -3187,7 +3050,7 @@
 				<entry key="unit_id" type="number" value="153"/>
 			</entry>
 		</entry>
-		<entry index="150" type="table">
+		<entry index="143" type="table">
 			<entry key="ai_editor_data" type="table">
 				<entry key="detection_mul" type="number" value="1"/>
 				<entry key="location_id" type="string" value="location_unknown"/>
@@ -3210,7 +3073,7 @@
 				<entry key="unit_id" type="number" value="154"/>
 			</entry>
 		</entry>
-		<entry index="151" type="table">
+		<entry index="144" type="table">
 			<entry key="ai_editor_data" type="table">
 				<entry key="detection_mul" type="number" value="1"/>
 				<entry key="location_id" type="string" value="location_unknown"/>
@@ -3233,7 +3096,7 @@
 				<entry key="unit_id" type="number" value="155"/>
 			</entry>
 		</entry>
-		<entry index="152" type="table">
+		<entry index="145" type="table">
 			<entry key="ai_editor_data" type="table">
 				<entry key="detection_mul" type="number" value="1"/>
 				<entry key="location_id" type="string" value="location_unknown"/>
@@ -3254,7 +3117,7 @@
 				<entry key="unit_id" type="number" value="156"/>
 			</entry>
 		</entry>
-		<entry index="153" type="table">
+		<entry index="146" type="table">
 			<entry key="ai_editor_data" type="table">
 				<entry key="detection_mul" type="number" value="1"/>
 				<entry key="location_id" type="string" value="location_unknown"/>
@@ -3275,51 +3138,7 @@
 				<entry key="unit_id" type="number" value="157"/>
 			</entry>
 		</entry>
-		<entry index="154" type="table">
-			<entry key="ai_editor_data" type="table">
-				<entry key="detection_mul" type="number" value="1"/>
-				<entry key="location_id" type="string" value="location_unknown"/>
-				<entry key="suspicion_mul" type="number" value="1"/>
-				<entry key="visibilty_exlude_filter" type="table">
-				</entry>
-				<entry key="visibilty_include_filter" type="table">
-				</entry>
-			</entry>
-			<entry key="unit_data" type="table">
-				<entry key="_prev_pos" type="vector3" value="-7358.82 -10166.9 -2459.05"/>
-				<entry key="_prev_rot" type="quaternion" value="0 0 0 -1"/>
-				<entry key="continent" type="string" value="world"/>
-				<entry key="local_pos" type="vector3" value="0 0 0"/>
-				<entry key="local_rot" type="quaternion" value="0 0 0 1"/>
-				<entry key="name" type="string" value="core/units/nav_surface/nav_surface"/>
-				<entry key="name_id" type="string" value="nav_surface_157"/>
-				<entry key="position" type="vector3" value="-7358.82 -10166.9 -2459.05"/>
-				<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
-				<entry key="unit_id" type="number" value="158"/>
-			</entry>
-		</entry>
-		<entry index="155" type="table">
-			<entry key="ai_editor_data" type="table">
-				<entry key="detection_mul" type="number" value="1"/>
-				<entry key="location_id" type="string" value="location_unknown"/>
-				<entry key="suspicion_mul" type="number" value="1"/>
-				<entry key="visibilty_exlude_filter" type="table">
-				</entry>
-				<entry key="visibilty_include_filter" type="table">
-				</entry>
-			</entry>
-			<entry key="unit_data" type="table">
-				<entry key="continent" type="string" value="world"/>
-				<entry key="local_pos" type="vector3" value="0 0 0"/>
-				<entry key="local_rot" type="quaternion" value="0 0 0 1"/>
-				<entry key="name" type="string" value="core/units/nav_surface/nav_surface"/>
-				<entry key="name_id" type="string" value="nav_surface_161"/>
-				<entry key="position" type="vector3" value="-5889.76 -9699.95 -2357"/>
-				<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
-				<entry key="unit_id" type="number" value="162"/>
-			</entry>
-		</entry>
-		<entry index="156" type="table">
+		<entry index="147" type="table">
 			<entry key="ai_editor_data" type="table">
 				<entry key="detection_mul" type="number" value="1"/>
 				<entry key="location_id" type="string" value="location_unknown"/>
@@ -3340,7 +3159,7 @@
 				<entry key="unit_id" type="number" value="159"/>
 			</entry>
 		</entry>
-		<entry index="157" type="table">
+		<entry index="148" type="table">
 			<entry key="ai_editor_data" type="table">
 				<entry key="detection_mul" type="number" value="1"/>
 				<entry key="location_id" type="string" value="location_unknown"/>
@@ -3361,7 +3180,7 @@
 				<entry key="unit_id" type="number" value="161"/>
 			</entry>
 		</entry>
-		<entry index="158" type="table">
+		<entry index="149" type="table">
 			<entry key="ai_editor_data" type="table">
 				<entry key="detection_mul" type="number" value="1"/>
 				<entry key="location_id" type="string" value="location_unknown"/>
@@ -3382,7 +3201,7 @@
 				<entry key="unit_id" type="number" value="173"/>
 			</entry>
 		</entry>
-		<entry index="159" type="table">
+		<entry index="150" type="table">
 			<entry key="ai_editor_data" type="table">
 				<entry key="detection_mul" type="number" value="1"/>
 				<entry key="location_id" type="string" value="location_unknown"/>
@@ -3405,7 +3224,7 @@
 				<entry key="unit_id" type="number" value="174"/>
 			</entry>
 		</entry>
-		<entry index="160" type="table">
+		<entry index="151" type="table">
 			<entry key="ai_editor_data" type="table">
 				<entry key="detection_mul" type="number" value="1"/>
 				<entry key="location_id" type="string" value="location_unknown"/>
@@ -3428,7 +3247,7 @@
 				<entry key="unit_id" type="number" value="175"/>
 			</entry>
 		</entry>
-		<entry index="161" type="table">
+		<entry index="152" type="table">
 			<entry key="ai_editor_data" type="table">
 				<entry key="detection_mul" type="number" value="1"/>
 				<entry key="location_id" type="string" value="location_unknown"/>
@@ -3449,7 +3268,7 @@
 				<entry key="unit_id" type="number" value="176"/>
 			</entry>
 		</entry>
-		<entry index="162" type="table">
+		<entry index="153" type="table">
 			<entry key="ai_editor_data" type="table">
 				<entry key="detection_mul" type="number" value="1"/>
 				<entry key="location_id" type="string" value="location_unknown"/>
@@ -3477,7 +3296,7 @@
 				<entry key="unit_id" type="number" value="177"/>
 			</entry>
 		</entry>
-		<entry index="163" type="table">
+		<entry index="154" type="table">
 			<entry key="ai_editor_data" type="table">
 				<entry key="detection_mul" type="number" value="1"/>
 				<entry key="location_id" type="string" value="location_unknown"/>
@@ -3505,7 +3324,7 @@
 				<entry key="unit_id" type="number" value="178"/>
 			</entry>
 		</entry>
-		<entry index="164" type="table">
+		<entry index="155" type="table">
 			<entry key="ai_editor_data" type="table">
 				<entry key="detection_mul" type="number" value="1"/>
 				<entry key="location_id" type="string" value="location_unknown"/>
@@ -3528,7 +3347,7 @@
 				<entry key="unit_id" type="number" value="179"/>
 			</entry>
 		</entry>
-		<entry index="165" type="table">
+		<entry index="156" type="table">
 			<entry key="ai_editor_data" type="table">
 				<entry key="detection_mul" type="number" value="1"/>
 				<entry key="location_id" type="string" value="location_unknown"/>
@@ -3549,7 +3368,7 @@
 				<entry key="unit_id" type="number" value="180"/>
 			</entry>
 		</entry>
-		<entry index="166" type="table">
+		<entry index="157" type="table">
 			<entry key="ai_editor_data" type="table">
 				<entry key="detection_mul" type="number" value="1"/>
 				<entry key="location_id" type="string" value="location_unknown"/>
@@ -3570,7 +3389,7 @@
 				<entry key="unit_id" type="number" value="181"/>
 			</entry>
 		</entry>
-		<entry index="167" type="table">
+		<entry index="158" type="table">
 			<entry key="ai_editor_data" type="table">
 				<entry key="detection_mul" type="number" value="1"/>
 				<entry key="location_id" type="string" value="location_unknown"/>
@@ -3591,7 +3410,7 @@
 				<entry key="unit_id" type="number" value="183"/>
 			</entry>
 		</entry>
-		<entry index="168" type="table">
+		<entry index="159" type="table">
 			<entry key="ai_editor_data" type="table">
 				<entry key="detection_mul" type="number" value="1"/>
 				<entry key="location_id" type="string" value="location_unknown"/>
@@ -3612,7 +3431,7 @@
 				<entry key="unit_id" type="number" value="182"/>
 			</entry>
 		</entry>
-		<entry index="169" type="table">
+		<entry index="160" type="table">
 			<entry key="ai_editor_data" type="table">
 				<entry key="detection_mul" type="number" value="1"/>
 				<entry key="location_id" type="string" value="location_unknown"/>
@@ -3633,7 +3452,7 @@
 				<entry key="unit_id" type="number" value="184"/>
 			</entry>
 		</entry>
-		<entry index="170" type="table">
+		<entry index="161" type="table">
 			<entry key="ai_editor_data" type="table">
 				<entry key="detection_mul" type="number" value="1"/>
 				<entry key="location_id" type="string" value="location_unknown"/>
@@ -3654,7 +3473,7 @@
 				<entry key="unit_id" type="number" value="185"/>
 			</entry>
 		</entry>
-		<entry index="171" type="table">
+		<entry index="162" type="table">
 			<entry key="ai_editor_data" type="table">
 				<entry key="detection_mul" type="number" value="1"/>
 				<entry key="location_id" type="string" value="location_unknown"/>
@@ -3675,7 +3494,7 @@
 				<entry key="unit_id" type="number" value="186"/>
 			</entry>
 		</entry>
-		<entry index="172" type="table">
+		<entry index="163" type="table">
 			<entry key="ai_editor_data" type="table">
 				<entry key="detection_mul" type="number" value="1"/>
 				<entry key="location_id" type="string" value="location_unknown"/>
@@ -3696,7 +3515,7 @@
 				<entry key="unit_id" type="number" value="187"/>
 			</entry>
 		</entry>
-		<entry index="173" type="table">
+		<entry index="164" type="table">
 			<entry key="ai_editor_data" type="table">
 				<entry key="detection_mul" type="number" value="1"/>
 				<entry key="location_id" type="string" value="location_unknown"/>
@@ -3717,7 +3536,7 @@
 				<entry key="unit_id" type="number" value="188"/>
 			</entry>
 		</entry>
-		<entry index="174" type="table">
+		<entry index="165" type="table">
 			<entry key="ai_editor_data" type="table">
 				<entry key="detection_mul" type="number" value="1"/>
 				<entry key="location_id" type="string" value="location_unknown"/>
@@ -3738,7 +3557,7 @@
 				<entry key="unit_id" type="number" value="189"/>
 			</entry>
 		</entry>
-		<entry index="175" type="table">
+		<entry index="166" type="table">
 			<entry key="ai_editor_data" type="table">
 				<entry key="detection_mul" type="number" value="1"/>
 				<entry key="location_id" type="string" value="location_unknown"/>
@@ -3759,7 +3578,7 @@
 				<entry key="unit_id" type="number" value="190"/>
 			</entry>
 		</entry>
-		<entry index="176" type="table">
+		<entry index="167" type="table">
 			<entry key="ai_editor_data" type="table">
 				<entry key="detection_mul" type="number" value="1"/>
 				<entry key="location_id" type="string" value="location_unknown"/>
@@ -3780,7 +3599,7 @@
 				<entry key="unit_id" type="number" value="191"/>
 			</entry>
 		</entry>
-		<entry index="177" type="table">
+		<entry index="168" type="table">
 			<entry key="ai_editor_data" type="table">
 				<entry key="detection_mul" type="number" value="1"/>
 				<entry key="location_id" type="string" value="location_unknown"/>
@@ -3801,7 +3620,7 @@
 				<entry key="unit_id" type="number" value="192"/>
 			</entry>
 		</entry>
-		<entry index="178" type="table">
+		<entry index="169" type="table">
 			<entry key="ai_editor_data" type="table">
 				<entry key="detection_mul" type="number" value="1"/>
 				<entry key="location_id" type="string" value="location_unknown"/>
@@ -3822,28 +3641,7 @@
 				<entry key="unit_id" type="number" value="193"/>
 			</entry>
 		</entry>
-		<entry index="179" type="table">
-			<entry key="ai_editor_data" type="table">
-				<entry key="detection_mul" type="number" value="1"/>
-				<entry key="location_id" type="string" value="location_unknown"/>
-				<entry key="suspicion_mul" type="number" value="1"/>
-				<entry key="visibilty_exlude_filter" type="table">
-				</entry>
-				<entry key="visibilty_include_filter" type="table">
-				</entry>
-			</entry>
-			<entry key="unit_data" type="table">
-				<entry key="continent" type="string" value="editor_only"/>
-				<entry key="local_pos" type="vector3" value="0 0 0"/>
-				<entry key="local_rot" type="quaternion" value="0 0 0 1"/>
-				<entry key="name" type="string" value="core/units/nav_surface/nav_surface"/>
-				<entry key="name_id" type="string" value="nav_surface_197"/>
-				<entry key="position" type="vector3" value="-8794.61 -9696.54 -2459.72"/>
-				<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
-				<entry key="unit_id" type="number" value="198"/>
-			</entry>
-		</entry>
-		<entry index="180" type="table">
+		<entry index="170" type="table">
 			<entry key="unit_data" type="table">
 				<entry key="_prev_pos" type="vector3" value="-9214.19 -12134.8 -2410"/>
 				<entry key="_prev_rot" type="quaternion" value="0 0 0 -1"/>
@@ -3857,7 +3655,7 @@
 				<entry key="unit_id" type="number" value="201"/>
 			</entry>
 		</entry>
-		<entry index="181" type="table">
+		<entry index="171" type="table">
 			<entry key="unit_data" type="table">
 				<entry key="_prev_pos" type="vector3" value="-9233.6 -10944.5 -2410"/>
 				<entry key="_prev_rot" type="quaternion" value="0 0 0 -1"/>
@@ -3871,7 +3669,7 @@
 				<entry key="unit_id" type="number" value="202"/>
 			</entry>
 		</entry>
-		<entry index="182" type="table">
+		<entry index="172" type="table">
 			<entry key="unit_data" type="table">
 				<entry key="_prev_pos" type="vector3" value="-9931.88 -10938.1 -2410"/>
 				<entry key="_prev_rot" type="quaternion" value="0 0 0 -1"/>
@@ -3885,7 +3683,7 @@
 				<entry key="unit_id" type="number" value="203"/>
 			</entry>
 		</entry>
-		<entry index="183" type="table">
+		<entry index="173" type="table">
 			<entry key="unit_data" type="table">
 				<entry key="_prev_pos" type="vector3" value="-9915 -12136.5 -2410"/>
 				<entry key="_prev_rot" type="quaternion" value="0 0 0 -1"/>
@@ -3899,7 +3697,7 @@
 				<entry key="unit_id" type="number" value="204"/>
 			</entry>
 		</entry>
-		<entry index="184" type="table">
+		<entry index="174" type="table">
 			<entry key="unit_data" type="table">
 				<entry key="_prev_pos" type="vector3" value="-10415 -12134.4 -2410"/>
 				<entry key="_prev_rot" type="quaternion" value="0 0 0 -1"/>
@@ -3913,7 +3711,7 @@
 				<entry key="unit_id" type="number" value="205"/>
 			</entry>
 		</entry>
-		<entry index="185" type="table">
+		<entry index="175" type="table">
 			<entry key="unit_data" type="table">
 				<entry key="_prev_pos" type="vector3" value="-10424.5 -10931.6 -2410"/>
 				<entry key="_prev_rot" type="quaternion" value="0 0 0 -1"/>
@@ -3927,7 +3725,7 @@
 				<entry key="unit_id" type="number" value="206"/>
 			</entry>
 		</entry>
-		<entry index="186" type="table">
+		<entry index="176" type="table">
 			<entry key="unit_data" type="table">
 				<entry key="_prev_pos" type="vector3" value="-11050.9 -10952.3 -2410"/>
 				<entry key="_prev_rot" type="quaternion" value="0 0 0 -1"/>
@@ -3941,7 +3739,7 @@
 				<entry key="unit_id" type="number" value="207"/>
 			</entry>
 		</entry>
-		<entry index="187" type="table">
+		<entry index="177" type="table">
 			<entry key="unit_data" type="table">
 				<entry key="_prev_pos" type="vector3" value="-11044 -12147.2 -2410"/>
 				<entry key="_prev_rot" type="quaternion" value="0 0 0 -1"/>
@@ -3955,7 +3753,7 @@
 				<entry key="unit_id" type="number" value="208"/>
 			</entry>
 		</entry>
-		<entry index="188" type="table">
+		<entry index="178" type="table">
 			<entry key="ai_editor_data" type="table">
 				<entry key="detection_mul" type="number" value="1"/>
 				<entry key="location_id" type="string" value="location_unknown"/>
@@ -3976,7 +3774,7 @@
 				<entry key="unit_id" type="number" value="66"/>
 			</entry>
 		</entry>
-		<entry index="189" type="table">
+		<entry index="179" type="table">
 			<entry key="ai_editor_data" type="table">
 				<entry key="detection_mul" type="number" value="1"/>
 				<entry key="location_id" type="string" value="location_unknown"/>
@@ -3999,7 +3797,7 @@
 				<entry key="unit_id" type="number" value="145"/>
 			</entry>
 		</entry>
-		<entry index="190" type="table">
+		<entry index="180" type="table">
 			<entry key="ai_editor_data" type="table">
 				<entry key="detection_mul" type="number" value="1"/>
 				<entry key="location_id" type="string" value="location_unknown"/>
@@ -4018,6 +3816,48 @@
 				<entry key="position" type="vector3" value="-5704.51 -194.805 9.31323e-007"/>
 				<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 				<entry key="unit_id" type="number" value="160"/>
+			</entry>
+		</entry>
+		<entry index="181" type="table">
+			<entry key="ai_editor_data" type="table">
+				<entry key="detection_mul" type="number" value="1"/>
+				<entry key="location_id" type="string" value="location_unknown"/>
+				<entry key="suspicion_mul" type="number" value="1"/>
+				<entry key="visibilty_exlude_filter" type="table">
+				</entry>
+				<entry key="visibilty_include_filter" type="table">
+				</entry>
+			</entry>
+			<entry key="unit_data" type="table">
+				<entry key="continent" type="string" value="world"/>
+				<entry key="local_pos" type="vector3" value="0 0 0"/>
+				<entry key="local_rot" type="quaternion" value="0 0 0 1"/>
+				<entry key="name" type="string" value="core/units/nav_surface/nav_surface"/>
+				<entry key="name_id" type="string" value="nav_surface_048"/>
+				<entry key="position" type="vector3" value="-15686.9 -5319.82 -1860"/>
+				<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+				<entry key="unit_id" type="number" value="48"/>
+			</entry>
+		</entry>
+		<entry index="182" type="table">
+			<entry key="ai_editor_data" type="table">
+				<entry key="detection_mul" type="number" value="1"/>
+				<entry key="location_id" type="string" value="location_unknown"/>
+				<entry key="suspicion_mul" type="number" value="1"/>
+				<entry key="visibilty_exlude_filter" type="table">
+				</entry>
+				<entry key="visibilty_include_filter" type="table">
+				</entry>
+			</entry>
+			<entry key="unit_data" type="table">
+				<entry key="continent" type="string" value="world"/>
+				<entry key="local_pos" type="vector3" value="0 0 0"/>
+				<entry key="local_rot" type="quaternion" value="0 0 0 1"/>
+				<entry key="name" type="string" value="core/units/nav_surface/nav_surface"/>
+				<entry key="name_id" type="string" value="nav_surface_049"/>
+				<entry key="position" type="vector3" value="-16406.2 -6013.21 -700"/>
+				<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+				<entry key="unit_id" type="number" value="49"/>
 			</entry>
 		</entry>
 	</entry>
@@ -5943,7 +5783,6 @@
 			<entry key="underground" type="table">
 				<entry key="ids" type="table">
 					<entry index="500000" type="boolean" value="true"/>
-					<entry index="500001" type="boolean" value="true"/>
 					<entry index="500002" type="boolean" value="true"/>
 					<entry index="500003" type="boolean" value="true"/>
 					<entry index="500004" type="boolean" value="true"/>
@@ -5952,9 +5791,7 @@
 					<entry index="500007" type="boolean" value="true"/>
 					<entry index="500008" type="boolean" value="true"/>
 					<entry index="500009" type="boolean" value="true"/>
-					<entry index="500010" type="boolean" value="true"/>
 					<entry index="500011" type="boolean" value="true"/>
-					<entry index="500012" type="boolean" value="true"/>
 					<entry index="500014" type="boolean" value="true"/>
 					<entry index="500015" type="boolean" value="true"/>
 					<entry index="500016" type="boolean" value="true"/>
@@ -5963,12 +5800,10 @@
 					<entry index="500019" type="boolean" value="true"/>
 					<entry index="500020" type="boolean" value="true"/>
 					<entry index="500021" type="boolean" value="true"/>
-					<entry index="500022" type="boolean" value="true"/>
 					<entry index="500023" type="boolean" value="true"/>
 					<entry index="500024" type="boolean" value="true"/>
 					<entry index="500025" type="boolean" value="true"/>
 					<entry index="500026" type="boolean" value="true"/>
-					<entry index="500027" type="boolean" value="true"/>
 					<entry index="500028" type="boolean" value="true"/>
 					<entry index="500029" type="boolean" value="true"/>
 					<entry index="500030" type="boolean" value="true"/>
@@ -5991,49 +5826,31 @@
 					<entry index="500048" type="boolean" value="true"/>
 					<entry index="500049" type="boolean" value="true"/>
 					<entry index="500050" type="boolean" value="true"/>
-					<entry index="500051" type="boolean" value="true"/>
 					<entry index="500052" type="boolean" value="true"/>
-					<entry index="500053" type="boolean" value="true"/>
-					<entry index="500054" type="boolean" value="true"/>
-					<entry index="500055" type="boolean" value="true"/>
 					<entry index="500056" type="boolean" value="true"/>
 					<entry index="500057" type="boolean" value="true"/>
 					<entry index="500058" type="boolean" value="true"/>
 					<entry index="500059" type="boolean" value="true"/>
 					<entry index="500062" type="boolean" value="true"/>
 					<entry index="500063" type="boolean" value="true"/>
-					<entry index="500073" type="boolean" value="true"/>
-					<entry index="500075" type="boolean" value="true"/>
-					<entry index="500076" type="boolean" value="true"/>
 					<entry index="500077" type="boolean" value="true"/>
 					<entry index="500078" type="boolean" value="true"/>
 					<entry index="500079" type="boolean" value="true"/>
-					<entry index="500080" type="boolean" value="true"/>
-					<entry index="500081" type="boolean" value="true"/>
-					<entry index="500082" type="boolean" value="true"/>
-					<entry index="500083" type="boolean" value="true"/>
 					<entry index="500085" type="boolean" value="true"/>
 					<entry index="500086" type="boolean" value="true"/>
 					<entry index="500087" type="boolean" value="true"/>
-					<entry index="500088" type="boolean" value="true"/>
-					<entry index="500089" type="boolean" value="true"/>
-					<entry index="500090" type="boolean" value="true"/>
 					<entry index="500091" type="boolean" value="true"/>
 					<entry index="500092" type="boolean" value="true"/>
 					<entry index="500093" type="boolean" value="true"/>
 					<entry index="500095" type="boolean" value="true"/>
-					<entry index="500096" type="boolean" value="true"/>
 					<entry index="500097" type="boolean" value="true"/>
 					<entry index="500098" type="boolean" value="true"/>
-					<entry index="500101" type="boolean" value="true"/>
 					<entry index="500106" type="boolean" value="true"/>
 					<entry index="500107" type="boolean" value="true"/>
 					<entry index="500108" type="boolean" value="true"/>
 					<entry index="500109" type="boolean" value="true"/>
 					<entry index="500110" type="boolean" value="true"/>
 					<entry index="500111" type="boolean" value="true"/>
-					<entry index="500112" type="boolean" value="true"/>
-					<entry index="500113" type="boolean" value="true"/>
 					<entry index="500115" type="boolean" value="true"/>
 					<entry index="500116" type="boolean" value="true"/>
 					<entry index="500117" type="boolean" value="true"/>
@@ -6078,7 +5895,6 @@
 					<entry index="500156" type="boolean" value="true"/>
 					<entry index="500157" type="boolean" value="true"/>
 					<entry index="500158" type="boolean" value="true"/>
-					<entry index="500159" type="boolean" value="true"/>
 					<entry index="500160" type="boolean" value="true"/>
 					<entry index="500161" type="boolean" value="true"/>
 					<entry index="500162" type="boolean" value="true"/>
@@ -6089,8 +5905,6 @@
 					<entry index="500170" type="boolean" value="true"/>
 					<entry index="500171" type="boolean" value="true"/>
 					<entry index="500172" type="boolean" value="true"/>
-					<entry index="500173" type="boolean" value="true"/>
-					<entry index="500175" type="boolean" value="true"/>
 					<entry index="500176" type="boolean" value="true"/>
 					<entry index="500177" type="boolean" value="true"/>
 					<entry index="500178" type="boolean" value="true"/>
@@ -6114,12 +5928,10 @@
 					<entry index="500199" type="boolean" value="true"/>
 					<entry index="500200" type="boolean" value="true"/>
 					<entry index="500201" type="boolean" value="true"/>
-					<entry index="500202" type="boolean" value="true"/>
 					<entry index="500203" type="boolean" value="true"/>
 					<entry index="500204" type="boolean" value="true"/>
 					<entry index="500205" type="boolean" value="true"/>
 					<entry index="500206" type="boolean" value="true"/>
-					<entry index="500207" type="boolean" value="true"/>
 					<entry index="500210" type="boolean" value="true"/>
 					<entry index="500211" type="boolean" value="true"/>
 					<entry index="500212" type="boolean" value="true"/>
@@ -6137,8 +5949,6 @@
 					<entry index="500224" type="boolean" value="true"/>
 					<entry index="500225" type="boolean" value="true"/>
 					<entry index="500226" type="boolean" value="true"/>
-					<entry index="500227" type="boolean" value="true"/>
-					<entry index="500228" type="boolean" value="true"/>
 					<entry index="500229" type="boolean" value="true"/>
 					<entry index="500230" type="boolean" value="true"/>
 					<entry index="500231" type="boolean" value="true"/>
@@ -6165,11 +5975,9 @@
 					<entry index="500252" type="boolean" value="true"/>
 					<entry index="500253" type="boolean" value="true"/>
 					<entry index="500254" type="boolean" value="true"/>
-					<entry index="500255" type="boolean" value="true"/>
 					<entry index="500256" type="boolean" value="true"/>
 					<entry index="500257" type="boolean" value="true"/>
 					<entry index="500258" type="boolean" value="true"/>
-					<entry index="500259" type="boolean" value="true"/>
 					<entry index="500260" type="boolean" value="true"/>
 					<entry index="500261" type="boolean" value="true"/>
 					<entry index="500262" type="boolean" value="true"/>
@@ -6179,9 +5987,6 @@
 					<entry index="500266" type="boolean" value="true"/>
 					<entry index="500267" type="boolean" value="true"/>
 					<entry index="500268" type="boolean" value="true"/>
-					<entry index="500269" type="boolean" value="true"/>
-					<entry index="500270" type="boolean" value="true"/>
-					<entry index="500272" type="boolean" value="true"/>
 					<entry index="500273" type="boolean" value="true"/>
 					<entry index="500274" type="boolean" value="true"/>
 					<entry index="500276" type="boolean" value="true"/>
@@ -6209,13 +6014,10 @@
 					<entry index="500300" type="boolean" value="true"/>
 					<entry index="500301" type="boolean" value="true"/>
 					<entry index="500304" type="boolean" value="true"/>
-					<entry index="500310" type="boolean" value="true"/>
-					<entry index="500313" type="boolean" value="true"/>
 					<entry index="500316" type="boolean" value="true"/>
 					<entry index="500318" type="boolean" value="true"/>
 					<entry index="500319" type="boolean" value="true"/>
 					<entry index="500321" type="boolean" value="true"/>
-					<entry index="500322" type="boolean" value="true"/>
 					<entry index="500324" type="boolean" value="true"/>
 					<entry index="500325" type="boolean" value="true"/>
 					<entry index="500326" type="boolean" value="true"/>
@@ -6229,7 +6031,6 @@
 					<entry index="500334" type="boolean" value="true"/>
 					<entry index="500336" type="boolean" value="true"/>
 					<entry index="500337" type="boolean" value="true"/>
-					<entry index="500338" type="boolean" value="true"/>
 					<entry index="500339" type="boolean" value="true"/>
 					<entry index="500340" type="boolean" value="true"/>
 					<entry index="500341" type="boolean" value="true"/>
@@ -6246,13 +6047,10 @@
 					<entry index="500353" type="boolean" value="true"/>
 					<entry index="500354" type="boolean" value="true"/>
 					<entry index="500356" type="boolean" value="true"/>
-					<entry index="500357" type="boolean" value="true"/>
 					<entry index="500360" type="boolean" value="true"/>
-					<entry index="500361" type="boolean" value="true"/>
 					<entry index="500362" type="boolean" value="true"/>
 					<entry index="500363" type="boolean" value="true"/>
 					<entry index="500364" type="boolean" value="true"/>
-					<entry index="500365" type="boolean" value="true"/>
 					<entry index="500366" type="boolean" value="true"/>
 					<entry index="500367" type="boolean" value="true"/>
 					<entry index="500368" type="boolean" value="true"/>
@@ -6396,13 +6194,11 @@
 					<entry index="500514" type="boolean" value="true"/>
 					<entry index="500515" type="boolean" value="true"/>
 					<entry index="500516" type="boolean" value="true"/>
-					<entry index="500517" type="boolean" value="true"/>
 					<entry index="500518" type="boolean" value="true"/>
 					<entry index="500519" type="boolean" value="true"/>
 					<entry index="500520" type="boolean" value="true"/>
 					<entry index="500521" type="boolean" value="true"/>
 					<entry index="500522" type="boolean" value="true"/>
-					<entry index="500523" type="boolean" value="true"/>
 					<entry index="500524" type="boolean" value="true"/>
 					<entry index="500525" type="boolean" value="true"/>
 					<entry index="500526" type="boolean" value="true"/>
@@ -6416,74 +6212,6 @@
 					<entry index="500534" type="boolean" value="true"/>
 					<entry index="500535" type="boolean" value="true"/>
 					<entry index="500538" type="boolean" value="true"/>
-					<entry index="500539" type="boolean" value="true"/>
-					<entry index="500541" type="boolean" value="true"/>
-					<entry index="500542" type="boolean" value="true"/>
-					<entry index="500543" type="boolean" value="true"/>
-					<entry index="500544" type="boolean" value="true"/>
-					<entry index="500545" type="boolean" value="true"/>
-					<entry index="500546" type="boolean" value="true"/>
-					<entry index="500547" type="boolean" value="true"/>
-					<entry index="500548" type="boolean" value="true"/>
-					<entry index="500549" type="boolean" value="true"/>
-					<entry index="500550" type="boolean" value="true"/>
-					<entry index="500551" type="boolean" value="true"/>
-					<entry index="500552" type="boolean" value="true"/>
-					<entry index="500553" type="boolean" value="true"/>
-					<entry index="500554" type="boolean" value="true"/>
-					<entry index="500555" type="boolean" value="true"/>
-					<entry index="500556" type="boolean" value="true"/>
-					<entry index="500557" type="boolean" value="true"/>
-					<entry index="500558" type="boolean" value="true"/>
-					<entry index="500560" type="boolean" value="true"/>
-					<entry index="500561" type="boolean" value="true"/>
-					<entry index="500562" type="boolean" value="true"/>
-					<entry index="500563" type="boolean" value="true"/>
-					<entry index="500564" type="boolean" value="true"/>
-					<entry index="500565" type="boolean" value="true"/>
-					<entry index="500566" type="boolean" value="true"/>
-					<entry index="500567" type="boolean" value="true"/>
-					<entry index="500568" type="boolean" value="true"/>
-					<entry index="500569" type="boolean" value="true"/>
-					<entry index="500570" type="boolean" value="true"/>
-					<entry index="500571" type="boolean" value="true"/>
-					<entry index="500572" type="boolean" value="true"/>
-					<entry index="500573" type="boolean" value="true"/>
-					<entry index="500574" type="boolean" value="true"/>
-					<entry index="500575" type="boolean" value="true"/>
-					<entry index="500576" type="boolean" value="true"/>
-					<entry index="500577" type="boolean" value="true"/>
-					<entry index="500578" type="boolean" value="true"/>
-					<entry index="500579" type="boolean" value="true"/>
-					<entry index="500580" type="boolean" value="true"/>
-					<entry index="500581" type="boolean" value="true"/>
-					<entry index="500582" type="boolean" value="true"/>
-					<entry index="500583" type="boolean" value="true"/>
-					<entry index="500584" type="boolean" value="true"/>
-					<entry index="500585" type="boolean" value="true"/>
-					<entry index="500586" type="boolean" value="true"/>
-					<entry index="500587" type="boolean" value="true"/>
-					<entry index="500588" type="boolean" value="true"/>
-					<entry index="500589" type="boolean" value="true"/>
-					<entry index="500590" type="boolean" value="true"/>
-					<entry index="500591" type="boolean" value="true"/>
-					<entry index="500592" type="boolean" value="true"/>
-					<entry index="500593" type="boolean" value="true"/>
-					<entry index="500594" type="boolean" value="true"/>
-					<entry index="500595" type="boolean" value="true"/>
-					<entry index="500596" type="boolean" value="true"/>
-					<entry index="500597" type="boolean" value="true"/>
-					<entry index="500598" type="boolean" value="true"/>
-					<entry index="500599" type="boolean" value="true"/>
-					<entry index="500600" type="boolean" value="true"/>
-					<entry index="500601" type="boolean" value="true"/>
-					<entry index="500602" type="boolean" value="true"/>
-					<entry index="500603" type="boolean" value="true"/>
-					<entry index="500604" type="boolean" value="true"/>
-					<entry index="500605" type="boolean" value="true"/>
-					<entry index="500607" type="boolean" value="true"/>
-					<entry index="500608" type="boolean" value="true"/>
-					<entry index="500609" type="boolean" value="true"/>
 					<entry index="500610" type="boolean" value="true"/>
 					<entry index="500611" type="boolean" value="true"/>
 					<entry index="500612" type="boolean" value="true"/>
@@ -6495,7 +6223,6 @@
 					<entry index="500619" type="boolean" value="true"/>
 					<entry index="500620" type="boolean" value="true"/>
 					<entry index="500621" type="boolean" value="true"/>
-					<entry index="500622" type="boolean" value="true"/>
 					<entry index="500623" type="boolean" value="true"/>
 					<entry index="500624" type="boolean" value="true"/>
 					<entry index="500625" type="boolean" value="true"/>
@@ -6538,22 +6265,9 @@
 					<entry index="500662" type="boolean" value="true"/>
 					<entry index="500663" type="boolean" value="true"/>
 					<entry index="500664" type="boolean" value="true"/>
-					<entry index="500665" type="boolean" value="true"/>
-					<entry index="500666" type="boolean" value="true"/>
-					<entry index="500667" type="boolean" value="true"/>
-					<entry index="500668" type="boolean" value="true"/>
-					<entry index="500669" type="boolean" value="true"/>
-					<entry index="500670" type="boolean" value="true"/>
-					<entry index="500671" type="boolean" value="true"/>
-					<entry index="500672" type="boolean" value="true"/>
 					<entry index="500673" type="boolean" value="true"/>
 					<entry index="500674" type="boolean" value="true"/>
 					<entry index="500675" type="boolean" value="true"/>
-					<entry index="500676" type="boolean" value="true"/>
-					<entry index="500677" type="boolean" value="true"/>
-					<entry index="500678" type="boolean" value="true"/>
-					<entry index="500679" type="boolean" value="true"/>
-					<entry index="500681" type="boolean" value="true"/>
 					<entry index="500682" type="boolean" value="true"/>
 					<entry index="500683" type="boolean" value="true"/>
 					<entry index="500684" type="boolean" value="true"/>
@@ -6564,7 +6278,6 @@
 					<entry index="500690" type="boolean" value="true"/>
 					<entry index="500691" type="boolean" value="true"/>
 					<entry index="500692" type="boolean" value="true"/>
-					<entry index="500694" type="boolean" value="true"/>
 					<entry index="500695" type="boolean" value="true"/>
 					<entry index="500696" type="boolean" value="true"/>
 					<entry index="500697" type="boolean" value="true"/>
@@ -6586,9 +6299,7 @@
 					<entry index="500715" type="boolean" value="true"/>
 					<entry index="500716" type="boolean" value="true"/>
 					<entry index="500717" type="boolean" value="true"/>
-					<entry index="500718" type="boolean" value="true"/>
 					<entry index="500719" type="boolean" value="true"/>
-					<entry index="500720" type="boolean" value="true"/>
 					<entry index="500721" type="boolean" value="true"/>
 					<entry index="500722" type="boolean" value="true"/>
 					<entry index="500723" type="boolean" value="true"/>
@@ -6616,13 +6327,6 @@
 					<entry index="500747" type="boolean" value="true"/>
 					<entry index="500748" type="boolean" value="true"/>
 					<entry index="500751" type="boolean" value="true"/>
-					<entry index="500752" type="boolean" value="true"/>
-					<entry index="500753" type="boolean" value="true"/>
-					<entry index="500754" type="boolean" value="true"/>
-					<entry index="500757" type="boolean" value="true"/>
-					<entry index="500760" type="boolean" value="true"/>
-					<entry index="500761" type="boolean" value="true"/>
-					<entry index="500762" type="boolean" value="true"/>
 					<entry index="500763" type="boolean" value="true"/>
 					<entry index="500764" type="boolean" value="true"/>
 					<entry index="500765" type="boolean" value="true"/>
@@ -6641,12 +6345,8 @@
 					<entry index="500778" type="boolean" value="true"/>
 					<entry index="500779" type="boolean" value="true"/>
 					<entry index="500780" type="boolean" value="true"/>
-					<entry index="500781" type="boolean" value="true"/>
-					<entry index="500782" type="boolean" value="true"/>
-					<entry index="500783" type="boolean" value="true"/>
 					<entry index="500850" type="boolean" value="true"/>
 					<entry index="500854" type="boolean" value="true"/>
-					<entry index="500914" type="boolean" value="true"/>
 					<entry index="500916" type="boolean" value="true"/>
 					<entry index="500917" type="boolean" value="true"/>
 					<entry index="500918" type="boolean" value="true"/>
@@ -7089,11 +6789,6 @@
 					<entry index="501383" type="boolean" value="true"/>
 					<entry index="501384" type="boolean" value="true"/>
 					<entry index="501385" type="boolean" value="true"/>
-					<entry index="501386" type="boolean" value="true"/>
-					<entry index="501387" type="boolean" value="true"/>
-					<entry index="501388" type="boolean" value="true"/>
-					<entry index="501389" type="boolean" value="true"/>
-					<entry index="501390" type="boolean" value="true"/>
 					<entry index="501393" type="boolean" value="true"/>
 					<entry index="501394" type="boolean" value="true"/>
 					<entry index="501395" type="boolean" value="true"/>
@@ -7182,7 +6877,6 @@
 					<entry index="501478" type="boolean" value="true"/>
 					<entry index="501479" type="boolean" value="true"/>
 					<entry index="501480" type="boolean" value="true"/>
-					<entry index="501481" type="boolean" value="true"/>
 					<entry index="501482" type="boolean" value="true"/>
 					<entry index="501483" type="boolean" value="true"/>
 					<entry index="501525" type="boolean" value="true"/>
@@ -7201,14 +6895,6 @@
 					<entry index="501574" type="boolean" value="true"/>
 					<entry index="501575" type="boolean" value="true"/>
 					<entry index="501576" type="boolean" value="true"/>
-					<entry index="501577" type="boolean" value="true"/>
-					<entry index="501578" type="boolean" value="true"/>
-					<entry index="501579" type="boolean" value="true"/>
-					<entry index="501580" type="boolean" value="true"/>
-					<entry index="501581" type="boolean" value="true"/>
-					<entry index="501582" type="boolean" value="true"/>
-					<entry index="501583" type="boolean" value="true"/>
-					<entry index="501584" type="boolean" value="true"/>
 					<entry index="501585" type="boolean" value="true"/>
 				</entry>
 				<entry key="shapes" type="table">
@@ -7337,10 +7023,6 @@
 					<entry index="300717" type="boolean" value="true"/>
 					<entry index="300718" type="boolean" value="true"/>
 					<entry index="300719" type="boolean" value="true"/>
-					<entry index="300726" type="boolean" value="true"/>
-					<entry index="300728" type="boolean" value="true"/>
-					<entry index="300731" type="boolean" value="true"/>
-					<entry index="300732" type="boolean" value="true"/>
 					<entry index="300733" type="boolean" value="true"/>
 					<entry index="300736" type="boolean" value="true"/>
 					<entry index="300737" type="boolean" value="true"/>
@@ -8147,10 +7829,8 @@
 					<entry index="301726" type="boolean" value="true"/>
 					<entry index="301770" type="boolean" value="true"/>
 					<entry index="301771" type="boolean" value="true"/>
-					<entry index="301772" type="boolean" value="true"/>
 					<entry index="301773" type="boolean" value="true"/>
 					<entry index="301774" type="boolean" value="true"/>
-					<entry index="301775" type="boolean" value="true"/>
 					<entry index="301777" type="boolean" value="true"/>
 					<entry index="301778" type="boolean" value="true"/>
 					<entry index="301779" type="boolean" value="true"/>
@@ -8336,7 +8016,6 @@
 					<entry index="302169" type="boolean" value="true"/>
 					<entry index="302170" type="boolean" value="true"/>
 					<entry index="302171" type="boolean" value="true"/>
-					<entry index="302172" type="boolean" value="true"/>
 					<entry index="302173" type="boolean" value="true"/>
 					<entry index="302174" type="boolean" value="true"/>
 					<entry index="302175" type="boolean" value="true"/>
@@ -8485,8 +8164,6 @@
 					<entry index="302681" type="boolean" value="true"/>
 					<entry index="302682" type="boolean" value="true"/>
 					<entry index="302692" type="boolean" value="true"/>
-					<entry index="302693" type="boolean" value="true"/>
-					<entry index="302694" type="boolean" value="true"/>
 					<entry index="302696" type="boolean" value="true"/>
 					<entry index="302698" type="boolean" value="true"/>
 					<entry index="302699" type="boolean" value="true"/>

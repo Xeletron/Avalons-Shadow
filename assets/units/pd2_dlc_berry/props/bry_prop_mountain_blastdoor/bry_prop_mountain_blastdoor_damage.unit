@@ -1,0 +1,7 @@
+<unit type="debri" slot="18">
+	<object file="units/pd2_dlc_berry/props/bry_prop_mountain_blastdoor/bry_prop_mountain_blastdoor_damage" />
+	<extensions>
+		<extension name="unit_data" class="ScriptUnitData" />
+		<extension name="damage" class="UnitDamage" />
+	</extensions>
+</unit>

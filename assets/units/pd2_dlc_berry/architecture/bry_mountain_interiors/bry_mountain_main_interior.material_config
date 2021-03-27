@@ -1,0 +1,80 @@
+<materials version="3">
+    <material name="mat_mountain_main_room_temp" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP" version="2">
+        <diffuse_texture file="units/pd2_dlc_berry/architecture/temp_textures/white_no_spec_df"/>
+        <bump_normal_texture file="units/pd2_dlc_berry/architecture/temp_textures/white_no_spec_nm"/>
+    </material>
+    <material name="mat_bry_rock_interior_01" render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:GLOSS_BLURS_CUBEMAP:GLOSS_CONTROL_VALUE:NORMALMAP" version="2">
+        <diffuse_texture file="units/pd2_dlc_berry/architecture/bry_mountain_interiors/bry_rock_interior_01_df"/>
+        <bump_normal_texture file="units/pd2_dlc_berry/architecture/bry_mountain_interiors/bry_rock_interior_01_nm"/>
+        <reflection_texture type="cubemap" file="units/payday2/cubemaps/cubemap_steel"/>
+        <variable value="0.30100002884865" type="scalar" name="glossiness_control"/>
+    </material>
+    <material name="mat_bry_rock_interior_floor_01" render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:GLOSS_BLURS_CUBEMAP:GLOSS_CONTROL_VALUE:NORMALMAP" version="2">
+        <diffuse_texture file="units/pd2_dlc_berry/architecture/bry_mountain_interiors/bry_rock_interior_floor_01_df"/>
+        <bump_normal_texture file="units/pd2_dlc_berry/architecture/bry_mountain_interiors/bry_rock_interior_floor_01_nm"/>
+        <reflection_texture type="cubemap" file="units/payday2/cubemaps/cubemap_steel"/>
+        <variable value="0.0040000001899898" type="scalar" name="glossiness_control"/>
+    </material>
+    <material name="mat_bry_rock_interior_floor_01_blend" render_template="generic:BLEND_DIFFUSE:BLEND_MASK_SEPERATE:BLEND_NORMAL:BLEND_SMOOTH:DIFFUSE_TEXTURE:NORMALMAP:RL_CORE_ENVIRONMENT:VERTEX_COLOR" version="2">
+        <diffuse_texture file="units/pd2_dlc_berry/architecture/bry_mountain_interiors/bry_rock_interior_floor_01_wet_df"/>
+        <diffuse_layer0_texture file="units/pd2_dlc_berry/architecture/bry_mountain_interiors/bry_rock_interior_floor_01_df"/>
+        <diffuse_layer1_texture file="units/pd2_dlc_berry/architecture/bry_mountain_interiors/bry_rock_interior_floor_01_mask_df"/>
+        <bump_normal_texture file="units/pd2_dlc_berry/architecture/bry_mountain_interiors/bry_rock_interior_floor_01_nm"/>
+        <normal_layer0_texture file="units/pd2_dlc_berry/architecture/bry_mountain_interiors/bry_rock_interior_floor_01_nm"/>
+    </material>
+    <material name="mat_bry_concrete_interior_01" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP" version="2">
+        <diffuse_texture file="units/pd2_dlc_berry/architecture/bry_mountain_interiors/bry_concrete_interior_01_df"/>
+        <bump_normal_texture file="units/pd2_dlc_berry/architecture/bry_mountain_interiors/bry_concrete_interior_01_nm"/>
+    </material>
+    <material name="mat_bry_metal_trims_01" render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:NORMALMAP" version="2">
+        <diffuse_texture file="units/pd2_dlc_berry/architecture/bry_mountain_interiors/bry_metal_trims_01_df"/>
+        <bump_normal_texture file="units/pd2_dlc_berry/architecture/bry_mountain_interiors/bry_metal_trims_01_nm"/>
+        <reflection_texture file="units/payday2/cubemaps/cubemap_lab" type="cubemap"/>
+        <variable value="1 0 2" type="vector3" name="environment_settings"/>
+    </material>
+    <material name="mat_bry_interior_floor_01" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP" version="2">
+        <diffuse_texture file="units/pd2_dlc_berry/architecture/bry_guard_house/bry_guard_house_floor_df"/>
+        <bump_normal_texture file="units/pd2_dlc_berry/architecture/bry_guard_house/bry_guard_house_floor_nm"/>
+    </material>
+    <material name="mat_bry_tunnel_beams" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP" version="2">
+		<diffuse_texture file="units/pd2_dlc_berry/architecture/bry_mountain_tunnel_railings/bry_mountain_tunnel_platform_df"/>
+		<bump_normal_texture file="units/pd2_dlc_berry/architecture/bry_mountain_tunnel_railings/bry_mountain_tunnel_platform_nm"/>
+	</material>
+    <material name="mat_fan" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP" version="2">
+        <diffuse_texture file="units/pd2_dlc_berry/props/bry_prop_mechanical_fan_ceiling/bry_prop_mechanical_fan_ceiling_df"/>
+        <bump_normal_texture file="units/pd2_dlc_berry/props/bry_prop_mechanical_fan_ceiling/bry_prop_mechanical_fan_ceiling_nm"/>
+    </material>
+    <material name="mat_airduct" render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:NORMALMAP" version="2">
+        <diffuse_texture file="units/payday2/props/com_prop_vent_ceiling/com_prop_vent_ceiling_df"/>
+        <bump_normal_texture file="units/payday2/props/com_prop_vent_ceiling/com_prop_vent_ceiling_nm"/>
+        <reflection_texture type="cube" global_texture="current_global_texture"/>
+        <variable value="1 0 2" type="vector3" name="environment_settings"/>
+    </material>
+    <material name="mat_vent" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP" version="2">
+        <diffuse_texture file="units/pd2_dlc1/props/com_prop_vent_double/com_prop_vent_double_df"/>
+        <bump_normal_texture file="units/pd2_dlc1/props/com_prop_vent_double/com_prop_vent_double_nm"/>
+    </material>
+    <material name="mat_bry_warning_stripes" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP" version="2">
+        <diffuse_texture file="units/pd2_dlc_berry/architecture/bry_mountain_interiors/bry_warning_stripes_df"/>
+        <bump_normal_texture file="units/pd2_dlc_berry/architecture/bry_mountain_interiors/bry_warning_stripes_nm"/>
+    </material>
+	<material version="2" decal_material="concrete" render_template="generic:ALPHA_MASKED:DIFFUSE_TEXTURE:EXTERNAL_ALPHA_REF:NORMALMAP:RL_ENVIRONMENT" name="mat_bry_stripes">
+        <diffuse_texture file="units/pd2_dlc_berry/architecture/bry_office_building/bry_stripes_df"/>
+        <bump_normal_texture file="units/pd2_dlc_berry/architecture/bry_office_building/bry_stripes_nm"/>
+        <variable value="0.22000001370907" type="scalar" name="alpha_ref"/>
+    </material>
+	<material name="mat_ind_ext_level_railing" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP" version="2">
+		<diffuse_texture file="units/pd2_dlc_berry/architecture/bry_mountain_tunnel_railings/bry_mountain_tunnel_railings_df" />
+		<bump_normal_texture file="units/payday2/architecture/ind/ind_ext_level/ind_ext_level_railing_nm" />
+	</material>
+	<material name="mat_bry_pipes_netting" render_template="generic:ALPHA_MASKED:DIFFUSE_TEXTURE:DOUBLE_SIDED:EXTERNAL_ALPHA_REF:NORMALMAP" version="2">
+		<diffuse_texture file="units/pd2_dlc_holly/river/architecture/lxa_highway/lxa_inner_railings_df"/>
+		<bump_normal_texture file="units/pd2_dlc_holly/river/architecture/lxa_highway/lxa_inner_railings_nm"/>
+		<variable value="0.0040000001899898" type="scalar" name="alpha_ref"/>
+	</material>
+	<material name="mat_pipeset" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP" version="2">
+		<diffuse_texture file="units/pd2_dlc_berry/props/bry_prop_mechanical_pipeset/bry_prop_mechanical_pipeset_df" />
+		<bump_normal_texture file="units/pd2_dlc_berry/props/bry_prop_mechanical_pipeset/bry_prop_mechanical_pipeset_nm" />
+	</material>
+    <material name="shadow_caster" render_template="shadow_caster_only" version="2"/>
+</materials>
