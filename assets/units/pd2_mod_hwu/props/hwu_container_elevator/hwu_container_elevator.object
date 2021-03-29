@@ -30,10 +30,6 @@
 			<object name="c_mesh_mopp_01" collision_type="mesh_mopp"/>
 			<object name="c_box_10" collision_type="box" padding="-2.5"/>
 		</body>
-		<body name="body_base" enabled="true" template="static">
-			<object name="rp_hwu_container_elevator" />
-			<object name="c_box_09" collision_type="box" padding="-2.5"/>
-		</body>
 	</bodies>
 
 	<decal_surfaces default_material="metal" static="false">
@@ -47,7 +43,6 @@
 			<object name="g_door_front"	enabled="false" 		shadow_caster="false" />
 			<object name="g_door_rear"	enabled="true" 		shadow_caster="false" />
 			<object name="g_piston"	enabled="true" 		shadow_caster="false" />
-			<object name="g_base"	enabled="true" 		shadow_caster="false" />
 			<object name="s_s" 		enabled="true" 		shadow_caster="true" />
 		</graphic_group>
 	</graphics>
