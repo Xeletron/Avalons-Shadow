@@ -2144,7 +2144,7 @@
 			<unit_data _prev_pos="-9980.9 -10622 -2410" _prev_rot="0 0 -0.707107 -0.707107" _visibility_counter="0" continent="underground" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="-2571.3 -3769.1 -250" local_rot="0 0 0 1" name="units/pd2_dlc_berry/architecture/bry_vault_room/bry_vault_room" name_id="bry_vault_room_002" position="-9980.9 -10622 -2410" rotation="0 0 -0.707107 -0.707107" unit_id="500095"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-8013.1 -4231.79 -1199.43" _prev_rot="0 0 0 -1" _visibility_counter="0" continent="underground" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="3818.91 -5736.9 960.57" local_rot="0 0 -0.707107 0.707107" name="units/dev_tools/level_tools/shadow_caster_20x20" name_id="shadow_caster_20x20_019" position="-8013.1 -4231.79 -1199.43" rotation="0 0 0 -1" unit_id="500319"/>
+			<unit_data _prev_pos="-8013.1 -4231.79 -1199.43" _prev_rot="0 0 0 -1" _visibility_counter="0" continent="underground" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/shadow_caster_20x20" name_id="shadow_caster_20x20_019" position="-8013.1 -4231.79 -1199.43" rotation="-0 0 -0 -1" unit_id="500319"/>
 		</table>
 		<table>
 			<unit_data _prev_pos="-6013.1 -4231.79 -1199.43" _prev_rot="0 0 0 -1" _visibility_counter="0" continent="underground" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="3818.91 -7736.9 960.57" local_rot="0 0 -0.707107 0.707107" name="units/dev_tools/level_tools/shadow_caster_20x20" name_id="shadow_caster_20x20_020" position="-6013.1 -4231.79 -1199.43" rotation="0 0 0 -1" unit_id="500321"/>
@@ -3374,9 +3374,6 @@
 			<unit_data _prev_pos="-10355.3 -12933.2 -2219.82" _prev_rot="0 0 0.906308 0.422618" _visibility_counter="0" continent="underground" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="-4882.5 -3394.7 -59.8201" local_rot="-0 0 -0.34202 -0.939693" mesh_variation="" name="units/world/props/cup/coffe_cup" name_id="coffe_cup_001" position="-10355.3 -12933.2 -2219.82" rotation="0 0 0.906308 0.422618" unit_id="501308"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-10088.8 -12858.5 -2221.82" _prev_rot="0 0 0.99863 0.0523358" _visibility_counter="0" continent="underground" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="-4807.8 -3661.2 -61.8201" local_rot="-0 0 -0.669131 -0.743145" name="units/pd2_dlc_des/props/des_prop_chemset/des_prop_chemset_02" name_id="des_prop_chemset_02_003" position="-10088.8 -12858.5 -2221.82" rotation="0 0 0.99863 0.0523357" unit_id="501309"/>
-		</table>
-		<table>
 			<unit_data _prev_pos="-10388.4 -12956 -2310" _prev_rot="0 0 -0.707107 -0.707107" _visibility_counter="0" continent="underground" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="-4905.3 -3361.6 -150" local_rot="0 0 0 1" name="units/world/props/trashcan/trash_basket" name_id="trash_basket_012" position="-10388.4 -12956 -2310" rotation="0 0 -0.707107 -0.707107" unit_id="501310"/>
 		</table>
 		<table>
@@ -4410,13 +4407,7 @@
 			<unit_data _prev_pos="-10442 -8174.66 -2554" _prev_rot="0 0 -0.707107 -0.707107" continent="underground" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="-123.96 -3308 -394" local_rot="0 0 0 1" name="units/pd2_dlc_berry/architecture/bry_mountain_interiors/bry_mountain_arch_door" name_id="bry_mountain_arch_door_002" position="-10442 -8174.66 -2554" rotation="0 0 -0.707107 -0.707107" unit_id="500001"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-10442 -8190.66 -2454" _prev_rot="0 0 1.78814e-007 -1" continent="underground" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="hide" name="units/pd2_dlc_berry/props/bry_prop_mountain_blastdoor/bry_prop_mountain_blastdoor" name_id="bry_prop_mountain_blastdoor_002" position="-10442 -8190.66 -2455" rotation="0 0 0 -1" unit_id="500055"/>
-		</table>
-		<table>
 			<unit_data _prev_pos="-10936.1 -6384.94 -2301.33" _prev_rot="0.0230203 -0.0439875 0.950259 0.30748" continent="underground" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="1665.76 -2813.9 -141.33" local_rot="0.014826 0.0473817 -0.454513 -0.889355" name="units/pd2_dlc_berry/architecture/bry_mountain_interiors/bry_mountain_arch_door" name_id="bry_mountain_arch_door_005" position="-10936.1 -6384.94 -2301.33" rotation="0.0230203 -0.0439875 0.950259 0.30748" unit_id="500081"/>
-		</table>
-		<table>
-			<unit_data _prev_pos="-10921.5 -6404.06 -2202.96" _prev_rot="-0.0473807 0.0148265 -0.454512 -0.889356" continent="underground" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="1646.64 -2828.5 -42.96" local_rot="0.0230193 -0.0439871 -0.307481 0.950258" mesh_variation="hide" name="units/pd2_dlc_berry/props/bry_prop_mountain_blastdoor/bry_prop_mountain_blastdoor" name_id="bry_prop_mountain_blastdoor_005" position="-10921.5 -6404.06 -2202.96" rotation="-0.0473807 0.0148265 -0.454512 -0.889356" unit_id="500082"/>
 		</table>
 		<table>
 			<unit_data _prev_pos="-10733.7 -6322.82 -1590.77" _prev_rot="-3.11068e-010 5.29333e-010 -0.446198 -0.894934" continent="underground" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="1727.88 -3016.3 569.23" local_rot="-1.54337e-010 -5.94253e-010 -0.317304 0.948324" name="units/pd2_dlc_berry/architecture/bry_mountain_interiors/bry_mountain_solid_wall" name_id="bry_mountain_solid_wall_047" position="-10733.7 -6322.82 -1590.77" rotation="-3.11068e-010 5.29333e-010 -0.446198 -0.894934" unit_id="500053"/>
@@ -4431,13 +4422,10 @@
 			<unit_data _prev_pos="-9418.34 -5126.04 -1684.06" _prev_rot="0.0612681 0.0263034 0.932115 -0.355972" continent="underground" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="2924.66 -4331.66 475.94" local_rot="-0.0619224 0.0247238 -0.910815 -0.407395" name="units/payday2/props/str_prop_mechanical_lamp_spot_a/str_prop_mechanical_lamp_spot_a" name_id="str_prop_mechanical_lamp_spot_a_056" position="-9418.34 -5126.04 -1684.06" rotation="0.0612681 0.0263034 0.932115 -0.355972" unit_id="500088"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-11804 -9570 -2461" _prev_rot="0 0 0.707107 -0.707107" continent="underground" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="-1519.3 -1946 -301" local_rot="0 0 -1 0" mesh_variation="hide" name="units/pd2_dlc_berry/props/bry_prop_mountain_blastdoor/bry_prop_mountain_blastdoor" name_id="bry_prop_mountain_blastdoor_001" position="-11804 -9570 -2461" rotation="0 0 0.707107 -0.707107" unit_id="500089"/>
-		</table>
-		<table>
 			<unit_data _prev_pos="-11790 -9570 -2561" _prev_rot="0 0 0 -1" continent="underground" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="-1519.3 -1960 -401" local_rot="0 0 -0.707107 0.707107" name="units/pd2_dlc_berry/architecture/bry_mountain_interiors/bry_mountain_arch_door" name_id="bry_mountain_arch_door_003" position="-11790 -9570 -2561" rotation="0 0 0 -1" unit_id="500090"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-13618.9 -5548.35 -1861.14" _prev_rot="0 0 -0.5 -0.866025" continent="underground" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="2502.35 -131.1 298.86" local_rot="0 0 -0.258819 0.965926" mesh_variation="hide" name="units/pd2_dlc_berry/props/bry_prop_mountain_blastdoor/bry_prop_mountain_blastdoor" name_id="bry_prop_mountain_blastdoor_004" position="-13618.9 -5548.35 -1861.14" rotation="0 0 -0.5 -0.866025" unit_id="500096"/>
+			<unit_data _prev_pos="-13618.9 -5548.35 -1861.14" _prev_rot="0 0 -0.5 -0.866025" continent="underground" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="state_light_red" name="units/pd2_dlc_berry/props/bry_prop_mountain_blastdoor/bry_prop_mountain_blastdoor" name_id="bry_prop_mountain_blastdoor_004" position="-13618.9 -5548.35 -1861.14" rotation="0 0 -0.5 -0.866025" unit_id="500096"/>
 		</table>
 		<table>
 			<unit_data _prev_pos="-13635.4 -5538.85 -1966.14" _prev_rot="0 0 0.965926 0.258819" continent="underground" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="2511.85 -114.6 193.86" local_rot="-0 0 -0.5 -0.866025" name="units/pd2_dlc_berry/architecture/bry_mountain_interiors/bry_mountain_arch_door" name_id="bry_mountain_arch_door_001" position="-13635.4 -5538.85 -1966.14" rotation="0 0 0.965926 0.258819" unit_id="500101"/>
@@ -4593,9 +4581,6 @@
 			<unit_data _prev_pos="-7865 -3745 -410" _prev_rot="0 0 1 4.37114e-008" continent="underground" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_berry/architecture/bry_mountain_tunnel_railings/bry_mountain_stairs_c_base" name_id="bry_mountain_stairs_c_base_002" position="-7865 -3745 -410" rotation="0 0 1 4.37114e-008" unit_id="500275"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-8280 -4335 -2010" _prev_rot="0 0 1 4.37114e-008" continent="underground" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="state_interaction_disabled" name="units/pd2_dlc_des/equipment/des_interactable_office_desk_communication/des_interactable_office_desk_communication" name_id="des_interactable_office_desk_communication_007" position="-8280 -4335 -2010" rotation="0 0 1 4.37114e-008" unit_id="500462"/>
-		</table>
-		<table>
 			<unit_data _prev_pos="-8465 -3545 -1210" _prev_rot="0 0 0 -1" continent="underground" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="600 0 0" local_rot="0 0 -0.707107 0.707107" name="units/pd2_dlc_berry/architecture/bry_mountain_tunnel_railings/bry_mountain_stairs_c_one_side" name_id="bry_mountain_stairs_a_013" position="-8465 -3545 -1210" rotation="0 0 0 -1" unit_id="500498"/>
 		</table>
 		<table>
@@ -4738,6 +4723,15 @@
 		</table>
 		<table>
 			<unit_data _prev_pos="-8231 -3945 -2010" _prev_rot="0 0 -0.707107 -0.707107" continent="underground" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_berry/architecture/bry_mountain_tunnel_railings/bry_mountain_stairs_support_4m" name_id="bry_mountain_stairs_support_4m_010" position="-8231 -3551 -2010" rotation="0 0 -0.707107 -0.707107" unit_id="500569"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-15394 -6288 -1860" _prev_rot="0 0 1 8.9407e-008" continent="underground" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="state_interaction_disabled" name="units/pd2_dlc_des/props/des_prop_inter_hack_computer/des_inter_hack_computer" name_id="des_inter_hack_computer_002" position="-12916 -6348.9 -1748.7" rotation="0 0 1 8.9407e-008" unit_id="500462"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-8781 -3719 -2015" _prev_rot="0 0 -0.707107 -0.707107" continent="underground" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_cro/ind_container_mul/mullplan_container" name_id="mullplan_container_003" position="-8781 -3719 -2022" rotation="0 0 -0.707107 -0.707107" unit_id="500570"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-8781 -3569 -2015" _prev_rot="0 0 -0.707107 -0.707107" continent="underground" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="150 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_cro/ind_container_mul/mullplan_container" name_id="mullplan_container_004" position="-8781 -3569 -2022" rotation="0 0 -0.707107 -0.707107" unit_id="500571"/>
 		</table>
 	</statics>
 	<values>
