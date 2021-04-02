@@ -33,4 +33,8 @@
         <reflection_texture type="cubemap" file="environments/cubemaps/cubemap_secret_stash_ext"/>
         <variable value="1 0 2" type="vector3" name="environment_settings"/>
     </material>
+    <material name="mat_bry_concrete_interior_01" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP" version="2">
+        <diffuse_texture file="units/pd2_dlc_berry/architecture/bry_mountain_interiors/bry_concrete_interior_01_df"/>
+        <bump_normal_texture file="units/pd2_dlc_berry/architecture/bry_mountain_interiors/bry_concrete_interior_01_nm"/>
+    </material>
 </materials>

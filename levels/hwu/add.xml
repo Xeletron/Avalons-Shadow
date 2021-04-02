@@ -38,12 +38,10 @@
 		<model force="true" path="units/pd2_mod_hwu/architecture/hwu_mountain_ground/hwu_mountain_ground" unload="true"/>
 		<object force="true" path="units/pd2_mod_hwu/architecture/hwu_mountain_ground/hwu_mountain_ground" unload="true"/>
 		<unit force="true" path="units/pd2_mod_hwu/architecture/hwu_mountain_ground/hwu_mountain_ground" unload="true"/>
-
 		<model force="true" path="units/pd2_mod_hwu/architecture/hwu_mountain_shaft/hwu_mountain_shaft" unload="true"/>
 		<object force="true" path="units/pd2_mod_hwu/architecture/hwu_mountain_shaft/hwu_mountain_shaft" unload="true"/>
 		<unit force="true" path="units/pd2_mod_hwu/architecture/hwu_mountain_shaft/hwu_mountain_shaft" unload="true"/>
 		<material_config force="true" path="units/pd2_mod_hwu/architecture/hwu_mountain_shaft/hwu_mountain_shaft" unload="true"/>
-
 		<material_config force="true" path="units/pd2_mod_hwu/architecture/hwu_mountain_storage_room/hwu_mountain_storage_room" unload="true"/>
 		<model force="true" path="units/pd2_mod_hwu/architecture/hwu_mountain_storage_room/hwu_mountain_storage_room" unload="true"/>
 		<object force="true" path="units/pd2_mod_hwu/architecture/hwu_mountain_storage_room/hwu_mountain_storage_room" unload="true"/>
@@ -1683,8 +1681,14 @@
 		<unit path="units/pd2_dlc_berry/architecture/bry_mountain_tunnel_railings/bry_mountain_stairs_inner_corner" unload="true"/>
 	</add>
 	<add path="units/pd2_dlc_berry/architecture/bry_mountain_tunnel_railings/bry_mountain_rails_01" type="unit">
-		<unit path="units/pd2_dlc_berry/architecture/bry_mountain_tunnel_railings/bry_mountain_rails_01" unload="true"/>
-		<object path="units/pd2_dlc_berry/architecture/bry_mountain_tunnel_railings/bry_mountain_rails_01" unload="true"/>
 		<material_config path="units/pd2_dlc_berry/architecture/bry_mountain_tunnel_railings/bry_mountain_stairs" unload="true"/>
+		<object path="units/pd2_dlc_berry/architecture/bry_mountain_tunnel_railings/bry_mountain_rails_01" unload="true"/>
+		<unit path="units/pd2_dlc_berry/architecture/bry_mountain_tunnel_railings/bry_mountain_rails_01" unload="true"/>
+	</add>
+	<add path="units/payday2/characters/ene_biker_1/ene_biker_1" type="unit">
+		<unit force="true" load="true" path="units/payday2/characters/ene_biker_1/ene_biker_1" unload="true"/>
+		<object path="units/payday2/characters/ene_biker_1/ene_biker_1" unload="true"/>
+		<material_config path="units/payday2/characters/ene_biker_1/ene_biker_1" unload="true"/>
+		<unit force="true" load="true" path="units/payday2/characters/ene_biker_1/ene_biker_1_husk" unload="true"/>
 	</add>
 </table>
