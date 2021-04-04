@@ -1,0 +1,20 @@
+<dynamic_object>
+	<diesel materials="units/pd2_dlc_des/props/des_prop_server_room_screen/des_prop_server_room_screen" orientation_object="rp_des_prop_server_room_screen" />
+	<sequence_manager file="units/pd2_dlc_des/props/des_prop_server_room_screen/des_prop_server_room_screen" />
+	<bodies>
+		<body name="body_static" enabled="true" template="static">
+			<object name="rp_des_prop_server_room_screen" />
+			<object name="c_mesh_mopp_screen_01" collision_type="mesh_mopp" />
+		</body>
+	</bodies>
+	<decal_surfaces default_material="glass_unbreakable">
+		<decal_mesh name="dm_glass_unbreakable" enabled="true" material="glass_unbreakable" />
+		<decal_mesh name="dm_metal" enabled="true" material="metal" />
+	</decal_surfaces>
+	<graphics>
+		<object name="g_screen_logo" enabled="true" />
+		<object name="g_screen_on_01" enabled="true" />
+		<object name="g_screen_dmg_01" enabled="false" />
+		<object name="g_screen_off_01" enabled="false" />
+	</graphics>
+</dynamic_object>

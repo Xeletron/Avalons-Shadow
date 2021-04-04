@@ -1,0 +1,28 @@
+<materials version="3">
+	<material name="mat_screen" render_template="generic:DIFFUSE_TEXTURE" version="2">
+		<diffuse_texture file="units/payday2/props/stn_prop_screen/stn_prop_screen_b_df" />
+	</material>
+	<material name="mat_screen_dmg" render_template="generic:DIFFUSE_TEXTURE" version="2">
+		<diffuse_texture file="units/payday2/props/stn_prop_screen/stn_prop_screen_dmg_df" />
+	</material>
+	<material name="mat_screen_il" render_template="generic:DIFFUSE_TEXTURE:SELF_ILLUMINATION" version="2">
+		<diffuse_texture file="units/payday2/props/stn_prop_screen/stn_prop_screen_b_df" />
+		<self_illumination_texture file="units/payday2/props/stn_prop_screen/stn_prop_screen_b_df" />
+		<variable name="il_multiplier" type="scalar" value="sun" />
+	</material>
+	<material name="mat_screen_off" render_template="generic:DIFFUSE_TEXTURE" version="2">
+		<diffuse_texture file="units/payday2/glass/glass_clear_vehicle_dark_b_df" />
+	</material>
+	<material name="mat_metal_trim" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP" version="2">
+		<diffuse_texture file="units/pd2_dlc_des/tiling_textures/des_trimsheet_1/des_trimsheet_1_df" />
+		<bump_normal_texture file="units/pd2_dlc_des/tiling_textures/des_trimsheet_1/des_trimsheet_1_nm" />
+	</material>
+	<material name="particleCloud1" render_template="generic" version="2" />
+    <material render_template="generic:ALPHA_MASKED:DIFFUSE_TEXTURE:EXTERNAL_ALPHA_REF:SELF_ILLUMINATION:SELF_ILLUMINATION_BLOOM" name="mat_logo_lit" version="2">
+        <diffuse_texture file="units/pd2_dlc_des/props/des_prop_screen_logo/des_prop_screen_logo_df"/>
+        <variable type="scalar" name="il_multiplier" value="neonsign"/>
+        <self_illumination_texture file="units/pd2_dlc_des/props/des_prop_screen_logo/des_prop_screen_logo_df"/>
+        <variable type="scalar" name="il_bloom" value="9.999000474927"/>
+        <variable type="scalar" name="alpha_ref" value="0.11400000541471"/>
+    </material>
+</materials>
