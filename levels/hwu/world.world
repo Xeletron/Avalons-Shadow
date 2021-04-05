@@ -3935,12 +3935,14 @@
 				</entry>
 			</entry>
 			<entry key="unit_data" type="table">
+				<entry key="_prev_pos" type="vector3" value="-12090.4 -10632.9 -1960"/>
+				<entry key="_prev_rot" type="quaternion" value="0 0 0 -1"/>
 				<entry key="continent" type="string" value="world"/>
 				<entry key="local_pos" type="vector3" value="0 0 0"/>
 				<entry key="local_rot" type="quaternion" value="0 0 0 1"/>
 				<entry key="name" type="string" value="core/units/nav_surface/nav_surface"/>
 				<entry key="name_id" type="string" value="nav_surface_135"/>
-				<entry key="position" type="vector3" value="-12090.4 -10632.9 -1960"/>
+				<entry key="position" type="vector3" value="-12090.4 -10232.9 -1960"/>
 				<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 				<entry key="unit_id" type="number" value="136"/>
 			</entry>
@@ -3985,6 +3987,27 @@
 				<entry key="position" type="vector3" value="-8896.1 -11776.4 -2010"/>
 				<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 				<entry key="unit_id" type="number" value="138"/>
+			</entry>
+		</entry>
+		<entry index="189" type="table">
+			<entry key="ai_editor_data" type="table">
+				<entry key="detection_mul" type="number" value="1"/>
+				<entry key="location_id" type="string" value="location_unknown"/>
+				<entry key="suspicion_mul" type="number" value="1"/>
+				<entry key="visibilty_exlude_filter" type="table">
+				</entry>
+				<entry key="visibilty_include_filter" type="table">
+				</entry>
+			</entry>
+			<entry key="unit_data" type="table">
+				<entry key="continent" type="string" value="world"/>
+				<entry key="local_pos" type="vector3" value="0 0 0"/>
+				<entry key="local_rot" type="quaternion" value="0 0 0 1"/>
+				<entry key="name" type="string" value="core/units/nav_surface/nav_surface"/>
+				<entry key="name_id" type="string" value="nav_surface_157"/>
+				<entry key="position" type="vector3" value="-8707.31 -3041.39 -400"/>
+				<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+				<entry key="unit_id" type="number" value="158"/>
 			</entry>
 		</entry>
 	</entry>
@@ -6110,7 +6133,6 @@
 					<entry index="500301" type="boolean" value="true"/>
 					<entry index="500304" type="boolean" value="true"/>
 					<entry index="500316" type="boolean" value="true"/>
-					<entry index="500318" type="boolean" value="true"/>
 					<entry index="500319" type="boolean" value="true"/>
 					<entry index="500321" type="boolean" value="true"/>
 					<entry index="500324" type="boolean" value="true"/>
