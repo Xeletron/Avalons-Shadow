@@ -1,0 +1,12 @@
+<dynamic_object>
+	<diesel materials="units/pd2_dlc_arena/architecture/are_bdrop_arena/are_bdrop_arena" orientation_object="rp_are_bdrop_arena_pilars" />
+	<bodies>
+		<body name="body_static" enabled="true" template="editor">
+			<object name="rp_are_bdrop_arena_pilars" />
+			<object name="c_box_01" collision_type="box" padding="-2.5" />
+		</body>
+	</bodies>
+	<graphics>
+		<object name="g_g" enabled="true" />
+	</graphics>
+</dynamic_object>

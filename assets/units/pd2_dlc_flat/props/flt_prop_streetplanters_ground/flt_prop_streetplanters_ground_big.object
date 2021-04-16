@@ -1,0 +1,20 @@
+<dynamic_object>
+	<diesel materials="units/pd2_dlc_flat/props/flt_prop_streetplanters_ground/flt_prop_streetplanters_ground_big" orientation_object="rp_flt_prop_streetplanters_ground_big" />
+	<bodies>
+		<body name="body_static" enabled="true" template="static">
+			<object name="rp_flt_prop_streetplanters_ground_big" />
+			<object name="c_box_01" collision_type="box" padding="-2.5" />
+		</body>
+	</bodies>
+	<decal_surfaces default_material="grass">
+		<decal_mesh name="dm_concrete" enabled="true" material="concrete" />
+		<decal_mesh name="dm_grass" enabled="true" material="grass" />
+	</decal_surfaces>
+	<graphics>
+		<lod_object name="lod_g">
+			<object name="g_lod0" enabled="true" max_distance="1500" />
+			<object name="g_lod1" enabled="true" />
+		</lod_object>
+		<object name="s_s" enabled="true" shadow_caster="true" />
+	</graphics>
+</dynamic_object>

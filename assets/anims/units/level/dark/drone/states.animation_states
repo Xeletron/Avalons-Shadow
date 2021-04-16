@@ -1,0 +1,161 @@
+<xml>
+	<state name="std" type="template_state" segment="base">
+		<default blend="0"/>
+
+		<to	name="fly_right_6m"				redirect="std/move/fly_right_6m"/>
+		<to	name="fly_right_6m_land"		redirect="std/move/fly_right_6m_land"/>
+		<to	name="fly_right_12m"			redirect="std/move/fly_right_12m"/>
+		<to	name="fly_right_12m_land"		redirect="std/move/fly_right_12m_land"/>
+
+		<to	name="fly_left_6m"				redirect="std/move/fly_left_6m"/>
+		<to	name="fly_left_6m_land"			redirect="std/move/fly_left_6m_land"/>
+		<to	name="fly_left_12m"				redirect="std/move/fly_left_12m"/>
+		<to	name="fly_left_12m_land"		redirect="std/move/fly_left_12m_land"/>
+
+		<to	name="fly_forward_6m"			redirect="std/move/fly_forward_6m"/>
+		<to	name="fly_forward_6m_land"		redirect="std/move/fly_forward_6m_land"/>
+		<to	name="fly_forward_12m"			redirect="std/move/fly_forward_12m"/>
+		<to	name="fly_forward_12m_land"		redirect="std/move/fly_forward_12m_land"/>
+
+		<to	name="fly_backward_6m"			redirect="std/move/fly_backward_6m"/>
+		<to	name="fly_backward_6m_land"		redirect="std/move/fly_backward_6m_land"/>
+		<to	name="fly_backward_12m"			redirect="std/move/fly_backward_12m"/>
+		<to	name="fly_backward_12m_land"	redirect="std/move/fly_backward_12m_land"/>
+
+		<to	name="hover_loop"				redirect="std/move/hover_loop"/>
+		<to	name="broken_loop"				redirect="std/move/broken_loop"/>
+		<to	name="hover_stop"				redirect="std/move/hover_stop"/>
+		<to	name="take_off"					redirect="std/move/take_off"/>
+		<to	name="propeller_stop"			redirect="std/move/propeller_stop"/>
+		<to	name="test"						redirect="std/move/test"/>
+
+	</state>
+
+	<state name="std/empty" type="emptyloop" segment="base">
+		<keys>
+			<key at="9" callback="anim_clbk_empty_full_blend" class_name="base"/>
+			<key at="exit" callback="anim_clbk_empty_exit" class_name="base"/>
+		</keys>
+	</state>
+
+	<state name="std/move" type="template_state" segment="base">
+		<keys>
+			<key at="enter" callback="anim_clbk_animated_driving" class_name="base" param1="true"/>
+			<key at="exit" callback="anim_clbk_animated_driving" class_name="base" param1="false"/>
+		</keys>
+	</state>
+
+	<state name="std/move/fly_right_6m" type="once" segment="base">
+		<anim name="anim_fly_right_6m"/>
+		<exit name="std/empty"/>
+	</state>
+
+	<state name="std/move/fly_right_12m" type="once" segment="base">
+		<anim name="anim_fly_right_12m"/>
+		<exit name="std/empty"/>
+	</state>
+
+	<state name="std/move/fly_left_6m" type="once" segment="base">
+		<anim name="anim_fly_left_6m"/>
+		<exit name="std/empty"/>
+	</state>
+
+	<state name="std/move/fly_left_12m" type="once" segment="base">
+		<anim name="anim_fly_left_12m"/>
+		<exit name="std/empty"/>
+	</state>
+
+	<state name="std/move/fly_forward_6m" type="once" segment="base">
+		<anim name="anim_fly_forward_6m"/>
+		<exit name="std/empty"/>
+	</state>
+
+	<state name="std/move/fly_forward_12m" type="once" segment="base">
+		<anim name="anim_fly_forward_12m"/>
+		<exit name="std/empty"/>
+	</state>
+
+	<state name="std/move/fly_backward_6m" type="once" segment="base">
+		<anim name="anim_fly_backward_6m"/>
+		<exit name="std/empty"/>
+	</state>
+
+	<state name="std/move/fly_backward_12m" type="once" segment="base">
+		<anim name="anim_fly_backward_12m"/>
+		<exit name="std/empty"/>
+	</state>
+
+	<state name="std/move/hover_loop" type="loop" segment="body">
+		<anim name="anim_hover_loop"/>
+		<exit name="std/empty"/>
+	</state>
+
+	<state name="std/move/broken_loop" type="loop" segment="body">
+		<anim name="anim_broken_loop"/>
+		<exit name="std/empty"/>
+	</state>
+
+	<state name="std/move/hover_stop" type="loop" segment="body">
+		<default blend="10" blend_out="10" />
+		<anim name="anim_hover_stop"/>
+		<exit name="std/empty"/>
+	</state>
+
+	<state name="std/move/propeller_loop" type="loop" segment="propeller">
+		<anim name="anim_propeller_loop"/>
+		<exit name="std/empty"/>
+	</state>
+
+	<state name="std/move/take_off" type="once" segment="propeller">
+		<anim name="anim_take_off"/>
+		<exit name="std/move/propeller_loop"/>
+	</state>
+
+	<state name="std/move/propeller_stop" type="once" segment="propeller">
+		<from name="std/move/propeller_loop" blend="5" />
+		<anim name="anim_propeller_stop"/>
+		<exit name="std/empty"/>
+	</state>
+
+<!-- ###################################################################### -->
+	<state name="std/move/fly_right_6m_land" type="once" segment="base">
+		<anim name="anim_fly_right_6m_land"/>
+		<exit name="std/empty"/>
+	</state>
+
+	<state name="std/move/fly_right_12m_land" type="once" segment="base">
+		<anim name="anim_fly_right_12m_land"/>
+		<exit name="std/empty"/>
+	</state>
+
+	<state name="std/move/fly_left_6m_land" type="once" segment="base">
+		<anim name="anim_fly_left_6m_land"/>
+		<exit name="std/empty"/>
+	</state>
+
+	<state name="std/move/fly_left_12m_land" type="once" segment="base">
+		<anim name="anim_fly_left_12m_land"/>
+		<exit name="std/empty"/>
+	</state>
+
+	<state name="std/move/fly_forward_6m_land" type="once" segment="base">
+		<anim name="anim_fly_forward_6m_land"/>
+		<exit name="std/empty"/>
+	</state>
+
+	<state name="std/move/fly_forward_12m_land" type="once" segment="base">
+		<anim name="anim_fly_forward_12m_land"/>
+		<exit name="std/empty"/>
+	</state>
+
+	<state name="std/move/fly_backward_6m_land" type="once" segment="base">
+		<anim name="anim_fly_backward_6m_land"/>
+		<exit name="std/empty"/>
+	</state>
+
+	<state name="std/move/fly_backward_12m_land" type="once" segment="base">
+		<anim name="anim_fly_backward_12m_land"/>
+		<exit name="std/empty"/>
+	</state>
+
+</xml>

@@ -1,0 +1,14 @@
+<unit type="bry" slot="1">
+	<object file="units/pd2_dlc_berry/props/bry_prop_mechanical_switch/bry_prop_mechanical_switch_02" />
+	<dependencies>
+		<depends_on bnk="soundbanks/regular_sfx" />
+	</dependencies>
+	<extensions>
+		<extension name="unit_data" class="ScriptUnitData" />
+		<extension name="damage" class="UnitDamage" />
+	</extensions>
+	<sounds>
+		<default_soundsource source="a_anim"/>
+		<soundsource name="lever" source="a_anim" />
+	</sounds>
+</unit>

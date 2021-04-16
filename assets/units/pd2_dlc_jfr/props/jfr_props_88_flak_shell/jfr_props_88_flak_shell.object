@@ -1,0 +1,17 @@
+<dynamic_object>
+    <diesel orientation_object="rp_equip_88_shells" materials="units/pd2_dlc_jfr/props/jfr_props_88_flak_shell/jfr_props_88_flak_shell" />
+    <bodies>
+        <body enabled="true" template="static" name="static_body">
+            <object name="rp_equip_88_shells" />
+            <object name="c_box" collision_type="box" padding="-2.5" />
+        </body>
+    </bodies>
+	<decal_surfaces default_material="metal">
+		<decal_mesh name="g_g" enabled="true" material="tile" />
+	</decal_surfaces>
+    <graphics>
+        <object name="g_g" enabled="true" />
+        <object name="s_s" enabled="true" shadow_caster="true" />
+    </graphics>
+</dynamic_object>
+

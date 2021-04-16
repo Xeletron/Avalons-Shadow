@@ -1,0 +1,14 @@
+<dynamic_object>
+    <diesel materials="units/payday2/props/gen_prop_weapon_case/gen_prop_weapon_case" orientation_object="rp_gen_prop_weapon_case_1x1_closed" />
+    <bodies>
+        <body enabled="true" template="static" name="static_body" >
+            <object collision_type="mesh_mopp" name="c_small_closed" />
+        </body>
+    </bodies>
+    <decal_surfaces>
+        <decal_mesh enabled="true" name="dm_small_closed" material="plastic" />
+    </decal_surfaces>
+    <graphics>
+        <object enabled="true" name="g_small_closed" />
+    </graphics>
+</dynamic_object>

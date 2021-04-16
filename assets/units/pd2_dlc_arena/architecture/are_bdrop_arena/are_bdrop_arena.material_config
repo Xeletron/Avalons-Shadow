@@ -1,0 +1,50 @@
+<materials version="3">
+    <material name="mat_are_bdrop_arena_ceiling_sheet" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP" version="2">
+        <diffuse_texture file="units/pd2_dlc_arena/architecture/are_bdrop_arena/are_bdrop_arena_ceiling_sheet_df"/>
+        <bump_normal_texture file="units/pd2_dlc_arena/architecture/are_bdrop_arena/are_bdrop_arena_ceiling_sheet_nm"/>
+    </material>
+    <material name="mat_are_bdrop_arena_court_floor" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP" version="2">
+        <diffuse_texture file="units/pd2_dlc_arena/architecture/are_bdrop_arena/are_bdrop_arena_court_floor_df"/>
+        <bump_normal_texture file="units/pd2_dlc_arena/architecture/are_bdrop_arena/are_bdrop_arena_court_floor_nm"/>
+    </material>
+    <material name="mat_are_bdrop_arena_stairs_wall" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP" version="2">
+        <diffuse_texture file="units/pd2_dlc_arena/architecture/are_bdrop_arena/are_bdrop_arena_stairs_wall_df"/>
+        <bump_normal_texture file="units/pd2_dlc_arena/architecture/are_bdrop_arena/are_bdrop_arena_stairs_wall_nm"/>
+    </material>
+    <material name="mat_are_bdrop_arena_banner_walls" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP" version="2">
+        <diffuse_texture file="units/pd2_dlc_arena/architecture/are_bdrop_arena/are_bdrop_arena_banner_walls_df"/>
+        <bump_normal_texture file="units/pd2_dlc_arena/architecture/are_bdrop_arena/are_bdrop_arena_banner_walls_nm"/>
+    </material>
+    <material name="mat_are_bdrop_arena_metal_club" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP" version="2">
+        <diffuse_texture file="units/pd2_dlc_arena/architecture/are_bdrop_arena/are_bdrop_arena_metal_club_df"/>
+        <bump_normal_texture file="units/pd2_dlc_arena/architecture/are_bdrop_arena/are_bdrop_arena_metal_club_nm"/>
+    </material>
+    <material name="mat_are_bdrop_arena_seat_stadium_floor" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP" version="2">
+        <diffuse_texture file="units/pd2_dlc_arena/architecture/are_bdrop_arena/are_bdrop_arena_seat_stadium_floor_df"/>
+        <bump_normal_texture file="units/pd2_dlc_arena/architecture/are_bdrop_arena/are_bdrop_arena_seat_stadium_floor_nm"/>
+    </material>
+    <material name="mat_are_bdrop_arena_chair" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP" version="2">
+        <diffuse_texture file="units/pd2_dlc_arena/architecture/are_bdrop_arena/are_bdrop_arena_chair_df"/>
+        <bump_normal_texture file="units/pd2_dlc_arena/architecture/are_bdrop_arena/are_bdrop_arena_chair_nm"/>
+    </material>
+    <material name="mat_are_bdrop_arena_seat_crowd_alpha" render_template="generic:ALPHA_MASKED:DIFFUSE_TEXTURE:EXTERNAL_ALPHA_REF" version="2">
+        <diffuse_texture file="units/pd2_dlc_arena/architecture/are_bdrop_arena/are_bdrop_arena_seat_crowd_df"/>
+        <variable value="0.02900000102818" type="scalar" name="alpha_ref"/>
+    </material>
+    <material name="mat_are_bdrop_arena_flags_alpha" render_template="generic:ALPHA_MASKED:DIFFUSE_TEXTURE:EXTERNAL_ALPHA_REF" version="2">
+        <diffuse_texture file="units/pd2_dlc_arena/architecture/are_bdrop_arena/are_bdrop_arena_flags_df"/>
+        <variable value="0.0050000003539026" type="scalar" name="alpha_ref"/>
+    </material>
+    <material name="mat_are_bdrop_arena_seat_alpha" render_template="generic:ALPHA_MASKED:DIFFUSE_TEXTURE:EXTERNAL_ALPHA_REF" version="2">
+        <diffuse_texture file="units/pd2_dlc_arena/architecture/are_bdrop_arena/are_bdrop_arena_seat_df"/>
+        <variable value="0.038000002503395" type="scalar" name="alpha_ref"/>
+    </material>
+    <material name="mat_are_bdrop_arena_standing_crowd_alpha" render_template="generic:ALPHA_MASKED:DIFFUSE_TEXTURE:EXTERNAL_ALPHA_REF" version="2">
+        <diffuse_texture file="units/pd2_dlc_arena/architecture/are_bdrop_arena/are_bdrop_arena_standing_crowd_df"/>
+        <variable value="0.043000001460314" type="scalar" name="alpha_ref"/>
+    </material>
+    <material name="mat_are_bdrop_arena_metal_alpha" render_template="generic:ALPHA_MASKED:DIFFUSE_TEXTURE:DOUBLE_SIDED:EXTERNAL_ALPHA_REF" version="2">
+        <diffuse_texture file="units/pd2_dlc_arena/architecture/are_bdrop_arena/are_bdrop_arena_metal_df"/>
+        <variable value="0.034000001847744" type="scalar" name="alpha_ref"/>
+    </material>
+</materials>
