@@ -35,6 +35,11 @@
 		<bump_normal_texture file="units/pd2_dlc_friend/architecture/ext/textures/sfm_ext_wall_trim_nm" />
 		<material_texture file="units/pd2_dlc_friend/architecture/ext/textures/sfm_ext_wall_trim_gsma" />
 	</material>
+	<material name="mat_ext_stone_bridge" render_template="generic:DIFFUSE_TEXTURE:GSMA_TEXTURE:NORMALMAP:VERTEX_COLOR" version="2">
+		<diffuse_texture file="units/pd2_dlc_friend/architecture/ext/textures/sfm_ext_stone_bridge_df" />
+		<bump_normal_texture file="units/pd2_dlc_peta/architecture/pta_2/pta_stone_wall_02_nm" />
+		<material_texture file="units/pd2_dlc_friend/architecture/ext/textures/sfm_ext_stone_bridge_gsma" />
+	</material>
     <material version="2" render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:NORMALMAP:RL_ENVIRONMENT:VERTEX_COLOR" name="lux_int_01_wallpapertile_d">
         <diffuse_texture file="units/payday2/architecture/lux/lux_int_01_wallpapertile_d_df"/>
         <reflection_texture file="environments/cubemaps/cubemap_quick_diamond_ext" type="cubemap"/>
@@ -101,4 +106,5 @@
     <material name="cellar_concrete_floor" version="2" render_template="generic:DIFFUSE_TEXTURE:VERTEX_COLOR">
         <diffuse_texture file="units/world/architecture/suburbia/textures/cellar_concrete_df"/>
     </material>
+	</material>
 </materials>

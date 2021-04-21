@@ -6,13 +6,8 @@
             <object name="rp_hwu_backdrop"/>
             <object collision_type="mesh_mopp" name="c_mesh_mopp_01"/>
 			<object collision_type="mesh_mopp" name="c_mesh_mopp_02"/>
-			<object collision_type="mesh_mopp" name="c_mesh_mopp_03"/>
 
-            <object collision_type="convex" name="c_convex_01"/>
-			<object collision_type="convex" name="c_convex_02"/>
-			<object collision_type="convex" name="c_convex_03"/>
-			<object collision_type="convex" name="c_convex_04"/>
-			<object collision_type="convex" name="c_convex_05"/>
+			<object collision_type="convex" name="c_convex_01"/>
            
             <object name="c_box_01" collision_type="box" padding="-2.5"/>
             <object name="c_box_02" collision_type="box" padding="-2.5"/>
@@ -20,15 +15,10 @@
             <object name="c_box_04" collision_type="box" padding="-2.5"/>
             <object name="c_box_05" collision_type="box" padding="-2.5"/>
             <object name="c_box_06" collision_type="box" padding="-2.5"/>
-            <object name="c_box_07" collision_type="box" padding="-2.5"/>
-            <object name="c_box_08" collision_type="box" padding="-2.5"/>
-            <object name="c_box_09" collision_type="box" padding="-2.5"/>
-            <object name="c_box_10" collision_type="box" padding="-2.5"/>
         </body>
     </bodies>
 
     <decal_surfaces default_material="plaster" static="true">
-        <decal_mesh enabled="true" material="wood" name="dm_wood_001"/>
         <decal_mesh enabled="true" material="plaster" name="dm_plaster"/>
         <decal_mesh enabled="true" material="metal" name="dm_metal"/>
         <decal_mesh enabled="true" material="tile" name="dm_tile"/>
@@ -37,12 +27,7 @@
     <graphics>
         <object enabled="true" name="g_backdrop_house_1"/>
         <object enabled="true" name="g_backdrop_house_2"/>
-        <object enabled="true" name="g_backdrop_house_3"/>
-        <object enabled="true" name="g_backdrop_house_4"/>
         <object enabled="true" name="g_backdrop_houses_1"/>
-        <object enabled="true" name="g_backdrop_houses_2"/>
-        <object enabled="true" name="g_bushes_2"/>
-        <object enabled="true" name="g_suburbia_plankfence"/>
         <object enabled="true" name="g_backdrop_trees_1"/>
         <object enabled="true" name="g_grass"/>
         <object enabled="true" name="g_backdrop_props"/>

@@ -2155,8 +2155,23 @@
 		<unit path="units/dev_tools/level_tools/dev_nav_blocker/dev_nav_blocker_2x3m" unload="true"/>
 	</add>
 	<add path="units/dev_tools/level_tools/dev_nav_blocker/dev_nav_blocker_4x3m" type="unit">
-		<unit path="units/dev_tools/level_tools/dev_nav_blocker/dev_nav_blocker_4x3m" unload="true"/>
-		<object path="units/dev_tools/level_tools/dev_nav_blocker/dev_nav_blocker_4x3m" unload="true"/>
 		<material_config path="core/material_configs/hub_elements" unload="true"/>
+		<object path="units/dev_tools/level_tools/dev_nav_blocker/dev_nav_blocker_4x3m" unload="true"/>
+		<unit path="units/dev_tools/level_tools/dev_nav_blocker/dev_nav_blocker_4x3m" unload="true"/>
+	</add>
+	<add path="units/payday2/architecture/ind/ind_ext_harbour/ind_ext_harbour_side_4m_corner_in" type="unit">
+		<material_config path="units/payday2/architecture/ind/ind_ext_harbour/ind_ext_harbour" unload="true"/>
+		<object path="units/payday2/architecture/ind/ind_ext_harbour/ind_ext_harbour_side_4m_corner_in" unload="true"/>
+		<unit path="units/payday2/architecture/ind/ind_ext_harbour/ind_ext_harbour_side_4m_corner_in" unload="true"/>
+	</add>
+	<add path="units/payday2/architecture/ind/ind_ext_harbour/ind_ext_harbour_side_4m" type="unit">
+		<material_config path="units/payday2/architecture/ind/ind_ext_harbour/ind_ext_harbour" unload="true"/>
+		<object path="units/payday2/architecture/ind/ind_ext_harbour/ind_ext_harbour_side_4m" unload="true"/>
+		<unit path="units/payday2/architecture/ind/ind_ext_harbour/ind_ext_harbour_side_4m" unload="true"/>
+	</add>
+	<add path="units/pd2_dlc_friend/architecture/ext/sfm_ext_bridge" type="unit">
+		<unit path="units/pd2_dlc_friend/architecture/ext/sfm_ext_bridge" unload="true"/>
+		<object path="units/pd2_dlc_friend/architecture/ext/sfm_ext_bridge" unload="true"/>
+		<material_config path="units/pd2_dlc_friend/architecture/ext/sfm_ext_bridge" unload="true"/>
 	</add>
 </table>
