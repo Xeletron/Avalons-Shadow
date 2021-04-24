@@ -42,6 +42,7 @@
 		<packages/>
 	</instance>
 	<instance id="hwu_server" orig_id="hwu_server">
+		<add file="levels/instances/hwu_server/add.xml"/>
 		<include directory="levels/instances/hwu_server">
 			<file file="world.world" type="generic_xml"/>
 			<file file="continents.continents" type="custom_xml"/>

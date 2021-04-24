@@ -233,6 +233,17 @@
             <object name="c_box_186" collision_type="box" padding="-2.5"/>
             <object name="c_box_187" collision_type="box" padding="-2.5"/>
             <object name="c_box_188" collision_type="box" padding="-2.5"/>
+            <object name="c_box_189" collision_type="box" padding="-2.5"/>
+
+            <object name="c_box_190" collision_type="box" padding="-2.5"/>
+            <object name="c_box_191" collision_type="box" padding="-2.5"/>
+            <object name="c_box_192" collision_type="box" padding="-2.5"/>
+            <object name="c_box_193" collision_type="box" padding="-2.5"/>
+            <object name="c_box_194" collision_type="box" padding="-2.5"/>
+            <object name="c_box_195" collision_type="box" padding="-2.5"/>
+            <object name="c_box_196" collision_type="box" padding="-2.5"/>
+            <object name="c_box_197" collision_type="box" padding="-2.5"/>
+            <object name="c_box_198" collision_type="box" padding="-2.5"/>
         </body>
         <body name="body_nav_walk" add_ray_type="ai_vision" enabled="true" template="nav_walk">
 			<object name="rp_ext_smugler_house_ground" />

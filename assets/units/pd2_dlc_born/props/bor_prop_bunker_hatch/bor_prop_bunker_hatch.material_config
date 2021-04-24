@@ -1,0 +1,16 @@
+<materials version="3">
+    <material name="mat_concrete_graffiti" decal_material="concrete" render_template="generic:ALPHA_MASKED:DIFFUSE_TEXTURE:EXTERNAL_ALPHA_REF:NORMALMAP" version="2">
+        <diffuse_texture file="units/pd2_dlc_born/architecture/bor_bunker/bor_bunker_graffiti_df"/>
+        <bump_normal_texture file="units/pd2_dlc_born/architecture/bor_bunker/bor_bunker_walls_concrete_nm"/>
+        <variable value="0.16800001263618" type="scalar" name="alpha_ref"/>
+    </material>
+    <material name="mat_hatch" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP" version="2">
+        <diffuse_texture file="units/pd2_dlc_born/architecture/bor_bunker/bor_bunker_hatch_df"/>
+        <bump_normal_texture file="units/pd2_dlc_born/architecture/bor_bunker/bor_bunker_hatch_nm"/>
+    </material>
+    <material name="mat_hatch_lod" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP" version="2">
+        <diffuse_texture file="units/pd2_dlc_born/architecture/bor_bunker/bor_bunker_hatch_df" mip="4"/>
+        <bump_normal_texture file="units/pd2_dlc_born/architecture/bor_bunker/bor_bunker_hatch_nm" mip="4"/>
+    </material>
+    <material name="shadow_caster" render_template="shadow_caster_only" version="2"/>
+</materials>

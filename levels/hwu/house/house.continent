@@ -89,7 +89,7 @@
 			<unit_data _prev_pos="-401 615 470" _prev_rot="0 0 0.707107 -0.707107" continent="house" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="-257.791 333.594 0" local_rot="-0 0 -0.707107 0.707107" mesh_variation="state_door_open" name="units/payday2/equipment/gen_interactable_door_hcm/gen_interactable_door_hcm_double" name_id="gen_interactable_door_hcm_double_001" position="-401 615 470" rotation="0 0 0.707107 -0.707107" unit_id="400028"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-1170 -160 70" _prev_rot="0 0 0 -1" continent="house" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="-1026.79 -441.406 -400" local_rot="-0 0 0 1" name="units/payday2/architecture/hcm/hcm_int_pillar_a" name_id="hcm_int_pillar_a_001" position="-1170 -160 70" rotation="0 0 0 -1" unit_id="400029"/>
+			<unit_data _prev_pos="-1170 -160 70" _prev_rot="0 0 0 -1" _visibility_counter="0" continent="house" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/architecture/hcm/hcm_int_pillar_a" name_id="hcm_int_pillar_a_001" position="-1170 -160 70" rotation="0 0 0 -1" unit_id="400029"/>
 		</table>
 		<table>
 			<unit_data _prev_pos="-50 -165 70" _prev_rot="0 0 0 -1" continent="house" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="93.209 -446.406 -400" local_rot="-0 0 0 1" name="units/payday2/architecture/hcm/hcm_int_pillar_a" name_id="hcm_int_pillar_a_002" position="-50 -165 70" rotation="0 0 0 -1" unit_id="400030"/>
@@ -699,9 +699,6 @@
 			<unit_data _prev_pos="-2850 2955 20" _prev_rot="0 0 0.707107 -0.707107" continent="house" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="-400 6605 0" local_rot="-0 0 -0.707107 0.707107" name="units/pd2_mcmansion/props/mcm_prop_garden_fence_gate_set/mcm_prop_garden_fence_6m" name_id="mcm_prop_garden_fence_6m_032" position="-2850 2955 20" rotation="0 0 0.707107 -0.707107" unit_id="400186"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-1018.39 3941 85" _prev_rot="0 0 1 -4.37114e-008" continent="house" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mcmansion/props/mcm_prop_garden_fence_gate_set/mcm_prop_garden_fence_6m" name_id="mcm_prop_garden_fence_6m_037" position="-1018.39 3941 85" rotation="0 0 1 -4.37114e-008" unit_id="400191"/>
-		</table>
-		<table>
 			<unit_data _prev_pos="-2250 -3680 20" _prev_rot="0 0 0 -1" continent="house" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/pd2_mcmansion/props/mcm_prop_garden_fence_gate_set/mcm_prop_garden_fence_gate_large_van" name_id="mcm_prop_garden_fence_gate_large_van_001" position="-2250 -3680 20" rotation="-0 0 -0 -1" unit_id="400202"/>
 		</table>
 		<table>
@@ -723,19 +720,13 @@
 			<unit_data _prev_pos="-2520 -2080 20" _prev_rot="0 0 0 -1" continent="house" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="-2820 -2310 -100" local_rot="-0 0 -8.9407e-008 1" name="units/pd2_dlc_friend/architecture/ext/sfm_ext_hedges_6m" name_id="sfm_ext_hedges_6m_007" position="-2520 -2080 20" rotation="0 0 8.9407e-008 -1" unit_id="400211"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-2270 -637 20" _prev_rot="0 0 0 -1" continent="house" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="-2570 -866.999 -100" local_rot="-0 0 -8.9407e-008 1" name="units/pd2_dlc_friend/architecture/ext/sfm_ext_hedges_6m" name_id="sfm_ext_hedges_6m_008" position="-2270 -636.999 20" rotation="0 0 8.9407e-008 -1" unit_id="400212"/>
+			<unit_data _prev_pos="-2270 -636.999 20" _prev_rot="0 0 8.9407e-008 -1" _visibility_counter="0" continent="house" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_friend/architecture/ext/sfm_ext_hedges_6m" name_id="sfm_ext_hedges_6m_008" position="-2270 -636.999 20" rotation="0 0 8.9407e-008 -1" unit_id="400212"/>
 		</table>
 		<table>
 			<unit_data _prev_pos="-945 -1780 20" _prev_rot="0 0 -0.707107 -0.707107" continent="house" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="-1245 -2010 -100" local_rot="0 0 0.707107 0.707107" name="units/pd2_dlc_friend/architecture/ext/sfm_ext_hedges_6m" name_id="sfm_ext_hedges_6m_009" position="-945.001 -1780 20" rotation="0 0 -0.707107 -0.707107" unit_id="400213"/>
 		</table>
 		<table>
 			<unit_data _prev_pos="-945 -990 20" _prev_rot="0 0 -0.707107 -0.707107" continent="house" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="-1245 -1220 -100" local_rot="0 0 0.707107 0.707107" name="units/pd2_dlc_friend/architecture/ext/sfm_ext_hedges_6m" name_id="sfm_ext_hedges_6m_010" position="-945 -990 20" rotation="0 0 -0.707107 -0.707107" unit_id="400214"/>
-		</table>
-		<table>
-			<unit_data _prev_pos="-2745 -1780 20" _prev_rot="0 0 -0.707107 -0.707107" continent="house" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="-3045 -2010 -100" local_rot="0 0 0.707107 0.707107" name="units/pd2_dlc_friend/architecture/ext/sfm_ext_hedges_6m" name_id="sfm_ext_hedges_6m_011" position="-2745 -1780 20" rotation="0 0 -0.707107 -0.707107" unit_id="400215"/>
-		</table>
-		<table>
-			<unit_data _prev_pos="-2745 -990 20" _prev_rot="0 0 -0.707107 -0.707107" continent="house" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="-3045 -1220 -100" local_rot="0 0 0.707107 0.707107" name="units/pd2_dlc_friend/architecture/ext/sfm_ext_hedges_6m" name_id="sfm_ext_hedges_6m_012" position="-2745 -989.999 20" rotation="0 0 -0.707107 -0.707107" unit_id="400216"/>
 		</table>
 		<table>
 			<unit_data _prev_pos="2220 -2550 20" _prev_rot="0 0 -0.707107 -0.707107" continent="house" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="1920 -2780 -100" local_rot="0 0 0.707107 0.707107" name="units/pd2_dlc_friend/architecture/ext/sfm_ext_hedges_6m" name_id="sfm_ext_hedges_6m_013" position="2220 -2550 20" rotation="0 0 -0.707107 -0.707107" unit_id="400217"/>
@@ -844,10 +835,10 @@
 			<unit_data _prev_pos="2815 -1380 70" _prev_rot="0 0 -0.707107 -0.707107" continent="house" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="2515 -1610 -50" local_rot="0 0 0.707107 0.707107" name="units/world/vegetation/mansion/man_veg_rosetrellis/suburbia_plant_wall_instanced" name_id="suburbia_plant_wall_instanced_002" position="2815 -1380 70" rotation="0 0 -0.707107 -0.707107" unit_id="400254"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-1965 -1000 20" _prev_rot="0 0 1 -4.37114e-008" continent="house" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="-2265 -1230 -100" local_rot="0 0 -1 -4.56956e-008" name="units/payday2/vehicles/str_vehicle_car_sport/str_vehicle_car_sport1" name_id="str_vehicle_car_sport1_001" position="-1965 -999.999 20" rotation="0 -0 1 4.56956e-008" unit_id="400259"/>
+			<unit_data _prev_pos="-1965 -999.999 20" _prev_rot="0 0 1 4.56956e-008" _visibility_counter="0" continent="house" disable_collision="false" disable_on_ai_graph="true" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/vehicles/str_vehicle_car_sport/str_vehicle_car_sport1" name_id="str_vehicle_car_sport1_001" position="-1965 -999.999 20" rotation="0 0 1 -4.37114e-008" unit_id="400259"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-2385 -1775 20" _prev_rot="0 0 0.887011 -0.461749" continent="house" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="blue" name="units/payday2/vehicles/str_vehicle_pickuptruck_sportcab/str_vehicle_pickuptruck_sportcab" name_id="str_vehicle_pickuptruck_sportcab_002" position="-2385 -1775 20" rotation="0 0 0.887011 -0.461749" unit_id="400260"/>
+			<unit_data _prev_pos="-2385 -1775 20" _prev_rot="0 0 0.766044 -0.642788" _visibility_counter="0" continent="house" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="blue" name="units/payday2/vehicles/str_vehicle_pickuptruck_sportcab/str_vehicle_pickuptruck_sportcab" name_id="str_vehicle_pickuptruck_sportcab_002" position="-2402.36 -1873.48 20" rotation="0 0 0.766044 -0.642788" unit_id="400260"/>
 		</table>
 		<table>
 			<unit_data _prev_pos="-1165 -1000 20" _prev_rot="0 0 1 -4.37114e-008" continent="house" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="-1465 -1230 -100" local_rot="0 0 -1 -4.56956e-008" name="units/payday2/vehicles/str_vehicle_car_sport/str_vehicle_car_sport2" name_id="str_vehicle_car_sport2_001" position="-1165 -1000 20" rotation="0 -0 1 4.56956e-008" unit_id="400255"/>
@@ -1242,19 +1233,19 @@
 			<unit_data _prev_pos="-1230 570 880" _prev_rot="0 0 0.707107 -0.707107" continent="house" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="-1530 340 760" local_rot="-0 0 -0.707107 0.707107" name="units/world/architecture/diamondheist/props/diamondheist_roof_suncells_02" name_id="diamondheist_roof_suncells_02_002" position="-1230 570 880" rotation="0 0 0.707107 -0.707107" unit_id="400349"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-402.833 -902.063 20" _prev_rot="0 0 -0.707107 -0.707107" continent="house" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="-702.833 -1132.06 -100" local_rot="0 0 0.707107 0.707107" name="units/pd2_mcmansion/props/mcm_prop_dining_table_chair/mcm_prop_dining_table" name_id="mcm_prop_dining_table_001" position="-402.833 -902.063 20" rotation="0 0 -0.707107 -0.707107" unit_id="400350"/>
+			<unit_data _prev_pos="-352.833 -902.063 20" _prev_rot="0 0 -0.707107 -0.707107" _visibility_counter="0" continent="house" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="-41.001 85.835 -0.000400543" local_rot="0 0 1 0" name="units/pd2_mcmansion/props/mcm_prop_dining_table_chair/mcm_prop_dining_table" name_id="mcm_prop_dining_table_001" position="-352.833 -957.063 20" rotation="0 0 -0.707107 -0.707107" unit_id="400350"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-306.668 -855.064 20" _prev_rot="0 0 -0.707107 -0.707107" continent="house" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="-606.668 -1085.06 -100" local_rot="0 0 0.707107 0.707107" name="units/world/props/furniture_outdoors/furniture_outdoors_chair" name_id="furniture_outdoors_chair_002" position="-306.668 -855.064 20" rotation="0 0 -0.707107 -0.707107" unit_id="400352"/>
+			<unit_data _prev_pos="-256.668 -910.064 20" _prev_rot="0 0 -0.707107 -0.707107" _visibility_counter="0" continent="house" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="90 0 0" local_rot="0 0 0 1" name="units/world/props/furniture_outdoors/furniture_outdoors_chair" name_id="furniture_outdoors_chair_002" position="-271.668 -910.064 20" rotation="0 0 -0.707107 -0.707107" unit_id="400352"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-306.668 -945.064 20" _prev_rot="0 0 -0.707107 -0.707107" continent="house" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="-606.668 -1175.06 -100" local_rot="0 0 0.707107 0.707107" name="units/world/props/furniture_outdoors/furniture_outdoors_chair" name_id="furniture_outdoors_chair_003" position="-306.668 -945.064 20" rotation="0 0 -0.707107 -0.707107" unit_id="400351"/>
+			<unit_data _prev_pos="-256.668 -1000.06 20" _prev_rot="0 0 -0.707107 -0.707107" _visibility_counter="0" continent="house" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/props/furniture_outdoors/furniture_outdoors_chair" name_id="furniture_outdoors_chair_003" position="-271.668 -1000.06 20" rotation="0 0 -0.707107 -0.707107" unit_id="400351"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-488.668 -853.064 20.0004" _prev_rot="0 0 0.707107 -0.707107" continent="house" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="-788.668 -1083.06 -99.9996" local_rot="-0 0 -0.707107 0.707107" name="units/world/props/furniture_outdoors/furniture_outdoors_chair" name_id="furniture_outdoors_chair_004" position="-488.668 -853.064 20.0004" rotation="0 0 0.707107 -0.707107" unit_id="400353"/>
+			<unit_data _prev_pos="-438.668 -908.064 20.0004" _prev_rot="0 0 0.707107 -0.707107" _visibility_counter="0" continent="house" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="-90 0 0" local_rot="0 0 0 1" name="units/world/props/furniture_outdoors/furniture_outdoors_chair" name_id="furniture_outdoors_chair_004" position="-423.668 -908.064 20.0004" rotation="0 0 0.707107 -0.707107" unit_id="400353"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-488.668 -943.064 20.0004" _prev_rot="0 0 0.707107 -0.707107" continent="house" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="-788.668 -1173.06 -99.9996" local_rot="-0 0 -0.707107 0.707107" name="units/world/props/furniture_outdoors/furniture_outdoors_chair" name_id="furniture_outdoors_chair_005" position="-488.668 -943.064 20.0004" rotation="0 0 0.707107 -0.707107" unit_id="400354"/>
+			<unit_data _prev_pos="-438.668 -998.064 20.0004" _prev_rot="0 0 0.707107 -0.707107" _visibility_counter="0" continent="house" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/props/furniture_outdoors/furniture_outdoors_chair" name_id="furniture_outdoors_chair_005" position="-423.668 -998.064 20.0004" rotation="0 0 0.707107 -0.707107" unit_id="400354"/>
 		</table>
 		<table>
 			<unit_data _prev_pos="-327.833 -1776.06 20" _prev_rot="0 0 0 -1" continent="house" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="-627.834 -2006.06 -100" local_rot="-0 0 -8.9407e-008 1" name="units/pd2_mcmansion/props/mcm_prop_dining_table_chair/mcm_prop_dining_table" name_id="mcm_prop_dining_table_002" position="-327.834 -1776.06 20" rotation="0 0 8.9407e-008 -1" unit_id="400355"/>
@@ -1272,19 +1263,19 @@
 			<unit_data _prev_pos="-280.834 -1872.23 20" _prev_rot="0 0 0 -1" continent="house" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="-580.835 -2102.23 -100" local_rot="-0 0 -8.9407e-008 1" name="units/world/props/furniture_outdoors/furniture_outdoors_chair" name_id="furniture_outdoors_chair_009" position="-280.835 -1872.23 20" rotation="0 0 8.9407e-008 -1" unit_id="400359"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-80.5497 -1048.41 20" _prev_rot="0 0 -0.21644 -0.976296" continent="house" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="-380.55 -1278.41 -100" local_rot="0 0 0.21644 0.976296" name="units/pd2_mcmansion/props/mcm_prop_dining_table_chair/mcm_prop_dining_table" name_id="mcm_prop_dining_table_003" position="-80.5499 -1048.41 20" rotation="0 0 -0.21644 -0.976296" unit_id="400360"/>
+			<unit_data _prev_pos="-30.5499 -1048.41 20" _prev_rot="0 0 -0.21644 -0.976296" _visibility_counter="0" continent="house" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="105.346 408.118 -0.000400543" local_rot="0 0 0.843392 0.537299" name="units/pd2_mcmansion/props/mcm_prop_dining_table_chair/mcm_prop_dining_table" name_id="mcm_prop_dining_table_003" position="-30.5499 -1103.41 20" rotation="0 0 -0.21644 -0.976296" unit_id="400360"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-153.985 -987.946 20.0004" _prev_rot="0 0 0.976296 -0.21644" continent="house" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="-453.985 -1217.95 -99.9996" local_rot="-0 0 -0.976296 0.21644" name="units/world/props/furniture_outdoors/furniture_outdoors_chair" name_id="furniture_outdoors_chair_010" position="-153.985 -987.946 20.0004" rotation="0 0 0.976296 -0.21644" unit_id="400361"/>
+			<unit_data _prev_pos="-103.985 -987.946 20.0004" _prev_rot="0 0 0.976296 -0.21644" _visibility_counter="0" continent="house" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="44.882 334.683 0" local_rot="0 0 -0.537299 0.843392" name="units/world/props/furniture_outdoors/furniture_outdoors_chair" name_id="furniture_outdoors_chair_010" position="-103.985 -1042.95 20.0004" rotation="0 0 0.976296 -0.21644" unit_id="400361"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-72.4176 -949.91 20.0004" _prev_rot="0 0 0.976296 -0.21644" continent="house" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="-372.418 -1179.91 -99.9996" local_rot="-0 0 -0.976296 0.21644" name="units/world/props/furniture_outdoors/furniture_outdoors_chair" name_id="furniture_outdoors_chair_011" position="-72.4178 -949.91 20.0004" rotation="0 0 0.976296 -0.21644" unit_id="400362"/>
+			<unit_data _prev_pos="-22.4178 -949.91 20.0004" _prev_rot="0 0 0.976296 -0.21644" _visibility_counter="0" continent="house" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="6.84595 416.25 0" local_rot="0 0 -0.537299 0.843392" name="units/world/props/furniture_outdoors/furniture_outdoors_chair" name_id="furniture_outdoors_chair_011" position="-22.4178 -1004.91 20.0004" rotation="0 0 0.976296 -0.21644" unit_id="400362"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-78.8812 -1153.74 20" _prev_rot="0 0 -0.21644 -0.976296" continent="house" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="-378.881 -1383.74 -100" local_rot="0 0 0.21644 0.976296" name="units/world/props/furniture_outdoors/furniture_outdoors_chair" name_id="furniture_outdoors_chair_012" position="-78.8814 -1153.74 20" rotation="0 0 -0.21644 -0.976296" unit_id="400363"/>
+			<unit_data _prev_pos="-28.8814 -1153.74 20" _prev_rot="0 0 -0.21644 -0.976296" _visibility_counter="0" continent="house" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="210.676 409.787 -0.000400543" local_rot="0 0 0.843392 0.537299" name="units/world/props/furniture_outdoors/furniture_outdoors_chair" name_id="furniture_outdoors_chair_012" position="-28.8814 -1208.74 20" rotation="0 0 -0.21644 -0.976296" unit_id="400363"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="2.68658 -1115.7 20" _prev_rot="0 0 -0.21644 -0.976296" continent="house" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="-297.314 -1345.7 -100" local_rot="0 0 0.21644 0.976296" name="units/world/props/furniture_outdoors/furniture_outdoors_chair" name_id="furniture_outdoors_chair_013" position="2.68634 -1115.7 20" rotation="0 0 -0.21644 -0.976296" unit_id="400364"/>
+			<unit_data _prev_pos="52.6863 -1115.7 20" _prev_rot="0 0 -0.21644 -0.976296" _visibility_counter="0" continent="house" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="172.636 491.354 -0.000400543" local_rot="0 0 0.843392 0.537299" name="units/world/props/furniture_outdoors/furniture_outdoors_chair" name_id="furniture_outdoors_chair_013" position="52.6863 -1170.7 20" rotation="0 0 -0.21644 -0.976296" unit_id="400364"/>
 		</table>
 		<table>
 			<unit_data _prev_pos="185 -740 150" _prev_rot="0 0 -0.707107 -0.707107" continent="house" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="true" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_friend/props/sfm_prop_ext_lamp_wall_medium/sfm_prop_ext_lamp_wall_medium" name_id="sfm_prop_ext_lamp_wall_medium_018" position="185 -740 150" rotation="0 0 -0.707107 -0.707107" unit_id="400365"/>
@@ -1423,7 +1414,7 @@
 			<unit_data _prev_pos="-1975 -2050.6 25" _prev_rot="0 0 0 -1" continent="house" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/world/props/suburbia_manhole/suburbia_manhole" name_id="suburbia_manhole_002" position="-1975 -2050.6 25" rotation="-0 0 -0 -1" unit_id="400395"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-1970 2880 25" _prev_rot="0 0 1 -4.37114e-008" continent="house" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/world/props/suburbia_manhole/suburbia_manhole" name_id="suburbia_manhole_003" position="-1970 2878 25" rotation="0 0 1 -4.37114e-008" unit_id="400396"/>
+			<unit_data _prev_pos="-1985 2878 29" _prev_rot="0 0 1 -4.37114e-008" continent="house" instance_data="false" local_pos="164.896 30.6797 2.00343" local_rot="0 0 -1 4.37114e-008" mesh_variation="" name="units/world/props/suburbia_manhole/suburbia_manhole" name_id="suburbia_manhole_003" position="-1985 2878 29" rotation="0 0 1 -4.37114e-008" unit_id="400396"/>
 		</table>
 		<table>
 			<unit_data _prev_pos="300 235 120" _prev_rot="-0 0 -0 -1" continent="house" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/pd2_mod_hwu/architecture/ext_manhole_caps/ext_manhole_caps" name_id="ext_manhole_caps_001" position="300 235 120" rotation="-0 0 -0 -1" unit_id="400397"/>
@@ -1910,16 +1901,16 @@
 			<unit_data _prev_pos="1427.34 2040.94 520" _prev_rot="0 0 1 -4.37114e-008" continent="house" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mcmansion/props/mcm_prop_bedroom_closet_door-interior-set/mcm_prop_bedrooom_closet_door_open" name_id="mcm_prop_bedrooom_closet_door_open_001" position="1427.34 2040.94 520" rotation="0 -0 1 4.37114e-008" unit_id="400548"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-723.09 -881.608 130.397" _prev_rot="0 0 0.21644 -0.976296" continent="house" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="-1023.09 -1111.61 10.397" local_rot="-0 0 -0.21644 0.976296" name="units/pd2_dlc_mad/props/mad_prop_wood_crate/mad_wood_crate_110" name_id="mad_wood_crate_110_004" position="-723.09 -881.608 130.397" rotation="0 0 0.21644 -0.976296" unit_id="400549"/>
+			<unit_data _prev_pos="-723.09 -881.608 130.397" _prev_rot="0 0 0.21644 -0.976296" _visibility_counter="0" continent="house" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="-98.7139 -69.2196 110.397" local_rot="0 0 -0.34202 0.939693" name="units/pd2_dlc_mad/props/mad_prop_wood_crate/mad_wood_crate_110" name_id="mad_wood_crate_110_004" position="-694.112 -873.843 130.397" rotation="0 0 0.21644 -0.976296" unit_id="400549"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-757.702 -819.221 20" _prev_rot="0 0 -0.130526 -0.991445" continent="house" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="-1057.7 -1049.22 -100" local_rot="0 0 0.130526 0.991445" name="units/pd2_dlc_mad/props/mad_prop_wood_crate/mad_wood_crate_110" name_id="mad_wood_crate_110_001" position="-757.703 -819.22 20" rotation="0 0 -0.130526 -0.991445" unit_id="400550"/>
+			<unit_data _prev_pos="-757.703 -819.22 20" _prev_rot="0 0 -0.130526 -0.991445" _visibility_counter="0" continent="house" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="-116 0.00110435 0" local_rot="0 0 0 1" name="units/pd2_dlc_mad/props/mad_prop_wood_crate/mad_wood_crate_110" name_id="mad_wood_crate_110_001" position="-728.725 -811.455 20" rotation="0 0 -0.130526 -0.991445" unit_id="400550"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-655.943 -927.156 20" _prev_rot="0 0 -0.130526 -0.991445" continent="house" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="-955.943 -1157.16 -100" local_rot="0 0 0.130526 0.991445" name="units/pd2_dlc_mad/props/mad_prop_wood_crate/mad_wood_crate_110" name_id="mad_wood_crate_110_003" position="-655.943 -927.156 20" rotation="0 0 -0.130526 -0.991445" unit_id="400551"/>
+			<unit_data _prev_pos="-655.943 -927.156 20" _prev_rot="0 0 -0.130526 -0.991445" _visibility_counter="0" continent="house" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="-45.6435 -130.594 0" local_rot="0 0 0 1" name="units/pd2_dlc_mad/props/mad_prop_wood_crate/mad_wood_crate_110" name_id="mad_wood_crate_110_003" position="-626.965 -919.391 20" rotation="0 0 -0.130526 -0.991445" unit_id="400551"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-645.655 -789.198 20" _prev_rot="0 0 -0.130526 -0.991445" continent="house" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="-945.655 -1019.2 -100" local_rot="0 0 0.130526 0.991445" name="units/pd2_dlc_mad/props/mad_prop_wood_crate/mad_wood_crate_110" name_id="mad_wood_crate_110_002" position="-645.655 -789.198 20" rotation="0 0 -0.130526 -0.991445" unit_id="400552"/>
+			<unit_data _prev_pos="-645.655 -789.198 20" _prev_rot="0 0 -0.130526 -0.991445" _visibility_counter="0" continent="house" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_mad/props/mad_prop_wood_crate/mad_wood_crate_110" name_id="mad_wood_crate_110_002" position="-616.677 -781.433 20" rotation="0 0 -0.130526 -0.991445" unit_id="400552"/>
 		</table>
 		<table>
 			<unit_data _prev_pos="1056.18 2213.3 420" _prev_rot="0 0 0 -1" continent="house" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="3674.95 11148.1 2623" local_rot="0 0 0.095846 0.995396" name="units/payday2/architecture/lux/lux_int_lightspot1_small_a" name_id="lux_int_lightspot1_small_a_001" position="1056.17 2213.3 420" rotation="0 0 -2.38419e-007 -1" unit_id="400075"/>
@@ -2115,10 +2106,10 @@
 			<unit_data _prev_pos="2058.61 2899.7 -115.446" _prev_rot="-0.0350634 -0.0259458 0.947421 0.317003" continent="house" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/nature/pnau/pnau_boulders/pna_ext_landscape_cliff_b" name_id="pna_ext_landscape_cliff_b_008" position="2062.76 2901.05 -165.256" rotation="-0.0350634 -0.0259458 0.947421 0.317003" unit_id="400602"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-1618.49 3941 83" _prev_rot="0 0 1 4.37114e-008" continent="house" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="interact_disable" name="units/pd2_mcmansion/props/mcm_prop_garden_fence_gate_set/mcm_prop_garden_fence_gate_small" name_id="mcm_prop_garden_fence_gate_small_004" position="-1618.49 3941 83" rotation="0 0 1 4.37114e-008" unit_id="400605"/>
+			<unit_data _prev_pos="-1518.49 3941 83" _prev_rot="0 0 1 4.37114e-008" continent="house" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="interact_disable" name="units/pd2_mcmansion/props/mcm_prop_garden_fence_gate_set/mcm_prop_garden_fence_gate_small" name_id="mcm_prop_garden_fence_gate_small_004" position="-1518.49 3941 83" rotation="0 0 1 4.37114e-008" unit_id="400605"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-2547.73 2838.33 -110" _prev_rot="0 0 0.0436194 -0.999048" continent="house" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mcmansion/nature/mcm_ext_landscape_boulders_cliffs/mcm_ext_landscape_boulder_a" name_id="mcm_ext_landscape_boulder_a_011" position="-2538.13 2810.39 -110" rotation="0 0 0.0436199 -0.999048" unit_id="400188"/>
+			<unit_data _prev_pos="-2387.45 2696.83 -110" _prev_rot="0 0 0.0436203 -0.999048" continent="house" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mcmansion/nature/mcm_ext_landscape_boulders_cliffs/mcm_ext_landscape_boulder_a" name_id="mcm_ext_landscape_boulder_a_011" position="-2386.14 2711.77 -110" rotation="0 0 0.0436203 -0.999048" unit_id="400188"/>
 		</table>
 		<table>
 			<unit_data _prev_pos="-2671.36 -2334.78 -55" _prev_rot="0 0 0 -1" continent="house" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="-2971.36 -2564.78 -175" local_rot="-0 0 -8.9407e-008 1" name="units/pd2_mcmansion/nature/mcm_ext_landscape_boulders_cliffs/mcm_ext_landscape_boulder_c" name_id="mcm_ext_landscape_boulder_c_002" position="-2671.36 -2334.78 -55" rotation="0 0 8.9407e-008 -1" unit_id="400606"/>
@@ -2209,7 +2200,7 @@
 			<unit_data _prev_pos="-2665 -1000 20" _prev_rot="0 0 1 -4.37114e-008" continent="house" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/shadow_mullplan/mullplan_vehicle" name_id="mullplan_vehicle_006" position="-2340 -1035 20" rotation="0 -0 1 4.37114e-008" unit_id="400622"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-2385 -1775 20" _prev_rot="0 0 0.887011 -0.461749" continent="house" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/shadow_mullplan/mullplan_vehicle" name_id="mullplan_vehicle_007" position="-2385 -1775 20" rotation="0 0 0.887011 -0.461749" unit_id="400623"/>
+			<unit_data _prev_pos="-2385 -1775 20" _prev_rot="0 0 0.766044 -0.642788" continent="house" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/shadow_mullplan/mullplan_vehicle" name_id="mullplan_vehicle_007" position="-2402.36 -1873.48 20" rotation="0 0 0.766044 -0.642788" unit_id="400623"/>
 		</table>
 		<table>
 			<unit_data _prev_pos="-277.527 2021.66 120" _prev_rot="0 0 0 -1" continent="house" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="-1818.4 538.03 -300.001" local_rot="0 0 0 1" mesh_variation="" name="units/payday2/props/lxa_prop_bathroom_shower/lxa_prop_bathroom_shower" name_id="lxa_prop_bathroom_shower_002" position="-277.527 2021.66 120" rotation="0 0 0 -1" unit_id="400624"/>
@@ -2329,10 +2320,10 @@
 			<unit_data _prev_pos="-131.035 2133.72 120" _prev_rot="0 0 1 -6.33299e-008" continent="house" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="-637.771 -575.85 0" local_rot="0 0 1.07041e-007 1" name="units/payday2/props/off_prop_officehigh_drawer/off_prop_officehigh_drawer_dark_large_shelves_2_long" name_id="off_prop_officehigh_drawer_dark_large_shelves_2_long_002" position="-131.035 2133.72 120" rotation="0 0 1 -1.50753e-007" unit_id="400662"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-818.594 2187.58 120" _prev_rot="0 0 1 -4.37114e-008" continent="house" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="49.7879 -629.71 0" local_rot="0 0 8.74228e-008 1" name="units/pd2_dlc_friend/props/sfm_prop_library_bookcase/sfm_prop_bookcase_end_left_01" name_id="sfm_prop_bookcase_end_left_01_001" position="-818.594 2187.58 120" rotation="0 0 1 -1.31134e-007" unit_id="400663"/>
+			<unit_data _prev_pos="-820 2190 120" _prev_rot="0 0 1 -4.37114e-008" _visibility_counter="1" continent="house" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_friend/props/sfm_prop_library_bookcase/sfm_prop_bookcase_end_left_01" name_id="sfm_prop_bookcase_end_left_01_001" position="-815 2190 120" rotation="0 0 1 -4.37114e-008" unit_id="400663"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-818.323 2187.95 120" _prev_rot="0 0 1 -4.37114e-008" continent="house" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="49.5169 -630.08 0" local_rot="0 0 8.74228e-008 1" name="units/pd2_dlc_friend/props/sfm_prop_library_bookcase/sfm_prop_bookcase_end_right_01" name_id="sfm_prop_bookcase_end_right_01_001" position="-818.323 2187.95 120" rotation="0 0 1 -1.31134e-007" unit_id="400664"/>
+			<unit_data _prev_pos="-820 2190 120" _prev_rot="0 0 1 -4.37114e-008" _visibility_counter="1" continent="house" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_friend/props/sfm_prop_library_bookcase/sfm_prop_bookcase_end_right_01" name_id="sfm_prop_bookcase_end_right_01_001" position="-815 2190 120" rotation="0 0 1 -4.37114e-008" unit_id="400664"/>
 		</table>
 		<table>
 			<unit_data _prev_pos="-231.503 2133.47 120" _prev_rot="0 0 1 -4.37114e-008" continent="house" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="-537.303 -575.6 0" local_rot="0 0 8.74228e-008 1" name="units/payday2/props/off_prop_officehigh_drawer/off_prop_officehigh_drawer_dark_large_shelves_2" name_id="off_prop_officehigh_drawer_dark_large_shelves_2_002" position="-231.503 2133.47 120" rotation="0 0 1 -1.31134e-007" unit_id="400665"/>
@@ -2668,19 +2659,16 @@
 			<unit_data _prev_pos="1496.99 1148.01 120" _prev_rot="0 0 -0.707106 -0.707107" continent="house" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="190.336 2359.86 0" local_rot="0 0 0.999848 0.0174528" mesh_variation="interaction_enabled" name="units/payday2/props/str_prop_alley_trash_container/str_prop_alley_trash_container" name_id="str_prop_alley_trash_container_011" position="1496.99 1148.01 120" rotation="0 0 -0.707106 -0.707107" unit_id="400783"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-998.814 1675.04 120" _prev_rot="0 0 0.707107 -0.707107" continent="house" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="interaction_enabled" name="units/payday2/props/str_prop_alley_trash_container/str_prop_alley_trash_container" name_id="str_prop_alley_trash_container_012" position="-998.814 1616.04 120" rotation="0 0 0.707107 -0.707107" unit_id="400714"/>
+			<unit_data _prev_pos="-760.076 -260.048 119.997" _prev_rot="0 0 8.9407e-008 -1" _visibility_counter="1" continent="house" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mcmansion/props/mcm_prop_garden_bush_flower/mcm_prop_garden_bush_flower" name_id="mcm_prop_garden_bush_flower_001" position="-760.076 -260.048 119.997" rotation="0 0 8.9407e-008 -1" unit_id="400784"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-667.899 529.356 120" _prev_rot="0 0 0 -1" continent="house" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="-967.899 299.356 0" local_rot="-0 0 -8.9407e-008 1" name="units/pd2_mcmansion/props/mcm_prop_garden_bush_flower/mcm_prop_garden_bush_flower" name_id="mcm_prop_garden_bush_flower_001" position="-667.899 529.356 120" rotation="0 0 8.9407e-008 -1" unit_id="400784"/>
+			<unit_data _prev_pos="-478.95 -266.862 119.997" _prev_rot="0 0 8.9407e-008 -1" _visibility_counter="1" continent="house" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mcmansion/props/mcm_prop_garden_bush_flower/mcm_prop_garden_bush_flower" name_id="mcm_prop_garden_bush_flower_002" position="-478.95 -266.862 119.997" rotation="0 0 8.9407e-008 -1" unit_id="400785"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-353.363 530.332 120" _prev_rot="0 0 0 -1" continent="house" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="-653.363 300.332 0" local_rot="-0 0 -8.9407e-008 1" name="units/pd2_mcmansion/props/mcm_prop_garden_bush_flower/mcm_prop_garden_bush_flower" name_id="mcm_prop_garden_bush_flower_002" position="-353.363 530.332 120" rotation="0 0 8.9407e-008 -1" unit_id="400785"/>
+			<unit_data _prev_pos="-200.95 -266.862 119.997" _prev_rot="0 0 8.9407e-008 -1" _visibility_counter="1" continent="house" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="278 4.97104e-005 0" local_rot="0 0 0 1" name="units/pd2_mcmansion/props/mcm_prop_garden_bush_flower/mcm_prop_garden_bush_flower" name_id="mcm_prop_garden_bush_flower_003" position="-200.95 -266.862 119.997" rotation="0 0 8.9407e-008 -1" unit_id="400786"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-75.3625 530.332 120" _prev_rot="0 0 0 -1" continent="house" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="-375.362 300.332 0" local_rot="-0 0 -8.9407e-008 1" name="units/pd2_mcmansion/props/mcm_prop_garden_bush_flower/mcm_prop_garden_bush_flower" name_id="mcm_prop_garden_bush_flower_003" position="-75.3625 530.332 120" rotation="0 0 8.9407e-008 -1" unit_id="400786"/>
-		</table>
-		<table>
-			<unit_data _prev_pos="-954.899 529.356 120" _prev_rot="0 0 0 -1" continent="house" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="-1254.9 299.356 0" local_rot="-0 0 -8.9407e-008 1" name="units/pd2_mcmansion/props/mcm_prop_garden_bush_flower/mcm_prop_garden_bush_flower" name_id="mcm_prop_garden_bush_flower_004" position="-954.899 529.356 120" rotation="0 0 8.9407e-008 -1" unit_id="400787"/>
+			<unit_data _prev_pos="-1047.08 -260.048 119.997" _prev_rot="0 0 8.9407e-008 -1" _visibility_counter="1" continent="house" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="-287 -5.13196e-005 0" local_rot="0 0 0 1" name="units/pd2_mcmansion/props/mcm_prop_garden_bush_flower/mcm_prop_garden_bush_flower" name_id="mcm_prop_garden_bush_flower_004" position="-1047.08 -260.048 119.997" rotation="0 0 8.9407e-008 -1" unit_id="400787"/>
 		</table>
 		<table>
 			<unit_data _prev_pos="643.637 163.332 120" _prev_rot="0 0 0 -1" continent="house" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="343.637 -66.6681 0" local_rot="-0 0 -8.9407e-008 1" name="units/pd2_mcmansion/props/mcm_prop_garden_bush_flower/mcm_prop_garden_bush_flower" name_id="mcm_prop_garden_bush_flower_005" position="643.637 163.332 120" rotation="0 0 8.9407e-008 -1" unit_id="400788"/>
@@ -2845,7 +2833,7 @@
 			<unit_data _prev_pos="-2438.22 2699.23 20" _prev_rot="0 0 -0.649448 -0.760406" continent="house" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_casino/vegetation/sfm_veg_tree_canarypalm/sfm_veg_tree_canarypalm_medium" name_id="sfm_veg_tree_canarypalm_medium_005" position="-2272.04 2866.29 20" rotation="0 0 -0.649448 -0.760406" unit_id="400842"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-2443.56 2434.82 20" _prev_rot="0 0 -0.649448 -0.760406" continent="house" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_casino/vegetation/sfm_veg_tree_canarypalm/sfm_veg_tree_canarypalm_large" name_id="sfm_veg_tree_canarypalm_large_004" position="-2502.81 2239.69 20" rotation="0 0 -0.649448 -0.760406" unit_id="400843"/>
+			<unit_data _prev_pos="-2484.72 2034.34 20" _prev_rot="0 0 -0.649448 -0.760406" continent="house" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_casino/vegetation/sfm_veg_tree_canarypalm/sfm_veg_tree_canarypalm_large" name_id="sfm_veg_tree_canarypalm_large_004" position="-2480 2045 20" rotation="0 0 -0.707107 -0.707107" unit_id="400843"/>
 		</table>
 		<table>
 			<unit_data _prev_pos="-2309.19 3450.93 62.1537" _prev_rot="0 0 -0.649448 -0.760406" continent="house" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_casino/vegetation/sfm_veg_tree_canarypalm/sfm_veg_tree_canarypalm_large" name_id="sfm_veg_tree_canarypalm_large_005" position="-2309.19 3450.93 62.1537" rotation="0 0 -0.649448 -0.760406" unit_id="400844"/>
@@ -2903,15 +2891,6 @@
 			<unit_data _prev_pos="-2308.78 46.5349 19.9999" _prev_rot="-6.23303e-008 2.79062e-008 -0.430511 -0.902585" continent="house" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="-458.464 345.822 -0.000106812" local_rot="1.05434e-008 -6.74734e-008 -0.522499 0.85264" name="units/pd2_dlc_born/props/bor_prop_garage_toolbox/bor_prop_garage_toolbox" name_id="bor_prop_garage_toolbox_001" position="-2308.78 46.5349 19.9999" rotation="-6.23303e-008 2.79062e-008 -0.430511 -0.902585" unit_id="400849"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-2092.45 346.789 20" _prev_rot="-3.9523e-008 -2.99531e-008 2.68221e-007 -1" continent="house" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="-272.158 26.0705 4.19617e-005" local_rot="4.66465e-008 -1.68331e-008 -0.838671 0.544639" name="units/world/props/mansion/man_cover_int_shipping_box_pallet/man_cover_int_shipping_box_pallet" name_id="man_cover_int_shipping_box_pallet_030" position="-2092.45 346.789 20" rotation="-3.9523e-008 -2.99531e-008 2.68221e-007 -1" unit_id="400850"/>
-		</table>
-		<table>
-			<unit_data _prev_pos="-2216.55 368.227 20" _prev_rot="-4.99123e-008 -3.65707e-008 0.52992 -0.848048" continent="house" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="-202.097 130.722 -2.09808e-005" local_rot="5.7855e-008 -2.19422e-008 -0.999848 0.0174521" name="units/world/props/mansion/man_cover_int_shipping_box_pallet/man_cover_int_shipping_box_pallet" name_id="man_cover_int_shipping_box_pallet_031" position="-2216.55 368.227 20" rotation="-4.99123e-008 -3.65707e-008 0.529919 -0.848048" unit_id="400851"/>
-		</table>
-		<table>
-			<unit_data _prev_pos="-2134.45 346.789 95" _prev_rot="-3.9523e-008 -2.99531e-008 2.68221e-007 -1" continent="house" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="-255.075 64.4392 75" local_rot="4.66465e-008 -1.68331e-008 -0.838671 0.544639" name="units/world/props/mansion/man_cover_int_shipping_box_pallet/man_cover_int_shipping_box_pallet" name_id="man_cover_int_shipping_box_pallet_032" position="-2134.45 346.789 95" rotation="-3.9523e-008 -2.99531e-008 2.68221e-007 -1" unit_id="400852"/>
-		</table>
-		<table>
 			<unit_data _prev_pos="-2676.29 550.675 19.9995" _prev_rot="-6.29958e-009 2.01607e-008 -0.694658 -0.71934" continent="house" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="151.571 476.507 -0.000492096" local_rot="-1.34772e-008 -1.62636e-008 -0.224952 0.97437" name="units/pd2_mcmansion/props/mcm_prop_garage_pressurewasher/mcm_prop_garage_pressurewasher" name_id="mcm_prop_garage_pressurewasher_002" position="-2676.29 550.675 19.9995" rotation="-6.29958e-009 2.01607e-008 -0.694658 -0.71934" unit_id="400853"/>
 		</table>
 		<table>
@@ -2927,12 +2906,6 @@
 			<unit_data _prev_pos="-2124.73 546.696 20" _prev_rot="0 0 0.707107 -0.707107" continent="house" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="interaction_enabled" name="units/payday2/props/str_prop_alley_trash_container/str_prop_alley_trash_container" name_id="str_prop_alley_trash_container_017" position="-2081.73 546.696 20" rotation="0 0 0.707107 -0.707107" unit_id="400857"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-2111.67 686.121 19.9999" _prev_rot="-3.9523e-008 -2.99531e-008 2.68221e-007 -1" continent="house" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="45.655 -94.3902 -5.14984e-005" local_rot="4.66465e-008 -1.68331e-008 -0.838671 0.544639" name="units/payday2/props/ind_prop_alley_garbage_bags/ind_prop_alley_garbage_bags_03" name_id="ind_prop_alley_garbage_bags_03_005" position="-2111.67 686.121 19.9999" rotation="-3.9523e-008 -2.99531e-008 2.68221e-007 -1" unit_id="400858"/>
-		</table>
-		<table>
-			<unit_data _prev_pos="-2179.33 606.021 20" _prev_rot="0 0 -0.838671 -0.544639" continent="house" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/ind_prop_alley_garbage_bags/ind_prop_alley_garbage_bags_01" name_id="ind_prop_alley_garbage_bags_01_003" position="-2179.33 606.021 20" rotation="0 0 -0.838671 -0.544639" unit_id="400859"/>
-		</table>
-		<table>
 			<unit_data _prev_pos="-2663.11 95.7836 21.9996" _prev_rot="3.82475e-008 -4.12879e-008 0.891006 0.453991" continent="house" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="-269.354 649.488 1.99958" local_rot="1.37959e-008 5.4564e-008 -0.104528 -0.994522" name="units/payday2/props/com_prop_store_bags/com_prop_store_bags_gymbag" name_id="com_prop_store_bags_gymbag_001" position="-2663.11 95.7836 21.9996" rotation="3.82475e-008 -4.12879e-008 0.891006 0.453991" unit_id="400860"/>
 		</table>
 		<table>
@@ -2945,7 +2918,7 @@
 			<unit_data _prev_pos="-2604.26 -176.992 20.0001" _prev_rot="0 0 0 -1" continent="house" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mcmansion/props/mcm_prop_garden_ac/mcm_prop_garden_ac" name_id="mcm_prop_garden_ac_001" position="-2604.26 -133.992 20.0001" rotation="0 0 0 -1" unit_id="400863"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-2308.66 404.762 18.6273" _prev_rot="0.0610491 -1.43424e-007 0.998135 1.78814e-007" continent="house" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="-131.256 200.008 -1.37271" local_rot="-0.0332496 0.0512002 -0.543623 -0.837106" name="units/payday2/vehicles/str_vehicle_motorcycle_chopper/str_vehicle_motorcycle_chopper" name_id="str_vehicle_motorcycle_chopper_001" position="-2308.66 404.762 18.6273" rotation="0.0610491 -1.43424e-007 0.998135 1.78814e-007" unit_id="400864"/>
+			<unit_data _prev_pos="-2311.64 373.762 18.9929" _prev_rot="0.0610491 -1.43424e-007 0.998135 1.78814e-007" _visibility_counter="0" continent="house" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="-36.5048 -84.2728 -1.0041" local_rot="-0.0517726 -0.032351 -0.846466 0.528931" name="units/payday2/vehicles/str_vehicle_motorcycle_chopper/str_vehicle_motorcycle_chopper" name_id="str_vehicle_motorcycle_chopper_001" position="-2301.75 378.584 18.9929" rotation="0.0610491 -1.43424e-007 0.998135 1.78814e-007" unit_id="400864"/>
 		</table>
 		<table>
 			<unit_data _prev_pos="1954.76 703.675 4.496" _prev_rot="0 0 -0.104528 -0.994522" continent="house" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/dev_tools/dev_ladder/dev_ladder" name_id="dev_ladder_010" only_visible_in_editor="true" position="1952.81 703.259 4.496" rotation="0 0 -0.104528 -0.994522" unit_id="400092">
@@ -3127,24 +3100,6 @@
 			<unit_data _prev_pos="-1774.61 -174.604 22.0007" _prev_rot="0 0 -0.707107 -0.707107" continent="house" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="-1631.4 -456.01 -447.999" local_rot="0 0 0.707107 0.707107" name="units/world/props/street/streetplanters_flowers_1" name_id="streetplanters_flowers_1_034" position="-1774.61 -174.604 22.0007" rotation="0 0 -0.707107 -0.707107" unit_id="400922"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-1774.61 622.396 22.0007" _prev_rot="0 0 -0.707107 -0.707107" continent="house" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="-1631.4 340.99 -447.999" local_rot="0 0 0.707107 0.707107" name="units/world/props/street/streetplanters_flowers_1" name_id="streetplanters_flowers_1_035" position="-1774.61 622.396 22.0007" rotation="0 0 -0.707107 -0.707107" unit_id="400923"/>
-		</table>
-		<table>
-			<unit_data _prev_pos="-1774.61 485.396 22.0007" _prev_rot="0 0 -0.707107 -0.707107" continent="house" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="-1631.4 203.99 -447.999" local_rot="0 0 0.707107 0.707107" name="units/world/props/street/streetplanters_flowers_1" name_id="streetplanters_flowers_1_036" position="-1774.61 485.396 22.0007" rotation="0 0 -0.707107 -0.707107" unit_id="400924"/>
-		</table>
-		<table>
-			<unit_data _prev_pos="-1774.61 364.396 22.0007" _prev_rot="0 0 -0.707107 -0.707107" continent="house" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="-1631.4 82.99 -447.999" local_rot="0 0 0.707107 0.707107" name="units/world/props/street/streetplanters_flowers_1" name_id="streetplanters_flowers_1_037" position="-1774.61 364.396 22.0007" rotation="0 0 -0.707107 -0.707107" unit_id="400925"/>
-		</table>
-		<table>
-			<unit_data _prev_pos="-1774.61 227.396 22.0007" _prev_rot="0 0 -0.707107 -0.707107" continent="house" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="-1631.4 -54.01 -447.999" local_rot="0 0 0.707107 0.707107" name="units/world/props/street/streetplanters_flowers_1" name_id="streetplanters_flowers_1_038" position="-1774.61 227.396 22.0007" rotation="0 0 -0.707107 -0.707107" unit_id="400926"/>
-		</table>
-		<table>
-			<unit_data _prev_pos="-1774.61 97.3961 22.0007" _prev_rot="0 0 -0.707107 -0.707107" continent="house" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="-1631.4 -184.01 -447.999" local_rot="0 0 0.707107 0.707107" name="units/world/props/street/streetplanters_flowers_1" name_id="streetplanters_flowers_1_039" position="-1774.61 97.3961 22.0007" rotation="0 0 -0.707107 -0.707107" unit_id="400927"/>
-		</table>
-		<table>
-			<unit_data _prev_pos="-1774.61 712.396 22.0007" _prev_rot="0 0 -0.707107 -0.707107" continent="house" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="-1631.4 430.99 -447.999" local_rot="0 0 0.707107 0.707107" name="units/world/props/street/streetplanters_flowers_1" name_id="streetplanters_flowers_1_040" position="-1774.61 712.396 22.0007" rotation="0 0 -0.707107 -0.707107" unit_id="400928"/>
-		</table>
-		<table>
 			<unit_data _prev_pos="-1774.61 1373.4 22.0007" _prev_rot="0 0 -0.707107 -0.707107" continent="house" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="-1631.4 1091.99 -447.999" local_rot="0 0 0.707107 0.707107" name="units/world/props/street/streetplanters_flowers_1" name_id="streetplanters_flowers_1_042" position="-1774.61 1373.4 22.0007" rotation="0 0 -0.707107 -0.707107" unit_id="400930"/>
 		</table>
 		<table>
@@ -3181,15 +3136,6 @@
 			<unit_data _prev_pos="-76.5481 3135.61 120.571" _prev_rot="-1.27999e-007 -4.88164e-007 2.68221e-007 -1" continent="house" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="1455.61 -2949.86 100.571" local_rot="4.79122e-007 1.58525e-007 -0.838671 0.544639" name="units/pd2_mcmansion/props/mcm_prop_garden_bush_green/mcm_prop_garden_bush_green_b_var2" name_id="mcm_prop_garden_bush_green_b_var2_013" position="-76.5481 3135.61 120.571" rotation="-1.27999e-007 -4.88164e-007 2.68221e-007 -1" unit_id="400954"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-251.55 555.609 120.572" _prev_rot="0 0 0 -1" continent="house" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="-551.55 325.609 0.571999" local_rot="-0 0 -8.9407e-008 1" name="units/pd2_mcmansion/props/mcm_prop_garden_bush_green/mcm_prop_garden_bush_green_b_var2" name_id="mcm_prop_garden_bush_green_b_var2_014" position="-251.55 555.609 120.572" rotation="0 0 8.9407e-008 -1" unit_id="400955"/>
-		</table>
-		<table>
-			<unit_data _prev_pos="-834.55 555.609 120.572" _prev_rot="0 0 0 -1" continent="house" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="-1134.55 325.609 0.571999" local_rot="-0 0 -8.9407e-008 1" name="units/pd2_mcmansion/props/mcm_prop_garden_bush_green/mcm_prop_garden_bush_green_b_var2" name_id="mcm_prop_garden_bush_green_b_var2_015" position="-834.55 555.609 120.572" rotation="0 0 8.9407e-008 -1" unit_id="400956"/>
-		</table>
-		<table>
-			<unit_data _prev_pos="-513.55 555.609 120.572" _prev_rot="0 0 0 -1" continent="house" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="-813.55 325.609 0.571999" local_rot="-0 0 -8.9407e-008 1" name="units/pd2_mcmansion/props/mcm_prop_garden_bush_green/mcm_prop_garden_bush_green_b_var2" name_id="mcm_prop_garden_bush_green_b_var2_016" position="-513.55 555.609 120.572" rotation="0 0 8.9407e-008 -1" unit_id="400957"/>
-		</table>
-		<table>
 			<unit_data _prev_pos="684.637 520.332 120" _prev_rot="0 0 0 -1" continent="house" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="384.637 290.332 0" local_rot="-0 0 -8.9407e-008 1" name="units/pd2_mcmansion/props/mcm_prop_garden_bush_flower/mcm_prop_garden_bush_flower" name_id="mcm_prop_garden_bush_flower_009" position="684.637 520.332 120" rotation="0 0 8.9407e-008 -1" unit_id="400958"/>
 		</table>
 		<table>
@@ -3199,13 +3145,10 @@
 			<unit_data _prev_pos="1409.64 520.332 120" _prev_rot="0 0 0 -1" continent="house" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="1109.64 290.332 0" local_rot="-0 0 -8.9407e-008 1" name="units/pd2_mcmansion/props/mcm_prop_garden_bush_flower/mcm_prop_garden_bush_flower" name_id="mcm_prop_garden_bush_flower_011" position="1409.64 520.332 120" rotation="0 0 8.9407e-008 -1" unit_id="400960"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-66.363 163.332 120" _prev_rot="0 0 8.9407e-008 -1" _visibility_counter="0" continent="house" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mcmansion/props/mcm_prop_garden_bush_flower/mcm_prop_garden_bush_flower" name_id="mcm_prop_garden_bush_flower_012" position="-66.363 213.332 120" rotation="0 0 8.9407e-008 -1" unit_id="400961"/>
+			<unit_data _prev_pos="1970.95 2485.24 106.997" _prev_rot="0 0 8.9407e-008 -1" _visibility_counter="1" continent="house" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mcmansion/props/mcm_prop_garden_bush_flower/mcm_prop_garden_bush_flower" name_id="mcm_prop_garden_bush_flower_012" position="1970.95 2461.24 106.997" rotation="0 0 8.9407e-008 -1" unit_id="400961"/>
 		</table>
 		<table>
 			<unit_data _prev_pos="664.45 327.609 120.572" _prev_rot="0 0 -0.707107 -0.707107" continent="house" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="364.45 97.6089 0.571999" local_rot="0 0 0.707107 0.707107" name="units/pd2_mcmansion/props/mcm_prop_garden_bush_green/mcm_prop_garden_bush_green_b_var2" name_id="mcm_prop_garden_bush_green_b_var2_017" position="664.45 327.609 120.572" rotation="0 0 -0.707107 -0.707107" unit_id="400962"/>
-		</table>
-		<table>
-			<unit_data _prev_pos="-66.5498 327.609 120.572" _prev_rot="0 0 -0.707107 -0.707107" continent="house" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="-366.55 97.6091 0.571999" local_rot="0 0 0.707107 0.707107" name="units/pd2_mcmansion/props/mcm_prop_garden_bush_green/mcm_prop_garden_bush_green_b_var2" name_id="mcm_prop_garden_bush_green_b_var2_018" position="-66.5497 327.609 120.572" rotation="0 0 -0.707107 -0.707107" unit_id="400963"/>
 		</table>
 		<table>
 			<unit_data _prev_pos="752.171 -445.534 24.0001" _prev_rot="0 0 0 -1" continent="house" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="452.171 -675.534 -95.9999" local_rot="-0 0 -8.9407e-008 1" name="units/payday2/nature/pnau/pnau_boulders/pna_ext_landscape_cliff_a" name_id="pna_ext_landscape_cliff_a_012" position="752.171 -445.534 24.0001" rotation="0 0 8.9407e-008 -1" unit_id="400964"/>
@@ -3250,40 +3193,22 @@
 			<unit_data _prev_pos="-374 -146 115" _prev_rot="0 0 0 -1" continent="house" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="-674 -376 -5" local_rot="-0 0 -8.9407e-008 1" name="units/pd2_dlc_friend/architecture/ext/sfm_ext_hedges_6m" name_id="sfm_ext_hedges_6m_021" position="-374 -146 115" rotation="0 0 8.9407e-008 -1" unit_id="400977"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-1380 557 115" _prev_rot="0 0 0.707107 -0.707107" continent="house" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_friend/architecture/ext/sfm_ext_hedges_6m" name_id="sfm_ext_hedges_6m_022" position="-1380 557 115" rotation="0 0 0.707107 -0.707107" unit_id="400978"/>
+			<unit_data _prev_pos="-1002.9 2449.36 120" _prev_rot="0 0 0 -1" continent="house" instance_data="false" local_pos="-17.001 349 0" local_rot="0 0 0 1" name="units/pd2_mcmansion/props/mcm_prop_garden_bush_flower/mcm_prop_garden_bush_flower" name_id="mcm_prop_garden_bush_flower_013" position="-1002.9 2449.36 100" rotation="0 0 0 -1" unit_id="400980"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-1381 1010 115" _prev_rot="0 0 0.707107 -0.707107" continent="house" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_friend/architecture/ext/sfm_ext_hedges_6m" name_id="sfm_ext_hedges_6m_023" position="-1380 1119 115" rotation="0 0 0.707107 -0.707107" unit_id="400979"/>
+			<unit_data _prev_pos="-985.899 2100.36 120" _prev_rot="0 0 0 -1" continent="house" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mcmansion/props/mcm_prop_garden_bush_flower/mcm_prop_garden_bush_flower" name_id="mcm_prop_garden_bush_flower_014" position="-985.899 2100.36 100" rotation="0 0 0 -1" unit_id="400981"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-985.899 2449.36 120" _prev_rot="0 0 0 -1" continent="house" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mcmansion/props/mcm_prop_garden_bush_flower/mcm_prop_garden_bush_flower" name_id="mcm_prop_garden_bush_flower_013" position="-1002.9 2449.36 120" rotation="0 0 0 -1" unit_id="400980"/>
+			<unit_data _prev_pos="-1254.81 3819.01 101.154" _prev_rot="0 0 -0.34202 -0.939693" continent="house" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/vegetation/jungle/thinbranchtree_02" name_id="thinbranchtree_02_003" position="-1254.81 3819.01 101.154" rotation="0 0 -0.34202 -0.939693" unit_id="400982"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-985.899 2449.36 120" _prev_rot="0 0 0 -1" continent="house" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mcmansion/props/mcm_prop_garden_bush_flower/mcm_prop_garden_bush_flower" name_id="mcm_prop_garden_bush_flower_014" position="-985.899 2100.36 120" rotation="0 0 0 -1" unit_id="400981"/>
+			<unit_data _prev_pos="-686.855 3809.21 102.268" _prev_rot="0 0 0.656059 -0.75471" continent="house" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/vegetation/jungle/thinbranchtree_02" name_id="thinbranchtree_02_004" position="-686.855 3809.21 102.268" rotation="0 0 0.656059 -0.75471" unit_id="400983"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-1400 3814.82 101" _prev_rot="-0 0 -0 -1" continent="house" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/vegetation/jungle/thinbranchtree_02" name_id="thinbranchtree_02_003" position="-1400 3814.82 101" rotation="-0 0 -0 -1" unit_id="400982"/>
+			<unit_data _prev_pos="1376.2 2628.67 119.997" _prev_rot="8.9407e-008 0 0 -1" continent="house" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/vegetation/jungle/thinbranchtree_02" name_id="thinbranchtree_02_005" position="1376.2 2628.68 119.997" rotation="0 0 -0.760406 -0.649448" unit_id="400984"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-785 3788.82 101" _prev_rot="-0 0 -0 -1" continent="house" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/vegetation/jungle/thinbranchtree_02" name_id="thinbranchtree_02_004" position="-800 3788.82 101" rotation="-0 0 -0 -1" unit_id="400983"/>
-		</table>
-		<table>
-			<unit_data _prev_pos="-174.31 3788.82 101" _prev_rot="0 0 0 -1" continent="house" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/vegetation/jungle/thinbranchtree_02" name_id="thinbranchtree_02_005" position="-174.31 3788.82 101" rotation="0 0 0 -1" unit_id="400984"/>
-		</table>
-		<table>
-			<unit_data _prev_pos="-1892.54 3792.11 98.3894" _prev_rot="0 0 0 -1" continent="house" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/vegetation/jungle/thinbranchtree_02" name_id="thinbranchtree_02_006" position="-1892.54 3792.11 98.3894" rotation="0 0 0 -1" unit_id="400985"/>
-		</table>
-		<table>
-			<unit_data _prev_pos="-1266.06 3069.56 119.999" _prev_rot="0 0 0.173648 -0.984808" _visibility_counter="0" continent="house" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="18.3205 -120.035 0" local_rot="0 0 -0.173648 0.984808" name="units/world/props/mansion/man_cover_int_shipping_crate_wide/man_cover_int_shipping_crate_wide" name_id="man_cover_int_shipping_crate_wide_044" position="-1266.06 3098.56 119.999" rotation="0 0 0.173648 -0.984808" unit_id="400986"/>
-		</table>
-		<table>
-			<unit_data _prev_pos="-1284.38 3189.59 119.999" _prev_rot="0 0 2.5332e-007 -1" _visibility_counter="0" continent="house" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/props/mansion/man_cover_int_shipping_crate_wide/man_cover_int_shipping_crate_wide" name_id="man_cover_int_shipping_crate_wide_045" position="-1284.38 3218.59 119.999" rotation="0 0 2.5332e-007 -1" unit_id="400987"/>
-		</table>
-		<table>
-			<unit_data _prev_pos="-1412.29 3128.05 119.999" _prev_rot="0 0 0.580703 -0.814116" _visibility_counter="0" continent="house" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="-127.913 -61.5428 0" local_rot="0 0 -0.580703 0.814116" name="units/world/props/mansion/man_cover_int_shipping_crate_wide/man_cover_int_shipping_crate_wide" name_id="man_cover_int_shipping_crate_wide_046" position="-1412.29 3157.05 119.999" rotation="0 0 0.580703 -0.814115" unit_id="400988"/>
-		</table>
-		<table>
-			<unit_data _prev_pos="-1342.08 3135.53 233.999" _prev_rot="0 0 0.173648 -0.984808" _visibility_counter="0" continent="house" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="-57.6978 -54.0562 114" local_rot="0 0 -0.173648 0.984808" name="units/world/props/mansion/man_cover_int_shipping_crate_wide/man_cover_int_shipping_crate_wide" name_id="man_cover_int_shipping_crate_wide_047" position="-1342.08 3164.53 233.999" rotation="0 0 0.173648 -0.984808" unit_id="400989"/>
+			<unit_data _prev_pos="-1892.54 3792.11 98.3894" _prev_rot="0 0 0 -1" continent="house" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/vegetation/jungle/thinbranchtree_02" name_id="thinbranchtree_02_006" position="-1817.54 3792.11 98.3894" rotation="0 0 0 -1" unit_id="400985"/>
 		</table>
 		<table>
 			<unit_data _prev_pos="2843.24 -565.483 119.998" _prev_rot="0 0 0.694659 -0.71934" _visibility_counter="0" continent="house" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/props/mansion/man_cover_int_shipping_crate_wide/man_cover_int_shipping_crate_wide" name_id="man_cover_int_shipping_crate_wide_048" position="2843.24 -565.483 119.998" rotation="0 0 0.694659 -0.71934" unit_id="400992"/>
@@ -3568,15 +3493,6 @@
 			<unit_data _prev_pos="99.0558 -2443.61 -73.0002" _prev_rot="0 0 -0.707107 -0.707107" continent="house" local_pos="-346 4.12464e-005 0" local_rot="0 0 0 1" name="units/world/props/street/streetplanters_flowers_1" name_id="streetplanters_flowers_1_153" position="1708.06 -2443.61 -73.0002" rotation="0 0 -0.707107 -0.707107" unit_id="401100"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-2745 -2442 20" _prev_rot="0 0 -0.707107 -0.707107" continent="house" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="-3045 -2672 -100" local_rot="0 0 0.707107 0.707107" name="units/pd2_dlc_friend/architecture/ext/sfm_ext_hedges_6m" name_id="sfm_ext_hedges_6m_026" position="-2745 -2442 20" rotation="0 0 -0.707107 -0.707107" unit_id="401093"/>
-		</table>
-		<table>
-			<unit_data _prev_pos="-2745 -3031 20" _prev_rot="0 0 -0.707107 -0.707107" continent="house" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="-3045 -3261 -100" local_rot="0 0 0.707107 0.707107" name="units/pd2_dlc_friend/architecture/ext/sfm_ext_hedges_6m" name_id="sfm_ext_hedges_6m_027" position="-2745 -3031 20" rotation="0 0 -0.707107 -0.707107" unit_id="401101"/>
-		</table>
-		<table>
-			<unit_data _prev_pos="-2740 -3361 20" _prev_rot="0 0 -0.707107 -0.707107" continent="house" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="-3040 -3591 -100" local_rot="0 0 0.707107 0.707107" name="units/pd2_dlc_friend/architecture/ext/sfm_ext_hedges_6m" name_id="sfm_ext_hedges_6m_028" position="-2740 -3361 20" rotation="0 0 -0.707107 -0.707107" unit_id="401102"/>
-		</table>
-		<table>
 			<unit_data _prev_pos="-2567 -3591 20" _prev_rot="0 0 0 -1" continent="house" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="-2867 -3821 -100" local_rot="-0 0 -8.9407e-008 1" name="units/pd2_dlc_friend/architecture/ext/sfm_ext_hedges_6m" name_id="sfm_ext_hedges_6m_029" position="-2567 -3591 20" rotation="0 0 8.9407e-008 -1" unit_id="401103"/>
 		</table>
 		<table>
@@ -3688,19 +3604,19 @@
 			<unit_data _prev_pos="-2644.19 -443.425 20.0001" _prev_rot="0 0 0 -1" continent="house" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="-2944.19 -673.424 -99.9999" local_rot="-0 0 -8.9407e-008 1" name="units/pd2_dlc_friend/props/sfm_veg_forest_wall/sfm_veg_forest_bush_01" name_id="sfm_veg_forest_bush_01_011" position="-2644.19 -443.424 20.0001" rotation="0 0 8.9407e-008 -1" unit_id="401139"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-2440.31 3649.82 58" _prev_rot="0 0 0 -1" continent="house" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/vegetation/jungle/thinbranchtree_02" name_id="thinbranchtree_02_012" position="-2450.31 3663.82 58" rotation="0 0 0 -1" unit_id="401140"/>
+			<unit_data _prev_pos="-2322.84 3794.6 64.332" _prev_rot="0 0 0.622515 -0.782608" continent="house" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/vegetation/jungle/thinbranchtree_02" name_id="thinbranchtree_02_012" position="-2322.84 3794.6 64.332" rotation="0 0 0.622515 -0.782608" unit_id="401140"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-2678.31 3272.82 25" _prev_rot="0 0 0 -1" continent="house" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/vegetation/jungle/thinbranchtree_02" name_id="thinbranchtree_02_013" position="-2676.31 3241.82 25" rotation="0 0 0 -1" unit_id="401141"/>
+			<unit_data _prev_pos="-2672.49 3383.52 32.0747" _prev_rot="0 0 0.976296 -0.21644" continent="house" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/vegetation/jungle/thinbranchtree_02" name_id="thinbranchtree_02_013" position="-2672.49 3383.52 32.0747" rotation="0 0 0.976296 -0.21644" unit_id="401141"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-2747.31 2609.82 25" _prev_rot="0 0 0 -1" continent="house" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/vegetation/jungle/thinbranchtree_02" name_id="thinbranchtree_02_014" position="-2747.31 2609.82 16" rotation="0 0 0 -1" unit_id="401142"/>
+			<unit_data _prev_pos="-2777.08 2624.98 19.9966" _prev_rot="0 0 -0.515038 -0.857167" continent="house" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/vegetation/jungle/thinbranchtree_02" name_id="thinbranchtree_02_014" position="-2777.08 2624.98 19.9966" rotation="0 0 -0.515038 -0.857167" unit_id="401142"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-2747.31 1429.82 16" _prev_rot="0 0 0 -1" continent="house" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/vegetation/jungle/thinbranchtree_02" name_id="thinbranchtree_02_017" position="-2747.31 819.82 16" rotation="0 0 0 -1" unit_id="401145"/>
+			<unit_data _prev_pos="-2716.38 903.769 19.9969" _prev_rot="0 0 0.566406 -0.824126" continent="house" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/vegetation/jungle/thinbranchtree_02" name_id="thinbranchtree_02_017" position="-2763.06 885.851 19.9969" rotation="0 0 0.566406 -0.824126" unit_id="401145"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-2747.31 819.82 16" _prev_rot="0 0 0 -1" continent="house" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/vegetation/jungle/thinbranchtree_02" name_id="thinbranchtree_02_018" position="-2003.31 819.82 16" rotation="0 0 0 -1" unit_id="401146"/>
+			<unit_data _prev_pos="-1993.6 930.48 19.9969" _prev_rot="0 0 0 -1" continent="house" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/vegetation/jungle/thinbranchtree_02" name_id="thinbranchtree_02_018" position="-1993.6 930.48 19.9969" rotation="0 0 0 -1" unit_id="401146"/>
 		</table>
 		<table>
 			<unit_data _prev_pos="625 -915 20" _prev_rot="0 0 0.707107 -0.707107" continent="house" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="325 -1145 -100" local_rot="-0 0 -0.707107 0.707107" name="units/pd2_dlc_friend/props/sfm_prop_ext_bbq/sfm_prop_ext_bbq" name_id="sfm_prop_ext_bbq_001" position="625 -915 20" rotation="0 0 0.707107 -0.707107" unit_id="401147"/>
@@ -3736,19 +3652,13 @@
 			<unit_data _prev_pos="-1908.18 1540.97 20" _prev_rot="0 0 0 -1" continent="house" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="-1764.97 1259.56 -450" local_rot="-0 0 0 1" name="units/world/props/mansion/man_cover_int_shipping_crate_wide/man_cover_int_shipping_crate_wide" name_id="man_cover_int_shipping_crate_wide_050" position="-1908.18 1540.97 20" rotation="0 0 0 -1" unit_id="401156"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-1908.18 1494.97 131" _prev_rot="0 0 0 -1" continent="house" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="-1764.97 1213.56 -339" local_rot="-0 0 0 1" name="units/world/props/mansion/man_cover_int_shipping_crate_wide/man_cover_int_shipping_crate_wide" name_id="man_cover_int_shipping_crate_wide_051" position="-1908.18 1494.97 131" rotation="0 0 0 -1" unit_id="401157"/>
-		</table>
-		<table>
-			<unit_data _prev_pos="-2023.18 1509.97 20" _prev_rot="0 0 0.707107 -0.707107" continent="house" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="-1879.97 1228.56 -450" local_rot="-0 0 -0.707107 0.707107" name="units/world/props/mansion/man_cover_int_shipping_crate_wide/man_cover_int_shipping_crate_wide" name_id="man_cover_int_shipping_crate_wide_052" position="-2023.18 1509.97 20" rotation="0 0 0.707107 -0.707107" unit_id="401158"/>
-		</table>
-		<table>
-			<unit_data _prev_pos="-1998.72 1211.17 19.9994" _prev_rot="0 0 -0.649448 -0.760406" continent="house" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_casino/vegetation/sfm_veg_tree_canarypalm/sfm_veg_tree_canarypalm_large" name_id="sfm_veg_tree_canarypalm_large_006" position="-1998.72 1211.17 19.9994" rotation="0 0 -0.649448 -0.760406" unit_id="401160"/>
+			<unit_data _prev_pos="-1993.78 1210.39 19.9994" _prev_rot="0 0 -0.649448 -0.760406" continent="house" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_casino/vegetation/sfm_veg_tree_canarypalm/sfm_veg_tree_canarypalm_large" name_id="sfm_veg_tree_canarypalm_large_006" position="-1944.4 1202.57 19.9994" rotation="0 0 -0.649448 -0.760406" unit_id="401160"/>
 		</table>
 		<table>
 			<unit_data _prev_pos="2245.43 1284.44 119.997" _prev_rot="2.98023e-008 2.98023e-008 -0.649448 -0.760406" continent="house" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_casino/vegetation/sfm_veg_tree_canarypalm/sfm_veg_tree_canarypalm_medium" name_id="sfm_veg_tree_canarypalm_medium_006" position="2257.28 1282.56 119.997" rotation="2.98023e-008 2.98023e-008 -0.649448 -0.760406" unit_id="401161"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="2331.71 3064.26 120" _prev_rot="0 0 -0.649448 -0.760406" continent="house" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_casino/vegetation/sfm_veg_tree_canarypalm/sfm_veg_tree_canarypalm_large" name_id="sfm_veg_tree_canarypalm_large_007" position="2322.83 3065.67 120" rotation="0 0 -0.649448 -0.760406" unit_id="401162"/>
+			<unit_data _prev_pos="328.602 3748.67 108.263" _prev_rot="0 0 -0.649448 -0.760406" continent="house" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_casino/vegetation/sfm_veg_tree_canarypalm/sfm_veg_tree_canarypalm_large" name_id="sfm_veg_tree_canarypalm_large_007" position="328.602 3748.67 93.2629" rotation="0 0 -0.649448 -0.760406" unit_id="401162"/>
 		</table>
 		<table>
 			<unit_data _prev_pos="297.539 361.82 520" _prev_rot="0 0 0 -1" continent="house" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="598.18 247.539 400" local_rot="0 0 0.707107 0.707107" name="units/payday2/props/stn_prop_office_chair_regular/stn_prop_office_chair_regular" name_id="stn_prop_office_chair_regular_002" position="297.539 361.82 520" rotation="0 0 0 -1" unit_id="401163"/>
@@ -3850,25 +3760,16 @@
 			<unit_data _prev_pos="-410.015 1106.5 515.62" _prev_rot="0 0 0.707107 -0.707107" continent="house" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="show_and_enable_interaction" name="units/payday2/pickups/gen_pku_bucket_of_money/gen_pku_bucket_of_money" name_id="gen_pku_bucket_of_money_012" position="-386.015 1106.5 515.62" rotation="0 0 0.707107 -0.707107" unit_id="401191"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-2454.4 2023.53 19.9996" _prev_rot="0 0 0 -1" continent="house" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/vegetation/str_veg_bush_dense/str_veg_bush_dense_a" name_id="str_veg_bush_dense_a_006" position="-2354.4 2023.53 19.9996" rotation="0 0 0 -1" unit_id="401192"/>
+			<unit_data _prev_pos="1338.62 3018.94 119.997" _prev_rot="8.9407e-008 0 0 -1" continent="house" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/vegetation/str_veg_bush_dense/str_veg_bush_dense_a" name_id="str_veg_bush_dense_a_006" position="1338.62 3018.94 119.997" rotation="8.9407e-008 0 0 -1" unit_id="401192"/>
 		</table>
 		<table>
 			<unit_data _prev_pos="-2880 1955 20" _prev_rot="0 0 0.707107 -0.707107" continent="house" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/pd2_mcmansion/props/mcm_prop_garden_fence_gate_set/mcm_prop_garden_fence_gate_large_van" name_id="mcm_prop_garden_fence_gate_large_van_002" position="-2880 1955 20" rotation="0 0 0.707107 -0.707107" unit_id="400782"/>
-		</table>
-		<table>
-			<unit_data _prev_pos="-2850 2355 20" _prev_rot="0 0 0.707107 -0.707107" continent="house" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mcmansion/props/mcm_prop_garden_fence_gate_set/mcm_prop_garden_fence_2m" name_id="mcm_prop_garden_fence_6m_034" position="-2850 2355 20" rotation="0 0 0.707107 -0.707107" unit_id="400184"/>
-		</table>
-		<table>
-			<unit_data _prev_pos="-2850 1355 20" _prev_rot="0 0 0.707107 -0.707107" continent="house" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mcmansion/props/mcm_prop_garden_fence_gate_set/mcm_prop_garden_fence_2m" name_id="mcm_prop_garden_fence_6m_035" position="-2850 2155 20" rotation="0 0 0.707107 -0.707107" unit_id="400185"/>
 		</table>
 		<table>
 			<unit_data _prev_pos="-2850 3555 20" _prev_rot="0 0 0.707107 -0.707107" continent="house" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mcmansion/props/mcm_prop_garden_fence_gate_set/mcm_prop_garden_fence_6m" name_id="mcm_prop_garden_fence_6m_033" position="-2850 3555 20" rotation="0 0 0.707107 -0.707107" unit_id="400187"/>
 		</table>
 		<table>
 			<unit_data _prev_pos="-2381.42 3944.51 48.4362" _prev_rot="-0.0204993 -0.00746113 0.939469 -0.341939" continent="house" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mcmansion/props/mcm_prop_garden_fence_gate_set/mcm_prop_garden_fence_6m" name_id="mcm_prop_garden_fence_6m_035" position="-2381.42 3944.51 48.4362" rotation="-0.0204993 -0.00746113 0.939469 -0.341939" unit_id="400218"/>
-		</table>
-		<table>
-			<unit_data _prev_pos="-1779.49 3941.82 83.843" _prev_rot="-0.0305385 -1.33488e-009 0.999534 -4.3691e-008" continent="house" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mcmansion/props/mcm_prop_garden_fence_gate_set/mcm_prop_garden_fence_6m" name_id="mcm_prop_garden_fence_6m_036" position="-1779.49 3941.82 83.843" rotation="-0.0305385 -1.33488e-009 0.999534 -4.3691e-008" unit_id="400219"/>
 		</table>
 		<table>
 			<unit_data _prev_pos="-418.389 3941 85" _prev_rot="0 0 1 -4.37114e-008" continent="house" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mcmansion/props/mcm_prop_garden_fence_gate_set/mcm_prop_garden_fence_6m" name_id="mcm_prop_garden_fence_6m_038" position="-418.389 3941 85" rotation="0 0 1 -4.37114e-008" unit_id="400189"/>
@@ -3878,18 +3779,6 @@
 		</table>
 		<table>
 			<unit_data _prev_pos="181.611 3941 85" _prev_rot="0 0 1 -4.37114e-008" continent="house" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mcmansion/props/mcm_prop_garden_fence_gate_set/mcm_prop_garden_fence_6m" name_id="mcm_prop_garden_fence_6m_040" position="781.611 3941 85" rotation="0 0 1 -4.37114e-008" unit_id="400192"/>
-		</table>
-		<table>
-			<unit_data _prev_pos="781.611 3941 85" _prev_rot="0 0 1 -4.37114e-008" continent="house" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mcmansion/props/mcm_prop_garden_fence_gate_set/mcm_prop_garden_fence_6m" name_id="mcm_prop_garden_fence_6m_041" position="1381.61 3941 85" rotation="0 0 1 -4.37114e-008" unit_id="400193"/>
-		</table>
-		<table>
-			<unit_data _prev_pos="1381.61 3941 85" _prev_rot="0 0 1 -4.37114e-008" continent="house" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mcmansion/props/mcm_prop_garden_fence_gate_set/mcm_prop_garden_fence_6m" name_id="mcm_prop_garden_fence_6m_042" position="1981.61 3941 85" rotation="0 0 1 -4.37114e-008" unit_id="400194"/>
-		</table>
-		<table>
-			<unit_data _prev_pos="1981.61 3941 85" _prev_rot="0 0 1 -4.37114e-008" continent="house" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mcmansion/props/mcm_prop_garden_fence_gate_set/mcm_prop_garden_fence_6m" name_id="mcm_prop_garden_fence_6m_043" position="2581.61 3941 85" rotation="0 0 1 -4.37114e-008" unit_id="400195"/>
-		</table>
-		<table>
-			<unit_data _prev_pos="2581.61 3941 85" _prev_rot="0 0 1 -4.37114e-008" continent="house" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mcmansion/props/mcm_prop_garden_fence_gate_set/mcm_prop_garden_fence_6m" name_id="mcm_prop_garden_fence_6m_045" position="3181.61 3941 85" rotation="0 0 1 -4.37114e-008" unit_id="400197"/>
 		</table>
 		<table>
 			<unit_data _prev_pos="-14382.4 -9468.03 -2160" _prev_rot="0 0 -0.760406 -0.649448" continent="house" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="-222.651 -21.1731 0" local_rot="0 0 0.66262 -0.748956" mesh_variation="" name="units/pd2_dlc_mad/props/mad_prop_wood_crate/mad_wood_crate_110" name_id="mad_wood_crate_110_009" position="-14372.4 -9467.68 -2160" rotation="0 0 -0.760406 -0.649448" unit_id="400996"/>
@@ -4061,7 +3950,7 @@
 			<unit_data _prev_pos="2945 2065 146.879" _prev_rot="0 0 -0.707107 -0.707107" continent="house" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/pd2_dlc_friend/props/sfm_prop_ext_lamp_wall_large/sfm_prop_ext_lamp_wall_large" name_id="sfm_prop_ext_lamp_wall_large_006" position="2945 2065 146.879" rotation="0 0 -0.707107 -0.707107" unit_id="400997"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="3078.98 2063.5 162.839" _prev_rot="0 0 1 -0" continent="house" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="-1.50293 -133.985 15.96" local_rot="0 0 -0.707107 -0.707107" name="units/lights/light_omni_shadow_projection_01/light_omni_shadow_projection_01" name_id="light_omni_shadow_projection_01_089" only_visible_in_editor="true" position="3078.98 2063.5 162.839" projection_light="lo_omni" rotation="0 0 -1 0" unit_id="401206">
+			<unit_data _prev_pos="3078.98 2063.5 162.839" _prev_rot="0 0 1 -0" continent="house" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="-1.5 -133.98 15.96" local_rot="0 0 -0.707107 -0.707107" name="units/lights/light_omni_shadow_projection_01/light_omni_shadow_projection_01" name_id="light_omni_shadow_projection_01_089" only_visible_in_editor="true" position="3078.98 2063.5 162.839" projection_light="lo_omni" rotation="0 0 1 -0" unit_id="401206">
 				<lights>
 					<table clipping_values="10000 -10000 0" color="0.901961 0.72549 0.411765" enabled="true" falloff_exponent="1" far_range="500" multiplier="@IDccbbe27c7fdc0fd9@" name="lo_omni" near_range="80" spot_angle_end="1" spot_angle_start="1"/>
 				</lights>
@@ -4099,12 +3988,6 @@
 			<unit_data _prev_pos="3173.36 1015.2 17.0005" _prev_rot="0 0 0.707107 -0.707107" continent="house" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="539 0 0" local_rot="0 0 0 1" name="units/world/props/street/streetplanters_flowers_1" name_id="streetplanters_flowers_1_076" position="3173.36 2615.2 17.0005" rotation="0 0 0.707107 -0.707107" unit_id="401208"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="3015 2810 120" _prev_rot="0 0 -0.707107 -0.707107" continent="house" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mcmansion/props/mcm_prop_terrece_table_and_chairs/mcm_prop_terrace_couch_3seater" name_id="mcm_prop_terrace_couch_3seater_004" position="3015 2790 120" rotation="0 0 -0.707107 -0.707107" unit_id="401210"/>
-		</table>
-		<table>
-			<unit_data _prev_pos="3015 2790 120" _prev_rot="0 0 -0.707107 -0.707107" continent="house" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mcmansion/props/mcm_prop_terrece_table_and_chairs/mcm_prop_terrace_couch_3seater" name_id="mcm_prop_terrace_couch_3seater_005" position="3015 1190 120" rotation="0 0 -0.707107 -0.707107" unit_id="400206"/>
-		</table>
-		<table>
 			<unit_data _prev_pos="-1774.61 3451.4 22.0007" _prev_rot="0 0 -0.707107 -0.707107" continent="house" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/props/street/streetplanters_flowers_1" name_id="streetplanters_flowers_1_053" position="-1774.61 3401.4 22.0007" rotation="0 0 -0.707107 -0.707107" unit_id="400208"/>
 		</table>
 		<table>
@@ -4112,6 +3995,439 @@
 		</table>
 		<table>
 			<unit_data _prev_pos="-1774.61 3352.4 22.0007" _prev_rot="0 0 -0.707107 -0.707107" continent="house" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="-99 0 0" local_rot="0 0 0 1" name="units/world/props/street/streetplanters_flowers_1" name_id="streetplanters_flowers_1_055" position="-1774.61 3302.4 22.0007" rotation="0 0 -0.707107 -0.707107" unit_id="400941"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="2090.11 3665.59 119.997" _prev_rot="0 0 8.9407e-008 -1" continent="house" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_friend/architecture/ext/sfm_ext_hedges_6m" name_id="sfm_ext_hedges_6m_034" position="2090.11 3665.59 111.997" rotation="0 0 8.9407e-008 -1" unit_id="400194"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="1760.11 3665.59 119.997" _prev_rot="0 0 0 -1" continent="house" disable_collision="false" disable_on_ai_graph="true" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="-330 -5.90086e-005 0" local_rot="0 0 8.9407e-008 1" name="units/payday2/architecture/lux/lux_ext_bollard_a" name_id="lux_ext_bollard_a_036" position="1760.11 3665.59 111.997" rotation="0 0 0 -1" unit_id="400195"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="2460.11 3665.59 119.997" _prev_rot="0 0 8.9407e-008 -1" continent="house" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="370 6.61612e-005 0" local_rot="0 0 0 1" name="units/payday2/architecture/lux/lux_ext_bollard_a" name_id="lux_ext_bollard_a_049" position="2460.11 3665.59 111.997" rotation="0 0 8.9407e-008 -1" unit_id="400197"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="1251.11 4205.56 41.9739" _prev_rot="0 0 8.9407e-008 -1" continent="house" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_casino/vegetation/sfm_veg_tree_canarypalm/sfm_veg_tree_canarypalm_medium" name_id="sfm_veg_tree_canarypalm_medium_007" position="1251.11 4205.56 41.9739" rotation="0 0 8.9407e-008 -1" unit_id="400929"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="1201.59 4491.48 30.237" _prev_rot="0 0 0 -1" continent="house" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="-255 0 0" local_rot="0 0 0 1" name="units/pd2_mcmansion/props/mcm_prop_garden_bush_green/mcm_prop_garden_bush_green_b_var2" name_id="mcm_prop_garden_bush_green_b_var2_039" position="1201.59 4491.48 30.237" rotation="0 0 0 -1" unit_id="400936"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="1456.59 4491.48 30.237" _prev_rot="0 0 0 -1" continent="house" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="-981 0 0" local_rot="0 0 0 1" name="units/pd2_mcmansion/props/mcm_prop_garden_bush_green/mcm_prop_garden_bush_green_b_var2" name_id="mcm_prop_garden_bush_green_b_var2_040" position="1456.59 4491.48 30.237" rotation="0 0 0 -1" unit_id="400937"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="1961.59 4491.48 30.237" _prev_rot="0 0 0 -1" continent="house" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="-476 0 0" local_rot="0 0 0 1" name="units/pd2_mcmansion/props/mcm_prop_garden_bush_green/mcm_prop_garden_bush_green_b_var2" name_id="mcm_prop_garden_bush_green_b_var2_041" position="1961.59 4491.48 30.237" rotation="0 0 0 -1" unit_id="400938"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="1706.59 4491.48 30.237" _prev_rot="0 0 0 -1" continent="house" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="-731 0 0" local_rot="0 0 0 1" name="units/pd2_mcmansion/props/mcm_prop_garden_bush_green/mcm_prop_garden_bush_green_b_var2" name_id="mcm_prop_garden_bush_green_b_var2_042" position="1706.59 4491.48 30.237" rotation="0 0 0 -1" unit_id="400939"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="2437.59 4491.48 30.237" _prev_rot="0 0 0 -1" continent="house" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mcmansion/props/mcm_prop_garden_bush_green/mcm_prop_garden_bush_green_b_var2" name_id="mcm_prop_garden_bush_green_b_var2_043" position="2437.59 4491.48 30.237" rotation="0 0 0 -1" unit_id="400940"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="2182.59 4491.48 30.237" _prev_rot="0 0 0 -1" continent="house" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="-255 0 0" local_rot="0 0 0 1" name="units/pd2_mcmansion/props/mcm_prop_garden_bush_green/mcm_prop_garden_bush_green_b_var2" name_id="mcm_prop_garden_bush_green_b_var2_044" position="2182.59 4491.48 30.237" rotation="0 0 0 -1" unit_id="400942"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="2121.91 4092.27 14.967" _prev_rot="0 0 0.829037 -0.559193" continent="house" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/nature/pnau/pnau_boulders/pna_ext_landscape_boulder_a" name_id="pna_ext_landscape_boulder_a_008" position="2121.91 4092.27 12.967" rotation="0 0 0.829037 -0.559193" unit_id="400943"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="2736.69 4318.78 30.0728" _prev_rot="0 0 8.9407e-008 -1" continent="house" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_friend/props/sfm_veg_forest_wall/sfm_veg_forest_bush_01" name_id="sfm_veg_forest_bush_01_012" position="2736.69 4318.78 30.0728" rotation="0 0 8.9407e-008 -1" unit_id="400944"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="1560.99 4194.63 43.321" _prev_rot="-0 0 -0.358368 -0.93358" continent="house" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_friend/props/sfm_veg_forest_wall/sfm_veg_forest_bush_01" name_id="sfm_veg_forest_bush_01_013" position="1560.99 4194.63 43.321" rotation="-0 0 -0.358368 -0.93358" unit_id="400945"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="979.413 4363.21 26.7443" _prev_rot="0 0 -0.358368 -0.93358" continent="house" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_friend/props/sfm_veg_forest_wall/sfm_veg_forest_bush_01" name_id="sfm_veg_forest_bush_01_014" position="979.413 4363.21 26.7443" rotation="0 0 -0.358368 -0.93358" unit_id="400946"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="1624.28 3832.93 99.4388" _prev_rot="0 0 -0.358368 -0.93358" continent="house" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_friend/props/sfm_veg_forest_wall/sfm_veg_forest_bush_01" name_id="sfm_veg_forest_bush_01_015" position="1624.28 3832.93 99.4388" rotation="0 0 -0.358368 -0.93358" unit_id="400947"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="886.46 3946.86 83.8714" _prev_rot="0 0 8.9407e-008 -1" continent="house" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_friend/props/sfm_veg_forest_wall/sfm_veg_forest_bush_04" name_id="sfm_veg_forest_bush_04_011" position="886.46 3996.86 83.8714" rotation="0 0 8.9407e-008 -1" unit_id="400998"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="2271.8 3880.26 93.6051" _prev_rot="0 0 8.9407e-008 -1" continent="house" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_friend/props/sfm_veg_forest_wall/sfm_veg_forest_bush_04" name_id="sfm_veg_forest_bush_04_012" position="2271.8 3880.26 93.6051" rotation="0 0 8.9407e-008 -1" unit_id="401199"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="1270.43 3643.68 16.609" _prev_rot="0 0 0 -1" continent="house" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="330 0 0" local_rot="0 0 0 1" name="units/world/props/street/streetplanters_flowers_1" name_id="streetplanters_flowers_1_061" position="1270.43 3643.68 16.609" rotation="0 0 0 -1" unit_id="401211"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="1165.43 3643.68 16.609" _prev_rot="0 0 0 -1" continent="house" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="225 0 0" local_rot="0 0 0 1" name="units/world/props/street/streetplanters_flowers_1" name_id="streetplanters_flowers_1_062" position="1165.43 3643.68 16.609" rotation="0 0 0 -1" unit_id="401212"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="940.425 3643.68 16.609" _prev_rot="0 0 0 -1" continent="house" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/props/street/streetplanters_flowers_1" name_id="streetplanters_flowers_1_063" position="940.425 3643.68 16.609" rotation="0 0 0 -1" unit_id="401213"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="1045.43 3643.68 16.609" _prev_rot="0 0 0 -1" continent="house" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="105 0 0" local_rot="0 0 0 1" name="units/world/props/street/streetplanters_flowers_1" name_id="streetplanters_flowers_1_064" position="1045.43 3643.68 16.609" rotation="0 0 0 -1" unit_id="401214"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="940.425 3643.68 16.609" _prev_rot="0 0 0 -1" continent="house" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/props/street/streetplanters_flowers_1" name_id="streetplanters_flowers_1_065" position="500.425 3643.68 16.609" rotation="0 0 0 -1" unit_id="401215"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="1045.43 3643.68 16.609" _prev_rot="0 0 0 -1" continent="house" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="105 0 0" local_rot="0 0 0 1" name="units/world/props/street/streetplanters_flowers_1" name_id="streetplanters_flowers_1_074" position="605.425 3643.68 16.609" rotation="0 0 0 -1" unit_id="401216"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="1165.43 3643.68 16.609" _prev_rot="0 0 0 -1" continent="house" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="225 0 0" local_rot="0 0 0 1" name="units/world/props/street/streetplanters_flowers_1" name_id="streetplanters_flowers_1_155" position="725.425 3643.68 16.609" rotation="0 0 0 -1" unit_id="401217"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="830.425 3643.68 16.609" _prev_rot="0 0 1 -4.37114e-008" continent="house" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/props/street/streetplanters_flowers_1" name_id="streetplanters_flowers_1_156" position="830.425 3635.68 16.609" rotation="0 0 1 -4.37114e-008" unit_id="401218"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="500.425 3643.68 16.609" _prev_rot="0 0 0 -1" continent="house" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/props/street/streetplanters_flowers_1" name_id="streetplanters_flowers_1_157" position="56.425 3643.68 16.609" rotation="0 0 0 -1" unit_id="401219"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="161.425 3643.68 16.609" _prev_rot="0 0 1 -4.37114e-008" continent="house" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/props/street/streetplanters_flowers_1" name_id="streetplanters_flowers_1_158" position="161.425 3633.68 16.609" rotation="0 0 1 -4.37114e-008" unit_id="401220"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="725.425 3643.68 16.609" _prev_rot="0 0 0 -1" continent="house" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="225 0 0" local_rot="0 0 0 1" name="units/world/props/street/streetplanters_flowers_1" name_id="streetplanters_flowers_1_159" position="281.425 3643.68 16.609" rotation="0 0 0 -1" unit_id="401221"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="830.425 3643.68 16.609" _prev_rot="0 0 0 -1" continent="house" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="330 0 0" local_rot="0 0 0 1" name="units/world/props/street/streetplanters_flowers_1" name_id="streetplanters_flowers_1_160" position="386.425 3643.68 16.609" rotation="0 0 0 -1" unit_id="401222"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="56.425 3643.68 16.609" _prev_rot="0 0 0 -1" continent="house" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/props/street/streetplanters_flowers_1" name_id="streetplanters_flowers_1_161" position="-413.575 3643.68 16.609" rotation="0 0 0 -1" unit_id="401223"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="161.425 3643.68 16.609" _prev_rot="0 0 0 -1" continent="house" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="105 0 0" local_rot="0 0 0 1" name="units/world/props/street/streetplanters_flowers_1" name_id="streetplanters_flowers_1_162" position="-308.575 3643.68 16.609" rotation="0 0 0 -1" unit_id="401224"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="281.425 3643.68 16.609" _prev_rot="0 0 0 -1" continent="house" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="225 0 0" local_rot="0 0 0 1" name="units/world/props/street/streetplanters_flowers_1" name_id="streetplanters_flowers_1_163" position="-188.575 3643.68 16.609" rotation="0 0 0 -1" unit_id="401225"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="386.425 3643.68 16.609" _prev_rot="0 0 0 -1" continent="house" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="330 0 0" local_rot="0 0 0 1" name="units/world/props/street/streetplanters_flowers_1" name_id="streetplanters_flowers_1_164" position="-83.575 3643.68 16.609" rotation="0 0 0 -1" unit_id="401226"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-413.575 3643.68 16.609" _prev_rot="0 0 0 -1" continent="house" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/props/street/streetplanters_flowers_1" name_id="streetplanters_flowers_1_165" position="-863.575 3643.68 16.609" rotation="0 0 0 -1" unit_id="401227"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-758.575 3643.68 16.609" _prev_rot="0 0 1 -4.37114e-008" continent="house" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/props/street/streetplanters_flowers_1" name_id="streetplanters_flowers_1_166" position="-758.575 3637.68 16.609" rotation="0 0 1 -4.37114e-008" unit_id="401228"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-188.575 3643.68 16.609" _prev_rot="0 0 0 -1" continent="house" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="225 0 0" local_rot="0 0 0 1" name="units/world/props/street/streetplanters_flowers_1" name_id="streetplanters_flowers_1_167" position="-638.575 3643.68 16.609" rotation="0 0 0 -1" unit_id="401229"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-83.575 3643.68 16.609" _prev_rot="0 0 0 -1" continent="house" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="330 0 0" local_rot="0 0 0 1" name="units/world/props/street/streetplanters_flowers_1" name_id="streetplanters_flowers_1_168" position="-533.575 3643.68 16.609" rotation="0 0 0 -1" unit_id="401230"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="639.941 3796.22 103.554" _prev_rot="0 0 0.898794 0.438371" continent="house" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/vegetation/jungle/thinbranchtree_02" name_id="thinbranchtree_02_007" position="639.941 3796.22 103.554" rotation="0 0 0.898794 0.438371" unit_id="401231"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-1691.46 3941 84.242" _prev_rot="-0.0218149 9.53559e-010 0.999762 4.3701e-008" continent="house" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="-444.97 -3.88458e-005 -3.49085" local_rot="1.76525e-014 -0.00872654 -8.17128e-013 0.999962" name="units/pd2_mcmansion/props/mcm_prop_garden_fence_gate_set/mcm_prop_garden_fence_2m" name_id="mcm_prop_garden_fence_6m_038" position="-1681.48 3941 84.8525" rotation="-0.0218149 9.53559e-010 0.999762 4.3701e-008" unit_id="401234"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-2125.83 3941 61.1721" _prev_rot="-0.0305385 1.33488e-009 0.999534 4.36902e-008" continent="house" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mcmansion/props/mcm_prop_garden_fence_gate_set/mcm_prop_garden_fence_25m" name_id="mcm_prop_garden_fence_6m_040" position="-2125.83 3941 61.1721" rotation="-0.0305385 1.33488e-009 0.999534 4.36902e-008" unit_id="400219"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-1886.28 3941 75.823" _prev_rot="-0.0305385 1.33488e-009 0.999534 4.3691e-008" continent="house" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="-250 -2.18145e-005 -0.000725746" local_rot="2.5091e-014 0 -8.20677e-013 1" name="units/pd2_mcmansion/props/mcm_prop_garden_fence_gate_set/mcm_prop_garden_fence_25m" name_id="mcm_prop_garden_fence_6m_039" position="-1876.3 3941 76.4335" rotation="-0.0305385 1.33488e-009 0.999534 4.3691e-008" unit_id="400191"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-1934.81 4369.17 -28.7594" _prev_rot="0 0 -0.469472 -0.882948" continent="house" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/nature/pnau/pnau_boulders/pna_ext_landscape_boulder_c" name_id="pna_ext_landscape_boulder_c_009" position="-1962.77 4327.72 -28.7594" rotation="0 0 -0.469472 -0.882948" unit_id="401233"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="2078.73 3886.78 92.801" _prev_rot="0 0 0.942641 -0.333807" continent="house" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_friend/props/sfm_veg_forest_wall/sfm_veg_forest_bush_02" name_id="sfm_veg_forest_bush_02_008" position="2078.73 3886.78 92.801" rotation="0 0 0.942641 -0.333807" unit_id="401235"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="300.001 234.998 119.997" _prev_rot="0 0 0 -1" continent="house" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_hwu/architecture/smuggler_house/ext_smuggler_house_ground" name_id="ext_smuggler_house_ground_002" position="300.001 234.998 119.997" rotation="0 0 0 -1" unit_id="401236"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="2796.97 3873.85 94.395" _prev_rot="0 0 0.824126 -0.566406" continent="house" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_friend/props/sfm_veg_forest_wall/sfm_veg_forest_bush_02" name_id="sfm_veg_forest_bush_02_009" position="2815.64 3866.69 94.395" rotation="0 0 0.824126 -0.566406" unit_id="401237"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="1724.48 2843.89 119.997" _prev_rot="0 0 8.9407e-008 -1" continent="house" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_friend/props/sfm_veg_forest_wall/sfm_veg_forest_bush_04" name_id="sfm_veg_forest_bush_04_013" position="1724.48 2843.89 119.997" rotation="0 0 8.9407e-008 -1" unit_id="401238"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="1874.13 2826.44 119.997" _prev_rot="0 0 0.942641 -0.333807" continent="house" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_friend/props/sfm_veg_forest_wall/sfm_veg_forest_bush_02" name_id="sfm_veg_forest_bush_02_010" position="1874.13 2826.44 119.997" rotation="0 0 0.942641 -0.333807" unit_id="401239"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="1802.14 2753.47 119.997" _prev_rot="0 0 -0.358368 -0.93358" continent="house" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_friend/props/sfm_veg_forest_wall/sfm_veg_forest_bush_01" name_id="sfm_veg_forest_bush_01_016" position="1802.14 2753.47 119.997" rotation="0 0 -0.358368 -0.93358" unit_id="401240"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-351.53 -248.543 119.997" _prev_rot="0 0 8.9407e-008 -1" continent="house" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mcmansion/props/mcm_prop_garden_bush_green/mcm_prop_garden_bush_green_b_var2" name_id="mcm_prop_garden_bush_green_b_var2_016" position="-351.53 -248.543 119.997" rotation="0 0 8.9407e-008 -1" unit_id="400957"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-351.53 -248.543 119.997" _prev_rot="0 0 8.9407e-008 -1" continent="house" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mcmansion/props/mcm_prop_garden_bush_green/mcm_prop_garden_bush_green_b_var2" name_id="mcm_prop_garden_bush_green_b_var2_018" position="-651.53 -248.543 119.997" rotation="0 0 8.9407e-008 -1" unit_id="400963"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-651.53 -248.543 119.997" _prev_rot="0 0 8.9407e-008 -1" continent="house" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mcmansion/props/mcm_prop_garden_bush_green/mcm_prop_garden_bush_green_b_var2" name_id="mcm_prop_garden_bush_green_b_var2_045" position="-936.53 -248.542 119.997" rotation="0 0 8.9407e-008 -1" unit_id="401241"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-2850 2355 20" _prev_rot="0 0 0.707107 -0.707107" continent="house" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="interact_disable" name="units/pd2_mcmansion/props/mcm_prop_garden_fence_gate_set/mcm_prop_garden_fence_gate_small" name_id="mcm_prop_garden_fence_6m_034" position="-2850 2355 20" rotation="0 0 0.707107 -0.707107" unit_id="400184"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-2835 1931 20" _prev_rot="0 0 -0.707107 -0.707107" continent="house" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mcmansion/props/mcm_prop_garden_fence_gate_set/mcm_prop_garden_fence_25m" name_id="mcm_prop_garden_fence_6m_035" position="-2835 1931 20" rotation="0 0 -0.707107 -0.707107" unit_id="400185"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-1456.38 2099.89 24.9972" _prev_rot="0 0 -0.707107 -0.707107" continent="house" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/props/street/streetplanters_flowers_1" name_id="streetplanters_flowers_1_041" position="-1456.38 2064.89 24.9972" rotation="0 0 -0.707107 -0.707107" unit_id="401242"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-1456.38 1962.89 24.9972" _prev_rot="0 0 -0.707107 -0.707107" continent="house" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="-137 0 0" local_rot="0 0 0 1" name="units/world/props/street/streetplanters_flowers_1" name_id="streetplanters_flowers_1_047" position="-1456.38 1927.89 24.9972" rotation="0 0 -0.707107 -0.707107" unit_id="401243"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-1456.38 1704.89 24.9972" _prev_rot="0 0 -0.707107 -0.707107" continent="house" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="-395 0 0" local_rot="0 0 0 1" name="units/world/props/street/streetplanters_flowers_1" name_id="streetplanters_flowers_1_048" position="-1456.38 1669.89 24.9972" rotation="0 0 -0.707107 -0.707107" unit_id="401244"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-1456.38 1841.89 24.9972" _prev_rot="0 0 -0.707107 -0.707107" continent="house" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="-258 0 0" local_rot="0 0 0 1" name="units/world/props/street/streetplanters_flowers_1" name_id="streetplanters_flowers_1_049" position="-1456.38 1806.89 24.9972" rotation="0 0 -0.707107 -0.707107" unit_id="401245"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-1456.38 2064.89 24.9972" _prev_rot="0 0 -0.707107 -0.707107" continent="house" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/props/street/streetplanters_flowers_1" name_id="streetplanters_flowers_1_050" position="-1456.38 2894.89 24.9972" rotation="0 0 -0.707107 -0.707107" unit_id="401246"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-1456.38 1927.89 24.9972" _prev_rot="0 0 -0.707107 -0.707107" continent="house" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="-137 0 0" local_rot="0 0 0 1" name="units/world/props/street/streetplanters_flowers_1" name_id="streetplanters_flowers_1_051" position="-1456.38 2757.89 24.9972" rotation="0 0 -0.707107 -0.707107" unit_id="401247"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-1456.38 1669.89 24.9972" _prev_rot="0 0 -0.707107 -0.707107" continent="house" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="-395 0 0" local_rot="0 0 0 1" name="units/world/props/street/streetplanters_flowers_1" name_id="streetplanters_flowers_1_052" position="-1456.38 2499.89 24.9972" rotation="0 0 -0.707107 -0.707107" unit_id="401248"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-1456.38 1806.89 24.9972" _prev_rot="0 0 -0.707107 -0.707107" continent="house" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="-258 0 0" local_rot="0 0 0 1" name="units/world/props/street/streetplanters_flowers_1" name_id="streetplanters_flowers_1_169" position="-1456.38 2636.89 24.9972" rotation="0 0 -0.707107 -0.707107" unit_id="401249"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-2780.95 679.018 89.9969" _prev_rot="-0.5 0.500001 0.5 0.5" continent="house" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mcmansion/props/mcm_prop_garden_bush_green/mcm_prop_garden_bush_green_b_var2" name_id="mcm_prop_garden_bush_green_b_var2_046" position="-2780.95 664.018 89.997" rotation="-0.5 0.500001 0.5 0.5" unit_id="401250"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-2780.95 664.018 89.997" _prev_rot="-0.5 0.500001 0.5 0.5" continent="house" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mcmansion/props/mcm_prop_garden_bush_green/mcm_prop_garden_bush_green_b_var2" name_id="mcm_prop_garden_bush_green_b_var2_047" position="-2780.95 664.018 89.997" rotation="0.5 0.5 -0.5 0.5" unit_id="401251"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-1780.99 417.409 114.997" _prev_rot="0 0 0.707107 -0.707107" continent="house" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_friend/architecture/ext/sfm_ext_hedges_6m" name_id="sfm_ext_hedges_6m_035" position="-1780.99 417.409 114.997" rotation="0 0 0.707107 -0.707107" unit_id="401252"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-159.608 -625.604 22.0007" _prev_rot="0 0 0 -1" continent="house" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/props/street/streetplanters_flowers_1" name_id="streetplanters_flowers_1_035" position="-159.608 -625.604 22.0007" rotation="0 0 0 -1" unit_id="400923"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-724.608 -625.604 22.0007" _prev_rot="0 0 0 -1" continent="house" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="130 0 0" local_rot="0 0 0 1" name="units/world/props/street/streetplanters_flowers_1" name_id="streetplanters_flowers_1_036" position="-29.6079 -625.604 22.0007" rotation="0 0 0 -1" unit_id="400924"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-587.608 -625.604 22.0007" _prev_rot="0 0 0 -1" continent="house" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="267 0 0" local_rot="0 0 0 1" name="units/world/props/street/streetplanters_flowers_1" name_id="streetplanters_flowers_1_037" position="107.392 -625.604 22.0007" rotation="0 0 0 -1" unit_id="400925"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-1024.61 -625.604 22.0007" _prev_rot="0 0 0 -1" continent="house" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="-170.002 0 0" local_rot="0 0 0 1" name="units/world/props/street/streetplanters_flowers_1" name_id="streetplanters_flowers_1_038" position="-329.61 -625.604 22.0007" rotation="0 0 0 -1" unit_id="400926"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-159.608 -625.604 22.0007" _prev_rot="0 0 0 -1" continent="house" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/props/street/streetplanters_flowers_1" name_id="streetplanters_flowers_1_039" position="-457.608 -625.604 22.0007" rotation="0 0 0 -1" unit_id="400927"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-1183.35 1417.58 119.997" _prev_rot="0 0 0 -1" continent="house" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/vegetation/mansion/man_veg_rosetrellis/suburbia_plant_wall_instanced" name_id="suburbia_plant_wall_instanced_009" position="-1183.35 1417.58 119.997" rotation="0 0 0 -1" unit_id="400956"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-472.5 564 120" _prev_rot="0 0 -0.707107 -0.707107" continent="house" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/payday2/equipment/gen_interactable_door_glass_metal/gen_interactable_door_glass_metal" name_id="gen_interactable_door_glass_metal_002" position="-472.5 614 120" rotation="0 0 -0.707107 -0.707107" unit_id="401254"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-1407.68 3182.56 119.997" _prev_rot="0 0 0 -1" continent="house" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mcmansion/props/mcm_prop_garden_bush_flower/mcm_prop_garden_bush_flower" name_id="mcm_prop_garden_bush_flower_015" position="-1407.68 3182.56 104.997" rotation="0 0 0 -1" unit_id="401253"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-1277.55 596.934 119.997" _prev_rot="-0.0208798 0.0573669 -0.341382 -0.93794" continent="house" disable_collision="false" disable_on_ai_graph="true" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/vehicles/str_vehicle_motorcycle_chopper/str_vehicle_motorcycle_chopper" name_id="str_vehicle_motorcycle_chopper_002" position="-1277.55 596.934 119.997" rotation="-0.0208798 0.0573669 -0.341382 -0.93794" unit_id="401255"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-1300.05 540.32 119.998" _prev_rot="4.09782e-008 -5.21541e-008 0.891006 0.453991" continent="house" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="-53.2339 -28.9005 6.53676" local_rot="-0.041635 -0.0446481 -0.680726 -0.72999" name="units/payday2/props/com_prop_store_bags/com_prop_store_bags_gymbag" name_id="com_prop_store_bags_gymbag_002" position="-1300.05 540.32 119.998" rotation="4.09782e-008 -5.21541e-008 0.891006 0.453991" unit_id="400978"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-1373.55 1132.08 112.997" _prev_rot="0 0 -0.843391 -0.5373" continent="house" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_fish/lxy_prop_pallet_wine_01/lxy_prop_pallet_spirits_01_mid" name_id="lxy_prop_pallet_spirits_01_005" position="-1373.55 1132.08 111.997" rotation="0 0 -0.843391 -0.5373" unit_id="401256"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="2983.76 2879.18 119.997" _prev_rot="-0 0 -0 -1" continent="house" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/props/mansion/man_cov_ext_bench/man_cov_ext_bench" name_id="man_cov_ext_bench_002" position="2983.76 2879.18 119.997" rotation="-0 0 -0 -1" unit_id="400979"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="2983.76 1279.18 119.997" _prev_rot="0 0 0 -1" continent="house" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/props/mansion/man_cov_ext_bench/man_cov_ext_bench" name_id="man_cov_ext_bench_001" position="2983.76 1279.18 119.997" rotation="0 0 -0 -1" unit_id="400988"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="2908.43 2876.04 24.997" _prev_rot="0 0 -0.707107 -0.707107" continent="house" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/props/street/streetplanters_flowers_1" name_id="streetplanters_flowers_1_170" position="2908.43 2876.04 14.997" rotation="0 0 -0.707107 -0.707107" unit_id="400206"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="2908.43 1281.04 24.997" _prev_rot="0 0 -0.707107 -0.707107" continent="house" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="-1595 0 0" local_rot="0 0 0 1" name="units/world/props/street/streetplanters_flowers_1" name_id="streetplanters_flowers_1_171" position="2908.43 1281.04 14.997" rotation="0 0 -0.707107 -0.707107" unit_id="400989"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-1222.67 1083.32 119.997" _prev_rot="0 0 0.173648 -0.984808" _visibility_counter="0" continent="house" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_run/props/run_prop_cover_shipping_crate/run_prop_cover_shipping_crate_wide_01" name_id="man_cover_int_shipping_crate_wide_044" position="-1222.67 1083.32 119.997" rotation="0 0 0.173648 -0.984808" unit_id="400986"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-1240.99 1203.35 119.997" _prev_rot="0 0 0 -1" _visibility_counter="0" continent="house" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_run/props/run_prop_cover_shipping_crate/run_prop_cover_shipping_crate_wide_01" name_id="man_cover_int_shipping_crate_wide_045" position="-1240.99 1203.35 119.997" rotation="0 0 1 -4.37114e-008" unit_id="400987"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-2041.07 1524.97 29.5309" _prev_rot="0.0493253 -0.0493253 0.705384 -0.705384" _visibility_counter="0" continent="house" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_chew/props/chw_prop_wooden_crate/chw_prop_wooden_crate" name_id="man_cover_int_shipping_crate_wide_052" position="-2041.07 1524.97 29.5309" rotation="0.0493255 -0.0493255 0.705384 -0.705384" unit_id="401158"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-1908.18 1494.97 131" _prev_rot="0 0 0 -1" _visibility_counter="0" continent="house" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_run/props/run_prop_cover_shipping_crate/run_prop_cover_shipping_crate_wide_01" name_id="man_cover_int_shipping_crate_wide_051" position="-1908.18 1494.97 131" rotation="0 0 0 -1" unit_id="401157"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="2647.27 -3447.08 19.9971" _prev_rot="2.98023e-008 2.98023e-008 -0.649448 -0.760406" continent="house" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_casino/vegetation/sfm_veg_tree_canarypalm/sfm_veg_tree_canarypalm_medium" name_id="sfm_veg_tree_canarypalm_medium_008" position="2647.27 -3447.08 19.997" rotation="0 -0 0.986286 0.165048" unit_id="400850"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-2399.54 3317.92 42.233" _prev_rot="0 0 -0.358368 -0.93358" continent="house" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_friend/props/sfm_veg_forest_wall/sfm_veg_forest_bush_01" name_id="sfm_veg_forest_bush_01_017" position="-2399.54 3317.92 42.233" rotation="0 0 -0.358368 -0.93358" unit_id="400851"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-2218.23 3033.13 243.403" _prev_rot="0 0 -0.147809 -0.989016" continent="house" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_friend/props/sfm_veg_forest_wall/sfm_veg_forest_bush_02" name_id="sfm_veg_forest_bush_02_011" position="-2218.23 3033.13 23.403" rotation="0 0 -0.147809 -0.989016" unit_id="400852"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-2204.26 2740.87 19.9966" _prev_rot="0 0 8.9407e-008 -1" continent="house" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_friend/props/sfm_veg_forest_wall/sfm_veg_forest_bush_04" name_id="sfm_veg_forest_bush_04_014" position="-2204.26 2740.87 19.997" rotation="0 0 0.979925 0.199368" unit_id="400858"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-2264.62 3547.07 79.6395" _prev_rot="0 0 0.979925 0.199368" continent="house" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_friend/props/sfm_veg_forest_wall/sfm_veg_forest_bush_04" name_id="sfm_veg_forest_bush_04_015" position="-2264.62 3547.07 79.639" rotation="0 0 0.62932 -0.777146" unit_id="400859"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-2755.4 3196.37 19.997" _prev_rot="0 0 -0.707107 -0.707107" continent="house" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mcmansion/props/mcm_prop_garden_bush_green/mcm_prop_garden_bush_green_b_var2" name_id="mcm_prop_garden_bush_green_b_var2_048" position="-2755.4 3196.37 19.997" rotation="0 0 -0.707107 -0.707107" unit_id="400928"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-2158.38 3849.5 72.2456" _prev_rot="0 0 -0.707107 -0.707107" continent="house" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mcmansion/props/mcm_prop_garden_bush_green/mcm_prop_garden_bush_green_b_var2" name_id="mcm_prop_garden_bush_green_b_var2_049" position="-2158.39 3849.5 72.246" rotation="0 0 0 -1" unit_id="400955"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-2060.94 2060.85 19.9967" _prev_rot="0 0 -0.358368 -0.93358" continent="house" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_friend/props/sfm_veg_forest_wall/sfm_veg_forest_bush_01" name_id="sfm_veg_forest_bush_01_018" position="-2060.94 2060.85 19.9967" rotation="0 0 -0.358368 -0.93358" unit_id="401210"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-1002.5 3691.54 107.893" _prev_rot="0 0 -0.649448 -0.760406" continent="house" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_casino/vegetation/sfm_veg_tree_canarypalm/sfm_veg_tree_canarypalm_medium" name_id="sfm_veg_tree_canarypalm_medium_009" position="-1004.06 3681.66 107.893" rotation="0 0 -0.649448 -0.760406" unit_id="401257"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="2305.08 2878.71 119.997" _prev_rot="0 0 8.9407e-008 -1" continent="house" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_casino/vegetation/sfm_veg_tree_canarypalm/sfm_veg_tree_canarypalm_medium" name_id="sfm_veg_tree_canarypalm_medium_010" position="2305.08 2878.71 114.997" rotation="0 0 8.9407e-008 -1" unit_id="401258"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-1261.35 2881.11 119.997" _prev_rot="8.34686e-008 -3.20406e-008 -0.358368 -0.93358" continent="house" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_friend/props/sfm_veg_forest_wall/sfm_veg_forest_bush_01" name_id="sfm_veg_forest_bush_01_019" position="-1261.35 2881.11 119.997" rotation="8.34686e-008 -3.20406e-008 -0.358368 -0.93358" unit_id="401259"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-1339.01 2971.53 119.997" _prev_rot="8.9407e-008 7.10543e-015 8.9407e-008 -1" continent="house" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_friend/props/sfm_veg_forest_wall/sfm_veg_forest_bush_04" name_id="sfm_veg_forest_bush_04_016" position="-1339.01 2971.53 119.997" rotation="8.9407e-008 7.10543e-015 8.9407e-008 -1" unit_id="401260"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-1250 3032.16 119.997" _prev_rot="0 0 0.930418 0.366501" continent="house" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_friend/props/sfm_veg_forest_wall/sfm_veg_forest_bush_01" name_id="sfm_veg_forest_bush_01_020" position="-1250 3032.16 119.997" rotation="-0 0 0.930418 0.366501" unit_id="401261"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-1421.45 3815.12 101.633" _prev_rot="-0.0223492 0.0570509 0.929355 0.364067" continent="house" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_friend/props/sfm_veg_forest_wall/sfm_veg_forest_bush_01" name_id="sfm_veg_forest_bush_01_021" position="-1421.45 3815.12 101.633" rotation="-0.0223492 0.0570509 0.929355 0.364067" unit_id="401262"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="229.244 3713.88 111.219" _prev_rot="0.0373781 3.33254e-009 8.90948e-008 -0.999301" continent="house" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_friend/props/sfm_veg_forest_wall/sfm_veg_forest_bush_04" name_id="sfm_veg_forest_bush_04_017" position="229.244 3713.88 111.219" rotation="0.00552456 -0.0369657 0.988325 -0.147706" unit_id="401263"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-2765.58 946.704 19.9969" _prev_rot="0 0 8.9407e-008 -1" continent="house" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_friend/props/sfm_veg_forest_wall/sfm_veg_forest_bush_04" name_id="sfm_veg_forest_bush_04_018" position="-2765.58 1046.7 19.9969" rotation="0 0 8.9407e-008 -1" unit_id="401264"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-2032.26 1718.85 -70.0032" _prev_rot="6.32203e-008 -6.32203e-008 -0.707107 -0.707107" continent="house" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="-121 0 8.5175e-005" local_rot="0 0 0 1" name="units/world/props/street/streetplanters_flowers_1" name_id="streetplanters_flowers_1_172" position="-2008.26 1718.85 -70.0032" rotation="6.32203e-008 -6.32203e-008 -0.707107 -0.707107" unit_id="401265"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-2032.26 1839.85 -70.0033" _prev_rot="6.32203e-008 -6.32203e-008 -0.707107 -0.707107" continent="house" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/props/street/streetplanters_flowers_1" name_id="streetplanters_flowers_1_173" position="-2008.26 1839.85 -70.0033" rotation="6.32203e-008 -6.32203e-008 -0.707107 -0.707107" unit_id="401266"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-946.76 1695.18 119.997" _prev_rot="0 0 -0.707107 -0.707107" continent="house" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 0 -189" local_rot="0 0 0 1" name="units/world/vegetation/mansion/man_veg_rosetrellis/suburbia_plant_wall_instanced" name_id="suburbia_plant_wall_instanced_010" position="-946.76 1695.18 64.997" rotation="0 0 -0.707107 -0.707107" unit_id="400714"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-946.76 1695.18 253.997" _prev_rot="0 0 -0.707107 -0.707107" continent="house" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/vegetation/mansion/man_veg_rosetrellis/suburbia_plant_wall_instanced" name_id="suburbia_plant_wall_instanced_011" position="-946.76 1695.18 253.997" rotation="0 0 -0.707107 -0.707107" unit_id="401267"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-988.035 1674.69 119.997" _prev_rot="0 0 -0.707107 -0.707107" continent="house" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mcmansion/props/mcm_prop_garden_bush_green/mcm_prop_garden_bush_green_b_var2" name_id="mcm_prop_garden_bush_green_b_var2_050" position="-988.035 1599.69 119.997" rotation="0 0 -0.707107 -0.707107" unit_id="401268"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-988.035 1599.69 119.997" _prev_rot="0 0 -0.707107 -0.707107" continent="house" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mcmansion/props/mcm_prop_garden_bush_green/mcm_prop_garden_bush_green_b_var2" name_id="mcm_prop_garden_bush_green_b_var2_051" position="-988.035 1864.69 119.997" rotation="0 0 -0.707107 -0.707107" unit_id="401269"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-982.566 228.142 119.997" _prev_rot="0 0 -0.707107 -0.707107" continent="house" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_friend/props/sfm_prop_ext_pot/sfm_prop_ext_pot" name_id="sfm_prop_ext_pot_021" position="-982.566 228.142 119.997" rotation="0 0 -0.707107 -0.707107" unit_id="401270"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-57.5662 228.142 119.997" _prev_rot="0 0 -0.707107 -0.707107" continent="house" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="5.57617 191.272 0.000427246" local_rot="0 0 0.707107 -0.707107" name="units/pd2_dlc_friend/props/sfm_prop_ext_pot/sfm_prop_ext_pot" name_id="sfm_prop_ext_pot_022" position="-57.5662 228.142 119.997" rotation="0 0 -0.707107 -0.707107" unit_id="401271"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-527.566 228.142 119.997" _prev_rot="0 0 -0.707107 -0.707107" continent="house" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_friend/props/sfm_prop_ext_pot/sfm_prop_ext_pot" name_id="sfm_prop_ext_pot_023" position="-527.566 228.142 119.997" rotation="0 0 -0.707107 -0.707107" unit_id="401272"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-1047 948.822 305.881" _prev_rot="0 0 0.707107 -0.707107" continent="house" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/pd2_dlc_friend/props/sfm_prop_ext_lamp_wall_large/sfm_prop_ext_lamp_wall_large" name_id="sfm_prop_ext_lamp_wall_large_007" position="-1047 838.822 305.881" rotation="0 0 0.707107 -0.707107" unit_id="401273"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-1180.98 950.322 321.841" _prev_rot="0 0 0 -1" continent="house" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="-1.5 -133.98 15.96" local_rot="0 0 0.707107 0.707107" name="units/lights/light_omni_shadow_projection_01/light_omni_shadow_projection_01" name_id="light_omni_shadow_projection_01_090" only_visible_in_editor="true" position="-1180.98 840.322 321.841" projection_light="lo_omni" rotation="0 0 0 -1" unit_id="401274">
+				<lights>
+					<table clipping_values="10000 -10000 0" color="0.901961 0.72549 0.411765" enabled="true" falloff_exponent="1" far_range="500" multiplier="@IDccbbe27c7fdc0fd9@" name="lo_omni" near_range="80" spot_angle_end="1" spot_angle_start="1"/>
+				</lights>
+				<projection_lights>
+					<lo_omni x="128" y="128"/>
+					<lo_omni x="128" y="128"/>
+					<lo_omni x="128" y="128"/>
+				</projection_lights>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="-525 590 271.879" _prev_rot="0 0 0 -1" continent="house" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/pd2_dlc_friend/props/sfm_prop_ext_lamp_wall_large/sfm_prop_ext_lamp_wall_large" name_id="sfm_prop_ext_lamp_wall_large_008" position="-525 590 335.879" rotation="0 0 0 -1" unit_id="401275"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-406.503 456.015 287.839" _prev_rot="0 0 -0.707107 -0.707107" continent="house" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="-1.50299 -133.985 15.96" local_rot="0 0 0.707107 0.707107" name="units/lights/light_omni_shadow_projection_01/light_omni_shadow_projection_01" name_id="light_omni_shadow_projection_01_091" only_visible_in_editor="true" position="-526.503 456.015 287.839" projection_light="lo_omni" rotation="0 0 -0.707107 -0.707107" unit_id="401276">
+				<lights>
+					<table clipping_values="10000 -10000 0" color="0.901961 0.72549 0.411765" enabled="true" falloff_exponent="1" far_range="500" multiplier="@IDccbbe27c7fdc0fd9@" name="lo_omni" near_range="80" spot_angle_end="1" spot_angle_start="1"/>
+				</lights>
+				<projection_lights>
+					<lo_omni x="128" y="128"/>
+					<lo_omni x="128" y="128"/>
+				</projection_lights>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="-51.99 419.414 119.997" _prev_rot="0 0 1 -4.37114e-008" continent="house" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/props/mansion/man_cov_ext_bench/man_cov_ext_bench" name_id="man_cov_ext_bench_003" position="-51.99 419.414 119.997" rotation="0 0 1 -4.37114e-008" unit_id="401277"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-992.99 419.414 119.997" _prev_rot="0 0 0 -1" continent="house" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/props/mansion/man_cov_ext_bench/man_cov_ext_bench" name_id="man_cov_ext_bench_004" position="-982.99 419.414 119.997" rotation="0 0 0 -1" unit_id="401278"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-1272.53 990.388 196.382" _prev_rot="0 0 -0.469471 -0.882948" continent="house" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/props/tools/tools_saw" name_id="tools_saw_003" position="-1275.33 986.243 196.382" rotation="0 0 -0.469471 -0.882948" unit_id="401279"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-1331.72 1026.06 196.382" _prev_rot="0 0 0.707107 -0.707107" continent="house" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/air_prop_hangar_toolbox/air_prop_hangar_toolbox_addon" name_id="air_prop_hangar_toolbox_addon_004" position="-1331.72 1026.06 195.382" rotation="0 0 0.707107 -0.707107" unit_id="401280"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="4959.9 1973.28 -342.113" _prev_rot="0 0 -0.601815 -0.798635" continent="house" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="-45.7902 102.887 1350" local_rot="0.425548 0.564721 0.564721 -0.425548" name="units/pd2_dlc_run/props/run_prop_cover_shipping_crate/run_prop_cover_shipping_crate_wide_01" name_id="man_cover_int_shipping_crate_wide_046" position="5009.9 1973.28 -342.113" rotation="0 0 -0.601815 -0.798635" unit_id="401287"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="4965.98 2157.75 -342.113" _prev_rot="0 0 0.45399 -0.891007" continent="house" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="-51.8717 102.887 1534.47" local_rot="-0.32102 0.630037 0.630037 0.32102" name="units/pd2_dlc_run/props/run_prop_cover_shipping_crate/run_prop_cover_shipping_crate_wide_01" name_id="man_cover_int_shipping_crate_wide_047" position="5015.98 2157.75 -342.113" rotation="0 0 0.45399 -0.891007" unit_id="401288"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-2815 -3361 20" _prev_rot="0 0 -0.707107 -0.707107" continent="house" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_friend/architecture/ext/sfm_ext_hedges_6m" name_id="sfm_ext_hedges_6m_039" position="-2815 -3361 20" rotation="0 0 -0.707107 -0.707107" unit_id="401294"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-2790 -3031 20" _prev_rot="0 0 -0.707107 -0.707107" continent="house" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="330 5 0" local_rot="0 0 0 1" name="units/pd2_dlc_friend/architecture/ext/sfm_ext_hedges_6m" name_id="sfm_ext_hedges_6m_040" position="-2820 -3031 20" rotation="0 0 -0.707107 -0.707107" unit_id="401295"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-2820 -2442 20" _prev_rot="0 0 -0.707107 -0.707107" continent="house" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 75 0" local_rot="0 0 0 1" name="units/pd2_dlc_friend/architecture/ext/sfm_ext_hedges_6m" name_id="sfm_ext_hedges_6m_041" position="-2820 -2462 20" rotation="0 0 -0.707107 -0.707107" unit_id="401296"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="1865.93 1549.47 480" _prev_rot="-2.23517e-008 1.11759e-008 0.707107 -0.707107" _visibility_counter="0" continent="house" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/str_prop_rooftop_ac_unit_b/str_prop_rooftop_ac_unit_b_single" name_id="str_prop_rooftop_ac_unit_b_single_004" position="1865.93 1549.47 480" rotation="0 0 0.707107 -0.707107" unit_id="400193"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="1880.65 2081.93 480" _prev_rot="1.11759e-008 2.23517e-008 -0.707107 -0.707107" _visibility_counter="0" continent="house" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/str_prop_rooftop_ac_unit_a/str_prop_rooftop_ac_unit_a_flat" name_id="str_prop_rooftop_ac_unit_a_flat_002" position="1880.65 2081.93 480" rotation="0 0 -0.707107 -0.707107" unit_id="401101"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="713.455 3223.62 119.997" _prev_rot="0 0 1 -4.37114e-008" continent="house" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_friend/architecture/ext/sfm_ext_hedges_6m" name_id="sfm_ext_hedges_6m_024" position="713.455 3223.62 119.997" rotation="0 0 1 4.37114e-008" unit_id="401102"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="2684.84 -37.326 -489.059" _prev_rot="0 0 1 4.37114e-008" continent="house" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/lights/light_omni_shadow_projection_01/light_omni_shadow_projection_01" name_id="light_omni_shadow_projection_01_092" only_visible_in_editor="true" position="2434.84 -37.326 -489.059" projection_light="lo_omni" rotation="0 0 1 4.37114e-008" unit_id="400215">
+				<lights>
+					<table clipping_values="10000 -10000 0" color="0.901961 0.721569 0.411765" enabled="true" falloff_exponent="1" far_range="700" multiplier="@IDccbbe27c7fdc0fd9@" name="lo_omni" near_range="100" spot_angle_end="1" spot_angle_start="1"/>
+				</lights>
+				<projection_lights>
+					<lo_omni x="128" y="128"/>
+				</projection_lights>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="2460 3640 220" _prev_rot="0 0 -2.38419e-007 -1" continent="house" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="core/units/light_omni/light_omni" name_id="light_omni_117" only_visible_in_editor="true" position="2460 3666 220" rotation="0 0 -2.38419e-007 -1" unit_id="400216">
+				<lights>
+					<table clipping_values="10000 -10000 0" color="0.960784 0.972549 0.937255" enabled="true" falloff_exponent="1" far_range="300" multiplier="@ID8c34304230e70372@" name="lo_omni" near_range="2" spot_angle_end="1" spot_angle_start="1"/>
+				</lights>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="2460 3666 220" _prev_rot="0 0 -2.38419e-007 -1" continent="house" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="core/units/light_omni/light_omni" name_id="light_omni_118" only_visible_in_editor="true" position="1760 3666 220" rotation="0 0 -2.38419e-007 -1" unit_id="401093">
+				<lights>
+					<table clipping_values="10000 -10000 0" color="0.960784 0.972549 0.937255" enabled="true" falloff_exponent="1" far_range="300" multiplier="@ID8c34304230e70372@" name="lo_omni" near_range="2" spot_angle_end="1" spot_angle_start="1"/>
+				</lights>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="799 3884 225" _prev_rot="0 0 -0.707107 -0.707107" continent="house" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_friend/props/sfm_prop_ext_lamp_wall_medium/sfm_prop_ext_lamp_wall_medium" name_id="sfm_prop_ext_lamp_wall_medium_035" position="799 3885 225" rotation="0 0 -0.707107 -0.707107" unit_id="401232"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="777.39 3733.11 334" _prev_rot="0 0 0 -1" continent="house" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="-150.89 21.6101 109" local_rot="0 0 -0.707107 0.707107" name="core/units/light_omni/light_omni" name_id="light_omni_119" only_visible_in_editor="true" position="777.39 3734.11 334" rotation="0 0 0 -1" unit_id="401281">
+				<lights>
+					<table clipping_values="10000 -10000 0" color="0.909804 0.807843 0.713726" enabled="true" falloff_exponent="1.3" far_range="325" multiplier="@ID5035addc43a80b74@" name="lo_omni" near_range="80" spot_angle_end="1" spot_angle_start="1"/>
+				</lights>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="2854 -71 225" _prev_rot="0 0 7.45058e-009 -1" continent="house" disable_collision="false" disable_on_ai_graph="false" disable_shadows="true" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_friend/props/sfm_prop_ext_lamp_wall_medium/sfm_prop_ext_lamp_wall_medium" name_id="sfm_prop_ext_lamp_wall_medium_036" position="2854 -71 216" rotation="0 0 7.45058e-009 -1" unit_id="401282"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="2703.11 -49.39 334" _prev_rot="0 0 0.707107 -0.707107" continent="house" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="-150.89 21.61 109" local_rot="0 0 -0.707107 0.707107" name="core/units/light_omni/light_omni" name_id="light_omni_120" only_visible_in_editor="true" position="2703.11 -49.39 325" rotation="0 0 0.707107 -0.707107" unit_id="401283">
+				<lights>
+					<table clipping_values="10000 -10000 0" color="0.909804 0.807843 0.713726" enabled="true" falloff_exponent="1.3" far_range="325" multiplier="@ID5035addc43a80b74@" name="lo_omni" near_range="80" spot_angle_end="1" spot_angle_start="1"/>
+				</lights>
+			</unit_data>
 		</table>
 	</statics>
 	<values>
