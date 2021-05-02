@@ -1,0 +1,52 @@
+<dynamic_object>
+    <diesel orientation_object="rp_mex_prop_security_monitor" materials="units/pd2_dlc_mex/props/mex_prop_security_monitor/mex_prop_security_monitor"/>
+		<sequence_manager file="units/pd2_dlc_mex/props/mex_prop_security_monitor/mex_prop_security_monitor" />	
+    <bodies>
+        <body enabled="true" template="static" name="static_body" >
+            <object collision_type="convex" name="c_convex_01" />
+        </body>
+    </bodies>
+    <decal_surfaces>
+        <!-- <decal_mesh enabled="true" name="dm_plastic" material="plastic" /> -->
+        <!-- <decal_mesh enabled="true" name="dm_glass" material="glass" /> -->
+    </decal_surfaces>
+    <graphics>
+        <object enabled="true" name="g_g" />
+        <object enabled="true" name="g_screen_overlay" />
+        <object enabled="true" name="g_screen_glow" />
+        <object enabled="true" name="g_screen_locked" />
+        <object enabled="false" name="g_screen_unlocked" />
+        <object enabled="false" name="g_screen_open" />
+        <object enabled="false" name="g_screen_off" />
+
+        <!-- left nums -->
+        <object enabled="true" name="g_screen_num_l_0" />
+        <object enabled="false" name="g_screen_num_l_1" />
+        <object enabled="false" name="g_screen_num_l_2" />
+        <object enabled="false" name="g_screen_num_l_3" />
+        <object enabled="false" name="g_screen_num_l_4" />
+        <object enabled="false" name="g_screen_num_l_5" />
+        <object enabled="false" name="g_screen_num_l_6" />
+        <object enabled="false" name="g_screen_num_l_7" />
+        <object enabled="false" name="g_screen_num_l_8" />
+        <object enabled="false" name="g_screen_num_l_9" />
+
+        <!-- right nums -->
+        <object enabled="true" name="g_screen_num_r_0" />
+        <object enabled="false" name="g_screen_num_r_1" />
+        <object enabled="false" name="g_screen_num_r_2" />
+        <object enabled="false" name="g_screen_num_r_3" />
+        <object enabled="false" name="g_screen_num_r_4" />
+        <object enabled="false" name="g_screen_num_r_5" />
+        <object enabled="false" name="g_screen_num_r_6" />
+        <object enabled="false" name="g_screen_num_r_7" />
+        <object enabled="false" name="g_screen_num_r_8" />
+        <object enabled="false" name="g_screen_num_r_9" />
+        <graphic_group name="grp_outline" enabled="true">
+            <lod_object name="lod_outline">
+                <object name="g_glow_lod0" enabled="true"  max_distance="300" />
+                <object name="g_glow_lod1" enabled="true" />
+            </lod_object>
+        </graphic_group>
+    </graphics>
+</dynamic_object>

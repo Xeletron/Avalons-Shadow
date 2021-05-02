@@ -1,0 +1,114 @@
+<dynamic_object>
+	<diesel materials="units/pd2_mcmansion/props/mcm_prop_livingroom_lamp_floor/mcm_prop_livingroom_lamp_floor" orientation_object="rp_mcm_prop_livingroom_lamp_floor" />
+	<sequence_manager file="units/pd2_mcmansion/props/mcm_prop_livingroom_lamp_floor/mcm_prop_livingroom_lamp_floor" />
+	<bodies>
+		<body name="body_stand_static" enabled="true" template="static">
+			<object name="rp_mcm_prop_livingroom_lamp_floor" />
+			<object name="c_box_01" collision_type="box" padding="-2.5" />
+			<object name="c_box_02" collision_type="box" padding="-2.5" />
+			<object name="c_box_03" collision_type="box" padding="-2.5" />
+		</body>
+		<body name="body_shade_static" enabled="true" template="static">
+			<object name="rp_mcm_prop_livingroom_lamp_floor" />
+			<object name="c_convex_static" collision_type="convex" padding="-2.5" />
+		</body>
+
+		<body name="body_dynamic_01" enabled="false" template="dynamic" collides_with_mover="false" >
+			<object name="c_convex_01" collision_type="convex" padding="-2.5" />
+		</body>
+		<body name="body_dynamic_02" enabled="false" template="dynamic" collides_with_mover="false" >
+			<object name="c_convex_02" collision_type="convex" padding="-2.5" />
+		</body>
+		<body name="body_dynamic_03" enabled="false" template="dynamic" collides_with_mover="false" >
+			<object name="c_convex_03" collision_type="convex" padding="-2.5" />
+		</body>
+		<body name="body_dynamic_04" enabled="false" template="dynamic" collides_with_mover="false" >
+			<object name="c_convex_04" collision_type="convex" padding="-2.5" />
+		</body>
+		<body name="body_dynamic_05" enabled="false" template="dynamic" collides_with_mover="false" >
+			<object name="c_convex_05" collision_type="convex" padding="-2.5" />
+		</body>
+		<body name="body_dynamic_06" enabled="false" template="dynamic" collides_with_mover="false" >
+			<object name="c_convex_06" collision_type="convex" padding="-2.5" />
+		</body>
+		<body name="body_dynamic_07" enabled="false" template="dynamic" collides_with_mover="false" >
+			<object name="c_convex_07" collision_type="convex" padding="-2.5" />
+		</body>
+		<body name="body_dynamic_08" enabled="false" template="dynamic" collides_with_mover="false" >
+			<object name="c_convex_08" collision_type="convex" padding="-2.5" />
+		</body>
+	</bodies>
+	<decal_surfaces default_material="cloth">
+		<decal_mesh name="dm_cloth" enabled="true" material="cloth" />
+	</decal_surfaces>
+
+	<lights>
+		<light name="li_floor_lamp" enabled="true" editable="true" type="omni|specular" multiplier="0.4" far_range="350" falloff="4" />
+	</lights>
+
+	<effects>
+		<effect_spawner name="indoor_lamp_small" enabled="true" object="e_pow" effect="effects/payday2/particles/flares/indoor_lamp_small" />
+	</effects>
+
+	<graphics>
+		
+		<graphic_group name="lamp_stand_grp" enabled="true" >
+			<lod_object name="grp_lod_g_lamp_stand">
+				<object name="g_lamp_stand_lod0" enabled="true" max_distance="1500" />
+				<object name="g_lamp_stand_lod1" enabled="true" />
+			</lod_object>
+		</graphic_group>
+		<graphic_group name="lamp_shade_on_grp" enabled="true" >
+			<lod_object name="grp_lod_g_lamp_shade_on">
+				<object name="g_lamp_shade_on_lod0" enabled="true" max_distance="1500" />
+				<object name="g_lamp_shade_on_lod1" enabled="true" />
+			</lod_object>
+		</graphic_group>
+		<graphic_group name="lamp_shade_off_grp" enabled="false" >
+			<lod_object name="grp_lod_g_lamp_shade_off">
+				<object name="g_lamp_shade_off_lod0" enabled="true" max_distance="1500" />
+				<object name="g_lamp_shade_off_lod1" enabled="true" />
+			</lod_object>
+		</graphic_group>
+
+
+		<graphic_group name="dmg_shade_grp" enabled="false" >
+			<lod_object name="grp_lod_g_dmg_01">
+				<object name="g_dmg_01_lod0" enabled="true" max_distance="1500" />
+				<object name="g_dmg_01_lod1" enabled="true" />
+			</lod_object>
+			<lod_object name="grp_lod_g_dmg_02">
+				<object name="g_dmg_02_lod0" enabled="true" max_distance="1500" />
+				<object name="g_dmg_02_lod1" enabled="true" />
+			</lod_object>
+			<lod_object name="grp_lod_g_dmg_03">
+				<object name="g_dmg_03_lod0" enabled="true" max_distance="1500" />
+				<object name="g_dmg_03_lod1" enabled="true" />
+			</lod_object>
+			<lod_object name="grp_lod_g_dmg_04">
+				<object name="g_dmg_04_lod0" enabled="true" max_distance="1500" />
+				<object name="g_dmg_04_lod1" enabled="true" />
+			</lod_object>
+			<lod_object name="grp_lod_g_dmg_05">
+				<object name="g_dmg_05_lod0" enabled="true" max_distance="1500" />
+				<object name="g_dmg_05_lod1" enabled="true" />
+			</lod_object>
+		</graphic_group>
+
+		<graphic_group name="dmg_stand_grp" enabled="false" >
+			<lod_object name="grp_lod_g_dmg_06">
+				<object name="g_dmg_06_lod0" enabled="true" max_distance="1500" />
+				<object name="g_dmg_06_lod1" enabled="true" />
+			</lod_object>
+			<lod_object name="grp_lod_g_dmg_07">
+				<object name="g_dmg_07_lod0" enabled="true" max_distance="1500" />
+				<object name="g_dmg_07_lod1" enabled="true" />
+			</lod_object>
+			<lod_object name="grp_lod_g_dmg_08">
+				<object name="g_dmg_08_lod0" enabled="true" max_distance="1500" />
+				<object name="g_dmg_08_lod1" enabled="true" />
+			</lod_object>
+		</graphic_group>
+
+	</graphics>
+</dynamic_object>

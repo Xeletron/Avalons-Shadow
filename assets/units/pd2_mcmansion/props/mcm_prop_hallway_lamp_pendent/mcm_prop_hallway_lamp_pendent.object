@@ -1,0 +1,38 @@
+<dynamic_object>
+	<diesel materials="units/pd2_mcmansion/props/mcm_prop_hallway_lamp_pendent/mcm_prop_hallway_lamp_pendent_off" orientation_object="rp_mcm_prop_hallway_lamp_pendent" />
+	<sequence_manager file="units/pd2_mcmansion/props/mcm_prop_hallway_lamp_pendent/mcm_prop_hallway_lamp_pendent" />
+	<bodies>
+		<body name="body_static" enabled="true" template="static">
+			<object name="rp_mcm_prop_hallway_lamp_pendent" />
+			<object name="c_capsule_01" collision_type="capsule" padding="-2.5" />
+		</body>
+	</bodies>
+	
+	<effects>
+		<effect_spawner name="indoor_lamp_small" enabled="false" object="e_effect" effect="effects/payday2/particles/flares/indoor_lamp_small" />
+    </effects>
+	
+	<graphics>
+		<graphic_group name="grp_clean" enabled="true">
+			<lod_object name="grp_lod_g">
+				<object name="g_lod0" enabled="true" max_distance="1300" />
+				<object name="g_lod1" enabled="true" />
+			</lod_object>
+		</graphic_group>
+		<graphic_group name="grp_dmg" enabled="false">
+			<lod_object name="grp_lod_g_dmg" >
+				<object name="g_dmg_lod0" enabled="true" max_distance="1300" />
+				<object name="g_dmg_lod1" enabled="true" />
+			</lod_object>
+		</graphic_group>
+	</graphics>
+	
+	<lights>
+		<light name="li_hanging_lamp" enabled="false" editable="true" type="omni|specular" multiplier="0.6" far_range="100" falloff="4" />
+	</lights>
+	
+</dynamic_object>
+
+
+
+

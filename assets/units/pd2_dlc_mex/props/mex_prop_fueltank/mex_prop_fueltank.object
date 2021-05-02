@@ -1,0 +1,46 @@
+<dynamic_object>
+	<diesel materials="units/pd2_dlc_mex/props/mex_prop_fueltank/mex_prop_fueltank" orientation_object="rp_mex_prop_fueltank" />
+	<sequence_manager file="units/pd2_dlc_mex/props/mex_prop_fueltank/mex_prop_fueltank" />	
+	<bodies>
+		<body name="body_static" enabled="true" template="static">
+			<object name="rp_mex_prop_fueltank" />			
+			<object name="c_box_0" collision_type="box" padding="-2.5"/>
+			<object name="c_box_1" collision_type="box" padding="-2.5"/>
+			<object name="c_box_10" collision_type="box" padding="-2.5"/>
+			<object name="c_box_11" collision_type="box" padding="-2.5"/>
+			<object name="c_box_12" collision_type="box" padding="-2.5"/>
+			<object name="c_box_13" collision_type="box" padding="-2.5"/>
+			<object name="c_box_14" collision_type="box" padding="-2.5"/>
+			<object name="c_box_15" collision_type="box" padding="-2.5"/>
+			<object name="c_box_16" collision_type="box" padding="-2.5"/>
+			<object name="c_box_17" collision_type="box" padding="-2.5"/>
+			<object name="c_box_18" collision_type="box" padding="-2.5"/>
+			<object name="c_box_19" collision_type="box" padding="-2.5"/>
+			<object name="c_box_2" collision_type="box" padding="-2.5"/>
+			<object name="c_box_20" collision_type="box" padding="-2.5"/>
+			<object name="c_box_21" collision_type="box" padding="-2.5"/>
+			<object name="c_box_22" collision_type="box" padding="-2.5"/>
+			<object name="c_box_23" collision_type="box" padding="-2.5"/>
+			<object name="c_box_3" collision_type="box" padding="-2.5"/>
+			<object name="c_box_4" collision_type="box" padding="-2.5"/>
+			<object name="c_box_7" collision_type="box" padding="-2.5"/>
+			<object name="c_box_8" collision_type="box" padding="-2.5"/>
+			<object name="c_box_9" collision_type="box" padding="-2.5"/>
+			<object name="c_convex_0" collision_type="convex" padding="-2.5"/>
+			<object name="c_convex_01" collision_type="convex" padding="-2.5"/>
+			<object name="c_convex_02" collision_type="convex" padding="-2.5"/>
+			<object name="c_meshmop" collision_type="mesh_mopp" />
+		</body>
+	</bodies>
+	<decal_surfaces default_material="metal">
+		<decal_mesh name="dm_metal" enabled="true" material="metal" />
+	</decal_surfaces>
+	<graphics>
+		<object name="g_mullplan" enabled="true" />
+		<lod_object name="lod_g_fuel">
+			<object name="g_fuel_lod0" enabled="true" max_distance="2500" />
+			<object name="g_fuel_lod1" enabled="true" />
+		</lod_object>
+		<object name="s_s" enabled="true" shadow_caster="true" />
+	</graphics>
+</dynamic_object>

@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<dynamic_object>
+  <diesel materials="units/world/props/gym/stn_prop_monitor/stn_prop_monitor" orientation_object="rp_camera_monitor" />
+  <sequence_manager file="units/world/props/gym/stn_prop_monitor/stn_prop_monitor" />
+  <bodies>
+    <body name="destroy" enabled="true" template="static">
+      <object name="rp_camera_monitor" />
+      <object name="c_camera_monitor_display" collision_type="mesh_mopp" />
+    </body>
+    <body name="static_body" enabled="true" template="static">
+      <object name="rp_camera_monitor" />
+      <object name="c_camera_monitor" collision_type="mesh_mopp" />
+    </body>
+  </bodies>
+  <decal_surfaces default_material="metal_chassis" static="true">
+    <decal_mesh name="dm_camera_monitor_destroyed" enabled="true" material="glass_breakable" />
+    <decal_mesh name="dm_camera_monitor" enabled="true" material="metal_chassis" />
+    <decal_mesh name="dm_camera_monitor_display" enabled="true" material="glass_breakable" />
+  </decal_surfaces>
+  <graphics>
+    <object name="g_camera_monitor_broken" />
+    <!--object name="g_camera_monitor_off" /-->
+    <object name="g_camera_monitor_destroyed" />
+    <object name="g_camera_monitor_display_1" enabled="true" />
+	<object name="g_camera_monitor_display_2" enabled="true" />
+	<object name="g_camera_monitor_display_3" enabled="true" />
+	<object name="g_camera_monitor_display_4" enabled="true" />
+    <object name="g_camera_monitor" enabled="true" />
+    <object name="g_camera_monitor_signal_1" />
+    <object name="g_camera_monitor_signal_2" />
+    <object name="g_camera_monitor_signal_3" />
+    <object name="g_camera_monitor_signal_4" />
+  </graphics>
+  	<objects>
+		<align_point name="e_camera_monitor" enabled="true" parent="rp_camera_monitor" position="0 0 0" rotation="0 0 0" />
+	</objects>
+</dynamic_object>

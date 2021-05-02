@@ -1,0 +1,28 @@
+<dynamic_object>
+	<diesel materials="units/pd2_mcmansion/props/mcm_prop_dining_candelbra/mcm_prop_dining_candelabra" orientation_object="rp_mcm_prop_dining_candelabra" />
+	<bodies>
+		<body name="body_static" enabled="true" template="static">
+			<object name="rp_mcm_prop_dining_candelabra" />
+			<object name="c_box_01" collision_type="box" padding="-2.5" />
+			<object name="c_box_02" collision_type="box" padding="-2.5" />
+			<object name="c_box_03" collision_type="box" padding="-2.5" />
+			<object name="c_box_04" collision_type="box" padding="-2.5" />
+			<object name="c_box_05" collision_type="box" padding="-2.5" />
+			<object name="c_box_06" collision_type="box" padding="-2.5" />
+			<object name="c_box_07" collision_type="box" padding="-2.5" />
+		</body>
+	</bodies>
+	<decal_surfaces default_material="metal">
+		<decal_mesh name="dm_candelabra" enabled="true" material="plastic" />
+	</decal_surfaces>
+	<graphics> 
+		<lod_object name="grp_lod_g_candelabra">
+			<object name="g_candelabra_lod0" enabled="true" max_distance="1000" />
+			<object name="g_candelabra_lod1" enabled="true" />
+		</lod_object>
+<!-- 		<lod_object name="grp_lod_candelabra_alpha">
+			<object name="g_candelabra_lod0_alpha" enabled="true" max_distance="100" />
+			<object name="g_candelabra_lod1_alpha" enabled="true" />
+		</lod_object> -->
+	</graphics>
+</dynamic_object>

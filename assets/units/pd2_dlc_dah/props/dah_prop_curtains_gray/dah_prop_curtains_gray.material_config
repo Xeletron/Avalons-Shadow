@@ -1,0 +1,11 @@
+<materials version="3">
+    <material render_template="generic:DIFFUSE_TEXTURE:NORMALMAP" name="mat_curtains" version="2">
+        <bump_normal_texture file="units/pd2_dlc_dah/props/dah_prop_curtains_gray/rp_dah_prop_curtains_gray_nm"/>
+        <diffuse_texture file="units/pd2_dlc_dah/props/dah_prop_curtains_gray/rp_dah_prop_curtains_gray_df"/>
+    </material>
+    <material render_template="generic:DIFFUSE_TEXTURE:DOUBLE_SIDED:NORMALMAP" name="mat_curtains_lod" version="2">
+        <bump_normal_texture file="units/pd2_dlc_dah/props/dah_prop_curtains_gray/rp_dah_prop_curtains_gray_nm" mip="4"/>
+        <diffuse_texture file="units/pd2_dlc_dah/props/dah_prop_curtains_gray/rp_dah_prop_curtains_gray_nm" mip="4"/>
+    </material>
+    <material render_template="shadow_caster_only" name="shadow_caster" version="2"/>
+</materials>

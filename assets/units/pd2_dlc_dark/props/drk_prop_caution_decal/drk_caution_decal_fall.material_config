@@ -1,0 +1,7 @@
+<materials version="3">
+    <material name="mat_drk_prop_caution_decal" render_template="decal:DIFFUSE_TEXTURE:NORMALMAP:OPACITY_TEXTURE" version="2">
+        <diffuse_texture file="units/pd2_dlc_dark/props/drk_prop_caution_decal/drk_prop_caution_decal_df"/>
+        <opacity_texture file="units/pd2_dlc_dark/props/drk_prop_caution_decal/drk_prop_caution_decal_op"/>
+        <bump_normal_texture file="units/pd2_dlc_dark/props/drk_prop_caution_decal/drk_prop_caution_decal_nm"/>
+    </material>
+</materials>

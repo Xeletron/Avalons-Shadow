@@ -1,0 +1,14 @@
+<unit type="mcm" slot="1">
+	<object file="units/pd2_mcmansion/props/mcm_prop_livingroom_lamp_floor/mcm_prop_livingroom_lamp_floor" />
+
+	<dependencies>
+		<depends_on physic_effect="physic_effects/push_sphere" />
+		<depends_on effect="effects/particles/dest/sparks_lamp_dest" />
+		<depends_on effect="effects/payday2/particles/flares/indoor_lamp_small" />
+    </dependencies>
+
+	<extensions>
+		<extension name="unit_data" class="ScriptUnitData" />
+		<extension name="damage" class="UnitDamage" />
+	</extensions>
+</unit>

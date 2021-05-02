@@ -1,0 +1,12 @@
+<dynamic_object>
+	<diesel materials="units/pd2_dlc_dark/props/drk_prop_caution_decal/drk_caution_decal_fall" orientation_object="rp_drk_caution_decal_fall" />
+	<bodies>
+		<body name="body_static" enabled="true" template="static">
+			<object name="rp_drk_caution_decal_fall" />
+			<object name="c_decal" collision_type="box" padding="-2.5" />
+		</body>
+	</bodies>
+	<graphics>
+		<object name="g_g" enabled="true" />
+	</graphics>
+</dynamic_object>
