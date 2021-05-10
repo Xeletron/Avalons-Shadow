@@ -1,0 +1,11 @@
+<dynamic_object>
+    <diesel orientation_object="rp_ind_bdrop_boat_cargoship" materials="units/payday2/vehicles/ind_bdrop_boat_cargoship/ind_bdrop_boat_cargoship" />
+    <bodies>
+        <body enabled="true" template="editor" name="static_body" >
+            <object collision_type="box" name="c_box" padding="-2.5" />
+        </body>
+    </bodies>
+    <graphics>
+        <object enabled="true" name="g_g" />
+    </graphics>
+</dynamic_object>
