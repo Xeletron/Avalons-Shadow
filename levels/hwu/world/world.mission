@@ -5020,8 +5020,8 @@
 							<entry key="id" type="number" value="100352"/>
 						</entry>
 					</entry>
-					<entry key="position" type="vector3" value="-437.847 2823.63 592"/>
-					<entry key="rotation" type="quaternion" value="0 0 -0.0436194 -0.999048"/>
+					<entry key="position" type="vector3" value="-437.237 2816.66 592"/>
+					<entry key="rotation" type="quaternion" value="0 0 -0.0436203 -0.999048"/>
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
 			</entry>
@@ -5043,7 +5043,7 @@
 						</entry>
 					</entry>
 					<entry key="position" type="vector3" value="1118.35 1193.61 595.501"/>
-					<entry key="rotation" type="quaternion" value="0 0 0.71325 -0.700909"/>
+					<entry key="rotation" type="quaternion" value="0 0 0.713251 -0.700909"/>
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
 			</entry>
@@ -19039,43 +19039,40 @@
 						<entry index="362" type="number" value="101145"/>
 						<entry index="363" type="number" value="400136"/>
 						<entry index="364" type="number" value="400138"/>
-						<entry index="365" type="number" value="400140"/>
-						<entry index="366" type="number" value="400151"/>
-						<entry index="367" type="number" value="400152"/>
-						<entry index="368" type="number" value="400153"/>
-						<entry index="369" type="number" value="400154"/>
-						<entry index="370" type="number" value="101109"/>
-						<entry index="371" type="number" value="101111"/>
-						<entry index="372" type="number" value="101512"/>
-						<entry index="373" type="number" value="400062"/>
-						<entry index="374" type="number" value="400159"/>
-						<entry index="375" type="number" value="400160"/>
-						<entry index="376" type="number" value="400161"/>
-						<entry index="377" type="number" value="400715"/>
-						<entry index="378" type="number" value="400704"/>
-						<entry index="379" type="number" value="400705"/>
-						<entry index="380" type="number" value="400166"/>
-						<entry index="381" type="number" value="400716"/>
-						<entry index="382" type="number" value="400067"/>
-						<entry index="383" type="number" value="400068"/>
-						<entry index="384" type="number" value="400070"/>
-						<entry index="385" type="number" value="400071"/>
-						<entry index="386" type="number" value="400449"/>
-						<entry index="387" type="number" value="400461"/>
-						<entry index="388" type="number" value="400462"/>
-						<entry index="389" type="number" value="400478"/>
-						<entry index="390" type="number" value="400516"/>
-						<entry index="391" type="number" value="103022"/>
-						<entry index="392" type="number" value="400421"/>
-						<entry index="393" type="number" value="400709"/>
-						<entry index="394" type="number" value="103023"/>
-						<entry index="395" type="number" value="400376"/>
-						<entry index="396" type="number" value="400156"/>
-						<entry index="397" type="number" value="400620"/>
-						<entry index="398" type="number" value="401206"/>
-						<entry index="399" type="number" value="401274"/>
-						<entry index="400" type="number" value="401276"/>
-						<entry index="401" type="number" value="400215"/>
+						<entry index="365" type="number" value="400151"/>
+						<entry index="366" type="number" value="400152"/>
+						<entry index="367" type="number" value="400153"/>
+						<entry index="368" type="number" value="400154"/>
+						<entry index="369" type="number" value="101109"/>
+						<entry index="370" type="number" value="101111"/>
+						<entry index="371" type="number" value="101512"/>
+						<entry index="372" type="number" value="400062"/>
+						<entry index="373" type="number" value="400159"/>
+						<entry index="374" type="number" value="400160"/>
+						<entry index="375" type="number" value="400161"/>
+						<entry index="376" type="number" value="400704"/>
+						<entry index="377" type="number" value="400705"/>
+						<entry index="378" type="number" value="400166"/>
+						<entry index="379" type="number" value="400067"/>
+						<entry index="380" type="number" value="400068"/>
+						<entry index="381" type="number" value="400070"/>
+						<entry index="382" type="number" value="400071"/>
+						<entry index="383" type="number" value="400449"/>
+						<entry index="384" type="number" value="400461"/>
+						<entry index="385" type="number" value="400462"/>
+						<entry index="386" type="number" value="400478"/>
+						<entry index="387" type="number" value="400516"/>
+						<entry index="388" type="number" value="103022"/>
+						<entry index="389" type="number" value="400421"/>
+						<entry index="390" type="number" value="400709"/>
+						<entry index="391" type="number" value="103023"/>
+						<entry index="392" type="number" value="400376"/>
+						<entry index="393" type="number" value="400156"/>
+						<entry index="394" type="number" value="400620"/>
+						<entry index="395" type="number" value="401206"/>
+						<entry index="396" type="number" value="401274"/>
+						<entry index="397" type="number" value="401276"/>
+						<entry index="398" type="number" value="400215"/>
 					</entry>
 				</entry>
 			</entry>
@@ -23721,8 +23718,8 @@
 					<entry key="on_executed" type="table">
 					</entry>
 					<entry key="participate_to_group_ai" type="boolean" value="true"/>
-					<entry key="position" type="vector3" value="-7697.96 -2617.88 0"/>
-					<entry key="rotation" type="quaternion" value="0 0 -0.707107 -0.707107"/>
+					<entry key="position" type="vector3" value="-6847.96 -2817.88 0"/>
+					<entry key="rotation" type="quaternion" value="0 0 0.707107 -0.707107"/>
 					<entry key="spawn_action" type="string" value="e_sp_dwn_10_25m"/>
 					<entry key="team" type="string" value="default"/>
 					<entry key="trigger_times" type="number" value="0"/>
@@ -29219,6 +29216,12 @@
 							<entry key="notify_unit_sequence" type="string" value="destroy_03"/>
 							<entry key="time" type="number" value="0"/>
 						</entry>
+						<entry index="2" type="table">
+							<entry key="name" type="string" value="run_sequence"/>
+							<entry key="notify_unit_id" type="number" value="302827"/>
+							<entry key="notify_unit_sequence" type="string" value="destroy_01"/>
+							<entry key="time" type="number" value="0"/>
+						</entry>
 					</entry>
 					<entry key="trigger_times" type="number" value="1"/>
 				</entry>
@@ -33211,43 +33214,40 @@
 						<entry index="362" type="number" value="101145"/>
 						<entry index="363" type="number" value="400136"/>
 						<entry index="364" type="number" value="400138"/>
-						<entry index="365" type="number" value="400140"/>
-						<entry index="366" type="number" value="400151"/>
-						<entry index="367" type="number" value="400152"/>
-						<entry index="368" type="number" value="400153"/>
-						<entry index="369" type="number" value="400154"/>
-						<entry index="370" type="number" value="101109"/>
-						<entry index="371" type="number" value="101111"/>
-						<entry index="372" type="number" value="101512"/>
-						<entry index="373" type="number" value="400062"/>
-						<entry index="374" type="number" value="400159"/>
-						<entry index="375" type="number" value="400160"/>
-						<entry index="376" type="number" value="400161"/>
-						<entry index="377" type="number" value="400715"/>
-						<entry index="378" type="number" value="400704"/>
-						<entry index="379" type="number" value="400705"/>
-						<entry index="380" type="number" value="400166"/>
-						<entry index="381" type="number" value="400716"/>
-						<entry index="382" type="number" value="400067"/>
-						<entry index="383" type="number" value="400068"/>
-						<entry index="384" type="number" value="400070"/>
-						<entry index="385" type="number" value="400071"/>
-						<entry index="386" type="number" value="400449"/>
-						<entry index="387" type="number" value="400461"/>
-						<entry index="388" type="number" value="400462"/>
-						<entry index="389" type="number" value="400478"/>
-						<entry index="390" type="number" value="400516"/>
-						<entry index="391" type="number" value="103022"/>
-						<entry index="392" type="number" value="400421"/>
-						<entry index="393" type="number" value="400709"/>
-						<entry index="394" type="number" value="103023"/>
-						<entry index="395" type="number" value="400376"/>
-						<entry index="396" type="number" value="400156"/>
-						<entry index="397" type="number" value="400620"/>
-						<entry index="398" type="number" value="401206"/>
-						<entry index="399" type="number" value="401274"/>
-						<entry index="400" type="number" value="401276"/>
-						<entry index="401" type="number" value="400215"/>
+						<entry index="365" type="number" value="400151"/>
+						<entry index="366" type="number" value="400152"/>
+						<entry index="367" type="number" value="400153"/>
+						<entry index="368" type="number" value="400154"/>
+						<entry index="369" type="number" value="101109"/>
+						<entry index="370" type="number" value="101111"/>
+						<entry index="371" type="number" value="101512"/>
+						<entry index="372" type="number" value="400062"/>
+						<entry index="373" type="number" value="400159"/>
+						<entry index="374" type="number" value="400160"/>
+						<entry index="375" type="number" value="400161"/>
+						<entry index="376" type="number" value="400704"/>
+						<entry index="377" type="number" value="400705"/>
+						<entry index="378" type="number" value="400166"/>
+						<entry index="379" type="number" value="400067"/>
+						<entry index="380" type="number" value="400068"/>
+						<entry index="381" type="number" value="400070"/>
+						<entry index="382" type="number" value="400071"/>
+						<entry index="383" type="number" value="400449"/>
+						<entry index="384" type="number" value="400461"/>
+						<entry index="385" type="number" value="400462"/>
+						<entry index="386" type="number" value="400478"/>
+						<entry index="387" type="number" value="400516"/>
+						<entry index="388" type="number" value="103022"/>
+						<entry index="389" type="number" value="400421"/>
+						<entry index="390" type="number" value="400709"/>
+						<entry index="391" type="number" value="103023"/>
+						<entry index="392" type="number" value="400376"/>
+						<entry index="393" type="number" value="400156"/>
+						<entry index="394" type="number" value="400620"/>
+						<entry index="395" type="number" value="401206"/>
+						<entry index="396" type="number" value="401274"/>
+						<entry index="397" type="number" value="401276"/>
+						<entry index="398" type="number" value="400215"/>
 					</entry>
 				</entry>
 			</entry>
@@ -35436,7 +35436,7 @@
 						</entry>
 						<entry index="5" type="table">
 							<entry key="delay" type="number" value="0"/>
-							<entry key="id" type="number" value="101274"/>
+							<entry key="id" type="number" value="101313"/>
 						</entry>
 					</entry>
 					<entry key="position" type="vector3" value="-1200 -2850 5520"/>

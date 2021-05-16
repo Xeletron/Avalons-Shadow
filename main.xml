@@ -1,5 +1,5 @@
 <table name="Avalon's Shadow">
-	<instance id="hwu_laptop" orig_id="hwu_laptop">
+	<instance id="hwu_laptop">
 		<include directory="levels/instances/hwu_laptop">
 			<file file="world.world" type="generic_xml"/>
 			<file file="continents.continents" type="custom_xml"/>
@@ -13,7 +13,7 @@
 		</include>
 		<packages/>
 	</instance>
-	<instance id="hwu_documents" orig_id="hwu_documents">
+	<instance id="hwu_documents">
 		<include directory="levels/instances/hwu_documents">
 			<file file="world.world" type="generic_xml"/>
 			<file file="continents.continents" type="custom_xml"/>
@@ -27,7 +27,7 @@
 		</include>
 		<packages/>
 	</instance>
-	<instance id="hwu_methlab" orig_id="hwu_methlab">
+	<instance id="hwu_methlab">
 		<include directory="levels/instances/hwu_methlab">
 			<file file="world.world" type="generic_xml"/>
 			<file file="continents.continents" type="custom_xml"/>
@@ -41,7 +41,7 @@
 		</include>
 		<packages/>
 	</instance>
-	<instance id="hwu_server" orig_id="hwu_server">
+	<instance id="hwu_server">
 		<add file="levels/instances/hwu_server/add.xml"/>
 		<include directory="levels/instances/hwu_server">
 			<file file="world.world" type="generic_xml"/>
@@ -55,6 +55,25 @@
 			<file file="cover_data.cover_data" type="custom_xml"/>
 		</include>
 		<packages/>
+	</instance>
+	<instance id="hwu_thermite_crate">
+		<add file="levels/instances/hwu_thermite_crate/add.xml"/>
+		<include directory="levels/instances/hwu_thermite_crate">
+			<file file="world.world" type="generic_xml"/>
+			<file file="continents.continents" type="custom_xml"/>
+			<file file="mission.mission" type="custom_xml"/>
+			<file file="nav_manager_data.nav_data" type="generic_xml"/>
+			<file file="world_sounds.world_sounds" type="generic_xml"/>
+			<file file="world_cameras.world_cameras" type="custom_xml"/>
+			<file file="world/world.continent" type="custom_xml"/>
+			<file file="world/world.mission" type="generic_xml"/>
+			<file file="cover_data.cover_data" type="custom_xml"/>
+			<file file="environments/default.environment" type="custom_xml"/>
+		</include>
+		<packages>
+			<value_node value="levels/instances/unique/sub_sewer_sidespawn/world/world"/>
+		</packages>
+		<script_data_mods directory="scriptdata"/>
 	</instance>
 	<AddFiles directory="assets">
 		<texture force="true" path="guis/dlcs/pic/textures/loading/job_hwu"/>
@@ -90,7 +109,7 @@
 		<sound id="hwu_18_end" path="18_1_end.ogg" subtitle_id="hwu_18_end_sub"/>
 		<sound id="hwu_19_hatch" path="19_1_hatch.ogg" subtitle_id="hwu_19_hatch_sub"/>
 	</Sounds>
-	<level ai_group_type="America" briefing_dialog="" ghost_bonus="0.4" id="hwu" intro_event="" load_screen="guis/dlcs/pic/textures/loading/job_hwu" max_bags="54" orig_id="hwu" player_style="generic">
+	<level ai_group_type="America" briefing_dialog="" ghost_bonus="0.4" id="hwu" intro_event="" load_screen="guis/dlcs/pic/textures/loading/job_hwu" max_bags="54" player_style="generic">
 		<add file="levels/hwu/add.xml"/>
 		<assets>
 			<asset name="bodybags_bag"/>
