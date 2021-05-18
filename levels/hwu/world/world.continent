@@ -12,6 +12,24 @@
 		<table continent="world" folder="levels/instances/unique/mus_circuit_box/world" index_size="250" name="mus_circuit_box_005" position="-9854.47 -10060.4 -2467.46" rotation="0 0 -0.707107 0.707107" script="default" start_index="2000"/>
 		<table continent="world" folder="levels/instances/unique/mus_circuit_box/world" index_size="250" name="mus_circuit_box_006" position="-13002.1 -6468.97 -1962" rotation="0 0 0.71934 -0.694659" script="default" start_index="2250"/>
 		<table continent="world" folder="levels/instances/mods/hwu_server/world" index_size="250" name="hwu_server_021" position="-10970 -11445 -2410" rotation="0 0 -0.707107 -0.707107" script="default" start_index="2500"/>
+		<table continent="world" folder="levels/instances/mods/hwu_thermite_crate/world" index_size="250" name="hwu_thermite_crate_001" position="-7275 -2135 0" rotation="0 0 1 -4.37114e-008" script="default" start_index="2750"/>
+		<table continent="world" folder="levels/instances/mods/hwu_thermite_crate/world" index_size="250" name="hwu_thermite_crate_002" position="-9084.54 -2206.35 0" rotation="0 0 0.707107 -0.707107" script="default" start_index="3000"/>
+		<table continent="world" folder="levels/instances/mods/hwu_thermite_crate/world" index_size="250" name="hwu_thermite_crate_003" position="-5965 2450 0" rotation="0 0 1 4.37114e-008" script="default" start_index="3250"/>
+		<table continent="world" folder="levels/instances/mods/hwu_thermite_crate/world" index_size="250" name="hwu_thermite_crate_004" position="-7875.1 1478.4 0" rotation="-0 0 -0 -1" script="default" start_index="3500"/>
+		<table continent="world" folder="levels/instances/mods/hwu_thermite_crate/world" index_size="250" name="hwu_thermite_crate_005" position="-8331.58 -2820.39 0" rotation="0 0 -1 4.37114e-008" script="default" start_index="3750"/>
+		<table continent="world" folder="levels/instances/mods/hwu_thermite_crate/world" index_size="250" name="hwu_thermite_crate_006" position="-7275 -45 405" rotation="-0 0 -0 -1" script="default" start_index="4000"/>
+		<table continent="world" folder="levels/instances/mods/hwu_thermite_crate/world" index_size="250" name="hwu_thermite_crate_007" position="-7375 -45 405" rotation="-0 0 -0 -1" script="default" start_index="4250"/>
+		<table continent="world" folder="levels/instances/mods/hwu_thermite_crate/world" index_size="250" name="hwu_thermite_crate_008" position="-8322.28 935.23 0" rotation="0 0 0.707107 -0.707107" script="default" start_index="4500"/>
+		<table continent="world" folder="levels/instances/mods/hwu_thermite_crate/world" index_size="250" name="hwu_thermite_crate_009" position="-5770 -610 0" rotation="-0 0 -0 -1" script="default" start_index="4750"/>
+		<table continent="world" folder="levels/instances/mods/hwu_thermite_crate/world" index_size="250" name="hwu_thermite_crate_010" position="-6625 920 203" rotation="0 0 0.707107 -0.707107" script="default" start_index="5000"/>
+		<table continent="world" folder="levels/instances/mods/hwu_thermite_crate/world" index_size="250" name="hwu_thermite_crate_011" position="-7857.52 -144.027 0" rotation="0 0 1 6.70552e-008" script="default" start_index="5250"/>
+		<table continent="world" folder="levels/instances/mods/hwu_thermite_crate/world" index_size="250" name="hwu_thermite_crate_012" position="-5160 2595 100" rotation="0 0 0.707107 -0.707107" script="default" start_index="5500"/>
+		<table continent="world" folder="levels/instances/mods/hwu_thermite_crate/world" index_size="250" name="hwu_thermite_crate_013" position="-7635 -1034 0" rotation="-0 0 -0 -1" script="default" start_index="5750"/>
+		<table continent="world" folder="levels/instances/mods/hwu_thermite_crate/world" index_size="250" name="hwu_thermite_crate_014" position="-5748.45 -1179.78 0" rotation="0 0 0.707107 -0.707107" script="default" start_index="6000"/>
+		<table continent="world" folder="levels/instances/mods/hwu_thermite_crate/world" index_size="250" name="hwu_thermite_crate_015" position="-5532.75 -751.319 0" rotation="0 0 1 -4.37114e-008" script="default" start_index="6250"/>
+		<table continent="world" folder="levels/instances/mods/hwu_thermite_crate/world" index_size="250" name="hwu_thermite_crate_016" position="-5450.75 -751.319 0" rotation="0 0 1 -4.37114e-008" script="default" start_index="6500"/>
+		<table continent="world" folder="levels/instances/mods/hwu_thermite_crate/world" index_size="250" name="hwu_thermite_crate_017" position="-5448.78 -1721.42 0" rotation="0 0 -0.707107 -0.707107" script="default" start_index="6750"/>
+		<table continent="world" folder="levels/instances/mods/hwu_thermite_crate/world" index_size="250" name="hwu_thermite_crate_018" position="-6481.78 -3652.55 0" rotation="0 0 0.707107 -0.707107" script="default" start_index="7000"/>
 	</instances>
 	<statics>
 		<table>
@@ -7086,9 +7104,9 @@
 			</unit_data>
 		</table>
 		<table>
-			<unit_data _prev_pos="-5639.29 -3275.57 177.832" _prev_rot="0 0 0 -1" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/lights/light_omni_shadow_projection_01/light_omni_shadow_projection_01" name_id="light_omni_shadow_projection_01_058" only_visible_in_editor="true" position="-5639.29 -3275.57 132.832" projection_light="lo_omni" rotation="0 0 0 -1" unit_id="103022">
+			<unit_data _prev_pos="-5639.29 -3275.57 132.832" _prev_rot="-0 0 -0 -1" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/lights/light_omni_shadow_projection_01/light_omni_shadow_projection_01" name_id="light_omni_shadow_projection_01_058" only_visible_in_editor="true" position="-5639.29 -3275.57 191.832" projection_light="lo_omni" rotation="-0 0 -0 -1" unit_id="103022">
 				<lights>
-					<table clipping_values="10000 -10000 0" color="0.686275 0.831373 0.976471" enabled="true" falloff_exponent="7" far_range="450" multiplier="@ID5035addc43a80b74@" name="lo_omni" near_range="80" spot_angle_end="1" spot_angle_start="1"/>
+					<table clipping_values="10000 -10000 0" color="0.686275 0.831373 0.976471" enabled="true" falloff_exponent="7" far_range="350" multiplier="@ID5035addc43a80b74@" name="lo_omni" near_range="80" spot_angle_end="1" spot_angle_start="1"/>
 				</lights>
 				<projection_lights>
 					<lo_omni x="64" y="64"/>
@@ -7096,9 +7114,9 @@
 			</unit_data>
 		</table>
 		<table>
-			<unit_data _prev_pos="-5894.29 -3275.57 132.832" _prev_rot="0 0 0 -1" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/lights/light_omni_shadow_projection_01/light_omni_shadow_projection_01" name_id="light_omni_shadow_projection_01_061" only_visible_in_editor="true" position="-5919.29 -3275.57 132.832" projection_light="lo_omni" rotation="0 0 0 -1" unit_id="103023">
+			<unit_data _prev_pos="-5919.29 -3275.57 159.832" _prev_rot="-0 0 -0 -1" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/lights/light_omni_shadow_projection_01/light_omni_shadow_projection_01" name_id="light_omni_shadow_projection_01_061" only_visible_in_editor="true" position="-5919.29 -3253.57 159.832" projection_light="lo_omni" rotation="-0 0 -0 -1" unit_id="103023">
 				<lights>
-					<table clipping_values="10000 -10000 0" color="0.686275 0.831373 0.976471" enabled="true" falloff_exponent="7" far_range="450" multiplier="@ID5035addc43a80b74@" name="lo_omni" near_range="80" spot_angle_end="1" spot_angle_start="1"/>
+					<table clipping_values="10000 -10000 0" color="0.686275 0.831373 0.976471" enabled="true" falloff_exponent="7" far_range="350" multiplier="@ID5035addc43a80b74@" name="lo_omni" near_range="80" spot_angle_end="1" spot_angle_start="1"/>
 				</lights>
 				<projection_lights>
 					<lo_omni x="64" y="64"/>
@@ -7455,6 +7473,21 @@
 		</table>
 		<table>
 			<unit_data _prev_pos="252 1314 520" _prev_rot="0 0 0 -1" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/architecture/lux/lux_int_wall1_2m_a" name_id="lux_int_wall1_4m_a_002" position="253 1314 520" rotation="0 0 0 -1" unit_id="100794"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-9036.94 -3386.42 0" _prev_rot="0 0 -0.707107 -0.707107" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_bag_collision/dev_bag_collision_1x3m" name_id="dev_bag_collision_1x3m_099" only_visible_in_editor="true" position="-9036.94 -3380.42 0" rotation="0 0 -0.707107 -0.707107" unit_id="100796"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-9036.94 -3380.42 0" _prev_rot="0 0 -0.707107 -0.707107" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_bag_collision/dev_bag_collision_1x3m" name_id="dev_bag_collision_1x3m_100" only_visible_in_editor="true" position="-8406.94 -3380.42 0" rotation="0 0 -0.707107 -0.707107" unit_id="100797"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-8406.94 -3380.42 371" _prev_rot="0.5 0.5 -0.5 -0.5" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_bag_collision/dev_bag_collision_1x3m" name_id="dev_bag_collision_1x3m_101" only_visible_in_editor="true" position="-8423.94 -3380.42 371" rotation="0.5 0.5 -0.5 -0.5" unit_id="100798"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-8423.94 -3380.42 371" _prev_rot="0.5 0.5 -0.5 -0.5" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_bag_collision/dev_bag_collision_1x3m" name_id="dev_bag_collision_1x3m_102" only_visible_in_editor="true" position="-8723.94 -3380.42 371" rotation="0.5 0.5 -0.5 -0.5" unit_id="100799"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-9023.94 -3380.42 371" _prev_rot="0.5 0.5 -0.5 -0.5" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_bag_collision/dev_bag_collision_1x3m" name_id="dev_bag_collision_1x3m_103" only_visible_in_editor="true" position="-9023.94 -3380.42 371" rotation="0.5 0.5 -0.5 -0.5" unit_id="100800"/>
 		</table>
 	</statics>
 	<values>
