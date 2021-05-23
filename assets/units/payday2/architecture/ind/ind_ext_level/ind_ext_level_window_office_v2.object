@@ -1,0 +1,14 @@
+<dynamic_object>
+    <diesel orientation_object="rp_ind_ext_level_window_office_v2" materials="units/payday2/architecture/ind/ind_ext_level/ind_ext_level_window_office" />
+	<sequence_manager file="units/payday2/architecture/ind/ind_ext_level/ind_ext_level_window_office" />
+	
+    <bodies>
+		<body name="glass_body" template="window" enabled="true" >
+			<object name="c_box_glass" collision_type="box" padding="-2.5"/>
+	    </body>
+    </bodies>
+
+    <graphics>
+        <object enabled="true" name="g_glass" />
+    </graphics>
+</dynamic_object>

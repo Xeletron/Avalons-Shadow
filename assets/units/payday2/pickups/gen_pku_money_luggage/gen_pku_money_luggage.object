@@ -1,0 +1,22 @@
+<dynamic_object>
+    <diesel orientation_object="rp_gen_money_luggage" materials="units/payday2/pickups/gen_pku_money_luggage/gen_pku_money_luggage" />
+	<sequence_manager file="units/payday2/pickups/gen_pku_money_luggage/gen_pku_money_luggage" />
+    <animations>		
+		<animation_group name="open_case" enabled="false" >
+			<object name="anim_lid" />
+		</animation_group>
+	</animations>
+    <bodies>
+        <body enabled="true" template="static" name="static_body" >
+            <object collision_type="box" name="c_box_2" />
+        </body>    
+        <body enabled="true" template="animated" name="lid_body" >
+			<object name="anim_lid" />
+            <object collision_type="box" name="c_box_1" />
+        </body>    
+    </bodies>
+    <graphics>
+        <object name="g_money" enabled="false" />
+        <object name="g_luggage" enabled="true" />
+    </graphics>
+</dynamic_object>
