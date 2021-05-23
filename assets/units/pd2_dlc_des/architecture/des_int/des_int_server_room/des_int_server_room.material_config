@@ -63,14 +63,18 @@
         <material_texture file="units/pd2_dlc_des/architecture/des_int/des_int_window/des_metal_bolt_light_gsma"/>
         <reflection_texture file="units/pd2_dlc_dah/environments/cubemaps/cubemap_white_highlight_blurry" type="cubemap"/>
     </material>
-    <material name="mat_stone_inside" render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:GLOSS_BLURS_CUBEMAP:GLOSS_CONTROL_VALUE:NORMALMAP" version="2">
-        <diffuse_texture file="units/pd2_dlc_berry/architecture/bry_mountain_interiors/bry_rock_interior_01_df"/>
-        <bump_normal_texture file="units/pd2_dlc_berry/architecture/bry_mountain_interiors/bry_rock_interior_01_nm"/>
-        <reflection_texture type="cubemap" file="units/payday2/cubemaps/cubemap_steel"/>
-        <variable value="0.30100002884865" type="scalar" name="glossiness_control"/>
+    <material render_template="generic:BLEND_DIFFUSE:BLEND_GSMA:BLEND_MASK_CONTROL:BLEND_MASK_CROSSBLEND:BLEND_NORMAL:DIFFUSE_TEXTURE:GSMA_TEXTURE:NORMALMAP:VERTEX_COLOR" name="mat_stone_inside" version="2">
+        <diffuse_texture file="units/pd2_dlc_des/tiling_textures/des_int_covered_rock/des_int_covered_rock_concrete_df"/>
+        <bump_normal_texture file="units/pd2_dlc_des/tiling_textures/des_int_covered_rock/des_int_covered_rock_concrete_nm"/>
+        <material_texture file="units/pd2_dlc_des/tiling_textures/des_int_covered_rock/des_int_covered_rock_concrete_gsma"/>
+        <diffuse_layer0_texture file="units/pd2_dlc_des/tiling_textures/des_int_covered_rock/des_int_covered_rock_df"/>
+        <diffuse_layer2_texture file="units/pd2_dlc_des/tiling_textures/des_int_covered_rock/des_int_covered_rock_gsma"/>
+        <normal_layer0_texture file="units/pd2_dlc_des/tiling_textures/des_int_covered_rock/des_int_covered_rock_nm"/>
+        <variable type="vector3" name="blend_control" value="0.9099999666214 1 0"/>
     </material>
-    <material render_template="generic:DIFFUSE_TEXTURE:NORMALMAP" name="mat_inner_wall" version="2">
-        <diffuse_texture file="units/pd2_dlc_berry/architecture/bry_mountain_interiors/bry_concrete_interior_01_df"/>
-        <bump_normal_texture file="units/pd2_dlc_berry/architecture/bry_mountain_interiors/bry_concrete_interior_01_nm"/>
+    <material render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:NORMALMAP:VERTEX_COLOR" name="mat_inner_wall" version="2">
+        <diffuse_texture file="units/pd2_dlc_berry/architecture/bry_office_building/bry_office_building_concrete_01_df"/>
+        <bump_normal_texture file="units/pd2_dlc_berry/architecture/bry_office_building/bry_office_building_concrete_01_nm"/>
+        <reflection_texture file="units/pd2_dlc_dah/environments/cubemaps/cubemap_white_highlight_blurry" type="cubemap"/>
     </material>
 </materials>

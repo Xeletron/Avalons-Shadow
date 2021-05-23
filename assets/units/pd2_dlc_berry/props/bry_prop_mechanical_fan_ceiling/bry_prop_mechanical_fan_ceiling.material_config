@@ -1,0 +1,16 @@
+<materials version="3">
+    <material name="mat_ceiling_lod" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP" version="2">
+        <diffuse_texture mip="4" file="units/pd2_dlc_berry/props/bry_prop_mechanical_fan_ceiling/bry_prop_mechanical_fan_ceiling_df"/>
+        <bump_normal_texture mip="4" file="units/pd2_dlc_berry/props/bry_prop_mechanical_fan_ceiling/bry_prop_mechanical_fan_ceiling_nm"/>
+    </material>
+    <material name="mat_ceiling" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP" version="2">
+        <diffuse_texture file="units/pd2_dlc_berry/props/bry_prop_mechanical_fan_ceiling/bry_prop_mechanical_fan_ceiling_df"/>
+        <bump_normal_texture file="units/pd2_dlc_berry/props/bry_prop_mechanical_fan_ceiling/bry_prop_mechanical_fan_ceiling_nm"/>
+    </material>
+    <material version="2" decal_material="thin_layer" name="mat_light_cone" render_template="effect:BLEND_ADD:DIFFUSE0_TEXTURE:DOUBLE_SIDED:VIEW_ANGLE_FALLOFF_OP">
+        <diffuse_texture file="units/pd2_dlc_berry/props/bry_prop_light_cones/bry_prop_light_cones_blueish_df"/>
+        <variable value="1.2501000165939" type="scalar" name="falloff_exp"/>
+        <variable value="streetlight" type="scalar" name="intensity"/>
+    </material>
+    <material name="shadow_caster" render_template="shadow_caster_only" version="2"/>
+</materials>

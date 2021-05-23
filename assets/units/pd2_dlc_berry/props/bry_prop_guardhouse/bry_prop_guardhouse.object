@@ -1,0 +1,79 @@
+<dynamic_object>
+	<diesel materials="units/pd2_dlc_berry/props/bry_prop_guardhouse/bry_prop_guardhouse" orientation_object="rp_bry_prop_guardhouse" />
+	<sequence_manager file="units/pd2_dlc_berry/props/bry_prop_guardhouse/bry_prop_guardhouse" />
+	<bodies>
+		<body name="body_static" enabled="true" template="static">
+			<object name="rp_bry_prop_guardhouse" />			
+			<object name="c_box_018" collision_type="box" padding="-2.5" />
+			<object name="c_box_017" collision_type="box" padding="-2.5" />
+			<object name="c_box_016" collision_type="box" padding="-2.5" />
+			<object name="c_box_015" collision_type="box" padding="-2.5" />
+			<object name="c_box_01" collision_type="box" padding="-2.5" />
+			<object name="c_box_02" collision_type="box" padding="-2.5" />
+			<object name="c_box_03" collision_type="box" padding="-2.5" />
+			<object name="c_box_04" collision_type="box" padding="-2.5" />
+			<object name="c_box_05" collision_type="box" padding="-2.5" />
+			<object name="c_box_06" collision_type="box" padding="-2.5" />
+			<object name="c_box_07" collision_type="box" padding="-2.5" />
+			<object name="c_box_08" collision_type="box" padding="-2.5" />
+			<object name="c_box_09" collision_type="box" padding="-2.5" />
+			<object name="c_box_010" collision_type="box" padding="-2.5" />
+			<object name="c_box_011" collision_type="box" padding="-2.5" />
+			<object name="c_box_012" collision_type="box" padding="-2.5" />
+			<object name="c_box_013" collision_type="box" padding="-2.5" />
+			<object name="c_box_014" collision_type="box" padding="-2.5" />
+		</body>
+			<body name="nav" enabled="true" template="nav_walk">
+			<object name="rp_bry_prop_guardhouse" />
+			<object name="c_convex_01" collision_type="convex" padding="-2.5" />
+		</body>
+		<body remove_ray_type="vis_graph ai_vision" name="window1" enabled="true" template="window">
+			<object name="rp_bry_prop_guardhouse" />
+			<object name="c_box_020" collision_type="box" padding="-2.5" />
+		</body>
+		<body remove_ray_type="vis_graph ai_vision" name="window2" enabled="true" template="window">
+			<object name="rp_bry_prop_guardhouse" />
+			<object name="c_box_019" collision_type="box" padding="-2.5" />
+		</body>
+		<body remove_ray_type="vis_graph ai_vision" name="window3" enabled="true" template="window">
+			<object name="rp_bry_prop_guardhouse" />
+			<object name="c_box_021" collision_type="box" padding="-2.5" />
+		</body>
+		<body remove_ray_type="vis_graph ai_vision" name="window4" enabled="true" template="window">
+			<object name="rp_bry_prop_guardhouse" />
+			<object name="c_box_022" collision_type="box" padding="-2.5" />
+		</body>
+		<body remove_ray_type="vis_graph ai_vision" name="window5" enabled="true" template="window">
+			<object name="rp_bry_prop_guardhouse" />
+			<object name="c_box_023" collision_type="box" padding="-2.5" />
+		</body>
+	</bodies>
+	<decal_surfaces default_material="glass_breakable">
+		<decal_mesh name="dm_concrete" enabled="true" material="concrete" />
+		<decal_mesh name="dm_glass_breakable_01" enabled="true" material="glass_breakable" />
+		<decal_mesh name="dm_glass_breakable_02" enabled="true" material="glass_breakable" />
+		<decal_mesh name="dm_glass_breakable_03" enabled="true" material="glass_breakable" />
+		<decal_mesh name="dm_glass_breakable_04" enabled="true" material="glass_breakable" />
+		<decal_mesh name="dm_glass_breakable_05" enabled="true" material="glass_breakable" />
+		<decal_mesh name="dm_metal" enabled="true" material="sheet_metal" />
+	</decal_surfaces>
+	<graphics>
+		<lod_object name="lod_guardhouse">
+			<object name="g_guardhouse_lod0" enabled="true" max_distance="1500" />
+			<object name="g_guardhouse_lod1" enabled="true" max_distance="3000" />
+			<object name="g_guardhouse_lod2" enabled="true" />
+		</lod_object>
+
+		<object name="g_glass_01" enabled="true" />
+		<object name="g_glass_dmg_01" enabled="false" />
+		<object name="g_glass_02" enabled="true" />
+		<object name="g_glass_dmg_02" enabled="false" />
+		<object name="g_glass_03" enabled="true" />
+		<object name="g_glass_dmg_03" enabled="false" />
+		<object name="g_glass_04" enabled="true" />
+		<object name="g_glass_dmg_04" enabled="false" />
+		<object name="g_glass_05" enabled="true" />
+		<object name="g_glass_dmg_05" enabled="false" />
+		<object name="s_s" enabled="true" shadow_caster="true" />
+	</graphics>
+</dynamic_object>

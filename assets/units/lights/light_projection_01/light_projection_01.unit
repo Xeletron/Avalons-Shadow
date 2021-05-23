@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<unit name="light_projection_01" type="dev" slot="1">
+  <object file="units/lights/light_projection_01/light_projection_01" />
+  <extensions>
+    <extension name="unit_data" class="ScriptUnitData">
+      <var name="only_visible_in_editor" value="true" />
+    </extension>
+  </extensions>
+</unit>

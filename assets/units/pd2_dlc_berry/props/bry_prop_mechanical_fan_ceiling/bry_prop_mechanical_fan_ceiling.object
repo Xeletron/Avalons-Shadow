@@ -1,0 +1,39 @@
+<dynamic_object>
+	<diesel materials="units/pd2_dlc_berry/props/bry_prop_mechanical_fan_ceiling/bry_prop_mechanical_fan_ceiling" orientation_object="rp_bry_prop_mechanical_fan_ceiling" />
+	<sequence_manager file="units/pd2_dlc_berry/props/bry_prop_mechanical_fan_ceiling/bry_prop_mechanical_fan_ceiling" />
+	<animations>
+		<animation_group name="anim_fan_group" enabled="false">
+			<object name="anim_fan" />
+		</animation_group>
+	</animations>
+	<bodies>
+		<body name="body_static" enabled="true" template="static">
+			<object name="rp_bry_prop_mechanical_fan_ceiling" />
+			<object name="c_box_01" collision_type="box" padding="-2.5" />
+			<object name="c_box_02" collision_type="box" padding="-2.5" />
+			<object name="c_box_03" collision_type="box" padding="-2.5" />
+		</body>
+	</bodies>
+	<decal_surfaces default_material="metal">
+		<decal_mesh name="dm_metal" enabled="true" material="sheet_metal" />
+		<decal_mesh name="dm_fan_metal" enabled="true" material="sheet_metal" />
+	</decal_surfaces>
+	<graphics>
+		<lod_object name="lod_g">
+			<object name="g_lod0" enabled="true" max_distance="3500" />
+			<object name="g_lod1" enabled="true" max_distance="4500" />
+			<object name="g_lod2" enabled="true" />
+		</lod_object>
+		<lod_object name="lod_g_fan">
+			<object name="g_fan_lod0" enabled="true" max_distance="2500" />
+			<object name="g_fan_lod1" enabled="true" max_distance="3500" />
+			<object name="g_fan_lod2" enabled="true" />
+		</lod_object>
+		<object name="s_s" enabled="true" shadow_caster="true" />
+		<object name="g_cone" enabled="true" />
+		<object name="g_plane" enabled="true" />
+	</graphics>
+<lights>
+	<light multiplier="megatron" editable="true" name="ls_spotlight" enabled="true" projection="true" far_range="650" type="plane_projection|spot|specular" texture="units/pd2_dlc_berry/props/bry_prop_mechanical_fan_ceiling/bry_prop_mechanical_fan_ceiling_projection_df" />
+</lights>
+</dynamic_object>
