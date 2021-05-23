@@ -68344,10 +68344,14 @@
 					<entry key="base_delay" type="number" value="0"/>
 					<entry key="dialogue" type="string" value="hwu_10_thermite"/>
 					<entry key="enabled" type="boolean" value="true"/>
-					<entry key="execute_on_executed_when_done" type="boolean" value="false"/>
+					<entry key="execute_on_executed_when_done" type="boolean" value="true"/>
 					<entry key="execute_on_startup" type="boolean" value="false"/>
 					<entry key="force_quit_current" type="boolean" value="true"/>
 					<entry key="on_executed" type="table">
+						<entry index="1" type="table">
+							<entry key="delay" type="number" value="4"/>
+							<entry key="id" type="number" value="102119"/>
+						</entry>
 					</entry>
 					<entry key="position" type="vector3" value="-1050 -2800 5520"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
