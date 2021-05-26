@@ -3,7 +3,7 @@
     <bodies>
         <body enabled="true" template="static" name="body_static" >
             <object name="rp_pna_ext_landscape_boulder_c" />
-            <object collision_type="box" name="c_box_01" />
+            <object collision_type="mesh_mopp" name="g_lod1" />
         </body>
     </bodies>
     <decal_surfaces>

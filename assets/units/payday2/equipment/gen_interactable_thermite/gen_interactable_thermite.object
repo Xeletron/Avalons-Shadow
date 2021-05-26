@@ -24,7 +24,7 @@
             <object     name="c_convex_4" collision_type="convex" />
         </body>
 		
-		<body name="body_floor_whole" enabled="true" template="static">
+		<body name="body_floor_whole" enabled="false" template="static">
 			<object name="rp_gen_interactable_thermite" />
 			<object name="c_box_floor_whole" collision_type="box" padding="-2.5" />
 		</body>
@@ -45,12 +45,12 @@
 	</bodies>
 	<decal_surfaces>
 		<decal_mesh name="dm_thermite_frame" 	enabled="true" material="steel" />
-		<decal_mesh name="g_floor_whole" 		enabled="true" material="marble" />
+		<decal_mesh name="g_floor_whole" 		enabled="false" material="marble" />
 		<decal_mesh name="g_floor_melted" 		enabled="false" material="marble" />
 	</decal_surfaces>
 	
 	<graphics>
-		<object name="g_floor_whole" 		enabled="true"/>
+		<object name="g_floor_whole" 		enabled="false"/>
 		<object name="g_floor_melted" 		enabled="false"/>
 		<object name="g_floor_melted_il" 	enabled="false"/>
 		<object name="g_dirt_plane" 		enabled="false"/>

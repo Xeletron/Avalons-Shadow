@@ -14,6 +14,7 @@
 		<packages/>
 	</instance>
 	<instance id="hwu_documents">
+		<add file="levels/instances/hwu_documents/add.xml"/>
 		<include directory="levels/instances/hwu_documents">
 			<file file="world.world" type="generic_xml"/>
 			<file file="continents.continents" type="custom_xml"/>
@@ -84,6 +85,7 @@
 		<loc file="english.txt" language="english"/>
 	</Localization>
 	<Sounds directory="assets/vo">
+		<sound id="hwu_brief" path="brief_1.ogg"/>
 		<sound id="hwu_1_start" path="1_1_start.ogg" subtitle_id="hwu_1_start_sub"/>
 		<sound id="hwu_1_laptop" path="1_1_laptop.ogg" subtitle_id="hwu_1_laptop_sub"/>
 		<sound id="hwu_2_usb" path="2_1_usb.ogg" subtitle_id="hwu_2_usb_sub"/>
@@ -109,7 +111,7 @@
 		<sound id="hwu_18_end" path="18_1_end.ogg" subtitle_id="hwu_18_end_sub"/>
 		<sound id="hwu_19_hatch" path="19_1_hatch.ogg" subtitle_id="hwu_19_hatch_sub"/>
 	</Sounds>
-	<level ai_group_type="America" briefing_dialog="" ghost_bonus="0.4" id="hwu" intro_event="" load_screen="guis/dlcs/pic/textures/loading/job_hwu" max_bags="54" player_style="generic">
+	<level ai_group_type="America" briefing_dialog="hwu_brief" ghost_bonus="0.4" id="hwu" intro_event="" load_screen="guis/dlcs/pic/textures/loading/job_hwu" max_bags="54" player_style="generic">
 		<add file="levels/hwu/add.xml"/>
 		<assets>
 			<asset name="bodybags_bag"/>
