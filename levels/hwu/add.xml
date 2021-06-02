@@ -125,6 +125,8 @@
 		<sequence_manager path="units/payday2/equipment/gen_interactable_thermite/gen_interactable_thermite" unload="true"/>
 		<unit path="units/payday2/equipment/gen_interactable_thermite/gen_interactable_thermite" unload="true"/>
 		<bnk path="soundbanks/des_sfx" unload="true"/>
+		<unit path="units/pd2_dlc_bph/vehicles/bph_turret/bph_turret_crate" unload="true"/>
+		<object path="units/pd2_dlc_bph/vehicles/bph_turret/bph_turret_crate" unload="true"/>
 	</add>
 	<add unload_on_restart="true">
 		<object path="units/pd2_dlc_berry/architecture/bry_mountain_interiors/bry_mountain_second_room" unload="true"/>
@@ -664,35 +666,6 @@
 		<object path="units/dev_tools/level_tools/dev_ai_vis_blocker/dev_ai_vis_blocker_005x6x6m" unload="true"/>
 		<sequence_manager path="units/dev_tools/level_tools/dev_ai_vis_blocker/dev_ai_vis_blocker_005x6x6m" unload="true"/>
 		<unit path="units/dev_tools/level_tools/dev_ai_vis_blocker/dev_ai_vis_blocker_005x6x6m" unload="true"/>
-	</add>
-	<add path="units/pd2_dlc_bph/vehicles/bph_turret/bph_turret_crate" type="unit">
-		<unit path="units/pd2_dlc_bph/vehicles/bph_turret/bph_turret_crate" unload="true"/>
-		<object path="units/pd2_dlc_bph/vehicles/bph_turret/bph_turret_crate" unload="true"/>
-		<material_config path="units/pd2_dlc_bph/vehicles/bph_turret/bph_turret" unload="true"/>
-		<sequence_manager path="units/pd2_dlc_bph/vehicles/bph_turret/bph_turret_crate" unload="true"/>
-		<effect load="true" path="effects/payday2/particles/smoke_trail/smoke_puff_grey" unload="true"/>
-		<unit path="units/pd2_dlc_bph/vehicles/bph_turret/bph_turret" unload="true"/>
-		<object path="units/pd2_dlc_bph/vehicles/bph_turret/bph_turret" unload="true"/>
-		<sequence_manager path="units/pd2_dlc_bph/vehicles/bph_turret/bph_turret" unload="true"/>
-		<unit path="units/pd2_dlc_bph/vehicles/bph_turret/spawn_turret_debris" unload="true"/>
-		<object path="units/pd2_dlc_bph/vehicles/bph_turret/spawn_turret_debris" unload="true"/>
-		<material_config path="units/pd2_dlc_bph/vehicles/bph_turret/bph_debris_turret" unload="true"/>
-		<unit path="units/pd2_dlc_bph/vehicles/bph_turret/spawn_shield" unload="true"/>
-		<object path="units/pd2_dlc_bph/vehicles/bph_turret/spawn_shield" unload="true"/>
-		<effect load="true" path="effects/particles/weapons/flashlight/flashlight" unload="true"/>
-		<effect load="true" path="effects/payday2/particles/explosions/sentry_aftersmoke" unload="true"/>
-		<effect load="true" path="effects/payday2/particles/explosions/sentry_damage_smoke" unload="true"/>
-		<effect load="true" path="effects/payday2/particles/explosions/sentry_damage_smoke_med" unload="true"/>
-		<effect load="true" path="effects/payday2/particles/explosions/sentry_damage_smoke_large" unload="true"/>
-		<effect load="true" path="effects/payday2/particles/explosions/sparks/sparks_loop" unload="true"/>
-		<effect load="true" path="effects/payday2/particles/weapons/big_762_auto" unload="true"/>
-		<effect load="true" path="effects/payday2/particles/weapons/parts/combo_light_all" unload="true"/>
-		<effect load="true" path="effects/payday2/particles/weapons/parts/distance_halo_big" unload="true"/>
-		<effect load="true" path="effects/payday2/particles/weapons/shells/shell_556_lmg" unload="true"/>
-		<effect load="true" path="effects/payday2/particles/weapons/shells/shell_link" unload="true"/>
-		<effect load="true" path="effects/payday2/particles/explosions/sentry_explosion" unload="true"/>
-		<bnk path="soundbanks/weapon_swatturret" unload="true"/>
-		<physic_effect path="physic_effects/push_sphere" unload="true"/>
 	</add>
 	<add path="units/pd2_dlc_friend/props/sfm_prop_bedroom_bar/sfm_prop_bedroom_bar_gin" type="unit">
 		<material_config path="units/pd2_dlc_friend/props/sfm_prop_bedroom_bar/sfm_prop_bedroom_bar_gin" unload="true"/>
