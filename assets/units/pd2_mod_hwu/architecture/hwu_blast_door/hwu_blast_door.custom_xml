@@ -6,7 +6,7 @@
 			<sound action="'play'" event="'des_big_door_anim_open_R'" source="'snd_right'"/>
 		</sequence>
 		<sequence editable_state="true" name="'anim_door_close'" triggable="true">
-			<animation_group enabled="true" from="400/30" name="'open'" to="510/30"/>
+			<animation_group enabled="true" from="400/30" name="'open'" to="0/30" speed="-1"/>
 			<sound action="'play'" event="'des_big_door_anim_close_L'" source="'snd_left'"/>
 			<sound action="'play'" event="'des_big_door_anim_close_R'" source="'snd_right'"/>
 		</sequence>

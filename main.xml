@@ -28,20 +28,6 @@
 		</include>
 		<packages/>
 	</instance>
-	<instance id="hwu_methlab">
-		<include directory="levels/instances/hwu_methlab">
-			<file file="world.world" type="generic_xml"/>
-			<file file="continents.continents" type="custom_xml"/>
-			<file file="mission.mission" type="custom_xml"/>
-			<file file="nav_manager_data.nav_data" type="generic_xml"/>
-			<file file="world_sounds.world_sounds" type="generic_xml"/>
-			<file file="world_cameras.world_cameras" type="custom_xml"/>
-			<file file="world/world.continent" type="custom_xml"/>
-			<file file="world/world.mission" type="generic_xml"/>
-			<file file="cover_data.cover_data" type="custom_xml"/>
-		</include>
-		<packages/>
-	</instance>
 	<instance id="hwu_server">
 		<add file="levels/instances/hwu_server/add.xml"/>
 		<include directory="levels/instances/hwu_server">
