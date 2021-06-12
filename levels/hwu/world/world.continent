@@ -371,7 +371,7 @@
 			<unit_data _prev_pos="-5500 0 -800" _prev_rot="0 0 -0.707107 -0.707107" _visibility_counter="0" continent="world" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="-975 5280 -820" local_rot="0 0 0.707107 0.707107" name="units/payday2/architecture/str_bdrop_buildings_forest/str_bdrop_buildings_forest" name_id="str_bdrop_buildings_forest_001" position="-5500 0 -800" rotation="0 0 -0.707107 -0.707107" unit_id="100000"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="38110 118250 -499.998" _prev_rot="0 0 0 -1" _visibility_counter="0" continent="world" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/architecture/gen_watchdog_2_water/warehouse_water" name_id="warehouse_water_001" position="38110 118250 -499.998" rotation="-0 0 -0 -1" unit_id="100116"/>
+			<unit_data _prev_pos="38110 118250 -499.998" _prev_rot="-0 0 -0 -1" _visibility_counter="0" continent="world" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/architecture/gen_watchdog_2_water/warehouse_water" name_id="warehouse_water_001" position="38110 118250 -499.998" rotation="-0 0 -0 -1" unit_id="100116"/>
 		</table>
 		<table>
 			<unit_data _prev_pos="-3181.13 3783.42 20" _prev_rot="0 0 0.707107 -0.707107" continent="world" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="1343.87 9063.42 0" local_rot="0 0 -0.707107 0.707107" mesh_variation="omni_on" name="units/payday2/props/ind_prop_street_lamppost/ind_prop_street_lamppost" name_id="ind_prop_street_lamppost_001" position="-3181.13 3783.42 20" rotation="0 0 0.707107 -0.707107" unit_id="100119"/>
@@ -4935,7 +4935,7 @@
 			</unit_data>
 		</table>
 		<table>
-			<unit_data _prev_pos="-11597.2 -5596.02 -1676.79" _prev_rot="0.821874 -0.299138 -0.165815 0.455572" continent="world" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="-7072.2 -316.02 -1696.79" local_rot="-0.821874 0.299138 0.165815 -0.455572" name="units/lights/light_projection_01/light_projection_01" name_id="light_projection_01_028" only_visible_in_editor="true" position="-11597.2 -5596.02 -1676.79" projection_light="ls_spot" rotation="0.821874 -0.299138 -0.165815 0.455572" unit_id="102359">
+			<unit_data _prev_pos="-11557.8 -5541.82 -1676.79" _prev_rot="0.821874 -0.299138 -0.165815 0.455572" continent="world" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="3.82075 50.814 464.434" local_rot="-0.593581 0.642727 0.348972 -0.335832" name="units/lights/light_projection_01/light_projection_01" name_id="light_projection_01_028" only_visible_in_editor="true" position="-11568.4 -5556.38 -1676.79" projection_light="ls_spot" rotation="0.821874 -0.299138 -0.165815 0.455572" unit_id="102359">
 				<lights>
 					<table clipping_values="10000 -10000 0" color="0.992157 1 1" enabled="true" falloff_exponent="6.6" far_range="1200" multiplier="@IDc1749c1433ffb099@" name="ls_spot" near_range="80" spot_angle_end="86.0181" spot_angle_start="43"/>
 				</lights>
@@ -4959,7 +4959,7 @@
 			</unit_data>
 		</table>
 		<table>
-			<unit_data _prev_pos="-10907.6 -6068.51 -1678.71" _prev_rot="-0.0838287 0.870593 0.482578 -0.0464677" continent="world" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="-6382.6 -788.51 -1698.71" local_rot="0.0838287 -0.870593 -0.482578 0.0464677" name="units/lights/light_projection_01/light_projection_01" name_id="light_projection_01_031" only_visible_in_editor="true" position="-10907.6 -6068.51 -1678.71" projection_light="ls_spot" rotation="-0.0838287 0.870593 0.482578 -0.0464677" unit_id="102361">
+			<unit_data _prev_pos="-10868.2 -6014.31 -1678.71" _prev_rot="-0.0838287 0.870593 0.482578 -0.0464677" continent="world" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="26.9054 -784.713 477.098" local_rot="-0.318986 -0.817667 -0.443957 -0.180473" name="units/lights/light_projection_01/light_projection_01" name_id="light_projection_01_031" only_visible_in_editor="true" position="-10878.8 -6028.87 -1678.71" projection_light="ls_spot" rotation="-0.0838287 0.870593 0.482578 -0.0464677" unit_id="102361">
 				<lights>
 					<table clipping_values="10000 -10000 0" color="0.992157 1 1" enabled="true" falloff_exponent="6.6" far_range="1200" multiplier="@IDc1749c1433ffb099@" name="ls_spot" near_range="80" spot_angle_end="86.0181" spot_angle_start="43"/>
 				</lights>
@@ -6267,6 +6267,30 @@
 		</table>
 		<table>
 			<unit_data _prev_pos="-19072.5 -6471 26" _prev_rot="0 0 1 -0" continent="world" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 3200 0" local_rot="0 0 0 1" name="units/payday2/architecture/ind/ind_ext_harbour/ind_ext_harbour_side_16m" name_id="ind_ext_harbour_side_16m_057" position="-19072.5 -71 26" rotation="0 0 1 -0" unit_id="100881"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-12497.8 -5012.76 -1759" _prev_rot="-0 0 -0 -1" continent="world" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="core/units/light_omni/light_omni" name_id="light_omni_476" only_visible_in_editor="true" position="-12497.8 -5052.76 -1759" rotation="-0 0 -0 -1" unit_id="100716">
+				<lights>
+					<table clipping_values="10000 -10000 0" color="0.556863 0.478431 0.603922" enabled="true" falloff_exponent="10" far_range="1000" multiplier="@ID18ceffa252d5a43d@" name="lo_omni" near_range="80" spot_angle_end="1" spot_angle_start="1"/>
+				</lights>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="-9582.32 -4237.68 -1888" _prev_rot="0 0 0 -1" continent="world" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="core/units/light_omni/light_omni" name_id="light_omni_205" only_visible_in_editor="true" position="-9550.32 -4237.68 -1888" rotation="0 0 0 -1" unit_id="100882">
+				<lights>
+					<table clipping_values="10000 -10000 0" color="0.447059 0.803922 1" enabled="true" falloff_exponent="10" far_range="400" multiplier="@ID3385027996510d31@" name="lo_omni" near_range="80" spot_angle_end="1" spot_angle_start="1"/>
+				</lights>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="-9650.32 -4537.68 -1888" _prev_rot="0 0 0 -1" continent="world" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="core/units/light_omni/light_omni" name_id="light_omni_217" only_visible_in_editor="true" position="-9673.32 -4537.68 -1888" rotation="0 0 0 -1" unit_id="100884">
+				<lights>
+					<table clipping_values="10000 -10000 0" color="0.447059 0.803922 1" enabled="true" falloff_exponent="10" far_range="400" multiplier="@ID3385027996510d31@" name="lo_omni" near_range="80" spot_angle_end="1" spot_angle_start="1"/>
+				</lights>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="-15435.7 -3908.16 -1760" _prev_rot="0 -1.02949e-008 -0 -1" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_dark/props/drk_prop_murkywater_crate/drk_prop_murkywater_crate" name_id="drk_prop_murkywater_crate_015" position="-15447.7 -3908.16 -1760" rotation="0 -1.02949e-008 -0 -1" unit_id="100887"/>
 		</table>
 	</statics>
 	<values>
