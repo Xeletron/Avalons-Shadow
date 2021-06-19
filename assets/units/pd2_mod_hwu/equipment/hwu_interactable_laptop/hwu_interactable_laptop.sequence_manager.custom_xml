@@ -165,16 +165,16 @@
 			<object enabled="true" name="'g_window'"/>
 			<object enabled="false" name="'g_window'" start_time="37/30"/>
 			<object enabled="true" name="'g_email_01'" start_time="37/30"/>
-			<object enabled="true" name="'g_email_02'" start_time="51/30"/>
-			<object enabled="false" name="'g_email_01'" start_time="51/30"/>
-			<object enabled="true" name="'g_email_03'" start_time="75/30"/>
-			<object enabled="false" name="'g_email_02'" start_time="75/30"/>
-			<object enabled="true" name="'g_email_04'" start_time="93/30"/>
-			<object enabled="false" name="'g_email_03'" start_time="93/30"/>
-			<object enabled="true" name="'g_email_05'" start_time="120/30"/>
-			<object enabled="false" name="'g_email_04'" start_time="120/30"/>
-			<object enabled="true" name="'g_email_correct'" start_time="145/30"/>
-			<run_sequence name="'done_searching'" start_time="145/30"/>
+			<object enabled="true" name="'g_email_02'" start_time="81/30"/>
+			<object enabled="false" name="'g_email_01'" start_time="81/30"/>
+			<object enabled="true" name="'g_email_03'" start_time="135/30"/>
+			<object enabled="false" name="'g_email_02'" start_time="135/30"/>
+			<object enabled="true" name="'g_email_04'" start_time="153/30"/>
+			<object enabled="false" name="'g_email_03'" start_time="153/30"/>
+			<object enabled="true" name="'g_email_05'" start_time="190/30"/>
+			<object enabled="false" name="'g_email_04'" start_time="190/30"/>
+			<object enabled="true" name="'g_email_correct'" start_time="235/30"/>
+			<run_sequence name="'done_searching'" start_time="235/30"/>
 		</sequence>
 		<sequence editable_state="false" name="'done_hacking'" triggable="false"/>
 		<sequence editable_state="false" name="'done_searching'" triggable="false"/>

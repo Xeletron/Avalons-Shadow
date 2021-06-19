@@ -127,6 +127,10 @@
 		<unit path="units/pd2_dlc_bph/vehicles/bph_turret/bph_turret_crate" unload="true"/>
 		<object path="units/pd2_dlc_bph/vehicles/bph_turret/bph_turret_crate" unload="true"/>
 		<bnk path="soundbanks/des_sfx" unload="true"/>
+		<material_config path="units/pd2_dlc_des/props/des_prop_server_room_screen/des_prop_server_room_screen" unload="true"/>
+		<object path="units/pd2_dlc_des/props/des_prop_server_room_screen/des_prop_server_room_screen" unload="true"/>
+		<sequence_manager path="units/pd2_dlc_des/props/des_prop_server_room_screen/des_prop_server_room_screen" unload="true"/>
+		<unit path="units/pd2_dlc_des/props/des_prop_server_room_screen/des_prop_server_room_screen" unload="true"/>
 	</add>
 	<add unload_on_restart="true">
 		<object path="units/pd2_dlc_berry/architecture/bry_mountain_interiors/bry_mountain_second_room" unload="true"/>
@@ -421,12 +425,6 @@
 		<object path="units/pd2_dlc_friend/props/sfm_prop_ext_lamp_wall_large/sfm_prop_ext_lamp_wall_large" unload="true"/>
 		<sequence_manager path="units/pd2_dlc_friend/props/sfm_prop_ext_lamp_wall_large/sfm_prop_ext_lamp_wall_large" unload="true"/>
 		<unit path="units/pd2_dlc_friend/props/sfm_prop_ext_lamp_wall_large/sfm_prop_ext_lamp_wall_large" unload="true"/>
-	</add>
-	<add path="units/pd2_dlc_des/props/des_prop_server_room_screen/des_prop_server_room_screen" type="unit">
-		<material_config path="units/pd2_dlc_des/props/des_prop_server_room_screen/des_prop_server_room_screen" unload="true"/>
-		<object path="units/pd2_dlc_des/props/des_prop_server_room_screen/des_prop_server_room_screen" unload="true"/>
-		<sequence_manager path="units/pd2_dlc_des/props/des_prop_server_room_screen/des_prop_server_room_screen" unload="true"/>
-		<unit path="units/pd2_dlc_des/props/des_prop_server_room_screen/des_prop_server_room_screen" unload="true"/>
 	</add>
 	<add path="units/pd2_dlc_mex/props/mex_prop_fueltank/mex_prop_fueltank" type="unit">
 		<material_config path="units/pd2_dlc_mex/props/mex_prop_fueltank/mex_prop_fueltank" unload="true"/>

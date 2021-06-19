@@ -19,9 +19,9 @@
 	</material>
 	<material name="particleCloud1" render_template="generic" version="2" />
     <material render_template="generic:ALPHA_MASKED:DIFFUSE_TEXTURE:EXTERNAL_ALPHA_REF:SELF_ILLUMINATION:SELF_ILLUMINATION_BLOOM" name="mat_logo_lit" version="2">
-        <diffuse_texture file="units/pd2_dlc_des/props/des_prop_screen_logo/des_prop_screen_logo_df"/>
+        <diffuse_texture file="guis/textures/empty"/>
         <variable type="scalar" name="il_multiplier" value="neonsign"/>
-        <self_illumination_texture file="units/pd2_dlc_des/props/des_prop_screen_logo/des_prop_screen_logo_df"/>
+        <self_illumination_texture file="guis/textures/empty"/>
         <variable type="scalar" name="il_bloom" value="9.999000474927"/>
         <variable type="scalar" name="alpha_ref" value="0.11400000541471"/>
     </material>

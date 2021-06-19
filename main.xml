@@ -1,5 +1,6 @@
 <table name="Avalon's Shadow">
 	<instance id="hwu_laptop">
+		<add file="levels/instances/hwu_laptop/add.xml"/>
 		<include directory="levels/instances/hwu_laptop">
 			<file file="world.world" type="generic_xml"/>
 			<file file="continents.continents" type="custom_xml"/>
