@@ -131,6 +131,7 @@
 		<object path="units/pd2_dlc_des/props/des_prop_server_room_screen/des_prop_server_room_screen" unload="true"/>
 		<sequence_manager path="units/pd2_dlc_des/props/des_prop_server_room_screen/des_prop_server_room_screen" unload="true"/>
 		<unit path="units/pd2_dlc_des/props/des_prop_server_room_screen/des_prop_server_room_screen" unload="true"/>
+		<material_config path="units/pd2_dlc_des/architecture/des_int/des_int_server_room/des_int_server_room" unload="true"/>
 	</add>
 	<add unload_on_restart="true">
 		<object path="units/pd2_dlc_berry/architecture/bry_mountain_interiors/bry_mountain_second_room" unload="true"/>
@@ -457,7 +458,6 @@
 		<unit path="units/pd2_dlc_born/props/bor_prop_garage_hydralicjack/bor_prop_garage_hydralicjack" unload="true"/>
 	</add>
 	<add path="units/pd2_dlc_des/architecture/des_int/des_int_server_room/des_int_server_room" type="unit">
-		<material_config path="units/pd2_dlc_des/architecture/des_int/des_int_server_room/des_int_server_room" unload="true"/>
 		<object path="units/pd2_dlc_des/architecture/des_int/des_int_server_room/des_int_server_room" unload="true"/>
 		<sequence_manager path="units/pd2_dlc_des/architecture/des_int/des_int_server_room/des_int_server_room" unload="true"/>
 		<unit path="units/pd2_dlc_des/architecture/des_int/des_int_server_room/des_int_server_room" unload="true"/>
