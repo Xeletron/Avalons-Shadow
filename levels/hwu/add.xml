@@ -148,6 +148,13 @@
 		<object path="units/pd2_dlc_berry/props/bry_prop_servers/bry_prop_server_02" unload="true"/>
 		<material_config path="units/pd2_dlc_berry/architecture/bry_mountain_interiors/bry_mountain_main_interior" unload="true"/>
 	</add>
+	<add unload_on_restart="true" from_db="true">
+		<object path="units/pd2_mcmansion/props/mcm_prop_evidence_box/mcm_prop_evidence_box" />
+		<unit path="units/pd2_mcmansion/props/mcm_prop_evidence_box/mcm_prop_evidence_box" />
+		<model path="units/pd2_mcmansion/props/mcm_prop_evidence_box/mcm_prop_evidence_box" />
+		<material_config path="units/pd2_mcmansion/props/mcm_prop_evidence_box/mcm_prop_evidence_box" />
+		<sequence_manager path="units/pd2_mcmansion/props/mcm_prop_evidence_box/mcm_prop_evidence_box" />
+	</add>
 	<add path="units/payday2/props/gen_prop_long_lamp/gen_prop_long_lamp_v5" type="unit">
 		<material_config path="units/payday2/props/gen_prop_long_lamp/gen_prop_long_lamp" unload="true"/>
 		<object path="units/payday2/props/gen_prop_long_lamp/gen_prop_long_lamp_v5" unload="true"/>
