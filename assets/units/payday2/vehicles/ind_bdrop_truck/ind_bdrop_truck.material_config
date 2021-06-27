@@ -1,7 +1,0 @@
-<materials version="3">
-    <material name="mtr_truck" render_template="generic:ALPHA_MASKED:DIFFUSE_TEXTURE:EXTERNAL_ALPHA_REF:NORMALMAP" version="2">
-        <diffuse_texture file="units/payday2/vehicles/ind_bdrop_truck/truck_df"/>
-        <bump_normal_texture file="units/payday2/vehicles/ind_bdrop_truck/truck_nm"/>
-        <variable value="0.032000001519918" type="scalar" name="alpha_ref"/>
-    </material>
-</materials>

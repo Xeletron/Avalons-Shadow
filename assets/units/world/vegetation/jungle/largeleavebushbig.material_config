@@ -1,9 +1,0 @@
-<materials version="3">
-    <material name="largeleavebushbig" render_template="generic:ALPHA_MASKED:DIFFUSE_TEXTURE:DOUBLE_SIDED:EXTERNAL_ALPHA_REF:NORMALMAP:OPACITY_TEXTURE" version="2">
-        <variable value="0" type="scalar" name="specular_power"/>
-        <diffuse_texture file="units/world/vegetation/jungle/largeleavebushbig_df"/>
-        <opacity_texture file="units/world/vegetation/jungle/largeleavebushbig_op"/>
-        <variable value="0.5" type="scalar" name="alpha_ref"/>
-        <bump_normal_texture file="units/world/vegetation/jungle/largeleavebushbig_nm"/>
-    </material>
-</materials>

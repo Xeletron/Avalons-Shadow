@@ -1,5 +1,5 @@
 <table directory="assets">
-	<add unload_on_restart="true">
+	<add from_db="true" unload_on_restart="true">
 		<material_config path="units/pd2_dlc_des/props/des_interactable_secret_document/des_interactable_secret_document" unload="true"/>
 		<object path="units/pd2_dlc_des/props/des_interactable_secret_document/des_interactable_secret_document" unload="true"/>
 		<sequence_manager path="units/pd2_dlc_des/props/des_interactable_secret_document/des_interactable_secret_document" unload="true"/>
