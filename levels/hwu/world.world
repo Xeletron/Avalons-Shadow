@@ -4523,6 +4523,14 @@
 			<entry key="group_state" type="string" value="besiege"/>
 		</entry>
 	</entry>
+	<entry key="brush" type="table">
+		<entry key="file" type="string" value="massunit"/>
+		<entry key="preload_units" type="table">
+			<entry index="1" type="string" value="units/world/architecture/secret_stash/brushes/secret_stash_brush_rubble_13"/>
+			<entry index="2" type="string" value="units/world/architecture/secret_stash/props/secret_stash_props_trash_3"/>
+			<entry index="3" type="string" value="units/world/vegetation/jungle/brushes/brush_grass_03"/>
+		</entry>
+	</entry>
 	<entry key="environment" type="table">
 		<entry key="cubemap_gizmos" type="table">
 		</entry>

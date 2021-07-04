@@ -91,33 +91,7 @@
 	<Localization default="english.txt" directory="loc">
 		<loc file="english.txt" language="english"/>
 	</Localization>
-	<Sounds directory="assets/vo">
-		<sound id="hwu_brief" path="brief_1.ogg"/>
-		<sound id="hwu_1_start" path="1_1_start.ogg" subtitle_id="hwu_1_start_sub"/>
-		<sound id="hwu_1_laptop" path="1_1_laptop.ogg" subtitle_id="hwu_1_laptop_sub"/>
-		<sound id="hwu_2_usb" path="2_1_usb.ogg" subtitle_id="hwu_2_usb_sub"/>
-		<sound id="hwu_3_usb" path="3_1_usb.ogg" subtitle_id="hwu_3_usb_sub"/>
-		<sound id="hwu_4_wires" path="4_1_wires.ogg" subtitle_id="hwu_4_wires_sub"/>
-		<sound id="hwu_5_hack" path="5_1_hack.ogg" subtitle_id="hwu_5_hack_sub"/>
-		<sound id="hwu_6_sewers" path="6_1_sewers.ogg" subtitle_id="hwu_6_sewers_sub"/>
-		<sound id="hwu_7_blackout" path="7_1_blackout.ogg" subtitle_id="hwu_7_blackout_sub"/>
-		<sound id="hwu_8_computer" path="8_1_computer.ogg" subtitle_id="hwu_8_computer_sub"/>
-		<sound id="hwu_8_facility" path="8_1_facility.ogg" subtitle_id="hwu_8_facility_sub"/>
-		<sound id="hwu_9_code" path="9_1_code.ogg" subtitle_id="hwu_9_code_sub"/>
-		<sound id="hwu_10_thermite" path="10_1_thermite.ogg" subtitle_id="hwu_10_thermite_sub"/>
-		<sound id="hwu_11_elevator" path="11_1_elevator.ogg" subtitle_id="hwu_11_elevator_sub"/>
-		<sound id="hwu_12_files" path="12_1_files.ogg" subtitle_id="hwu_12_files_sub"/>
-		<sound id="hwu_12_rig" path="12_1_rig.ogg" subtitle_id="hwu_12_rig_sub"/>
-		<sound id="hwu_12_thermite" path="12_1_thermite.ogg" subtitle_id="hwu_12_thermite_sub"/>
-		<sound id="hwu_13_entrance" path="13_1_entrance.ogg" subtitle_id="hwu_13_entrance_sub"/>
-		<sound id="hwu_14_circuit" path="14_1_circuit.ogg" subtitle_id="hwu_14_circuit_sub"/>
-		<sound id="hwu_15_room" path="15_1_room.ogg" subtitle_id="hwu_15_room_sub"/>
-		<sound id="hwu_16_data" path="16_1_data.ogg" subtitle_id="hwu_16_data_sub"/>
-		<sound id="hwu_16_replace" path="16_1_replace.ogg" subtitle_id="hwu_16_replace_sub"/>
-		<sound id="hwu_17_escape" path="17_1_escape.ogg" subtitle_id="hwu_17_escape_sub"/>
-		<sound id="hwu_18_end" path="18_1_end.ogg" subtitle_id="hwu_18_end_sub"/>
-		<sound id="hwu_19_hatch" path="19_1_hatch.ogg" subtitle_id="hwu_19_hatch_sub"/>
-	</Sounds>
+	<XML path="scriptdata/sounds.sounds"/>
 	<level ai_group_type="America" briefing_dialog="hwu_brief" ghost_bonus="0.4" id="hwu" intro_event="" load_screen="guis/dlcs/pic/textures/loading/job_hwu" max_bags="54" player_style="generic">
 		<add file="levels/hwu/add.xml"/>
 		<assets>
@@ -128,6 +102,7 @@
 		</assets>
 		<hooks directory="hooks">
 			<hook file="InteractionTweakData.lua" source_file="lib/tweak_data/interactiontweakdata"/>
+			<hook file="DialogManager.lua" source_file="lib/managers/dialogmanager"/>
 		</hooks>
 		<outro_event>
 			<value_node value=""/>
@@ -141,6 +116,12 @@
 		</packages>
 		<script_data_mods directory="scriptdata">
 			<mod replacement="objectives.objective" replacement_type="custom_xml" target_ext="objective" target_path="gamedata/objectives">
+				<options merge_mode="add" mode="add"/>
+			</mod>
+			<mod replacement="s_hwu_stage1.dialogue" replacement_type="custom_xml" target_ext="dialog" target_path="gamedata/dialogs/s_hwu_stage1">
+				<options merge_mode="add" mode="add"/>
+			</mod>
+			<mod replacement="index.dialog_index" replacement_type="custom_xml" target_ext="dialog_index" target_path="gamedata/dialogs/index">
 				<options merge_mode="add" mode="add"/>
 			</mod>
 		</script_data_mods>

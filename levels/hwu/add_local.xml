@@ -5,6 +5,7 @@
 	<nav_data path="nav_manager_data" script_data_type="generic_xml"/>
 	<world_sounds path="world_sounds" script_data_type="generic_xml"/>
 	<world_cameras path="world_cameras" script_data_type="custom_xml"/>
+	<massunit path="massunit" reload="true"/>
 	<continent path="underground/underground" script_data_type="custom_xml"/>
 	<mission path="underground/underground" script_data_type="generic_xml"/>
 	<continent path="sewer/sewer" script_data_type="custom_xml"/>
