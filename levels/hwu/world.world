@@ -6397,6 +6397,7 @@
 				<entry key="ids" type="table">
 					<entry index="600002" type="boolean" value="true"/>
 					<entry index="600003" type="boolean" value="true"/>
+					<entry index="600004" type="boolean" value="true"/>
 					<entry index="600005" type="boolean" value="true"/>
 					<entry index="600006" type="boolean" value="true"/>
 					<entry index="600007" type="boolean" value="true"/>
@@ -6433,11 +6434,17 @@
 					<entry index="600039" type="boolean" value="true"/>
 					<entry index="600040" type="boolean" value="true"/>
 					<entry index="600041" type="boolean" value="true"/>
+					<entry index="600042" type="boolean" value="true"/>
 					<entry index="600043" type="boolean" value="true"/>
 					<entry index="600044" type="boolean" value="true"/>
 					<entry index="600045" type="boolean" value="true"/>
 					<entry index="600046" type="boolean" value="true"/>
+					<entry index="600047" type="boolean" value="true"/>
+					<entry index="600048" type="boolean" value="true"/>
 					<entry index="600049" type="boolean" value="true"/>
+					<entry index="600050" type="boolean" value="true"/>
+					<entry index="600051" type="boolean" value="true"/>
+					<entry index="600052" type="boolean" value="true"/>
 					<entry index="600053" type="boolean" value="true"/>
 					<entry index="600054" type="boolean" value="true"/>
 					<entry index="600055" type="boolean" value="true"/>
@@ -6485,12 +6492,17 @@
 					<entry index="600098" type="boolean" value="true"/>
 					<entry index="600099" type="boolean" value="true"/>
 					<entry index="600100" type="boolean" value="true"/>
+					<entry index="600102" type="boolean" value="true"/>
+					<entry index="600103" type="boolean" value="true"/>
+					<entry index="600105" type="boolean" value="true"/>
 					<entry index="600106" type="boolean" value="true"/>
 					<entry index="600107" type="boolean" value="true"/>
 					<entry index="600108" type="boolean" value="true"/>
+					<entry index="600110" type="boolean" value="true"/>
 					<entry index="600112" type="boolean" value="true"/>
 					<entry index="600113" type="boolean" value="true"/>
 					<entry index="600115" type="boolean" value="true"/>
+					<entry index="600116" type="boolean" value="true"/>
 					<entry index="600117" type="boolean" value="true"/>
 					<entry index="600118" type="boolean" value="true"/>
 					<entry index="600119" type="boolean" value="true"/>
@@ -6574,7 +6586,6 @@
 					<entry index="600202" type="boolean" value="true"/>
 					<entry index="600203" type="boolean" value="true"/>
 					<entry index="600204" type="boolean" value="true"/>
-					<entry index="600207" type="boolean" value="true"/>
 					<entry index="600208" type="boolean" value="true"/>
 					<entry index="600223" type="boolean" value="true"/>
 					<entry index="600224" type="boolean" value="true"/>
@@ -6656,7 +6667,6 @@
 					<entry index="600300" type="boolean" value="true"/>
 					<entry index="600301" type="boolean" value="true"/>
 					<entry index="600302" type="boolean" value="true"/>
-					<entry index="600303" type="boolean" value="true"/>
 					<entry index="600304" type="boolean" value="true"/>
 					<entry index="600305" type="boolean" value="true"/>
 					<entry index="600306" type="boolean" value="true"/>
@@ -6682,10 +6692,14 @@
 					<entry index="600326" type="boolean" value="true"/>
 					<entry index="600327" type="boolean" value="true"/>
 					<entry index="600328" type="boolean" value="true"/>
+					<entry index="600331" type="boolean" value="true"/>
+					<entry index="600338" type="boolean" value="true"/>
+					<entry index="600345" type="boolean" value="true"/>
+					<entry index="600363" type="boolean" value="true"/>
 				</entry>
 				<entry key="shapes" type="table">
 					<entry index="1" type="table">
-						<entry key="depth" type="number" value="8400"/>
+						<entry key="depth" type="number" value="7900"/>
 						<entry key="height" type="number" value="310"/>
 						<entry key="position" type="vector3" value="559.936 -4711.46 -830"/>
 						<entry key="rotation" type="quaternion" value="0 0 -0.707107 -0.707107"/>
