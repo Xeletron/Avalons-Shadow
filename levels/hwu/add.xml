@@ -98,6 +98,13 @@
 		<model path="units/pd2_mod_hwu/props/hwu_warehouse_signs/hwu_warehouse_sign_admin" unload="true"/>
 		<texture path="units/pd2_mod_hwu/props/hwu_warehouse_signs/hwu_warehouse_signs_df" unload="true"/>
 		<texture path="units/pd2_mod_hwu/props/hwu_warehouse_signs/hwu_warehouse_signs_nm" unload="true"/>
+		
+		<unit path="units/pd2_mod_hwu/props/hwu_prop_loot_toast/hwu_prop_loot_toast" unload="true"/>
+		<object path="units/pd2_mod_hwu/props/hwu_prop_loot_toast/hwu_prop_loot_toast" unload="true"/>
+		<model path="units/pd2_mod_hwu/props/hwu_prop_loot_toast/hwu_prop_loot_toast" unload="true"/>
+		<material_config path="units/pd2_mod_hwu/props/hwu_prop_loot_toast/hwu_prop_loot_toast" unload="true"/>
+		<sequence_manager path="units/pd2_mod_hwu/props/hwu_prop_loot_toast/hwu_prop_loot_toast" unload="true"/>
+		
 		<material_config path="units/payday2/pickups/gen_pku_circuit_board/gen_pku_circuit_board_outline" unload="true"/>
 		<object path="units/payday2/pickups/gen_pku_circuit_board/gen_pku_circuit_board_outline" unload="true"/>
 		<unit path="units/payday2/pickups/gen_pku_circuit_board/gen_pku_circuit_board_outline" unload="true"/>
@@ -1236,12 +1243,6 @@
 		<object path="units/pd2_dlc_friend/props/sfm_prop_ext_lamp_wall_medium/sfm_prop_ext_lamp_wall_medium" unload="true"/>
 		<sequence_manager path="units/pd2_dlc_friend/props/sfm_prop_ext_lamp_wall_medium/sfm_prop_ext_lamp_wall_medium" unload="true"/>
 		<unit path="units/pd2_dlc_friend/props/sfm_prop_ext_lamp_wall_medium/sfm_prop_ext_lamp_wall_medium" unload="true"/>
-	</add>
-	<add from_db="true" path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_toast" type="unit">
-		<material_config path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_toast" unload="true"/>
-		<object path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_toast" unload="true"/>
-		<sequence_manager path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_toast" unload="true"/>
-		<unit path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_toast" unload="true"/>
 	</add>
 	<add from_db="true" path="units/pd2_dlc_friend/props/sfm_veg_forest_wall/sfm_veg_forest_bush_02" type="unit">
 		<material_config path="units/pd2_dlc_friend/props/sfm_veg_forest_wall/sfm_veg_forest_wall" unload="true"/>
