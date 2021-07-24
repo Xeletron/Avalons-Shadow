@@ -98,13 +98,11 @@
 		<model path="units/pd2_mod_hwu/props/hwu_warehouse_signs/hwu_warehouse_sign_admin" unload="true"/>
 		<texture path="units/pd2_mod_hwu/props/hwu_warehouse_signs/hwu_warehouse_signs_df" unload="true"/>
 		<texture path="units/pd2_mod_hwu/props/hwu_warehouse_signs/hwu_warehouse_signs_nm" unload="true"/>
-		
 		<unit path="units/pd2_mod_hwu/props/hwu_prop_loot_toast/hwu_prop_loot_toast" unload="true"/>
 		<object path="units/pd2_mod_hwu/props/hwu_prop_loot_toast/hwu_prop_loot_toast" unload="true"/>
 		<model path="units/pd2_mod_hwu/props/hwu_prop_loot_toast/hwu_prop_loot_toast" unload="true"/>
 		<material_config path="units/pd2_mod_hwu/props/hwu_prop_loot_toast/hwu_prop_loot_toast" unload="true"/>
 		<sequence_manager path="units/pd2_mod_hwu/props/hwu_prop_loot_toast/hwu_prop_loot_toast" unload="true"/>
-		
 		<material_config path="units/payday2/pickups/gen_pku_circuit_board/gen_pku_circuit_board_outline" unload="true"/>
 		<object path="units/payday2/pickups/gen_pku_circuit_board/gen_pku_circuit_board_outline" unload="true"/>
 		<unit path="units/payday2/pickups/gen_pku_circuit_board/gen_pku_circuit_board_outline" unload="true"/>
@@ -5370,7 +5368,7 @@
 	<add from_db="true" path="units/payday2/characters/npc_acc_canvas_bag_1/npc_acc_canvas_bag_1" type="unit">
 		<material_config path="units/payday2/characters/npc_acc_canvas_bag_1/npc_acc_canvas_bag_1" unload="true"/>
 		<object path="units/payday2/characters/npc_acc_canvas_bag_1/npc_acc_canvas_bag_1" unload="true"/>
-		<unit path="units/payday2/characters/npc_acc_canvas_bag_1/npc_acc_canvas_bag_1" unload="true"/>
+		<unit load="true" path="units/payday2/characters/npc_acc_canvas_bag_1/npc_acc_canvas_bag_1" unload="true"/>
 	</add>
 	<add from_db="true" path="units/world/vegetation/jungle/brushes/brush_grass_03" type="unit">
 		<material_config path="units/world/vegetation/jungle/brushes/brush_grass" unload="true"/>
@@ -5406,5 +5404,13 @@
 	</add>
 	<add from_db="true" path="effects/payday2/environment/gas_damage_area" type="effect">
 		<effect load="true" path="effects/payday2/environment/gas_damage_area" unload="true"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_jfr/props/jfr_crate_wine/jfr_crate_wine" type="unit">
+		<unit path="units/pd2_dlc_jfr/props/jfr_crate_wine/jfr_crate_wine" unload="true"/>
+		<object path="units/pd2_dlc_jfr/props/jfr_crate_wine/jfr_crate_wine" unload="true"/>
+		<unit path="units/pd2_dlc_jfr/props/jfr_crate_wine_bag/jfr_crate_wine_bag" unload="true"/>
+		<object path="units/pd2_dlc_jfr/props/jfr_crate_wine_bag/jfr_crate_wine_bag" unload="true"/>
+		<material_config path="units/pd2_dlc_jfr/props/jfr_crate_wine/jfr_crate_wine" unload="true"/>
+		<sequence_manager path="units/pd2_dlc_jfr/props/jfr_crate_wine/jfr_crate_wine" unload="true"/>
 	</add>
 </table>
