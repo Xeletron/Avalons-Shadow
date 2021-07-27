@@ -5413,4 +5413,10 @@
 		<material_config path="units/pd2_dlc_jfr/props/jfr_crate_wine/jfr_crate_wine" unload="true"/>
 		<sequence_manager path="units/pd2_dlc_jfr/props/jfr_crate_wine/jfr_crate_wine" unload="true"/>
 	</add>
+	<add from_db="true" path="units/payday2/equipment/gen_interactable_art_loot/gen_interactable_art_loot" type="unit">
+		<unit path="units/payday2/equipment/gen_interactable_art_loot/gen_interactable_art_loot" unload="true"/>
+		<object path="units/payday2/equipment/gen_interactable_art_loot/gen_interactable_art_loot" unload="true"/>
+		<material_config path="units/payday2/equipment/gen_interactable_art_loot/gen_interactable_art_loot" unload="true"/>
+		<sequence_manager path="units/payday2/equipment/gen_interactable_art_loot/gen_interactable_art_loot" unload="true"/>
+	</add>
 </table>
