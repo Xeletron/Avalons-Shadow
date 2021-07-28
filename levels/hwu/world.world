@@ -4443,14 +4443,14 @@
 			</entry>
 			<entry key="unit_data" type="table">
 				<entry key="_prev_pos" type="vector3" value="-10125 -6046.89 -2172.08"/>
-				<entry key="_prev_rot" type="quaternion" value="0 0 0 -1"/>
+				<entry key="_prev_rot" type="quaternion" value="0 0 -0.275637 -0.961262"/>
 				<entry key="continent" type="string" value="world"/>
 				<entry key="instance_data" type="boolean" value="false"/>
 				<entry key="local_pos" type="vector3" value="0 0 0"/>
 				<entry key="local_rot" type="quaternion" value="0 0 0 1"/>
 				<entry key="name" type="string" value="core/units/nav_surface/nav_surface"/>
 				<entry key="name_id" type="string" value="nav_surface_096"/>
-				<entry key="position" type="vector3" value="-10125 -6046.89 -2172.08"/>
+				<entry key="position" type="vector3" value="-10121.8 -6051.98 -2172.08"/>
 				<entry key="rotation" type="quaternion" value="0 0 -0.275637 -0.961262"/>
 				<entry key="unit_id" type="number" value="97"/>
 			</entry>
@@ -4573,6 +4573,54 @@
 				<entry key="position" type="vector3" value="141.782 1194.38 333.102"/>
 				<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 				<entry key="unit_id" type="number" value="210"/>
+			</entry>
+		</entry>
+		<entry index="211" type="table">
+			<entry key="ai_editor_data" type="table">
+				<entry key="detection_mul" type="number" value="1"/>
+				<entry key="location_id" type="string" value="location_unknown"/>
+				<entry key="suspicion_mul" type="number" value="1"/>
+				<entry key="visibilty_exlude_filter" type="table">
+				</entry>
+				<entry key="visibilty_include_filter" type="table">
+				</entry>
+			</entry>
+			<entry key="unit_data" type="table">
+				<entry key="_prev_pos" type="vector3" value="-9045.24 -5135.1 1.86265e-007"/>
+				<entry key="_prev_rot" type="quaternion" value="0 0 0 -1"/>
+				<entry key="continent" type="string" value="world"/>
+				<entry key="instance_data" type="boolean" value="false"/>
+				<entry key="local_pos" type="vector3" value="0 0 0"/>
+				<entry key="local_rot" type="quaternion" value="0 0 0 1"/>
+				<entry key="name" type="string" value="core/units/nav_surface/nav_surface"/>
+				<entry key="name_id" type="string" value="nav_surface_203"/>
+				<entry key="position" type="vector3" value="-9045.24 -5135.1 1.86265e-007"/>
+				<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+				<entry key="unit_id" type="number" value="211"/>
+			</entry>
+		</entry>
+		<entry index="212" type="table">
+			<entry key="ai_editor_data" type="table">
+				<entry key="detection_mul" type="number" value="1"/>
+				<entry key="location_id" type="string" value="location_unknown"/>
+				<entry key="suspicion_mul" type="number" value="1"/>
+				<entry key="visibilty_exlude_filter" type="table">
+				</entry>
+				<entry key="visibilty_include_filter" type="table">
+				</entry>
+			</entry>
+			<entry key="unit_data" type="table">
+				<entry key="_prev_pos" type="vector3" value="-9594.01 -4931.67 99.1729"/>
+				<entry key="_prev_rot" type="quaternion" value="0 0 0 -1"/>
+				<entry key="continent" type="string" value="world"/>
+				<entry key="instance_data" type="boolean" value="false"/>
+				<entry key="local_pos" type="vector3" value="0 0 0"/>
+				<entry key="local_rot" type="quaternion" value="0 0 0 1"/>
+				<entry key="name" type="string" value="core/units/nav_surface/nav_surface"/>
+				<entry key="name_id" type="string" value="nav_surface_204"/>
+				<entry key="position" type="vector3" value="-9594.01 -4931.67 99.1729"/>
+				<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+				<entry key="unit_id" type="number" value="212"/>
 			</entry>
 		</entry>
 	</entry>
@@ -8317,7 +8365,6 @@
 					<entry index="501697" type="boolean" value="true"/>
 					<entry index="501698" type="boolean" value="true"/>
 					<entry index="501699" type="boolean" value="true"/>
-					<entry index="501700" type="boolean" value="true"/>
 					<entry index="501701" type="boolean" value="true"/>
 					<entry index="501702" type="boolean" value="true"/>
 					<entry index="501703" type="boolean" value="true"/>
