@@ -31,7 +31,10 @@
         <sound id="hwu_17_1_heli" path="17_1_heli.ogg" subtitle_id="hwu_17_heli_sub"/>
 		<sound id="hwu_18_1_end" path="18_1_end.ogg" subtitle_id="hwu_18_end_sub"/>
 		<sound id="hwu_19_1_hatch" path="19_1_hatch.ogg" subtitle_id="hwu_19_hatch_sub"/>
-        
+        <sound id="hwu_20_1_vent" path="20_1_vent.ogg" subtitle_id="hwu_20_vent_sub"/>
+        <sound id="hwu_21_1_vent" path="21_1_vent.ogg" subtitle_id="hwu_21_vent_sub"/>
+        <sound id="hwu_22_1_vent" path="22_1_vent.ogg" subtitle_id="hwu_22_vent_sub"/>
+
         <sound id="hwu_guy_hello" path="guy_hello.ogg"/>
 
         <random id="hwu_16_replace_rnd">
@@ -66,5 +69,8 @@
         <queue id="hwu_17_heli"><sound id="radio_beg"/><sound id="hwu_17_1_heli"/><sound id="radio_end"/></queue>
         <queue id="hwu_18_end"><sound id="radio_beg"/><sound id="hwu_18_1_end"/><sound id="radio_end"/></queue>
         <queue id="hwu_19_hatch"><sound id="radio_beg"/><sound id="hwu_19_1_hatch"/><sound id="radio_end"/></queue>
+        <queue id="hwu_20_vent"><sound id="radio_beg"/><sound id="hwu_20_1_vent"/><sound id="radio_end"/></queue>
+        <queue id="hwu_21_vent"><sound id="radio_beg"/><sound id="hwu_21_1_vent"/><sound id="radio_end"/></queue>
+        <queue id="hwu_22_vent"><sound id="radio_beg"/><sound id="hwu_22_1_vent"/><sound id="radio_end"/></queue>
 	</Sounds>
 </table>
