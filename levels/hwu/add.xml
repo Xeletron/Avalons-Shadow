@@ -5442,4 +5442,17 @@
 	<add from_db="true" path="effects/payday2/particles/emp/emp_explosion" type="effect">
 		<effect load="true" path="effects/payday2/particles/emp/emp_explosion" unload="true"/>
 	</add>
+	<add from_db="true" path="units/pd2_dlc_sand/pickups/sand_pku_documents/sand_pku_documents_correct" type="unit">
+		<material_config path="units/pd2_dlc_sand/pickups/sand_pku_documents/sand_pku_documents_correct_contour" unload="true"/>
+		<object path="units/pd2_dlc_sand/pickups/sand_pku_documents/sand_pku_documents_correct" unload="true"/>
+		<sequence_manager path="units/pd2_dlc_sand/pickups/sand_pku_documents/sand_pku_documents_correct" unload="true"/>
+		<unit path="units/pd2_dlc_sand/pickups/sand_pku_documents/sand_pku_documents_correct" unload="true"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_sand/props/sand_prop_electrified_fence/sand_prop_electrified_fence" type="unit">
+		<unit path="units/pd2_dlc_sand/props/sand_prop_electrified_fence/sand_prop_electrified_fence" unload="true"/>
+		<object path="units/pd2_dlc_sand/props/sand_prop_electrified_fence/sand_prop_electrified_fence" unload="true"/>
+		<material_config path="units/pd2_dlc_sand/props/sand_prop_electrified_fence/sand_prop_electrified_fence" unload="true"/>
+		<sequence_manager path="units/pd2_dlc_sand/props/sand_prop_electrified_fence/sand_prop_electrified_fence" unload="true"/>
+		<bnk path="soundbanks/regular_sfx" unload="true"/>
+	</add>
 </table>
