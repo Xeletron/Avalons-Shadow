@@ -5449,10 +5449,39 @@
 		<unit path="units/pd2_dlc_sand/pickups/sand_pku_documents/sand_pku_documents_correct" unload="true"/>
 	</add>
 	<add from_db="true" path="units/pd2_dlc_sand/props/sand_prop_electrified_fence/sand_prop_electrified_fence" type="unit">
-		<unit path="units/pd2_dlc_sand/props/sand_prop_electrified_fence/sand_prop_electrified_fence" unload="true"/>
-		<object path="units/pd2_dlc_sand/props/sand_prop_electrified_fence/sand_prop_electrified_fence" unload="true"/>
-		<material_config path="units/pd2_dlc_sand/props/sand_prop_electrified_fence/sand_prop_electrified_fence" unload="true"/>
-		<sequence_manager path="units/pd2_dlc_sand/props/sand_prop_electrified_fence/sand_prop_electrified_fence" unload="true"/>
 		<bnk path="soundbanks/regular_sfx" unload="true"/>
+		<material_config path="units/pd2_dlc_sand/props/sand_prop_electrified_fence/sand_prop_electrified_fence" unload="true"/>
+		<object path="units/pd2_dlc_sand/props/sand_prop_electrified_fence/sand_prop_electrified_fence" unload="true"/>
+		<sequence_manager path="units/pd2_dlc_sand/props/sand_prop_electrified_fence/sand_prop_electrified_fence" unload="true"/>
+		<unit path="units/pd2_dlc_sand/props/sand_prop_electrified_fence/sand_prop_electrified_fence" unload="true"/>
+	</add>
+	<add from_db="true" path="units/payday2/characters/ene_security_3/ene_security_3" type="unit">
+		<unit path="units/payday2/characters/ene_security_3/ene_security_3" unload="true"/>
+		<animation_state_machine path="anims/units/enemies/cop/cop_machine" unload="true"/>
+		<animation_states path="anims/units/enemies/cop/std" unload="true"/>
+		<animation_states path="anims/units/enemies/cop/civilian" unload="true"/>
+		<object path="units/payday2/characters/ene_security_3/ene_security_3" unload="true"/>
+		<material_config path="units/payday2/characters/ene_security_3/ene_security_3" unload="true"/>
+		<sequence_manager path="units/payday2/characters/ragdoll" unload="true"/>
+		<animation_def path="anims/units/enemies/cop/cop_def" unload="true"/>
+		<animation_subset path="anims/units/enemies/cop/std" unload="true"/>
+		<animation_subset path="anims/units/enemies/cop/neutral_legs" unload="true"/>
+		<animation_subset path="anims/units/enemies/cop/neutral_rifle" unload="true"/>
+		<animation_subset path="anims/units/enemies/cop/neutral_pistol" unload="true"/>
+		<animation_subset path="anims/units/enemies/cop/hostile_legs" unload="true"/>
+		<animation_subset path="anims/units/enemies/cop/hostile_rifle" unload="true"/>
+		<animation_subset path="anims/units/enemies/cop/hostile_pistol" unload="true"/>
+		<animation_subset path="anims/units/enemies/cop/combat_legs" unload="true"/>
+		<animation_subset path="anims/units/enemies/cop/combat_rifle" unload="true"/>
+		<animation_subset path="anims/units/enemies/cop/combat_pistol" unload="true"/>
+		<animation_subset path="anims/units/enemies/cop/combat_shield" unload="true"/>
+		<animation_subset path="anims/units/enemies/cop/civilian" unload="true"/>
+		<animation_subset path="anims/units/enemies/cop/hostile_akimbo_pistol" unload="true"/>
+		<animation_subset path="anims/units/enemies/cop/combat_akimbo_pistol" unload="true"/>
+		<animation_subset path="anims/units/enemies/cop/hostile_bow" unload="true"/>
+		<animation_subset path="anims/units/enemies/cop/combat_bow" unload="true"/>
+		<animation_subset path="anims/units/enemies/cop/combat_bullpup" unload="true"/>
+		<bnk path="soundbanks/regular_vox" unload="true"/>
+		<unit load="true" path="units/payday2/characters/ene_security_3/ene_security_3_husk" unload="true"/>
 	</add>
 </table>
