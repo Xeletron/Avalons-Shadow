@@ -8974,6 +8974,42 @@
 		<table>
 			<unit_data _prev_pos="-9554.5 -14053.5 -1981.86" _prev_rot="0 0 0 -1" continent="editor_only" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/test/jocke/plane_black_temp" name_id="plane_black_temp_008" position="-9554.5 -14053.5 -1981.86" rotation="0 0 0 -1" unit_id="202957"/>
 		</table>
+		<table>
+			<unit_data _prev_pos="-965 -1800 5510" _prev_rot="0 0 0 -1" continent="editor_only" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/test/jocke/plane_black_temp" name_id="plane_black_temp_009" position="-965 -1800 5510" rotation="0 0 0 -1" unit_id="202958"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-1391.7 -2263.33 5512.5" _prev_rot="0 0 -0.707107 -0.707107" continent="editor_only" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/editable_text_short/editable_text_short" name_id="editable_text_short_010" position="-1391.7 -2263.33 5512.5" rotation="0 0 -0.707107 -0.707107" unit_id="202959">
+				<editable_gui align="left" alpha="1" blend_mode="normal" font="fonts/font_medium_shadow_mf" font_color="1 1 1" font_size="2.59" render_template="diffuse_vc_decal" text="Secret" vertical="center" word_wrap="false" wrap="false">
+					<shape>
+						<value_node value="0"/>
+						<value_node value="0"/>
+						<value_node value="1"/>
+						<value_node value="1"/>
+					</shape>
+				</editable_gui>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="-965 -1800 5510" _prev_rot="0 0 0 -1" continent="editor_only" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/test/jocke/plane_black_temp" name_id="plane_black_temp_010" position="35 -1800 5510" rotation="0 0 0 -1" unit_id="202960"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-965 -1800 5510" _prev_rot="0 0 0 -1" continent="editor_only" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/test/jocke/plane_black_temp" name_id="plane_black_temp_011" position="-965 -800 5510" rotation="0 0 0 -1" unit_id="202961"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="2928.19 1815.1 -75.666" _prev_rot="-0.5 -0.5 -0.5 -0.5" continent="editor_only" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/editable_text_short/editable_text_short" name_id="editable_text_short_014" position="2928.19 1815.1 -75.666" rotation="0.5 0.5 0.5 0.5" unit_id="202962">
+				<editable_gui align="left" alpha="1" blend_mode="normal" font="fonts/font_medium_shadow_mf" font_color="0 0 0" font_size="1.76" render_template="diffuse_vc_decal" text="DONJON FUN TIME" vertical="center" word_wrap="false" wrap="false">
+					<shape>
+						<value_node value="0"/>
+						<value_node value="0"/>
+						<value_node value="1"/>
+						<value_node value="1"/>
+					</shape>
+				</editable_gui>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="2928 1890 -115" _prev_rot="0 -0.707107 0 -0.707107" continent="editor_only" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="state_interaction_enable" name="units/pd2_dlc_arena/props/are_prop_security_button/are_prop_security_button" name_id="are_prop_security_button_002" position="2928 1890 -115" rotation="0 -0.707107 0 -0.707107" unit_id="202963"/>
+		</table>
 	</statics>
 	<values>
 		<workviews/>

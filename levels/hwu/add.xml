@@ -5457,13 +5457,8 @@
 	</add>
 	<add from_db="true" path="units/payday2/characters/ene_security_3/ene_security_3" type="unit">
 		<unit path="units/payday2/characters/ene_security_3/ene_security_3" unload="true"/>
-		<animation_state_machine path="anims/units/enemies/cop/cop_machine" unload="true"/>
 		<animation_states path="anims/units/enemies/cop/std" unload="true"/>
 		<animation_states path="anims/units/enemies/cop/civilian" unload="true"/>
-		<object path="units/payday2/characters/ene_security_3/ene_security_3" unload="true"/>
-		<material_config path="units/payday2/characters/ene_security_3/ene_security_3" unload="true"/>
-		<sequence_manager path="units/payday2/characters/ragdoll" unload="true"/>
-		<animation_def path="anims/units/enemies/cop/cop_def" unload="true"/>
 		<animation_subset path="anims/units/enemies/cop/std" unload="true"/>
 		<animation_subset path="anims/units/enemies/cop/neutral_legs" unload="true"/>
 		<animation_subset path="anims/units/enemies/cop/neutral_rifle" unload="true"/>
@@ -5481,7 +5476,36 @@
 		<animation_subset path="anims/units/enemies/cop/hostile_bow" unload="true"/>
 		<animation_subset path="anims/units/enemies/cop/combat_bow" unload="true"/>
 		<animation_subset path="anims/units/enemies/cop/combat_bullpup" unload="true"/>
-		<bnk path="soundbanks/regular_vox" unload="true"/>
 		<unit load="true" path="units/payday2/characters/ene_security_3/ene_security_3_husk" unload="true"/>
+		<animation_def path="anims/units/enemies/cop/cop_def" unload="true"/>
+		<animation_state_machine path="anims/units/enemies/cop/cop_machine" unload="true"/>
+		<bnk path="soundbanks/regular_vox" unload="true"/>
+		<material_config path="units/payday2/characters/ene_security_3/ene_security_3" unload="true"/>
+		<object path="units/payday2/characters/ene_security_3/ene_security_3" unload="true"/>
+		<sequence_manager path="units/payday2/characters/ragdoll" unload="true"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_pex/props/pex_props_keycard_reader/pex_props_keycard" type="unit">
+		<material_config path="units/pd2_dlc_pex/props/pex_props_keycard_reader/pex_props_keycard_reader" unload="true"/>
+		<object path="units/pd2_dlc_pex/props/pex_props_keycard_reader/pex_props_keycard" unload="true"/>
+		<sequence_manager path="units/pd2_dlc_pex/props/pex_props_keycard_reader/pex_props_keycard" unload="true"/>
+		<unit path="units/pd2_dlc_pex/props/pex_props_keycard_reader/pex_props_keycard" unload="true"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_pex/props/pex_props_keycard_reader/pex_props_keycard_computerpad" type="unit">
+		<material_config path="units/pd2_dlc_pex/props/pex_props_keycard_reader/pex_props_keycard_computerpad" unload="true"/>
+		<object path="units/pd2_dlc_pex/props/pex_props_keycard_reader/pex_props_keycard_computerpad" unload="true"/>
+		<sequence_manager path="units/pd2_dlc_pex/props/pex_props_keycard_reader/pex_props_keycard_computerpad" unload="true"/>
+		<unit path="units/pd2_dlc_pex/props/pex_props_keycard_reader/pex_props_keycard_computerpad" unload="true"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_pex/props/pex_props_keycard_reader/pex_props_keycard_reader" type="unit">
+		<material_config path="units/pd2_dlc_pex/props/pex_props_keycard_reader/pex_props_keycard_reader" unload="true"/>
+		<object path="units/pd2_dlc_pex/props/pex_props_keycard_reader/pex_props_keycard_reader" unload="true"/>
+		<sequence_manager path="units/pd2_dlc_pex/props/pex_props_keycard_reader/pex_props_keycard_reader" unload="true"/>
+		<unit path="units/pd2_dlc_pex/props/pex_props_keycard_reader/pex_props_keycard_reader" unload="true"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_tag/props/tag_prop_sign_names/tag_prop_sign_names" type="unit">
+		<material_config path="units/pd2_dlc_tag/props/tag_prop_sign_names/tag_prop_sign_names" unload="true"/>
+		<object path="units/pd2_dlc_tag/props/tag_prop_sign_names/tag_prop_sign_names" unload="true"/>
+		<sequence_manager path="units/pd2_dlc_tag/props/tag_prop_sign_names/tag_prop_sign_names" unload="true"/>
+		<unit path="units/pd2_dlc_tag/props/tag_prop_sign_names/tag_prop_sign_names" unload="true"/>
 	</add>
 </table>

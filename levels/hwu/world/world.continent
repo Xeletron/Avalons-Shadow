@@ -2890,18 +2890,6 @@
 			</unit_data>
 		</table>
 		<table>
-			<unit_data _prev_pos="-14680 -9997 -1798" _prev_rot="3.09086e-008 0.707107 0.707107 3.09086e-008" continent="world" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_arena/props/editable_text_caslon/editable_text_caslon" name_id="editable_text_caslon_001" position="-14680 -9997 -1798" rotation="-3.09086e-008 0.707107 0.707107 -3.09086e-008" unit_id="101351">
-				<editable_gui align="center" alpha="1" blend_mode="normal" font="fonts/font_caslon" font_color="0.803922 0.803922 0.803922" font_size="0.78" render_template="diffuse_vc_decal" text="NO ACCESS ALLOWED" vertical="center" word_wrap="false" wrap="false">
-					<shape>
-						<value_node value="0"/>
-						<value_node value="0"/>
-						<value_node value="1"/>
-						<value_node value="1"/>
-					</shape>
-				</editable_gui>
-			</unit_data>
-		</table>
-		<table>
 			<unit_data _prev_pos="-14985 -12070 19" _prev_rot="0 0 0.887011 -0.461749" continent="world" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="-10465.9 390.8 -1" local_rot="-0 0 -0.887011 0.461749" material="units/world/props/construction_crane/construction_crane _blue" material_variation="units/world/props/construction_crane/construction_crane _blue" mesh_variation="neutral" name="units/world/props/construction_crane/construction_crane_01" name_id="construction_crane_01_001" position="-14985 -12070 19" rotation="0 0 0.887011 -0.461749" unit_id="101357"/>
 		</table>
 		<table>
@@ -5290,18 +5278,6 @@
 			<unit_data _prev_pos="-9600.52 -7584.17 -2460.08" _prev_rot="0 0 0.999391 -0.0348994" continent="world" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="-5075.52 -2304.17 -2480.08" local_rot="0 0 -0.999391 0.0348994" mesh_variation="enable_vision_blocker" name="units/dev_tools/level_tools/dev_ai_vis_blocker/dev_ai_vis_blocker_005x1x2m" name_id="dev_ai_vis_blocker_005x1x2m_037" only_visible_in_editor="true" position="-9600.52 -7584.17 -2460.08" rotation="0 0 0.999391 -0.0348994" unit_id="102754"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="2928.19 1765.1 -75.666" _prev_rot="-0.5 -0.5 -0.5 -0.5" continent="world" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="-74.14 0 27.563" local_rot="0.707107 0 0 0.707107" name="units/dev_tools/editable_text_short/editable_text_short" name_id="editable_text_short_014" position="2928.19 1815.1 -75.666" rotation="-0.5 -0.5 -0.5 -0.5" unit_id="102910">
-				<editable_gui align="left" alpha="1" blend_mode="normal" font="fonts/font_medium_shadow_mf" font_color="0 0 0" font_size="1.75647" render_template="diffuse_vc_decal" text="DONJON FUN TIME" vertical="center" word_wrap="false" wrap="false">
-					<shape>
-						<value_node value="0"/>
-						<value_node value="0"/>
-						<value_node value="1"/>
-						<value_node value="1"/>
-					</shape>
-				</editable_gui>
-			</unit_data>
-		</table>
-		<table>
 			<unit_data _prev_pos="-8753.17 -3681.92 -1712.12" _prev_rot="0 0 -0.707107 -0.707107" continent="world" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="-4228.17 1598.08 -1732.12" local_rot="0 0 0.707107 0.707107" name="core/units/light_omni/light_omni" name_id="light_omni_224" only_visible_in_editor="true" position="-8753.17 -3681.92 -1712.12" rotation="0 0 -0.707107 -0.707107" unit_id="102911">
 				<lights>
 					<table clipping_values="10000 -10000 0" color="0.447059 0.803922 1" enabled="true" falloff_exponent="10" far_range="800" multiplier="@ID3385027996510d31@" name="lo_omni" near_range="80" spot_angle_end="1" spot_angle_start="1"/>
@@ -6278,6 +6254,21 @@
 					</shape>
 				</editable_gui>
 			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="-8476 -4437 -2010" _prev_rot="0 0 1 4.37114e-008" continent="world" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/pd2_dlc2/props/gen_prop_security_console/gen_prop_security_console_corner_variation_1" name_id="gen_prop_security_console_corner_variation_1_002" position="-8476 -4437 -2010" rotation="0 0 1 4.37114e-008" unit_id="100969"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-8466 -4446 -2010" _prev_rot="0 0 1 2.78181e-008" continent="world" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc2/props/gen_prop_security_console/gen_prop_security_console_corner" name_id="gen_prop_security_console_corner_005" position="-8466 -4446 -2010" rotation="0 0 1 -4.37114e-008" unit_id="100972"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-8400.89 -4443.43 -2010" _prev_rot="0 0 1 4.37114e-008" continent="world" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="296.43 -134.89 0" local_rot="0 0 -0.707107 0.707107" name="units/pd2_dlc2/props/gen_prop_security_console/gen_prop_security_console_straight" name_id="gen_prop_security_console_straight_009" position="-8400.89 -4444.43 -2010" rotation="0 0 1 4.37114e-008" unit_id="101016"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-8266 -4147 -2010" _prev_rot="0 0 0.707107 -0.707107" continent="world" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc2/props/gen_prop_security_console/gen_prop_security_console_straight" name_id="gen_prop_security_console_straight_010" position="-8266 -4148 -2010" rotation="0 0 0.707107 -0.707107" unit_id="101017"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-14572.7 -9357.26 -1690.56" _prev_rot="0 0 0 -1" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/ind_prop_light_cones/ind_prop_light_cones_docks_orange_v2" name_id="ind_prop_light_cones_docks_orange_v2_001" position="-14572.7 -9357.26 -1690.56" rotation="-0 0 -0 -1" unit_id="101015"/>
 		</table>
 	</statics>
 	<values>
