@@ -116,7 +116,8 @@
 		<model force="true" path="units/pd2_mod_hwu/architecture/hwu_mountain_door_frame/hwu_mountain_door_frame" unload="true"/>
 		<object force="true" path="units/pd2_mod_hwu/architecture/hwu_mountain_door_frame/hwu_mountain_door_frame" unload="true"/>
 		<unit force="true" path="units/pd2_mod_hwu/architecture/hwu_mountain_door_frame/hwu_mountain_door_frame" unload="true"/>
-		<texture path="units/payday2/props/gen_prop_container_murky/murkywater_container_logos_df" unload="true"/>
+		<texture unload_on_restart="true" path="units/payday2/props/gen_prop_container_murky/murkywater_container_logos_df" unload="true"/>
+		<texture unload_on_restart="true" path="units/pd2_dlc_arena/props/are_prop_laser/are_prop_laser_df" unload="true"/>
 		<material_config path="units/pd2_dlc_berry/architecture/bry_mountain_tunnel_railings/bry_mountain_stairs" unload="true"/>
 		<material_config path="units/pd2_dlc_des/props/des_interactable_secret_document/des_interactable_secret_document" unload="true"/>
 		<object path="units/pd2_dlc_des/props/des_interactable_secret_document/des_interactable_secret_document" unload="true"/>

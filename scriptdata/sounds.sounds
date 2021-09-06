@@ -14,6 +14,7 @@
 		<sound id="hwu_8_1_computer" path="8_1_computer.ogg" subtitle_id="hwu_8_computer_sub"/>
 		<sound id="hwu_8_1_facility" path="8_1_facility.ogg" subtitle_id="hwu_8_facility_sub"/>
 		<sound id="hwu_9_1_code" path="9_1_code.ogg" subtitle_id="hwu_9_code_sub"/>
+		<sound id="hwu_9_1_wrong_code" path="9_1_wrong_code.ogg" subtitle_id="hwu_9_wrong_code_sub"/>
 		<sound id="hwu_10_1_thermite" path="10_1_thermite.ogg" subtitle_id="hwu_10_thermite_sub"/>
 		<sound id="hwu_11_1_elevator" path="11_1_elevator.ogg" subtitle_id="hwu_11_elevator_sub"/>
 		<sound id="hwu_12_1_files" path="12_1_files.ogg" subtitle_id="hwu_12_files_sub"/>
@@ -54,6 +55,7 @@
         <queue id="hwu_8_computer"><sound id="radio_beg"/><sound id="hwu_8_1_computer"/><sound id="radio_end"/></queue>
         <queue id="hwu_8_facility"><sound id="radio_beg"/><sound id="hwu_8_1_facility"/><sound id="radio_end"/></queue>
         <queue id="hwu_9_code"><sound id="radio_beg"/><sound id="hwu_9_1_code"/><sound id="radio_end"/></queue>
+		<queue id="hwu_9_wrong_code"><sound id="radio_beg"/><sound id="hwu_9_1_wrong_code"/><sound id="radio_end"/></queue>
         <queue id="hwu_10_thermite"><sound id="radio_beg"/><sound id="hwu_10_1_thermite"/><sound id="radio_end"/></queue>
         <queue id="hwu_11_elevator"><sound id="radio_beg"/><sound id="hwu_11_1_elevator"/><sound id="radio_end"/></queue>
         <queue id="hwu_12_files"><sound id="radio_beg"/><sound id="hwu_12_1_files"/><sound id="radio_end"/></queue>
