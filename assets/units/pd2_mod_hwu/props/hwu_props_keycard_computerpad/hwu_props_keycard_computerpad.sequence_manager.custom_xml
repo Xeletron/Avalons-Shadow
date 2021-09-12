@@ -1,0 +1,40 @@
+<table>
+	<unit>
+		<sequence editable_state="true" name="'hide'" triggable="true">
+			<run_sequence name="'disable_interaction'"/>
+			<object enabled="false" name="'g_greenscreen'"/>
+			<object enabled="false" name="'g_outline'"/>
+			<graphic_group name="'grp_pad'" visibility="false"/>
+		</sequence>
+		<sequence editable_state="true" name="'show'" triggable="true">
+			<object enabled="false" name="'g_greenscreen'"/>
+			<object enabled="false" name="'g_outline'"/>
+			<graphic_group name="'grp_pad'" visibility="true"/>
+			<interaction enabled="true"/>
+		</sequence>
+		<sequence editable_state="true" name="'hide_outline'" triggable="true">
+			<object enabled="false" name="'g_outline'"/>
+		</sequence>
+		<sequence editable_state="true" name="'show_outline'" triggable="true">
+			<object enabled="true" name="'g_outline'"/>
+		</sequence>
+		<sequence editable_state="true" name="'enable_interaction'" triggable="true">
+			<interaction enabled="true"/>
+		</sequence>
+		<sequence editable_state="true" name="'disable_interaction'" triggable="true">
+			<interaction enabled="false"/>
+		</sequence>
+		<sequence editable_state="true" name="'enable_interaction_lvl_2'" triggable="true">
+			<interaction enabled="true"/>
+			<function extension="'interaction'" function="'set_tweak_data'" param1="'pex_get_loaded_card_lvl_2'"/>
+			<function extension="'interaction'" function="'set_give_special_equipment'" param1="'pex_loaded_card_lvl_2'"/>
+		</sequence>
+		<sequence editable_state="false" name="'interact'" triggable="false">
+			<interaction enabled="false"/>
+		</sequence>
+		<sequence editable_state="false" name="'load'" triggable="false">
+			<interaction enabled="false"/>
+			<object enabled="true" name="'g_greenscreen'"/>
+		</sequence>
+	</unit>
+</table>

@@ -1,0 +1,12 @@
+<unit type="pex" slot="1">
+	<object file="units/pd2_mod_hwu/props/hwu_props_keycard_computerpad/hwu_props_keycard_computerpad" />
+	<network sync="spawn"/>
+	<extensions>
+		<extension name="unit_data" class="ScriptUnitData" />
+		<extension name="damage" class="UnitDamage" />
+		<extension name="interaction" class="SpecialEquipmentGiveAndTakeInteractionExt" >
+			<var name="_special_equipment" value="pex_loaded_card" />
+			<var name="tweak_data" value="pex_get_loaded_card" />
+		</extension>
+	</extensions>
+</unit>

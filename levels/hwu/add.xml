@@ -116,8 +116,8 @@
 		<model force="true" path="units/pd2_mod_hwu/architecture/hwu_mountain_door_frame/hwu_mountain_door_frame" unload="true"/>
 		<object force="true" path="units/pd2_mod_hwu/architecture/hwu_mountain_door_frame/hwu_mountain_door_frame" unload="true"/>
 		<unit force="true" path="units/pd2_mod_hwu/architecture/hwu_mountain_door_frame/hwu_mountain_door_frame" unload="true"/>
-		<texture unload_on_restart="true" path="units/payday2/props/gen_prop_container_murky/murkywater_container_logos_df" unload="true"/>
-		<texture unload_on_restart="true" path="units/pd2_dlc_arena/props/are_prop_laser/are_prop_laser_df" unload="true"/>
+		<texture path="units/payday2/props/gen_prop_container_murky/murkywater_container_logos_df" unload="true" unload_on_restart="true"/>
+		<texture path="units/pd2_dlc_arena/props/are_prop_laser/are_prop_laser_df" unload="true" unload_on_restart="true"/>
 		<material_config path="units/pd2_dlc_berry/architecture/bry_mountain_tunnel_railings/bry_mountain_stairs" unload="true"/>
 		<material_config path="units/pd2_dlc_des/props/des_interactable_secret_document/des_interactable_secret_document" unload="true"/>
 		<object path="units/pd2_dlc_des/props/des_interactable_secret_document/des_interactable_secret_document" unload="true"/>
@@ -5491,12 +5491,6 @@
 		<sequence_manager path="units/pd2_dlc_pex/props/pex_props_keycard_reader/pex_props_keycard" unload="true"/>
 		<unit path="units/pd2_dlc_pex/props/pex_props_keycard_reader/pex_props_keycard" unload="true"/>
 	</add>
-	<add from_db="true" path="units/pd2_dlc_pex/props/pex_props_keycard_reader/pex_props_keycard_computerpad" type="unit">
-		<material_config path="units/pd2_dlc_pex/props/pex_props_keycard_reader/pex_props_keycard_computerpad" unload="true"/>
-		<object path="units/pd2_dlc_pex/props/pex_props_keycard_reader/pex_props_keycard_computerpad" unload="true"/>
-		<sequence_manager path="units/pd2_dlc_pex/props/pex_props_keycard_reader/pex_props_keycard_computerpad" unload="true"/>
-		<unit path="units/pd2_dlc_pex/props/pex_props_keycard_reader/pex_props_keycard_computerpad" unload="true"/>
-	</add>
 	<add from_db="true" path="units/pd2_dlc_pex/props/pex_props_keycard_reader/pex_props_keycard_reader" type="unit">
 		<material_config path="units/pd2_dlc_pex/props/pex_props_keycard_reader/pex_props_keycard_reader" unload="true"/>
 		<object path="units/pd2_dlc_pex/props/pex_props_keycard_reader/pex_props_keycard_reader" unload="true"/>
@@ -5508,5 +5502,12 @@
 		<object path="units/pd2_dlc_tag/props/tag_prop_sign_names/tag_prop_sign_names" unload="true"/>
 		<sequence_manager path="units/pd2_dlc_tag/props/tag_prop_sign_names/tag_prop_sign_names" unload="true"/>
 		<unit path="units/pd2_dlc_tag/props/tag_prop_sign_names/tag_prop_sign_names" unload="true"/>
+	</add>
+	<add path="units/pd2_mod_hwu/props/hwu_props_keycard_computerpad/hwu_props_keycard_computerpad" type="unit">
+		<unit path="units/pd2_mod_hwu/props/hwu_props_keycard_computerpad/hwu_props_keycard_computerpad" unload="true"/>
+		<object path="units/pd2_mod_hwu/props/hwu_props_keycard_computerpad/hwu_props_keycard_computerpad" unload="true"/>
+		<model path="units/pd2_mod_hwu/props/hwu_props_keycard_computerpad/hwu_props_keycard_computerpad" unload="true"/>
+		<material_config path="units/pd2_mod_hwu/props/hwu_props_keycard_computerpad/hwu_props_keycard_computerpad" unload="true"/>
+		<sequence_manager path="units/pd2_mod_hwu/props/hwu_props_keycard_computerpad/hwu_props_keycard_computerpad" unload="true"/>
 	</add>
 </table>

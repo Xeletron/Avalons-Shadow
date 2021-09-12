@@ -1,0 +1,26 @@
+<dynamic_object>
+	<diesel materials="units/pd2_mod_hwu/props/hwu_props_keycard_computerpad/hwu_props_keycard_computerpad" orientation_object="rp_pex_props_keycard_computerpad" />
+	<sequence_manager file="units/pd2_mod_hwu/props/hwu_props_keycard_computerpad/hwu_props_keycard_computerpad" />
+	<bodies>
+		<body name="body_static" enabled="true" template="static">
+			<object name="rp_pex_props_keycard_computerpad" />
+			<object name="c_box" collision_type="box" padding="-2.5" />
+		</body>
+	</bodies>
+	<graphics>
+		<object name="g_greenscreen" enabled="true" />
+        <lod_object name="lod_g_outline">
+            <object name="g_outline" enabled="true" max_distance="500" max_draw_lod="0">
+                <material materials="mat_outline" max_distance="500" />
+                <material materials="mat_outline_lod" />
+            </object>
+        </lod_object>
+
+        <graphic_group name="grp_pad" enabled="true" culling_object="c_box">
+			<lod_object name="lod_g_computerpad">
+				<object name="g_computerpad_lod0" enabled="true" max_distance="1500" />
+				<object name="g_computerpad_lod1" enabled="true" />
+			</lod_object>
+		</graphic_group>
+	</graphics>
+</dynamic_object>
