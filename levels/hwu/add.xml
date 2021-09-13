@@ -5504,10 +5504,59 @@
 		<unit path="units/pd2_dlc_tag/props/tag_prop_sign_names/tag_prop_sign_names" unload="true"/>
 	</add>
 	<add path="units/pd2_mod_hwu/props/hwu_props_keycard_computerpad/hwu_props_keycard_computerpad" type="unit">
-		<unit path="units/pd2_mod_hwu/props/hwu_props_keycard_computerpad/hwu_props_keycard_computerpad" unload="true"/>
-		<object path="units/pd2_mod_hwu/props/hwu_props_keycard_computerpad/hwu_props_keycard_computerpad" unload="true"/>
-		<model path="units/pd2_mod_hwu/props/hwu_props_keycard_computerpad/hwu_props_keycard_computerpad" unload="true"/>
 		<material_config path="units/pd2_mod_hwu/props/hwu_props_keycard_computerpad/hwu_props_keycard_computerpad" unload="true"/>
+		<model path="units/pd2_mod_hwu/props/hwu_props_keycard_computerpad/hwu_props_keycard_computerpad" unload="true"/>
+		<object path="units/pd2_mod_hwu/props/hwu_props_keycard_computerpad/hwu_props_keycard_computerpad" unload="true"/>
 		<sequence_manager path="units/pd2_mod_hwu/props/hwu_props_keycard_computerpad/hwu_props_keycard_computerpad" unload="true"/>
+		<unit path="units/pd2_mod_hwu/props/hwu_props_keycard_computerpad/hwu_props_keycard_computerpad" unload="true"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_help/characters/ene_zeal_bulldozer_halloween/ene_zeal_bulldozer_halloween" type="unit">
+		<unit path="units/pd2_dlc_help/characters/ene_zeal_bulldozer_halloween/ene_zeal_bulldozer_halloween" unload="true"/>
+		<animation_state_machine path="anims/units/enemies/cop/cop_machine" unload="true"/>
+		<animation_states path="anims/units/enemies/cop/std" unload="true"/>
+		<animation_states path="anims/units/enemies/cop/civilian" unload="true"/>
+		<object path="units/pd2_dlc_help/characters/ene_zeal_bulldozer_halloween/ene_zeal_bulldozer_halloween" unload="true"/>
+		<material_config path="units/pd2_dlc_help/characters/ene_zeal_bulldozer_halloween/ene_zeal_bulldozer_halloween" unload="true"/>
+		<sequence_manager path="units/pd2_dlc_help/characters/ene_zeal_bulldozer_halloween/ene_zeal_bulldozer_halloween" unload="true"/>
+		<unit path="units/pd2_dlc_gitgud/characters/ene_acc_zeal_bulldozer_chest/ene_acc_bulldozer_chest" unload="true"/>
+		<object path="units/pd2_dlc_gitgud/characters/ene_acc_zeal_bulldozer_chest/ene_acc_bulldozer_chest" unload="true"/>
+		<material_config path="units/pd2_dlc_gitgud/characters/ene_acc_zeal_bulldozer_chest/ene_acc_bulldozer_chest" unload="true"/>
+		<unit path="units/pd2_dlc_gitgud/characters/ene_acc_zeal_bulldozer_stomache/ene_acc_bulldozer_stomache" unload="true"/>
+		<object path="units/pd2_dlc_gitgud/characters/ene_acc_zeal_bulldozer_stomache/ene_acc_bulldozer_stomache" unload="true"/>
+		<material_config path="units/pd2_dlc_gitgud/characters/ene_acc_zeal_bulldozer_stomache/ene_acc_bulldozer_stomache" unload="true"/>
+		<unit path="units/pd2_dlc_gitgud/characters/ene_acc_zeal_bulldozer_back/ene_acc_bulldozer_back" unload="true"/>
+		<object path="units/pd2_dlc_gitgud/characters/ene_acc_zeal_bulldozer_back/ene_acc_bulldozer_back" unload="true"/>
+		<material_config path="units/pd2_dlc_gitgud/characters/ene_acc_zeal_bulldozer_back/ene_acc_bulldozer_back" unload="true"/>
+		<unit path="units/pd2_dlc_gitgud/characters/ene_acc_zeal_bulldozer_throat/ene_acc_bulldozer_throat" unload="true"/>
+		<object path="units/pd2_dlc_gitgud/characters/ene_acc_zeal_bulldozer_throat/ene_acc_bulldozer_throat" unload="true"/>
+		<material_config path="units/pd2_dlc_gitgud/characters/ene_acc_zeal_bulldozer_throat/ene_acc_bulldozer_throat" unload="true"/>
+		<unit path="units/pd2_dlc_gitgud/characters/ene_acc_zeal_bulldozer_neck/ene_acc_bulldozer_neck" unload="true"/>
+		<object path="units/pd2_dlc_gitgud/characters/ene_acc_zeal_bulldozer_neck/ene_acc_bulldozer_neck" unload="true"/>
+		<material_config path="units/pd2_dlc_gitgud/characters/ene_acc_zeal_bulldozer_neck/ene_acc_bulldozer_neck" unload="true"/>
+		<animation_def path="anims/units/enemies/cop/cop_def" unload="true"/>
+		<animation_subset path="anims/units/enemies/cop/std" unload="true"/>
+		<animation_subset path="anims/units/enemies/cop/neutral_legs" unload="true"/>
+		<animation_subset path="anims/units/enemies/cop/neutral_rifle" unload="true"/>
+		<animation_subset path="anims/units/enemies/cop/neutral_pistol" unload="true"/>
+		<animation_subset path="anims/units/enemies/cop/hostile_legs" unload="true"/>
+		<animation_subset path="anims/units/enemies/cop/hostile_rifle" unload="true"/>
+		<animation_subset path="anims/units/enemies/cop/hostile_pistol" unload="true"/>
+		<animation_subset path="anims/units/enemies/cop/combat_legs" unload="true"/>
+		<animation_subset path="anims/units/enemies/cop/combat_rifle" unload="true"/>
+		<animation_subset path="anims/units/enemies/cop/combat_pistol" unload="true"/>
+		<animation_subset path="anims/units/enemies/cop/combat_shield" unload="true"/>
+		<animation_subset path="anims/units/enemies/cop/civilian" unload="true"/>
+		<animation_subset path="anims/units/enemies/cop/hostile_akimbo_pistol" unload="true"/>
+		<animation_subset path="anims/units/enemies/cop/combat_akimbo_pistol" unload="true"/>
+		<animation_subset path="anims/units/enemies/cop/hostile_bow" unload="true"/>
+		<animation_subset path="anims/units/enemies/cop/combat_bow" unload="true"/>
+		<animation_subset path="anims/units/enemies/cop/combat_bullpup" unload="true"/>
+		<bnk path="soundbanks/regular_vox" unload="true"/>
+		<bnk path="soundbanks/regular_sfx" unload="true"/>
+		<effect load="true" path="effects/particles/bullet_hit/glass_breakable/bullet_hit_glass_breakable" unload="true"/>
+		<unit path="units/pd2_halloween/weapons/wpn_mel_titan_hammer/wpn_mel_titan_hammer" unload="true"/>
+		<object path="units/pd2_halloween/weapons/wpn_mel_titan_hammer/wpn_mel_titan_hammer" unload="true"/>
+		<material_config path="units/pd2_halloween/weapons/wpn_mel_titan_hammer/wpn_mel_titan_hammer" unload="true"/>
+		<unit load="true" path="units/pd2_dlc_help/characters/ene_zeal_bulldozer_halloween/ene_zeal_bulldozer_halloween_husk" unload="true"/>
 	</add>
 </table>
