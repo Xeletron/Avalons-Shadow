@@ -36,7 +36,11 @@
         <sound id="hwu_21_1_vent" path="21_1_vent.ogg" subtitle_id="hwu_21_vent_sub"/>
         <sound id="hwu_22_1_vent" path="22_1_vent.ogg" subtitle_id="hwu_22_vent_sub"/>
 
-        <sound id="hwu_guy_hello" path="guy_hello.ogg"/>
+        <sound id="hwu_guy_hello" path="guy_hello.ogg" subtitle_id="hwu_guy_hello_sub"/>
+        <sound id="hwu_guy_zipline" path="guy_zipline.ogg" subtitle_id="hwu_guy_zipline_sub"/>
+        <sound id="hwu_guy_alarm" path="guy_alarm.ogg" subtitle_id="hwu_guy_alarm_sub"/>
+        <sound id="hwu_guy_bags" path="guy_bags.ogg" subtitle_id="hwu_guy_bags_sub"/>
+        <sound id="hwu_guy_sword" path="guy_sowrd.ogg" subtitle_id="hwu_guy_sword_sub"/>
 
         <random id="hwu_16_replace_rnd">
             <sound id="hwu_16_1_replace"/>
