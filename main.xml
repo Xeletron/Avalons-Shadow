@@ -111,7 +111,7 @@
 			<hook file="DialogManager.lua" source_file="lib/managers/dialogmanager"/>
 		</hooks>
 		<outro_event>
-			<value_node value=""/>
+			<value_node value="hwu_ending"/>
 		</outro_event>
 		<packages>
 			<value_node value="levels/instances/unique/vit/vit_wire_box/world"/>
