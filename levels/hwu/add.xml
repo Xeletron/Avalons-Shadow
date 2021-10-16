@@ -2237,7 +2237,7 @@
 		<sequence_manager path="units/payday2/equipment/gen_interactable_drill_small/gen_interactable_drill_small" unload="true"/>
 		<unit path="units/payday2/equipment/gen_interactable_drill_small/gen_interactable_drill_small" unload="true"/>
 	</add>
-	<add from_db="true" path="units/pd2_dlc2/architecture/csb_sewer/ind_sewer_a_4m" type="unit">
+	<add from_db="true" unload_on_restart="true" path="units/pd2_dlc2/architecture/csb_sewer/ind_sewer_a_4m" type="unit">
 		<material_config path="units/pd2_dlc2/architecture/csb_sewer/csb_sewer" unload="true"/>
 		<object path="units/pd2_dlc2/architecture/csb_sewer/ind_sewer_a_4m" unload="true"/>
 		<unit path="units/pd2_dlc2/architecture/csb_sewer/ind_sewer_a_4m" unload="true"/>

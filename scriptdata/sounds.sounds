@@ -1,5 +1,5 @@
 <table>
-    <Sounds directory="assets/vo" dont_store_float="true">
+    <Sounds directory="assets/vo" auto_pause="true" dont_store_float="true">
 		<sound id="radio_beg" path="radio_beg.ogg"/>
 		<sound id="radio_end" path="radio_end.ogg"/>
 		<sound id="hwu_brief" path="brief_1.ogg"/>
