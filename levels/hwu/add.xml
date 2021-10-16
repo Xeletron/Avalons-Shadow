@@ -2270,6 +2270,7 @@
 	</add>
 	<add from_db="true" path="units/payday2/props/air_prop_runway_fence/air_prop_runway_fence" type="unit">
 		<bnk path="soundbanks/regular_sfx" unload="true"/>
+		<bnk path="soundbanks/regular_vox" unload="true"/>
 		<effect load="true" path="effects/payday2/particles/interact/lighting_fence" unload="true"/>
 		<material_config path="units/payday2/props/air_prop_runway_fence/air_prop_runway_fence_instanced" unload="true"/>
 		<object path="units/payday2/props/air_prop_runway_fence/air_prop_runway_fence" unload="true"/>
