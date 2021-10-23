@@ -4787,6 +4787,21 @@
 			<entry index="3" type="string" value="units/world/vegetation/jungle/brushes/brush_grass_03"/>
 		</entry>
 	</entry>
+	<entry key="camera_bookmarks" type="table">
+		<entry key="Elements" type="table">
+			<entry key="position" type="vector3" value="-25 -2065 6006"/>
+			<entry key="rotation" type="quaternion" value="0.216593 0.220407 -0.678342 -0.666604"/>
+		</entry>
+		<entry key="Underground" type="table">
+			<entry key="position" type="vector3" value="-10781 -8615 -2081"/>
+			<entry key="rotation" type="quaternion" value="0.0134791 -0.0414845 0.950151 -0.308723"/>
+		</entry>
+		<entry key="Warehouse" type="table">
+			<entry key="position" type="vector3" value="-6623 -2990 637"/>
+			<entry key="rotation" type="quaternion" value="0.0888667 0.0359045 -0.372882 -0.922915"/>
+		</entry>
+		<entry key="default" type="string" value="Underground"/>
+	</entry>
 	<entry key="environment" type="table">
 		<entry key="cubemap_gizmos" type="table">
 		</entry>
