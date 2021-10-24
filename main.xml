@@ -52,6 +52,7 @@
 		</packages>
 		<script_data_mods directory="scriptdata"/>
 	</instance>
+	<Package file="scriptdata/hwu.package" unload_on_restart="true" id="packages/levels/hwu/world/world"/>
 	<Achievements icon="guis/dlcs/pic/textures/achievements/hwu_pack" id="achievements_hwu">
 		<achievement desc_id="achievement_hwu_wd_0_desc" icon="guis/dlcs/pic/textures/achievements/hwu_normal" id="achievement_hwu_wd_0" name_id="achievement_hwu_wd_0" rank="1"/>
 		<achievement desc_id="achievement_hwu_wd_1_desc" icon="guis/dlcs/pic/textures/achievements/hwu_hard" id="achievement_hwu_wd_1" name_id="achievement_hwu_wd_1" rank="1"/>
@@ -108,6 +109,7 @@
 			<value_node value="levels/instances/unique/dah/dah_keypad/world"/>
 			<value_node value="levels/instances/unique/dah/dah_keypad/world/world"/>
 			<value_node value="levels/instances/unique/dah/dah_keypad/world_sounds"/>
+			<value_node value="packages/levels/hwu/world/world"/>
 		</packages>
 		<script_data_mods directory="scriptdata">
 			<mod replacement="objectives.objective" replacement_type="custom_xml" target_ext="objective" target_path="gamedata/objectives">

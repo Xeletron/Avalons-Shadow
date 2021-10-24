@@ -1,0 +1,229 @@
+<table directory="assets">
+	<add>
+		<material_config path="units/pd2_mod_hwu/architecture/smuggler_house/smuggler_house" unload="true"/>
+		<model path="units/pd2_mod_hwu/architecture/smuggler_house/int_smuggler_house" unload="true"/>
+		<object path="units/pd2_mod_hwu/architecture/smuggler_house/int_smuggler_house" unload="true"/>
+		<unit path="units/pd2_mod_hwu/architecture/smuggler_house/int_smuggler_house" unload="true"/>
+		<model path="units/pd2_mod_hwu/architecture/smuggler_house/ext_smuggler_house" unload="true"/>
+		<object path="units/pd2_mod_hwu/architecture/smuggler_house/ext_smuggler_house" unload="true"/>
+		<unit path="units/pd2_mod_hwu/architecture/smuggler_house/ext_smuggler_house" unload="true"/>
+		<material_config path="units/pd2_mod_hwu/architecture/warehouse/warehouse" unload="true"/>
+		<model path="units/pd2_mod_hwu/architecture/warehouse/int_warehouse_floor" unload="true"/>
+		<object path="units/pd2_mod_hwu/architecture/warehouse/int_warehouse_floor" unload="true"/>
+		<unit path="units/pd2_mod_hwu/architecture/warehouse/int_warehouse_floor" unload="true"/>
+		<model path="units/pd2_mod_hwu/architecture/warehouse/ext_warehouse_wall_fence" unload="true"/>
+		<object path="units/pd2_mod_hwu/architecture/warehouse/ext_warehouse_wall_fence" unload="true"/>
+		<unit path="units/pd2_mod_hwu/architecture/warehouse/ext_warehouse_wall_fence" unload="true"/>
+		<sequence_manager path="units/pd2_mod_hwu/architecture/warehouse/ext_warehouse_wall_fence" unload="true"/>
+		<model path="units/pd2_mod_hwu/architecture/warehouse/ext_warehouse_ground" unload="true"/>
+		<object path="units/pd2_mod_hwu/architecture/warehouse/ext_warehouse_ground" unload="true"/>
+		<unit path="units/pd2_mod_hwu/architecture/warehouse/ext_warehouse_ground" unload="true"/>
+		<material_config path="units/pd2_mod_hwu/architecture/warehouse/ext_warehouse_roof" unload="true"/>
+		<model path="units/pd2_mod_hwu/architecture/warehouse/ext_warehouse_roof" unload="true"/>
+		<object path="units/pd2_mod_hwu/architecture/warehouse/ext_warehouse_roof" unload="true"/>
+		<unit path="units/pd2_mod_hwu/architecture/warehouse/ext_warehouse_roof" unload="true"/>
+		<material_config path="units/pd2_mod_hwu/architecture/hwu_backdrop/hwu_backdrop" unload="true"/>
+		<model path="units/pd2_mod_hwu/architecture/hwu_backdrop/hwu_backdrop" unload="true"/>
+		<object path="units/pd2_mod_hwu/architecture/hwu_backdrop/hwu_backdrop" unload="true"/>
+		<unit path="units/pd2_mod_hwu/architecture/hwu_backdrop/hwu_backdrop" unload="true"/>
+		<model path="units/pd2_mod_hwu/mockup/occluder_hwu" unload="true"/>
+		<object path="units/pd2_mod_hwu/mockup/occluder_hwu" unload="true"/>
+		<unit path="units/pd2_mod_hwu/mockup/occluder_hwu" unload="true"/>
+		<material_config from_db="true" path="units/payday2/mockup/occluder_plane" unload="true"/>
+		<material_config path="units/pd2_mod_hwu/architecture/ext_manhole_caps/ext_manhole_caps" unload="true"/>
+		<model path="units/pd2_mod_hwu/architecture/ext_manhole_caps/ext_manhole_caps" unload="true"/>
+		<object path="units/pd2_mod_hwu/architecture/ext_manhole_caps/ext_manhole_caps" unload="true"/>
+		<unit path="units/pd2_mod_hwu/architecture/ext_manhole_caps/ext_manhole_caps" unload="true"/>
+		<sequence_manager path="units/pd2_mod_hwu/architecture/ext_manhole_caps/ext_manhole_caps" unload="true"/>
+		<material_config path="units/pd2_mod_hwu/architecture/hwu_mountain_ground/hwu_mountain_ground" unload="true"/>
+		<model path="units/pd2_mod_hwu/architecture/hwu_mountain_ground/hwu_mountain_ground" unload="true"/>
+		<object path="units/pd2_mod_hwu/architecture/hwu_mountain_ground/hwu_mountain_ground" unload="true"/>
+		<unit load="true" path="units/pd2_mod_hwu/architecture/hwu_mountain_ground/hwu_mountain_ground" unload="true"/>
+		<model path="units/pd2_mod_hwu/architecture/hwu_mountain_shaft/hwu_mountain_shaft" unload="true"/>
+		<object path="units/pd2_mod_hwu/architecture/hwu_mountain_shaft/hwu_mountain_shaft" unload="true"/>
+		<unit path="units/pd2_mod_hwu/architecture/hwu_mountain_shaft/hwu_mountain_shaft" unload="true"/>
+		<material_config path="units/pd2_mod_hwu/architecture/hwu_mountain_shaft/hwu_mountain_shaft" unload="true"/>
+		<material_config path="units/pd2_mod_hwu/architecture/hwu_mountain_storage_room/hwu_mountain_storage_room" unload="true"/>
+		<model path="units/pd2_mod_hwu/architecture/hwu_mountain_storage_room/hwu_mountain_storage_room" unload="true"/>
+		<object path="units/pd2_mod_hwu/architecture/hwu_mountain_storage_room/hwu_mountain_storage_room" unload="true"/>
+		<unit load="true" path="units/pd2_mod_hwu/architecture/hwu_mountain_storage_room/hwu_mountain_storage_room" unload="true"/>
+		<sequence_manager path="units/pd2_mod_hwu/architecture/hwu_mountain_storage_room/hwu_mountain_storage_room" unload="true"/>
+		<material_config path="units/pd2_mod_hwu/architecture/smuggler_house/ext_smuggler_house_ground" unload="true"/>
+		<model path="units/pd2_mod_hwu/architecture/smuggler_house/ext_smuggler_house_ground" unload="true"/>
+		<object path="units/pd2_mod_hwu/architecture/smuggler_house/ext_smuggler_house_ground" unload="true"/>
+		<unit path="units/pd2_mod_hwu/architecture/smuggler_house/ext_smuggler_house_ground" unload="true"/>
+		<model path="units/pd2_mod_hwu/architecture/thermite_hole_cover/thermite_hole_cover" unload="true"/>
+		<object path="units/pd2_mod_hwu/architecture/thermite_hole_cover/thermite_hole_cover" unload="true"/>
+		<unit path="units/pd2_mod_hwu/architecture/thermite_hole_cover/thermite_hole_cover" unload="true"/>
+		<sequence_manager path="units/pd2_mod_hwu/architecture/thermite_hole_cover/thermite_hole_cover" unload="true"/>
+		<model path="units/pd2_mod_hwu/architecture/hwu_mountain_main_room/hwu_mountain_main_room" unload="true"/>
+		<unit path="units/pd2_mod_hwu/architecture/hwu_mountain_main_room/hwu_mountain_main_room" unload="true"/>
+		<object path="units/pd2_mod_hwu/architecture/hwu_mountain_main_room/hwu_mountain_main_room" unload="true"/>
+		<texture path="units/pd2_mod_hwu/equipment/hwu_interactable_laptop/hwu_interactable_laptop_colors" unload="true"/>
+		<texture path="units/pd2_mod_hwu/equipment/hwu_interactable_laptop/computer_hack_screen_df" unload="true"/>
+		<unit load="true" path="units/pd2_mod_hwu/equipment/hwu_interactable_laptop/hwu_interactable_laptop" unload="true"/>
+		<object path="units/pd2_mod_hwu/equipment/hwu_interactable_laptop/hwu_interactable_laptop" unload="true"/>
+		<material_config path="units/pd2_mod_hwu/equipment/hwu_interactable_laptop/hwu_interactable_laptop" unload="true"/>
+		<sequence_manager path="units/pd2_mod_hwu/equipment/hwu_interactable_laptop/hwu_interactable_laptop" unload="true"/>
+		<model path="units/pd2_mod_hwu/equipment/hwu_interactable_laptop/hwu_interactable_laptop" unload="true"/>
+		<unit load="true" path="units/pd2_mod_hwu/props/hwu_container_elevator/hwu_container_elevator" unload="true"/>
+		<object path="units/pd2_mod_hwu/props/hwu_container_elevator/hwu_container_elevator" unload="true"/>
+		<sequence_manager path="units/pd2_mod_hwu/props/hwu_container_elevator/hwu_container_elevator" unload="true"/>
+		<model path="units/pd2_mod_hwu/props/hwu_container_elevator/hwu_container_elevator" unload="true"/>
+		<material_config path="units/pd2_mod_hwu/props/hwu_container_elevator/hwu_container_elevator" unload="true"/>
+		<material_config path="units/pd2_mod_hwu/props/hwu_warehouse_signs/hwu_warehouse_signs" unload="true"/>
+		<unit path="units/pd2_mod_hwu/props/hwu_warehouse_signs/hwu_warehouse_sign_management" unload="true"/>
+		<object path="units/pd2_mod_hwu/props/hwu_warehouse_signs/hwu_warehouse_sign_management" unload="true"/>
+		<model path="units/pd2_mod_hwu/props/hwu_warehouse_signs/hwu_warehouse_sign_management" unload="true"/>
+		<unit path="units/pd2_mod_hwu/props/hwu_warehouse_signs/hwu_warehouse_sign_office" unload="true"/>
+		<object path="units/pd2_mod_hwu/props/hwu_warehouse_signs/hwu_warehouse_sign_office" unload="true"/>
+		<model path="units/pd2_mod_hwu/props/hwu_warehouse_signs/hwu_warehouse_sign_office" unload="true"/>
+		<unit path="units/pd2_mod_hwu/props/hwu_warehouse_signs/hwu_warehouse_sign_archives" unload="true"/>
+		<object path="units/pd2_mod_hwu/props/hwu_warehouse_signs/hwu_warehouse_sign_archives" unload="true"/>
+		<model path="units/pd2_mod_hwu/props/hwu_warehouse_signs/hwu_warehouse_sign_archives" unload="true"/>
+		<unit path="units/pd2_mod_hwu/props/hwu_warehouse_signs/hwu_warehouse_sign_cafeteria" unload="true"/>
+		<object path="units/pd2_mod_hwu/props/hwu_warehouse_signs/hwu_warehouse_sign_cafeteria" unload="true"/>
+		<model path="units/pd2_mod_hwu/props/hwu_warehouse_signs/hwu_warehouse_sign_cafeteria" unload="true"/>
+		<unit path="units/pd2_mod_hwu/props/hwu_warehouse_signs/hwu_warehouse_sign_security" unload="true"/>
+		<object path="units/pd2_mod_hwu/props/hwu_warehouse_signs/hwu_warehouse_sign_security" unload="true"/>
+		<model path="units/pd2_mod_hwu/props/hwu_warehouse_signs/hwu_warehouse_sign_security" unload="true"/>
+		<unit path="units/pd2_mod_hwu/props/hwu_warehouse_signs/hwu_warehouse_sign_meeting" unload="true"/>
+		<object path="units/pd2_mod_hwu/props/hwu_warehouse_signs/hwu_warehouse_sign_meeting" unload="true"/>
+		<model path="units/pd2_mod_hwu/props/hwu_warehouse_signs/hwu_warehouse_sign_meeting" unload="true"/>
+		<unit path="units/pd2_mod_hwu/props/hwu_warehouse_signs/hwu_warehouse_sign_stock" unload="true"/>
+		<object path="units/pd2_mod_hwu/props/hwu_warehouse_signs/hwu_warehouse_sign_stock" unload="true"/>
+		<model path="units/pd2_mod_hwu/props/hwu_warehouse_signs/hwu_warehouse_sign_stock" unload="true"/>
+		<unit path="units/pd2_mod_hwu/props/hwu_warehouse_signs/hwu_warehouse_sign_admin" unload="true"/>
+		<object path="units/pd2_mod_hwu/props/hwu_warehouse_signs/hwu_warehouse_sign_admin" unload="true"/>
+		<model path="units/pd2_mod_hwu/props/hwu_warehouse_signs/hwu_warehouse_sign_admin" unload="true"/>
+		<texture path="units/pd2_mod_hwu/props/hwu_warehouse_signs/hwu_warehouse_signs_df" unload="true"/>
+		<texture path="units/pd2_mod_hwu/props/hwu_warehouse_signs/hwu_warehouse_signs_nm" unload="true"/>
+		<unit path="units/pd2_mod_hwu/props/hwu_prop_loot_toast/hwu_prop_loot_toast" unload="true"/>
+		<object path="units/pd2_mod_hwu/props/hwu_prop_loot_toast/hwu_prop_loot_toast" unload="true"/>
+		<model path="units/pd2_mod_hwu/props/hwu_prop_loot_toast/hwu_prop_loot_toast" unload="true"/>
+		<material_config path="units/pd2_mod_hwu/props/hwu_prop_loot_toast/hwu_prop_loot_toast" unload="true"/>
+		<sequence_manager path="units/pd2_mod_hwu/props/hwu_prop_loot_toast/hwu_prop_loot_toast" unload="true"/>
+		<material_config path="units/payday2/pickups/gen_pku_circuit_board/gen_pku_circuit_board_outline" unload="true"/>
+		<object path="units/payday2/pickups/gen_pku_circuit_board/gen_pku_circuit_board_outline" unload="true"/>
+		<unit path="units/payday2/pickups/gen_pku_circuit_board/gen_pku_circuit_board_outline" unload="true"/>
+		<model path="units/payday2/pickups/gen_pku_circuit_board/gen_pku_circuit_board_outline" unload="true"/>
+		<material_config path="units/pd2_mod_hwu/architecture/hwu_blast_door/hwu_blast_door" unload="true"/>
+		<model path="units/pd2_mod_hwu/architecture/hwu_blast_door/hwu_blast_door" unload="true"/>
+		<object path="units/pd2_mod_hwu/architecture/hwu_blast_door/hwu_blast_door" unload="true"/>
+		<unit path="units/pd2_mod_hwu/architecture/hwu_blast_door/hwu_blast_door" unload="true"/>
+		<sequence_manager path="units/pd2_mod_hwu/architecture/hwu_blast_door/hwu_blast_door" unload="true"/>
+		<material_config path="units/pd2_mod_hwu/architecture/hwu_mountain_door_frame/hwu_mountain_door_frame" unload="true"/>
+		<model path="units/pd2_mod_hwu/architecture/hwu_mountain_door_frame/hwu_mountain_door_frame" unload="true"/>
+		<object path="units/pd2_mod_hwu/architecture/hwu_mountain_door_frame/hwu_mountain_door_frame" unload="true"/>
+		<unit path="units/pd2_mod_hwu/architecture/hwu_mountain_door_frame/hwu_mountain_door_frame" unload="true"/>
+		<texture path="units/payday2/props/gen_prop_container_murky/murkywater_container_logos_df" unload="true"/>
+		<texture path="units/pd2_dlc_arena/props/are_prop_laser/are_prop_laser_df" unload="true"/>
+		<material_config path="units/pd2_dlc_des/props/des_interactable_secret_document/des_interactable_secret_document" unload="true"/>
+		<object path="units/pd2_dlc_des/props/des_interactable_secret_document/des_interactable_secret_document" unload="true"/>
+		<sequence_manager path="units/pd2_dlc_des/props/des_interactable_secret_document/des_interactable_secret_document" unload="true"/>
+		<unit path="units/pd2_dlc_des/props/des_interactable_secret_document/des_interactable_secret_document" unload="true"/>
+		<material_config path="units/payday2/architecture/gen_watchdog_2_water/gen_watchdog_2_water" unload="true"/>
+		<effect from_db="true" load="true" path="effects/payday2/particles/fire/thermite" unload="true"/>
+		<effect from_db="true" load="true" path="effects/payday2/particles/impacts/sparks/sparks_random_02_slow" unload="true"/>
+		<effect from_db="true" load="true" path="effects/payday2/environment/thermal_hole_drops" unload="true"/>
+		<material_config path="units/payday2/equipment/gen_interactable_thermite/gen_interactable_thermite" unload="true"/>
+		<object path="units/payday2/equipment/gen_interactable_thermite/gen_interactable_thermite" unload="true"/>
+		<sequence_manager path="units/payday2/equipment/gen_interactable_thermite/gen_interactable_thermite" unload="true"/>
+		<unit path="units/payday2/equipment/gen_interactable_thermite/gen_interactable_thermite" unload="true"/>
+		<material_config path="units/pd2_dlc_des/props/des_prop_server_room_screen/des_prop_server_room_screen" unload="true"/>
+		<object path="units/pd2_dlc_des/props/des_prop_server_room_screen/des_prop_server_room_screen" unload="true"/>
+		<sequence_manager path="units/pd2_dlc_des/props/des_prop_server_room_screen/des_prop_server_room_screen" unload="true"/>
+		<unit path="units/pd2_dlc_des/props/des_prop_server_room_screen/des_prop_server_room_screen" unload="true"/>
+		<material_config path="units/pd2_dlc_des/architecture/des_int/des_int_server_room/des_int_server_room" unload="true"/>
+		<unit path="units/pd2_dlc_berry/props/bry_prop_servers/bry_prop_server_02" unload="true"/>
+		<object path="units/pd2_dlc_berry/props/bry_prop_servers/bry_prop_server_02" unload="true"/>
+	</add>
+    <add>
+        <material_config path="units/pd2_dlc_berry/architecture/bry_mountain_tunnel_railings/bry_mountain_stairs" unload="true"/>
+		<object path="units/pd2_dlc_berry/architecture/bry_mountain_tunnel_railings/bry_mountain_stairs_a" from_db="true" unload="true"/>
+		<unit path="units/pd2_dlc_berry/architecture/bry_mountain_tunnel_railings/bry_mountain_stairs_a" from_db="true" unload="true"/>
+        <object path="units/pd2_dlc_berry/architecture/bry_mountain_tunnel_railings/bry_mountain_stairs_inner_corner" from_db="true" unload="true"/>
+		<unit path="units/pd2_dlc_berry/architecture/bry_mountain_tunnel_railings/bry_mountain_stairs_inner_corner" from_db="true" unload="true"/>
+        <object path="units/pd2_dlc_berry/architecture/bry_mountain_tunnel_railings/bry_mountain_stairs_b_ending" from_db="true" unload="true"/>
+		<unit path="units/pd2_dlc_berry/architecture/bry_mountain_tunnel_railings/bry_mountain_stairs_b_ending" from_db="true" unload="true"/>
+        <object path="units/pd2_dlc_berry/architecture/bry_mountain_tunnel_railings/bry_mountain_stairs_c_base" from_db="true" unload="true"/>
+		<unit path="units/pd2_dlc_berry/architecture/bry_mountain_tunnel_railings/bry_mountain_stairs_c_base" from_db="true" unload="true"/>
+        <object path="units/pd2_dlc_berry/architecture/bry_mountain_tunnel_railings/bry_mountain_stairs_support_ledge" from_db="true" unload="true"/>
+		<unit path="units/pd2_dlc_berry/architecture/bry_mountain_tunnel_railings/bry_mountain_stairs_support_ledge" from_db="true" unload="true"/>
+        <object path="units/pd2_dlc_berry/architecture/bry_mountain_tunnel_railings/bry_mountain_stairs_b1_bend" from_db="true" unload="true"/>
+		<unit path="units/pd2_dlc_berry/architecture/bry_mountain_tunnel_railings/bry_mountain_stairs_b1_bend" from_db="true" unload="true"/>
+        <object path="units/pd2_dlc_berry/architecture/bry_mountain_tunnel_railings/bry_mountain_stairs_support_4m" from_db="true" unload="true"/>
+		<unit path="units/pd2_dlc_berry/architecture/bry_mountain_tunnel_railings/bry_mountain_stairs_support_4m" from_db="true" unload="true"/>
+        <object path="units/pd2_dlc_berry/architecture/bry_mountain_tunnel_railings/bry_mountain_stairs_b" from_db="true" unload="true"/>
+		<unit path="units/pd2_dlc_berry/architecture/bry_mountain_tunnel_railings/bry_mountain_stairs_b" from_db="true" unload="true"/>
+        <object path="units/pd2_dlc_berry/architecture/bry_mountain_tunnel_railings/bry_mountain_stairs_c_outer_corner" from_db="true" unload="true"/>
+		<unit path="units/pd2_dlc_berry/architecture/bry_mountain_tunnel_railings/bry_mountain_stairs_c_outer_corner" from_db="true" unload="true"/>
+        <object path="units/pd2_dlc_berry/architecture/bry_mountain_tunnel_railings/bry_mountain_stairs_c_one_side" from_db="true" unload="true"/>
+		<unit path="units/pd2_dlc_berry/architecture/bry_mountain_tunnel_railings/bry_mountain_stairs_c_one_side" from_db="true" unload="true"/>
+        <object path="units/pd2_dlc_berry/architecture/bry_mountain_tunnel_railings/bry_mountain_stairs_c_half" from_db="true" unload="true"/>
+		<unit path="units/pd2_dlc_berry/architecture/bry_mountain_tunnel_railings/bry_mountain_stairs_c_half" from_db="true" unload="true"/>
+        <object path="units/pd2_dlc_berry/architecture/bry_mountain_tunnel_railings/bry_mountain_stairs_c_outer_corner_cupped" from_db="true" unload="true"/>
+		<unit path="units/pd2_dlc_berry/architecture/bry_mountain_tunnel_railings/bry_mountain_stairs_c_outer_corner_cupped" from_db="true" unload="true"/>
+        <object path="units/pd2_dlc_berry/architecture/bry_mountain_tunnel_railings/bry_mountain_stairs_c" from_db="true" unload="true"/>
+		<unit path="units/pd2_dlc_berry/architecture/bry_mountain_tunnel_railings/bry_mountain_stairs_c" from_db="true" unload="true"/>
+	</add>
+	<add>
+		<material_config path="units/payday2/nature/pnau/pnau_boulders/pna_ext_landscape_boulder" unload="true"/>
+		<object path="units/payday2/nature/pnau/pnau_boulders/pna_ext_landscape_boulder_a" unload="true"/>
+		<unit path="units/payday2/nature/pnau/pnau_boulders/pna_ext_landscape_boulder_a" unload="true"/>
+		<object path="units/payday2/nature/pnau/pnau_boulders/pna_ext_landscape_boulder_c" unload="true"/>
+		<unit path="units/payday2/nature/pnau/pnau_boulders/pna_ext_landscape_boulder_c" unload="true"/>
+		<object path="units/payday2/nature/pnau/pnau_boulders/pna_ext_landscape_cliff_b" unload="true"/>
+		<unit path="units/payday2/nature/pnau/pnau_boulders/pna_ext_landscape_cliff_b" unload="true"/>
+		<object path="units/payday2/nature/pnau/pnau_boulders/pna_ext_landscape_cliff_a" unload="true"/>
+		<unit path="units/payday2/nature/pnau/pnau_boulders/pna_ext_landscape_cliff_a" unload="true"/>
+		<object path="units/payday2/nature/pnau/pnau_boulders/pna_ext_landscape_cliff_e" unload="true"/>
+		<unit path="units/payday2/nature/pnau/pnau_boulders/pna_ext_landscape_cliff_e" unload="true"/>
+		<unit load="true" path="units/payday2/characters/ene_biker_1/ene_biker_1" unload="true"/>
+		<unit load="true" path="units/payday2/characters/ene_biker_1/ene_biker_1_husk" unload="true"/>
+		<material_config path="units/payday2/characters/ene_biker_1/ene_biker_1" unload="true"/>
+		<object path="units/payday2/characters/ene_biker_1/ene_biker_1" unload="true"/>
+	</add>
+	<add from_db="true">
+		<object path="units/pd2_dlc_berry/architecture/bry_mountain_interiors/bry_mountain_second_room" unload="true"/>
+		<unit load="true" path="units/pd2_dlc_berry/architecture/bry_mountain_interiors/bry_mountain_second_room" unload="true"/>
+		<object path="units/pd2_dlc_berry/architecture/bry_mountain_interiors/bry_mountain_left_entrance" unload="true"/>
+		<unit load="true" path="units/pd2_dlc_berry/architecture/bry_mountain_interiors/bry_mountain_left_entrance" unload="true"/>
+		<unit load="true" path="units/pd2_dlc_berry/architecture/bry_mountain_interiors/bry_mountain_arch_door" unload="true"/>
+		<object path="units/pd2_dlc_berry/architecture/bry_mountain_interiors/bry_mountain_arch_door" unload="true"/>
+		<unit load="true" path="units/pd2_dlc_berry/architecture/bry_mountain_interiors/bry_mountain_concrete_solid_wall" unload="true"/>
+		<object path="units/pd2_dlc_berry/architecture/bry_mountain_interiors/bry_mountain_concrete_solid_wall" unload="true"/>
+		<object path="units/pd2_dlc_berry/architecture/bry_mountain_interiors/bry_mountain_solid_wall" unload="true"/>
+		<unit load="true" path="units/pd2_dlc_berry/architecture/bry_mountain_interiors/bry_mountain_solid_wall" unload="true"/>
+		<material_config path="units/pd2_dlc_berry/architecture/bry_mountain_interiors/bry_mountain_main_interior" unload="true"/>
+	</add>
+	<add from_db="true">
+		<material_config path="units/pd2_mcmansion/props/mcm_prop_evidence_box/mcm_prop_evidence_box"/>
+		<model path="units/pd2_mcmansion/props/mcm_prop_evidence_box/mcm_prop_evidence_box"/>
+		<object path="units/pd2_mcmansion/props/mcm_prop_evidence_box/mcm_prop_evidence_box"/>
+		<sequence_manager path="units/pd2_mcmansion/props/mcm_prop_evidence_box/mcm_prop_evidence_box"/>
+		<unit path="units/pd2_mcmansion/props/mcm_prop_evidence_box/mcm_prop_evidence_box"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc2/architecture/csb_sewer/ind_sewer_a_4m" type="unit">
+		<material_config path="units/pd2_dlc2/architecture/csb_sewer/csb_sewer" unload="true"/>
+		<object path="units/pd2_dlc2/architecture/csb_sewer/ind_sewer_a_4m" unload="true"/>
+		<unit path="units/pd2_dlc2/architecture/csb_sewer/ind_sewer_a_4m" unload="true"/>
+	</add>
+    <add path="units/payday2/props/off_prop_eday_shipping_computer/off_prop_eday_shipping_computer" type="unit">
+		<material_config path="units/payday2/props/off_prop_eday_shipping_computer/off_prop_eday_shipping_computer" unload="true"/>
+		<object path="units/payday2/props/off_prop_eday_shipping_computer/off_prop_eday_shipping_computer" unload="true"/>
+		<sequence_manager path="units/payday2/props/off_prop_eday_shipping_computer/off_prop_eday_shipping_computer" unload="true"/>
+		<unit path="units/payday2/props/off_prop_eday_shipping_computer/off_prop_eday_shipping_computer" unload="true"/>
+	</add>
+	<add path="units/pd2_dlc_des/architecture/des_int/des_int_server_room/des_int_server_room" type="unit">
+		<material_config path="units/pd2_dlc_des/architecture/des_int/des_int_server_room/des_int_server_room" unload="true"/>
+		<object path="units/pd2_dlc_des/architecture/des_int/des_int_server_room/des_int_server_room" unload="true"/>
+		<sequence_manager path="units/pd2_dlc_des/architecture/des_int/des_int_server_room/des_int_server_room" unload="true"/>
+		<unit load="true" path="units/pd2_dlc_des/architecture/des_int/des_int_server_room/des_int_server_room" unload="true"/>
+	</add>
+	<add from_db="true">
+		<effect load="true" path="effects/payday2/particles/fire/thermite" unload="true"/>
+		<effect load="true" path="effects/payday2/particles/impacts/sparks/sparks_random_02_slow" unload="true"/>
+		<effect load="true" path="effects/payday2/environment/thermal_hole_drops" unload="true"/>
+	</add>
+</table>

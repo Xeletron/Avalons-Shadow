@@ -1,181 +1,4 @@
 <table directory="assets">
-	<add unload_on_restart="true">
-		<material_config force="true" path="units/pd2_mod_hwu/architecture/smuggler_house/smuggler_house" unload="true"/>
-		<model force="true" path="units/pd2_mod_hwu/architecture/smuggler_house/int_smuggler_house" unload="true"/>
-		<object force="true" path="units/pd2_mod_hwu/architecture/smuggler_house/int_smuggler_house" unload="true"/>
-		<unit force="true" path="units/pd2_mod_hwu/architecture/smuggler_house/int_smuggler_house" unload="true"/>
-		<model force="true" path="units/pd2_mod_hwu/architecture/smuggler_house/ext_smuggler_house" unload="true"/>
-		<object force="true" path="units/pd2_mod_hwu/architecture/smuggler_house/ext_smuggler_house" unload="true"/>
-		<unit force="true" path="units/pd2_mod_hwu/architecture/smuggler_house/ext_smuggler_house" unload="true"/>
-		<material_config force="true" path="units/pd2_mod_hwu/architecture/warehouse/warehouse" unload="true"/>
-		<model force="true" path="units/pd2_mod_hwu/architecture/warehouse/int_warehouse_floor" unload="true"/>
-		<object force="true" path="units/pd2_mod_hwu/architecture/warehouse/int_warehouse_floor" unload="true"/>
-		<unit force="true" path="units/pd2_mod_hwu/architecture/warehouse/int_warehouse_floor" unload="true"/>
-		<model force="true" path="units/pd2_mod_hwu/architecture/warehouse/ext_warehouse_wall_fence" unload="true"/>
-		<object force="true" path="units/pd2_mod_hwu/architecture/warehouse/ext_warehouse_wall_fence" unload="true"/>
-		<unit force="true" path="units/pd2_mod_hwu/architecture/warehouse/ext_warehouse_wall_fence" unload="true"/>
-		<sequence_manager force="true" path="units/pd2_mod_hwu/architecture/warehouse/ext_warehouse_wall_fence" unload="true"/>
-		<model force="true" path="units/pd2_mod_hwu/architecture/warehouse/ext_warehouse_ground" unload="true"/>
-		<object force="true" path="units/pd2_mod_hwu/architecture/warehouse/ext_warehouse_ground" unload="true"/>
-		<unit force="true" path="units/pd2_mod_hwu/architecture/warehouse/ext_warehouse_ground" unload="true"/>
-		<material_config force="true" path="units/pd2_mod_hwu/architecture/warehouse/ext_warehouse_roof" unload="true"/>
-		<model force="true" path="units/pd2_mod_hwu/architecture/warehouse/ext_warehouse_roof" unload="true"/>
-		<object force="true" path="units/pd2_mod_hwu/architecture/warehouse/ext_warehouse_roof" unload="true"/>
-		<unit force="true" path="units/pd2_mod_hwu/architecture/warehouse/ext_warehouse_roof" unload="true"/>
-		<material_config force="true" path="units/pd2_mod_hwu/architecture/hwu_backdrop/hwu_backdrop" unload="true"/>
-		<model force="true" path="units/pd2_mod_hwu/architecture/hwu_backdrop/hwu_backdrop" unload="true"/>
-		<object force="true" path="units/pd2_mod_hwu/architecture/hwu_backdrop/hwu_backdrop" unload="true"/>
-		<unit force="true" path="units/pd2_mod_hwu/architecture/hwu_backdrop/hwu_backdrop" unload="true"/>
-		<model force="true" path="units/pd2_mod_hwu/mockup/occluder_hwu" unload="true"/>
-		<object force="true" path="units/pd2_mod_hwu/mockup/occluder_hwu" unload="true"/>
-		<unit force="true" path="units/pd2_mod_hwu/mockup/occluder_hwu" unload="true"/>
-		<material_config force="true" from_db="true" path="units/payday2/mockup/occluder_plane" unload="true"/>
-		<material_config force="true" path="units/pd2_mod_hwu/architecture/ext_manhole_caps/ext_manhole_caps" unload="true"/>
-		<model force="true" path="units/pd2_mod_hwu/architecture/ext_manhole_caps/ext_manhole_caps" unload="true"/>
-		<object force="true" path="units/pd2_mod_hwu/architecture/ext_manhole_caps/ext_manhole_caps" unload="true"/>
-		<unit force="true" path="units/pd2_mod_hwu/architecture/ext_manhole_caps/ext_manhole_caps" unload="true"/>
-		<sequence_manager force="true" path="units/pd2_mod_hwu/architecture/ext_manhole_caps/ext_manhole_caps" unload="true"/>
-		<material_config force="true" path="units/pd2_mod_hwu/architecture/hwu_mountain_ground/hwu_mountain_ground" unload="true"/>
-		<model force="true" path="units/pd2_mod_hwu/architecture/hwu_mountain_ground/hwu_mountain_ground" unload="true"/>
-		<object force="true" path="units/pd2_mod_hwu/architecture/hwu_mountain_ground/hwu_mountain_ground" unload="true"/>
-		<unit force="true" load="true" path="units/pd2_mod_hwu/architecture/hwu_mountain_ground/hwu_mountain_ground" unload="true"/>
-		<model force="true" path="units/pd2_mod_hwu/architecture/hwu_mountain_shaft/hwu_mountain_shaft" unload="true"/>
-		<object force="true" path="units/pd2_mod_hwu/architecture/hwu_mountain_shaft/hwu_mountain_shaft" unload="true"/>
-		<unit force="true" path="units/pd2_mod_hwu/architecture/hwu_mountain_shaft/hwu_mountain_shaft" unload="true"/>
-		<material_config force="true" path="units/pd2_mod_hwu/architecture/hwu_mountain_shaft/hwu_mountain_shaft" unload="true"/>
-		<material_config force="true" path="units/pd2_mod_hwu/architecture/hwu_mountain_storage_room/hwu_mountain_storage_room" unload="true"/>
-		<model force="true" path="units/pd2_mod_hwu/architecture/hwu_mountain_storage_room/hwu_mountain_storage_room" unload="true"/>
-		<object force="true" path="units/pd2_mod_hwu/architecture/hwu_mountain_storage_room/hwu_mountain_storage_room" unload="true"/>
-		<unit force="true" load="true" path="units/pd2_mod_hwu/architecture/hwu_mountain_storage_room/hwu_mountain_storage_room" unload="true"/>
-		<sequence_manager force="true" path="units/pd2_mod_hwu/architecture/hwu_mountain_storage_room/hwu_mountain_storage_room" unload="true"/>
-		<material_config force="true" path="units/pd2_mod_hwu/architecture/smuggler_house/ext_smuggler_house_ground" unload="true"/>
-		<model force="true" path="units/pd2_mod_hwu/architecture/smuggler_house/ext_smuggler_house_ground" unload="true"/>
-		<object force="true" path="units/pd2_mod_hwu/architecture/smuggler_house/ext_smuggler_house_ground" unload="true"/>
-		<unit force="true" path="units/pd2_mod_hwu/architecture/smuggler_house/ext_smuggler_house_ground" unload="true"/>
-		<model force="true" path="units/pd2_mod_hwu/architecture/thermite_hole_cover/thermite_hole_cover" unload="true"/>
-		<object force="true" path="units/pd2_mod_hwu/architecture/thermite_hole_cover/thermite_hole_cover" unload="true"/>
-		<unit force="true" path="units/pd2_mod_hwu/architecture/thermite_hole_cover/thermite_hole_cover" unload="true"/>
-		<sequence_manager force="true" path="units/pd2_mod_hwu/architecture/thermite_hole_cover/thermite_hole_cover" unload="true"/>
-		<model force="true" path="units/pd2_mod_hwu/architecture/hwu_mountain_main_room/hwu_mountain_main_room" unload="true"/>
-		<unit force="true" path="units/pd2_mod_hwu/architecture/hwu_mountain_main_room/hwu_mountain_main_room" unload="true"/>
-		<object force="true" path="units/pd2_mod_hwu/architecture/hwu_mountain_main_room/hwu_mountain_main_room" unload="true"/>
-		<texture path="units/pd2_mod_hwu/equipment/hwu_interactable_laptop/hwu_interactable_laptop_colors" unload="true"/>
-		<texture path="units/pd2_mod_hwu/equipment/hwu_interactable_laptop/computer_hack_screen_df" unload="true"/>
-		<unit load="true" path="units/pd2_mod_hwu/equipment/hwu_interactable_laptop/hwu_interactable_laptop" unload="true"/>
-		<object path="units/pd2_mod_hwu/equipment/hwu_interactable_laptop/hwu_interactable_laptop" unload="true"/>
-		<material_config path="units/pd2_mod_hwu/equipment/hwu_interactable_laptop/hwu_interactable_laptop" unload="true"/>
-		<sequence_manager path="units/pd2_mod_hwu/equipment/hwu_interactable_laptop/hwu_interactable_laptop" unload="true"/>
-		<model path="units/pd2_mod_hwu/equipment/hwu_interactable_laptop/hwu_interactable_laptop" unload="true"/>
-		<unit load="true" path="units/pd2_mod_hwu/props/hwu_container_elevator/hwu_container_elevator" unload="true"/>
-		<object path="units/pd2_mod_hwu/props/hwu_container_elevator/hwu_container_elevator" unload="true"/>
-		<sequence_manager path="units/pd2_mod_hwu/props/hwu_container_elevator/hwu_container_elevator" unload="true"/>
-		<model path="units/pd2_mod_hwu/props/hwu_container_elevator/hwu_container_elevator" unload="true"/>
-		<material_config path="units/pd2_mod_hwu/props/hwu_container_elevator/hwu_container_elevator" unload="true"/>
-		<material_config path="units/pd2_mod_hwu/props/hwu_warehouse_signs/hwu_warehouse_signs" unload="true"/>
-		<unit path="units/pd2_mod_hwu/props/hwu_warehouse_signs/hwu_warehouse_sign_management" unload="true"/>
-		<object path="units/pd2_mod_hwu/props/hwu_warehouse_signs/hwu_warehouse_sign_management" unload="true"/>
-		<model path="units/pd2_mod_hwu/props/hwu_warehouse_signs/hwu_warehouse_sign_management" unload="true"/>
-		<unit path="units/pd2_mod_hwu/props/hwu_warehouse_signs/hwu_warehouse_sign_office" unload="true"/>
-		<object path="units/pd2_mod_hwu/props/hwu_warehouse_signs/hwu_warehouse_sign_office" unload="true"/>
-		<model path="units/pd2_mod_hwu/props/hwu_warehouse_signs/hwu_warehouse_sign_office" unload="true"/>
-		<unit path="units/pd2_mod_hwu/props/hwu_warehouse_signs/hwu_warehouse_sign_archives" unload="true"/>
-		<object path="units/pd2_mod_hwu/props/hwu_warehouse_signs/hwu_warehouse_sign_archives" unload="true"/>
-		<model path="units/pd2_mod_hwu/props/hwu_warehouse_signs/hwu_warehouse_sign_archives" unload="true"/>
-		<unit path="units/pd2_mod_hwu/props/hwu_warehouse_signs/hwu_warehouse_sign_cafeteria" unload="true"/>
-		<object path="units/pd2_mod_hwu/props/hwu_warehouse_signs/hwu_warehouse_sign_cafeteria" unload="true"/>
-		<model path="units/pd2_mod_hwu/props/hwu_warehouse_signs/hwu_warehouse_sign_cafeteria" unload="true"/>
-		<unit path="units/pd2_mod_hwu/props/hwu_warehouse_signs/hwu_warehouse_sign_security" unload="true"/>
-		<object path="units/pd2_mod_hwu/props/hwu_warehouse_signs/hwu_warehouse_sign_security" unload="true"/>
-		<model path="units/pd2_mod_hwu/props/hwu_warehouse_signs/hwu_warehouse_sign_security" unload="true"/>
-		<unit path="units/pd2_mod_hwu/props/hwu_warehouse_signs/hwu_warehouse_sign_meeting" unload="true"/>
-		<object path="units/pd2_mod_hwu/props/hwu_warehouse_signs/hwu_warehouse_sign_meeting" unload="true"/>
-		<model path="units/pd2_mod_hwu/props/hwu_warehouse_signs/hwu_warehouse_sign_meeting" unload="true"/>
-		<unit path="units/pd2_mod_hwu/props/hwu_warehouse_signs/hwu_warehouse_sign_stock" unload="true"/>
-		<object path="units/pd2_mod_hwu/props/hwu_warehouse_signs/hwu_warehouse_sign_stock" unload="true"/>
-		<model path="units/pd2_mod_hwu/props/hwu_warehouse_signs/hwu_warehouse_sign_stock" unload="true"/>
-		<unit path="units/pd2_mod_hwu/props/hwu_warehouse_signs/hwu_warehouse_sign_admin" unload="true"/>
-		<object path="units/pd2_mod_hwu/props/hwu_warehouse_signs/hwu_warehouse_sign_admin" unload="true"/>
-		<model path="units/pd2_mod_hwu/props/hwu_warehouse_signs/hwu_warehouse_sign_admin" unload="true"/>
-		<texture path="units/pd2_mod_hwu/props/hwu_warehouse_signs/hwu_warehouse_signs_df" unload="true"/>
-		<texture path="units/pd2_mod_hwu/props/hwu_warehouse_signs/hwu_warehouse_signs_nm" unload="true"/>
-		<unit path="units/pd2_mod_hwu/props/hwu_prop_loot_toast/hwu_prop_loot_toast" unload="true"/>
-		<object path="units/pd2_mod_hwu/props/hwu_prop_loot_toast/hwu_prop_loot_toast" unload="true"/>
-		<model path="units/pd2_mod_hwu/props/hwu_prop_loot_toast/hwu_prop_loot_toast" unload="true"/>
-		<material_config path="units/pd2_mod_hwu/props/hwu_prop_loot_toast/hwu_prop_loot_toast" unload="true"/>
-		<sequence_manager path="units/pd2_mod_hwu/props/hwu_prop_loot_toast/hwu_prop_loot_toast" unload="true"/>
-		<material_config path="units/payday2/pickups/gen_pku_circuit_board/gen_pku_circuit_board_outline" unload="true"/>
-		<object path="units/payday2/pickups/gen_pku_circuit_board/gen_pku_circuit_board_outline" unload="true"/>
-		<unit path="units/payday2/pickups/gen_pku_circuit_board/gen_pku_circuit_board_outline" unload="true"/>
-		<model path="units/payday2/pickups/gen_pku_circuit_board/gen_pku_circuit_board_outline" unload="true"/>
-		<material_config force="true" path="units/pd2_mod_hwu/architecture/hwu_blast_door/hwu_blast_door" unload="true"/>
-		<model force="true" path="units/pd2_mod_hwu/architecture/hwu_blast_door/hwu_blast_door" unload="true"/>
-		<object force="true" path="units/pd2_mod_hwu/architecture/hwu_blast_door/hwu_blast_door" unload="true"/>
-		<unit force="true" path="units/pd2_mod_hwu/architecture/hwu_blast_door/hwu_blast_door" unload="true"/>
-		<sequence_manager force="true" path="units/pd2_mod_hwu/architecture/hwu_blast_door/hwu_blast_door" unload="true"/>
-		<material_config force="true" path="units/pd2_mod_hwu/architecture/hwu_mountain_door_frame/hwu_mountain_door_frame" unload="true"/>
-		<model force="true" path="units/pd2_mod_hwu/architecture/hwu_mountain_door_frame/hwu_mountain_door_frame" unload="true"/>
-		<object force="true" path="units/pd2_mod_hwu/architecture/hwu_mountain_door_frame/hwu_mountain_door_frame" unload="true"/>
-		<unit force="true" path="units/pd2_mod_hwu/architecture/hwu_mountain_door_frame/hwu_mountain_door_frame" unload="true"/>
-		<texture path="units/payday2/props/gen_prop_container_murky/murkywater_container_logos_df" unload="true" unload_on_restart="true"/>
-		<texture path="units/pd2_dlc_arena/props/are_prop_laser/are_prop_laser_df" unload="true" unload_on_restart="true"/>
-		<material_config path="units/pd2_dlc_berry/architecture/bry_mountain_tunnel_railings/bry_mountain_stairs" unload="true"/>
-		<material_config path="units/pd2_dlc_des/props/des_interactable_secret_document/des_interactable_secret_document" unload="true"/>
-		<object path="units/pd2_dlc_des/props/des_interactable_secret_document/des_interactable_secret_document" unload="true"/>
-		<sequence_manager path="units/pd2_dlc_des/props/des_interactable_secret_document/des_interactable_secret_document" unload="true"/>
-		<unit path="units/pd2_dlc_des/props/des_interactable_secret_document/des_interactable_secret_document" unload="true"/>
-		<material_config path="units/payday2/architecture/gen_watchdog_2_water/gen_watchdog_2_water" unload="true"/>
-		<effect from_db="true" load="true" path="effects/payday2/particles/fire/thermite" unload="true"/>
-		<effect from_db="true" load="true" path="effects/payday2/particles/impacts/sparks/sparks_random_02_slow" unload="true"/>
-		<effect from_db="true" load="true" path="effects/payday2/environment/thermal_hole_drops" unload="true"/>
-		<material_config path="units/payday2/equipment/gen_interactable_thermite/gen_interactable_thermite" unload="true"/>
-		<object path="units/payday2/equipment/gen_interactable_thermite/gen_interactable_thermite" unload="true"/>
-		<sequence_manager path="units/payday2/equipment/gen_interactable_thermite/gen_interactable_thermite" unload="true"/>
-		<unit path="units/payday2/equipment/gen_interactable_thermite/gen_interactable_thermite" unload="true"/>
-		<material_config path="units/pd2_dlc_des/props/des_prop_server_room_screen/des_prop_server_room_screen" unload="true"/>
-		<object path="units/pd2_dlc_des/props/des_prop_server_room_screen/des_prop_server_room_screen" unload="true"/>
-		<sequence_manager path="units/pd2_dlc_des/props/des_prop_server_room_screen/des_prop_server_room_screen" unload="true"/>
-		<unit path="units/pd2_dlc_des/props/des_prop_server_room_screen/des_prop_server_room_screen" unload="true"/>
-		<material_config path="units/pd2_dlc_des/architecture/des_int/des_int_server_room/des_int_server_room" unload="true"/>
-		<unit path="units/pd2_dlc_berry/props/bry_prop_servers/bry_prop_server_02" unload="true"/>
-		<object path="units/pd2_dlc_berry/props/bry_prop_servers/bry_prop_server_02" unload="true"/>
-	</add>
-	<add type="unit" unload_on_restart="true">
-		<material_config path="units/payday2/nature/pnau/pnau_boulders/pna_ext_landscape_boulder" unload="true"/>
-		<object path="units/payday2/nature/pnau/pnau_boulders/pna_ext_landscape_boulder_a" unload="true"/>
-		<unit path="units/payday2/nature/pnau/pnau_boulders/pna_ext_landscape_boulder_a" unload="true"/>
-		<object path="units/payday2/nature/pnau/pnau_boulders/pna_ext_landscape_boulder_c" unload="true"/>
-		<unit path="units/payday2/nature/pnau/pnau_boulders/pna_ext_landscape_boulder_c" unload="true"/>
-		<object path="units/payday2/nature/pnau/pnau_boulders/pna_ext_landscape_cliff_b" unload="true"/>
-		<unit path="units/payday2/nature/pnau/pnau_boulders/pna_ext_landscape_cliff_b" unload="true"/>
-		<object path="units/payday2/nature/pnau/pnau_boulders/pna_ext_landscape_cliff_a" unload="true"/>
-		<unit path="units/payday2/nature/pnau/pnau_boulders/pna_ext_landscape_cliff_a" unload="true"/>
-		<object path="units/payday2/nature/pnau/pnau_boulders/pna_ext_landscape_cliff_e" unload="true"/>
-		<unit path="units/payday2/nature/pnau/pnau_boulders/pna_ext_landscape_cliff_e" unload="true"/>
-		<unit load="true" path="units/payday2/characters/ene_biker_1/ene_biker_1" unload="true"/>
-		<unit load="true" path="units/payday2/characters/ene_biker_1/ene_biker_1_husk" unload="true"/>
-		<material_config path="units/payday2/characters/ene_biker_1/ene_biker_1" unload="true"/>
-		<object path="units/payday2/characters/ene_biker_1/ene_biker_1" unload="true"/>
-	</add>
-	<add from_db="true" unload_on_restart="true">
-		<object path="units/pd2_dlc_berry/architecture/bry_mountain_interiors/bry_mountain_second_room" unload="true"/>
-		<unit load="true" path="units/pd2_dlc_berry/architecture/bry_mountain_interiors/bry_mountain_second_room" unload="true"/>
-		<object path="units/pd2_dlc_berry/architecture/bry_mountain_interiors/bry_mountain_left_entrance" unload="true"/>
-		<unit load="true" path="units/pd2_dlc_berry/architecture/bry_mountain_interiors/bry_mountain_left_entrance" unload="true"/>
-		<unit load="true" path="units/pd2_dlc_berry/architecture/bry_mountain_interiors/bry_mountain_arch_door" unload="true"/>
-		<object path="units/pd2_dlc_berry/architecture/bry_mountain_interiors/bry_mountain_arch_door" unload="true"/>
-		<unit load="true" path="units/pd2_dlc_berry/architecture/bry_mountain_interiors/bry_mountain_concrete_solid_wall" unload="true"/>
-		<object path="units/pd2_dlc_berry/architecture/bry_mountain_interiors/bry_mountain_concrete_solid_wall" unload="true"/>
-		<object path="units/pd2_dlc_berry/architecture/bry_mountain_interiors/bry_mountain_solid_wall" unload="true"/>
-		<unit load="true" path="units/pd2_dlc_berry/architecture/bry_mountain_interiors/bry_mountain_solid_wall" unload="true"/>
-		<material_config path="units/pd2_dlc_berry/architecture/bry_mountain_interiors/bry_mountain_main_interior" unload="true"/>
-	</add>
-	<add from_db="true" unload_on_restart="true">
-		<material_config path="units/pd2_mcmansion/props/mcm_prop_evidence_box/mcm_prop_evidence_box"/>
-		<model path="units/pd2_mcmansion/props/mcm_prop_evidence_box/mcm_prop_evidence_box"/>
-		<object path="units/pd2_mcmansion/props/mcm_prop_evidence_box/mcm_prop_evidence_box"/>
-		<sequence_manager path="units/pd2_mcmansion/props/mcm_prop_evidence_box/mcm_prop_evidence_box"/>
-		<unit path="units/pd2_mcmansion/props/mcm_prop_evidence_box/mcm_prop_evidence_box"/>
-	</add>
 	<add from_db="true" path="units/payday2/props/lxa_prop_kitchen_stove_fan/lxa_prop_kitchen_stove_fan" type="unit">
 		<material_config path="units/payday2/props/lxa_prop_kitchen_stove_fan/lxa_prop_kitchen_stove_fan" unload="true"/>
 		<object path="units/payday2/props/lxa_prop_kitchen_stove_fan/lxa_prop_kitchen_stove_fan" unload="true"/>
@@ -1643,10 +1466,6 @@
 		<sequence_manager path="units/pd2_mcmansion/props/mcm_prop_dining_lamp_ceiling/mcm_prop_dining_lamp_ceiling" unload="true"/>
 		<unit path="units/pd2_mcmansion/props/mcm_prop_dining_lamp_ceiling/mcm_prop_dining_lamp_ceiling" unload="true"/>
 	</add>
-	<add from_db="true" path="units/pd2_dlc_berry/architecture/bry_mountain_tunnel_railings/bry_mountain_stairs_inner_corner" type="unit">
-		<object path="units/pd2_dlc_berry/architecture/bry_mountain_tunnel_railings/bry_mountain_stairs_inner_corner" unload="true"/>
-		<unit path="units/pd2_dlc_berry/architecture/bry_mountain_tunnel_railings/bry_mountain_stairs_inner_corner" unload="true"/>
-	</add>
 	<add from_db="true" path="units/pd2_dlc_dark/equipment/drk_interactable_weapon_case_1x1/drk_interactable_weapon_case_1x1" type="unit">
 		<unit path="units/pd2_dlc_dark/equipment/drk_interactable_weapon_case_1x1/drk_interactable_weapon_case_1x1" unload="true"/>
 		<object path="units/pd2_dlc_dark/equipment/drk_interactable_weapon_case_1x1/drk_interactable_weapon_case_1x1" unload="true"/>
@@ -1662,10 +1481,6 @@
 		<material_config path="units/payday2/props/com_prop_store_bags/com_prop_store_bags_gymbag" unload="true"/>
 		<object path="units/payday2/props/com_prop_store_bags/com_prop_store_bags_gymbag" unload="true"/>
 		<unit path="units/payday2/props/com_prop_store_bags/com_prop_store_bags_gymbag" unload="true"/>
-	</add>
-	<add from_db="true" path="units/pd2_dlc_berry/architecture/bry_mountain_tunnel_railings/bry_mountain_stairs_a" type="unit">
-		<object path="units/pd2_dlc_berry/architecture/bry_mountain_tunnel_railings/bry_mountain_stairs_a" unload="true"/>
-		<unit path="units/pd2_dlc_berry/architecture/bry_mountain_tunnel_railings/bry_mountain_stairs_a" unload="true"/>
 	</add>
 	<add from_db="true" path="units/payday2/props/ind_prop_warehouse_set/ind_prop_warehouse_pallet_group_6a" type="unit">
 		<material_config path="units/payday2/props/ind_prop_warehouse_set/ind_prop_warehouse_pallet_group_6a" unload="true"/>
@@ -2063,10 +1878,6 @@
 		<object path="units/lights/light_spot_shadow_projection_01/light_spot_shadow_projection_01" unload="true"/>
 		<unit path="units/lights/light_spot_shadow_projection_01/light_spot_shadow_projection_01" unload="true"/>
 	</add>
-	<add from_db="true" path="units/pd2_dlc_berry/architecture/bry_mountain_tunnel_railings/bry_mountain_stairs_b_ending" type="unit">
-		<object path="units/pd2_dlc_berry/architecture/bry_mountain_tunnel_railings/bry_mountain_stairs_b_ending" unload="true"/>
-		<unit path="units/pd2_dlc_berry/architecture/bry_mountain_tunnel_railings/bry_mountain_stairs_b_ending" unload="true"/>
-	</add>
 	<add from_db="true" path="units/payday2/props/gen_prop_glow/gen_prop_glow_01_small" type="unit">
 		<effect load="true" path="effects/payday2/particles/flares/street_light_flare_blueish" unload="true"/>
 		<material_config path="units/payday2/props/gen_prop_glow/gen_prop_glow" unload="true"/>
@@ -2237,11 +2048,6 @@
 		<sequence_manager path="units/payday2/equipment/gen_interactable_drill_small/gen_interactable_drill_small" unload="true"/>
 		<unit path="units/payday2/equipment/gen_interactable_drill_small/gen_interactable_drill_small" unload="true"/>
 	</add>
-	<add from_db="true" unload_on_restart="true" path="units/pd2_dlc2/architecture/csb_sewer/ind_sewer_a_4m" type="unit">
-		<material_config path="units/pd2_dlc2/architecture/csb_sewer/csb_sewer" unload="true"/>
-		<object path="units/pd2_dlc2/architecture/csb_sewer/ind_sewer_a_4m" unload="true"/>
-		<unit path="units/pd2_dlc2/architecture/csb_sewer/ind_sewer_a_4m" unload="true"/>
-	</add>
 	<add from_db="true" path="units/payday2/props/off_prop_generic_filecabinet/off_prop_generic_filecabinet_f" type="unit">
 		<material_config path="units/payday2/props/off_prop_generic_filecabinet/off_prop_generic_filecabinet_a" unload="true"/>
 		<object path="units/payday2/props/off_prop_generic_filecabinet/off_prop_generic_filecabinet_f" unload="true"/>
@@ -2320,12 +2126,6 @@
 		<material_config path="units/payday2/architecture/ind/ind_ext_level/ind_ext_level_railing_v2" unload="true"/>
 		<object path="units/payday2/architecture/ind/ind_ext_level/ind_ext_fence_pole_2m" unload="true"/>
 		<unit path="units/payday2/architecture/ind/ind_ext_level/ind_ext_fence_pole_2m" unload="true"/>
-	</add>
-	<add path="units/payday2/props/off_prop_eday_shipping_computer/off_prop_eday_shipping_computer" type="unit" unload_on_restart="true">
-		<material_config path="units/payday2/props/off_prop_eday_shipping_computer/off_prop_eday_shipping_computer" unload="true"/>
-		<object path="units/payday2/props/off_prop_eday_shipping_computer/off_prop_eday_shipping_computer" unload="true"/>
-		<sequence_manager path="units/payday2/props/off_prop_eday_shipping_computer/off_prop_eday_shipping_computer" unload="true"/>
-		<unit path="units/payday2/props/off_prop_eday_shipping_computer/off_prop_eday_shipping_computer" unload="true"/>
 	</add>
 	<add from_db="true" path="units/world/props/bathroom_rug01_suburbia/bathroom_rug01_suburbia" type="unit">
 		<material_config path="units/world/props/bathroom_rug01_suburbia/bathroom_rug01_suburbia" unload="true"/>
@@ -2712,10 +2512,6 @@
 		<object path="units/payday2/props/air_prop_hangar_toolbox/air_prop_hangar_toolbox" unload="true"/>
 		<unit path="units/payday2/props/air_prop_hangar_toolbox/air_prop_hangar_toolbox" unload="true"/>
 	</add>
-	<add from_db="true" path="units/pd2_dlc_berry/architecture/bry_mountain_tunnel_railings/bry_mountain_stairs_c_base" type="unit">
-		<object path="units/pd2_dlc_berry/architecture/bry_mountain_tunnel_railings/bry_mountain_stairs_c_base" unload="true"/>
-		<unit path="units/pd2_dlc_berry/architecture/bry_mountain_tunnel_railings/bry_mountain_stairs_c_base" unload="true"/>
-	</add>
 	<add from_db="true" path="units/world/props/gym/gym_atlas/prop_gym_bench_press" type="unit">
 		<material_config path="units/world/props/gym/gym_atlas/gym_atlas" unload="true"/>
 		<object path="units/world/props/gym/gym_atlas/prop_gym_bench_press" unload="true"/>
@@ -2753,10 +2549,6 @@
 		<material_config path="units/payday2/architecture/ind/ind_ext_level/ind_ext_level_v2" unload="true"/>
 		<object path="units/payday2/architecture/ind/ind_ext_level/ind_ext_level_1_02_1m_v2" unload="true"/>
 		<unit path="units/payday2/architecture/ind/ind_ext_level/ind_ext_level_1_02_1m_v2" unload="true"/>
-	</add>
-	<add from_db="true" path="units/pd2_dlc_berry/architecture/bry_mountain_tunnel_railings/bry_mountain_stairs_support_ledge" type="unit">
-		<object path="units/pd2_dlc_berry/architecture/bry_mountain_tunnel_railings/bry_mountain_stairs_support_ledge" unload="true"/>
-		<unit path="units/pd2_dlc_berry/architecture/bry_mountain_tunnel_railings/bry_mountain_stairs_support_ledge" unload="true"/>
 	</add>
 	<add from_db="true" path="units/world/props/trashcan/trash_dustbin_01" type="unit">
 		<material_config path="units/world/props/trashcan/trash_dustbin_01" unload="true"/>
@@ -2849,16 +2641,6 @@
 		<material_config path="units/pd2_mcmansion/props/mcm_prop_livingroom_armchair/mcm_prop_livingroom_armchair" unload="true"/>
 		<object path="units/pd2_mcmansion/props/mcm_prop_livingroom_armchair/mcm_prop_livingroom_armchair" unload="true"/>
 		<unit path="units/pd2_mcmansion/props/mcm_prop_livingroom_armchair/mcm_prop_livingroom_armchair" unload="true"/>
-	</add>
-	<add from_db="true" path="units/pd2_dlc_berry/architecture/bry_mountain_tunnel_railings/bry_mountain_stairs_b1_bend" type="unit">
-		<object path="units/pd2_dlc_berry/architecture/bry_mountain_tunnel_railings/bry_mountain_stairs_b1_bend" unload="true"/>
-		<unit path="units/pd2_dlc_berry/architecture/bry_mountain_tunnel_railings/bry_mountain_stairs_b1_bend" unload="true"/>
-	</add>
-	<add path="units/pd2_dlc_des/architecture/des_int/des_int_server_room/des_int_server_room" type="unit" unload_on_restart="true">
-		<material_config path="units/pd2_dlc_des/architecture/des_int/des_int_server_room/des_int_server_room" unload="true"/>
-		<object path="units/pd2_dlc_des/architecture/des_int/des_int_server_room/des_int_server_room" unload="true"/>
-		<sequence_manager path="units/pd2_dlc_des/architecture/des_int/des_int_server_room/des_int_server_room" unload="true"/>
-		<unit load="true" path="units/pd2_dlc_des/architecture/des_int/des_int_server_room/des_int_server_room" unload="true"/>
 	</add>
 	<add from_db="true" path="units/pd2_dlc_vit/props/vit_prop_military_missileammobox/vit_prop_military_missileammobox" type="unit">
 		<material_config path="units/pd2_dlc_vit/props/vit_prop_military_missileammobox/vit_prop_military_missileammobox" unload="true"/>
@@ -3159,10 +2941,6 @@
 		<sequence_manager path="units/pd2_dlc_berry/props/bry_prop_guardhouse/bry_prop_guardhouse" unload="true"/>
 		<unit path="units/pd2_dlc_berry/props/bry_prop_guardhouse/bry_prop_guardhouse" unload="true"/>
 	</add>
-	<add from_db="true" path="units/pd2_dlc_berry/architecture/bry_mountain_tunnel_railings/bry_mountain_stairs_support_4m" type="unit">
-		<object path="units/pd2_dlc_berry/architecture/bry_mountain_tunnel_railings/bry_mountain_stairs_support_4m" unload="true"/>
-		<unit path="units/pd2_dlc_berry/architecture/bry_mountain_tunnel_railings/bry_mountain_stairs_support_4m" unload="true"/>
-	</add>
 	<add from_db="true" path="units/payday2/architecture/ind/ind_ext_dock_bld/ind_ext_dock_bld_electrical_box" type="unit">
 		<material_config path="units/payday2/architecture/ind/ind_ext_dock_bld_electrical_box" unload="true"/>
 		<object path="units/payday2/architecture/ind/ind_ext_dock_bld/ind_ext_dock_bld_electrical_box" unload="true"/>
@@ -3338,10 +3116,6 @@
 		<physic_effect path="physic_effects/push_sphere" unload="true"/>
 		<sequence_manager path="units/pd2_mcmansion/props/mcm_prop_livingroom_lamp_floor/mcm_prop_livingroom_lamp_floor" unload="true"/>
 		<unit path="units/pd2_mcmansion/props/mcm_prop_livingroom_lamp_floor/mcm_prop_livingroom_lamp_floor" unload="true"/>
-	</add>
-	<add from_db="true" path="units/pd2_dlc_berry/architecture/bry_mountain_tunnel_railings/bry_mountain_stairs_b" type="unit">
-		<object path="units/pd2_dlc_berry/architecture/bry_mountain_tunnel_railings/bry_mountain_stairs_b" unload="true"/>
-		<unit path="units/pd2_dlc_berry/architecture/bry_mountain_tunnel_railings/bry_mountain_stairs_b" unload="true"/>
 	</add>
 	<add from_db="true" path="units/world/props/apartment/ashtray/ashtray" type="unit">
 		<effect load="true" path="effects/particles/character/cigarette_smoke_ashtray" unload="true"/>
@@ -3560,10 +3334,6 @@
 		<object path="units/payday2/architecture/ind/ind_ext_level/ind_ext_level_0_02_1m" unload="true"/>
 		<unit path="units/payday2/architecture/ind/ind_ext_level/ind_ext_level_0_02_1m" unload="true"/>
 	</add>
-	<add from_db="true" path="units/pd2_dlc_berry/architecture/bry_mountain_tunnel_railings/bry_mountain_stairs_c_outer_corner" type="unit">
-		<object path="units/pd2_dlc_berry/architecture/bry_mountain_tunnel_railings/bry_mountain_stairs_c_outer_corner" unload="true"/>
-		<unit path="units/pd2_dlc_berry/architecture/bry_mountain_tunnel_railings/bry_mountain_stairs_c_outer_corner" unload="true"/>
-	</add>
 	<add from_db="true" path="units/pd2_dlc_des/props/des_prop_inter_hack_computer/des_inter_hack_computer" type="unit">
 		<bnk path="soundbanks/regular_sfx" unload="true"/>
 		<gui path="guis/timer_gui" unload="true"/>
@@ -3576,10 +3346,6 @@
 		<material_config path="units/pd2_mcmansion/props/mcm_prop_bathroom_washer_dryer/mcm_prop_bathroom_dryer" unload="true"/>
 		<object path="units/pd2_mcmansion/props/mcm_prop_bathroom_washer_dryer/mcm_prop_bathroom_washer" unload="true"/>
 		<unit path="units/pd2_mcmansion/props/mcm_prop_bathroom_washer_dryer/mcm_prop_bathroom_washer" unload="true"/>
-	</add>
-	<add from_db="true" path="units/pd2_dlc_berry/architecture/bry_mountain_tunnel_railings/bry_mountain_stairs_c_one_side" type="unit">
-		<object path="units/pd2_dlc_berry/architecture/bry_mountain_tunnel_railings/bry_mountain_stairs_c_one_side" unload="true"/>
-		<unit path="units/pd2_dlc_berry/architecture/bry_mountain_tunnel_railings/bry_mountain_stairs_c_one_side" unload="true"/>
 	</add>
 	<add from_db="true" path="units/pd2_dlc1/props/ind_ext_prop_details/ind_ext_prop_lamp_02_on" type="unit">
 		<material_config path="units/pd2_dlc1/props/ind_ext_prop_details/ind_ext_prop_details" unload="true"/>
@@ -3992,10 +3758,6 @@
 		<object path="units/pd2_mcmansion/props/mcm_prop_kitchen_pots/mcm_prop_kitchen_pots_frying_pan" unload="true"/>
 		<sequence_manager path="units/pd2_mcmansion/props/mcm_prop_kitchen_pots/mcm_prop_kitchen_pots" unload="true"/>
 		<unit path="units/pd2_mcmansion/props/mcm_prop_kitchen_pots/mcm_prop_kitchen_pots_frying_pan" unload="true"/>
-	</add>
-	<add from_db="true" path="units/pd2_dlc_berry/architecture/bry_mountain_tunnel_railings/bry_mountain_stairs_c_half" type="unit">
-		<object path="units/pd2_dlc_berry/architecture/bry_mountain_tunnel_railings/bry_mountain_stairs_c_half" unload="true"/>
-		<unit path="units/pd2_dlc_berry/architecture/bry_mountain_tunnel_railings/bry_mountain_stairs_c_half" unload="true"/>
 	</add>
 	<add from_db="true" path="units/pd2_dlc_fish/lxy_prop_pallet_wine_01/lxy_prop_pallet_spirits_01_mid" type="unit">
 		<material_config path="units/pd2_dlc_fish/lxy_prop_pallet_wine_01/lxy_prop_pallet_spirits_01" unload="true"/>
@@ -4528,10 +4290,6 @@
 		<effect load="true" path="effects/payday2/particles/window/storefront_window_large" unload="true"/>
 		<physic_effect path="physic_effects/push_sphere" unload="true"/>
 	</add>
-	<add from_db="true" path="units/pd2_dlc_berry/architecture/bry_mountain_tunnel_railings/bry_mountain_stairs_c_outer_corner_cupped" type="unit">
-		<object path="units/pd2_dlc_berry/architecture/bry_mountain_tunnel_railings/bry_mountain_stairs_c_outer_corner_cupped" unload="true"/>
-		<unit path="units/pd2_dlc_berry/architecture/bry_mountain_tunnel_railings/bry_mountain_stairs_c_outer_corner_cupped" unload="true"/>
-	</add>
 	<add from_db="true" path="units/payday2/props/lxa_prop_int_carpet/lxa_prop_int_carpet_01_b" type="unit">
 		<material_config path="units/payday2/props/lxa_prop_int_carpet/lxa_prop_int_carpet_01_b" unload="true"/>
 		<object path="units/payday2/props/lxa_prop_int_carpet/lxa_prop_int_carpet_01_b" unload="true"/>
@@ -4776,10 +4534,6 @@
 		<material_config path="units/payday2/props/gen_prop_posters/gen_prop_posters" unload="true"/>
 		<object path="units/payday2/props/gen_prop_posters/gen_prop_poster_c" unload="true"/>
 		<unit path="units/payday2/props/gen_prop_posters/gen_prop_poster_c" unload="true"/>
-	</add>
-	<add from_db="true" path="units/pd2_dlc_berry/architecture/bry_mountain_tunnel_railings/bry_mountain_stairs_c" type="unit">
-		<object path="units/pd2_dlc_berry/architecture/bry_mountain_tunnel_railings/bry_mountain_stairs_c" unload="true"/>
-		<unit path="units/pd2_dlc_berry/architecture/bry_mountain_tunnel_railings/bry_mountain_stairs_c" unload="true"/>
 	</add>
 	<add from_db="true" path="units/world/brushes/puddle/puddle_7" type="unit">
 		<material_config path="units/world/brushes/puddle/puddles" unload="true"/>
@@ -5350,22 +5104,11 @@
 		<bnk path="soundbanks/weapon_swatturret" unload="true"/>
 		<physic_effect path="physic_effects/push_sphere" unload="true"/>
 	</add>
-	<add from_db="true" path="units/pd2_dlc_des/props/des_prop_server_room_screen/des_prop_server_room_screen" type="unit">
-		<material_config path="units/pd2_dlc_des/props/des_prop_server_room_screen/des_prop_server_room_screen" unload="true"/>
-		<object path="units/pd2_dlc_des/props/des_prop_server_room_screen/des_prop_server_room_screen" unload="true"/>
-		<sequence_manager path="units/pd2_dlc_des/props/des_prop_server_room_screen/des_prop_server_room_screen" unload="true"/>
-		<unit path="units/pd2_dlc_des/props/des_prop_server_room_screen/des_prop_server_room_screen" unload="true"/>
-	</add>
 	<add from_db="true" path="units/pd2_dlc_des/props/des_interactable_secret_document/des_interactable_secret_document" type="unit">
 		<material_config path="units/pd2_dlc_des/props/des_interactable_secret_document/des_interactable_secret_document" unload="true"/>
 		<object path="units/pd2_dlc_des/props/des_interactable_secret_document/des_interactable_secret_document" unload="true"/>
 		<sequence_manager path="units/pd2_dlc_des/props/des_interactable_secret_document/des_interactable_secret_document" unload="true"/>
 		<unit path="units/pd2_dlc_des/props/des_interactable_secret_document/des_interactable_secret_document" unload="true"/>
-	</add>
-	<add from_db="true" unload_on_restart="true">
-		<effect load="true" path="effects/payday2/particles/fire/thermite" unload="true"/>
-		<effect load="true" path="effects/payday2/particles/impacts/sparks/sparks_random_02_slow" unload="true"/>
-		<effect load="true" path="effects/payday2/environment/thermal_hole_drops" unload="true"/>
 	</add>
 	<add from_db="true" path="units/payday2/characters/npc_acc_canvas_bag_1/npc_acc_canvas_bag_1" type="unit">
 		<material_config path="units/payday2/characters/npc_acc_canvas_bag_1/npc_acc_canvas_bag_1" unload="true"/>
