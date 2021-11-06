@@ -1,17 +1,6 @@
 <table name="Avalon's Shadow">
 	<instance id="hwu_laptop">
 		<add file="levels/instances/hwu_laptop/add.xml"/>
-		<include directory="levels/instances/hwu_laptop">
-			<file file="world.world" type="generic_xml"/>
-			<file file="continents.continents" type="custom_xml"/>
-			<file file="mission.mission" type="custom_xml"/>
-			<file file="nav_manager_data.nav_data" type="generic_xml"/>
-			<file file="world_sounds.world_sounds" type="generic_xml"/>
-			<file file="world_cameras.world_cameras" type="custom_xml"/>
-			<file file="world/world.continent" type="custom_xml"/>
-			<file file="world/world.mission" type="generic_xml"/>
-			<file file="cover_data.cover_data" type="custom_xml"/>
-		</include>
 		<packages/>
 	</instance>
 	<instance id="hwu_documents">
@@ -52,7 +41,6 @@
 		</packages>
 		<script_data_mods directory="scriptdata"/>
 	</instance>
-	<Package file="scriptdata/hwu.package" unload_on_restart="true" id="packages/levels/hwu/world/world"/>
 	<Achievements icon="guis/dlcs/pic/textures/achievements/hwu_pack" id="achievements_hwu">
 		<achievement desc_id="achievement_hwu_wd_0_desc" icon="guis/dlcs/pic/textures/achievements/hwu_normal" id="achievement_hwu_wd_0" name_id="achievement_hwu_wd_0" rank="1"/>
 		<achievement desc_id="achievement_hwu_wd_1_desc" icon="guis/dlcs/pic/textures/achievements/hwu_hard" id="achievement_hwu_wd_1" name_id="achievement_hwu_wd_1" rank="1"/>
@@ -80,13 +68,15 @@
 		<texture force="true" path="guis/dlcs/pic/textures/achievements/hwu_deathsentence"/>
 		<texture force="true" path="guis/dlcs/pic/textures/achievements/hwu_onedown"/>
 	</AddFiles>
-	<AssetUpdates id="34760" provider="modworkshop" use_local_dir="true" version="1"/>
+	<AssetUpdates id="34760" provider="modworkshop" use_local_dir="true" version="2"/>
 	<Interactions>
 		<interaction id="hwu_toast" sound_event="money_grab"/>
 	</Interactions>
 	<Localization default="english.txt" directory="loc">
 		<loc file="english.txt" language="english"/>
 	</Localization>
+	<contact assets_gui="guis/mission_briefing/preload_contact_bain" desc_id="heist_contact_pd2concepts_desc" id="pd2concepts" name_id="heist_contact_pd2concepts" package="packages/contact_bain"/>
+	<Package file="scriptdata/hwu.package" id="packages/levels/hwu/world/world" unload_on_restart="true"/>
 	<level ai_group_type="America" briefing_dialog="hwu_brief" ghost_bonus="0.15" id="hwu" intro_event="" load_screen="guis/dlcs/pic/textures/loading/job_hwu" max_bags="54" player_style="generic">
 		<add file="levels/hwu/add.xml"/>
 		<assets>
@@ -110,7 +100,18 @@
 			<value_node value="levels/instances/unique/dah/dah_keypad/world_sounds"/>
 			<value_node value="packages/levels/hwu/world/world"/>
 		</packages>
-		<sounds directory="assets/vo" auto_pause="true" dont_store_float="true">
+		<script_data_mods directory="scriptdata">
+			<mod replacement="objectives.objective" replacement_type="custom_xml" target_ext="objective" target_path="gamedata/objectives">
+				<options merge_mode="add" mode="add"/>
+			</mod>
+			<mod replacement="s_hwu_stage1.dialogue" replacement_type="custom_xml" target_ext="dialog" target_path="gamedata/dialogs/s_hwu_stage1">
+				<options merge_mode="add" mode="add"/>
+			</mod>
+			<mod replacement="index.dialog_index" replacement_type="custom_xml" target_ext="dialog_index" target_path="gamedata/dialogs/index">
+				<options merge_mode="add" mode="add"/>
+			</mod>
+		</script_data_mods>
+		<sounds auto_pause="true" directory="assets/vo" dont_store_float="true">
 			<sound id="radio_beg" path="radio_beg.ogg"/>
 			<sound id="radio_end" path="radio_end.ogg"/>
 			<sound id="hwu_brief" path="brief_1.ogg"/>
@@ -157,7 +158,6 @@
 			<sound id="hwu_22_1_vent" path="22_1_vent.ogg" subtitle_id="hwu_22_vent_sub"/>
 			<sound id="hwu_23_1_vent" path="23_1_vent.ogg" subtitle_id="hwu_23_vent_sub"/>
 			<sound id="hwu_24_1_vent" path="24_1_vent.ogg" subtitle_id="hwu_24_vent_sub"/>
-	
 			<sound id="hwu_guy_1_hello" path="guy_1_hello.ogg" subtitle_id="hwu_guy_1_hello_sub"/>
 			<sound id="hwu_guy_2_hello" path="guy_2_hello.ogg" subtitle_id="hwu_guy_2_hello_sub"/>
 			<sound id="hwu_guy_1_imstuff" path="guy_1_imstuff.ogg" subtitle_id="hwu_guy_1_imstuff_sub"/>
@@ -168,88 +168,219 @@
 			<sound id="hwu_guy_2_bags" path="guy_2_bags.ogg" subtitle_id="hwu_guy_2_bags_sub"/>
 			<sound id="hwu_guy_3_bags" path="guy_3_bags.ogg" subtitle_id="hwu_guy_3_bags_sub"/>
 			<sound id="hwu_guy_sword" path="guy_sword.ogg" subtitle_id="hwu_guy_sword_sub"/>
-	
 			<random id="hwu_16_replace_rnd">
 				<sound id="hwu_16_1_replace"/>
 				<sound id="hwu_16_2_replace"/>
 				<sound id="hwu_16_3_replace"/>
 			</random>
-	
 			<random id="hwu_16_waiting_rnd">
 				<sound id="hwu_16_1_waiting"/>
 				<sound id="hwu_16_2_waiting"/>
 				<sound id="hwu_16_3_waiting"/>
 				<sound id="hwu_16_4_waiting"/>
-				<sound id="hwu_16_5_waiting"/> 
+				<sound id="hwu_16_5_waiting"/>
 			</random>
-	
 			<random id="hwu_guy_hello">
 				<sound id="hwu_guy_1_hello"/>
 				<sound id="hwu_guy_2_hello"/>
 			</random>
-	
 			<random id="hwu_guy_imstuff">
 				<sound id="hwu_guy_1_imstuff"/>
 				<sound id="hwu_guy_2_imstuff"/>
 			</random>
-	
 			<random id="hwu_guy_bags">
 				<sound id="hwu_guy_1_bags"/>
 				<sound id="hwu_guy_2_bags"/>
 				<sound id="hwu_guy_3_bags"/>
 			</random>
-			
-			<queue id="hwu_ending"><sound id="radio_beg"/><sound id="hwu_1_ending"/><sound id="radio_end"/></queue>
-			<queue id="hwu_1_start"><sound id="radio_beg"/><sound id="hwu_1_1_start"/><sound id="radio_end"/></queue>
-			<queue id="hwu_1_laptop"><sound id="radio_beg"/><sound id="hwu_1_1_laptop"/><sound id="radio_end"/></queue>
-			<queue id="hwu_1_evidence"><sound id="radio_beg"/><sound id="hwu_1_1_evidence"/><sound id="radio_end"/></queue>
-			<queue id="hwu_2_usb"><sound id="radio_beg"/><sound id="hwu_2_1_usb"/><sound id="radio_end"/></queue>
-			<queue id="hwu_3_usb"><sound id="radio_beg"/><sound id="hwu_3_1_usb"/><sound id="radio_end"/></queue>
-			<queue id="hwu_4_wires"><sound id="radio_beg"/><sound id="hwu_4_1_wires"/><sound id="radio_end"/></queue>
-			<queue id="hwu_5_hack"><sound id="radio_beg"/><sound id="hwu_5_1_hack"/><sound id="radio_end"/></queue>
-			<queue id="hwu_6_sewers"><sound id="radio_beg"/><sound id="hwu_6_1_sewers"/><sound id="radio_end"/></queue>
-			<queue id="hwu_7_blackout"><sound id="radio_beg"/><sound id="hwu_7_1_blackout"/><sound id="radio_end"/></queue>
-			<queue id="hwu_8_computer"><sound id="radio_beg"/><sound id="hwu_8_1_computer"/><sound id="radio_end"/></queue>
-			<queue id="hwu_8_facility"><sound id="radio_beg"/><sound id="hwu_8_1_facility"/><sound id="radio_end"/></queue>
-			<queue id="hwu_8_container"><sound id="radio_beg"/><sound id="hwu_8_1_container"/><sound id="radio_end"/></queue>
-			<queue id="hwu_9_code"><sound id="radio_beg"/><sound id="hwu_9_1_code"/><sound id="radio_end"/></queue>
-			<queue id="hwu_9_wrong_code"><sound id="radio_beg"/><sound id="hwu_9_1_wrong_code"/><sound id="radio_end"/></queue>
-			<queue id="hwu_10_thermite"><sound id="radio_beg"/><sound id="hwu_10_1_thermite"/><sound id="radio_end"/></queue>
-			<queue id="hwu_11_elevator"><sound id="radio_beg"/><sound id="hwu_11_1_elevator"/><sound id="radio_end"/></queue>
-			<queue id="hwu_12_files"><sound id="radio_beg"/><sound id="hwu_12_1_files"/><sound id="radio_end"/></queue>
-			<queue id="hwu_12_rig"><sound id="radio_beg"/><sound id="hwu_12_1_rig"/><sound id="radio_end"/></queue>
-			<queue id="hwu_12_thermite"><sound id="radio_beg"/><sound id="hwu_12_1_thermite"/><sound id="radio_end"/></queue>
-			<queue id="hwu_13_entrance"><sound id="radio_beg"/><sound id="hwu_13_1_entrance"/><sound id="radio_end"/></queue>
-			<queue id="hwu_14_circuit"><sound id="radio_beg"/><sound id="hwu_14_1_circuit"/><sound id="radio_end"/></queue>
-			<queue id="hwu_15_room"><sound id="radio_beg"/><sound id="hwu_15_1_room"/><sound id="radio_end"/></queue>
-			<queue id="hwu_16_data"><sound id="radio_beg"/><sound id="hwu_16_1_data"/><sound id="radio_end"/></queue>
-			<queue id="hwu_16_multiple"><sound id="radio_beg"/><sound id="hwu_16_1_multiple"/><sound id="radio_end"/></queue>
-			<queue id="hwu_16_waiting"><sound id="radio_beg"/><sound id="hwu_16_waiting_rnd"/><sound id="radio_end"/></queue>
-			<queue id="hwu_16_replace"><sound id="radio_beg"/><sound id="hwu_16_replace_rnd"/><sound id="radio_end"/></queue>
-			<queue id="hwu_16_security"><sound id="radio_beg"/><sound id="hwu_16_1_security"/><sound id="radio_end"/></queue>
-			<queue id="hwu_17_zipline"><sound id="radio_beg"/><sound id="hwu_17_1_zipline"/><sound id="radio_end"/></queue>
-			<queue id="hwu_17_heli"><sound id="radio_beg"/><sound id="hwu_17_1_heli"/><sound id="radio_end"/></queue>
-			<queue id="hwu_18_end"><sound id="radio_beg"/><sound id="hwu_18_1_end"/><sound id="radio_end"/></queue>
-			<queue id="hwu_19_hatch"><sound id="radio_beg"/><sound id="hwu_19_1_hatch"/><sound id="radio_end"/></queue>
-			<queue id="hwu_20_vent"><sound id="radio_beg"/><sound id="hwu_20_1_vent"/><sound id="radio_end"/></queue>
-			<queue id="hwu_21_vent"><sound id="radio_beg"/><sound id="hwu_21_1_vent"/><sound id="radio_end"/></queue>
-			<queue id="hwu_22_vent"><sound id="radio_beg"/><sound id="hwu_22_1_vent"/><sound id="radio_end"/></queue>
-			<queue id="hwu_23_vent"><sound id="radio_beg"/><sound id="hwu_23_1_vent"/><sound id="radio_end"/></queue>
-			<queue id="hwu_24_vent"><sound id="radio_beg"/><sound id="hwu_24_1_vent"/><sound id="radio_end"/></queue>
+			<queue id="hwu_ending">
+				<sound id="radio_beg"/>
+				<sound id="hwu_1_ending"/>
+				<sound id="radio_end"/>
+			</queue>
+			<queue id="hwu_1_start">
+				<sound id="radio_beg"/>
+				<sound id="hwu_1_1_start"/>
+				<sound id="radio_end"/>
+			</queue>
+			<queue id="hwu_1_laptop">
+				<sound id="radio_beg"/>
+				<sound id="hwu_1_1_laptop"/>
+				<sound id="radio_end"/>
+			</queue>
+			<queue id="hwu_1_evidence">
+				<sound id="radio_beg"/>
+				<sound id="hwu_1_1_evidence"/>
+				<sound id="radio_end"/>
+			</queue>
+			<queue id="hwu_2_usb">
+				<sound id="radio_beg"/>
+				<sound id="hwu_2_1_usb"/>
+				<sound id="radio_end"/>
+			</queue>
+			<queue id="hwu_3_usb">
+				<sound id="radio_beg"/>
+				<sound id="hwu_3_1_usb"/>
+				<sound id="radio_end"/>
+			</queue>
+			<queue id="hwu_4_wires">
+				<sound id="radio_beg"/>
+				<sound id="hwu_4_1_wires"/>
+				<sound id="radio_end"/>
+			</queue>
+			<queue id="hwu_5_hack">
+				<sound id="radio_beg"/>
+				<sound id="hwu_5_1_hack"/>
+				<sound id="radio_end"/>
+			</queue>
+			<queue id="hwu_6_sewers">
+				<sound id="radio_beg"/>
+				<sound id="hwu_6_1_sewers"/>
+				<sound id="radio_end"/>
+			</queue>
+			<queue id="hwu_7_blackout">
+				<sound id="radio_beg"/>
+				<sound id="hwu_7_1_blackout"/>
+				<sound id="radio_end"/>
+			</queue>
+			<queue id="hwu_8_computer">
+				<sound id="radio_beg"/>
+				<sound id="hwu_8_1_computer"/>
+				<sound id="radio_end"/>
+			</queue>
+			<queue id="hwu_8_facility">
+				<sound id="radio_beg"/>
+				<sound id="hwu_8_1_facility"/>
+				<sound id="radio_end"/>
+			</queue>
+			<queue id="hwu_8_container">
+				<sound id="radio_beg"/>
+				<sound id="hwu_8_1_container"/>
+				<sound id="radio_end"/>
+			</queue>
+			<queue id="hwu_9_code">
+				<sound id="radio_beg"/>
+				<sound id="hwu_9_1_code"/>
+				<sound id="radio_end"/>
+			</queue>
+			<queue id="hwu_9_wrong_code">
+				<sound id="radio_beg"/>
+				<sound id="hwu_9_1_wrong_code"/>
+				<sound id="radio_end"/>
+			</queue>
+			<queue id="hwu_10_thermite">
+				<sound id="radio_beg"/>
+				<sound id="hwu_10_1_thermite"/>
+				<sound id="radio_end"/>
+			</queue>
+			<queue id="hwu_11_elevator">
+				<sound id="radio_beg"/>
+				<sound id="hwu_11_1_elevator"/>
+				<sound id="radio_end"/>
+			</queue>
+			<queue id="hwu_12_files">
+				<sound id="radio_beg"/>
+				<sound id="hwu_12_1_files"/>
+				<sound id="radio_end"/>
+			</queue>
+			<queue id="hwu_12_rig">
+				<sound id="radio_beg"/>
+				<sound id="hwu_12_1_rig"/>
+				<sound id="radio_end"/>
+			</queue>
+			<queue id="hwu_12_thermite">
+				<sound id="radio_beg"/>
+				<sound id="hwu_12_1_thermite"/>
+				<sound id="radio_end"/>
+			</queue>
+			<queue id="hwu_13_entrance">
+				<sound id="radio_beg"/>
+				<sound id="hwu_13_1_entrance"/>
+				<sound id="radio_end"/>
+			</queue>
+			<queue id="hwu_14_circuit">
+				<sound id="radio_beg"/>
+				<sound id="hwu_14_1_circuit"/>
+				<sound id="radio_end"/>
+			</queue>
+			<queue id="hwu_15_room">
+				<sound id="radio_beg"/>
+				<sound id="hwu_15_1_room"/>
+				<sound id="radio_end"/>
+			</queue>
+			<queue id="hwu_16_data">
+				<sound id="radio_beg"/>
+				<sound id="hwu_16_1_data"/>
+				<sound id="radio_end"/>
+			</queue>
+			<queue id="hwu_16_multiple">
+				<sound id="radio_beg"/>
+				<sound id="hwu_16_1_multiple"/>
+				<sound id="radio_end"/>
+			</queue>
+			<queue id="hwu_16_waiting">
+				<sound id="radio_beg"/>
+				<sound id="hwu_16_waiting_rnd"/>
+				<sound id="radio_end"/>
+			</queue>
+			<queue id="hwu_16_replace">
+				<sound id="radio_beg"/>
+				<sound id="hwu_16_replace_rnd"/>
+				<sound id="radio_end"/>
+			</queue>
+			<queue id="hwu_16_security">
+				<sound id="radio_beg"/>
+				<sound id="hwu_16_1_security"/>
+				<sound id="radio_end"/>
+			</queue>
+			<queue id="hwu_17_zipline">
+				<sound id="radio_beg"/>
+				<sound id="hwu_17_1_zipline"/>
+				<sound id="radio_end"/>
+			</queue>
+			<queue id="hwu_17_heli">
+				<sound id="radio_beg"/>
+				<sound id="hwu_17_1_heli"/>
+				<sound id="radio_end"/>
+			</queue>
+			<queue id="hwu_18_end">
+				<sound id="radio_beg"/>
+				<sound id="hwu_18_1_end"/>
+				<sound id="radio_end"/>
+			</queue>
+			<queue id="hwu_19_hatch">
+				<sound id="radio_beg"/>
+				<sound id="hwu_19_1_hatch"/>
+				<sound id="radio_end"/>
+			</queue>
+			<queue id="hwu_20_vent">
+				<sound id="radio_beg"/>
+				<sound id="hwu_20_1_vent"/>
+				<sound id="radio_end"/>
+			</queue>
+			<queue id="hwu_21_vent">
+				<sound id="radio_beg"/>
+				<sound id="hwu_21_1_vent"/>
+				<sound id="radio_end"/>
+			</queue>
+			<queue id="hwu_22_vent">
+				<sound id="radio_beg"/>
+				<sound id="hwu_22_1_vent"/>
+				<sound id="radio_end"/>
+			</queue>
+			<queue id="hwu_23_vent">
+				<sound id="radio_beg"/>
+				<sound id="hwu_23_1_vent"/>
+				<sound id="radio_end"/>
+			</queue>
+			<queue id="hwu_24_vent">
+				<sound id="radio_beg"/>
+				<sound id="hwu_24_1_vent"/>
+				<sound id="radio_end"/>
+			</queue>
 		</sounds>
-		<script_data_mods directory="scriptdata">
-			<mod replacement="objectives.objective" replacement_type="custom_xml" target_ext="objective" target_path="gamedata/objectives">
-				<options merge_mode="add" mode="add"/>
-			</mod>
-			<mod replacement="s_hwu_stage1.dialogue" replacement_type="custom_xml" target_ext="dialog" target_path="gamedata/dialogs/s_hwu_stage1">
-				<options merge_mode="add" mode="add"/>
-			</mod>
-			<mod replacement="index.dialog_index" replacement_type="custom_xml" target_ext="dialog_index" target_path="gamedata/dialogs/index">
-				<options merge_mode="add" mode="add"/>
-			</mod>
-		</script_data_mods>
 	</level>
-	<narrative briefing_event="" contact="custom" icon="guis/dlcs/pic/textures/icon/job_hwu" id="Avalon's Shadow">
+	<narrative briefing_event="" contact="pd2concepts" icon="guis/dlcs/pic/textures/icon/job_hwu" id="Avalon's Shadow">
 		<chain>
 			<table level_id="hwu" type="d" type_id="heist_type_assault"/>
 		</chain>
