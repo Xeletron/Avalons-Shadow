@@ -9,17 +9,6 @@
 	</instance>
 	<instance id="hwu_server">
 		<add file="levels/instances/hwu_server/add.xml"/>
-		<include directory="levels/instances/hwu_server">
-			<file file="world.world" type="generic_xml"/>
-			<file file="continents.continents" type="custom_xml"/>
-			<file file="mission.mission" type="custom_xml"/>
-			<file file="nav_manager_data.nav_data" type="generic_xml"/>
-			<file file="world_sounds.world_sounds" type="generic_xml"/>
-			<file file="world_cameras.world_cameras" type="custom_xml"/>
-			<file file="world/world.continent" type="custom_xml"/>
-			<file file="world/world.mission" type="generic_xml"/>
-			<file file="cover_data.cover_data" type="custom_xml"/>
-		</include>
 		<packages/>
 	</instance>
 	<instance id="hwu_thermite_crate">
@@ -75,8 +64,8 @@
 	<Localization default="english.txt" directory="loc">
 		<loc file="english.txt" language="english"/>
 	</Localization>
-	<contact assets_gui="guis/mission_briefing/preload_contact_bain" desc_id="heist_contact_pd2concepts_desc" id="pd2concepts" name_id="heist_contact_pd2concepts" package="packages/contact_bain"/>
 	<Package file="scriptdata/hwu.package" id="packages/levels/hwu/world/world" unload_on_restart="true"/>
+	<contact assets_gui="guis/mission_briefing/preload_contact_bain" desc_id="heist_contact_pd2concepts_desc" id="pd2concepts" name_id="heist_contact_pd2concepts" package="packages/contact_bain"/>
 	<level ai_group_type="America" briefing_dialog="hwu_brief" ghost_bonus="0.15" id="hwu" intro_event="" load_screen="guis/dlcs/pic/textures/loading/job_hwu" max_bags="54" player_style="generic">
 		<add file="levels/hwu/add.xml"/>
 		<assets>

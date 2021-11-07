@@ -4800,7 +4800,6 @@
 			<entry key="position" type="vector3" value="-6623 -2990 637"/>
 			<entry key="rotation" type="quaternion" value="0.0888667 0.0359045 -0.372882 -0.922915"/>
 		</entry>
-		<entry key="default" type="string" value="Underground"/>
 	</entry>
 	<entry key="environment" type="table">
 		<entry key="cubemap_gizmos" type="table">
@@ -9111,6 +9110,14 @@
 						<entry key="type" type="string" value="box"/>
 						<entry key="width" type="number" value="410"/>
 					</entry>
+					<entry index="4" type="table">
+						<entry key="depth" type="number" value="300"/>
+						<entry key="height" type="number" value="830"/>
+						<entry key="position" type="vector3" value="-5014.98 2485.42 -835.181"/>
+						<entry key="rotation" type="quaternion" value="0 0 1 4.37114e-008"/>
+						<entry key="type" type="string" value="box"/>
+						<entry key="width" type="number" value="400"/>
+					</entry>
 				</entry>
 			</entry>
 			<entry key="warehouse_inside" type="table">
@@ -9799,6 +9806,14 @@
 						<entry key="rotation" type="quaternion" value="0 0 0.707107 -0.707107"/>
 						<entry key="type" type="string" value="box"/>
 						<entry key="width" type="number" value="9400"/>
+					</entry>
+					<entry index="2" type="table">
+						<entry key="depth" type="number" value="1520"/>
+						<entry key="height" type="number" value="1200"/>
+						<entry key="position" type="vector3" value="-8100.42 -2634.33 -1201.9"/>
+						<entry key="rotation" type="quaternion" value="0 0 1 -4.37114e-008"/>
+						<entry key="type" type="string" value="box"/>
+						<entry key="width" type="number" value="1370"/>
 					</entry>
 				</entry>
 			</entry>
