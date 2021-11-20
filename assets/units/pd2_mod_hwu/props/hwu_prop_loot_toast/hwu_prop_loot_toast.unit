@@ -3,7 +3,10 @@
 	<network sync="spawn" />
     <extensions>
         <extension class="ScriptUnitData" name="unit_data" />
-        <extension name="interaction" class="UseInteractionExt" >
+        <extension name="base" class="SmallLootBase">
+			<var name="small_loot" value="gen_atm" />
+		</extension>
+        <extension name="interaction" class="SmallLootInteractionExt" >
 			<var name="tweak_data" value="hwu_toast" />
 		</extension>
     	<extension name="damage" class="UnitDamage" />

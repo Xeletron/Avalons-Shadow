@@ -5064,8 +5064,8 @@
 		<object path="units/payday2/characters/civ_male_business_1/civ_male_business_1" unload="true"/>
 	</add>
 	<add from_db="true" path="units/payday2/characters/civ_male_casual_4/civ_male_casual_4" type="unit">
-		<unit path="units/payday2/characters/civ_male_casual_4/civ_male_casual_4" unload="true"/>
-		<unit path="units/payday2/characters/civ_male_casual_4/civ_male_casual_4_husk" unload="true"/>
+		<unit load="true" path="units/payday2/characters/civ_male_casual_4/civ_male_casual_4" unload="true"/>
+		<unit load="true" path="units/payday2/characters/civ_male_casual_4/civ_male_casual_4_husk" unload="true"/>
 		<material_config path="units/payday2/characters/civ_male_casual_4/civ_male_casual_4" unload="true"/>
 		<object path="units/payday2/characters/civ_male_casual_4/civ_male_casual_4" unload="true"/>
 	</add>
