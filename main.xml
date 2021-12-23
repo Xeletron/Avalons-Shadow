@@ -13,18 +13,6 @@
 	</instance>
 	<instance id="hwu_thermite_crate">
 		<add file="levels/instances/hwu_thermite_crate/add.xml"/>
-		<include directory="levels/instances/hwu_thermite_crate">
-			<file file="world.world" type="generic_xml"/>
-			<file file="continents.continents" type="custom_xml"/>
-			<file file="mission.mission" type="custom_xml"/>
-			<file file="nav_manager_data.nav_data" type="generic_xml"/>
-			<file file="world_sounds.world_sounds" type="generic_xml"/>
-			<file file="world_cameras.world_cameras" type="custom_xml"/>
-			<file file="world/world.continent" type="custom_xml"/>
-			<file file="world/world.mission" type="generic_xml"/>
-			<file file="cover_data.cover_data" type="custom_xml"/>
-			<file file="environments/default.environment" type="custom_xml"/>
-		</include>
 		<packages>
 			<value_node value="levels/instances/unique/sub_sewer_sidespawn/world/world"/>
 		</packages>
@@ -109,8 +97,12 @@
 			<sound id="hwu_1_1_laptop" path="1_1_laptop.ogg" subtitle_id="hwu_1_laptop_sub"/>
 			<sound id="hwu_1_1_evidence" path="1_1_evidence.ogg" subtitle_id="hwu_1_evidence_sub"/>
 			<sound id="hwu_2_1_usb" path="2_1_usb.ogg" subtitle_id="hwu_2_usb_sub"/>
+			<sound id="hwu_2_r1_usb" path="2_r1_usb.ogg" subtitle_id="hwu_2_r1_usb_sub"/>
+			<sound id="hwu_2_r2_usb" path="2_r2_usb.ogg" subtitle_id="hwu_2_r2_usb_sub"/>
 			<sound id="hwu_3_1_usb" path="3_1_usb.ogg" subtitle_id="hwu_3_usb_sub"/>
 			<sound id="hwu_4_1_wires" path="4_1_wires.ogg" subtitle_id="hwu_4_wires_sub"/>
+			<sound id="hwu_4_r1_wires" path="4_r1_wires.ogg" subtitle_id="hwu_4_r1_wires_sub"/>
+			<sound id="hwu_4_r2_wires" path="4_r2_wires.ogg" subtitle_id="hwu_4_r2_wires_sub"/>
 			<sound id="hwu_5_1_hack" path="5_1_hack.ogg" subtitle_id="hwu_5_hack_sub"/>
 			<sound id="hwu_6_1_sewers" path="6_1_sewers.ogg" subtitle_id="hwu_6_sewers_sub"/>
 			<sound id="hwu_7_1_blackout" path="7_1_blackout.ogg" subtitle_id="hwu_7_blackout_sub"/>
@@ -118,14 +110,22 @@
 			<sound id="hwu_8_1_facility" path="8_1_facility.ogg" subtitle_id="hwu_8_facility_sub"/>
 			<sound id="hwu_8_1_container" path="8_1_container.ogg" subtitle_id="hwu_8_container_sub"/>
 			<sound id="hwu_9_1_code" path="9_1_code.ogg" subtitle_id="hwu_9_code_sub"/>
+			<sound id="hwu_9_r1_code" path="9_r1_code.ogg" subtitle_id="hwu_9_r1_code_sub"/>
+			<sound id="hwu_9_r2_code" path="9_r2_code.ogg" subtitle_id="hwu_9_r2_code_sub"/>
 			<sound id="hwu_9_1_wrong_code" path="9_1_wrong_code.ogg" subtitle_id="hwu_9_wrong_code_sub"/>
 			<sound id="hwu_10_1_thermite" path="10_1_thermite.ogg" subtitle_id="hwu_10_thermite_sub"/>
+			<sound id="hwu_10_r1_thermite" path="10_r1_thermite.ogg" subtitle_id="hwu_10_r1_thermite_sub"/>
 			<sound id="hwu_11_1_elevator" path="11_1_elevator.ogg" subtitle_id="hwu_11_elevator_sub"/>
 			<sound id="hwu_12_1_files" path="12_1_files.ogg" subtitle_id="hwu_12_files_sub"/>
+			<sound id="hwu_12_1_crowbar" path="12_1_crowbar.ogg" subtitle_id="hwu_12_1_crowbar_sub"/>
+			<sound id="hwu_12_2_crowbar" path="12_2_crowbar.ogg" subtitle_id="hwu_12_2_crowbar_sub"/>
+			<sound id="hwu_12_3_crowbar" path="12_3_crowbar.ogg" subtitle_id="hwu_12_3_crowbar_sub"/>
 			<sound id="hwu_12_1_rig" path="12_1_rig.ogg" subtitle_id="hwu_12_rig_sub"/>
 			<sound id="hwu_12_1_thermite" path="12_1_thermite.ogg" subtitle_id="hwu_12_thermite_sub"/>
 			<sound id="hwu_13_1_entrance" path="13_1_entrance.ogg" subtitle_id="hwu_13_entrance_sub"/>
 			<sound id="hwu_14_1_circuit" path="14_1_circuit.ogg" subtitle_id="hwu_14_circuit_sub"/>
+			<sound id="hwu_14_r1_circuit" path="14_r1_circuit.ogg" subtitle_id="hwu_14_r1_circuit_sub"/>
+			<sound id="hwu_14_r2_circuit" path="14_r2_circuit.ogg" subtitle_id="hwu_14_r2_circuit_sub"/>
 			<sound id="hwu_15_1_room" path="15_1_room.ogg" subtitle_id="hwu_15_room_sub"/>
 			<sound id="hwu_16_1_data" path="16_1_data.ogg" subtitle_id="hwu_16_data_sub"/>
 			<sound id="hwu_16_1_multiple" path="16_1_multiple.ogg" subtitle_id="hwu_16_multiple_sub"/>
@@ -169,6 +169,22 @@
 				<sound id="hwu_16_4_waiting"/>
 				<sound id="hwu_16_5_waiting"/>
 			</random>
+			<random id="hwu_2_usb_r">
+				<sound id="hwu_2_r1_usb"/>
+				<sound id="hwu_2_r2_usb"/>
+			</random>
+			<random id="hwu_4_wires_r">
+				<sound id="hwu_4_r1_wires"/>
+				<sound id="hwu_4_r2_wires"/>
+			</random>
+			<random id="hwu_9_code_r">
+				<sound id="hwu_9_r1_code"/>
+				<sound id="hwu_9_r2_code"/>
+			</random>
+			<random id="hwu_14_circuit_r">
+				<sound id="hwu_14_r1_circuit"/>
+				<sound id="hwu_14_r2_circuit"/>
+			</random>
 			<random id="hwu_guy_hello">
 				<sound id="hwu_guy_1_hello"/>
 				<sound id="hwu_guy_2_hello"/>
@@ -181,6 +197,23 @@
 				<sound id="hwu_guy_1_bags"/>
 				<sound id="hwu_guy_2_bags"/>
 				<sound id="hwu_guy_3_bags"/>
+			</random>
+			<queue id="hwu_12_crowbar_rare">
+				<sound id="hwu_12_1_crowbar"/>
+				<sound id="hwu_12_2_crowbar"/>
+			</queue>
+			<random id="hwu_12_1_crowbar_rnd">
+				<sound id="hwu_12_1_crowbar"/>
+				<sound id="hwu_12_1_crowbar"/>
+				<sound id="hwu_12_1_crowbar"/>
+				<sound id="hwu_12_1_crowbar"/>
+				<sound id="hwu_12_1_crowbar"/>
+				<sound id="hwu_12_1_crowbar"/>
+				<sound id="hwu_12_crowbar_rare"/>
+			</random>
+			<random id="hwu_12_crowbar_rnd">
+				<sound id="hwu_12_1_crowbar_rnd"/>
+				<sound id="hwu_12_3_crowbar"/>
 			</random>
 			<queue id="hwu_ending">
 				<sound id="radio_beg"/>
@@ -207,6 +240,11 @@
 				<sound id="hwu_2_1_usb"/>
 				<sound id="radio_end"/>
 			</queue>
+			<queue id="hwu_2_usb_remind">
+				<sound id="radio_beg"/>
+				<sound id="hwu_2_usb_r"/>
+				<sound id="radio_end"/>
+			</queue>
 			<queue id="hwu_3_usb">
 				<sound id="radio_beg"/>
 				<sound id="hwu_3_1_usb"/>
@@ -215,6 +253,11 @@
 			<queue id="hwu_4_wires">
 				<sound id="radio_beg"/>
 				<sound id="hwu_4_1_wires"/>
+				<sound id="radio_end"/>
+			</queue>
+			<queue id="hwu_4_wires_remind">
+				<sound id="radio_beg"/>
+				<sound id="hwu_4_wires_r"/>
 				<sound id="radio_end"/>
 			</queue>
 			<queue id="hwu_5_hack">
@@ -252,6 +295,11 @@
 				<sound id="hwu_9_1_code"/>
 				<sound id="radio_end"/>
 			</queue>
+			<queue id="hwu_9_code_remind">
+				<sound id="radio_beg"/>
+				<sound id="hwu_9_code_r"/>
+				<sound id="radio_end"/>
+			</queue>
 			<queue id="hwu_9_wrong_code">
 				<sound id="radio_beg"/>
 				<sound id="hwu_9_1_wrong_code"/>
@@ -262,6 +310,11 @@
 				<sound id="hwu_10_1_thermite"/>
 				<sound id="radio_end"/>
 			</queue>
+			<queue id="hwu_10_thermite_remind">
+				<sound id="radio_beg"/>
+				<sound id="hwu_10_r1_thermite"/>
+				<sound id="radio_end"/>
+			</queue>
 			<queue id="hwu_11_elevator">
 				<sound id="radio_beg"/>
 				<sound id="hwu_11_1_elevator"/>
@@ -270,6 +323,11 @@
 			<queue id="hwu_12_files">
 				<sound id="radio_beg"/>
 				<sound id="hwu_12_1_files"/>
+				<sound id="radio_end"/>
+			</queue>
+			<queue id="hwu_12_crowbar">
+				<sound id="radio_beg"/>
+				<sound id="hwu_12_crowbar_rnd"/>
 				<sound id="radio_end"/>
 			</queue>
 			<queue id="hwu_12_rig">
@@ -290,6 +348,11 @@
 			<queue id="hwu_14_circuit">
 				<sound id="radio_beg"/>
 				<sound id="hwu_14_1_circuit"/>
+				<sound id="radio_end"/>
+			</queue>
+			<queue id="hwu_14_circuit_remind">
+				<sound id="radio_beg"/>
+				<sound id="hwu_14_circuit_r"/>
 				<sound id="radio_end"/>
 			</queue>
 			<queue id="hwu_15_room">
